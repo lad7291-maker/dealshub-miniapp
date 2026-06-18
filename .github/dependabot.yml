@@ -1,29 +1,28 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "weekly"
+      interval: 'weekly'
     open-pull-requests-limit: 5
     groups:
       dev-dependencies:
         patterns:
-          - "*"
+          - '*'
     ignore:
-      - dependency-name: "eslint"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "@lhci/cli"
-        update-types: ["version-update:semver-major"]
+      - dependency-name: 'eslint'
+        update-types: ['version-update:semver-major']
+      - dependency-name: '@lhci/cli'
+        update-types: ['version-update:semver-major']
     reviewers:
-      - "lad7291-maker"
+      - 'lad7291-maker'
 
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "monthly"
+      interval: 'monthly'
     open-pull-requests-limit: 3
     groups:
       actions:
         patterns:
-          - "*"
-
+          - '*'

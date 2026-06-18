@@ -8,14 +8,24 @@ const oldCode = `            <p> 2026 SmartSkidka.ru</p>`;
 
 // Список файлов для обновления (исключаем служебные)
 const filesToUpdate = [
-  'about.html', 'auto.html', 'beauty.html', 'clothing.html',
-  'contact.html', 'electronics.html', 'home.html', 'jewelry.html',
-  'privacy.html', 'shoes.html', 'sports.html', 'terms.html', 'toys.html',
+  'about.html',
+  'auto.html',
+  'beauty.html',
+  'clothing.html',
+  'contact.html',
+  'electronics.html',
+  'home.html',
+  'jewelry.html',
+  'privacy.html',
+  'shoes.html',
+  'sports.html',
+  'terms.html',
+  'toys.html',
   'blog/dostavka-s-aliexpress-v-rossiyu-2026.html',
   'blog/elektronika-iz-kitaya-stoit-li-pokupat.html',
   'blog/kak-ekonomit-na-aliexpress.html',
   'blog/luchshie-krossovki-aliexpress-2026.html',
-  'blog/samye-populyarnye-tovary-aliexpress.html'
+  'blog/samye-populyarnye-tovary-aliexpress.html',
 ];
 
 let updated = 0;
@@ -23,22 +33,22 @@ let skipped = 0;
 
 for (const file of filesToUpdate) {
   const filePath = path.join(__dirname, '..', file);
-  
+
   if (!fs.existsSync(filePath)) {
     console.log(`⚠️ Не найден: ${file}`);
     skipped++;
     continue;
   }
-  
+
   let content = fs.readFileSync(filePath, 'utf8');
-  
+
   // Проверим, есть ли уже ИКС
   if (content.includes('yandex.ru/cycounter')) {
     console.log(`⏭️ Пропущен (уже есть): ${file}`);
     skipped++;
     continue;
   }
-  
+
   // Заменяем старый код на новый
   if (content.includes(oldCode)) {
     content = content.replace(oldCode, iksCode);

@@ -39,10 +39,10 @@ checker.init({ start: process.cwd() }, (err, packages) => {
     if (ALLOWED_PACKAGES.has(name)) continue;
 
     const license = (info.licenses || 'UNKNOWN').toString();
-    const isForbidden = FORBIDDEN_LICENSES.some(forbidden =>
+    const isForbidden = FORBIDDEN_LICENSES.some((forbidden) =>
       license.toUpperCase().includes(forbidden.toUpperCase())
     );
-    const isAllowed = ALLOWED_LICENSES.some(allowed =>
+    const isAllowed = ALLOWED_LICENSES.some((allowed) =>
       license.toUpperCase().includes(allowed.toUpperCase())
     );
 
@@ -55,7 +55,7 @@ checker.init({ start: process.cwd() }, (err, packages) => {
 
   if (issues.length > 0) {
     console.error('\n❌ Forbidden or unapproved licenses found:');
-    issues.forEach(i => console.error(`  - ${i}`));
+    issues.forEach((i) => console.error(`  - ${i}`));
     process.exit(1);
   }
 

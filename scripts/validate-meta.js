@@ -23,17 +23,21 @@ function validatePage(filePath, expectedType = 'website') {
   const description = doc.querySelector('meta[name="description"]')?.getAttribute('content');
   const canonical = doc.querySelector('link[rel="canonical"]')?.getAttribute('href');
   const ogTitle = doc.querySelector('meta[property="og:title"]')?.getAttribute('content');
-  const ogDescription = doc.querySelector('meta[property="og:description"]')?.getAttribute('content');
+  const ogDescription = doc
+    .querySelector('meta[property="og:description"]')
+    ?.getAttribute('content');
   const ogImage = doc.querySelector('meta[property="og:image"]')?.getAttribute('content');
   const ogUrl = doc.querySelector('meta[property="og:url"]')?.getAttribute('content');
 
   const errors = [];
 
   if (!title) errors.push('missing <title>');
-  else if (title.length < 30 || title.length > 60) errors.push(`title length ${title.length} (expected 30-60)`);
+  else if (title.length < 30 || title.length > 60)
+    errors.push(`title length ${title.length} (expected 30-60)`);
 
   if (!description) errors.push('missing meta description');
-  else if (description.length < 70 || description.length > 160) errors.push(`description length ${description.length} (expected 70-160)`);
+  else if (description.length < 70 || description.length > 160)
+    errors.push(`description length ${description.length} (expected 70-160)`);
 
   if (!canonical) errors.push('missing canonical');
   if (!ogTitle) errors.push('missing og:title');
@@ -57,15 +61,18 @@ const pages = [
 
 // Add random sample of item pages
 const itemDir = path.join(ROOT_DIR, 'item');
-const itemPages = fs.readdirSync(itemDir).filter(f => f.endsWith('.html')).slice(0, 5);
-pages.push(...itemPages.map(f => ({ path: path.join('item', f), type: 'product' })));
+const itemPages = fs
+  .readdirSync(itemDir)
+  .filter((f) => f.endsWith('.html'))
+  .slice(0, 5);
+pages.push(...itemPages.map((f) => ({ path: path.join('item', f), type: 'product' })));
 
 let totalErrors = 0;
 for (const page of pages) {
   const result = validatePage(page.path, page.type);
   if (result.errors.length > 0) {
     console.error(`❌ ${result.file}:`);
-    result.errors.forEach(e => console.error(`   - ${e}`));
+    result.errors.forEach((e) => console.error(`   - ${e}`));
     totalErrors += result.errors.length;
   } else {
     console.log(`✅ ${result.file}`);

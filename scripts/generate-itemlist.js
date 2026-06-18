@@ -3,34 +3,34 @@ const path = require('path');
 
 // Категории и соответствующие файлы
 const categories = {
-  'shoes': { file: 'shoes.json', name: 'Обувь' },
-  'clothing': { file: 'clothing.json', name: 'Одежда' },
-  'electronics': { file: 'electronics.json', name: 'Электроника' }
+  shoes: { file: 'shoes.json', name: 'Обувь' },
+  clothing: { file: 'clothing.json', name: 'Одежда' },
+  electronics: { file: 'electronics.json', name: 'Электроника' },
 };
 
 function generateItemList(category, products) {
   const items = products.slice(0, 10).map((product, index) => ({
     '@type': 'ListItem',
-    'position': index + 1,
-    'item': {
+    position: index + 1,
+    item: {
       '@type': 'Product',
-      'name': product.title,
-      'url': `https://smart-skidka.ru/item/${product.itemId}.html`,
-      'image': product.image,
-      'offers': {
+      name: product.title,
+      url: `https://smart-skidka.ru/item/${product.itemId}.html`,
+      image: product.image,
+      offers: {
         '@type': 'Offer',
-        'price': product.price,
-        'priceCurrency': 'RUB',
-        'availability': 'https://schema.org/InStock'
-      }
-    }
+        price: product.price,
+        priceCurrency: 'RUB',
+        availability: 'https://schema.org/InStock',
+      },
+    },
   }));
 
   return {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    'name': `${categories[category].name} — скидки на AliExpress`,
-    'itemListElement': items
+    name: `${categories[category].name} — скидки на AliExpress`,
+    itemListElement: items,
   };
 }
 
