@@ -41,7 +41,7 @@ jobs:
         run: npm run validate-jsonld
 
       - name: Check broken links
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@v2
         with:
           args: |
             --exclude https://www.googletagmanager.com
