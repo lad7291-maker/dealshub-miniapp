@@ -18,7 +18,7 @@ const CATEGORY_NAMES = {
   beauty: 'Красота',
   sports: 'Спорт',
   jewelry: 'Украшения',
-  toys: 'Игрушки'
+  toys: 'Игрушки',
 };
 
 function truncate(text, maxLength) {
@@ -43,19 +43,23 @@ function formatPrice(price) {
 
 function generateRelatedProducts(product, allProducts, limit = 8) {
   const related = allProducts
-    .filter(p => p.category === product.category && p.id !== product.id)
+    .filter((p) => p.category === product.category && p.id !== product.id)
     .sort(() => Math.random() - 0.5)
     .slice(0, limit);
-  
+
   if (related.length === 0) return '';
-  
-  const cards = related.map(p => `
+
+  const cards = related
+    .map(
+      (p) => `
         <a href="/item/${p.id}.html" class="related-card">
           <img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.title)}" loading="lazy">
           <span class="related-discount">-${p.discount}%</span>
           <span class="related-price">${formatPrice(p.price)} ₽</span>
-        </a>`).join('');
-  
+        </a>`
+    )
+    .join('');
+
   return `
     <section class="item-related">
       <h2>Похожие товары</h2>
@@ -69,18 +73,21 @@ function generateItemHtml(product, allProducts) {
   const catName = CATEGORY_NAMES[product.category] || product.category;
   const catSlug = product.category;
   const savings = product.originalPrice - product.price;
-  const tagsHtml = product.tags && product.tags.length > 0 
-    ? product.tags.join(', ') 
-    : '';
-  
+  const tagsHtml = product.tags && product.tags.length > 0 ? product.tags.join(', ') : '';
+
   const breadcrumbJson = JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://smart-skidka.ru/" },
-      { "@type": "ListItem", "position": 2, "name": catName, "item": `https://smart-skidka.ru/${catSlug}.html` },
-      { "@type": "ListItem", "position": 3, "name": product.title }
-    ]
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Главная', item: 'https://smart-skidka.ru/' },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: catName,
+        item: `https://smart-skidka.ru/${catSlug}.html`,
+      },
+      { '@type': 'ListItem', position: 3, name: product.title },
+    ],
   });
 
   const relatedSection = generateRelatedProducts(product, allProducts);
@@ -180,7 +187,9 @@ function generateItemHtml(product, allProducts) {
         <section class="item-specs">
             <h2>Характеристики</h2>
             <dl>
-                ${Object.entries(product.specs || {}).map(([key, val]) => `<dt>${escapeHtml(key)}</dt><dd>${escapeHtml(val)}</dd>`).join('\n                ')}
+                ${Object.entries(product.specs || {})
+                  .map(([key, val]) => `<dt>${escapeHtml(key)}</dt><dd>${escapeHtml(val)}</dd>`)
+                  .join('\n                ')}
             </dl>
         </section>
         

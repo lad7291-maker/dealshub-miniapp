@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
  * SmartSkidka.ru — Admitad Feed Processor
- * 
+ *
  * Загружает CSV-фид Admitad, конвертирует в JSON-категории сайта.
  * Каждый товар получает прямую партнёрскую ссылку на конкретный товар AliExpress.
- * 
+ *
  * Usage: node update-feed.js
  */
 
@@ -31,20 +31,20 @@ const PRODUCTS_JS_PATH = path.join(__dirname, '..', 'js', 'products.js');
 // ============================================
 const CATEGORY_MAP = {
   // Обувь
-  'Sneakers': 'shoes',
+  Sneakers: 'shoes',
   "Women's Shoes": 'shoes',
   "Men's Shoes": 'shoes',
-  'Cycling': 'shoes',
+  Cycling: 'shoes',
   'Roller,Skateboard': 'shoes',
   'Sport Bags': 'sports',
   'Basketball（New）': 'shoes',
   'Football（New）': 'shoes',
-  'Children\'s Sports': 'shoes',
-  
+  "Children's Sports": 'shoes',
+
   // Одежда
   'Cosplay Costumes': 'clothing',
   'Suits & Blazer': 'clothing',
-  'Parkas': 'clothing',
+  Parkas: 'clothing',
   'Shirts & Blouses': 'clothing',
   'Down Coats': 'clothing',
   'Matching Sets': 'clothing',
@@ -55,13 +55,13 @@ const CATEGORY_MAP = {
   'Ready-to-wear Dresses': 'clothing',
   'Fur & Faux Fur': 'clothing',
   'Real Fur': 'clothing',
-  'Men\'s Shirts': 'clothing',
-  'Shorts': 'clothing',
+  "Men's Shirts": 'clothing',
+  Shorts: 'clothing',
   'Muslim Fashion': 'clothing',
-  'Swimwears': 'clothing',
-  'Men\'s Underwears': 'clothing',
-  'Men\'s Sleep & Lounge': 'clothing',
-  'Women\'s Sleep & Lounge': 'clothing',
+  Swimwears: 'clothing',
+  "Men's Underwears": 'clothing',
+  "Men's Sleep & Lounge": 'clothing',
+  "Women's Sleep & Lounge": 'clothing',
   'Middle East Fashion': 'clothing',
   'Customized Dresses': 'clothing',
   'Customized Skirts': 'clothing',
@@ -69,7 +69,7 @@ const CATEGORY_MAP = {
   'Functional Apparel': 'clothing',
   'World Apparel': 'clothing',
   'Oversleeve & Arm Warmer': 'clothing',
-  
+
   // Электроника
   'Laptop Parts & Accessories': 'electronics',
   'Computer Peripherals': 'electronics',
@@ -78,10 +78,10 @@ const CATEGORY_MAP = {
   'Smart Electronics': 'electronics',
   'Office Electronics': 'electronics',
   'Servers & Industrial Computer': 'electronics',
-  'Networking': 'electronics',
+  Networking: 'electronics',
   'Storage Device': 'electronics',
   'Mobile Phone Cases & Covers': 'electronics',
-  'Tablets': 'electronics',
+  Tablets: 'electronics',
   'Mobile Phone Protective Film': 'electronics',
   'Mobile Phone Photography Accessories': 'electronics',
   'Mobile Phone Decorations': 'electronics',
@@ -90,7 +90,7 @@ const CATEGORY_MAP = {
   'Walkie Talkie Accessories & Parts': 'electronics',
   'Sim Cards & Accessories': 'electronics',
   'Personal Care Appliances': 'electronics',
-  
+
   // Дом
   'Household Merchandises': 'home',
   'Bathroom Fixture': 'home',
@@ -100,7 +100,7 @@ const CATEGORY_MAP = {
   'Senior Furniture': 'home',
   'Building Supplies': 'home',
   'Arts,Crafts & Sewing': 'home',
-  
+
   // Авто
   'Engines & Engine Parts': 'auto',
   'Exterior Parts': 'auto',
@@ -128,8 +128,8 @@ const CATEGORY_MAP = {
   'Transmission & Cables': 'auto',
   'Blowers, Industrial Fans & Exhaust Equipment': 'auto',
   'Abrasive Tools & Abrasives': 'auto',
-  'Boats': 'auto',
-  'Aircraft': 'auto',
+  Boats: 'auto',
+  Aircraft: 'auto',
   'Construction Machinery & Accessories': 'auto',
   'Industry Machinery & Equipment': 'auto',
   'Industrial Spare Parts': 'auto',
@@ -143,41 +143,41 @@ const CATEGORY_MAP = {
   'Metals & Alloys': 'auto',
   'Rubbers & Plastics': 'auto',
   'Functional Material': 'auto',
-  'Chemicals': 'auto',
-  
+  Chemicals: 'auto',
+
   // Красота
   'Nail Art & Tools': 'beauty',
   'Hair Care & Styling': 'beauty',
   'Hair Tools & Accessories': 'beauty',
   'Tattoo & Body Art': 'beauty',
   'Fragrances & Deodorants': 'beauty',
-  'Perfume': 'beauty',
+  Perfume: 'beauty',
   'Bath & Shower': 'beauty',
   'Rehabilitation Supplies': 'beauty',
   'Health Care': 'beauty',
   'Sex Products': 'beauty',
   'Dental Supplies': 'beauty',
-  
+
   // Спорт
   'Skiing & Snowboarding': 'sports',
   'Activity & Gear': 'sports',
   'Sports Accessories': 'sports',
   'Racquet Sports': 'sports',
-  'Dance': 'sports',
-  
+  Dance: 'sports',
+
   // Украшения
   'Fine Jewelry': 'jewelry',
   'Jewelry Packaging & Display': 'jewelry',
   'Jewelry Tools & Equipments': 'jewelry',
   'Customized Watches': 'jewelry',
-  
+
   // Игрушки
   'Action & Toy Figures': 'toys',
   'Building & Construction Toys': 'toys',
   'Remote Control Toys': 'toys',
   'Play Vehicles & Models': 'toys',
   'Dolls & Accessories': 'toys',
-  'Entertainment': 'toys',
+  Entertainment: 'toys',
   'Trendy Blind Box': 'toys',
   'Baby Strollers&Accessories': 'toys',
   'Stuffed Animals & Plush': 'toys',
@@ -185,19 +185,19 @@ const CATEGORY_MAP = {
   'Novelty & Gag Toys': 'toys',
   'Electronic Toys': 'toys',
   'ACG Goods': 'toys',
-  
+
   // Сумки
-  'Women\'s Handbags': 'clothing',
-  'Luggage': 'clothing',
-  'Backpack': 'clothing',
-  'Men\'s Bags': 'clothing',
+  "Women's Handbags": 'clothing',
+  Luggage: 'clothing',
+  Backpack: 'clothing',
+  "Men's Bags": 'clothing',
   'Travel Bags': 'clothing',
-  'Kids\' Bags': 'clothing',
+  "Kids' Bags": 'clothing',
   'Chest Bags': 'clothing',
   'Waist Packs': 'clothing',
   'Winter Bags': 'clothing',
   'Organizer Bag': 'clothing',
-  
+
   // Электрика
   'Electrical Equipment': 'electronics',
   'Electrical Equipment & Supplies': 'electronics',
@@ -206,10 +206,10 @@ const CATEGORY_MAP = {
   'Novelty Lighting（new）': 'home',
   'Access Building Automation': 'home',
   'Emergency Safety Supplies': 'home',
-  'Safety': 'home',
+  Safety: 'home',
   'Security Alarm': 'home',
   'Smart Public Safety Systems': 'home',
-  
+
   // Остальное → home
   'Pens, Pencils & Writing Supplies': 'home',
   'Filing Products': 'home',
@@ -218,9 +218,9 @@ const CATEGORY_MAP = {
   'Books & Cultural Merchandise': 'home',
   'Music, CDs & Vinyl Records': 'home',
   'Baby Care': 'home',
-  'Feeding': 'home',
+  Feeding: 'home',
   'Baby Sterilization & Appliances': 'home',
-  'Giveaways': 'home',
+  Giveaways: 'home',
   'First Aid Kits': 'home',
   'Mailing & Shipping': 'home',
   'Travel Accessories': 'home',
@@ -244,11 +244,14 @@ function downloadFeed(url) {
         return;
       }
       let data = '';
-      res.on('data', chunk => data += chunk);
+      res.on('data', (chunk) => (data += chunk));
       res.on('end', () => resolve(data));
     });
     req.on('error', reject);
-    req.on('timeout', () => { req.destroy(); reject(new Error('Timeout')); });
+    req.on('timeout', () => {
+      req.destroy();
+      reject(new Error('Timeout'));
+    });
   });
 }
 
@@ -268,13 +271,23 @@ function parseParam(paramStr) {
 function extractTags(name, category) {
   const tags = [];
   const lower = name.toLowerCase();
-  
-  const brands = ['nike', 'adidas', 'puma', 'skechers', 'new balance', 'reebok', 'asics', 'under armour'];
+
+  const brands = [
+    'nike',
+    'adidas',
+    'puma',
+    'skechers',
+    'new balance',
+    'reebok',
+    'asics',
+    'under armour',
+  ];
   for (const brand of brands) {
     if (lower.includes(brand)) tags.push(brand);
   }
-  
-  if (lower.includes('shoes') || lower.includes('кроссовки') || lower.includes('sneakers')) tags.push('кроссовки');
+
+  if (lower.includes('shoes') || lower.includes('кроссовки') || lower.includes('sneakers'))
+    tags.push('кроссовки');
   if (lower.includes('boots') || lower.includes('ботинки')) tags.push('ботинки');
   if (lower.includes('sandal')) tags.push('сандалии');
   if (lower.includes('shirt')) tags.push('рубашки');
@@ -286,12 +299,12 @@ function extractTags(name, category) {
   if (lower.includes('laptop')) tags.push('ноутбуки');
   if (lower.includes('jewelry')) tags.push('украшения');
   if (lower.includes('watch')) tags.push('часы');
-  
+
   if (lower.includes('men') || lower.includes('мужск')) tags.push('мужские');
   if (lower.includes('women') || lower.includes('женск')) tags.push('женские');
   if (lower.includes('unisex')) tags.push('унисекс');
   if (lower.includes('kids') || lower.includes('children')) tags.push('детские');
-  
+
   return [...new Set(tags)];
 }
 
@@ -300,7 +313,7 @@ function parseCSVLine(line) {
   const result = [];
   let current = '';
   let inQuotes = false;
-  
+
   for (let i = 0; i < line.length; i++) {
     const char = line[i];
     if (char === '"') {
@@ -317,23 +330,23 @@ function parseCSVLine(line) {
 }
 
 function parseCSV(csvText) {
-  const lines = csvText.split('\n').filter(l => l.trim());
+  const lines = csvText.split('\n').filter((l) => l.trim());
   if (lines.length === 0) return [];
-  
-  const headers = parseCSVLine(lines[0]).map(h => h.trim());
+
+  const headers = parseCSVLine(lines[0]).map((h) => h.trim());
   const rows = [];
-  
+
   for (let i = 1; i < lines.length; i++) {
     const values = parseCSVLine(lines[i]);
     if (values.length < 3) continue;
-    
+
     const row = {};
     headers.forEach((h, idx) => {
       row[h] = values[idx] || '';
     });
     rows.push(row);
   }
-  
+
   return rows;
 }
 
@@ -343,21 +356,21 @@ function convertProduct(row, index) {
   const discount = parseInt(discountStr.replace('%', '')) || 0;
   const commission = params.commissionRate || '0%';
   const shopId = params.shopId || '';
-  
+
   const priceUsd = parseFloat(row.price) || 0;
   const oldPriceUsd = parseFloat(row.oldprice) || priceUsd;
-  
+
   const priceRub = Math.round(priceUsd * USD_TO_RUB);
   const originalPriceRub = Math.round(oldPriceUsd * USD_TO_RUB);
-  
+
   let finalDiscount = discount;
   if (!row.oldprice || row.oldprice === row.price) {
     finalDiscount = 0;
   }
-  
+
   const cat = CATEGORY_MAP[row.category] || 'home';
   const name = row.name || '';
-  
+
   return {
     id: index + 1,
     itemId: row.id,
@@ -370,12 +383,14 @@ function convertProduct(row, index) {
     rating: 4.5,
     orders: 0,
     specs: {
-      'Тип': row.category || 'Товар',
-      'Комиссия': commission,
-      'Магазин': shopId ? `ID: ${shopId}` : 'AliExpress'
+      Тип: row.category || 'Товар',
+      Комиссия: commission,
+      Магазин: shopId ? `ID: ${shopId}` : 'AliExpress',
     },
     tags: extractTags(name, row.category),
-    aliLink: 'https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=' + encodeURIComponent('https://aliexpress.ru/item/' + row.id + '.html?af=2529186&cv=47843')
+    aliLink:
+      'https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=' +
+      encodeURIComponent('https://aliexpress.ru/item/' + row.id + '.html?af=2529186&cv=47843'),
   };
 }
 
@@ -385,13 +400,13 @@ function convertProduct(row, index) {
 async function main() {
   try {
     console.log('=== SmartSkidka.ru Feed Updater ===\n');
-    
+
     const csvData = await downloadFeed(FEED_URL);
     console.log(`[Feed] Downloaded: ${(csvData.length / 1024 / 1024).toFixed(1)} MB`);
-    
+
     const rows = parseCSV(csvData);
     console.log(`[Feed] Products in feed: ${rows.length}`);
-    
+
     const allProducts = [];
     for (let i = 0; i < rows.length; i++) {
       try {
@@ -404,7 +419,7 @@ async function main() {
       }
     }
     console.log(`[Feed] Valid products: ${allProducts.length}`);
-    
+
     const byCategory = {};
     for (const p of allProducts) {
       if (!byCategory[p.category]) byCategory[p.category] = [];
@@ -412,53 +427,62 @@ async function main() {
         byCategory[p.category].push(p);
       }
     }
-    
+
     let globalId = 1;
     for (const cat in byCategory) {
       for (const p of byCategory[cat]) {
         p.id = globalId++;
       }
     }
-    
+
     const allForHome = allProducts.slice(0, 2000);
-    
+
     if (!fs.existsSync(OUTPUT_DIR)) {
       fs.mkdirSync(OUTPUT_DIR, { recursive: true });
     }
-    
-    const categories = ['shoes', 'clothing', 'electronics', 'home', 'auto', 'beauty', 'sports', 'jewelry', 'toys'];
+
+    const categories = [
+      'shoes',
+      'clothing',
+      'electronics',
+      'home',
+      'auto',
+      'beauty',
+      'sports',
+      'jewelry',
+      'toys',
+    ];
     for (const cat of categories) {
       const items = byCategory[cat] || [];
       const filePath = path.join(OUTPUT_DIR, `${cat}.json`);
       fs.writeFileSync(filePath, JSON.stringify(items, null, 2));
       console.log(`[Out] ${cat}.json: ${items.length} items`);
     }
-    
+
     fs.writeFileSync(path.join(OUTPUT_DIR, 'all.json'), JSON.stringify(allForHome, null, 2));
     console.log(`[Out] all.json: ${allForHome.length} items`);
-    
+
     const index = {
       updated: new Date().toISOString(),
       total: allProducts.length,
       categories: categories.reduce((acc, cat) => {
         acc[cat] = (byCategory[cat] || []).length;
         return acc;
-      }, {})
+      }, {}),
     };
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index.json'), JSON.stringify(index, null, 2));
-    
+
     const inlineProducts = allForHome.slice(0, 500);
     const productsJs = `const PRODUCTS_DB = ${JSON.stringify(inlineProducts, null, 2)};\n`;
     fs.writeFileSync(PRODUCTS_JS_PATH, productsJs);
     console.log(`[Out] products.js: ${inlineProducts.length} inline items`);
-    
+
     console.log('\n=== Stats ===');
     console.log(`Total products: ${allProducts.length}`);
     for (const cat of categories) {
       console.log(`  ${cat}: ${(byCategory[cat] || []).length}`);
     }
     console.log('\nDone!');
-    
   } catch (err) {
     console.error('[Error]', err.message);
     process.exit(1);

@@ -5,6 +5,9 @@ js/products.js
 js/products_real.js
 sitemap.xml
 turbo.xml
+yandex-market.yml
 *.min.js
+*.html
+css/style.css
 .playwright-mcp/
 package-lock.json

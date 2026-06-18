@@ -28,8 +28,9 @@ function createUrlEntry(loc, lastmod, changefreq, priority) {
 
 function getHtmlFiles(dir) {
   try {
-    return fs.readdirSync(dir)
-      .filter(f => f.endsWith('.html'))
+    return fs
+      .readdirSync(dir)
+      .filter((f) => f.endsWith('.html'))
       .sort();
   } catch (e) {
     return [];
@@ -51,8 +52,13 @@ function generateSitemap() {
 
   // Category pages
   const categories = [
-    'electronics.html', 'auto.html', 'beauty.html', 'clothing.html',
-    'home.html', 'shoes.html', 'sports.html'
+    'electronics.html',
+    'auto.html',
+    'beauty.html',
+    'clothing.html',
+    'home.html',
+    'shoes.html',
+    'sports.html',
   ];
 
   // Blog posts
@@ -61,7 +67,9 @@ function generateSitemap() {
   // Product items
   const items = getHtmlFiles(path.join(ROOT_DIR, 'item'));
 
-  console.log(`Found: ${items.length} items, ${categories.length} categories, ${blogPosts.length} blog posts`);
+  console.log(
+    `Found: ${items.length} items, ${categories.length} categories, ${blogPosts.length} blog posts`
+  );
 
   // Add static pages
   for (const page of staticPages) {

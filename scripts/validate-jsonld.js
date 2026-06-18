@@ -27,11 +27,11 @@ function validateJsonLd(filePath, expectedTypes) {
     return { file: filePath, errors };
   }
 
-  scripts.forEach(script => {
+  scripts.forEach((script) => {
     try {
       const data = JSON.parse(script.textContent);
       const schemas = Array.isArray(data) ? data : [data];
-      schemas.forEach(schema => {
+      schemas.forEach((schema) => {
         if (schema['@type']) foundTypes.push(schema['@type']);
       });
     } catch (e) {
@@ -54,15 +54,20 @@ const pages = [
 ];
 
 const itemDir = path.join(ROOT_DIR, 'item');
-const itemPages = fs.readdirSync(itemDir).filter(f => f.endsWith('.html')).slice(0, 5);
-pages.push(...itemPages.map(f => ({ path: path.join('item', f), types: ['Product', 'BreadcrumbList'] })));
+const itemPages = fs
+  .readdirSync(itemDir)
+  .filter((f) => f.endsWith('.html'))
+  .slice(0, 5);
+pages.push(
+  ...itemPages.map((f) => ({ path: path.join('item', f), types: ['Product', 'BreadcrumbList'] }))
+);
 
 let totalErrors = 0;
 for (const page of pages) {
   const result = validateJsonLd(page.path, page.types);
   if (result.errors.length > 0) {
     console.error(`❌ ${result.file}:`);
-    result.errors.forEach(e => console.error(`   - ${e}`));
+    result.errors.forEach((e) => console.error(`   - ${e}`));
     totalErrors += result.errors.length;
   } else {
     console.log(`✅ ${result.file}`);

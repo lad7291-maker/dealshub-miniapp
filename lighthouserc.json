@@ -1,10 +1,7 @@
 {
   "ci": {
     "collect": {
-      "url": [
-        "http://localhost:3000/index.html",
-        "http://localhost:3000/electronics.html"
-      ],
+      "url": ["http://localhost:3000/index.html", "http://localhost:3000/electronics.html"],
       "numberOfRuns": 2,
       "startServerCommand": "npx serve . -l 3000",
       "startServerReadyPattern": "Accepting connections"
