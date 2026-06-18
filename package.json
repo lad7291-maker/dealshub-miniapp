@@ -16,7 +16,7 @@
     "validate-jsonld": "node scripts/validate-jsonld.js"
   },
   "devDependencies": {
-    "@lhci/cli": "^0.14.0",
+    "@lhci/cli": "^0.15.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "jsdom": "^24.0.0",
