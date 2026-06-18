@@ -1,0 +1,1003 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e979]:
+    - img "SmartSkidka" [ref=e980]
+    - generic [ref=e981]:
+      - generic [ref=e982]: Установите SmartSkidka
+      - generic [ref=e983]: Быстрый доступ к скидкам
+    - button "Установить" [ref=e984] [cursor=pointer]
+    - button "×" [ref=e985] [cursor=pointer]
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Smart Skidka .ru" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e6]
+        - generic [ref=e10]:
+          - generic [ref=e11]: Smart
+          - generic [ref=e12]: Skidka
+          - generic [ref=e13]: .ru
+      - generic [ref=e14]:
+        - img
+        - textbox "Поиск товаров..." [ref=e15]
+        - button "AI поиск" [ref=e16] [cursor=pointer]: 🔮
+      - generic [ref=e17]:
+        - generic [ref=e18]: "🔮 AI-поиск: 3 из 3 осталось"
+        - button "Избранное" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - generic [ref=e26]: 1000+ товаров со скидками до 90%
+      - heading "Лучшие скидки AliExpress" [level=1] [ref=e27]
+      - paragraph [ref=e28]: Экономьте до 90% на топовых товарах с бесплатной доставкой
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]: 89+
+          - generic [ref=e32]: Товаров
+        - generic [ref=e33]:
+          - generic [ref=e34]: до 90%
+          - generic [ref=e35]: Скидки
+        - generic [ref=e36]:
+          - generic [ref=e37]: 0₽
+          - generic [ref=e38]: Доставка
+    - generic [ref=e40]:
+      - button "Все" [ref=e41] [cursor=pointer]
+      - button "Обувь" [ref=e42] [cursor=pointer]
+      - button "Одежда" [ref=e43] [cursor=pointer]
+      - button "Электроника" [ref=e44] [cursor=pointer]
+      - button "Дом" [ref=e45] [cursor=pointer]
+      - button "Авто" [ref=e46] [cursor=pointer]
+      - button "Красота" [ref=e47] [cursor=pointer]
+      - button "Спорт" [ref=e48] [cursor=pointer]
+      - button "Украшения" [ref=e49] [cursor=pointer]
+      - button "Игрушки" [ref=e50] [cursor=pointer]
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - button "Все скидки" [ref=e54] [cursor=pointer]
+          - button "50%+" [ref=e55] [cursor=pointer]
+          - button "70%+" [ref=e56] [cursor=pointer]
+          - button "90%+" [ref=e57] [cursor=pointer]
+        - combobox [ref=e59] [cursor=pointer]:
+          - option "🔥 По скидке" [selected]
+          - option "💰 Сначала дешевые"
+          - option "💰 Сначала дорогие"
+          - option "⭐ По рейтингу"
+          - option "📦 По заказам"
+      - generic [ref=e60]: 89 товаров
+    - generic [ref=e61]:
+      - heading "🔥 Подборки скидок" [level=2] [ref=e62]
+      - generic [ref=e63]:
+        - link "🔌 Скидки до 90% на электронику →" [ref=e64] [cursor=pointer]:
+          - /url: /electronics.html?filter=90
+          - generic [ref=e65]: 🔌
+          - generic [ref=e66]: Скидки до 90% на электронику
+          - generic [ref=e67]: →
+        - link "👕 Топ одежды со скидками 70%+ →" [ref=e68] [cursor=pointer]:
+          - /url: /clothing.html?filter=70
+          - generic [ref=e69]: 👕
+          - generic [ref=e70]: Топ одежды со скидками 70%+
+          - generic [ref=e71]: →
+        - link "👟 Лучшие цены на кроссовки →" [ref=e72] [cursor=pointer]:
+          - /url: /clothing.html?filter=all
+          - generic [ref=e73]: 👟
+          - generic [ref=e74]: Лучшие цены на кроссовки
+          - generic [ref=e75]: →
+        - link "🏠 Всё для дома до 1000₽ →" [ref=e76] [cursor=pointer]:
+          - /url: /home.html?filter=all
+          - generic [ref=e77]: 🏠
+          - generic [ref=e78]: Всё для дома до 1000₽
+          - generic [ref=e79]: →
+    - generic [ref=e80]:
+      - heading "🏆 Топ-10 за неделю" [level=2] [ref=e81]
+      - generic [ref=e82]:
+        - link "1 Новые стильные светящиеся в темноте кроссовки, очень легкие, идеально подходят для пар. Эти модные и универсальные кросс Новые стильные светящиеся в темноте крос 6 087 ₽ -79%" [ref=e83] [cursor=pointer]:
+          - /url: /item/1.html
+          - generic [ref=e84]: "1"
+          - img "Новые стильные светящиеся в темноте кроссовки, очень легкие, идеально подходят для пар. Эти модные и универсальные кросс" [ref=e85]
+          - generic [ref=e86]:
+            - generic [ref=e87]: Новые стильные светящиеся в темноте крос
+            - generic [ref=e88]: 6 087 ₽
+          - generic [ref=e89]: "-79%"
+        - link "2 Кроссовки для скейтбординга Adidas Low Top KK1283 с верхом из синтетической кожи, повседневные ретро-кроссовки для скейт Кроссовки для скейтбординга Adidas Low T 6 156 ₽ -78%" [ref=e90] [cursor=pointer]:
+          - /url: /item/2.html
+          - generic [ref=e91]: "2"
+          - img "Кроссовки для скейтбординга Adidas Low Top KK1283 с верхом из синтетической кожи, повседневные ретро-кроссовки для скейт" [ref=e92]
+          - generic [ref=e93]:
+            - generic [ref=e94]: Кроссовки для скейтбординга Adidas Low T
+            - generic [ref=e95]: 6 156 ₽
+          - generic [ref=e96]: "-78%"
+        - 'link "3 Новые повседневные кроссовки Nike 2026 для детей: легкие, дышащие, нескользящие, с мягкой подошвой, для мальчиков и дево Новые повседневные кроссовки Nike 2026 д 6 790 ₽ -78%" [ref=e97] [cursor=pointer]':
+          - /url: /item/3.html
+          - generic [ref=e98]: "3"
+          - 'img "Новые повседневные кроссовки Nike 2026 для детей: легкие, дышащие, нескользящие, с мягкой подошвой, для мальчиков и дево" [ref=e99]'
+          - generic [ref=e100]:
+            - generic [ref=e101]: Новые повседневные кроссовки Nike 2026 д
+            - generic [ref=e102]: 6 790 ₽
+          - generic [ref=e103]: "-78%"
+        - link "4 Мужская повседневная обувь Nike, дышащие, легкие, нескользящие, износостойкие кроссовки для ежедневных прогулок на улице Мужская повседневная обувь Nike, дышащие 6 763 ₽ -78%" [ref=e104] [cursor=pointer]:
+          - /url: /item/4.html
+          - generic [ref=e105]: "4"
+          - img "Мужская повседневная обувь Nike, дышащие, легкие, нескользящие, износостойкие кроссовки для ежедневных прогулок на улице" [ref=e106]
+          - generic [ref=e107]:
+            - generic [ref=e108]: Мужская повседневная обувь Nike, дышащие
+            - generic [ref=e109]: 6 763 ₽
+          - generic [ref=e110]: "-78%"
+        - link "5 Мужская повседневная обувь Nike, легкие дышащие нескользящие износостойкие удобные уличные кроссовки для ежедневных прог Мужская повседневная обувь Nike, легкие 6 763 ₽ -78%" [ref=e111] [cursor=pointer]:
+          - /url: /item/5.html
+          - generic [ref=e112]: "5"
+          - img "Мужская повседневная обувь Nike, легкие дышащие нескользящие износостойкие удобные уличные кроссовки для ежедневных прог" [ref=e113]
+          - generic [ref=e114]:
+            - generic [ref=e115]: Мужская повседневная обувь Nike, легкие
+            - generic [ref=e116]: 6 763 ₽
+          - generic [ref=e117]: "-78%"
+        - link "6 Женские низкие кроссовки Adidas для скейтбординга с замшевым верхом, повседневные, на платформе, розовые, темно-синие, ц Женские низкие кроссовки Adidas для скей 6 328 ₽ -78%" [ref=e118] [cursor=pointer]:
+          - /url: /item/6.html
+          - generic [ref=e119]: "6"
+          - img "Женские низкие кроссовки Adidas для скейтбординга с замшевым верхом, повседневные, на платформе, розовые, темно-синие, ц" [ref=e120]
+          - generic [ref=e121]:
+            - generic [ref=e122]: Женские низкие кроссовки Adidas для скей
+            - generic [ref=e123]: 6 328 ₽
+          - generic [ref=e124]: "-78%"
+        - link "7 Новые низкие кеды Puma 2026 для скейтбординга, дышащие повседневные кроссовки 395082-01 Новые низкие кеды Puma 2026 для скейтбор 6 186 ₽ -78%" [ref=e125] [cursor=pointer]:
+          - /url: /item/7.html
+          - generic [ref=e126]: "7"
+          - img "Новые низкие кеды Puma 2026 для скейтбординга, дышащие повседневные кроссовки 395082-01" [ref=e127]
+          - generic [ref=e128]:
+            - generic [ref=e129]: Новые низкие кеды Puma 2026 для скейтбор
+            - generic [ref=e130]: 6 186 ₽
+          - generic [ref=e131]: "-78%"
+        - link "8 Стоматологическое лабораторное оборудование, полировка, бесщеточный микромотор, портативный Электрический микромотор, по Стоматологическое лабораторное оборудова 6 355 ₽ -77%" [ref=e132] [cursor=pointer]:
+          - /url: /item/8.html
+          - generic [ref=e133]: "8"
+          - img "Стоматологическое лабораторное оборудование, полировка, бесщеточный микромотор, портативный Электрический микромотор, по" [ref=e134]
+          - generic [ref=e135]:
+            - generic [ref=e136]: Стоматологическое лабораторное оборудова
+            - generic [ref=e137]: 6 355 ₽
+          - generic [ref=e138]: "-77%"
+        - link "9 Набор из 10 крестообразных ортодонтических позиционирующих калибров из высокоточной нержавеющей стали с карандашными гри Набор из 10 крестообразных ортодонтическ 6 694 ₽ -76%" [ref=e139] [cursor=pointer]:
+          - /url: /item/9.html
+          - generic [ref=e140]: "9"
+          - img "Набор из 10 крестообразных ортодонтических позиционирующих калибров из высокоточной нержавеющей стали с карандашными гри" [ref=e141]
+          - generic [ref=e142]:
+            - generic [ref=e143]: Набор из 10 крестообразных ортодонтическ
+            - generic [ref=e144]: 6 694 ₽
+          - generic [ref=e145]: "-76%"
+        - link "10 Стальной корпус, 12 x 12 x 8 дюймов, электрический шкаф NEMA 4X, IP66, водонепроницаемый и пыленепроницаемый, для наружн Стальной корпус, 12 x 12 x 8 дюймов, эле 6 303 ₽ -75%" [ref=e146] [cursor=pointer]:
+          - /url: /item/10.html
+          - generic [ref=e147]: "10"
+          - img "Стальной корпус, 12 x 12 x 8 дюймов, электрический шкаф NEMA 4X, IP66, водонепроницаемый и пыленепроницаемый, для наружн" [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e150]: Стальной корпус, 12 x 12 x 8 дюймов, эле
+            - generic [ref=e151]: 6 303 ₽
+          - generic [ref=e152]: "-75%"
+    - link "AliExpress RU&CIS" [ref=e154] [cursor=pointer]:
+      - /url: https://ali.click/c7qq81p?gc=ad0kctin2rfb6bf39686b6d1781017&erid=2bL9aMPo2e49hMef4rqytMJKXR
+      - img "AliExpress RU&CIS" [ref=e155]
+    - generic [ref=e156]:
+      - generic [ref=e157]:
+        - generic [ref=e986] [cursor=pointer]:
+          - generic [ref=e987]: "-76%"
+          - button "В избранное" [ref=e988]:
+            - img [ref=e989]
+          - generic [ref=e991]:
+            - img "Набор из 10 крестообразных ортодонтических позиционирующих калибров из высокоточной нержавеющей стали с карандашными гри"
+          - generic [ref=e992]:
+            - heading "Набор из 10 крестообразных ортодонтических позиционирующих калибров из высокоточной нержавеющей стали с карандашными гри" [level=3] [ref=e993]
+            - generic [ref=e994]:
+              - generic [ref=e995]:
+                - generic [ref=e996]: ★
+                - generic [ref=e997]: ★
+                - generic [ref=e998]: ★
+                - generic [ref=e999]: ★
+                - generic [ref=e1000]: ★
+              - generic [ref=e1001]: "4.5"
+            - generic [ref=e1002]:
+              - generic [ref=e1003]: 6 694 ₽
+              - generic [ref=e1004]: 27 890 ₽
+            - generic [ref=e1005]: 🔥 91 человек смотрят сейчас
+            - generic [ref=e1006]: ⏰ Скидка действует ещё 31 часов
+            - generic [ref=e1007]:
+              - img [ref=e1008]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1010]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010803725775.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1011]
+              - text: На AliExpress →
+            - paragraph [ref=e1015]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1016]: 📤 Поделиться
+        - generic [ref=e1017] [cursor=pointer]:
+          - generic [ref=e1018]: "-65%"
+          - button "В избранное" [ref=e1019]:
+            - img [ref=e1020]
+          - generic [ref=e1022]:
+            - img "Классическая модель человеческого черепа с магнитными соединениями, анатомический набор из 3 частей + бесплатное програм"
+          - generic [ref=e1023]:
+            - heading "Классическая модель человеческого черепа с магнитными соединениями, анатомический набор из 3 частей + бесплатное програм" [level=3] [ref=e1024]
+            - generic [ref=e1025]:
+              - generic [ref=e1026]:
+                - generic [ref=e1027]: ★
+                - generic [ref=e1028]: ★
+                - generic [ref=e1029]: ★
+                - generic [ref=e1030]: ★
+                - generic [ref=e1031]: ★
+              - generic [ref=e1032]: "4.5"
+            - generic [ref=e1033]:
+              - generic [ref=e1034]: 6 214 ₽
+              - generic [ref=e1035]: 17 757 ₽
+            - generic [ref=e1036]: 🔥 83 человек смотрят сейчас
+            - generic [ref=e1037]: ⏰ Скидка действует ещё 28 часов
+            - generic [ref=e1038]:
+              - img [ref=e1039]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1041]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012027592393.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1042]
+              - text: На AliExpress →
+            - paragraph [ref=e1046]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1047]: 📤 Поделиться
+        - generic [ref=e1048] [cursor=pointer]:
+          - generic [ref=e1049]: "-60%"
+          - button "В избранное" [ref=e1050]:
+            - img [ref=e1051]
+          - generic [ref=e1053]:
+            - img "18 Вт светодиодный стоматологический рентгеновский осветитель, панорамная пленка, световая панель, экран для гигиены пол"
+          - generic [ref=e1054]:
+            - heading "18 Вт светодиодный стоматологический рентгеновский осветитель, панорамная пленка, световая панель, экран для гигиены пол" [level=3] [ref=e1055]
+            - generic [ref=e1056]:
+              - generic [ref=e1057]:
+                - generic [ref=e1058]: ★
+                - generic [ref=e1059]: ★
+                - generic [ref=e1060]: ★
+                - generic [ref=e1061]: ★
+                - generic [ref=e1062]: ★
+              - generic [ref=e1063]: "4.5"
+            - generic [ref=e1064]:
+              - generic [ref=e1065]: 7 039 ₽
+              - generic [ref=e1066]: 17 597 ₽
+            - generic [ref=e1067]: 🔥 195 человек смотрят сейчас
+            - generic [ref=e1068]: ⏰ Скидка действует ещё 16 часов
+            - generic [ref=e1069]:
+              - img [ref=e1070]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1072]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010018514769.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1073]
+              - text: На AliExpress →
+            - paragraph [ref=e1077]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1078]: 📤 Поделиться
+        - generic [ref=e1079] [cursor=pointer]:
+          - generic [ref=e1080]: "-58%"
+          - button "В избранное" [ref=e1081]:
+            - img [ref=e1082]
+          - generic [ref=e1084]:
+            - img "Умный видеокормушка для птиц на солнечной батарее с камерой, распознавание ии, 1080P HD ночное видение, широкий угол обз"
+          - generic [ref=e1085]:
+            - heading "Умный видеокормушка для птиц на солнечной батарее с камерой, распознавание ии, 1080P HD ночное видение, широкий угол обз" [level=3] [ref=e1086]
+            - generic [ref=e1087]:
+              - generic [ref=e1088]:
+                - generic [ref=e1089]: ★
+                - generic [ref=e1090]: ★
+                - generic [ref=e1091]: ★
+                - generic [ref=e1092]: ★
+                - generic [ref=e1093]: ★
+              - generic [ref=e1094]: "4.5"
+            - generic [ref=e1095]:
+              - generic [ref=e1096]: 6 759 ₽
+              - generic [ref=e1097]: 16 093 ₽
+            - generic [ref=e1098]: 🔥 30 человек смотрят сейчас
+            - generic [ref=e1099]: ⏰ Скидка действует ещё 18 часов
+            - generic [ref=e1100]:
+              - img [ref=e1101]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1103]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005008640208517.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1104]
+              - text: На AliExpress →
+            - paragraph [ref=e1108]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1109]: 📤 Поделиться
+        - generic [ref=e1110] [cursor=pointer]:
+          - generic [ref=e1111]: "-57%"
+          - button "В избранное" [ref=e1112]:
+            - img [ref=e1113]
+          - generic [ref=e1115]:
+            - img "Стоматологическая интраоральная камера VVDental с проводным подключением, 8 светодиодами, 4K HD, для наблюдения за карие"
+          - generic [ref=e1116]:
+            - heading "Стоматологическая интраоральная камера VVDental с проводным подключением, 8 светодиодами, 4K HD, для наблюдения за карие" [level=3] [ref=e1117]
+            - generic [ref=e1118]:
+              - generic [ref=e1119]:
+                - generic [ref=e1120]: ★
+                - generic [ref=e1121]: ★
+                - generic [ref=e1122]: ★
+                - generic [ref=e1123]: ★
+                - generic [ref=e1124]: ★
+              - generic [ref=e1125]: "4.5"
+            - generic [ref=e1126]:
+              - generic [ref=e1127]: 6 788 ₽
+              - generic [ref=e1128]: 15 787 ₽
+            - generic [ref=e1129]: 🔥 113 человек смотрят сейчас
+            - generic [ref=e1130]: ⏰ Скидка действует ещё 13 часов
+            - generic [ref=e1131]:
+              - img [ref=e1132]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1134]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012027702208.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1135]
+              - text: На AliExpress →
+            - paragraph [ref=e1139]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1140]: 📤 Поделиться
+        - generic [ref=e1141] [cursor=pointer]:
+          - generic [ref=e1142]: "-55%"
+          - button "В избранное" [ref=e1143]:
+            - img [ref=e1144]
+          - generic [ref=e1146]:
+            - img "Высокопрочные лопасти из углеродного волокна, подходящие для горизонтальных ветряных турбин любого мощностного класса, а"
+          - generic [ref=e1147]:
+            - heading "Высокопрочные лопасти из углеродного волокна, подходящие для горизонтальных ветряных турбин любого мощностного класса, а" [level=3] [ref=e1148]
+            - generic [ref=e1149]:
+              - generic [ref=e1150]:
+                - generic [ref=e1151]: ★
+                - generic [ref=e1152]: ★
+                - generic [ref=e1153]: ★
+                - generic [ref=e1154]: ★
+                - generic [ref=e1155]: ★
+              - generic [ref=e1156]: "4.5"
+            - generic [ref=e1157]:
+              - generic [ref=e1158]: 6 585 ₽
+              - generic [ref=e1159]: 14 633 ₽
+            - generic [ref=e1160]: 🔥 171 человек смотрят сейчас
+            - generic [ref=e1161]: ⏰ Скидка действует ещё 23 часов
+            - generic [ref=e1162]:
+              - img [ref=e1163]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1165]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012112445916.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1166]
+              - text: На AliExpress →
+            - paragraph [ref=e1170]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1171]: 📤 Поделиться
+        - generic [ref=e1172] [cursor=pointer]:
+          - generic [ref=e1173]: "-55%"
+          - button "В избранное" [ref=e1174]:
+            - img [ref=e1175]
+          - generic [ref=e1177]:
+            - img "SMT микромотор MARATHON Machine N3 + 35000 об/мин 45000 об/мин, Электрический микромотор, наконечник типа E"
+          - generic [ref=e1178]:
+            - heading "SMT микромотор MARATHON Machine N3 + 35000 об/мин 45000 об/мин, Электрический микромотор, наконечник типа E" [level=3] [ref=e1179]
+            - generic [ref=e1180]:
+              - generic [ref=e1181]:
+                - generic [ref=e1182]: ★
+                - generic [ref=e1183]: ★
+                - generic [ref=e1184]: ★
+                - generic [ref=e1185]: ★
+                - generic [ref=e1186]: ★
+              - generic [ref=e1187]: "4.5"
+            - generic [ref=e1188]:
+              - generic [ref=e1189]: 6 261 ₽
+              - generic [ref=e1190]: 13 914 ₽
+            - generic [ref=e1191]: 🔥 85 человек смотрят сейчас
+            - generic [ref=e1192]: ⏰ Скидка действует ещё 21 часов
+            - generic [ref=e1193]:
+              - img [ref=e1194]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1196]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005002239215051.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1197]
+              - text: На AliExpress →
+            - paragraph [ref=e1201]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1202]: 📤 Поделиться
+        - generic [ref=e1203] [cursor=pointer]:
+          - generic [ref=e1204]: "-54%"
+          - button "В избранное" [ref=e1205]:
+            - img [ref=e1206]
+          - generic [ref=e1208]:
+            - img "Регулируемый источник питания постоянного тока KUAIQU 30В 10А 5А, 4-разрядный энкодер-регулятор, переменный регулируемый"
+          - generic [ref=e1209]:
+            - heading "Регулируемый источник питания постоянного тока KUAIQU 30В 10А 5А, 4-разрядный энкодер-регулятор, переменный регулируемый" [level=3] [ref=e1210]
+            - generic [ref=e1211]:
+              - generic [ref=e1212]:
+                - generic [ref=e1213]: ★
+                - generic [ref=e1214]: ★
+                - generic [ref=e1215]: ★
+                - generic [ref=e1216]: ★
+                - generic [ref=e1217]: ★
+              - generic [ref=e1218]: "4.5"
+            - generic [ref=e1219]:
+              - generic [ref=e1220]: 6 110 ₽
+              - generic [ref=e1221]: 13 282 ₽
+            - generic [ref=e1222]: 🔥 93 человек смотрят сейчас
+            - generic [ref=e1223]: ⏰ Скидка действует ещё 41 часов
+            - generic [ref=e1224]:
+              - img [ref=e1225]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1227]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011793461267.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1228]
+              - text: На AliExpress →
+            - paragraph [ref=e1232]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1233]: 📤 Поделиться
+        - generic [ref=e1234] [cursor=pointer]:
+          - generic [ref=e1235]: "-54%"
+          - button "В избранное" [ref=e1236]:
+            - img [ref=e1237]
+          - generic [ref=e1239]:
+            - img "Настенный кронштейн ETERFANT для мониторов пациентов больницы с отверстиями 90*55 мм для SNP9000N/PM12F/PM15B"
+          - generic [ref=e1240]:
+            - heading "Настенный кронштейн ETERFANT для мониторов пациентов больницы с отверстиями 90*55 мм для SNP9000N/PM12F/PM15B" [level=3] [ref=e1241]
+            - generic [ref=e1242]:
+              - generic [ref=e1243]:
+                - generic [ref=e1244]: ★
+                - generic [ref=e1245]: ★
+                - generic [ref=e1246]: ★
+                - generic [ref=e1247]: ★
+                - generic [ref=e1248]: ★
+              - generic [ref=e1249]: "4.5"
+            - generic [ref=e1250]:
+              - generic [ref=e1251]: 6 893 ₽
+              - generic [ref=e1252]: 14 985 ₽
+            - generic [ref=e1253]: 🔥 142 человек смотрят сейчас
+            - generic [ref=e1254]: ⏰ Скидка действует ещё 45 часов
+            - generic [ref=e1255]:
+              - img [ref=e1256]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1258]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010257153387.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1259]
+              - text: На AliExpress →
+            - paragraph [ref=e1263]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1264]: 📤 Поделиться
+        - generic [ref=e1265] [cursor=pointer]:
+          - generic [ref=e1266]: "-54%"
+          - button "В избранное" [ref=e1267]:
+            - img [ref=e1268]
+          - generic [ref=e1270]:
+            - img "Стоматологический эндодонтический апекслокатор AG с автоматической калибровкой, звуковым оповещением и 3,2-дюймовым ЖК-э"
+          - generic [ref=e1271]:
+            - heading "Стоматологический эндодонтический апекслокатор AG с автоматической калибровкой, звуковым оповещением и 3,2-дюймовым ЖК-э" [level=3] [ref=e1272]
+            - generic [ref=e1273]:
+              - generic [ref=e1274]:
+                - generic [ref=e1275]: ★
+                - generic [ref=e1276]: ★
+                - generic [ref=e1277]: ★
+                - generic [ref=e1278]: ★
+                - generic [ref=e1279]: ★
+              - generic [ref=e1280]: "4.5"
+            - generic [ref=e1281]:
+              - generic [ref=e1282]: 6 952 ₽
+              - generic [ref=e1283]: 15 113 ₽
+            - generic [ref=e1284]: 🔥 123 человек смотрят сейчас
+            - generic [ref=e1285]: ⏰ Скидка действует ещё 39 часов
+            - generic [ref=e1286]:
+              - img [ref=e1287]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1289]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012169350729.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1290]
+              - text: На AliExpress →
+            - paragraph [ref=e1294]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1295]: 📤 Поделиться
+        - generic [ref=e1296] [cursor=pointer]:
+          - generic [ref=e1297]: "-54%"
+          - button "В избранное" [ref=e1298]:
+            - img [ref=e1299]
+          - generic [ref=e1301]:
+            - img "Вращающаяся подставка для косметики, органайзер с поворотом на 360 градусов, прозрачный контейнер для хранения помады и"
+          - generic [ref=e1302]:
+            - heading "Вращающаяся подставка для косметики, органайзер с поворотом на 360 градусов, прозрачный контейнер для хранения помады и" [level=3] [ref=e1303]
+            - generic [ref=e1304]:
+              - generic [ref=e1305]:
+                - generic [ref=e1306]: ★
+                - generic [ref=e1307]: ★
+                - generic [ref=e1308]: ★
+                - generic [ref=e1309]: ★
+                - generic [ref=e1310]: ★
+              - generic [ref=e1311]: "4.5"
+            - generic [ref=e1312]:
+              - generic [ref=e1313]: 6 496 ₽
+              - generic [ref=e1314]: 13 985 ₽
+            - generic [ref=e1315]: 🔥 121 человек смотрят сейчас
+            - generic [ref=e1316]: ⏰ Скидка действует ещё 26 часов
+            - generic [ref=e1317]:
+              - img [ref=e1318]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1320]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012304295278.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1321]
+              - text: На AliExpress →
+            - paragraph [ref=e1325]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1326]: 📤 Поделиться
+        - generic [ref=e1327] [cursor=pointer]:
+          - generic [ref=e1328]: "-54%"
+          - button "В избранное" [ref=e1329]:
+            - img [ref=e1330]
+          - generic [ref=e1332]:
+            - img "Стоматологический эндодонтический апекслокатор AG с автоматической калибровкой, звуковым оповещением и 3,2-дюймовым ЖК-э"
+          - generic [ref=e1333]:
+            - heading "Стоматологический эндодонтический апекслокатор AG с автоматической калибровкой, звуковым оповещением и 3,2-дюймовым ЖК-э" [level=3] [ref=e1334]
+            - generic [ref=e1335]:
+              - generic [ref=e1336]:
+                - generic [ref=e1337]: ★
+                - generic [ref=e1338]: ★
+                - generic [ref=e1339]: ★
+                - generic [ref=e1340]: ★
+                - generic [ref=e1341]: ★
+              - generic [ref=e1342]: "4.5"
+            - generic [ref=e1343]:
+              - generic [ref=e1344]: 6 908 ₽
+              - generic [ref=e1345]: 15 018 ₽
+            - generic [ref=e1346]: 🔥 165 человек смотрят сейчас
+            - generic [ref=e1347]: ⏰ Скидка действует ещё 32 часов
+            - generic [ref=e1348]:
+              - img [ref=e1349]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1351]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012161346423.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1352]
+              - text: На AliExpress →
+            - paragraph [ref=e1356]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1357]: 📤 Поделиться
+        - generic [ref=e1358] [cursor=pointer]:
+          - generic [ref=e1359]: "-53%"
+          - button "В избранное" [ref=e1360]:
+            - img [ref=e1361]
+          - generic [ref=e1363]:
+            - img "SOECOPO 600 Вт с БЕСПЛАТНЫМ контроллером 100 А, комплект портативных солнечных панелей, 2*300 Вт, солнечные панели посто"
+          - generic [ref=e1364]:
+            - heading "SOECOPO 600 Вт с БЕСПЛАТНЫМ контроллером 100 А, комплект портативных солнечных панелей, 2*300 Вт, солнечные панели посто" [level=3] [ref=e1365]
+            - generic [ref=e1366]:
+              - generic [ref=e1367]:
+                - generic [ref=e1368]: ★
+                - generic [ref=e1369]: ★
+                - generic [ref=e1370]: ★
+                - generic [ref=e1371]: ★
+                - generic [ref=e1372]: ★
+              - generic [ref=e1373]: "4.5"
+            - generic [ref=e1374]:
+              - generic [ref=e1375]: 6 112 ₽
+              - generic [ref=e1376]: 13 127 ₽
+            - generic [ref=e1377]: 🔥 173 человек смотрят сейчас
+            - generic [ref=e1378]: ⏰ Скидка действует ещё 17 часов
+            - generic [ref=e1379]:
+              - img [ref=e1380]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1382]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009919490834.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1383]
+              - text: На AliExpress →
+            - paragraph [ref=e1387]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1388]: 📤 Поделиться
+        - generic [ref=e1389] [cursor=pointer]:
+          - generic [ref=e1390]: "-53%"
+          - button "В избранное" [ref=e1391]:
+            - img [ref=e1392]
+          - generic [ref=e1394]:
+            - img "Регулируемый импульсный источник питания с цифровым дисплеем 1500 Вт AC/DC 0-12 В 13,8 В 24 В 36 В 48 В 60 В 72 В 80 В 1"
+          - generic [ref=e1395]:
+            - heading "Регулируемый импульсный источник питания с цифровым дисплеем 1500 Вт AC/DC 0-12 В 13,8 В 24 В 36 В 48 В 60 В 72 В 80 В 1" [level=3] [ref=e1396]
+            - generic [ref=e1397]:
+              - generic [ref=e1398]:
+                - generic [ref=e1399]: ★
+                - generic [ref=e1400]: ★
+                - generic [ref=e1401]: ★
+                - generic [ref=e1402]: ★
+                - generic [ref=e1403]: ★
+              - generic [ref=e1404]: "4.5"
+            - generic [ref=e1405]:
+              - generic [ref=e1406]: 6 199 ₽
+              - generic [ref=e1407]: 13 189 ₽
+            - generic [ref=e1408]: 🔥 197 человек смотрят сейчас
+            - generic [ref=e1409]: ⏰ Скидка действует ещё 33 часов
+            - generic [ref=e1410]:
+              - img [ref=e1411]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1413]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009056629525.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1414]
+              - text: На AliExpress →
+            - paragraph [ref=e1418]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1419]: 📤 Поделиться
+        - generic [ref=e1420] [cursor=pointer]:
+          - generic [ref=e1421]: "-53%"
+          - button "В избранное" [ref=e1422]:
+            - img [ref=e1423]
+          - generic [ref=e1425]:
+            - img "Регулируемый источник питания KUAIQU LAB, регулируемый 0-120 В, 0-10 А с выходом OCP OVP, для экспериментального тестиро"
+          - generic [ref=e1426]:
+            - heading "Регулируемый источник питания KUAIQU LAB, регулируемый 0-120 В, 0-10 А с выходом OCP OVP, для экспериментального тестиро" [level=3] [ref=e1427]
+            - generic [ref=e1428]:
+              - generic [ref=e1429]:
+                - generic [ref=e1430]: ★
+                - generic [ref=e1431]: ★
+                - generic [ref=e1432]: ★
+                - generic [ref=e1433]: ★
+                - generic [ref=e1434]: ★
+              - generic [ref=e1435]: "4.5"
+            - generic [ref=e1436]:
+              - generic [ref=e1437]: 6 381 ₽
+              - generic [ref=e1438]: 13 576 ₽
+            - generic [ref=e1439]: 🔥 72 человек смотрят сейчас
+            - generic [ref=e1440]: ⏰ Скидка действует ещё 46 часов
+            - generic [ref=e1441]:
+              - img [ref=e1442]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1444]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010642169541.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1445]
+              - text: На AliExpress →
+            - paragraph [ref=e1449]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1450]: 📤 Поделиться
+        - generic [ref=e1451] [cursor=pointer]:
+          - generic [ref=e1452]: "-52%"
+          - button "В избранное" [ref=e1453]:
+            - img [ref=e1454]
+          - generic [ref=e1456]:
+            - img "Система электрообслуживания и мониторинга ABB CM-MSS.23S для промышленного оборудования обеспечивает диагностику в реаль"
+          - generic [ref=e1457]:
+            - heading "Система электрообслуживания и мониторинга ABB CM-MSS.23S для промышленного оборудования обеспечивает диагностику в реаль" [level=3] [ref=e1458]
+            - generic [ref=e1459]:
+              - generic [ref=e1460]:
+                - generic [ref=e1461]: ★
+                - generic [ref=e1462]: ★
+                - generic [ref=e1463]: ★
+                - generic [ref=e1464]: ★
+                - generic [ref=e1465]: ★
+              - generic [ref=e1466]: "4.5"
+            - generic [ref=e1467]:
+              - generic [ref=e1468]: 6 471 ₽
+              - generic [ref=e1469]: 13 482 ₽
+            - generic [ref=e1470]: 🔥 53 человек смотрят сейчас
+            - generic [ref=e1471]: ⏰ Скидка действует ещё 38 часов
+            - generic [ref=e1472]:
+              - img [ref=e1473]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1475]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010341516100.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1476]
+              - text: На AliExpress →
+            - paragraph [ref=e1480]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1481]: 📤 Поделиться
+        - generic [ref=e1482] [cursor=pointer]:
+          - generic [ref=e1483]: "-52%"
+          - button "В избранное" [ref=e1484]:
+            - img [ref=e1485]
+          - generic [ref=e1487]:
+            - img "Инвертор Fonsoul 800W с чистой синусоидой, высокочастотный, 12В в 220В, 50Гц, с высокой эффективностью преобразования, у"
+          - generic [ref=e1488]:
+            - heading "Инвертор Fonsoul 800W с чистой синусоидой, высокочастотный, 12В в 220В, 50Гц, с высокой эффективностью преобразования, у" [level=3] [ref=e1489]
+            - generic [ref=e1490]:
+              - generic [ref=e1491]:
+                - generic [ref=e1492]: ★
+                - generic [ref=e1493]: ★
+                - generic [ref=e1494]: ★
+                - generic [ref=e1495]: ★
+                - generic [ref=e1496]: ★
+              - generic [ref=e1497]: "4.5"
+            - generic [ref=e1498]:
+              - generic [ref=e1499]: 6 105 ₽
+              - generic [ref=e1500]: 12 719 ₽
+            - generic [ref=e1501]: 🔥 127 человек смотрят сейчас
+            - generic [ref=e1502]: ⏰ Скидка действует ещё 12 часов
+            - generic [ref=e1503]:
+              - img [ref=e1504]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1506]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011802729787.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1507]
+              - text: На AliExpress →
+            - paragraph [ref=e1511]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1512]: 📤 Поделиться
+        - generic [ref=e1513] [cursor=pointer]:
+          - generic [ref=e1514]: "-52%"
+          - button "В избранное" [ref=e1515]:
+            - img [ref=e1516]
+          - generic [ref=e1518]:
+            - img "Солнечный 4G LTE модем-роутер с аккумулятором 18000 мАч, чипом ASR, водонепроницаемостью IP66, 300 Мбит/с, солнечный Wi-"
+          - generic [ref=e1519]:
+            - heading "Солнечный 4G LTE модем-роутер с аккумулятором 18000 мАч, чипом ASR, водонепроницаемостью IP66, 300 Мбит/с, солнечный Wi-" [level=3] [ref=e1520]
+            - generic [ref=e1521]:
+              - generic [ref=e1522]:
+                - generic [ref=e1523]: ★
+                - generic [ref=e1524]: ★
+                - generic [ref=e1525]: ★
+                - generic [ref=e1526]: ★
+                - generic [ref=e1527]: ★
+              - generic [ref=e1528]: "4.5"
+            - generic [ref=e1529]:
+              - generic [ref=e1530]: 6 704 ₽
+              - generic [ref=e1531]: 13 965 ₽
+            - generic [ref=e1532]: 🔥 87 человек смотрят сейчас
+            - generic [ref=e1533]: ⏰ Скидка действует ещё 48 часов
+            - generic [ref=e1534]:
+              - img [ref=e1535]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1537]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011757127164.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1538]
+              - text: На AliExpress →
+            - paragraph [ref=e1542]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1543]: 📤 Поделиться
+        - generic [ref=e1544] [cursor=pointer]:
+          - generic [ref=e1545]: "-52%"
+          - button "В избранное" [ref=e1546]:
+            - img [ref=e1547]
+          - generic [ref=e1549]:
+            - img "Портативная стоматологическая фотолампа JUMTOP с функцией Bluetooth, 5-ступенчатая регулировка яркости"
+          - generic [ref=e1550]:
+            - heading "Портативная стоматологическая фотолампа JUMTOP с функцией Bluetooth, 5-ступенчатая регулировка яркости" [level=3] [ref=e1551]
+            - generic [ref=e1552]:
+              - generic [ref=e1553]:
+                - generic [ref=e1554]: ★
+                - generic [ref=e1555]: ★
+                - generic [ref=e1556]: ★
+                - generic [ref=e1557]: ★
+                - generic [ref=e1558]: ★
+              - generic [ref=e1559]: "4.5"
+            - generic [ref=e1560]:
+              - generic [ref=e1561]: 6 560 ₽
+              - generic [ref=e1562]: 13 667 ₽
+            - generic [ref=e1563]: 🔥 138 человек смотрят сейчас
+            - generic [ref=e1564]: ⏰ Скидка действует ещё 34 часов
+            - generic [ref=e1565]:
+              - img [ref=e1566]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1568]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012037769738.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1569]
+              - text: На AliExpress →
+            - paragraph [ref=e1573]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1574]: 📤 Поделиться
+        - generic [ref=e1575] [cursor=pointer]:
+          - generic [ref=e1576]: "-52%"
+          - button "В избранное" [ref=e1577]:
+            - img [ref=e1578]
+          - generic [ref=e1580]:
+            - img "Электрический ортодонтический мотор-наконечник для IPR (интепрочимального редукционного проксимального отбеливания) с си"
+          - generic [ref=e1581]:
+            - heading "Электрический ортодонтический мотор-наконечник для IPR (интепрочимального редукционного проксимального отбеливания) с си" [level=3] [ref=e1582]
+            - generic [ref=e1583]:
+              - generic [ref=e1584]:
+                - generic [ref=e1585]: ★
+                - generic [ref=e1586]: ★
+                - generic [ref=e1587]: ★
+                - generic [ref=e1588]: ★
+                - generic [ref=e1589]: ★
+              - generic [ref=e1590]: "4.5"
+            - generic [ref=e1591]:
+              - generic [ref=e1592]: 7 110 ₽
+              - generic [ref=e1593]: 14 811 ₽
+            - generic [ref=e1594]: 🔥 124 человек смотрят сейчас
+            - generic [ref=e1595]: ⏰ Скидка действует ещё 13 часов
+            - generic [ref=e1596]:
+              - img [ref=e1597]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1599]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011977008152.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1600]
+              - text: На AliExpress →
+            - paragraph [ref=e1604]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1605]: 📤 Поделиться
+        - generic [ref=e1606] [cursor=pointer]:
+          - generic [ref=e1607]: "-51%"
+          - button "В избранное" [ref=e1608]:
+            - img [ref=e1609]
+          - generic [ref=e1611]:
+            - img "LJL SMS GSM 4G LTE 8-канальное реле ВКЛ/ВЫКЛ для управления двигателем открывания ворот SM8-WLTE APP Пульт дистанционног"
+          - generic [ref=e1612]:
+            - heading "LJL SMS GSM 4G LTE 8-канальное реле ВКЛ/ВЫКЛ для управления двигателем открывания ворот SM8-WLTE APP Пульт дистанционног" [level=3] [ref=e1613]
+            - generic [ref=e1614]:
+              - generic [ref=e1615]:
+                - generic [ref=e1616]: ★
+                - generic [ref=e1617]: ★
+                - generic [ref=e1618]: ★
+                - generic [ref=e1619]: ★
+                - generic [ref=e1620]: ★
+              - generic [ref=e1621]: "4.5"
+            - generic [ref=e1622]:
+              - generic [ref=e1623]: 6 567 ₽
+              - generic [ref=e1624]: 13 402 ₽
+            - generic [ref=e1625]: 🔥 109 человек смотрят сейчас
+            - generic [ref=e1626]: ⏰ Скидка действует ещё 44 часов
+            - generic [ref=e1627]:
+              - img [ref=e1628]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1630]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009199533065.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1631]
+              - text: На AliExpress →
+            - paragraph [ref=e1635]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1636]: 📤 Поделиться
+        - generic [ref=e1637] [cursor=pointer]:
+          - generic [ref=e1638]: "-51%"
+          - button "В избранное" [ref=e1639]:
+            - img [ref=e1640]
+          - generic [ref=e1642]:
+            - img "A71P 1 шт. двойной синусоидальный инвертор в переменный ток 220 В USB PD3.0 преобразователь Power Bank Tpye-C с подсветк"
+          - generic [ref=e1643]:
+            - heading "A71P 1 шт. двойной синусоидальный инвертор в переменный ток 220 В USB PD3.0 преобразователь Power Bank Tpye-C с подсветк" [level=3] [ref=e1644]
+            - generic [ref=e1645]:
+              - generic [ref=e1646]:
+                - generic [ref=e1647]: ★
+                - generic [ref=e1648]: ★
+                - generic [ref=e1649]: ★
+                - generic [ref=e1650]: ★
+                - generic [ref=e1651]: ★
+              - generic [ref=e1652]: "4.5"
+            - generic [ref=e1653]:
+              - generic [ref=e1654]: 6 631 ₽
+              - generic [ref=e1655]: 13 533 ₽
+            - generic [ref=e1656]: 🔥 39 человек смотрят сейчас
+            - generic [ref=e1657]: ⏰ Скидка действует ещё 33 часов
+            - generic [ref=e1658]:
+              - img [ref=e1659]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1661]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009106198567.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1662]
+              - text: На AliExpress →
+            - paragraph [ref=e1666]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1667]: 📤 Поделиться
+        - generic [ref=e1668] [cursor=pointer]:
+          - generic [ref=e1669]: "-51%"
+          - button "В избранное" [ref=e1670]:
+            - img [ref=e1671]
+          - generic [ref=e1673]:
+            - img "VICTOR Mini DC Регулируемый источник питания 160 В/20 А/300 Вт с несколькими функциями защиты Программируемые инструмент"
+          - generic [ref=e1674]:
+            - heading "VICTOR Mini DC Регулируемый источник питания 160 В/20 А/300 Вт с несколькими функциями защиты Программируемые инструмент" [level=3] [ref=e1675]
+            - generic [ref=e1676]:
+              - generic [ref=e1677]:
+                - generic [ref=e1678]: ★
+                - generic [ref=e1679]: ★
+                - generic [ref=e1680]: ★
+                - generic [ref=e1681]: ★
+                - generic [ref=e1682]: ★
+              - generic [ref=e1683]: "4.5"
+            - generic [ref=e1684]:
+              - generic [ref=e1685]: 6 092 ₽
+              - generic [ref=e1686]: 12 432 ₽
+            - generic [ref=e1687]: 🔥 156 человек смотрят сейчас
+            - generic [ref=e1688]: ⏰ Скидка действует ещё 40 часов
+            - generic [ref=e1689]:
+              - img [ref=e1690]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1692]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010635326540.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1693]
+              - text: На AliExpress →
+            - paragraph [ref=e1697]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1698]: 📤 Поделиться
+        - generic [ref=e1699] [cursor=pointer]:
+          - generic [ref=e1700]: "-51%"
+          - button "В избранное" [ref=e1701]:
+            - img [ref=e1702]
+          - generic [ref=e1704]:
+            - 'img "HERA MK-019 Комплект для фотосъемки на смартфоне: вертикальные и горизонтальные фото, видео без бликов и макросъемка"'
+          - generic [ref=e1705]:
+            - 'heading "HERA MK-019 Комплект для фотосъемки на смартфоне: вертикальные и горизонтальные фото, видео без бликов и макросъемка" [level=3] [ref=e1706]'
+            - generic [ref=e1707]:
+              - generic [ref=e1708]:
+                - generic [ref=e1709]: ★
+                - generic [ref=e1710]: ★
+                - generic [ref=e1711]: ★
+                - generic [ref=e1712]: ★
+                - generic [ref=e1713]: ★
+              - generic [ref=e1714]: "4.5"
+            - generic [ref=e1715]:
+              - generic [ref=e1716]: 7 055 ₽
+              - generic [ref=e1717]: 14 399 ₽
+            - generic [ref=e1718]: 🔥 73 человек смотрят сейчас
+            - generic [ref=e1719]: ⏰ Скидка действует ещё 47 часов
+            - generic [ref=e1720]:
+              - img [ref=e1721]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1723]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012301823666.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e1724]
+              - text: На AliExpress →
+            - paragraph [ref=e1728]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1729]: 📤 Поделиться
+      - button "Показать ещё" [ref=e930] [cursor=pointer]
+    - generic [ref=e931]:
+      - heading "👁 Недавно смотрели" [level=2] [ref=e932]
+      - link "Новые стильные светящиеся в темноте кроссовки, очень легкие, идеально подходят для пар. Эти модные и универсальные кросс -79% Новые стильные светящиеся в те 6 087 ₽" [ref=e934] [cursor=pointer]:
+        - /url: /item/1.html
+        - img "Новые стильные светящиеся в темноте кроссовки, очень легкие, идеально подходят для пар. Эти модные и универсальные кросс" [ref=e935]
+        - generic [ref=e936]: "-79%"
+        - generic [ref=e937]: Новые стильные светящиеся в те
+        - generic [ref=e938]: 6 087 ₽
+  - generic [ref=e939]:
+    - generic [ref=e940]: ✓
+    - generic [ref=e941]: Добавлено в корзину
+  - generic [ref=e1734]:
+    - button [ref=e1735] [cursor=pointer]:
+      - img [ref=e1736]
+    - generic [ref=e1739]:
+      - generic [ref=e1740]:
+        - img "Регулируемый источник питания постоянного тока KUAIQU 30В 10А 5А, 4-разрядный энкодер-регулятор, переменный регулируемый"
+      - generic [ref=e1741]:
+        - generic [ref=e1742]: Экономия 54% — 7 172 ₽
+        - heading "Регулируемый источник питания постоянного тока KUAIQU 30В 10А 5А, 4-разрядный энкодер-регулятор, переменный регулируемый" [level=2] [ref=e1743]
+        - generic [ref=e1744]:
+          - generic [ref=e1745]:
+            - generic [ref=e1746]: ★
+            - generic [ref=e1747]: ★
+            - generic [ref=e1748]: ★
+            - generic [ref=e1749]: ★
+            - generic [ref=e1750]: ★
+          - generic [ref=e1751]: "4.5"
+        - generic [ref=e1752]:
+          - generic [ref=e1753]: 6 110 ₽
+          - generic [ref=e1754]: 13 282 ₽
+          - generic [ref=e1755]: Скидка 7 172 ₽
+        - generic [ref=e1756]:
+          - generic [ref=e1757]:
+            - generic [ref=e1758]: Тип
+            - generic [ref=e1759]: Electronics
+          - generic [ref=e1760]:
+            - generic [ref=e1761]: Совместимость
+            - generic [ref=e1762]: Универсальная
+          - generic [ref=e1763]:
+            - generic [ref=e1764]: Страна
+            - generic [ref=e1765]: Китай
+          - generic [ref=e1766]:
+            - generic [ref=e1767]: Комиссия
+            - generic [ref=e1768]: 0.00%
+        - generic [ref=e1769]:
+          - img [ref=e1770]
+          - text: Бесплатная доставка из Китая — 15-30 дней
+        - generic [ref=e1772]:
+          - link "Купить на AliExpress →" [ref=e1773] [cursor=pointer]:
+            - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011793461267.html&i=5&f_id=50005&subid=smartskidka
+          - paragraph [ref=e1774]: 💡 Партнёрская ссылка. Цена для вас не меняется — мы получаем небольшую комиссию от AliExpress.
+          - button "В избранное" [ref=e1775] [cursor=pointer]:
+            - img [ref=e1776]
+            - text: В избранное
+  - button "Наверх" [ref=e1730] [cursor=pointer]:
+    - img [ref=e1731]
+  - generic [ref=e943]:
+    - heading "Скидки на AliExpress до 90% — как это работает" [level=2] [ref=e944]
+    - paragraph [ref=e945]: SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Мы ежедневно обновляем каталог, чтобы вы всегда находили самые выгодные предложения на электронику, одежду, обувь, товары для дома и авто. Все цены указаны в рублях с учётом актуального курса Центробанка.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e946]
+    - paragraph [ref=e947]: Используйте наш поиск по товарам или 🔮 AI-поиск для подбора идеальных покупок. Добавляйте товары в избранное, чтобы вернуться к ним позже. Каждая карточка содержит реальный рейтинг, количество заказов и характеристики — никаких фейковых скидок.
+    - heading "1000+ товаров с бесплатной доставкой" [level=2] [ref=e948]
+    - paragraph [ref=e949]: В нашем каталоге более 1000 товаров с реальными скидками 20–90%. Все ссылки ведут напрямую на AliExpress через партнёрскую программу Admitad — вы получаете ту же цену, а мы небольшую комиссию за направление. Это позволяет нам поддерживать сервис и добавлять новые функции.
+  - contentinfo [ref=e950]:
+    - generic [ref=e951]:
+      - generic [ref=e952]:
+        - generic [ref=e953]: SmartSkidka.ru
+        - paragraph [ref=e954]: Лучшие скидки и промокоды на товары с AliExpress. Экономьте умнее!
+      - generic [ref=e955]:
+        - generic [ref=e956]:
+          - heading "Категории" [level=4] [ref=e957]
+          - link "Обувь" [ref=e958] [cursor=pointer]:
+            - /url: /shoes.html
+          - link "Электроника" [ref=e959] [cursor=pointer]:
+            - /url: /electronics.html
+          - link "Одежда" [ref=e960] [cursor=pointer]:
+            - /url: /clothing.html
+          - link "Товары для дома" [ref=e961] [cursor=pointer]:
+            - /url: /home.html
+          - link "Автотовары" [ref=e962] [cursor=pointer]:
+            - /url: /auto.html
+          - link "Красота" [ref=e963] [cursor=pointer]:
+            - /url: /beauty.html
+          - link "Украшения" [ref=e964] [cursor=pointer]:
+            - /url: /jewelry.html
+          - link "Спорт" [ref=e965] [cursor=pointer]:
+            - /url: /sports.html
+          - link "Игрушки" [ref=e966] [cursor=pointer]:
+            - /url: /toys.html
+        - generic [ref=e967]:
+          - heading "Информация" [level=4] [ref=e968]
+          - link "О нас" [ref=e969] [cursor=pointer]:
+            - /url: about.html
+          - link "Контакты" [ref=e970] [cursor=pointer]:
+            - /url: contact.html
+          - link "Политика конфиденциальности" [ref=e971] [cursor=pointer]:
+            - /url: privacy.html
+          - link "Условия использования" [ref=e972] [cursor=pointer]:
+            - /url: terms.html
+    - generic [ref=e973]:
+      - paragraph [ref=e974]: SmartSkidka.ru — не является магазином. Все товары продаются на AliExpress.
+      - paragraph [ref=e975]:
+        - link "📢 Скидки в Telegram — @SmartRuMarket" [ref=e976] [cursor=pointer]:
+          - /url: https://t.me/SmartRuMarket
+      - paragraph [ref=e977]: 2026 SmartSkidka.ru

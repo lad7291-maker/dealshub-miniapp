@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2026-05-27 10:27">
+  <shop>
+    <name>SmartSkidka.ru</name>
+    <company>SmartSkidka.ru</company>
+    <url>https://smart-skidka.ru/</url>
+    <platform>Custom</platform>
+    <version>1.0</version>
+    <agency>SmartSkidka.ru</agency>
+    <email>support@smart-skidka.ru</email>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Электроника</category>
+      <category id="2">Одежда</category>
+      <category id="3">Обувь</category>
+      <category id="4">Товары для дома</category>
+      <category id="5">Авто</category>
+      <category id="6">Красота</category>
+      <category id="7">Спорт</category>
+      <category id="8">Игрушки</category>
+      <category id="9">Украшения</category>
+    </categories>
+    <offers>
+      <offer id="1005002624944970" available="true">
+        <url>https://smart-skidka.ru/item/1005002624944970.html</url>
+        <price>1000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://smart-skidka.ru/icons/icon-512x512.png</picture>
+        <name>Товар со скидкой с AliExpress</name>
+        <description>Скидки до 90% на товары с AliExpress. Бесплатная доставка.</description>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>

@@ -1,0 +1,1067 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "SmartSkidka" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: Установите SmartSkidka
+      - generic [ref=e7]: Быстрый доступ к скидкам
+    - button "Установить" [ref=e8] [cursor=pointer]
+    - button "×" [ref=e9] [cursor=pointer]
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "Smart Skidka .ru" [ref=e12] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e14]
+        - generic [ref=e18]:
+          - generic [ref=e19]: Smart
+          - generic [ref=e20]: Skidka
+          - generic [ref=e21]: .ru
+      - generic [ref=e22]:
+        - img
+        - textbox "Поиск товаров..." [ref=e23]
+        - button "AI поиск" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+      - generic [ref=e27]:
+        - generic [ref=e28]: "AI-поиск: 3 из 3 осталось"
+        - button "Избранное" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+  - main [ref=e32]:
+    - generic [ref=e34]:
+      - generic [ref=e36]: 1000+ товаров со скидками до 90%
+      - heading "Лучшие скидки AliExpress" [level=1] [ref=e37]
+      - paragraph [ref=e38]: Экономьте до 90% на топовых товарах с бесплатной доставкой
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: 417+
+          - generic [ref=e42]: Товаров
+        - generic [ref=e43]:
+          - generic [ref=e44]: до 90%
+          - generic [ref=e45]: Скидки
+        - generic [ref=e46]:
+          - generic [ref=e47]: Бесплатно
+          - generic [ref=e48]: Доставка
+    - generic [ref=e49]:
+      - complementary [ref=e50]:
+        - heading "Категории" [level=3] [ref=e52]
+        - navigation [ref=e53]:
+          - button "⊞ Все" [ref=e1275] [cursor=pointer]:
+            - generic [ref=e1276]: ⊞ Все
+          - generic [ref=e1277]:
+            - button "💻 Электроника 5000" [ref=e1278] [cursor=pointer]:
+              - generic [ref=e1279]: 💻 Электроника
+              - generic [ref=e1280]: "5000"
+            - generic [ref=e1281]:
+              - button "Комплектующие" [ref=e1282] [cursor=pointer]
+              - button "Периферия" [ref=e1283] [cursor=pointer]
+              - button "Накопители" [ref=e1284] [cursor=pointer]
+              - button "Сетевое оборудование" [ref=e1285] [cursor=pointer]
+              - button "Планшеты" [ref=e1286] [cursor=pointer]
+              - button "Умная электроника" [ref=e1287] [cursor=pointer]
+          - generic [ref=e1288]:
+            - button "👕 Одежда 223" [ref=e1289] [cursor=pointer]:
+              - generic [ref=e1290]: 👕 Одежда
+              - generic [ref=e1291]: "223"
+            - generic:
+              - button "Рубашки" [ref=e1292] [cursor=pointer]
+              - button "Пуховики" [ref=e1293] [cursor=pointer]
+              - button "Сумки" [ref=e1294] [cursor=pointer]
+              - button "Рюкзаки" [ref=e1295] [cursor=pointer]
+              - button "Чемоданы" [ref=e1296] [cursor=pointer]
+              - button "Аксессуары" [ref=e1297] [cursor=pointer]
+          - generic [ref=e1298]:
+            - button "👟 Обувь 223" [ref=e1299] [cursor=pointer]:
+              - generic [ref=e1300]: 👟 Обувь
+              - generic [ref=e1301]: "223"
+            - generic:
+              - button "Кроссовки" [ref=e1302] [cursor=pointer]
+              - button "Женская обувь" [ref=e1303] [cursor=pointer]
+              - button "Мужская обувь" [ref=e1304] [cursor=pointer]
+          - generic [ref=e1305]:
+            - button "🏠 Дом 222" [ref=e1306] [cursor=pointer]:
+              - generic [ref=e1307]: 🏠 Дом
+              - generic [ref=e1308]: "222"
+            - generic:
+              - button "Товары для дома" [ref=e1309] [cursor=pointer]
+              - button "Кухня" [ref=e1310] [cursor=pointer]
+              - button "Ванная" [ref=e1311] [cursor=pointer]
+              - button "Стройматериалы" [ref=e1312] [cursor=pointer]
+          - generic [ref=e1313]:
+            - button "🚗 Авто 222" [ref=e1314] [cursor=pointer]:
+              - generic [ref=e1315]: 🚗 Авто
+              - generic [ref=e1316]: "222"
+            - generic:
+              - button "Двигатели" [ref=e1317] [cursor=pointer]
+              - button "Кузовные детали" [ref=e1318] [cursor=pointer]
+              - button "Автосвет" [ref=e1319] [cursor=pointer]
+              - button "Инструменты" [ref=e1320] [cursor=pointer]
+              - button "Мотоциклы" [ref=e1321] [cursor=pointer]
+          - generic [ref=e1322]:
+            - button "💄 Красота 222" [ref=e1323] [cursor=pointer]:
+              - generic [ref=e1324]: 💄 Красота
+              - generic [ref=e1325]: "222"
+            - generic:
+              - button "Стоматология" [ref=e1326] [cursor=pointer]
+              - button "Маникюр" [ref=e1327] [cursor=pointer]
+              - button "Уход за волосами" [ref=e1328] [cursor=pointer]
+              - button "Парфюм" [ref=e1329] [cursor=pointer]
+          - generic [ref=e1330]:
+            - button "⚽ Спорт 222" [ref=e1331] [cursor=pointer]:
+              - generic [ref=e1332]: ⚽ Спорт
+              - generic [ref=e1333]: "222"
+            - generic:
+              - button "Лыжи" [ref=e1334] [cursor=pointer]
+              - button "Спортивные сумки" [ref=e1335] [cursor=pointer]
+              - button "Активный отдых" [ref=e1336] [cursor=pointer]
+          - generic [ref=e1337]:
+            - button "💎 Украшения 222" [ref=e1338] [cursor=pointer]:
+              - generic [ref=e1339]: 💎 Украшения
+              - generic [ref=e1340]: "222"
+            - generic:
+              - button "Ювелирка" [ref=e1341] [cursor=pointer]
+              - button "Часы" [ref=e1342] [cursor=pointer]
+          - generic [ref=e1343]:
+            - button "🧸 Игрушки 222" [ref=e1344] [cursor=pointer]:
+              - generic [ref=e1345]: 🧸 Игрушки
+              - generic [ref=e1346]: "222"
+            - generic:
+              - button "Фигурки" [ref=e1347] [cursor=pointer]
+              - button "Конструкторы" [ref=e1348] [cursor=pointer]
+              - button "Р/У игрушки" [ref=e1349] [cursor=pointer]
+              - button "Игры и пазлы" [ref=e1350] [cursor=pointer]
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - button "Все" [ref=e2255] [cursor=pointer]
+          - button "Накопители" [ref=e2256] [cursor=pointer]
+          - button "Периферия" [ref=e2257] [cursor=pointer]
+          - button "Для ноутбука" [ref=e2258] [cursor=pointer]
+          - button "Сети" [ref=e2259] [cursor=pointer]
+          - button "Планшеты" [ref=e2260] [cursor=pointer]
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - button "Все скидки" [ref=e139] [cursor=pointer]
+              - button "30%+" [ref=e140] [cursor=pointer]
+              - button "50%+" [ref=e141] [cursor=pointer]
+              - button "70%+" [ref=e142] [cursor=pointer]
+              - button "90%+" [ref=e143] [cursor=pointer]
+            - generic [ref=e144]:
+              - generic [ref=e145]: "Цена:"
+              - spinbutton [ref=e146]
+              - generic [ref=e147]: —
+              - spinbutton [ref=e148]
+              - button "OK" [ref=e149] [cursor=pointer]
+            - combobox [ref=e151] [cursor=pointer]:
+              - option "По скидке" [selected]
+              - option "Сначала дешевые"
+              - option "Сначала дорогие"
+              - option "По заказам"
+          - generic [ref=e152]: 417 товаров
+        - generic [ref=e153]:
+          - heading "Подборки скидок" [level=2] [ref=e154]:
+            - img [ref=e155]
+            - text: Подборки скидок
+          - generic [ref=e157]:
+            - link "Скидки до 90% на электронику →" [ref=e158] [cursor=pointer]:
+              - /url: /electronics.html?filter=90
+              - img [ref=e160]
+              - generic [ref=e163]: Скидки до 90% на электронику
+              - generic [ref=e164]: →
+            - link "Топ одежды со скидками 70%+ →" [ref=e165] [cursor=pointer]:
+              - /url: /clothing.html?filter=70
+              - img [ref=e167]
+              - generic [ref=e169]: Топ одежды со скидками 70%+
+              - generic [ref=e170]: →
+            - link "Лучшие цены на кроссовки →" [ref=e171] [cursor=pointer]:
+              - /url: /shoes.html?filter=all
+              - img [ref=e173]
+              - generic [ref=e177]: Лучшие цены на кроссовки
+              - generic [ref=e178]: →
+            - link "Всё для дома до 1000₽ →" [ref=e179] [cursor=pointer]:
+              - /url: /home.html?filter=all
+              - img [ref=e181]
+              - generic [ref=e184]: Всё для дома до 1000₽
+              - generic [ref=e185]: →
+        - generic [ref=e186]:
+          - heading "Топ-10 за неделю" [level=2] [ref=e187]:
+            - img [ref=e188]
+            - text: Топ-10 за неделю
+          - generic [ref=e191]:
+            - link "1 Queen Heart 4ct Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry Queen Heart 4ct Moissanite Diamond Ring 9 177 ₽ -90%" [ref=e192] [cursor=pointer]:
+              - /url: /item/74279.html
+              - generic [ref=e193]: "1"
+              - img "Queen Heart 4ct Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry" [ref=e194]
+              - generic [ref=e195]:
+                - generic [ref=e196]: Queen Heart 4ct Moissanite Diamond Ring
+                - generic [ref=e197]: 9 177 ₽
+              - generic [ref=e198]: "-90%"
+            - link "2 CKT Real Vvs1 Diamond Water Droplet Ring for Women Pear Shape 18K Gold Mossum Stone Moissanite Rings Wedding Fine Jewelry Gift CKT Real Vvs1 Diamond Water Droplet Ring 9 135 ₽ -90%" [ref=e199] [cursor=pointer]:
+              - /url: /item/75091.html
+              - generic [ref=e200]: "2"
+              - img "CKT Real Vvs1 Diamond Water Droplet Ring for Women Pear Shape 18K Gold Mossum Stone Moissanite Rings Wedding Fine Jewelry Gift" [ref=e201]
+              - generic [ref=e202]:
+                - generic [ref=e203]: CKT Real Vvs1 Diamond Water Droplet Ring
+                - generic [ref=e204]: 9 135 ₽
+              - generic [ref=e205]: "-90%"
+            - link "3 CKT 18k Gold Cross Stud Earrings for Women Fashion D Color Moissanite Earrings Hip-hop American Wedding Fine Jewelry CKT 18k Gold Cross Stud Earrings for Wom 8 726 ₽ -90%" [ref=e206] [cursor=pointer]:
+              - /url: /item/75124.html
+              - generic [ref=e207]: "3"
+              - img "CKT 18k Gold Cross Stud Earrings for Women Fashion D Color Moissanite Earrings Hip-hop American Wedding Fine Jewelry" [ref=e208]
+              - generic [ref=e209]:
+                - generic [ref=e210]: CKT 18k Gold Cross Stud Earrings for Wom
+                - generic [ref=e211]: 8 726 ₽
+              - generic [ref=e212]: "-90%"
+            - link "4 CKT 0.5CT Moissanite Snowflake Inlaid Diamond 18k White Gold Stud Earrings for Women's Short Symmetrical Platinum Pt950 Earrings CKT 0.5CT Moissanite Snowflake Inlaid Di 8 999 ₽ -90%" [ref=e213] [cursor=pointer]:
+              - /url: /item/75285.html
+              - generic [ref=e214]: "4"
+              - img "CKT 0.5CT Moissanite Snowflake Inlaid Diamond 18k White Gold Stud Earrings for Women's Short Symmetrical Platinum Pt950 Earrings" [ref=e215]
+              - generic [ref=e216]:
+                - generic [ref=e217]: CKT 0.5CT Moissanite Snowflake Inlaid Di
+                - generic [ref=e218]: 8 999 ₽
+              - generic [ref=e219]: "-90%"
+            - link "5 Elegant Flower Moissanite Diamond Dangle Earring 100% Real 925 Sterling Silver Wedding Drop Earrings for Women Bridal Jewelry Elegant Flower Moissanite Diamond Dangle 8 076 ₽ -90%" [ref=e220] [cursor=pointer]:
+              - /url: /item/75294.html
+              - generic [ref=e221]: "5"
+              - img "Elegant Flower Moissanite Diamond Dangle Earring 100% Real 925 Sterling Silver Wedding Drop Earrings for Women Bridal Jewelry" [ref=e222]
+              - generic [ref=e223]:
+                - generic [ref=e224]: Elegant Flower Moissanite Diamond Dangle
+                - generic [ref=e225]: 8 076 ₽
+              - generic [ref=e226]: "-90%"
+            - link "6 2025 Fine 5Ct D Color Moissanite Diamond Ring 925 Sterling Silver Party Wedding Band Rings for Women Bridal Engagement Jewelry 2025 Fine 5Ct D Color Moissanite Diamond 8 271 ₽ -90%" [ref=e227] [cursor=pointer]:
+              - /url: /item/75550.html
+              - generic [ref=e228]: "6"
+              - img "2025 Fine 5Ct D Color Moissanite Diamond Ring 925 Sterling Silver Party Wedding Band Rings for Women Bridal Engagement Jewelry" [ref=e229]
+              - generic [ref=e230]:
+                - generic [ref=e231]: 2025 Fine 5Ct D Color Moissanite Diamond
+                - generic [ref=e232]: 8 271 ₽
+              - generic [ref=e233]: "-90%"
+            - link "7 Eternity Moissanite Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women men Fine Jewelry Gift Eternity Moissanite Diamond Ring 100% Or 8 076 ₽ -90%" [ref=e234] [cursor=pointer]:
+              - /url: /item/75653.html
+              - generic [ref=e235]: "7"
+              - img "Eternity Moissanite Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women men Fine Jewelry Gift" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Eternity Moissanite Diamond Ring 100% Or
+                - generic [ref=e239]: 8 076 ₽
+              - generic [ref=e240]: "-90%"
+            - link "8 Women Valentine's Day 18K White Gold Wedding Drop Earrings 1.12/2.12/4.12CT Moissanite Diamond PT950 Platinum Girl Birthday Gift Women Valentine's Day 18K White Gold Wed 8 005 ₽ -90%" [ref=e241] [cursor=pointer]:
+              - /url: /item/75739.html
+              - generic [ref=e242]: "8"
+              - img "Women Valentine's Day 18K White Gold Wedding Drop Earrings 1.12/2.12/4.12CT Moissanite Diamond PT950 Platinum Girl Birthday Gift" [ref=e243]
+              - generic [ref=e244]:
+                - generic [ref=e245]: Women Valentine's Day 18K White Gold Wed
+                - generic [ref=e246]: 8 005 ₽
+              - generic [ref=e247]: "-90%"
+            - link "9 Elegant 6ct Pink Sapphire Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women Party Jewelry Elegant 6ct Pink Sapphire Diamond Ring 1 8 076 ₽ -90%" [ref=e248] [cursor=pointer]:
+              - /url: /item/75819.html
+              - generic [ref=e249]: "9"
+              - img "Elegant 6ct Pink Sapphire Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women Party Jewelry" [ref=e250]
+              - generic [ref=e251]:
+                - generic [ref=e252]: Elegant 6ct Pink Sapphire Diamond Ring 1
+                - generic [ref=e253]: 8 076 ₽
+              - generic [ref=e254]: "-90%"
+            - link "10 Oval Cut 3ct Gemstones Diamond Ring 100% Original 925 sterling silver Wedding band Rings for Women Men Engagement Jewelry Gift Oval Cut 3ct Gemstones Diamond Ring 100% 8 076 ₽ -90%" [ref=e255] [cursor=pointer]:
+              - /url: /item/75824.html
+              - generic [ref=e256]: "10"
+              - img "Oval Cut 3ct Gemstones Diamond Ring 100% Original 925 sterling silver Wedding band Rings for Women Men Engagement Jewelry Gift" [ref=e257]
+              - generic [ref=e258]:
+                - generic [ref=e259]: Oval Cut 3ct Gemstones Diamond Ring 100%
+                - generic [ref=e260]: 8 076 ₽
+              - generic [ref=e261]: "-90%"
+        - link "AliExpress RU&CIS" [ref=e263] [cursor=pointer]:
+          - /url: https://rzekl.com/g/1e8d114494fb6bf3968616525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Faliexpress.ru%252F&subid=smartskidka_banner
+          - img "AliExpress RU&CIS" [ref=e264]
+        - generic [ref=e265]:
+          - generic [ref=e266]:
+            - generic [ref=e2261] [cursor=pointer]:
+              - generic [ref=e2262]: "-77%"
+              - button "В избранное" [ref=e2263]:
+                - img [ref=e2264]
+              - generic [ref=e2266]:
+                - img "Hard Disk Oscoo SSD 128GB 256GB 512GB 1T for Macbook 2011 A1369 A1370 SSD Hard Disk 2010 A1369 A1370 Apple macbook SSD"
+              - generic [ref=e2267]:
+                - heading "Hard Disk Oscoo SSD 128GB 256GB 512GB 1T for Macbook 2011 A1369 A1370 SSD Hard Disk 2010 A1369 A1370 Apple macbook SSD" [level=3] [ref=e2268]
+                - generic [ref=e2269]:
+                  - generic [ref=e2270]: 8 464 ₽
+                  - generic [ref=e2271]: 36 800 ₽
+                - generic [ref=e2273]:
+                  - img [ref=e2274]
+                  - text: 113 человек смотрят сейчас
+                - generic [ref=e2278]:
+                  - img [ref=e2279]
+                  - text: Скидка действует ещё 22 часов
+                - generic [ref=e2282]:
+                  - img [ref=e2283]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2285]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005007301441967.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2286]
+                  - text: На AliExpress →
+                - paragraph [ref=e2290]:
+                  - img [ref=e2291]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2293]:
+                  - img [ref=e2294]
+                  - text: Поделиться
+            - generic [ref=e2297] [cursor=pointer]:
+              - generic [ref=e2298]: "-73%"
+              - button "В избранное" [ref=e2299]:
+                - img [ref=e2300]
+              - generic [ref=e2302]:
+                - img "Hard Drive Dock SAS To USB 3.0 Adapter 5Gbps SAS/SATA Hard Drive Enclosure Support Up To 20TB for 2.5/3.5 in SATA/SAS HDD SSD"
+              - generic [ref=e2303]:
+                - heading "Hard Drive Dock SAS To USB 3.0 Adapter 5Gbps SAS/SATA Hard Drive Enclosure Support Up To 20TB for 2.5/3.5 in SATA/SAS HDD SSD" [level=3] [ref=e2304]
+                - generic [ref=e2305]:
+                  - generic [ref=e2306]: 8 746 ₽
+                  - generic [ref=e2307]: 32 394 ₽
+                - generic [ref=e2309]:
+                  - img [ref=e2310]
+                  - text: 54 человек смотрят сейчас
+                - generic [ref=e2314]:
+                  - img [ref=e2315]
+                  - text: Скидка действует ещё 34 часов
+                - generic [ref=e2318]:
+                  - img [ref=e2319]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2321]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012287265514.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2322]
+                  - text: На AliExpress →
+                - paragraph [ref=e2326]:
+                  - img [ref=e2327]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2329]:
+                  - img [ref=e2330]
+                  - text: Поделиться
+            - generic [ref=e2333] [cursor=pointer]:
+              - generic [ref=e2334]: "-73%"
+              - button "В избранное" [ref=e2335]:
+                - img [ref=e2336]
+              - generic [ref=e2338]:
+                - img "Hard Drive Dock SAS To USB 3.0 Adapter 5Gbps Reader Converter Docking Station Support Up To 20TB for 2.5/3.5 in SATA/SAS HDD SSD"
+              - generic [ref=e2339]:
+                - heading "Hard Drive Dock SAS To USB 3.0 Adapter 5Gbps Reader Converter Docking Station Support Up To 20TB for 2.5/3.5 in SATA/SAS HDD SSD" [level=3] [ref=e2340]
+                - generic [ref=e2341]:
+                  - generic [ref=e2342]: 8 746 ₽
+                  - generic [ref=e2343]: 32 394 ₽
+                - generic [ref=e2345]:
+                  - img [ref=e2346]
+                  - text: 100 человек смотрят сейчас
+                - generic [ref=e2350]:
+                  - img [ref=e2351]
+                  - text: Скидка действует ещё 48 часов
+                - generic [ref=e2354]:
+                  - img [ref=e2355]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2357]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012291722830.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2358]
+                  - text: На AliExpress →
+                - paragraph [ref=e2362]:
+                  - img [ref=e2363]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2365]:
+                  - img [ref=e2366]
+                  - text: Поделиться
+            - generic [ref=e2369] [cursor=pointer]:
+              - generic [ref=e2370]: "-73%"
+              - button "В избранное" [ref=e2371]:
+                - img [ref=e2372]
+              - generic [ref=e2374]:
+                - img "128GB High-Performance 800x PRO SD Card, UHS-I, C10, U3, V30, 4K, Up to 150MB/s Read, for Cameras & Camcorders"
+              - generic [ref=e2375]:
+                - heading "128GB High-Performance 800x PRO SD Card, UHS-I, C10, U3, V30, 4K, Up to 150MB/s Read, for Cameras & Camcorders" [level=3] [ref=e2376]
+                - generic [ref=e2378]: авто
+                - generic [ref=e2379]:
+                  - generic [ref=e2380]: 8 540 ₽
+                  - generic [ref=e2381]: 31 632 ₽
+                - generic [ref=e2383]:
+                  - img [ref=e2384]
+                  - text: 84 человек смотрят сейчас
+                - generic [ref=e2388]:
+                  - img [ref=e2389]
+                  - text: Скидка действует ещё 46 часов
+                - generic [ref=e2392]:
+                  - img [ref=e2393]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2395]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012320273666.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2396]
+                  - text: На AliExpress →
+                - paragraph [ref=e2400]:
+                  - img [ref=e2401]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2403]:
+                  - img [ref=e2404]
+                  - text: Поделиться
+            - generic [ref=e2407] [cursor=pointer]:
+              - generic [ref=e2408]: "-73%"
+              - button "В избранное" [ref=e2409]:
+                - img [ref=e2410]
+              - generic [ref=e2412]:
+                - img "3-in-1 CFexpress Type A B SD Card Reader CFexpress Reader with USB C To USB A/C 3-in-1 CFexpress Type B Card Readers for Windows"
+              - generic [ref=e2413]:
+                - heading "3-in-1 CFexpress Type A B SD Card Reader CFexpress Reader with USB C To USB A/C 3-in-1 CFexpress Type B Card Readers for Windows" [level=3] [ref=e2414]
+                - generic [ref=e2416]: авто
+                - generic [ref=e2417]:
+                  - generic [ref=e2418]: 8 406 ₽
+                  - generic [ref=e2419]: 31 134 ₽
+                - generic [ref=e2421]:
+                  - img [ref=e2422]
+                  - text: 149 человек смотрят сейчас
+                - generic [ref=e2426]:
+                  - img [ref=e2427]
+                  - text: Скидка действует ещё 37 часов
+                - generic [ref=e2430]:
+                  - img [ref=e2431]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2433]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012334216759.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2434]
+                  - text: На AliExpress →
+                - paragraph [ref=e2438]:
+                  - img [ref=e2439]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2441]:
+                  - img [ref=e2442]
+                  - text: Поделиться
+            - generic [ref=e2445] [cursor=pointer]:
+              - generic [ref=e2446]: "-73%"
+              - button "В избранное" [ref=e2447]:
+                - img [ref=e2448]
+              - generic [ref=e2450]:
+                - img "Hard Drive Dock USB3.0 To SATA External Hard Drive Docking Station SAS/SATA Hard Drive Enclosure for 2.5/3.5 in SATA/SAS HDD SSD"
+              - generic [ref=e2451]:
+                - heading "Hard Drive Dock USB3.0 To SATA External Hard Drive Docking Station SAS/SATA Hard Drive Enclosure for 2.5/3.5 in SATA/SAS HDD SSD" [level=3] [ref=e2452]
+                - generic [ref=e2453]:
+                  - generic [ref=e2454]: 8 746 ₽
+                  - generic [ref=e2455]: 32 394 ₽
+                - generic [ref=e2457]:
+                  - img [ref=e2458]
+                  - text: 121 человек смотрят сейчас
+                - generic [ref=e2462]:
+                  - img [ref=e2463]
+                  - text: Скидка действует ещё 13 часов
+                - generic [ref=e2466]:
+                  - img [ref=e2467]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2469]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012308296448.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2470]
+                  - text: На AliExpress →
+                - paragraph [ref=e2474]:
+                  - img [ref=e2475]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2477]:
+                  - img [ref=e2478]
+                  - text: Поделиться
+            - generic [ref=e2481] [cursor=pointer]:
+              - generic [ref=e2482]: "-73%"
+              - button "В избранное" [ref=e2483]:
+                - img [ref=e2484]
+              - generic [ref=e2486]:
+                - img "512GB SSD for MacBook Air NVMe PCle 3*4 TLC Solid State Drive Disk Apple SSD For MacBook Pro iMac Mac Pro Mini Capacity Upgrade"
+              - generic [ref=e2487]:
+                - heading "512GB SSD for MacBook Air NVMe PCle 3*4 TLC Solid State Drive Disk Apple SSD For MacBook Pro iMac Mac Pro Mini Capacity Upgrade" [level=3] [ref=e2488]
+                - generic [ref=e2489]:
+                  - generic [ref=e2490]: 8 446 ₽
+                  - generic [ref=e2491]: 31 280 ₽
+                - generic [ref=e2493]:
+                  - img [ref=e2494]
+                  - text: 118 человек смотрят сейчас
+                - generic [ref=e2498]:
+                  - img [ref=e2499]
+                  - text: Скидка действует ещё 22 часов
+                - generic [ref=e2502]:
+                  - img [ref=e2503]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2505]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005005998912278.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2506]
+                  - text: На AliExpress →
+                - paragraph [ref=e2510]:
+                  - img [ref=e2511]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2513]:
+                  - img [ref=e2514]
+                  - text: Поделиться
+            - generic [ref=e2517] [cursor=pointer]:
+              - generic [ref=e2518]: "-73%"
+              - button "В избранное" [ref=e2519]:
+                - img [ref=e2520]
+              - generic [ref=e2522]:
+                - img "SD Card 128GB 2-Pack UHS-I U1 Class 10 SDXC Memory Card High Speed Full HD Video for Camera"
+              - generic [ref=e2523]:
+                - heading "SD Card 128GB 2-Pack UHS-I U1 Class 10 SDXC Memory Card High Speed Full HD Video for Camera" [level=3] [ref=e2524]
+                - generic [ref=e2526]: авто
+                - generic [ref=e2527]:
+                  - generic [ref=e2528]: 9 101 ₽
+                  - generic [ref=e2529]: 33 706 ₽
+                - generic [ref=e2531]:
+                  - img [ref=e2532]
+                  - text: 170 человек смотрят сейчас
+                - generic [ref=e2536]:
+                  - img [ref=e2537]
+                  - text: Скидка действует ещё 19 часов
+                - generic [ref=e2540]:
+                  - img [ref=e2541]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2543]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012267704331.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2544]
+                  - text: На AliExpress →
+                - paragraph [ref=e2548]:
+                  - img [ref=e2549]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2551]:
+                  - img [ref=e2552]
+                  - text: Поделиться
+            - generic [ref=e2555] [cursor=pointer]:
+              - generic [ref=e2556]: "-72%"
+              - button "В избранное" [ref=e2557]:
+                - img [ref=e2558]
+              - generic [ref=e2560]:
+                - img "512GB Portable SSD with 2100MB/s Speed, USB-C & USB-A Compatible for Phones and Computers"
+              - generic [ref=e2561]:
+                - heading "512GB Portable SSD with 2100MB/s Speed, USB-C & USB-A Compatible for Phones and Computers" [level=3] [ref=e2562]
+                - generic [ref=e2564]: телефоны
+                - generic [ref=e2565]:
+                  - generic [ref=e2566]: 8 928 ₽
+                  - generic [ref=e2567]: 31 886 ₽
+                - generic [ref=e2569]:
+                  - img [ref=e2570]
+                  - text: 107 человек смотрят сейчас
+                - generic [ref=e2574]:
+                  - img [ref=e2575]
+                  - text: Скидка действует ещё 28 часов
+                - generic [ref=e2578]:
+                  - img [ref=e2579]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2581]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012065833462.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2582]
+                  - text: На AliExpress →
+                - paragraph [ref=e2586]:
+                  - img [ref=e2587]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2589]:
+                  - img [ref=e2590]
+                  - text: Поделиться
+            - generic [ref=e2593] [cursor=pointer]:
+              - generic [ref=e2594]: "-72%"
+              - button "В избранное" [ref=e2595]:
+                - img [ref=e2596]
+              - generic [ref=e2598]:
+                - img "512GB 2.5 Inch SATA III SSD for PC and Laptop, Up to 550MB/s, Ideal for Office, Students, Home Use"
+              - generic [ref=e2599]:
+                - heading "512GB 2.5 Inch SATA III SSD for PC and Laptop, Up to 550MB/s, Ideal for Office, Students, Home Use" [level=3] [ref=e2600]
+                - generic [ref=e2602]: ноутбуки
+                - generic [ref=e2603]:
+                  - generic [ref=e2604]: 8 928 ₽
+                  - generic [ref=e2605]: 31 886 ₽
+                - generic [ref=e2607]:
+                  - img [ref=e2608]
+                  - text: 67 человек смотрят сейчас
+                - generic [ref=e2612]:
+                  - img [ref=e2613]
+                  - text: Скидка действует ещё 47 часов
+                - generic [ref=e2616]:
+                  - img [ref=e2617]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2619]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012069026958.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2620]
+                  - text: На AliExpress →
+                - paragraph [ref=e2624]:
+                  - img [ref=e2625]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2627]:
+                  - img [ref=e2628]
+                  - text: Поделиться
+            - generic [ref=e2631] [cursor=pointer]:
+              - generic [ref=e2632]: "-72%"
+              - button "В избранное" [ref=e2633]:
+                - img [ref=e2634]
+              - generic [ref=e2636]:
+                - img "512GB SATA 3 SSD - Fast 550MB/s Read, 500MB/s Write, 2.5 Inch Internal Solid State Drive with 3-Year Warranty"
+              - generic [ref=e2637]:
+                - heading "512GB SATA 3 SSD - Fast 550MB/s Read, 500MB/s Write, 2.5 Inch Internal Solid State Drive with 3-Year Warranty" [level=3] [ref=e2638]
+                - generic [ref=e2639]:
+                  - generic [ref=e2640]: 8 432 ₽
+                  - generic [ref=e2641]: 30 114 ₽
+                - generic [ref=e2643]:
+                  - img [ref=e2644]
+                  - text: 73 человек смотрят сейчас
+                - generic [ref=e2648]:
+                  - img [ref=e2649]
+                  - text: Скидка действует ещё 46 часов
+                - generic [ref=e2652]:
+                  - img [ref=e2653]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2655]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012069300029.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2656]
+                  - text: На AliExpress →
+                - paragraph [ref=e2660]:
+                  - img [ref=e2661]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2663]:
+                  - img [ref=e2664]
+                  - text: Поделиться
+            - generic [ref=e2667] [cursor=pointer]:
+              - generic [ref=e2668]: "-72%"
+              - button "В избранное" [ref=e2669]:
+                - img [ref=e2670]
+              - generic [ref=e2672]:
+                - img "240GB SSD Internal Solid State Drive with 3D NAND, SLC Cache, and 7mm Slim Design for Fast Boot and Ultrabooks"
+              - generic [ref=e2673]:
+                - heading "240GB SSD Internal Solid State Drive with 3D NAND, SLC Cache, and 7mm Slim Design for Fast Boot and Ultrabooks" [level=3] [ref=e2674]
+                - generic [ref=e2675]:
+                  - generic [ref=e2676]: 8 531 ₽
+                  - generic [ref=e2677]: 30 469 ₽
+                - generic [ref=e2679]:
+                  - img [ref=e2680]
+                  - text: 200 человек смотрят сейчас
+                - generic [ref=e2684]:
+                  - img [ref=e2685]
+                  - text: Скидка действует ещё 41 часов
+                - generic [ref=e2688]:
+                  - img [ref=e2689]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2691]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012069206222.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2692]
+                  - text: На AliExpress →
+                - paragraph [ref=e2696]:
+                  - img [ref=e2697]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2699]:
+                  - img [ref=e2700]
+                  - text: Поделиться
+            - generic [ref=e2703] [cursor=pointer]:
+              - generic [ref=e2704]: "-72%"
+              - button "В избранное" [ref=e2705]:
+                - img [ref=e2706]
+              - generic [ref=e2708]:
+                - img "512GB Magnetic External SSD, 2000MB/s Speed, 4K ProRes Recording, Compatible with iPhone & Tablets"
+              - generic [ref=e2709]:
+                - heading "512GB Magnetic External SSD, 2000MB/s Speed, 4K ProRes Recording, Compatible with iPhone & Tablets" [level=3] [ref=e2710]
+                - generic [ref=e2712]: телефоны
+                - generic [ref=e2713]:
+                  - generic [ref=e2714]: 8 953 ₽
+                  - generic [ref=e2715]: 31 975 ₽
+                - generic [ref=e2717]:
+                  - img [ref=e2718]
+                  - text: 188 человек смотрят сейчас
+                - generic [ref=e2722]:
+                  - img [ref=e2723]
+                  - text: Скидка действует ещё 45 часов
+                - generic [ref=e2726]:
+                  - img [ref=e2727]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2729]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012065779717.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2730]
+                  - text: На AliExpress →
+                - paragraph [ref=e2734]:
+                  - img [ref=e2735]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2737]:
+                  - img [ref=e2738]
+                  - text: Поделиться
+            - generic [ref=e2741] [cursor=pointer]:
+              - generic [ref=e2742]: "-72%"
+              - button "В избранное" [ref=e2743]:
+                - img [ref=e2744]
+              - generic [ref=e2746]:
+                - img "64GB 2.5 PATA/IDE SSD for Old Laptop Desktop PC Upgrade, MLC Flash, Fast & Reliable"
+              - generic [ref=e2747]:
+                - heading "64GB 2.5 PATA/IDE SSD for Old Laptop Desktop PC Upgrade, MLC Flash, Fast & Reliable" [level=3] [ref=e2748]
+                - generic [ref=e2750]: ноутбуки
+                - generic [ref=e2751]:
+                  - generic [ref=e2752]: 8 928 ₽
+                  - generic [ref=e2753]: 31 886 ₽
+                - generic [ref=e2755]:
+                  - img [ref=e2756]
+                  - text: 44 человек смотрят сейчас
+                - generic [ref=e2760]:
+                  - img [ref=e2761]
+                  - text: Скидка действует ещё 14 часов
+                - generic [ref=e2764]:
+                  - img [ref=e2765]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2767]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012069252313.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2768]
+                  - text: На AliExpress →
+                - paragraph [ref=e2772]:
+                  - img [ref=e2773]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2775]:
+                  - img [ref=e2776]
+                  - text: Поделиться
+            - generic [ref=e2779] [cursor=pointer]:
+              - generic [ref=e2780]: "-72%"
+              - button "В избранное" [ref=e2781]:
+                - img [ref=e2782]
+              - generic [ref=e2784]:
+                - img "512GB SATA III SSD 2.5 Internal Solid State Drive Up to 560MB/s for Laptop PC Desktop Performance Boost"
+              - generic [ref=e2785]:
+                - heading "512GB SATA III SSD 2.5 Internal Solid State Drive Up to 560MB/s for Laptop PC Desktop Performance Boost" [level=3] [ref=e2786]
+                - generic [ref=e2788]: ноутбуки
+                - generic [ref=e2789]:
+                  - generic [ref=e2790]: 8 928 ₽
+                  - generic [ref=e2791]: 31 886 ₽
+                - generic [ref=e2793]:
+                  - img [ref=e2794]
+                  - text: 84 человек смотрят сейчас
+                - generic [ref=e2798]:
+                  - img [ref=e2799]
+                  - text: Скидка действует ещё 17 часов
+                - generic [ref=e2802]:
+                  - img [ref=e2803]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2805]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012065871256.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2806]
+                  - text: На AliExpress →
+                - paragraph [ref=e2810]:
+                  - img [ref=e2811]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2813]:
+                  - img [ref=e2814]
+                  - text: Поделиться
+            - generic [ref=e2817] [cursor=pointer]:
+              - generic [ref=e2818]: "-72%"
+              - button "В избранное" [ref=e2819]:
+                - img [ref=e2820]
+              - generic [ref=e2822]:
+                - img "512GB 2.5 SATA SSD, Internal Solid State Drive, Up to 560MB/s, Compatible with Laptop & PC Desktop"
+              - generic [ref=e2823]:
+                - heading "512GB 2.5 SATA SSD, Internal Solid State Drive, Up to 560MB/s, Compatible with Laptop & PC Desktop" [level=3] [ref=e2824]
+                - generic [ref=e2826]: ноутбуки
+                - generic [ref=e2827]:
+                  - generic [ref=e2828]: 8 034 ₽
+                  - generic [ref=e2829]: 28 694 ₽
+                - generic [ref=e2831]:
+                  - img [ref=e2832]
+                  - text: 112 человек смотрят сейчас
+                - generic [ref=e2836]:
+                  - img [ref=e2837]
+                  - text: Скидка действует ещё 20 часов
+                - generic [ref=e2840]:
+                  - img [ref=e2841]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2843]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012065829688.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2844]
+                  - text: На AliExpress →
+                - paragraph [ref=e2848]:
+                  - img [ref=e2849]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2851]:
+                  - img [ref=e2852]
+                  - text: Поделиться
+            - generic [ref=e2855] [cursor=pointer]:
+              - generic [ref=e2856]: "-72%"
+              - button "В избранное" [ref=e2857]:
+                - img [ref=e2858]
+              - generic [ref=e2860]:
+                - img "256GB Dual Drive USB-C & USB-A, 400MB/s Read, 360MB/s Write, Metal Swivel Design"
+              - generic [ref=e2861]:
+                - heading "256GB Dual Drive USB-C & USB-A, 400MB/s Read, 360MB/s Write, Metal Swivel Design" [level=3] [ref=e2862]
+                - generic [ref=e2863]:
+                  - generic [ref=e2864]: 8 258 ₽
+                  - generic [ref=e2865]: 29 492 ₽
+                - generic [ref=e2867]:
+                  - img [ref=e2868]
+                  - text: 172 человек смотрят сейчас
+                - generic [ref=e2872]:
+                  - img [ref=e2873]
+                  - text: Скидка действует ещё 39 часов
+                - generic [ref=e2876]:
+                  - img [ref=e2877]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2879]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012344978127.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2880]
+                  - text: На AliExpress →
+                - paragraph [ref=e2884]:
+                  - img [ref=e2885]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2887]:
+                  - img [ref=e2888]
+                  - text: Поделиться
+            - generic [ref=e2891] [cursor=pointer]:
+              - generic [ref=e2892]: "-70%"
+              - button "В избранное" [ref=e2893]:
+                - img [ref=e2894]
+              - generic [ref=e2896]:
+                - img "NVMe SSD 1TB PCIe Gen3x4 Internal Solid State Drive for Macbook Pro 3D NAND Disco Ssd 2TB SSD For Mini 2014 iMac Macbook Air"
+              - generic [ref=e2897]:
+                - heading "NVMe SSD 1TB PCIe Gen3x4 Internal Solid State Drive for Macbook Pro 3D NAND Disco Ssd 2TB SSD For Mini 2014 iMac Macbook Air" [level=3] [ref=e2898]
+                - generic [ref=e2899]:
+                  - generic [ref=e2900]: 8 390 ₽
+                  - generic [ref=e2901]: 27 968 ₽
+                - generic [ref=e2903]:
+                  - img [ref=e2904]
+                  - text: 93 человек смотрят сейчас
+                - generic [ref=e2908]:
+                  - img [ref=e2909]
+                  - text: Скидка действует ещё 38 часов
+                - generic [ref=e2912]:
+                  - img [ref=e2913]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2915]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005001386040523.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2916]
+                  - text: На AliExpress →
+                - paragraph [ref=e2920]:
+                  - img [ref=e2921]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2923]:
+                  - img [ref=e2924]
+                  - text: Поделиться
+            - generic [ref=e2927] [cursor=pointer]:
+              - generic [ref=e2928]: "-65%"
+              - button "В избранное" [ref=e2929]:
+                - img [ref=e2930]
+              - generic [ref=e2932]:
+                - img "512GB Dual USB 3.0 Type-C & A Portable Flash Drive, 2-in-1 USB-C Thumb Drive for Tablets & Computers, Black"
+              - generic [ref=e2933]:
+                - heading "512GB Dual USB 3.0 Type-C & A Portable Flash Drive, 2-in-1 USB-C Thumb Drive for Tablets & Computers, Black" [level=3] [ref=e2934]
+                - generic [ref=e2935]:
+                  - generic [ref=e2936]: 8 640 ₽
+                  - generic [ref=e2937]: 24 686 ₽
+                - generic [ref=e2939]:
+                  - img [ref=e2940]
+                  - text: 117 человек смотрят сейчас
+                - generic [ref=e2944]:
+                  - img [ref=e2945]
+                  - text: Скидка действует ещё 41 часов
+                - generic [ref=e2948]:
+                  - img [ref=e2949]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2951]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012313684600.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2952]
+                  - text: На AliExpress →
+                - paragraph [ref=e2956]:
+                  - img [ref=e2957]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2959]:
+                  - img [ref=e2960]
+                  - text: Поделиться
+            - generic [ref=e2963] [cursor=pointer]:
+              - generic [ref=e2964]: "-65%"
+              - button "В избранное" [ref=e2965]:
+                - img [ref=e2966]
+              - generic [ref=e2968]:
+                - img "512GB Dual-Port USB 3.0 Type-C & A Flash Drive, Portable 2-in-1 USB-C Thumb Drive for Tablets and Computers, Black"
+              - generic [ref=e2969]:
+                - heading "512GB Dual-Port USB 3.0 Type-C & A Flash Drive, Portable 2-in-1 USB-C Thumb Drive for Tablets and Computers, Black" [level=3] [ref=e2970]
+                - generic [ref=e2971]:
+                  - generic [ref=e2972]: 8 640 ₽
+                  - generic [ref=e2973]: 24 686 ₽
+                - generic [ref=e2975]:
+                  - img [ref=e2976]
+                  - text: 164 человек смотрят сейчас
+                - generic [ref=e2980]:
+                  - img [ref=e2981]
+                  - text: Скидка действует ещё 37 часов
+                - generic [ref=e2984]:
+                  - img [ref=e2985]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2987]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012309251640.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2988]
+                  - text: На AliExpress →
+                - paragraph [ref=e2992]:
+                  - img [ref=e2993]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2995]:
+                  - img [ref=e2996]
+                  - text: Поделиться
+            - generic [ref=e2999] [cursor=pointer]:
+              - generic [ref=e3000]: "-65%"
+              - button "В избранное" [ref=e3001]:
+                - img [ref=e3002]
+              - generic [ref=e3004]:
+                - img "512GB USB 3.1 Flash Drive 200MB/s Read - Compact & Fast"
+              - generic [ref=e3005]:
+                - heading "512GB USB 3.1 Flash Drive 200MB/s Read - Compact & Fast" [level=3] [ref=e3006]
+                - generic [ref=e3007]:
+                  - generic [ref=e3008]: 9 154 ₽
+                  - generic [ref=e3009]: 26 156 ₽
+                - generic [ref=e3011]:
+                  - img [ref=e3012]
+                  - text: 59 человек смотрят сейчас
+                - generic [ref=e3016]:
+                  - img [ref=e3017]
+                  - text: Скидка действует ещё 41 часов
+                - generic [ref=e3020]:
+                  - img [ref=e3021]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e3023]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012340882842.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e3024]
+                  - text: На AliExpress →
+                - paragraph [ref=e3028]:
+                  - img [ref=e3029]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e3031]:
+                  - img [ref=e3032]
+                  - text: Поделиться
+            - generic [ref=e3035] [cursor=pointer]:
+              - generic [ref=e3036]: "-65%"
+              - button "В избранное" [ref=e3037]:
+                - img [ref=e3038]
+              - generic [ref=e3040]:
+                - img "64GB 10-Pack USB 3.2 Flash Drives, 100MB/s Read Speed, Compatible with Computers/Laptops, Matte Black"
+              - generic [ref=e3041]:
+                - heading "64GB 10-Pack USB 3.2 Flash Drives, 100MB/s Read Speed, Compatible with Computers/Laptops, Matte Black" [level=3] [ref=e3042]
+                - generic [ref=e3044]: ноутбуки
+                - generic [ref=e3045]:
+                  - generic [ref=e3046]: 9 125 ₽
+                  - generic [ref=e3047]: 26 069 ₽
+                - generic [ref=e3049]:
+                  - img [ref=e3050]
+                  - text: 198 человек смотрят сейчас
+                - generic [ref=e3054]:
+                  - img [ref=e3055]
+                  - text: Скидка действует ещё 16 часов
+                - generic [ref=e3058]:
+                  - img [ref=e3059]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e3061]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012003221749.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e3062]
+                  - text: На AliExpress →
+                - paragraph [ref=e3066]:
+                  - img [ref=e3067]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e3069]:
+                  - img [ref=e3070]
+                  - text: Поделиться
+            - generic [ref=e3073] [cursor=pointer]:
+              - generic [ref=e3074]: "-65%"
+              - button "В избранное" [ref=e3075]:
+                - img [ref=e3076]
+              - generic [ref=e3078]:
+                - img "64GB USB Flash Drive for Automatic Photo & Video Backup, Compatible with iPhone, Android, Mac & PC"
+              - generic [ref=e3079]:
+                - heading "64GB USB Flash Drive for Automatic Photo & Video Backup, Compatible with iPhone, Android, Mac & PC" [level=3] [ref=e3080]
+                - generic [ref=e3081]:
+                  - generic [ref=e3082]: авто
+                  - generic [ref=e3083]: телефоны
+                - generic [ref=e3084]:
+                  - generic [ref=e3085]: 7 868 ₽
+                  - generic [ref=e3086]: 22 480 ₽
+                - generic [ref=e3088]:
+                  - img [ref=e3089]
+                  - text: 22 человек смотрят сейчас
+                - generic [ref=e3093]:
+                  - img [ref=e3094]
+                  - text: Скидка действует ещё 25 часов
+                - generic [ref=e3097]:
+                  - img [ref=e3098]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e3100]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012182824557.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e3101]
+                  - text: На AliExpress →
+                - paragraph [ref=e3105]:
+                  - img [ref=e3106]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e3108]:
+                  - img [ref=e3109]
+                  - text: Поделиться
+            - generic [ref=e3112] [cursor=pointer]:
+              - generic [ref=e3113]: "-65%"
+              - button "В избранное" [ref=e3114]:
+                - img [ref=e3115]
+              - generic [ref=e3117]:
+                - img "High-Speed 512GB USB 3.0 Flash Drive - 3-in-1 External Storage for Photos, Videos, Data Backup"
+              - generic [ref=e3118]:
+                - heading "High-Speed 512GB USB 3.0 Flash Drive - 3-in-1 External Storage for Photos, Videos, Data Backup" [level=3] [ref=e3119]
+                - generic [ref=e3120]:
+                  - generic [ref=e3121]: 8 037 ₽
+                  - generic [ref=e3122]: 22 964 ₽
+                - generic [ref=e3124]:
+                  - img [ref=e3125]
+                  - text: 67 человек смотрят сейчас
+                - generic [ref=e3129]:
+                  - img [ref=e3130]
+                  - text: Скидка действует ещё 31 часов
+                - generic [ref=e3133]:
+                  - img [ref=e3134]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e3136]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012221782846.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e3137]
+                  - text: На AliExpress →
+                - paragraph [ref=e3141]:
+                  - img [ref=e3142]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e3144]:
+                  - img [ref=e3145]
+                  - text: Поделиться
+          - button "Показать ещё" [ref=e1219] [cursor=pointer]
+        - generic [ref=e1220]:
+          - heading "Недавно смотрели" [level=2] [ref=e1221]:
+            - img [ref=e1222]
+            - text: Недавно смотрели
+          - link "Asics Men Basic Basketball Shoes 1063A090-600 Non-slip Wear Resistant Athletic Sneakers Outdoor Sports Training Footwear -84% Asics Men Basic Basketball Sho 8 024 ₽" [ref=e1226] [cursor=pointer]:
+            - /url: /item/1954.html
+            - img "Asics Men Basic Basketball Shoes 1063A090-600 Non-slip Wear Resistant Athletic Sneakers Outdoor Sports Training Footwear" [ref=e1227]
+            - generic [ref=e1228]: "-84%"
+            - generic [ref=e1229]: Asics Men Basic Basketball Sho
+            - generic [ref=e1230]: 8 024 ₽
+  - generic [ref=e1231]:
+    - generic [ref=e1232]: ✓
+    - generic [ref=e1233]: Готово
+  - generic [ref=e1235]:
+    - heading "Скидки на AliExpress до 90% — как это работает" [level=2] [ref=e1236]
+    - paragraph [ref=e1237]: SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Мы ежедневно обновляем каталог, чтобы вы всегда находили самые выгодные предложения на электронику, одежду, обувь, товары для дома и авто. Все цены указаны в рублях с учётом актуального курса Центробанка.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e1238]
+    - paragraph [ref=e1239]: Используйте наш поиск по товарам или AI-поиск для подбора идеальных покупок. Добавляйте товары в избранное, чтобы вернуться к ним позже. Каждая карточка содержит реальный рейтинг, количество заказов и характеристики — никаких фейковых скидок.
+    - heading "1000+ товаров с бесплатной доставкой" [level=2] [ref=e1240]
+    - paragraph [ref=e1241]: В нашем каталоге более 1000 товаров с реальными скидками 20–90%. Все ссылки ведут напрямую на AliExpress через партнёрскую программу Admitad — вы получаете ту же цену, а мы небольшую комиссию за направление. Это позволяет нам поддерживать сервис и добавлять новые функции.
+  - contentinfo [ref=e1242]:
+    - generic [ref=e1243]:
+      - generic [ref=e1244]:
+        - generic [ref=e1245]: SmartSkidka.ru
+        - paragraph [ref=e1246]: Лучшие скидки и промокоды на товары с AliExpress. Экономьте умнее!
+      - generic [ref=e1247]:
+        - generic [ref=e1248]:
+          - heading "Категории" [level=4] [ref=e1249]
+          - link "Обувь" [ref=e1250] [cursor=pointer]:
+            - /url: /shoes.html
+          - link "Электроника" [ref=e1251] [cursor=pointer]:
+            - /url: /electronics.html
+          - link "Товары для дома" [ref=e1252] [cursor=pointer]:
+            - /url: /home.html
+          - link "Автотовары" [ref=e1253] [cursor=pointer]:
+            - /url: /auto.html
+          - link "Красота" [ref=e1254] [cursor=pointer]:
+            - /url: /beauty.html
+          - link "Спорт" [ref=e1255] [cursor=pointer]:
+            - /url: /sports.html
+        - generic [ref=e1256]:
+          - heading "Информация" [level=4] [ref=e1257]
+          - link "О нас" [ref=e1258] [cursor=pointer]:
+            - /url: about.html
+          - link "Контакты" [ref=e1259] [cursor=pointer]:
+            - /url: contact.html
+          - link "Политика конфиденциальности" [ref=e1260] [cursor=pointer]:
+            - /url: privacy.html
+          - link "Условия использования" [ref=e1261] [cursor=pointer]:
+            - /url: terms.html
+    - generic [ref=e1262]:
+      - paragraph [ref=e1263]: SmartSkidka.ru — не является магазином. Все товары продаются на AliExpress.
+      - paragraph [ref=e1264]:
+        - img [ref=e1265]
+        - link "Скидки в Telegram — @SmartRuMarket" [ref=e1269] [cursor=pointer]:
+          - /url: https://t.me/SmartRuMarket
+      - paragraph [ref=e1270]: 2026 SmartSkidka.ru
+      - paragraph [ref=e1271]:
+        - link "ИКС сайта" [ref=e1272] [cursor=pointer]:
+          - /url: https://webmaster.yandex.ru/siteinfo/?site=https://smart-skidka.ru
+          - img "ИКС сайта" [ref=e1273]

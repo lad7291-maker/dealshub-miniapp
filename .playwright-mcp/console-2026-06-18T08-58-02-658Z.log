@@ -1,0 +1,7 @@
+[     112ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'speaker'. @ :0
+[     307ms] [LOG] [SW] Registered: https://smart-skidka.ru/ @ https://smart-skidka.ru/:226
+[     343ms] TypeError: all is not iterable
+    at renderTop10 (https://smart-skidka.ru/js/app.js?v=26:1333:23)
+    at HTMLDocument.<anonymous> (https://smart-skidka.ru/js/app.js?v=26:126:5)
+[     682ms] Failed to update a ServiceWorker for scope ('https://smart-skidka.ru/') with script ('Unknown'): Not found
+[    1271ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://smart-skidka.ru/:0

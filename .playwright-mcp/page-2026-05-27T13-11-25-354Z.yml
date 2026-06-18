@@ -1,0 +1,93 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "SmartSkidka.ru" [ref=e4] [cursor=pointer]:
+      - /url: /
+  - navigation "breadcrumb" [ref=e5]:
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link "Главная" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - text: ›
+      - listitem [ref=e9]:
+        - link "Электроника" [ref=e10] [cursor=pointer]:
+          - /url: /electronics.html
+        - text: ›
+      - listitem [ref=e11]: 12V to 24V DC power supply boost converter 12V lit...
+  - main [ref=e12]:
+    - img "12V to 24V DC power supply boost converter 12V liters 24V automotive power supply voltage regulator module waterproof booster" [ref=e14]
+    - generic [ref=e15]:
+      - text: "-0%"
+      - heading "12V to 24V DC power supply boost converter 12V liters 24V automotive power supply voltage regulator module waterproof booster" [level=1] [ref=e16]
+      - generic [ref=e17]: 3 ★ 0 заказов Электроника
+      - generic [ref=e18]: 8 770 ₽ 8 770 ₽ Экономия 0 ₽
+      - generic [ref=e19]: авто
+      - generic [ref=e20]:
+        - img [ref=e21]
+        - text: Бесплатная доставка из Китая — 15-30 дней
+      - generic [ref=e23]:
+        - link "Купить на AliExpress" [active] [ref=e24] [cursor=pointer]:
+          - /url: https://rzekl.com/g/1e8d114494fb6bf3968616525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Faliexpress.ru%252Fitem%252F1005002291450444.html%253Fpdp_npi%253D6%252540dis%252521USD%25252195.33%25252195.33%252521%252521%252521643.24%252521643.24%252521%2525402140d36117797500105827050e101c%25252112000019941305140%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002
+          - text: Купить на AliExpress
+          - img [ref=e25]
+        - paragraph [ref=e29]:
+          - img [ref=e30]
+          - text: Партнёрская ссылка. Цена для вас не меняется — мы получаем небольшую комиссию от AliExpress.
+        - link "← Все скидки" [ref=e32] [cursor=pointer]:
+          - /url: /
+  - generic [ref=e33]:
+    - heading "Описание" [level=2] [ref=e34]
+    - paragraph [ref=e35]: 12V to 24V DC power supply boost converter 12V liters 24V automotive power supply voltage regulator module waterproof booster — товар со скидкой 0% на AliExpress. Рейтинг 3⭐, 0 заказов. Бесплатная доставка.
+  - generic [ref=e36]:
+    - heading "Характеристики" [level=2] [ref=e37]
+    - generic [ref=e38]:
+      - term [ref=e39]: Тип
+      - definition [ref=e40]: Electrical Equipment & Supplies
+      - term [ref=e41]: Комиссия
+      - definition [ref=e42]: 5.38%
+      - term [ref=e43]: Магазин
+      - definition [ref=e44]: "ID: 5059041"
+  - generic [ref=e45]:
+    - heading "Похожие товары" [level=2] [ref=e46]
+    - generic [ref=e47]:
+      - link "Chainsaw Edging Sawmill Lumber Cutting Guide for Chainsaw Rail Bars Wood Metal Manual Cutting Attachment Woodworking -0% 7 872 ₽" [ref=e48] [cursor=pointer]:
+        - /url: /item/951.html
+        - img "Chainsaw Edging Sawmill Lumber Cutting Guide for Chainsaw Rail Bars Wood Metal Manual Cutting Attachment Woodworking" [ref=e49]
+        - generic [ref=e50]: "-0%"
+        - generic [ref=e51]: 7 872 ₽
+      - link "Pure Sine Wave Inverter 2000W 3000W 4000W DC 12V 24V 48V 60V 72V to AC 110V 220V Power Solar Car Inverters Doule Digital Display -35% 8 620 ₽" [ref=e52] [cursor=pointer]:
+        - /url: /item/31.html
+        - img "Pure Sine Wave Inverter 2000W 3000W 4000W DC 12V 24V 48V 60V 72V to AC 110V 220V Power Solar Car Inverters Doule Digital Display" [ref=e53]
+        - generic [ref=e54]: "-35%"
+        - generic [ref=e55]: 8 620 ₽
+      - link "Brand new FBs-1LC PLC module -0% 7 908 ₽" [ref=e56] [cursor=pointer]:
+        - /url: /item/255.html
+        - img "Brand new FBs-1LC PLC module" [ref=e57]
+        - generic [ref=e58]: "-0%"
+        - generic [ref=e59]: 7 908 ₽
+      - link "Second-hand test OK SICK Sensor WTV4-3N1322S01 -0% 8 011 ₽" [ref=e60] [cursor=pointer]:
+        - /url: /item/266.html
+        - img "Second-hand test OK SICK Sensor WTV4-3N1322S01" [ref=e61]
+        - generic [ref=e62]: "-0%"
+        - generic [ref=e63]: 8 011 ₽
+      - link "30V 10A DC Power Supply Adjustable USB Digit Display Lab Power Supplies Voltage Regulator 30V 60V 5A 120V 3A Metal anodizing -48% 8 478 ₽" [ref=e64] [cursor=pointer]:
+        - /url: /item/16.html
+        - img "30V 10A DC Power Supply Adjustable USB Digit Display Lab Power Supplies Voltage Regulator 30V 60V 5A 120V 3A Metal anodizing" [ref=e65]
+        - generic [ref=e66]: "-48%"
+        - generic [ref=e67]: 8 478 ₽
+      - link "1 pcs NP3020 M2 NP3020 M3 NP3020 M3 Server Memory 8GB ECC UDIMM RAM High Quality Fast Ship DDR3L 8G 1600 -15% 8 602 ₽" [ref=e68] [cursor=pointer]:
+        - /url: /item/85.html
+        - img "1 pcs NP3020 M2 NP3020 M3 NP3020 M3 Server Memory 8GB ECC UDIMM RAM High Quality Fast Ship DDR3L 8G 1600" [ref=e69]
+        - generic [ref=e70]: "-15%"
+        - generic [ref=e71]: 8 602 ₽
+      - link "57EH83 Hybrid Step-servo CL57 Driver Nema23 Closed Loop 4A 2.6N.M 57CME26 closed loop stepper motor driver for CNC -0% 7 995 ₽" [ref=e72] [cursor=pointer]:
+        - /url: /item/232.html
+        - img "57EH83 Hybrid Step-servo CL57 Driver Nema23 Closed Loop 4A 2.6N.M 57CME26 closed loop stepper motor driver for CNC" [ref=e73]
+        - generic [ref=e74]: "-0%"
+        - generic [ref=e75]: 7 995 ₽
+      - link "Second-hand test OK SICK barcode scanning controller CDB620-001 -0% 7 962 ₽" [ref=e76] [cursor=pointer]:
+        - /url: /item/222.html
+        - img "Second-hand test OK SICK barcode scanning controller CDB620-001" [ref=e77]
+        - generic [ref=e78]: "-0%"
+        - generic [ref=e79]: 7 962 ₽
+  - contentinfo [ref=e80]:
+    - paragraph [ref=e81]: SmartSkidka.ru — партнёрские ссылки AliExpress. Цены актуальны на момент публикации.

@@ -1,0 +1,211 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "Smart Skidka .ru" [ref=e12] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e14]
+        - generic [ref=e18]:
+          - generic [ref=e19]: Smart
+          - generic [ref=e20]: Skidka
+          - generic [ref=e21]: .ru
+      - generic [ref=e22]:
+        - img
+        - textbox "Поиск товаров..." [ref=e23]: наушники
+        - button "AI поиск" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+        - button [ref=e1279] [cursor=pointer]:
+          - img [ref=e1280]
+      - generic [ref=e27]:
+        - generic [ref=e28]: "AI-поиск: 3 из 3 осталось"
+        - button "Избранное" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+  - main [ref=e32]:
+    - generic [ref=e49]:
+      - complementary [ref=e50]:
+        - heading "Категории" [level=3] [ref=e52]
+        - navigation [ref=e53]:
+          - button "⊞ Все" [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]: ⊞ Все
+          - generic [ref=e57]:
+            - button "💻 Электроника 222" [ref=e58] [cursor=pointer]:
+              - generic [ref=e59]: 💻 Электроника
+              - generic [ref=e60]: "222"
+            - generic:
+              - button "Комплектующие" [ref=e61] [cursor=pointer]
+              - button "Периферия" [ref=e62] [cursor=pointer]
+              - button "Накопители" [ref=e63] [cursor=pointer]
+              - button "Сетевое оборудование" [ref=e64] [cursor=pointer]
+              - button "Планшеты" [ref=e65] [cursor=pointer]
+              - button "Умная электроника" [ref=e66] [cursor=pointer]
+          - generic [ref=e67]:
+            - button "👕 Одежда 223" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 👕 Одежда
+              - generic [ref=e70]: "223"
+            - generic:
+              - button "Рубашки" [ref=e71] [cursor=pointer]
+              - button "Пуховики" [ref=e72] [cursor=pointer]
+              - button "Сумки" [ref=e73] [cursor=pointer]
+              - button "Рюкзаки" [ref=e74] [cursor=pointer]
+              - button "Чемоданы" [ref=e75] [cursor=pointer]
+              - button "Аксессуары" [ref=e76] [cursor=pointer]
+          - generic [ref=e77]:
+            - button "👟 Обувь 223" [ref=e78] [cursor=pointer]:
+              - generic [ref=e79]: 👟 Обувь
+              - generic [ref=e80]: "223"
+            - generic:
+              - button "Кроссовки" [ref=e81] [cursor=pointer]
+              - button "Женская обувь" [ref=e82] [cursor=pointer]
+              - button "Мужская обувь" [ref=e83] [cursor=pointer]
+          - generic [ref=e84]:
+            - button "🏠 Дом 222" [ref=e85] [cursor=pointer]:
+              - generic [ref=e86]: 🏠 Дом
+              - generic [ref=e87]: "222"
+            - generic:
+              - button "Товары для дома" [ref=e88] [cursor=pointer]
+              - button "Кухня" [ref=e89] [cursor=pointer]
+              - button "Ванная" [ref=e90] [cursor=pointer]
+              - button "Стройматериалы" [ref=e91] [cursor=pointer]
+          - generic [ref=e92]:
+            - button "🚗 Авто 222" [ref=e93] [cursor=pointer]:
+              - generic [ref=e94]: 🚗 Авто
+              - generic [ref=e95]: "222"
+            - generic:
+              - button "Двигатели" [ref=e96] [cursor=pointer]
+              - button "Кузовные детали" [ref=e97] [cursor=pointer]
+              - button "Автосвет" [ref=e98] [cursor=pointer]
+              - button "Инструменты" [ref=e99] [cursor=pointer]
+              - button "Мотоциклы" [ref=e100] [cursor=pointer]
+          - generic [ref=e101]:
+            - button "💄 Красота 222" [ref=e102] [cursor=pointer]:
+              - generic [ref=e103]: 💄 Красота
+              - generic [ref=e104]: "222"
+            - generic:
+              - button "Стоматология" [ref=e105] [cursor=pointer]
+              - button "Маникюр" [ref=e106] [cursor=pointer]
+              - button "Уход за волосами" [ref=e107] [cursor=pointer]
+              - button "Парфюм" [ref=e108] [cursor=pointer]
+          - generic [ref=e109]:
+            - button "⚽ Спорт 222" [ref=e110] [cursor=pointer]:
+              - generic [ref=e111]: ⚽ Спорт
+              - generic [ref=e112]: "222"
+            - generic:
+              - button "Лыжи" [ref=e113] [cursor=pointer]
+              - button "Спортивные сумки" [ref=e114] [cursor=pointer]
+              - button "Активный отдых" [ref=e115] [cursor=pointer]
+          - generic [ref=e116]:
+            - button "💎 Украшения 222" [ref=e117] [cursor=pointer]:
+              - generic [ref=e118]: 💎 Украшения
+              - generic [ref=e119]: "222"
+            - generic:
+              - button "Ювелирка" [ref=e120] [cursor=pointer]
+              - button "Часы" [ref=e121] [cursor=pointer]
+          - generic [ref=e122]:
+            - button "🧸 Игрушки 222" [ref=e123] [cursor=pointer]:
+              - generic [ref=e124]: 🧸 Игрушки
+              - generic [ref=e125]: "222"
+            - generic:
+              - button "Фигурки" [ref=e126] [cursor=pointer]
+              - button "Конструкторы" [ref=e127] [cursor=pointer]
+              - button "Р/У игрушки" [ref=e128] [cursor=pointer]
+              - button "Игры и пазлы" [ref=e129] [cursor=pointer]
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - button "Все" [ref=e132] [cursor=pointer]
+          - button "Для детей" [ref=e133] [cursor=pointer]
+          - button "Аксессуары" [ref=e134] [cursor=pointer]
+          - button "Брендовое" [ref=e135] [cursor=pointer]
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - button "Все скидки" [ref=e139] [cursor=pointer]
+              - button "30%+" [ref=e140] [cursor=pointer]
+              - button "50%+" [ref=e141] [cursor=pointer]
+              - button "70%+" [ref=e142] [cursor=pointer]
+              - button "90%+" [ref=e143] [cursor=pointer]
+            - generic [ref=e144]:
+              - generic [ref=e145]: "Цена:"
+              - spinbutton [ref=e146]
+              - generic [ref=e147]: —
+              - spinbutton [ref=e148]
+              - button "OK" [ref=e149] [cursor=pointer]
+            - combobox [ref=e151] [cursor=pointer]:
+              - option "По скидке" [selected]
+              - option "Сначала дешевые"
+              - option "Сначала дорогие"
+              - option "По заказам"
+          - generic [ref=e152]: 0 товаров
+        - link "AliExpress RU&CIS" [ref=e263] [cursor=pointer]:
+          - /url: https://rzekl.com/g/1e8d114494fb6bf3968616525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Faliexpress.ru%252F&subid=smartskidka_banner
+          - img "AliExpress RU&CIS" [ref=e264]
+        - generic [ref=e1283]:
+          - img [ref=e1285]
+          - paragraph [ref=e1288]: Ничего не найдено
+          - paragraph [ref=e1289]: Попробуйте изменить фильтры или поисковый запрос
+        - generic [ref=e1220]:
+          - heading "Недавно смотрели" [level=2] [ref=e1221]:
+            - img [ref=e1222]
+            - text: Недавно смотрели
+          - generic [ref=e1225]:
+            - link "Queen Heart 4ct Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry -90% Queen Heart 4ct Moissanite Dia 9 177 ₽" [ref=e1226] [cursor=pointer]:
+              - /url: /item/74279.html
+              - img "Queen Heart 4ct Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry" [ref=e1227]
+              - generic [ref=e1228]: "-90%"
+              - generic [ref=e1229]: Queen Heart 4ct Moissanite Dia
+              - generic [ref=e1230]: 9 177 ₽
+            - link "Asics Men Basic Basketball Shoes 1063A090-600 Non-slip Wear Resistant Athletic Sneakers Outdoor Sports Training Footwear -84% Asics Men Basic Basketball Sho 8 024 ₽" [ref=e1231] [cursor=pointer]:
+              - /url: /item/1954.html
+              - img "Asics Men Basic Basketball Shoes 1063A090-600 Non-slip Wear Resistant Athletic Sneakers Outdoor Sports Training Footwear" [ref=e1232]
+              - generic [ref=e1233]: "-84%"
+              - generic [ref=e1234]: Asics Men Basic Basketball Sho
+              - generic [ref=e1235]: 8 024 ₽
+  - generic [ref=e1236]:
+    - generic [ref=e1237]: ✓
+    - generic [ref=e1238]: Готово
+  - generic [ref=e1240]:
+    - heading "Скидки на AliExpress до 90% — как это работает" [level=2] [ref=e1241]
+    - paragraph [ref=e1242]: SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Мы ежедневно обновляем каталог, чтобы вы всегда находили самые выгодные предложения на электронику, одежду, обувь, товары для дома и авто. Все цены указаны в рублях с учётом актуального курса Центробанка.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e1243]
+    - paragraph [ref=e1244]: Используйте наш поиск по товарам или AI-поиск для подбора идеальных покупок. Добавляйте товары в избранное, чтобы вернуться к ним позже. Каждая карточка содержит реальный рейтинг, количество заказов и характеристики — никаких фейковых скидок.
+    - heading "1000+ товаров с бесплатной доставкой" [level=2] [ref=e1245]
+    - paragraph [ref=e1246]: В нашем каталоге более 1000 товаров с реальными скидками 20–90%. Все ссылки ведут напрямую на AliExpress через партнёрскую программу Admitad — вы получаете ту же цену, а мы небольшую комиссию за направление. Это позволяет нам поддерживать сервис и добавлять новые функции.
+  - contentinfo [ref=e1247]:
+    - generic [ref=e1248]:
+      - generic [ref=e1249]:
+        - generic [ref=e1250]: SmartSkidka.ru
+        - paragraph [ref=e1251]: Лучшие скидки и промокоды на товары с AliExpress. Экономьте умнее!
+      - generic [ref=e1252]:
+        - generic [ref=e1253]:
+          - heading "Категории" [level=4] [ref=e1254]
+          - link "Обувь" [ref=e1255] [cursor=pointer]:
+            - /url: /shoes.html
+          - link "Электроника" [ref=e1256] [cursor=pointer]:
+            - /url: /electronics.html
+          - link "Товары для дома" [ref=e1257] [cursor=pointer]:
+            - /url: /home.html
+          - link "Автотовары" [ref=e1258] [cursor=pointer]:
+            - /url: /auto.html
+          - link "Красота" [ref=e1259] [cursor=pointer]:
+            - /url: /beauty.html
+          - link "Спорт" [ref=e1260] [cursor=pointer]:
+            - /url: /sports.html
+        - generic [ref=e1261]:
+          - heading "Информация" [level=4] [ref=e1262]
+          - link "О нас" [ref=e1263] [cursor=pointer]:
+            - /url: about.html
+          - link "Контакты" [ref=e1264] [cursor=pointer]:
+            - /url: contact.html
+          - link "Политика конфиденциальности" [ref=e1265] [cursor=pointer]:
+            - /url: privacy.html
+          - link "Условия использования" [ref=e1266] [cursor=pointer]:
+            - /url: terms.html
+    - generic [ref=e1267]:
+      - paragraph [ref=e1268]: SmartSkidka.ru — не является магазином. Все товары продаются на AliExpress.
+      - paragraph [ref=e1269]:
+        - img [ref=e1270]
+        - link "Скидки в Telegram — @SmartRuMarket" [ref=e1274] [cursor=pointer]:
+          - /url: https://t.me/SmartRuMarket
+      - paragraph [ref=e1275]: 2026 SmartSkidka.ru
+      - paragraph [ref=e1276]:
+        - link "ИКС сайта" [ref=e1277] [cursor=pointer]:
+          - /url: https://webmaster.yandex.ru/siteinfo/?site=https://smart-skidka.ru
+          - img "ИКС сайта" [ref=e1278]

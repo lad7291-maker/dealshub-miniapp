@@ -1,0 +1,719 @@
+- generic [active] [ref=e1]:
+  - heading "Directory listing for /" [level=1] [ref=e2]
+  - separator [ref=e3]
+  - list [ref=e4]:
+    - listitem [ref=e5]:
+      - link ".agent_quota_tracker.json" [ref=e6] [cursor=pointer]:
+        - /url: .agent_quota_tracker.json
+    - listitem [ref=e7]:
+      - link ".playwright-mcp/" [ref=e8] [cursor=pointer]:
+        - /url: .playwright-mcp/
+    - listitem [ref=e9]:
+      - link "404.html" [ref=e10] [cursor=pointer]:
+        - /url: 404.html
+    - listitem [ref=e11]:
+      - link "about.html" [ref=e12] [cursor=pointer]:
+        - /url: about.html
+    - listitem [ref=e13]:
+      - link "all.json" [ref=e14] [cursor=pointer]:
+        - /url: all.json
+    - listitem [ref=e15]:
+      - link "api/" [ref=e16] [cursor=pointer]:
+        - /url: api/
+    - listitem [ref=e17]:
+      - link "app.js" [ref=e18] [cursor=pointer]:
+        - /url: app.js
+    - listitem [ref=e19]:
+      - link "auto.html" [ref=e20] [cursor=pointer]:
+        - /url: auto.html
+    - listitem [ref=e21]:
+      - link "beauty.html" [ref=e22] [cursor=pointer]:
+        - /url: beauty.html
+    - listitem [ref=e23]:
+      - link "blog/" [ref=e24] [cursor=pointer]:
+        - /url: blog/
+    - listitem [ref=e25]:
+      - link "bugtest_category_filtered.png" [ref=e26] [cursor=pointer]:
+        - /url: bugtest_category_filtered.png
+    - listitem [ref=e27]:
+      - link "bugtest_chips_click.png" [ref=e28] [cursor=pointer]:
+        - /url: bugtest_chips_click.png
+    - listitem [ref=e29]:
+      - link "bugtest_forced_hide.png" [ref=e30] [cursor=pointer]:
+        - /url: bugtest_forced_hide.png
+    - listitem [ref=e31]:
+      - link "bugtest_mobile_drawer.png" [ref=e32] [cursor=pointer]:
+        - /url: bugtest_mobile_drawer.png
+    - listitem [ref=e33]:
+      - link "bugtest_mobile_drawer2.png" [ref=e34] [cursor=pointer]:
+        - /url: bugtest_mobile_drawer2.png
+    - listitem [ref=e35]:
+      - link "bugtest_modal_mobile.png" [ref=e36] [cursor=pointer]:
+        - /url: bugtest_modal_mobile.png
+    - listitem [ref=e37]:
+      - link "bugtest_search.png" [ref=e38] [cursor=pointer]:
+        - /url: bugtest_search.png
+    - listitem [ref=e39]:
+      - link "bugtest_search_cleared.png" [ref=e40] [cursor=pointer]:
+        - /url: bugtest_search_cleared.png
+    - listitem [ref=e41]:
+      - link "bugtest_search_fixed.png" [ref=e42] [cursor=pointer]:
+        - /url: bugtest_search_fixed.png
+    - listitem [ref=e43]:
+      - link "bugtest_search_fixed2.png" [ref=e44] [cursor=pointer]:
+        - /url: bugtest_search_fixed2.png
+    - listitem [ref=e45]:
+      - link "bugtest_search_nocache.png" [ref=e46] [cursor=pointer]:
+        - /url: bugtest_search_nocache.png
+    - listitem [ref=e47]:
+      - link "bugtest_search_v26.png" [ref=e48] [cursor=pointer]:
+        - /url: bugtest_search_v26.png
+    - listitem [ref=e49]:
+      - link "bugtest_search_v7.png" [ref=e50] [cursor=pointer]:
+        - /url: bugtest_search_v7.png
+    - listitem [ref=e51]:
+      - link "bugtest_sidebar_click.png" [ref=e52] [cursor=pointer]:
+        - /url: bugtest_sidebar_click.png
+    - listitem [ref=e53]:
+      - link "category/" [ref=e54] [cursor=pointer]:
+        - /url: category/
+    - listitem [ref=e55]:
+      - link "clothing.html" [ref=e56] [cursor=pointer]:
+        - /url: clothing.html
+    - listitem [ref=e57]:
+      - link "console_check.js" [ref=e58] [cursor=pointer]:
+        - /url: console_check.js
+    - listitem [ref=e59]:
+      - link "contact.html" [ref=e60] [cursor=pointer]:
+        - /url: contact.html
+    - listitem [ref=e61]:
+      - link "css/" [ref=e62] [cursor=pointer]:
+        - /url: css/
+    - listitem [ref=e63]:
+      - link "desktop_01_hero.png" [ref=e64] [cursor=pointer]:
+        - /url: desktop_01_hero.png
+    - listitem [ref=e65]:
+      - link "desktop_02_products.png" [ref=e66] [cursor=pointer]:
+        - /url: desktop_02_products.png
+    - listitem [ref=e67]:
+      - link "desktop_03_banner.png" [ref=e68] [cursor=pointer]:
+        - /url: desktop_03_banner.png
+    - listitem [ref=e69]:
+      - link "desktop_04_footer.png" [ref=e70] [cursor=pointer]:
+        - /url: desktop_04_footer.png
+    - listitem [ref=e71]:
+      - link "desktop_05_modal.png" [ref=e72] [cursor=pointer]:
+        - /url: desktop_05_modal.png
+    - listitem [ref=e73]:
+      - link "desktop_06_search.png" [ref=e74] [cursor=pointer]:
+        - /url: desktop_06_search.png
+    - listitem [ref=e75]:
+      - link "desktop_07_category.png" [ref=e76] [cursor=pointer]:
+        - /url: desktop_07_category.png
+    - listitem [ref=e77]:
+      - link "desktop_audit.js" [ref=e78] [cursor=pointer]:
+        - /url: desktop_audit.js
+    - listitem [ref=e79]:
+      - link "desktop_full_1.png" [ref=e80] [cursor=pointer]:
+        - /url: desktop_full_1.png
+    - listitem [ref=e81]:
+      - link "desktop_modal.png" [ref=e82] [cursor=pointer]:
+        - /url: desktop_modal.png
+    - listitem [ref=e83]:
+      - link "desktop_updated_v5.png" [ref=e84] [cursor=pointer]:
+        - /url: desktop_updated_v5.png
+    - listitem [ref=e85]:
+      - link "docs/" [ref=e86] [cursor=pointer]:
+        - /url: docs/
+    - listitem [ref=e87]:
+      - link "electronics.html" [ref=e88] [cursor=pointer]:
+        - /url: electronics.html
+    - listitem [ref=e89]:
+      - link "favicon.ico" [ref=e90] [cursor=pointer]:
+        - /url: favicon.ico
+    - listitem [ref=e91]:
+      - link "favicon.svg" [ref=e92] [cursor=pointer]:
+        - /url: favicon.svg
+    - listitem [ref=e93]:
+      - link "final_check_working.png" [ref=e94] [cursor=pointer]:
+        - /url: final_check_working.png
+    - listitem [ref=e95]:
+      - link "final_hero.png" [ref=e96] [cursor=pointer]:
+        - /url: final_hero.png
+    - listitem [ref=e97]:
+      - link "final_products.png" [ref=e98] [cursor=pointer]:
+        - /url: final_products.png
+    - listitem [ref=e99]:
+      - link "final_ru_version.png" [ref=e100] [cursor=pointer]:
+        - /url: final_ru_version.png
+    - listitem [ref=e101]:
+      - link "final_test.js" [ref=e102] [cursor=pointer]:
+        - /url: final_test.js
+    - listitem [ref=e103]:
+      - link "final_test.png" [ref=e104] [cursor=pointer]:
+        - /url: final_test.png
+    - listitem [ref=e105]:
+      - link "final_test_ru.png" [ref=e106] [cursor=pointer]:
+        - /url: final_test_ru.png
+    - listitem [ref=e107]:
+      - link "final_test_working.png" [ref=e108] [cursor=pointer]:
+        - /url: final_test_working.png
+    - listitem [ref=e109]:
+      - link "final_working.png" [ref=e110] [cursor=pointer]:
+        - /url: final_working.png
+    - listitem [ref=e111]:
+      - link "fix_categories.py" [ref=e112] [cursor=pointer]:
+        - /url: fix_categories.py
+    - listitem [ref=e113]:
+      - link "full_test.js" [ref=e114] [cursor=pointer]:
+        - /url: full_test.js
+    - listitem [ref=e115]:
+      - link "gsc_human_type.png" [ref=e116] [cursor=pointer]:
+        - /url: gsc_human_type.png
+    - listitem [ref=e117]:
+      - link "gsc_landing.png" [ref=e118] [cursor=pointer]:
+        - /url: gsc_landing.png
+    - listitem [ref=e119]:
+      - link "gsc_lesssecure.png" [ref=e120] [cursor=pointer]:
+        - /url: gsc_lesssecure.png
+    - listitem [ref=e121]:
+      - link "gsc_login1.png" [ref=e122] [cursor=pointer]:
+        - /url: gsc_login1.png
+    - listitem [ref=e123]:
+      - link "gsc_login2.png" [ref=e124] [cursor=pointer]:
+        - /url: gsc_login2.png
+    - listitem [ref=e125]:
+      - link "gsc_pass_page.png" [ref=e126] [cursor=pointer]:
+        - /url: gsc_pass_page.png
+    - listitem [ref=e127]:
+      - link "gsc_stealth1.png" [ref=e128] [cursor=pointer]:
+        - /url: gsc_stealth1.png
+    - listitem [ref=e129]:
+      - link "gsc_stealth2.png" [ref=e130] [cursor=pointer]:
+        - /url: gsc_stealth2.png
+    - listitem [ref=e131]:
+      - link "guides/" [ref=e132] [cursor=pointer]:
+        - /url: guides/
+    - listitem [ref=e133]:
+      - link "home.html" [ref=e134] [cursor=pointer]:
+        - /url: home.html
+    - listitem [ref=e135]:
+      - link "homepage.png" [ref=e136] [cursor=pointer]:
+        - /url: homepage.png
+    - listitem [ref=e137]:
+      - link "homepage_link_working.png" [ref=e138] [cursor=pointer]:
+        - /url: homepage_link_working.png
+    - listitem [ref=e139]:
+      - link "homepage_scrolled.png" [ref=e140] [cursor=pointer]:
+        - /url: homepage_scrolled.png
+    - listitem [ref=e141]:
+      - link "icons/" [ref=e142] [cursor=pointer]:
+        - /url: icons/
+    - listitem [ref=e143]:
+      - link "icons.svg" [ref=e144] [cursor=pointer]:
+        - /url: icons.svg
+    - listitem [ref=e145]:
+      - link "index.html.backup.20260515_102728" [ref=e146] [cursor=pointer]:
+        - /url: index.html.backup.20260515_102728
+    - listitem [ref=e147]:
+      - link "index.html.bak.20260530_172326" [ref=e148] [cursor=pointer]:
+        - /url: index.html.bak.20260530_172326
+    - listitem [ref=e149]:
+      - link "index.html.bak.20260530_172427" [ref=e150] [cursor=pointer]:
+        - /url: index.html.bak.20260530_172427
+    - listitem [ref=e151]:
+      - link "index.html.bak.20260617_112300" [ref=e152] [cursor=pointer]:
+        - /url: index.html.bak.20260617_112300
+    - listitem [ref=e153]:
+      - link "index.html.bak.20260617_112651" [ref=e154] [cursor=pointer]:
+        - /url: index.html.bak.20260617_112651
+    - listitem [ref=e155]:
+      - link "index.html.bak.20260617_113909" [ref=e156] [cursor=pointer]:
+        - /url: index.html.bak.20260617_113909
+    - listitem [ref=e157]:
+      - link "index.html.bak.20260617_114059" [ref=e158] [cursor=pointer]:
+        - /url: index.html.bak.20260617_114059
+    - listitem [ref=e159]:
+      - link "index.html.bak.20260617_114325" [ref=e160] [cursor=pointer]:
+        - /url: index.html.bak.20260617_114325
+    - listitem [ref=e161]:
+      - link "index.html.bak.20260617_121925" [ref=e162] [cursor=pointer]:
+        - /url: index.html.bak.20260617_121925
+    - listitem [ref=e163]:
+      - link "index.html.bak.20260617_124932" [ref=e164] [cursor=pointer]:
+        - /url: index.html.bak.20260617_124932
+    - listitem [ref=e165]:
+      - link "index.html.bak.20260617_125833" [ref=e166] [cursor=pointer]:
+        - /url: index.html.bak.20260617_125833
+    - listitem [ref=e167]:
+      - link "index.html.bak.20260617_130045" [ref=e168] [cursor=pointer]:
+        - /url: index.html.bak.20260617_130045
+    - listitem [ref=e169]:
+      - link "index.html.bak.20260617_135826" [ref=e170] [cursor=pointer]:
+        - /url: index.html.bak.20260617_135826
+    - listitem [ref=e171]:
+      - link "index.html.bak.20260617_150800" [ref=e172] [cursor=pointer]:
+        - /url: index.html.bak.20260617_150800
+    - listitem [ref=e173]:
+      - link "index.html.bak.20260617_155418" [ref=e174] [cursor=pointer]:
+        - /url: index.html.bak.20260617_155418
+    - listitem [ref=e175]:
+      - link "index.html.bak.20260617_155841" [ref=e176] [cursor=pointer]:
+        - /url: index.html.bak.20260617_155841
+    - listitem [ref=e177]:
+      - link "index.html.bak.20260617_160139" [ref=e178] [cursor=pointer]:
+        - /url: index.html.bak.20260617_160139
+    - listitem [ref=e179]:
+      - link "index.html.bak.20260617_160140" [ref=e180] [cursor=pointer]:
+        - /url: index.html.bak.20260617_160140
+    - listitem [ref=e181]:
+      - link "index.html.bak.20260617_160435" [ref=e182] [cursor=pointer]:
+        - /url: index.html.bak.20260617_160435
+    - listitem [ref=e183]:
+      - link "index.html.bak.20260617_160723" [ref=e184] [cursor=pointer]:
+        - /url: index.html.bak.20260617_160723
+    - listitem [ref=e185]:
+      - link "index.html.bak.20260617_161008" [ref=e186] [cursor=pointer]:
+        - /url: index.html.bak.20260617_161008
+    - listitem [ref=e187]:
+      - link "index.html.bak.20260617_161255" [ref=e188] [cursor=pointer]:
+        - /url: index.html.bak.20260617_161255
+    - listitem [ref=e189]:
+      - link "index.html.bak.20260617_161256" [ref=e190] [cursor=pointer]:
+        - /url: index.html.bak.20260617_161256
+    - listitem [ref=e191]:
+      - link "index.html.bak.20260617_161533" [ref=e192] [cursor=pointer]:
+        - /url: index.html.bak.20260617_161533
+    - listitem [ref=e193]:
+      - link "index.html.bak.20260617_161801" [ref=e194] [cursor=pointer]:
+        - /url: index.html.bak.20260617_161801
+    - listitem [ref=e195]:
+      - link "index.html.bak.20260617_162009" [ref=e196] [cursor=pointer]:
+        - /url: index.html.bak.20260617_162009
+    - listitem [ref=e197]:
+      - link "index.html.bak.20260617_162213" [ref=e198] [cursor=pointer]:
+        - /url: index.html.bak.20260617_162213
+    - listitem [ref=e199]:
+      - link "index.html.bak.20260617_162452" [ref=e200] [cursor=pointer]:
+        - /url: index.html.bak.20260617_162452
+    - listitem [ref=e201]:
+      - link "index.html.bak.20260617_162735" [ref=e202] [cursor=pointer]:
+        - /url: index.html.bak.20260617_162735
+    - listitem [ref=e203]:
+      - link "index.html.bak.20260617_172820" [ref=e204] [cursor=pointer]:
+        - /url: index.html.bak.20260617_172820
+    - listitem [ref=e205]:
+      - link "index.html.bak.20260617_173156" [ref=e206] [cursor=pointer]:
+        - /url: index.html.bak.20260617_173156
+    - listitem [ref=e207]:
+      - link "index.html.bak.20260617_175517" [ref=e208] [cursor=pointer]:
+        - /url: index.html.bak.20260617_175517
+    - listitem [ref=e209]:
+      - link "index.html.bak.20260617_181949" [ref=e210] [cursor=pointer]:
+        - /url: index.html.bak.20260617_181949
+    - listitem [ref=e211]:
+      - link "index.html.bak.20260617_183055" [ref=e212] [cursor=pointer]:
+        - /url: index.html.bak.20260617_183055
+    - listitem [ref=e213]:
+      - link "index.html.bak.20260617_183117" [ref=e214] [cursor=pointer]:
+        - /url: index.html.bak.20260617_183117
+    - listitem [ref=e215]:
+      - link "item/" [ref=e216] [cursor=pointer]:
+        - /url: item/
+    - listitem [ref=e217]:
+      - link "item_1_page.png" [ref=e218] [cursor=pointer]:
+        - /url: item_1_page.png
+    - listitem [ref=e219]:
+      - link "item_fixed_final.png" [ref=e220] [cursor=pointer]:
+        - /url: item_fixed_final.png
+    - listitem [ref=e221]:
+      - link "item_page.png" [ref=e222] [cursor=pointer]:
+        - /url: item_page.png
+    - listitem [ref=e223]:
+      - link "item_page_working.png" [ref=e224] [cursor=pointer]:
+        - /url: item_page_working.png
+    - listitem [ref=e225]:
+      - link "jewelry.html" [ref=e226] [cursor=pointer]:
+        - /url: jewelry.html
+    - listitem [ref=e227]:
+      - link "js/" [ref=e228] [cursor=pointer]:
+        - /url: js/
+    - listitem [ref=e229]:
+      - link "landing/" [ref=e230] [cursor=pointer]:
+        - /url: landing/
+    - listitem [ref=e231]:
+      - link "manifest.json" [ref=e232] [cursor=pointer]:
+        - /url: manifest.json
+    - listitem [ref=e233]:
+      - link "mobile-fixed.png" [ref=e234] [cursor=pointer]:
+        - /url: mobile-fixed.png
+    - listitem [ref=e235]:
+      - link "mobile-overflow.png" [ref=e236] [cursor=pointer]:
+        - /url: mobile-overflow.png
+    - listitem [ref=e237]:
+      - link "mobile_check1.png" [ref=e238] [cursor=pointer]:
+        - /url: mobile_check1.png
+    - listitem [ref=e239]:
+      - link "mobile_check2.png" [ref=e240] [cursor=pointer]:
+        - /url: mobile_check2.png
+    - listitem [ref=e241]:
+      - link "mobile_check3.png" [ref=e242] [cursor=pointer]:
+        - /url: mobile_check3.png
+    - listitem [ref=e243]:
+      - link "mobile_check4.png" [ref=e244] [cursor=pointer]:
+        - /url: mobile_check4.png
+    - listitem [ref=e245]:
+      - link "mobile_check5.png" [ref=e246] [cursor=pointer]:
+        - /url: mobile_check5.png
+    - listitem [ref=e247]:
+      - link "mobile_check6.png" [ref=e248] [cursor=pointer]:
+        - /url: mobile_check6.png
+    - listitem [ref=e249]:
+      - link "mobile_check7.png" [ref=e250] [cursor=pointer]:
+        - /url: mobile_check7.png
+    - listitem [ref=e251]:
+      - link "mobile_check8.png" [ref=e252] [cursor=pointer]:
+        - /url: mobile_check8.png
+    - listitem [ref=e253]:
+      - link "mobile_check_top.png" [ref=e254] [cursor=pointer]:
+        - /url: mobile_check_top.png
+    - listitem [ref=e255]:
+      - link "mobile_collections_final.png" [ref=e256] [cursor=pointer]:
+        - /url: mobile_collections_final.png
+    - listitem [ref=e257]:
+      - link "mobile_final_hero.png" [ref=e258] [cursor=pointer]:
+        - /url: mobile_final_hero.png
+    - listitem [ref=e259]:
+      - link "mobile_full_v4.png" [ref=e260] [cursor=pointer]:
+        - /url: mobile_full_v4.png
+    - listitem [ref=e261]:
+      - link "mobile_hero.png" [ref=e262] [cursor=pointer]:
+        - /url: mobile_hero.png
+    - listitem [ref=e263]:
+      - link "mobile_hero_final.png" [ref=e264] [cursor=pointer]:
+        - /url: mobile_hero_final.png
+    - listitem [ref=e265]:
+      - link "mobile_hero_v2.png" [ref=e266] [cursor=pointer]:
+        - /url: mobile_hero_v2.png
+    - listitem [ref=e267]:
+      - link "mobile_hero_v3.png" [ref=e268] [cursor=pointer]:
+        - /url: mobile_hero_v3.png
+    - listitem [ref=e269]:
+      - link "mobile_hero_v4.png" [ref=e270] [cursor=pointer]:
+        - /url: mobile_hero_v4.png
+    - listitem [ref=e271]:
+      - link "mobile_home_banner.png" [ref=e272] [cursor=pointer]:
+        - /url: mobile_home_banner.png
+    - listitem [ref=e273]:
+      - link "mobile_home_grid.png" [ref=e274] [cursor=pointer]:
+        - /url: mobile_home_grid.png
+    - listitem [ref=e275]:
+      - link "mobile_home_products.png" [ref=e276] [cursor=pointer]:
+        - /url: mobile_home_products.png
+    - listitem [ref=e277]:
+      - link "mobile_home_products2.png" [ref=e278] [cursor=pointer]:
+        - /url: mobile_home_products2.png
+    - listitem [ref=e279]:
+      - link "mobile_home_scroll.png" [ref=e280] [cursor=pointer]:
+        - /url: mobile_home_scroll.png
+    - listitem [ref=e281]:
+      - link "mobile_home_top.png" [ref=e282] [cursor=pointer]:
+        - /url: mobile_home_top.png
+    - listitem [ref=e283]:
+      - link "mobile_modal.png" [ref=e284] [cursor=pointer]:
+        - /url: mobile_modal.png
+    - listitem [ref=e285]:
+      - link "mobile_modal_after_reload.png" [ref=e286] [cursor=pointer]:
+        - /url: mobile_modal_after_reload.png
+    - listitem [ref=e287]:
+      - link "mobile_modal_bottom.png" [ref=e288] [cursor=pointer]:
+        - /url: mobile_modal_bottom.png
+    - listitem [ref=e289]:
+      - link "mobile_modal_check.png" [ref=e290] [cursor=pointer]:
+        - /url: mobile_modal_check.png
+    - listitem [ref=e291]:
+      - link "mobile_modal_current.png" [ref=e292] [cursor=pointer]:
+        - /url: mobile_modal_current.png
+    - listitem [ref=e293]:
+      - link "mobile_modal_final.png" [ref=e294] [cursor=pointer]:
+        - /url: mobile_modal_final.png
+    - listitem [ref=e295]:
+      - link "mobile_modal_final_check.png" [ref=e296] [cursor=pointer]:
+        - /url: mobile_modal_final_check.png
+    - listitem [ref=e297]:
+      - link "mobile_modal_fixed.png" [ref=e298] [cursor=pointer]:
+        - /url: mobile_modal_fixed.png
+    - listitem [ref=e299]:
+      - link "mobile_modal_fixed2.png" [ref=e300] [cursor=pointer]:
+        - /url: mobile_modal_fixed2.png
+    - listitem [ref=e301]:
+      - link "mobile_modal_forced.png" [ref=e302] [cursor=pointer]:
+        - /url: mobile_modal_forced.png
+    - listitem [ref=e303]:
+      - link "mobile_modal_inline_css.png" [ref=e304] [cursor=pointer]:
+        - /url: mobile_modal_inline_css.png
+    - listitem [ref=e305]:
+      - link "mobile_modal_scrolled.png" [ref=e306] [cursor=pointer]:
+        - /url: mobile_modal_scrolled.png
+    - listitem [ref=e307]:
+      - link "mobile_modal_scrolled2.png" [ref=e308] [cursor=pointer]:
+        - /url: mobile_modal_scrolled2.png
+    - listitem [ref=e309]:
+      - link "mobile_modal_test.png" [ref=e310] [cursor=pointer]:
+        - /url: mobile_modal_test.png
+    - listitem [ref=e311]:
+      - link "mobile_modal_working.png" [ref=e312] [cursor=pointer]:
+        - /url: mobile_modal_working.png
+    - listitem [ref=e313]:
+      - link "mobile_modal_zoom.png" [ref=e314] [cursor=pointer]:
+        - /url: mobile_modal_zoom.png
+    - listitem [ref=e315]:
+      - link "mobile_modal_zoom_off.png" [ref=e316] [cursor=pointer]:
+        - /url: mobile_modal_zoom_off.png
+    - listitem [ref=e317]:
+      - link "mobile_pos_1.png" [ref=e318] [cursor=pointer]:
+        - /url: mobile_pos_1.png
+    - listitem [ref=e319]:
+      - link "mobile_pos_2.png" [ref=e320] [cursor=pointer]:
+        - /url: mobile_pos_2.png
+    - listitem [ref=e321]:
+      - link "mobile_pos_3.png" [ref=e322] [cursor=pointer]:
+        - /url: mobile_pos_3.png
+    - listitem [ref=e323]:
+      - link "mobile_pos_4.png" [ref=e324] [cursor=pointer]:
+        - /url: mobile_pos_4.png
+    - listitem [ref=e325]:
+      - link "mobile_pos_5.png" [ref=e326] [cursor=pointer]:
+        - /url: mobile_pos_5.png
+    - listitem [ref=e327]:
+      - link "mobile_products_final.png" [ref=e328] [cursor=pointer]:
+        - /url: mobile_products_final.png
+    - listitem [ref=e329]:
+      - link "mobile_scroll1.png" [ref=e330] [cursor=pointer]:
+        - /url: mobile_scroll1.png
+    - listitem [ref=e331]:
+      - link "mobile_scroll_1.png" [ref=e332] [cursor=pointer]:
+        - /url: mobile_scroll_1.png
+    - listitem [ref=e333]:
+      - link "mobile_scroll_2.png" [ref=e334] [cursor=pointer]:
+        - /url: mobile_scroll_2.png
+    - listitem [ref=e335]:
+      - link "mobile_scroll_3.png" [ref=e336] [cursor=pointer]:
+        - /url: mobile_scroll_3.png
+    - listitem [ref=e337]:
+      - link "mobile_scroll_4.png" [ref=e338] [cursor=pointer]:
+        - /url: mobile_scroll_4.png
+    - listitem [ref=e339]:
+      - link "mobile_scroll_5.png" [ref=e340] [cursor=pointer]:
+        - /url: mobile_scroll_5.png
+    - listitem [ref=e341]:
+      - link "mobile_scroll_6.png" [ref=e342] [cursor=pointer]:
+        - /url: mobile_scroll_6.png
+    - listitem [ref=e343]:
+      - link "mobile_test.js" [ref=e344] [cursor=pointer]:
+        - /url: mobile_test.js
+    - listitem [ref=e345]:
+      - link "mobile_updated_v5.png" [ref=e346] [cursor=pointer]:
+        - /url: mobile_updated_v5.png
+    - listitem [ref=e347]:
+      - link "modal_bottom.png" [ref=e348] [cursor=pointer]:
+        - /url: modal_bottom.png
+    - listitem [ref=e349]:
+      - link "modal_final.png" [ref=e350] [cursor=pointer]:
+        - /url: modal_final.png
+    - listitem [ref=e351]:
+      - link "modal_final_test.js" [ref=e352] [cursor=pointer]:
+        - /url: modal_final_test.js
+    - listitem [ref=e353]:
+      - link "modal_scroll.js" [ref=e354] [cursor=pointer]:
+        - /url: modal_scroll.js
+    - listitem [ref=e355]:
+      - link "modal_top.png" [ref=e356] [cursor=pointer]:
+        - /url: modal_top.png
+    - listitem [ref=e357]:
+      - link "node_modules/" [ref=e358] [cursor=pointer]:
+        - /url: node_modules/
+    - listitem [ref=e359]:
+      - link "privacy.html" [ref=e360] [cursor=pointer]:
+        - /url: privacy.html
+    - listitem [ref=e361]:
+      - link "product_1636_working.png" [ref=e362] [cursor=pointer]:
+        - /url: product_1636_working.png
+    - listitem [ref=e363]:
+      - link "products/" [ref=e364] [cursor=pointer]:
+        - /url: products/
+    - listitem [ref=e365]:
+      - link "products-loader.js" [ref=e366] [cursor=pointer]:
+        - /url: products-loader.js
+    - listitem [ref=e367]:
+      - link "products.json" [ref=e368] [cursor=pointer]:
+        - /url: products.json
+    - listitem [ref=e369]:
+      - link "products.json.bak.20260617_111538" [ref=e370] [cursor=pointer]:
+        - /url: products.json.bak.20260617_111538
+    - listitem [ref=e371]:
+      - link "products.json.bak.20260617_112301" [ref=e372] [cursor=pointer]:
+        - /url: products.json.bak.20260617_112301
+    - listitem [ref=e373]:
+      - link "products.json.bak.20260617_112651" [ref=e374] [cursor=pointer]:
+        - /url: products.json.bak.20260617_112651
+    - listitem [ref=e375]:
+      - link "products.json.bak.20260617_113910" [ref=e376] [cursor=pointer]:
+        - /url: products.json.bak.20260617_113910
+    - listitem [ref=e377]:
+      - link "products.json.bak.20260617_114059" [ref=e378] [cursor=pointer]:
+        - /url: products.json.bak.20260617_114059
+    - listitem [ref=e379]:
+      - link "products.json.bak.20260617_114325" [ref=e380] [cursor=pointer]:
+        - /url: products.json.bak.20260617_114325
+    - listitem [ref=e381]:
+      - link "products.json.bak.20260617_121925" [ref=e382] [cursor=pointer]:
+        - /url: products.json.bak.20260617_121925
+    - listitem [ref=e383]:
+      - link "products.json.bak.20260617_124932" [ref=e384] [cursor=pointer]:
+        - /url: products.json.bak.20260617_124932
+    - listitem [ref=e385]:
+      - link "products.json.bak.20260617_125833" [ref=e386] [cursor=pointer]:
+        - /url: products.json.bak.20260617_125833
+    - listitem [ref=e387]:
+      - link "products.json.bak.20260617_130045" [ref=e388] [cursor=pointer]:
+        - /url: products.json.bak.20260617_130045
+    - listitem [ref=e389]:
+      - link "products.json.bak.20260617_135826" [ref=e390] [cursor=pointer]:
+        - /url: products.json.bak.20260617_135826
+    - listitem [ref=e391]:
+      - link "products.json.bak.20260617_150800" [ref=e392] [cursor=pointer]:
+        - /url: products.json.bak.20260617_150800
+    - listitem [ref=e393]:
+      - link "products.json.bak.20260617_155418" [ref=e394] [cursor=pointer]:
+        - /url: products.json.bak.20260617_155418
+    - listitem [ref=e395]:
+      - link "products.json.bak.20260617_155841" [ref=e396] [cursor=pointer]:
+        - /url: products.json.bak.20260617_155841
+    - listitem [ref=e397]:
+      - link "products.json.bak.20260617_160140" [ref=e398] [cursor=pointer]:
+        - /url: products.json.bak.20260617_160140
+    - listitem [ref=e399]:
+      - link "products.json.bak.20260617_160435" [ref=e400] [cursor=pointer]:
+        - /url: products.json.bak.20260617_160435
+    - listitem [ref=e401]:
+      - link "products.json.bak.20260617_160723" [ref=e402] [cursor=pointer]:
+        - /url: products.json.bak.20260617_160723
+    - listitem [ref=e403]:
+      - link "products.json.bak.20260617_161008" [ref=e404] [cursor=pointer]:
+        - /url: products.json.bak.20260617_161008
+    - listitem [ref=e405]:
+      - link "products.json.bak.20260617_161256" [ref=e406] [cursor=pointer]:
+        - /url: products.json.bak.20260617_161256
+    - listitem [ref=e407]:
+      - link "products.json.bak.20260617_161533" [ref=e408] [cursor=pointer]:
+        - /url: products.json.bak.20260617_161533
+    - listitem [ref=e409]:
+      - link "products.json.bak.20260617_161801" [ref=e410] [cursor=pointer]:
+        - /url: products.json.bak.20260617_161801
+    - listitem [ref=e411]:
+      - link "products.json.bak.20260617_162009" [ref=e412] [cursor=pointer]:
+        - /url: products.json.bak.20260617_162009
+    - listitem [ref=e413]:
+      - link "products.json.bak.20260617_162213" [ref=e414] [cursor=pointer]:
+        - /url: products.json.bak.20260617_162213
+    - listitem [ref=e415]:
+      - link "products.json.bak.20260617_162214" [ref=e416] [cursor=pointer]:
+        - /url: products.json.bak.20260617_162214
+    - listitem [ref=e417]:
+      - link "products.json.bak.20260617_162452" [ref=e418] [cursor=pointer]:
+        - /url: products.json.bak.20260617_162452
+    - listitem [ref=e419]:
+      - link "products.json.bak.20260617_162735" [ref=e420] [cursor=pointer]:
+        - /url: products.json.bak.20260617_162735
+    - listitem [ref=e421]:
+      - link "products.json.bak.20260617_172820" [ref=e422] [cursor=pointer]:
+        - /url: products.json.bak.20260617_172820
+    - listitem [ref=e423]:
+      - link "products.json.bak.20260617_173156" [ref=e424] [cursor=pointer]:
+        - /url: products.json.bak.20260617_173156
+    - listitem [ref=e425]:
+      - link "products.json.bak.20260617_175517" [ref=e426] [cursor=pointer]:
+        - /url: products.json.bak.20260617_175517
+    - listitem [ref=e427]:
+      - link "products.json.bak.20260617_181949" [ref=e428] [cursor=pointer]:
+        - /url: products.json.bak.20260617_181949
+    - listitem [ref=e429]:
+      - link "products.json.bak.20260617_183055" [ref=e430] [cursor=pointer]:
+        - /url: products.json.bak.20260617_183055
+    - listitem [ref=e431]:
+      - link "products.json.bak.20260617_183117" [ref=e432] [cursor=pointer]:
+        - /url: products.json.bak.20260617_183117
+    - listitem [ref=e433]:
+      - link "random_item_page.png" [ref=e434] [cursor=pointer]:
+        - /url: random_item_page.png
+    - listitem [ref=e435]:
+      - link "robots.txt" [ref=e436] [cursor=pointer]:
+        - /url: robots.txt
+    - listitem [ref=e437]:
+      - link "rzekl_redirect_working.png" [ref=e438] [cursor=pointer]:
+        - /url: rzekl_redirect_working.png
+    - listitem [ref=e439]:
+      - link "scripts/" [ref=e440] [cursor=pointer]:
+        - /url: scripts/
+    - listitem [ref=e441]:
+      - link "scroll_screenshots.js" [ref=e442] [cursor=pointer]:
+        - /url: scroll_screenshots.js
+    - listitem [ref=e443]:
+      - link "scroll_test.js" [ref=e444] [cursor=pointer]:
+        - /url: scroll_test.js
+    - listitem [ref=e445]:
+      - link "shoes.html" [ref=e446] [cursor=pointer]:
+        - /url: shoes.html
+    - listitem [ref=e447]:
+      - link "sitemap.xml" [ref=e448] [cursor=pointer]:
+        - /url: sitemap.xml
+    - listitem [ref=e449]:
+      - link "sitemap.xml.backup.1779637899" [ref=e450] [cursor=pointer]:
+        - /url: sitemap.xml.backup.1779637899
+    - listitem [ref=e451]:
+      - link "sitemap.xml.bak.20260617_112301" [ref=e452] [cursor=pointer]:
+        - /url: sitemap.xml.bak.20260617_112301
+    - listitem [ref=e453]:
+      - link "sports.html" [ref=e454] [cursor=pointer]:
+        - /url: sports.html
+    - listitem [ref=e455]:
+      - link "style.css" [ref=e456] [cursor=pointer]:
+        - /url: style.css
+    - listitem [ref=e457]:
+      - link "sw.js" [ref=e458] [cursor=pointer]:
+        - /url: sw.js
+    - listitem [ref=e459]:
+      - link "terms.html" [ref=e460] [cursor=pointer]:
+        - /url: terms.html
+    - listitem [ref=e461]:
+      - link "test.html" [ref=e462] [cursor=pointer]:
+        - /url: test.html
+    - listitem [ref=e463]:
+      - link "test.html.bak.20260617_112301" [ref=e464] [cursor=pointer]:
+        - /url: test.html.bak.20260617_112301
+    - listitem [ref=e465]:
+      - link "tests/" [ref=e466] [cursor=pointer]:
+        - /url: tests/
+    - listitem [ref=e467]:
+      - link "toys.html" [ref=e468] [cursor=pointer]:
+        - /url: toys.html
+    - listitem [ref=e469]:
+      - link "turbo.xml" [ref=e470] [cursor=pointer]:
+        - /url: turbo.xml
+    - listitem [ref=e471]:
+      - link "update_categories.py" [ref=e472] [cursor=pointer]:
+        - /url: update_categories.py
+    - listitem [ref=e473]:
+      - link "update_inline_db.py" [ref=e474] [cursor=pointer]:
+        - /url: update_inline_db.py
+    - listitem [ref=e475]:
+      - link "update_mobile_fix.py" [ref=e476] [cursor=pointer]:
+        - /url: update_mobile_fix.py
+    - listitem [ref=e477]:
+      - link "yandex-market.yml" [ref=e478] [cursor=pointer]:
+        - /url: yandex-market.yml
+    - listitem [ref=e479]:
+      - link "yandex_ce5d7f2498b26eae.html" [ref=e480] [cursor=pointer]:
+        - /url: yandex_ce5d7f2498b26eae.html
+  - separator [ref=e481]

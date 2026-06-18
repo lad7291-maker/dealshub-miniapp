@@ -1,0 +1,461 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - dialog "Consent to Cookies & Data processing" [ref=e2]:
+      - document [ref=e3]:
+        - generic [ref=e6]:
+          - text: On this website we use cookies and similar functions to process end device information and personal data (e.g. such as IP-addresses or browser information). The processing is used for purposes such as to integrate content, external services and elements from third parties, statistical analysis/measurement, personalized advertising and the integration of social media. Depending on the function, data is passed on to up to
+          - link "32 third parties" [ref=e7] [cursor=pointer]:
+            - /url: "#"
+          - text: and processed by them. This consent is voluntary, not required for the use of our website and can be revoked at any time using the icon on the bottom left.
+        - form [ref=e8]:
+          - button "Accept all" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: Accept all
+          - button "Reject all" [ref=e13] [cursor=pointer]:
+            - generic [ref=e14]: Reject all
+          - link "Customize your choice" [ref=e16] [cursor=pointer]:
+            - /url: "#"
+    - button "Privacy settings" [ref=e18] [cursor=pointer]:
+      - img "Privacy settings" [ref=e19]
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e25]:
+        - img "Адмитад" [ref=e26]
+        - generic [ref=e27]:
+          - heading "Launch Special Placements with Admitad Flow" [level=2] [ref=e28]
+          - paragraph [ref=e29]: Discover partners, negotiate placements, and manage non-CPA deals in a dedicated collaboration platform.
+        - link "See How Flow Works" [ref=e30] [cursor=pointer]:
+          - /url: https://www.admitad.com/flow/
+      - banner [ref=e31]:
+        - generic [ref=e33]:
+          - link "Admitad" [ref=e35] [cursor=pointer]:
+            - /url: https://www.admitad.com/
+            - img "Admitad" [ref=e36]
+          - generic [ref=e37]:
+            - generic [ref=e41]: en
+            - generic [ref=e42]:
+              - link "Login" [ref=e43] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/sso/login/
+              - link "Get started" [ref=e44] [cursor=pointer]:
+                - /url: https://www.admitad.com/get-started/
+      - main [ref=e47]:
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - heading "One platform for successful partner collaboration" [level=1] [ref=e51]
+            - paragraph [ref=e52]: Partnership collaboration management with internal marketplace of affiliates, influencers, ambassadors, OEM providers, loyalty programs and cashback services, bank apps and others.
+          - generic [ref=e54]:
+            - group "1 / 15" [ref=e55]:
+              - img "One platform for successful partner collaboration - 0" [ref=e56]
+            - group "2 / 15" [ref=e57]:
+              - img "One platform for successful partner collaboration - 1" [ref=e58]
+            - group "3 / 15" [ref=e59]:
+              - img "One platform for successful partner collaboration - 2" [ref=e60]
+            - group "4 / 15" [ref=e61]:
+              - img "One platform for successful partner collaboration - 3" [ref=e62]
+            - group "5 / 15" [ref=e63]:
+              - img "One platform for successful partner collaboration - 4" [ref=e64]
+            - group "6 / 15" [ref=e65]:
+              - img "One platform for successful partner collaboration - 5" [ref=e66]
+            - group "7 / 15" [ref=e67]:
+              - img "One platform for successful partner collaboration - 6" [ref=e68]
+            - group "8 / 15" [ref=e69]:
+              - img "One platform for successful partner collaboration - 7" [ref=e70]
+            - group "9 / 15" [ref=e71]:
+              - img "One platform for successful partner collaboration - 8" [ref=e72]
+            - group "10 / 15" [ref=e73]:
+              - img "One platform for successful partner collaboration - 9" [ref=e74]
+            - group "11 / 15" [ref=e75]:
+              - img "One platform for successful partner collaboration - 10" [ref=e76]
+            - group "12 / 15" [ref=e77]:
+              - img "One platform for successful partner collaboration - 11" [ref=e78]
+            - group "13 / 15" [ref=e79]:
+              - img "One platform for successful partner collaboration - 12" [ref=e80]
+            - group "14 / 15" [ref=e81]:
+              - img "One platform for successful partner collaboration - 13" [ref=e82]
+            - group "15 / 15" [ref=e83]:
+              - img "One platform for successful partner collaboration - 14" [ref=e84]
+            - group "1 / 15" [ref=e85]:
+              - img "One platform for successful partner collaboration - 0" [ref=e86]
+            - group "2 / 15" [ref=e87]:
+              - img "One platform for successful partner collaboration - 1" [ref=e88]
+            - group "3 / 15" [ref=e89]:
+              - img "One platform for successful partner collaboration - 2" [ref=e90]
+            - group "4 / 15" [ref=e91]:
+              - img "One platform for successful partner collaboration - 3" [ref=e92]
+            - group "5 / 15" [ref=e93]:
+              - img "One platform for successful partner collaboration - 4" [ref=e94]
+            - group "6 / 15" [ref=e95]:
+              - img "One platform for successful partner collaboration - 5" [ref=e96]
+            - group "7 / 15" [ref=e97]:
+              - img "One platform for successful partner collaboration - 6" [ref=e98]
+            - group "8 / 15" [ref=e99]:
+              - img "One platform for successful partner collaboration - 7" [ref=e100]
+            - group "9 / 15" [ref=e101]:
+              - img "One platform for successful partner collaboration - 8" [ref=e102]
+            - group "10 / 15" [ref=e103]:
+              - img "One platform for successful partner collaboration - 9" [ref=e104]
+            - group "11 / 15" [ref=e105]:
+              - img "One platform for successful partner collaboration - 10" [ref=e106]
+            - group "12 / 15" [ref=e107]:
+              - img "One platform for successful partner collaboration - 11" [ref=e108]
+            - group "13 / 15" [ref=e109]:
+              - img "One platform for successful partner collaboration - 12" [ref=e110]
+            - group "14 / 15" [ref=e111]:
+              - img "One platform for successful partner collaboration - 13" [ref=e112]
+            - group "15 / 15" [ref=e113]:
+              - img "One platform for successful partner collaboration - 14" [ref=e114]
+            - group "1 / 15" [ref=e115]:
+              - img "One platform for successful partner collaboration - 0" [ref=e116]
+            - group "2 / 15" [ref=e117]:
+              - img "One platform for successful partner collaboration - 1" [ref=e118]
+            - group "3 / 15" [ref=e119]:
+              - img "One platform for successful partner collaboration - 2" [ref=e120]
+            - group "4 / 15" [ref=e121]:
+              - img "One platform for successful partner collaboration - 3" [ref=e122]
+            - group "5 / 15" [ref=e123]:
+              - img "One platform for successful partner collaboration - 4" [ref=e124]
+            - group "6 / 15" [ref=e125]:
+              - img "One platform for successful partner collaboration - 5" [ref=e126]
+            - group "7 / 15" [ref=e127]:
+              - img "One platform for successful partner collaboration - 6" [ref=e128]
+            - group "8 / 15" [ref=e129]:
+              - img "One platform for successful partner collaboration - 7" [ref=e130]
+            - group "9 / 15" [ref=e131]:
+              - img "One platform for successful partner collaboration - 8" [ref=e132]
+            - group "10 / 15" [ref=e133]:
+              - img "One platform for successful partner collaboration - 9" [ref=e134]
+            - group "11 / 15" [ref=e135]:
+              - img "One platform for successful partner collaboration - 10" [ref=e136]
+            - group "12 / 15" [ref=e137]:
+              - img "One platform for successful partner collaboration - 11" [ref=e138]
+            - group "13 / 15" [ref=e139]:
+              - img "One platform for successful partner collaboration - 12" [ref=e140]
+            - group "14 / 15" [ref=e141]:
+              - img "One platform for successful partner collaboration - 13" [ref=e142]
+            - group "15 / 15" [ref=e143]:
+              - img "One platform for successful partner collaboration - 14" [ref=e144]
+          - generic [ref=e145]:
+            - link "Start as Advertiser" [ref=e146] [cursor=pointer]:
+              - /url: https://www.admitad.com/advertiser-and-agency-lead-form/
+            - link "Start as Publisher" [ref=e147] [cursor=pointer]:
+              - /url: https://store.admitad.com/en/webmaster/registration/
+        - generic [ref=e149]:
+          - generic [ref=e153]:
+            - heading "Admitad solutions for brands" [level=2] [ref=e154]
+            - paragraph [ref=e155]: Whatever your business size or marketing objectives, Admitad delivers the tools and solutions to help you grow.
+          - generic [ref=e156]:
+            - generic [ref=e158]:
+              - paragraph [ref=e159]: Admitad / Perform
+              - img "Affiliate marketing" [ref=e160]
+              - generic [ref=e161]:
+                - heading "Affiliate marketing" [level=3] [ref=e162]
+                - paragraph [ref=e163]: A robust, tech-driven affiliate platform for customer acquisition via CPA, CPL, and CPS models. Connect with a global ecosystem of vetted partners, leverage real-time tracking and deep analytics, and automate every step — from integration to payouts.
+              - generic [ref=e164]:
+                - link "Request" [ref=e165] [cursor=pointer]:
+                  - /url: https://www.admitad.com/advertiser-and-agency-lead-form/
+                - link "More details" [ref=e166] [cursor=pointer]:
+                  - /url: https://www.admitad.com/perform/
+            - generic [ref=e168]:
+              - paragraph [ref=e169]: Admitad / Creator
+              - img "Influencer marketing" [ref=e170]
+              - generic [ref=e171]:
+                - heading "Influencer marketing" [level=3] [ref=e172]
+                - paragraph [ref=e173]: Collaborate with creators who convert — not just post. Run high-impact campaigns across Instagram, TikTok, YouTube, and Telegram with promo code and link tracking, flexible payment options (per post, per sale, or hybrid), and a clear focus on measurable results.
+              - generic [ref=e174]:
+                - link "Request" [ref=e175] [cursor=pointer]:
+                  - /url: https://www.admitad.com/advertiser-and-agency-lead-form/
+                - link "More details" [ref=e176] [cursor=pointer]:
+                  - /url: https://www.admitad.com/creator/
+            - generic [ref=e178]:
+              - paragraph [ref=e179]: Admitad / Rewards
+              - img "Loyalty marketing" [ref=e180]
+              - generic [ref=e181]:
+                - heading "Loyalty marketing" [level=3] [ref=e182]
+                - paragraph [ref=e183]: Tap into high-intent audiences by placing your offers inside leading cashback, mileage, and bank loyalty programs. Reach millions of engaged users right where they redeem rewards.
+              - generic [ref=e184]:
+                - link "Request" [ref=e185] [cursor=pointer]:
+                  - /url: https://www.admitad.com/advertiser-and-agency-lead-form/
+                - link "More details" [ref=e186] [cursor=pointer]:
+                  - /url: https://www.admitad.com/rewardmarketing/
+            - generic [ref=e188]:
+              - paragraph [ref=e189]: Admitad / Mobile
+              - img "Mobile OEM advertising" [ref=e190]
+              - generic [ref=e191]:
+                - heading "Mobile OEM advertising" [level=3] [ref=e192]
+                - paragraph [ref=e193]: Drive installs, registrations and sales via alternative app stores, OEM placements, and exclusive mobile inventories. Reach users beyond the duopoly and scale efficiently with CPC-to-CPA optimization.
+              - generic [ref=e194]:
+                - link "Request" [ref=e195] [cursor=pointer]:
+                  - /url: https://www.admitad.com/advertiser-and-agency-lead-form/
+                - link "More details" [ref=e196] [cursor=pointer]:
+                  - /url: https://www.admitad.com/mobile/
+            - generic [ref=e198]:
+              - paragraph [ref=e199]: Admitad / Flow
+              - img "Contract and pay" [ref=e200]
+              - generic [ref=e201]:
+                - heading "Contract and pay" [level=3] [ref=e202]
+                - paragraph [ref=e203]: Run special projects without the legal and financial hassle. From freelancers to bloggers and affiliate partners — we take care of contracts, compliance, and global payouts.
+              - generic [ref=e204]:
+                - link "Request" [ref=e205] [cursor=pointer]:
+                  - /url: https://www.admitad.com/advertiser-and-agency-lead-form/
+                - link "More details" [ref=e206] [cursor=pointer]:
+                  - /url: https://www.admitad.com/flow/
+            - generic [ref=e208]:
+              - paragraph [ref=e209]: Admitad / Seller
+              - img "For marketplace sellers and DTC" [ref=e210]
+              - generic [ref=e211]:
+                - heading "For marketplace sellers and DTC" [level=3] [ref=e212]
+                - paragraph [ref=e213]: Attract high-intent shoppers to your product listings or direct store via a global network of affiliates and media partners. Full-funnel tracking, flexible payouts, and multi-channel attribution included.
+              - generic [ref=e214]:
+                - link "Request" [ref=e215] [cursor=pointer]:
+                  - /url: https://www.admitad.com/advertiser-and-agency-lead-form/
+                - link "More details" [ref=e216] [cursor=pointer]:
+                  - /url: https://www.admitad.com/seller/
+        - generic [ref=e218]:
+          - heading "We operate globally" [level=2] [ref=e223]
+          - generic [ref=e224]:
+            - paragraph [ref=e227]: North America
+            - paragraph [ref=e230]: West Europe
+            - paragraph [ref=e233]: APAC
+            - paragraph [ref=e236]: Latam
+            - paragraph [ref=e239]: MENA
+        - generic [ref=e241]:
+          - generic [ref=e244]:
+            - paragraph [ref=e245]: reviews
+            - generic [ref=e246]:
+              - heading "What our clients say about us" [level=2] [ref=e247]
+              - paragraph [ref=e248]: Real success stories from businesses who grow with Admitad.
+          - generic [ref=e249]:
+            - generic [ref=e250]:
+              - group "1 / 6" [ref=e251]:
+                - generic [ref=e252]:
+                  - img "Aaron HOU" [ref=e253]
+                  - generic [ref=e254]:
+                    - generic [ref=e255]:
+                      - heading "Aaron HOU" [level=3] [ref=e256]
+                      - paragraph [ref=e257]: CPS Account Manager, Alibaba.com
+                    - paragraph [ref=e259]: Our partnership with Admitad has been crucial in expanding our affiliate program, particularly in acquiring high-quality traffic and promotional partners. Admitad’s comprehensive data reporting and monitoring tools allow me to track performance metrics and identify new partnership opportunities daily. The efficient communication with our dedicated Admitad account manager has greatly enhanced our collaboration, resulting in a highly positive partnership experience. Given our success in meeting user growth and order volume targets in Europe, we look forward to achieving even greater results through this strategic partnership.
+              - group "2 / 6" [ref=e260]:
+                - generic [ref=e261]:
+                  - img "Aria Stank" [ref=e262]
+                  - generic [ref=e263]:
+                    - generic [ref=e264]:
+                      - heading "Aria Stank" [level=3] [ref=e265]
+                      - paragraph [ref=e266]: Account Executive, NordVPN
+                    - paragraph [ref=e268]: We’ve been working with Admitad for over five years, and the partnership has always been smooth and productive. Our account manager is very responsive and helpful, ensuring that any issues are resolved quickly. We also appreciate the tailored opportunities that keep adding value to our cooperation. The regular monthly catch-ups are especially useful for maintaining momentum and aligning on new initiatives.
+              - group "3 / 6" [ref=e269]:
+                - generic [ref=e270]:
+                  - img "Shelly Chen" [ref=e271]
+                  - generic [ref=e272]:
+                    - generic [ref=e273]:
+                      - heading "Shelly Chen" [level=3] [ref=e274]
+                      - paragraph [ref=e275]: Affiliate Marketing Specialist, Vevor
+                    - paragraph [ref=e277]: Working with the Admitad team has been an absolute pleasure. Their professionalism, prompt communication, and deep expertise have been invaluable to our partnership. They provided exceptional support in program management and order validation, ensuring our collaboration ran smoothly and efficiently from start to finish.
+              - group "4 / 6" [ref=e278]:
+                - generic [ref=e279]:
+                  - img "Marek Urawski" [ref=e280]
+                  - generic [ref=e281]:
+                    - generic [ref=e282]:
+                      - heading "Marek Urawski" [level=3] [ref=e283]
+                      - paragraph [ref=e284]: E-commerce Manager, Carinii
+                    - paragraph [ref=e286]: Our partnership with Admitad is a key part of our marketing strategy. Their top-notch service ensures our campaigns run smoothly with minimal effort. Their financial model greatly reduces our risk, and their innovative services perfectly align with our brand. I highly recommend Admitad to anyone looking to boost online traffic and revenue without major investments.
+              - group "5 / 6" [ref=e287]:
+                - generic [ref=e288]:
+                  - img "Shimeng Li" [ref=e289]
+                  - generic [ref=e290]:
+                    - generic [ref=e291]:
+                      - heading "Shimeng Li" [level=3] [ref=e292]
+                      - paragraph [ref=e293]: Business Manager, WPS Office
+                    - paragraph [ref=e295]: I’m pleased to recommend Admitad team as excellent affiliate partners. They were the first to reach out to me when we began exploring affiliate opportunities. They proactively introduced the team and gave me a clear and professional overview of why Admitad would be a strong fit for WPS — including their Chinese-speaking account manager support and flexible deposit policies, both of which aligned well with our international expansion needs. Since the partnership began, Admitad has consistently delivered strong results, driving user growth for WPS across global markets. Their coordination and broad publisher network have made them a valuable long-term partner.
+              - group "6 / 6" [ref=e296]:
+                - generic [ref=e297]:
+                  - img "Matteo Toniato" [ref=e298]
+                  - generic [ref=e299]:
+                    - generic [ref=e300]:
+                      - heading "Matteo Toniato" [level=3] [ref=e301]
+                      - paragraph [ref=e302]: Head of Digital Marketing, BasharaCare
+                    - paragraph [ref=e304]: We have greatly appreciated our partnership with Admitad and the successful collaboration we’ve fostered. Their consistent support in helping us achieve our business objectives, along with the development of insightful tools and their transparent dashboard, has made working with their team a seamless experience. We highly recommend Admitad to others for their dedicated commitment.
+            - generic [ref=e306]:
+              - button "Go to slide 1" [ref=e307] [cursor=pointer]
+              - button "Go to slide 2" [ref=e308] [cursor=pointer]
+              - button "Go to slide 3" [ref=e309] [cursor=pointer]
+              - button "Go to slide 4" [ref=e310] [cursor=pointer]
+              - button "Go to slide 5" [ref=e311] [cursor=pointer]
+        - generic [ref=e313]:
+          - generic [ref=e315]:
+            - heading "Welcome to Admitad" [level=2] [ref=e316]
+            - paragraph [ref=e317]: Click below to join Admitad — as a Brand, Agency partner, or to sign up as a Publisher or Creator.
+          - generic [ref=e318]:
+            - generic [ref=e321]:
+              - img "For brands" [ref=e322]
+              - generic [ref=e323]:
+                - heading "For brands" [level=3] [ref=e325]
+                - generic [ref=e326]:
+                  - paragraph [ref=e327]: Our products for
+                  - list [ref=e328]:
+                    - listitem [ref=e329]: Ecommerce
+                    - listitem [ref=e330]: Travel
+                    - listitem [ref=e331]: Online services
+                    - listitem [ref=e332]: Finance
+                    - listitem [ref=e333]: Loans and insurance
+                    - listitem [ref=e334]: Marketplace sellers
+                    - listitem [ref=e335]: Mobile apps
+                - link "Connect" [ref=e337] [cursor=pointer]:
+                  - /url: https://www.admitad.com/advertiser-and-agency-lead-form/
+            - generic [ref=e340]:
+              - img "For publishers & creators" [ref=e341]
+              - generic [ref=e342]:
+                - heading "For publishers & creators" [level=3] [ref=e344]
+                - generic [ref=e345]:
+                  - paragraph [ref=e346]: Our products for
+                  - list [ref=e347]:
+                    - listitem [ref=e348]: Influencers
+                    - listitem [ref=e349]: Creators
+                    - listitem [ref=e350]: Affiliates
+                    - listitem [ref=e351]: Call centers
+                    - listitem [ref=e352]: Loyalty programs
+                    - listitem [ref=e353]: OEM providers
+                    - listitem [ref=e354]: Telegram channels
+                    - listitem [ref=e355]: Bank apps
+                - link "Register" [ref=e357] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/registration/
+            - generic [ref=e360]:
+              - img "For agencies" [ref=e361]
+              - generic [ref=e362]:
+                - heading "For agencies" [level=3] [ref=e364]
+                - generic [ref=e365]:
+                  - paragraph [ref=e366]: Our products for
+                  - list [ref=e367]:
+                    - listitem [ref=e368]: PR Agencies
+                    - listitem [ref=e369]: Performance marketing agencies
+                    - listitem [ref=e370]: Creative agencies
+                    - listitem [ref=e371]: Media agencies
+                - link "Request" [ref=e373] [cursor=pointer]:
+                  - /url: https://www.admitad.com/advertiser-and-agency-lead-form/
+    - contentinfo [ref=e374]:
+      - navigation [ref=e377]:
+        - listitem [ref=e378]:
+          - paragraph [ref=e380]: For advertisers
+          - list [ref=e381]:
+            - listitem [ref=e382]:
+              - link "Admitad Perform" [ref=e383] [cursor=pointer]:
+                - /url: https://www.admitad.com/perform/
+                - paragraph [ref=e384]: Admitad Perform
+            - listitem [ref=e385]:
+              - link "Admitad Creator" [ref=e386] [cursor=pointer]:
+                - /url: https://www.admitad.com/creator/
+                - paragraph [ref=e387]: Admitad Creator
+            - listitem [ref=e388]:
+              - link "Admitad Rewards" [ref=e389] [cursor=pointer]:
+                - /url: https://www.admitad.com/rewards/
+                - paragraph [ref=e390]: Admitad Rewards
+            - listitem [ref=e391]:
+              - link "Admitad Mobile" [ref=e392] [cursor=pointer]:
+                - /url: https://www.admitad.com/mobile/
+                - paragraph [ref=e393]: Admitad Mobile
+            - listitem [ref=e394]:
+              - link "Admitad Flow" [ref=e395] [cursor=pointer]:
+                - /url: https://www.admitad.com/flow/
+                - paragraph [ref=e396]: Admitad Flow
+            - listitem [ref=e397]:
+              - link "Admitad Seller" [ref=e398] [cursor=pointer]:
+                - /url: https://www.admitad.com/seller/
+                - paragraph [ref=e399]: Admitad Seller
+            - listitem [ref=e400]:
+              - link "Agency Partners" [ref=e401] [cursor=pointer]:
+                - /url: https://www.admitad.com/agency-partners/
+                - paragraph [ref=e402]: Agency Partners
+            - listitem [ref=e403]:
+              - link "Telegram advertising" [ref=e404] [cursor=pointer]:
+                - /url: https://www.admitad.com/telegram/
+                - paragraph [ref=e405]: Telegram advertising
+        - listitem [ref=e406]:
+          - paragraph [ref=e408]: For publishers
+          - list [ref=e409]:
+            - listitem [ref=e410]:
+              - link "Affiliate publishers" [ref=e411] [cursor=pointer]:
+                - /url: https://www.admitad.com/affiliates/
+                - paragraph [ref=e412]: Affiliate publishers
+            - listitem [ref=e413]:
+              - link "Coupons & Deals" [ref=e414] [cursor=pointer]:
+                - /url: https://www.admitad.com/deals/
+                - paragraph [ref=e415]: Coupons & Deals
+            - listitem [ref=e416]:
+              - link "Influencers & Creators" [ref=e417] [cursor=pointer]:
+                - /url: https://www.admitad.com/creators/
+                - paragraph [ref=e418]: Influencers & Creators
+            - listitem [ref=e419]:
+              - link "Loyalty & Rewards" [ref=e420] [cursor=pointer]:
+                - /url: https://www.admitad.com/rewardspublishers/
+                - paragraph [ref=e421]: Loyalty & Rewards
+            - listitem [ref=e422]:
+              - link "Mobile Apps & OEM" [ref=e423] [cursor=pointer]:
+                - /url: https://www.admitad.com/mobile-publishers/
+                - paragraph [ref=e424]: Mobile Apps & OEM
+            - listitem [ref=e425]:
+              - link "Premium Media Publishers" [ref=e426] [cursor=pointer]:
+                - /url: https://www.admitad.com/premiummedia/
+                - paragraph [ref=e427]: Premium Media Publishers
+            - listitem [ref=e428]:
+              - link "Admitad Store" [ref=e429] [cursor=pointer]:
+                - /url: https://www.admitad.com/store/
+                - paragraph [ref=e430]: Admitad Store
+        - listitem [ref=e431]:
+          - paragraph [ref=e433]: Resources
+          - list [ref=e434]:
+            - listitem [ref=e435]:
+              - link "Case Studies" [ref=e436] [cursor=pointer]:
+                - /url: https://www.admitad.com/casestudies/
+                - paragraph [ref=e437]: Case Studies
+            - listitem [ref=e438]:
+              - link "Academy" [ref=e439] [cursor=pointer]:
+                - /url: https://academy.admitad.com/
+                - paragraph [ref=e440]: Academy
+            - listitem [ref=e441]:
+              - link "Technology partner program" [ref=e442] [cursor=pointer]:
+                - /url: https://www.admitad.com/technology-partners/
+                - paragraph [ref=e443]: Technology partner program
+            - listitem [ref=e444]:
+              - link "API" [ref=e445] [cursor=pointer]:
+                - /url: https://developers.admitad.com/hc/en-us
+                - paragraph [ref=e446]: API
+            - listitem [ref=e447]:
+              - link "Help center" [ref=e448] [cursor=pointer]:
+                - /url: https://support.admitad.com/hc/en-us
+                - paragraph [ref=e449]: Help center
+        - listitem [ref=e450]:
+          - paragraph [ref=e452]: Company
+          - list [ref=e453]:
+            - listitem [ref=e454]:
+              - link "Locations" [ref=e455] [cursor=pointer]:
+                - /url: https://www.admitad.com/offices/
+                - paragraph [ref=e456]: Locations
+            - listitem [ref=e457]:
+              - link "Careers" [ref=e458] [cursor=pointer]:
+                - /url: https://careers.mitgo.com/
+                - paragraph [ref=e459]: Careers
+            - listitem [ref=e460]:
+              - link "History" [ref=e461] [cursor=pointer]:
+                - /url: https://mitgo.com/story/
+                - paragraph [ref=e462]: History
+            - listitem [ref=e463]:
+              - link "News" [ref=e464] [cursor=pointer]:
+                - /url: https://www.admitad.com/blog/
+                - paragraph [ref=e465]: News
+            - listitem [ref=e466]:
+              - link "Imprint" [ref=e467] [cursor=pointer]:
+                - /url: https://www.admitad.com/imprint/
+                - paragraph [ref=e468]: Imprint
+      - generic [ref=e471]:
+        - link "Admitad" [ref=e472] [cursor=pointer]:
+          - /url: https://www.admitad.com
+          - img "Admitad" [ref=e473]
+        - navigation [ref=e474]:
+          - listitem [ref=e475]:
+            - link "Privacy policy" [ref=e476] [cursor=pointer]:
+              - /url: https://www.admitad.com/privacy/
+              - paragraph [ref=e477]: Privacy policy
+          - listitem [ref=e478]:
+            - link "Terms of use" [ref=e479] [cursor=pointer]:
+              - /url: https://www.admitad.com/terms-of-use/
+              - paragraph [ref=e480]: Terms of use
+        - link "Login" [ref=e483] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/sso/login/

@@ -1,0 +1,1147 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "SmartSkidka" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: Установите SmartSkidka
+      - generic [ref=e7]: Быстрый доступ к скидкам
+    - button "Установить" [ref=e8] [cursor=pointer]
+    - button "×" [ref=e9] [cursor=pointer]
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "Smart Skidka .ru" [ref=e12] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e14]
+        - generic [ref=e18]:
+          - generic [ref=e19]: Smart
+          - generic [ref=e20]: Skidka
+          - generic [ref=e21]: .ru
+      - generic [ref=e22]:
+        - img
+        - textbox "Поиск товаров..." [ref=e23]
+        - button "AI поиск" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+      - generic [ref=e27]:
+        - generic [ref=e28]: "AI-поиск: 3 из 3 осталось"
+        - button "Избранное" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+  - main [ref=e32]:
+    - generic [ref=e34]:
+      - generic [ref=e36]: 1000+ товаров со скидками до 90%
+      - heading "Лучшие скидки AliExpress" [level=1] [ref=e37]
+      - paragraph [ref=e38]: Экономьте до 90% на топовых товарах с бесплатной доставкой
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: 2000+
+          - generic [ref=e42]: Товаров
+        - generic [ref=e43]:
+          - generic [ref=e44]: до 90%
+          - generic [ref=e45]: Скидки
+        - generic [ref=e46]:
+          - generic [ref=e47]: Бесплатно
+          - generic [ref=e48]: Доставка
+    - generic [ref=e49]:
+      - complementary [ref=e50]:
+        - heading "Категории" [level=3] [ref=e52]
+        - navigation [ref=e53]:
+          - button "⊞ Все" [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]: ⊞ Все
+          - generic [ref=e57]:
+            - button "💻 Электроника 222" [ref=e58] [cursor=pointer]:
+              - generic [ref=e59]: 💻 Электроника
+              - generic [ref=e60]: "222"
+            - generic:
+              - button "Комплектующие" [ref=e61] [cursor=pointer]
+              - button "Периферия" [ref=e62] [cursor=pointer]
+              - button "Накопители" [ref=e63] [cursor=pointer]
+              - button "Сетевое оборудование" [ref=e64] [cursor=pointer]
+              - button "Планшеты" [ref=e65] [cursor=pointer]
+              - button "Умная электроника" [ref=e66] [cursor=pointer]
+          - generic [ref=e67]:
+            - button "👕 Одежда 223" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 👕 Одежда
+              - generic [ref=e70]: "223"
+            - generic:
+              - button "Рубашки" [ref=e71] [cursor=pointer]
+              - button "Пуховики" [ref=e72] [cursor=pointer]
+              - button "Сумки" [ref=e73] [cursor=pointer]
+              - button "Рюкзаки" [ref=e74] [cursor=pointer]
+              - button "Чемоданы" [ref=e75] [cursor=pointer]
+              - button "Аксессуары" [ref=e76] [cursor=pointer]
+          - generic [ref=e77]:
+            - button "👟 Обувь 223" [ref=e78] [cursor=pointer]:
+              - generic [ref=e79]: 👟 Обувь
+              - generic [ref=e80]: "223"
+            - generic:
+              - button "Кроссовки" [ref=e81] [cursor=pointer]
+              - button "Женская обувь" [ref=e82] [cursor=pointer]
+              - button "Мужская обувь" [ref=e83] [cursor=pointer]
+          - generic [ref=e84]:
+            - button "🏠 Дом 222" [ref=e85] [cursor=pointer]:
+              - generic [ref=e86]: 🏠 Дом
+              - generic [ref=e87]: "222"
+            - generic:
+              - button "Товары для дома" [ref=e88] [cursor=pointer]
+              - button "Кухня" [ref=e89] [cursor=pointer]
+              - button "Ванная" [ref=e90] [cursor=pointer]
+              - button "Стройматериалы" [ref=e91] [cursor=pointer]
+          - generic [ref=e92]:
+            - button "🚗 Авто 222" [ref=e93] [cursor=pointer]:
+              - generic [ref=e94]: 🚗 Авто
+              - generic [ref=e95]: "222"
+            - generic:
+              - button "Двигатели" [ref=e96] [cursor=pointer]
+              - button "Кузовные детали" [ref=e97] [cursor=pointer]
+              - button "Автосвет" [ref=e98] [cursor=pointer]
+              - button "Инструменты" [ref=e99] [cursor=pointer]
+              - button "Мотоциклы" [ref=e100] [cursor=pointer]
+          - generic [ref=e101]:
+            - button "💄 Красота 222" [ref=e102] [cursor=pointer]:
+              - generic [ref=e103]: 💄 Красота
+              - generic [ref=e104]: "222"
+            - generic:
+              - button "Стоматология" [ref=e105] [cursor=pointer]
+              - button "Маникюр" [ref=e106] [cursor=pointer]
+              - button "Уход за волосами" [ref=e107] [cursor=pointer]
+              - button "Парфюм" [ref=e108] [cursor=pointer]
+          - generic [ref=e109]:
+            - button "⚽ Спорт 222" [ref=e110] [cursor=pointer]:
+              - generic [ref=e111]: ⚽ Спорт
+              - generic [ref=e112]: "222"
+            - generic:
+              - button "Лыжи" [ref=e113] [cursor=pointer]
+              - button "Спортивные сумки" [ref=e114] [cursor=pointer]
+              - button "Активный отдых" [ref=e115] [cursor=pointer]
+          - generic [ref=e116]:
+            - button "💎 Украшения 222" [ref=e117] [cursor=pointer]:
+              - generic [ref=e118]: 💎 Украшения
+              - generic [ref=e119]: "222"
+            - generic:
+              - button "Ювелирка" [ref=e120] [cursor=pointer]
+              - button "Часы" [ref=e121] [cursor=pointer]
+          - generic [ref=e122]:
+            - button "🧸 Игрушки 222" [ref=e123] [cursor=pointer]:
+              - generic [ref=e124]: 🧸 Игрушки
+              - generic [ref=e125]: "222"
+            - generic:
+              - button "Фигурки" [ref=e126] [cursor=pointer]
+              - button "Конструкторы" [ref=e127] [cursor=pointer]
+              - button "Р/У игрушки" [ref=e128] [cursor=pointer]
+              - button "Игры и пазлы" [ref=e129] [cursor=pointer]
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - button "Все" [ref=e132] [cursor=pointer]
+          - button "Для детей" [ref=e133] [cursor=pointer]
+          - button "Аксессуары" [ref=e134] [cursor=pointer]
+          - button "Брендовое" [ref=e135] [cursor=pointer]
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - button "Все скидки" [ref=e139] [cursor=pointer]
+              - button "30%+" [ref=e140] [cursor=pointer]
+              - button "50%+" [ref=e141] [cursor=pointer]
+              - button "70%+" [ref=e142] [cursor=pointer]
+              - button "90%+" [ref=e143] [cursor=pointer]
+            - generic [ref=e144]:
+              - generic [ref=e145]: "Цена:"
+              - spinbutton [ref=e146]
+              - generic [ref=e147]: —
+              - spinbutton [ref=e148]
+              - button "OK" [ref=e149] [cursor=pointer]
+            - combobox [ref=e151] [cursor=pointer]:
+              - option "По скидке" [selected]
+              - option "Сначала дешевые"
+              - option "Сначала дорогие"
+              - option "По заказам"
+          - generic [ref=e152]: 2000 товаров
+        - generic [ref=e153]:
+          - heading "Подборки скидок" [level=2] [ref=e154]:
+            - img [ref=e155]
+            - text: Подборки скидок
+          - generic [ref=e157]:
+            - link "Скидки до 90% на электронику →" [ref=e158] [cursor=pointer]:
+              - /url: /electronics.html?filter=90
+              - img [ref=e160]
+              - generic [ref=e163]: Скидки до 90% на электронику
+              - generic [ref=e164]: →
+            - link "Топ одежды со скидками 70%+ →" [ref=e165] [cursor=pointer]:
+              - /url: /clothing.html?filter=70
+              - img [ref=e167]
+              - generic [ref=e169]: Топ одежды со скидками 70%+
+              - generic [ref=e170]: →
+            - link "Лучшие цены на кроссовки →" [ref=e171] [cursor=pointer]:
+              - /url: /shoes.html?filter=all
+              - img [ref=e173]
+              - generic [ref=e177]: Лучшие цены на кроссовки
+              - generic [ref=e178]: →
+            - link "Всё для дома до 1000₽ →" [ref=e179] [cursor=pointer]:
+              - /url: /home.html?filter=all
+              - img [ref=e181]
+              - generic [ref=e184]: Всё для дома до 1000₽
+              - generic [ref=e185]: →
+        - generic [ref=e186]:
+          - heading "Топ-10 за неделю" [level=2] [ref=e187]:
+            - img [ref=e188]
+            - text: Топ-10 за неделю
+          - generic [ref=e191]:
+            - link "1 Queen Heart 4ct Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry Queen Heart 4ct Moissanite Diamond Ring 9 177 ₽ -90%" [ref=e192] [cursor=pointer]:
+              - /url: /item/74279.html
+              - generic [ref=e193]: "1"
+              - img "Queen Heart 4ct Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry" [ref=e194]
+              - generic [ref=e195]:
+                - generic [ref=e196]: Queen Heart 4ct Moissanite Diamond Ring
+                - generic [ref=e197]: 9 177 ₽
+              - generic [ref=e198]: "-90%"
+            - link "2 CKT Real Vvs1 Diamond Water Droplet Ring for Women Pear Shape 18K Gold Mossum Stone Moissanite Rings Wedding Fine Jewelry Gift CKT Real Vvs1 Diamond Water Droplet Ring 9 135 ₽ -90%" [ref=e199] [cursor=pointer]:
+              - /url: /item/75091.html
+              - generic [ref=e200]: "2"
+              - img "CKT Real Vvs1 Diamond Water Droplet Ring for Women Pear Shape 18K Gold Mossum Stone Moissanite Rings Wedding Fine Jewelry Gift" [ref=e201]
+              - generic [ref=e202]:
+                - generic [ref=e203]: CKT Real Vvs1 Diamond Water Droplet Ring
+                - generic [ref=e204]: 9 135 ₽
+              - generic [ref=e205]: "-90%"
+            - link "3 CKT 18k Gold Cross Stud Earrings for Women Fashion D Color Moissanite Earrings Hip-hop American Wedding Fine Jewelry CKT 18k Gold Cross Stud Earrings for Wom 8 726 ₽ -90%" [ref=e206] [cursor=pointer]:
+              - /url: /item/75124.html
+              - generic [ref=e207]: "3"
+              - img "CKT 18k Gold Cross Stud Earrings for Women Fashion D Color Moissanite Earrings Hip-hop American Wedding Fine Jewelry" [ref=e208]
+              - generic [ref=e209]:
+                - generic [ref=e210]: CKT 18k Gold Cross Stud Earrings for Wom
+                - generic [ref=e211]: 8 726 ₽
+              - generic [ref=e212]: "-90%"
+            - link "4 CKT 0.5CT Moissanite Snowflake Inlaid Diamond 18k White Gold Stud Earrings for Women's Short Symmetrical Platinum Pt950 Earrings CKT 0.5CT Moissanite Snowflake Inlaid Di 8 999 ₽ -90%" [ref=e213] [cursor=pointer]:
+              - /url: /item/75285.html
+              - generic [ref=e214]: "4"
+              - img "CKT 0.5CT Moissanite Snowflake Inlaid Diamond 18k White Gold Stud Earrings for Women's Short Symmetrical Platinum Pt950 Earrings" [ref=e215]
+              - generic [ref=e216]:
+                - generic [ref=e217]: CKT 0.5CT Moissanite Snowflake Inlaid Di
+                - generic [ref=e218]: 8 999 ₽
+              - generic [ref=e219]: "-90%"
+            - link "5 Elegant Flower Moissanite Diamond Dangle Earring 100% Real 925 Sterling Silver Wedding Drop Earrings for Women Bridal Jewelry Elegant Flower Moissanite Diamond Dangle 8 076 ₽ -90%" [ref=e220] [cursor=pointer]:
+              - /url: /item/75294.html
+              - generic [ref=e221]: "5"
+              - img "Elegant Flower Moissanite Diamond Dangle Earring 100% Real 925 Sterling Silver Wedding Drop Earrings for Women Bridal Jewelry" [ref=e222]
+              - generic [ref=e223]:
+                - generic [ref=e224]: Elegant Flower Moissanite Diamond Dangle
+                - generic [ref=e225]: 8 076 ₽
+              - generic [ref=e226]: "-90%"
+            - link "6 2025 Fine 5Ct D Color Moissanite Diamond Ring 925 Sterling Silver Party Wedding Band Rings for Women Bridal Engagement Jewelry 2025 Fine 5Ct D Color Moissanite Diamond 8 271 ₽ -90%" [ref=e227] [cursor=pointer]:
+              - /url: /item/75550.html
+              - generic [ref=e228]: "6"
+              - img "2025 Fine 5Ct D Color Moissanite Diamond Ring 925 Sterling Silver Party Wedding Band Rings for Women Bridal Engagement Jewelry" [ref=e229]
+              - generic [ref=e230]:
+                - generic [ref=e231]: 2025 Fine 5Ct D Color Moissanite Diamond
+                - generic [ref=e232]: 8 271 ₽
+              - generic [ref=e233]: "-90%"
+            - link "7 Eternity Moissanite Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women men Fine Jewelry Gift Eternity Moissanite Diamond Ring 100% Or 8 076 ₽ -90%" [ref=e234] [cursor=pointer]:
+              - /url: /item/75653.html
+              - generic [ref=e235]: "7"
+              - img "Eternity Moissanite Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women men Fine Jewelry Gift" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Eternity Moissanite Diamond Ring 100% Or
+                - generic [ref=e239]: 8 076 ₽
+              - generic [ref=e240]: "-90%"
+            - link "8 Women Valentine's Day 18K White Gold Wedding Drop Earrings 1.12/2.12/4.12CT Moissanite Diamond PT950 Platinum Girl Birthday Gift Women Valentine's Day 18K White Gold Wed 8 005 ₽ -90%" [ref=e241] [cursor=pointer]:
+              - /url: /item/75739.html
+              - generic [ref=e242]: "8"
+              - img "Women Valentine's Day 18K White Gold Wedding Drop Earrings 1.12/2.12/4.12CT Moissanite Diamond PT950 Platinum Girl Birthday Gift" [ref=e243]
+              - generic [ref=e244]:
+                - generic [ref=e245]: Women Valentine's Day 18K White Gold Wed
+                - generic [ref=e246]: 8 005 ₽
+              - generic [ref=e247]: "-90%"
+            - link "9 Elegant 6ct Pink Sapphire Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women Party Jewelry Elegant 6ct Pink Sapphire Diamond Ring 1 8 076 ₽ -90%" [ref=e248] [cursor=pointer]:
+              - /url: /item/75819.html
+              - generic [ref=e249]: "9"
+              - img "Elegant 6ct Pink Sapphire Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women Party Jewelry" [ref=e250]
+              - generic [ref=e251]:
+                - generic [ref=e252]: Elegant 6ct Pink Sapphire Diamond Ring 1
+                - generic [ref=e253]: 8 076 ₽
+              - generic [ref=e254]: "-90%"
+            - link "10 Oval Cut 3ct Gemstones Diamond Ring 100% Original 925 sterling silver Wedding band Rings for Women Men Engagement Jewelry Gift Oval Cut 3ct Gemstones Diamond Ring 100% 8 076 ₽ -90%" [ref=e255] [cursor=pointer]:
+              - /url: /item/75824.html
+              - generic [ref=e256]: "10"
+              - img "Oval Cut 3ct Gemstones Diamond Ring 100% Original 925 sterling silver Wedding band Rings for Women Men Engagement Jewelry Gift" [ref=e257]
+              - generic [ref=e258]:
+                - generic [ref=e259]: Oval Cut 3ct Gemstones Diamond Ring 100%
+                - generic [ref=e260]: 8 076 ₽
+              - generic [ref=e261]: "-90%"
+        - link "AliExpress RU&CIS" [ref=e263] [cursor=pointer]:
+          - /url: https://rzekl.com/g/1e8d114494fb6bf3968616525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Faliexpress.ru%252F&subid=smartskidka_banner
+          - img "AliExpress RU&CIS" [ref=e264]
+        - generic [ref=e265]:
+          - generic [ref=e266]:
+            - generic [ref=e267] [cursor=pointer]:
+              - generic [ref=e268]: "-90%"
+              - button "В избранное" [ref=e269]:
+                - img [ref=e270]
+              - generic [ref=e272]:
+                - img "Queen Heart 4ct Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry"
+              - generic [ref=e273]:
+                - heading "Queen Heart 4ct Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry" [level=3] [ref=e274]
+                - generic [ref=e275]:
+                  - generic [ref=e276]: украшения
+                  - generic [ref=e277]: мужские
+                  - generic [ref=e278]: женские
+                - generic [ref=e279]:
+                  - generic [ref=e280]: 9 177 ₽
+                  - generic [ref=e281]: 91 770 ₽
+                - generic [ref=e283]:
+                  - img [ref=e284]
+                  - text: 194 человек смотрят сейчас
+                - generic [ref=e288]:
+                  - img [ref=e289]
+                  - text: Скидка действует ещё 20 часов
+                - generic [ref=e292]:
+                  - img [ref=e293]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e295]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005008213097486.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e296]
+                  - text: На AliExpress →
+                - paragraph [ref=e300]:
+                  - img [ref=e301]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e303]:
+                  - img [ref=e304]
+                  - text: Поделиться
+            - generic [ref=e307] [cursor=pointer]:
+              - generic [ref=e308]: "-90%"
+              - button "В избранное" [ref=e309]:
+                - img [ref=e310]
+              - generic [ref=e312]:
+                - img "CKT Real Vvs1 Diamond Water Droplet Ring for Women Pear Shape 18K Gold Mossum Stone Moissanite Rings Wedding Fine Jewelry Gift"
+              - generic [ref=e313]:
+                - heading "CKT Real Vvs1 Diamond Water Droplet Ring for Women Pear Shape 18K Gold Mossum Stone Moissanite Rings Wedding Fine Jewelry Gift" [level=3] [ref=e314]
+                - generic [ref=e315]:
+                  - generic [ref=e316]: украшения
+                  - generic [ref=e317]: мужские
+                  - generic [ref=e318]: женские
+                - generic [ref=e319]:
+                  - generic [ref=e320]: 9 135 ₽
+                  - generic [ref=e321]: 91 350 ₽
+                - generic [ref=e323]:
+                  - img [ref=e324]
+                  - text: 189 человек смотрят сейчас
+                - generic [ref=e328]:
+                  - img [ref=e329]
+                  - text: Скидка действует ещё 47 часов
+                - generic [ref=e332]:
+                  - img [ref=e333]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e335]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009592008685.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e336]
+                  - text: На AliExpress →
+                - paragraph [ref=e340]:
+                  - img [ref=e341]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e343]:
+                  - img [ref=e344]
+                  - text: Поделиться
+            - generic [ref=e347] [cursor=pointer]:
+              - generic [ref=e348]: "-90%"
+              - button "В избранное" [ref=e349]:
+                - img [ref=e350]
+              - generic [ref=e352]:
+                - img "CKT 18k Gold Cross Stud Earrings for Women Fashion D Color Moissanite Earrings Hip-hop American Wedding Fine Jewelry"
+              - generic [ref=e353]:
+                - heading "CKT 18k Gold Cross Stud Earrings for Women Fashion D Color Moissanite Earrings Hip-hop American Wedding Fine Jewelry" [level=3] [ref=e354]
+                - generic [ref=e355]:
+                  - generic [ref=e356]: украшения
+                  - generic [ref=e357]: мужские
+                  - generic [ref=e358]: женские
+                - generic [ref=e359]:
+                  - generic [ref=e360]: 8 726 ₽
+                  - generic [ref=e361]: 87 260 ₽
+                - generic [ref=e363]:
+                  - img [ref=e364]
+                  - text: 153 человек смотрят сейчас
+                - generic [ref=e368]:
+                  - img [ref=e369]
+                  - text: Скидка действует ещё 15 часов
+                - generic [ref=e372]:
+                  - img [ref=e373]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e375]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009513758090.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e376]
+                  - text: На AliExpress →
+                - paragraph [ref=e380]:
+                  - img [ref=e381]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e383]:
+                  - img [ref=e384]
+                  - text: Поделиться
+            - generic [ref=e387] [cursor=pointer]:
+              - generic [ref=e388]: "-90%"
+              - button "В избранное" [ref=e389]:
+                - img [ref=e390]
+              - generic [ref=e392]:
+                - img "CKT 0.5CT Moissanite Snowflake Inlaid Diamond 18k White Gold Stud Earrings for Women's Short Symmetrical Platinum Pt950 Earrings"
+              - generic [ref=e393]:
+                - heading "CKT 0.5CT Moissanite Snowflake Inlaid Diamond 18k White Gold Stud Earrings for Women's Short Symmetrical Platinum Pt950 Earrings" [level=3] [ref=e394]
+                - generic [ref=e395]:
+                  - generic [ref=e396]: мужские
+                  - generic [ref=e397]: женские
+                - generic [ref=e398]:
+                  - generic [ref=e399]: 8 999 ₽
+                  - generic [ref=e400]: 89 987 ₽
+                - generic [ref=e402]:
+                  - img [ref=e403]
+                  - text: 74 человек смотрят сейчас
+                - generic [ref=e407]:
+                  - img [ref=e408]
+                  - text: Скидка действует ещё 34 часов
+                - generic [ref=e411]:
+                  - img [ref=e412]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e414]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009488498542.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e415]
+                  - text: На AliExpress →
+                - paragraph [ref=e419]:
+                  - img [ref=e420]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e422]:
+                  - img [ref=e423]
+                  - text: Поделиться
+            - generic [ref=e426] [cursor=pointer]:
+              - generic [ref=e427]: "-90%"
+              - button "В избранное" [ref=e428]:
+                - img [ref=e429]
+              - generic [ref=e431]:
+                - img "Elegant Flower Moissanite Diamond Dangle Earring 100% Real 925 Sterling Silver Wedding Drop Earrings for Women Bridal Jewelry"
+              - generic [ref=e432]:
+                - heading "Elegant Flower Moissanite Diamond Dangle Earring 100% Real 925 Sterling Silver Wedding Drop Earrings for Women Bridal Jewelry" [level=3] [ref=e433]
+                - generic [ref=e434]:
+                  - generic [ref=e435]: украшения
+                  - generic [ref=e436]: мужские
+                  - generic [ref=e437]: женские
+                - generic [ref=e438]:
+                  - generic [ref=e439]: 8 076 ₽
+                  - generic [ref=e440]: 80 758 ₽
+                - generic [ref=e442]:
+                  - img [ref=e443]
+                  - text: 149 человек смотрят сейчас
+                - generic [ref=e447]:
+                  - img [ref=e448]
+                  - text: Скидка действует ещё 38 часов
+                - generic [ref=e451]:
+                  - img [ref=e452]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e454]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005006196607660.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e455]
+                  - text: На AliExpress →
+                - paragraph [ref=e459]:
+                  - img [ref=e460]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e462]:
+                  - img [ref=e463]
+                  - text: Поделиться
+            - generic [ref=e466] [cursor=pointer]:
+              - generic [ref=e467]: "-90%"
+              - button "В избранное" [ref=e468]:
+                - img [ref=e469]
+              - generic [ref=e471]:
+                - img "2025 Fine 5Ct D Color Moissanite Diamond Ring 925 Sterling Silver Party Wedding Band Rings for Women Bridal Engagement Jewelry"
+              - generic [ref=e472]:
+                - heading "2025 Fine 5Ct D Color Moissanite Diamond Ring 925 Sterling Silver Party Wedding Band Rings for Women Bridal Engagement Jewelry" [level=3] [ref=e473]
+                - generic [ref=e474]:
+                  - generic [ref=e475]: украшения
+                  - generic [ref=e476]: мужские
+                  - generic [ref=e477]: женские
+                - generic [ref=e478]:
+                  - generic [ref=e479]: 8 271 ₽
+                  - generic [ref=e480]: 82 708 ₽
+                - generic [ref=e482]:
+                  - img [ref=e483]
+                  - text: 82 человек смотрят сейчас
+                - generic [ref=e487]:
+                  - img [ref=e488]
+                  - text: Скидка действует ещё 18 часов
+                - generic [ref=e491]:
+                  - img [ref=e492]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e494]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009326127383.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e495]
+                  - text: На AliExpress →
+                - paragraph [ref=e499]:
+                  - img [ref=e500]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e502]:
+                  - img [ref=e503]
+                  - text: Поделиться
+            - generic [ref=e506] [cursor=pointer]:
+              - generic [ref=e507]: "-90%"
+              - button "В избранное" [ref=e508]:
+                - img [ref=e509]
+              - generic [ref=e511]:
+                - img "Eternity Moissanite Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women men Fine Jewelry Gift"
+              - generic [ref=e512]:
+                - heading "Eternity Moissanite Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women men Fine Jewelry Gift" [level=3] [ref=e513]
+                - generic [ref=e514]:
+                  - generic [ref=e515]: украшения
+                  - generic [ref=e516]: мужские
+                  - generic [ref=e517]: женские
+                - generic [ref=e518]:
+                  - generic [ref=e519]: 8 076 ₽
+                  - generic [ref=e520]: 80 758 ₽
+                - generic [ref=e522]:
+                  - img [ref=e523]
+                  - text: 79 человек смотрят сейчас
+                - generic [ref=e527]:
+                  - img [ref=e528]
+                  - text: Скидка действует ещё 46 часов
+                - generic [ref=e531]:
+                  - img [ref=e532]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e534]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005002512949577.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e535]
+                  - text: На AliExpress →
+                - paragraph [ref=e539]:
+                  - img [ref=e540]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e542]:
+                  - img [ref=e543]
+                  - text: Поделиться
+            - generic [ref=e546] [cursor=pointer]:
+              - generic [ref=e547]: "-90%"
+              - button "В избранное" [ref=e548]:
+                - img [ref=e549]
+              - generic [ref=e551]:
+                - img "Women Valentine's Day 18K White Gold Wedding Drop Earrings 1.12/2.12/4.12CT Moissanite Diamond PT950 Platinum Girl Birthday Gift"
+              - generic [ref=e552]:
+                - heading "Women Valentine's Day 18K White Gold Wedding Drop Earrings 1.12/2.12/4.12CT Moissanite Diamond PT950 Platinum Girl Birthday Gift" [level=3] [ref=e553]
+                - generic [ref=e554]:
+                  - generic [ref=e555]: мужские
+                  - generic [ref=e556]: женские
+                - generic [ref=e557]:
+                  - generic [ref=e558]: 8 005 ₽
+                  - generic [ref=e559]: 80 047 ₽
+                - generic [ref=e561]:
+                  - img [ref=e562]
+                  - text: 89 человек смотрят сейчас
+                - generic [ref=e566]:
+                  - img [ref=e567]
+                  - text: Скидка действует ещё 29 часов
+                - generic [ref=e570]:
+                  - img [ref=e571]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e573]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009663827864.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e574]
+                  - text: На AliExpress →
+                - paragraph [ref=e578]:
+                  - img [ref=e579]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e581]:
+                  - img [ref=e582]
+                  - text: Поделиться
+            - generic [ref=e585] [cursor=pointer]:
+              - generic [ref=e586]: "-90%"
+              - button "В избранное" [ref=e587]:
+                - img [ref=e588]
+              - generic [ref=e590]:
+                - img "Elegant 6ct Pink Sapphire Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women Party Jewelry"
+              - generic [ref=e591]:
+                - heading "Elegant 6ct Pink Sapphire Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women Party Jewelry" [level=3] [ref=e592]
+                - generic [ref=e593]:
+                  - generic [ref=e594]: украшения
+                  - generic [ref=e595]: мужские
+                  - generic [ref=e596]: женские
+                - generic [ref=e597]:
+                  - generic [ref=e598]: 8 076 ₽
+                  - generic [ref=e599]: 80 758 ₽
+                - generic [ref=e601]:
+                  - img [ref=e602]
+                  - text: 174 человек смотрят сейчас
+                - generic [ref=e606]:
+                  - img [ref=e607]
+                  - text: Скидка действует ещё 25 часов
+                - generic [ref=e610]:
+                  - img [ref=e611]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e613]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005001787306434.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e614]
+                  - text: На AliExpress →
+                - paragraph [ref=e618]:
+                  - img [ref=e619]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e621]:
+                  - img [ref=e622]
+                  - text: Поделиться
+            - generic [ref=e625] [cursor=pointer]:
+              - generic [ref=e626]: "-90%"
+              - button "В избранное" [ref=e627]:
+                - img [ref=e628]
+              - generic [ref=e630]:
+                - img "Oval Cut 3ct Gemstones Diamond Ring 100% Original 925 sterling silver Wedding band Rings for Women Men Engagement Jewelry Gift"
+              - generic [ref=e631]:
+                - heading "Oval Cut 3ct Gemstones Diamond Ring 100% Original 925 sterling silver Wedding band Rings for Women Men Engagement Jewelry Gift" [level=3] [ref=e632]
+                - generic [ref=e633]:
+                  - generic [ref=e634]: украшения
+                  - generic [ref=e635]: мужские
+                  - generic [ref=e636]: женские
+                - generic [ref=e637]:
+                  - generic [ref=e638]: 8 076 ₽
+                  - generic [ref=e639]: 80 758 ₽
+                - generic [ref=e641]:
+                  - img [ref=e642]
+                  - text: 78 человек смотрят сейчас
+                - generic [ref=e646]:
+                  - img [ref=e647]
+                  - text: Скидка действует ещё 16 часов
+                - generic [ref=e650]:
+                  - img [ref=e651]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e653]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005003104440923.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e654]
+                  - text: На AliExpress →
+                - paragraph [ref=e658]:
+                  - img [ref=e659]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e661]:
+                  - img [ref=e662]
+                  - text: Поделиться
+            - generic [ref=e665] [cursor=pointer]:
+              - generic [ref=e666]: "-90%"
+              - button "В избранное" [ref=e667]:
+                - img [ref=e668]
+              - generic [ref=e670]:
+                - img "Elegant Oval 4ct Lab Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry"
+              - generic [ref=e671]:
+                - heading "Elegant Oval 4ct Lab Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry" [level=3] [ref=e672]
+                - generic [ref=e673]:
+                  - generic [ref=e674]: украшения
+                  - generic [ref=e675]: мужские
+                  - generic [ref=e676]: женские
+                - generic [ref=e677]:
+                  - generic [ref=e678]: 8 076 ₽
+                  - generic [ref=e679]: 80 758 ₽
+                - generic [ref=e681]:
+                  - img [ref=e682]
+                  - text: 82 человек смотрят сейчас
+                - generic [ref=e686]:
+                  - img [ref=e687]
+                  - text: Скидка действует ещё 32 часов
+                - generic [ref=e690]:
+                  - img [ref=e691]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e693]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005005581910561.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e694]
+                  - text: На AliExpress →
+                - paragraph [ref=e698]:
+                  - img [ref=e699]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e701]:
+                  - img [ref=e702]
+                  - text: Поделиться
+            - generic [ref=e705] [cursor=pointer]:
+              - generic [ref=e706]: "-90%"
+              - button "В избранное" [ref=e707]:
+                - img [ref=e708]
+              - generic [ref=e710]:
+                - img "Tassels Moissanite Diamond Chocker Necklace 100% Real 925 Sterling Silver Party Wedding Pendants Necklaces for Women Jewelry"
+              - generic [ref=e711]:
+                - heading "Tassels Moissanite Diamond Chocker Necklace 100% Real 925 Sterling Silver Party Wedding Pendants Necklaces for Women Jewelry" [level=3] [ref=e712]
+                - generic [ref=e713]:
+                  - generic [ref=e714]: украшения
+                  - generic [ref=e715]: мужские
+                  - generic [ref=e716]: женские
+                - generic [ref=e717]:
+                  - generic [ref=e718]: 8 271 ₽
+                  - generic [ref=e719]: 82 708 ₽
+                - generic [ref=e721]:
+                  - img [ref=e722]
+                  - text: 126 человек смотрят сейчас
+                - generic [ref=e726]:
+                  - img [ref=e727]
+                  - text: Скидка действует ещё 32 часов
+                - generic [ref=e730]:
+                  - img [ref=e731]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e733]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011907134238.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e734]
+                  - text: На AliExpress →
+                - paragraph [ref=e738]:
+                  - img [ref=e739]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e741]:
+                  - img [ref=e742]
+                  - text: Поделиться
+            - generic [ref=e745] [cursor=pointer]:
+              - generic [ref=e746]: "-90%"
+              - button "В избранное" [ref=e747]:
+                - img [ref=e748]
+              - generic [ref=e750]:
+                - img "New 9999 24K real gold gold store style women's bracelet with opening auspicious cloud gold ingot pattern beautiful jewelry"
+              - generic [ref=e751]:
+                - heading "New 9999 24K real gold gold store style women's bracelet with opening auspicious cloud gold ingot pattern beautiful jewelry" [level=3] [ref=e752]
+                - generic [ref=e753]:
+                  - generic [ref=e754]: украшения
+                  - generic [ref=e755]: мужские
+                  - generic [ref=e756]: женские
+                - generic [ref=e757]:
+                  - generic [ref=e758]: 7 864 ₽
+                  - generic [ref=e759]: 78 643 ₽
+                - generic [ref=e761]:
+                  - img [ref=e762]
+                  - text: 182 человек смотрят сейчас
+                - generic [ref=e766]:
+                  - img [ref=e767]
+                  - text: Скидка действует ещё 44 часов
+                - generic [ref=e770]:
+                  - img [ref=e771]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e773]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009037977359.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e774]
+                  - text: На AliExpress →
+                - paragraph [ref=e778]:
+                  - img [ref=e779]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e781]:
+                  - img [ref=e782]
+                  - text: Поделиться
+            - generic [ref=e785] [cursor=pointer]:
+              - generic [ref=e786]: "-90%"
+              - button "В избранное" [ref=e787]:
+                - img [ref=e788]
+              - generic [ref=e790]:
+                - img "Classic 3ct Pink Moissanite Diamond Ring 100% Real 925 Sterling Silver Engagement Wedding Band Rings for Women Promise Jewelry"
+              - generic [ref=e791]:
+                - heading "Classic 3ct Pink Moissanite Diamond Ring 100% Real 925 Sterling Silver Engagement Wedding Band Rings for Women Promise Jewelry" [level=3] [ref=e792]
+                - generic [ref=e793]:
+                  - generic [ref=e794]: украшения
+                  - generic [ref=e795]: мужские
+                  - generic [ref=e796]: женские
+                - generic [ref=e797]:
+                  - generic [ref=e798]: 8 076 ₽
+                  - generic [ref=e799]: 80 758 ₽
+                - generic [ref=e801]:
+                  - img [ref=e802]
+                  - text: 35 человек смотрят сейчас
+                - generic [ref=e806]:
+                  - img [ref=e807]
+                  - text: Скидка действует ещё 47 часов
+                - generic [ref=e810]:
+                  - img [ref=e811]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e813]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005006387345039.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e814]
+                  - text: На AliExpress →
+                - paragraph [ref=e818]:
+                  - img [ref=e819]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e821]:
+                  - img [ref=e822]
+                  - text: Поделиться
+            - generic [ref=e825] [cursor=pointer]:
+              - generic [ref=e826]: "-90%"
+              - button "В избранное" [ref=e827]:
+                - img [ref=e828]
+              - generic [ref=e830]:
+                - img "CKT 5x8mm 1CT Pear Cut Moissanite Pendant Necklace GRA Certified Platinum Pt950 Fishing Line Choker for Women Party Fine Jewelry"
+              - generic [ref=e831]:
+                - heading "CKT 5x8mm 1CT Pear Cut Moissanite Pendant Necklace GRA Certified Platinum Pt950 Fishing Line Choker for Women Party Fine Jewelry" [level=3] [ref=e832]
+                - generic [ref=e833]:
+                  - generic [ref=e834]: украшения
+                  - generic [ref=e835]: мужские
+                  - generic [ref=e836]: женские
+                - generic [ref=e837]:
+                  - generic [ref=e838]: 8 317 ₽
+                  - generic [ref=e839]: 83 170 ₽
+                - generic [ref=e841]:
+                  - img [ref=e842]
+                  - text: 50 человек смотрят сейчас
+                - generic [ref=e846]:
+                  - img [ref=e847]
+                  - text: Скидка действует ещё 12 часов
+                - generic [ref=e850]:
+                  - img [ref=e851]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e853]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011729683308.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e854]
+                  - text: На AliExpress →
+                - paragraph [ref=e858]:
+                  - img [ref=e859]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e861]:
+                  - img [ref=e862]
+                  - text: Поделиться
+            - generic [ref=e865] [cursor=pointer]:
+              - generic [ref=e866]: "-90%"
+              - button "В избранное" [ref=e867]:
+                - img [ref=e868]
+              - generic [ref=e870]:
+                - img "WOMEN Valentine's Day 18K White Gold Wedding Necklaces 0.8CT Moissanite Diamond PT950 Platinum Pendant Girl Friend Birthday Gift"
+              - generic [ref=e871]:
+                - heading "WOMEN Valentine's Day 18K White Gold Wedding Necklaces 0.8CT Moissanite Diamond PT950 Platinum Pendant Girl Friend Birthday Gift" [level=3] [ref=e872]
+                - generic [ref=e873]:
+                  - generic [ref=e874]: мужские
+                  - generic [ref=e875]: женские
+                - generic [ref=e876]:
+                  - generic [ref=e877]: 8 181 ₽
+                  - generic [ref=e878]: 81 806 ₽
+                - generic [ref=e880]:
+                  - img [ref=e881]
+                  - text: 77 человек смотрят сейчас
+                - generic [ref=e885]:
+                  - img [ref=e886]
+                  - text: Скидка действует ещё 46 часов
+                - generic [ref=e889]:
+                  - img [ref=e890]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e892]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010183398206.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e893]
+                  - text: На AliExpress →
+                - paragraph [ref=e897]:
+                  - img [ref=e898]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e900]:
+                  - img [ref=e901]
+                  - text: Поделиться
+            - generic [ref=e904] [cursor=pointer]:
+              - generic [ref=e905]: "-90%"
+              - button "В избранное" [ref=e906]:
+                - img [ref=e907]
+              - generic [ref=e909]:
+                - img "2025 New 24K Real Gold Diamond Hollow Purple Diamond Vase Pendant 9999 Niche Design Light Luxury Magic Aquarius Necklace"
+              - generic [ref=e910]:
+                - heading "2025 New 24K Real Gold Diamond Hollow Purple Diamond Vase Pendant 9999 Niche Design Light Luxury Magic Aquarius Necklace" [level=3] [ref=e911]
+                - generic [ref=e912]:
+                  - generic [ref=e913]: 8 146 ₽
+                  - generic [ref=e914]: 81 452 ₽
+                - generic [ref=e916]:
+                  - img [ref=e917]
+                  - text: 70 человек смотрят сейчас
+                - generic [ref=e921]:
+                  - img [ref=e922]
+                  - text: Скидка действует ещё 42 часов
+                - generic [ref=e925]:
+                  - img [ref=e926]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e928]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010370992590.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e929]
+                  - text: На AliExpress →
+                - paragraph [ref=e933]:
+                  - img [ref=e934]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e936]:
+                  - img [ref=e937]
+                  - text: Поделиться
+            - generic [ref=e940] [cursor=pointer]:
+              - generic [ref=e941]: "-90%"
+              - button "В избранное" [ref=e942]:
+                - img [ref=e943]
+              - generic [ref=e945]:
+                - img "Handmade Lab Diamond Jewelry set 14K White Gold Engagement Wedding Rings Earrings Necklace Bracelet For Women Party Jewelry Gift"
+              - generic [ref=e946]:
+                - heading "Handmade Lab Diamond Jewelry set 14K White Gold Engagement Wedding Rings Earrings Necklace Bracelet For Women Party Jewelry Gift" [level=3] [ref=e947]
+                - generic [ref=e948]:
+                  - generic [ref=e949]: украшения
+                  - generic [ref=e950]: мужские
+                  - generic [ref=e951]: женские
+                - generic [ref=e952]:
+                  - generic [ref=e953]: 8 271 ₽
+                  - generic [ref=e954]: 82 708 ₽
+                - generic [ref=e956]:
+                  - img [ref=e957]
+                  - text: 73 человек смотрят сейчас
+                - generic [ref=e961]:
+                  - img [ref=e962]
+                  - text: Скидка действует ещё 15 часов
+                - generic [ref=e965]:
+                  - img [ref=e966]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e968]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012180502252.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e969]
+                  - text: На AliExpress →
+                - paragraph [ref=e973]:
+                  - img [ref=e974]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e976]:
+                  - img [ref=e977]
+                  - text: Поделиться
+            - generic [ref=e980] [cursor=pointer]:
+              - generic [ref=e981]: "-90%"
+              - button "В избранное" [ref=e982]:
+                - img [ref=e983]
+              - generic [ref=e985]:
+                - img "Claw Set 5ct D Color Moissanite Diamond Ring 925 Sterling Silver Party Wedding Band Rings for Women Bridal Engagement Jewelry"
+              - generic [ref=e986]:
+                - heading "Claw Set 5ct D Color Moissanite Diamond Ring 925 Sterling Silver Party Wedding Band Rings for Women Bridal Engagement Jewelry" [level=3] [ref=e987]
+                - generic [ref=e988]:
+                  - generic [ref=e989]: украшения
+                  - generic [ref=e990]: мужские
+                  - generic [ref=e991]: женские
+                - generic [ref=e992]:
+                  - generic [ref=e993]: 8 271 ₽
+                  - generic [ref=e994]: 82 708 ₽
+                - generic [ref=e996]:
+                  - img [ref=e997]
+                  - text: 104 человек смотрят сейчас
+                - generic [ref=e1001]:
+                  - img [ref=e1002]
+                  - text: Скидка действует ещё 25 часов
+                - generic [ref=e1005]:
+                  - img [ref=e1006]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e1008]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009326011768.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e1009]
+                  - text: На AliExpress →
+                - paragraph [ref=e1013]:
+                  - img [ref=e1014]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e1016]:
+                  - img [ref=e1017]
+                  - text: Поделиться
+            - generic [ref=e1020] [cursor=pointer]:
+              - generic [ref=e1021]: "-90%"
+              - button "В избранное" [ref=e1022]:
+                - img [ref=e1023]
+              - generic [ref=e1025]:
+                - img "Eternity Oval cut Moissanite Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women Jewelry Gift"
+              - generic [ref=e1026]:
+                - heading "Eternity Oval cut Moissanite Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women Jewelry Gift" [level=3] [ref=e1027]
+                - generic [ref=e1028]:
+                  - generic [ref=e1029]: украшения
+                  - generic [ref=e1030]: мужские
+                  - generic [ref=e1031]: женские
+                - generic [ref=e1032]:
+                  - generic [ref=e1033]: 8 076 ₽
+                  - generic [ref=e1034]: 80 758 ₽
+                - generic [ref=e1036]:
+                  - img [ref=e1037]
+                  - text: 82 человек смотрят сейчас
+                - generic [ref=e1041]:
+                  - img [ref=e1042]
+                  - text: Скидка действует ещё 41 часов
+                - generic [ref=e1045]:
+                  - img [ref=e1046]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e1048]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F4000926236952.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e1049]
+                  - text: На AliExpress →
+                - paragraph [ref=e1053]:
+                  - img [ref=e1054]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e1056]:
+                  - img [ref=e1057]
+                  - text: Поделиться
+            - generic [ref=e1060] [cursor=pointer]:
+              - generic [ref=e1061]: "-90%"
+              - button "В избранное" [ref=e1062]:
+                - img [ref=e1063]
+              - generic [ref=e1065]:
+                - img "Bowknot 14K White Gold Lab Diamond Jewelry set Party Wedding Earrings Necklace For Women Bridal Engagement Anniversary Jewelry"
+              - generic [ref=e1066]:
+                - heading "Bowknot 14K White Gold Lab Diamond Jewelry set Party Wedding Earrings Necklace For Women Bridal Engagement Anniversary Jewelry" [level=3] [ref=e1067]
+                - generic [ref=e1068]:
+                  - generic [ref=e1069]: украшения
+                  - generic [ref=e1070]: мужские
+                  - generic [ref=e1071]: женские
+                - generic [ref=e1072]:
+                  - generic [ref=e1073]: 8 271 ₽
+                  - generic [ref=e1074]: 82 708 ₽
+                - generic [ref=e1076]:
+                  - img [ref=e1077]
+                  - text: 20 человек смотрят сейчас
+                - generic [ref=e1081]:
+                  - img [ref=e1082]
+                  - text: Скидка действует ещё 41 часов
+                - generic [ref=e1085]:
+                  - img [ref=e1086]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e1088]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005008646982106.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e1089]
+                  - text: На AliExpress →
+                - paragraph [ref=e1093]:
+                  - img [ref=e1094]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e1096]:
+                  - img [ref=e1097]
+                  - text: Поделиться
+            - generic [ref=e1100] [cursor=pointer]:
+              - generic [ref=e1101]: "-90%"
+              - button "В избранное" [ref=e1102]:
+                - img [ref=e1103]
+              - generic [ref=e1105]:
+                - img "WOMEN Engagement 18K White Gold Lady Wedding Band 1CT Moissanite Diamond Birthday Gift Girl Valentine's Day PT950 Platinum Rings"
+              - generic [ref=e1106]:
+                - heading "WOMEN Engagement 18K White Gold Lady Wedding Band 1CT Moissanite Diamond Birthday Gift Girl Valentine's Day PT950 Platinum Rings" [level=3] [ref=e1107]
+                - generic [ref=e1108]:
+                  - generic [ref=e1109]: мужские
+                  - generic [ref=e1110]: женские
+                - generic [ref=e1111]:
+                  - generic [ref=e1112]: 8 708 ₽
+                  - generic [ref=e1113]: 87 070 ₽
+                - generic [ref=e1115]:
+                  - img [ref=e1116]
+                  - text: 38 человек смотрят сейчас
+                - generic [ref=e1120]:
+                  - img [ref=e1121]
+                  - text: Скидка действует ещё 32 часов
+                - generic [ref=e1124]:
+                  - img [ref=e1125]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e1127]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009269171876.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e1128]
+                  - text: На AliExpress →
+                - paragraph [ref=e1132]:
+                  - img [ref=e1133]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e1135]:
+                  - img [ref=e1136]
+                  - text: Поделиться
+            - generic [ref=e1139] [cursor=pointer]:
+              - generic [ref=e1140]: "-90%"
+              - button "В избранное" [ref=e1141]:
+                - img [ref=e1142]
+              - generic [ref=e1144]:
+                - img "Charm Moissanite Diamond Necklace 100% Real 925 Sterling Silver Engagement Wedding Chocker Necklace For Women Bridal Jewelry"
+              - generic [ref=e1145]:
+                - heading "Charm Moissanite Diamond Necklace 100% Real 925 Sterling Silver Engagement Wedding Chocker Necklace For Women Bridal Jewelry" [level=3] [ref=e1146]
+                - generic [ref=e1147]:
+                  - generic [ref=e1148]: украшения
+                  - generic [ref=e1149]: мужские
+                  - generic [ref=e1150]: женские
+                - generic [ref=e1151]:
+                  - generic [ref=e1152]: 8 076 ₽
+                  - generic [ref=e1153]: 80 758 ₽
+                - generic [ref=e1155]:
+                  - img [ref=e1156]
+                  - text: 157 человек смотрят сейчас
+                - generic [ref=e1160]:
+                  - img [ref=e1161]
+                  - text: Скидка действует ещё 20 часов
+                - generic [ref=e1164]:
+                  - img [ref=e1165]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e1167]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005006162443647.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e1168]
+                  - text: На AliExpress →
+                - paragraph [ref=e1172]:
+                  - img [ref=e1173]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e1175]:
+                  - img [ref=e1176]
+                  - text: Поделиться
+            - generic [ref=e1179] [cursor=pointer]:
+              - generic [ref=e1180]: "-90%"
+              - button "В избранное" [ref=e1181]:
+                - img [ref=e1182]
+              - generic [ref=e1184]:
+                - img "Women Birthday Gift 18K White Gold Men Couple Rings Girl Friend Valentine's Day Unisex Moissanite Diamond Lovers Wedding Bands"
+              - generic [ref=e1185]:
+                - heading "Women Birthday Gift 18K White Gold Men Couple Rings Girl Friend Valentine's Day Unisex Moissanite Diamond Lovers Wedding Bands" [level=3] [ref=e1186]
+                - generic [ref=e1187]:
+                  - generic [ref=e1188]: мужские
+                  - generic [ref=e1189]: женские
+                  - generic [ref=e1190]: унисекс
+                - generic [ref=e1191]:
+                  - generic [ref=e1192]: 8 999 ₽
+                  - generic [ref=e1193]: 89 987 ₽
+                - generic [ref=e1195]:
+                  - img [ref=e1196]
+                  - text: 131 человек смотрят сейчас
+                - generic [ref=e1200]:
+                  - img [ref=e1201]
+                  - text: Скидка действует ещё 44 часов
+                - generic [ref=e1204]:
+                  - img [ref=e1205]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e1207]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010789335158.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e1208]
+                  - text: На AliExpress →
+                - paragraph [ref=e1212]:
+                  - img [ref=e1213]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e1215]:
+                  - img [ref=e1216]
+                  - text: Поделиться
+          - button "Показать ещё" [ref=e1219] [cursor=pointer]
+        - generic [ref=e1220]:
+          - heading "Недавно смотрели" [level=2] [ref=e1221]:
+            - img [ref=e1222]
+            - text: Недавно смотрели
+          - generic [ref=e1225]:
+            - link "Queen Heart 4ct Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry -90% Queen Heart 4ct Moissanite Dia 9 177 ₽" [ref=e1226] [cursor=pointer]:
+              - /url: /item/74279.html
+              - img "Queen Heart 4ct Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry" [ref=e1227]
+              - generic [ref=e1228]: "-90%"
+              - generic [ref=e1229]: Queen Heart 4ct Moissanite Dia
+              - generic [ref=e1230]: 9 177 ₽
+            - link "Asics Men Basic Basketball Shoes 1063A090-600 Non-slip Wear Resistant Athletic Sneakers Outdoor Sports Training Footwear -84% Asics Men Basic Basketball Sho 8 024 ₽" [ref=e1231] [cursor=pointer]:
+              - /url: /item/1954.html
+              - img "Asics Men Basic Basketball Shoes 1063A090-600 Non-slip Wear Resistant Athletic Sneakers Outdoor Sports Training Footwear" [ref=e1232]
+              - generic [ref=e1233]: "-84%"
+              - generic [ref=e1234]: Asics Men Basic Basketball Sho
+              - generic [ref=e1235]: 8 024 ₽
+  - generic [ref=e1236]:
+    - generic [ref=e1237]: ✓
+    - generic [ref=e1238]: Готово
+  - generic [ref=e1240]:
+    - heading "Скидки на AliExpress до 90% — как это работает" [level=2] [ref=e1241]
+    - paragraph [ref=e1242]: SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Мы ежедневно обновляем каталог, чтобы вы всегда находили самые выгодные предложения на электронику, одежду, обувь, товары для дома и авто. Все цены указаны в рублях с учётом актуального курса Центробанка.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e1243]
+    - paragraph [ref=e1244]: Используйте наш поиск по товарам или AI-поиск для подбора идеальных покупок. Добавляйте товары в избранное, чтобы вернуться к ним позже. Каждая карточка содержит реальный рейтинг, количество заказов и характеристики — никаких фейковых скидок.
+    - heading "1000+ товаров с бесплатной доставкой" [level=2] [ref=e1245]
+    - paragraph [ref=e1246]: В нашем каталоге более 1000 товаров с реальными скидками 20–90%. Все ссылки ведут напрямую на AliExpress через партнёрскую программу Admitad — вы получаете ту же цену, а мы небольшую комиссию за направление. Это позволяет нам поддерживать сервис и добавлять новые функции.
+  - contentinfo [ref=e1247]:
+    - generic [ref=e1248]:
+      - generic [ref=e1249]:
+        - generic [ref=e1250]: SmartSkidka.ru
+        - paragraph [ref=e1251]: Лучшие скидки и промокоды на товары с AliExpress. Экономьте умнее!
+      - generic [ref=e1252]:
+        - generic [ref=e1253]:
+          - heading "Категории" [level=4] [ref=e1254]
+          - link "Обувь" [ref=e1255] [cursor=pointer]:
+            - /url: /shoes.html
+          - link "Электроника" [ref=e1256] [cursor=pointer]:
+            - /url: /electronics.html
+          - link "Товары для дома" [ref=e1257] [cursor=pointer]:
+            - /url: /home.html
+          - link "Автотовары" [ref=e1258] [cursor=pointer]:
+            - /url: /auto.html
+          - link "Красота" [ref=e1259] [cursor=pointer]:
+            - /url: /beauty.html
+          - link "Спорт" [ref=e1260] [cursor=pointer]:
+            - /url: /sports.html
+        - generic [ref=e1261]:
+          - heading "Информация" [level=4] [ref=e1262]
+          - link "О нас" [ref=e1263] [cursor=pointer]:
+            - /url: about.html
+          - link "Контакты" [ref=e1264] [cursor=pointer]:
+            - /url: contact.html
+          - link "Политика конфиденциальности" [ref=e1265] [cursor=pointer]:
+            - /url: privacy.html
+          - link "Условия использования" [ref=e1266] [cursor=pointer]:
+            - /url: terms.html
+    - generic [ref=e1267]:
+      - paragraph [ref=e1268]: SmartSkidka.ru — не является магазином. Все товары продаются на AliExpress.
+      - paragraph [ref=e1269]:
+        - img [ref=e1270]
+        - link "Скидки в Telegram — @SmartRuMarket" [ref=e1274] [cursor=pointer]:
+          - /url: https://t.me/SmartRuMarket
+      - paragraph [ref=e1275]: 2026 SmartSkidka.ru
+      - paragraph [ref=e1276]:
+        - link "ИКС сайта" [ref=e1277] [cursor=pointer]:
+          - /url: https://webmaster.yandex.ru/siteinfo/?site=https://smart-skidka.ru
+          - img "ИКС сайта" [ref=e1278]

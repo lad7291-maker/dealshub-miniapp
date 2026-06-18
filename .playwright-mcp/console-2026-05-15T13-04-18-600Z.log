@@ -1,0 +1,3 @@
+[    4378ms] [LOG] [SW] Registered: http://localhost:8080/ @ http://localhost:8080/:76
+[    5867ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/:0
+[   13205ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ http://localhost:8080/:0

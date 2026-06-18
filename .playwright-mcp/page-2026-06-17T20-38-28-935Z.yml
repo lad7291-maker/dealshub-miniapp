@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "Smart Skidka" [level=1] [ref=e3]
+    - navigation [ref=e4]:
+      - link "Главная" [ref=e5] [cursor=pointer]:
+        - /url: ../index.html
+  - main [ref=e6]:
+    - heading "Test Category!@#" [level=2] [ref=e7]
+    - generic [ref=e9] [cursor=pointer]:
+      - img "T" [ref=e10]
+      - heading "T" [level=3] [ref=e11]
+      - paragraph [ref=e12]: "1"
+      - link "Купить со скидкой" [ref=e13]:
+        - /url: ""
+  - contentinfo [ref=e14]: Smart Skidka © 2025

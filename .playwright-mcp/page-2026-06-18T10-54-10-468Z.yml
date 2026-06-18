@@ -1,0 +1,265 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "SmartSkidka" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: Установите SmartSkidka
+      - generic [ref=e7]: Быстрый доступ к скидкам
+    - button "Установить" [ref=e8] [cursor=pointer]
+    - button "×" [ref=e9] [cursor=pointer]
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "Smart Skidka .ru" [ref=e12] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e14]
+        - generic [ref=e18]:
+          - generic [ref=e19]: Smart
+          - generic [ref=e20]: Skidka
+          - generic [ref=e21]: .ru
+      - generic [ref=e22]:
+        - img
+        - textbox "Поиск товаров..." [ref=e23]: наушники
+        - button "AI поиск" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+        - button [ref=e1289] [cursor=pointer]:
+          - img [ref=e1290]
+      - generic [ref=e27]:
+        - generic [ref=e28]: "AI-поиск: 3 из 3 осталось"
+        - button "Избранное" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+  - main [ref=e32]:
+    - generic [ref=e49]:
+      - complementary [ref=e50]:
+        - heading "Категории" [level=3] [ref=e52]
+        - navigation [ref=e53]:
+          - button "⊞ Все" [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]: ⊞ Все
+          - generic [ref=e57]:
+            - button "💻 Электроника 123" [ref=e58] [cursor=pointer]:
+              - generic [ref=e59]: 💻 Электроника
+              - generic [ref=e60]: "123"
+            - generic:
+              - button "Комплектующие" [ref=e61] [cursor=pointer]
+              - button "Периферия" [ref=e62] [cursor=pointer]
+              - button "Накопители" [ref=e63] [cursor=pointer]
+              - button "Сетевое оборудование" [ref=e64] [cursor=pointer]
+              - button "Планшеты" [ref=e65] [cursor=pointer]
+              - button "Умная электроника" [ref=e66] [cursor=pointer]
+          - generic [ref=e67]:
+            - button "👕 Одежда 271" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 👕 Одежда
+              - generic [ref=e70]: "271"
+            - generic:
+              - button "Рубашки" [ref=e71] [cursor=pointer]
+              - button "Пуховики" [ref=e72] [cursor=pointer]
+              - button "Сумки" [ref=e73] [cursor=pointer]
+              - button "Рюкзаки" [ref=e74] [cursor=pointer]
+              - button "Чемоданы" [ref=e75] [cursor=pointer]
+              - button "Аксессуары" [ref=e76] [cursor=pointer]
+          - generic [ref=e77]:
+            - button "👟 Обувь" [ref=e78] [cursor=pointer]:
+              - generic [ref=e79]: 👟 Обувь
+            - generic:
+              - button "Кроссовки" [ref=e80] [cursor=pointer]
+              - button "Женская обувь" [ref=e81] [cursor=pointer]
+              - button "Мужская обувь" [ref=e82] [cursor=pointer]
+          - generic [ref=e83]:
+            - button "🏠 Дом 321" [ref=e84] [cursor=pointer]:
+              - generic [ref=e85]: 🏠 Дом
+              - generic [ref=e86]: "321"
+            - generic:
+              - button "Товары для дома" [ref=e87] [cursor=pointer]
+              - button "Кухня" [ref=e88] [cursor=pointer]
+              - button "Ванная" [ref=e89] [cursor=pointer]
+              - button "Стройматериалы" [ref=e90] [cursor=pointer]
+          - generic [ref=e91]:
+            - button "🚗 Авто 78" [ref=e92] [cursor=pointer]:
+              - generic [ref=e93]: 🚗 Авто
+              - generic [ref=e94]: "78"
+            - generic:
+              - button "Двигатели" [ref=e95] [cursor=pointer]
+              - button "Кузовные детали" [ref=e96] [cursor=pointer]
+              - button "Автосвет" [ref=e97] [cursor=pointer]
+              - button "Инструменты" [ref=e98] [cursor=pointer]
+              - button "Мотоциклы" [ref=e99] [cursor=pointer]
+          - generic [ref=e100]:
+            - button "💄 Красота 9" [ref=e101] [cursor=pointer]:
+              - generic [ref=e102]: 💄 Красота
+              - generic [ref=e103]: "9"
+            - generic:
+              - button "Стоматология" [ref=e104] [cursor=pointer]
+              - button "Маникюр" [ref=e105] [cursor=pointer]
+              - button "Уход за волосами" [ref=e106] [cursor=pointer]
+              - button "Парфюм" [ref=e107] [cursor=pointer]
+          - generic [ref=e108]:
+            - button "⚽ Спорт 192" [ref=e109] [cursor=pointer]:
+              - generic [ref=e110]: ⚽ Спорт
+              - generic [ref=e111]: "192"
+            - generic:
+              - button "Лыжи" [ref=e112] [cursor=pointer]
+              - button "Спортивные сумки" [ref=e113] [cursor=pointer]
+              - button "Активный отдых" [ref=e114] [cursor=pointer]
+          - generic [ref=e115]:
+            - button "💎 Украшения 6" [ref=e116] [cursor=pointer]:
+              - generic [ref=e117]: 💎 Украшения
+              - generic [ref=e118]: "6"
+            - generic:
+              - button "Ювелирка" [ref=e119] [cursor=pointer]
+              - button "Часы" [ref=e120] [cursor=pointer]
+          - generic [ref=e121]:
+            - button "🧸 Игрушки" [ref=e122] [cursor=pointer]:
+              - generic [ref=e123]: 🧸 Игрушки
+            - generic:
+              - button "Фигурки" [ref=e124] [cursor=pointer]
+              - button "Конструкторы" [ref=e125] [cursor=pointer]
+              - button "Р/У игрушки" [ref=e126] [cursor=pointer]
+              - button "Игры и пазлы" [ref=e127] [cursor=pointer]
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - button "Все" [ref=e130] [cursor=pointer]
+          - button "Для детей" [ref=e131] [cursor=pointer]
+          - button "Аксессуары" [ref=e132] [cursor=pointer]
+          - button "Брендовое" [ref=e133] [cursor=pointer]
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - button "Все скидки" [ref=e137] [cursor=pointer]
+              - button "30%+" [ref=e138] [cursor=pointer]
+              - button "50%+" [ref=e139] [cursor=pointer]
+              - button "70%+" [ref=e140] [cursor=pointer]
+              - button "90%+" [ref=e141] [cursor=pointer]
+            - generic [ref=e142]:
+              - generic [ref=e143]: "Цена:"
+              - spinbutton [ref=e144]
+              - generic [ref=e145]: —
+              - spinbutton [ref=e146]
+              - button "OK" [ref=e147] [cursor=pointer]
+            - combobox [ref=e149] [cursor=pointer]:
+              - option "По скидке" [selected]
+              - option "Сначала дешевые"
+              - option "Сначала дорогие"
+              - option "По заказам"
+          - generic [ref=e150]: 1 товаров
+        - link "AliExpress RU&CIS" [ref=e261] [cursor=pointer]:
+          - /url: https://rzekl.com/g/1e8d114494fb6bf3968616525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Faliexpress.ru%252F&subid=smartskidka_banner
+          - img "AliExpress RU&CIS" [ref=e262]
+        - generic [ref=e1293] [cursor=pointer]:
+          - generic [ref=e1294]: "-27%"
+          - button "В избранное" [ref=e1295]:
+            - img [ref=e1296]
+          - generic [ref=e1298]:
+            - img "*N21R AS16 PRO X 16BA 8, сбалансированные арматурные наушники-вкладыши, гарнитуры высокого качества звука, Hi-Fi монитор"
+          - generic [ref=e1299]:
+            - heading "*N21R AS16 PRO X 16BA 8, сбалансированные арматурные наушники-вкладыши, гарнитуры высокого качества звука, Hi-Fi монитор" [level=3] [ref=e1300]
+            - generic [ref=e1301]:
+              - generic [ref=e1302]: 6 258 ₽
+              - generic [ref=e1303]: 8 573 ₽
+            - generic [ref=e1305]:
+              - img [ref=e1306]
+              - text: 184 человек смотрят сейчас
+            - generic [ref=e1310]:
+              - img [ref=e1311]
+              - text: Скидка действует ещё 38 часов
+            - generic [ref=e1314]:
+              - img [ref=e1315]
+              - text: Доставка по условиям продавца на AliExpress
+            - link "На AliExpress →" [ref=e1317]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010196386923.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e1318]
+              - text: На AliExpress →
+            - paragraph [ref=e1322]:
+              - img [ref=e1323]
+              - text: Актуальная цена на AliExpress
+            - button "Поделиться" [ref=e1325]:
+              - img [ref=e1326]
+              - text: Поделиться
+  - generic [ref=e1204]:
+    - generic [ref=e1205]: ✓
+    - generic [ref=e1206]: Готово
+  - generic [ref=e1251]:
+    - button [ref=e1252] [cursor=pointer]:
+      - img [ref=e1253]
+    - generic [ref=e1256]:
+      - generic [ref=e1257]:
+        - img "Инструмент для чистки, совместимый с аккумулятором DeWalt 20V, 2.2 фунта, с шлангом 16.4 фута и насадкой 6-в-1 + насадка"
+      - generic [ref=e1258]:
+        - generic [ref=e1259]: Экономия 75% — 20 917 ₽
+        - heading "Инструмент для чистки, совместимый с аккумулятором DeWalt 20V, 2.2 фунта, с шлангом 16.4 фута и насадкой 6-в-1 + насадка" [level=2] [ref=e1260]
+        - generic [ref=e1261]:
+          - generic [ref=e1262]: 6 971 ₽
+          - generic [ref=e1263]: 27 888 ₽
+          - generic [ref=e1264]: Скидка 20 917 ₽
+        - generic [ref=e1265]:
+          - generic [ref=e1266]:
+            - generic [ref=e1267]: Тип
+            - generic [ref=e1268]: Авто
+          - generic [ref=e1269]:
+            - generic [ref=e1270]: Совместимость
+            - generic [ref=e1271]: Универсальная
+          - generic [ref=e1272]:
+            - generic [ref=e1273]: Страна
+            - generic [ref=e1274]: Китай
+          - generic [ref=e1275]:
+            - generic [ref=e1276]: Комиссия
+            - generic [ref=e1277]: 0.00%
+        - generic [ref=e1278]:
+          - img [ref=e1279]
+          - text: Доставка по условиям продавца на AliExpress
+        - generic [ref=e1281]:
+          - link "Купить на AliExpress →" [ref=e1282] [cursor=pointer]:
+            - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012122867352.html%3Faf%3D2529186%26cv%3D47843
+          - paragraph [ref=e1283]:
+            - img [ref=e1284]
+            - text: Актуальная цена на AliExpress
+          - button "В избранное" [ref=e1286]:
+            - img [ref=e1287]
+            - text: В избранное
+  - button "Наверх" [ref=e1247] [cursor=pointer]:
+    - img [ref=e1248]
+  - generic [ref=e1208]:
+    - heading "Скидки на AliExpress до 90% — как это работает" [level=2] [ref=e1209]
+    - paragraph [ref=e1210]: SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Мы ежедневно обновляем каталог, чтобы вы всегда находили самые выгодные предложения на электронику, одежду, обувь, товары для дома и авто. Все цены указаны в рублях с учётом актуального курса Центробанка.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e1211]
+    - paragraph [ref=e1212]: Используйте наш поиск по товарам или AI-поиск для подбора идеальных покупок. Добавляйте товары в избранное, чтобы вернуться к ним позже. Каждая карточка содержит реальный рейтинг, количество заказов и характеристики — никаких фейковых скидок.
+    - heading "1000+ товаров с бесплатной доставкой" [level=2] [ref=e1213]
+    - paragraph [ref=e1214]: В нашем каталоге более 1000 товаров с реальными скидками 20–90%. Все ссылки ведут напрямую на AliExpress через партнёрскую программу Admitad — вы получаете ту же цену, а мы небольшую комиссию за направление. Актуальная цена на AliExpress. Это позволяет нам поддерживать сервис и добавлять новые функции.
+  - contentinfo [ref=e1215]:
+    - generic [ref=e1216]:
+      - generic [ref=e1217]:
+        - generic [ref=e1218]: SmartSkidka.ru
+        - paragraph [ref=e1219]: Лучшие скидки и промокоды на товары с AliExpress. Экономьте умнее!
+      - generic [ref=e1220]:
+        - generic [ref=e1221]:
+          - heading "Категории" [level=4] [ref=e1222]
+          - link "Обувь" [ref=e1223] [cursor=pointer]:
+            - /url: /shoes.html
+          - link "Электроника" [ref=e1224] [cursor=pointer]:
+            - /url: /electronics.html
+          - link "Товары для дома" [ref=e1225] [cursor=pointer]:
+            - /url: /home.html
+          - link "Автотовары" [ref=e1226] [cursor=pointer]:
+            - /url: /auto.html
+          - link "Красота" [ref=e1227] [cursor=pointer]:
+            - /url: /beauty.html
+          - link "Спорт" [ref=e1228] [cursor=pointer]:
+            - /url: /sports.html
+        - generic [ref=e1229]:
+          - heading "Информация" [level=4] [ref=e1230]
+          - link "О нас" [ref=e1231] [cursor=pointer]:
+            - /url: about.html
+          - link "Контакты" [ref=e1232] [cursor=pointer]:
+            - /url: contact.html
+          - link "Политика конфиденциальности" [ref=e1233] [cursor=pointer]:
+            - /url: privacy.html
+          - link "Условия использования" [ref=e1234] [cursor=pointer]:
+            - /url: terms.html
+    - generic [ref=e1235]:
+      - paragraph [ref=e1236]: SmartSkidka.ru — не является магазином. Все товары продаются на AliExpress.
+      - paragraph [ref=e1237]:
+        - img [ref=e1238]
+        - link "Скидки в Telegram — @SmartRuMarket" [ref=e1242] [cursor=pointer]:
+          - /url: https://t.me/SmartRuMarket
+      - paragraph [ref=e1243]: 2026 SmartSkidka.ru
+      - paragraph [ref=e1244]:
+        - link "ИКС сайта" [ref=e1245] [cursor=pointer]:
+          - /url: https://webmaster.yandex.ru/siteinfo/?site=https://smart-skidka.ru
+          - img "ИКС сайта" [ref=e1246]

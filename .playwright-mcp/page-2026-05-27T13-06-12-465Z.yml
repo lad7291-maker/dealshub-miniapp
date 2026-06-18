@@ -1,0 +1,278 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - banner [ref=e7]:
+      - link [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e11]
+      - generic [ref=e13]:
+        - navigation [ref=e14]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - button [ref=e17] [cursor=pointer]:
+                - img [ref=e20]
+        - generic [ref=e23]:
+          - textbox "pico 4" [ref=e24]
+          - button "Найти" [ref=e25] [cursor=pointer]
+        - navigation [ref=e26]:
+          - list [ref=e27]:
+            - listitem [ref=e28]:
+              - button [ref=e29] [cursor=pointer]:
+                - link [ref=e31]:
+                  - /url: /order-list
+                  - img [ref=e32]
+            - listitem [ref=e34]:
+              - button [ref=e35] [cursor=pointer]:
+                - link [ref=e37]:
+                  - /url: /cart
+                  - img [ref=e38]
+            - listitem [ref=e42]:
+              - button [ref=e43] [cursor=pointer]:
+                - link [ref=e45]:
+                  - /url: https://aliexpress.ru/account
+                  - img [ref=e46]
+    - generic [ref=e48]:
+      - generic [ref=e50]:
+        - link:
+          - /url: https://aliexpress.ru/promotions/sl/flashdeals?fusion=y&hastoolbar=false&page=1&pageName=Promotions_2963&presentationmode=push
+        - link:
+          - /url: https://aliexpress.ru/one-price
+        - link:
+          - /url: https://aliexpress.ru/top
+        - link:
+          - /url: https://aliexpress.ru/promotions/sl/bigsave
+        - link:
+          - /url: https://aliexpress.ru/promotions/sl/ce_category?fusion=y&hastoolbar=false&pageName=Promotions_1383&presentationmode=push
+        - link:
+          - /url: https://aliexpress.ru/promotions/sl/roborock_sbd?fusion=y&hastoolbar=false&pageName=Promotions_1848&presentationmode=push
+      - generic [ref=e52]:
+        - generic [ref=e54] [cursor=pointer]: RUB
+        - generic [ref=e56] [cursor=pointer]: EN
+        - generic [ref=e58] [cursor=pointer]:
+          - img [ref=e59]
+          - generic [ref=e61]: Россия
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - img [ref=e66]
+        - img [ref=e71]
+      - generic [ref=e77]:
+        - generic [ref=e78] [cursor=pointer]:
+          - img [ref=e79]
+          - text: Артикул 1005010674035423
+        - button "В избранное" [ref=e81] [cursor=pointer]:
+          - img [ref=e82]
+          - generic [ref=e84]: В избранное
+        - button "Поделиться" [ref=e86] [cursor=pointer]:
+          - img [ref=e87]
+          - generic [ref=e89]: Поделиться
+    - generic [ref=e91]:
+      - generic [ref=e94]:
+        - heading "Оригинальные новые женские шлепанцы Nike DX4816-701" [level=1] [ref=e96]
+        - generic [ref=e99]:
+          - link "Характеристики" [ref=e100] [cursor=pointer]:
+            - /url: "#characteristics_anchor"
+          - link "Описание" [ref=e101] [cursor=pointer]:
+            - /url: "#content_anchor"
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - img [ref=e109] [cursor=pointer]
+          - img [ref=e112] [cursor=pointer]
+          - img [ref=e115] [cursor=pointer]
+          - img [ref=e118] [cursor=pointer]
+          - img [ref=e121] [cursor=pointer]
+          - img [ref=e124] [cursor=pointer]
+        - generic [ref=e128]:
+          - img "Оригинальные новые женские шлепанцы Nike DX4816-701" [ref=e130]
+          - img "Оригинальные новые женские шлепанцы Nike DX4816-701" [ref=e133]
+          - img "Оригинальные новые женские шлепанцы Nike DX4816-701" [ref=e136]
+          - img "Оригинальные новые женские шлепанцы Nike DX4816-701" [ref=e139]
+          - img "Оригинальные новые женские шлепанцы Nike DX4816-701" [ref=e142]
+          - img "Оригинальные новые женские шлепанцы Nike DX4816-701" [ref=e145]
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e153]: "Цвет:"
+            - generic [ref=e154]: DX4816-701
+          - list [ref=e155]:
+            - listitem [ref=e156]:
+              - button [ref=e157] [cursor=pointer]:
+                - generic:
+                  - img
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - generic [ref=e160]: "Размер:"
+            - generic [ref=e161]: "39"
+          - list [ref=e162]:
+            - listitem [ref=e163]:
+              - button "35.5" [ref=e164] [cursor=pointer]:
+                - generic [ref=e165]: "35.5"
+            - listitem [ref=e166]:
+              - button "36.5" [ref=e167] [cursor=pointer]:
+                - generic [ref=e168]: "36.5"
+            - listitem [ref=e169]:
+              - button "39" [ref=e170] [cursor=pointer]:
+                - generic [ref=e171]: "39"
+        - generic [ref=e173] [cursor=pointer]:
+          - img [ref=e174]
+          - generic [ref=e176]: Таблица размеров
+      - generic [ref=e178]:
+        - generic [ref=e179]:
+          - generic [ref=e180]:
+            - generic [ref=e185]: 6 360 ₽
+            - generic [ref=e186]: Цена за 1 штуку
+          - generic [ref=e188]:
+            - button "В корзину" [disabled] [ref=e190]:
+              - paragraph [ref=e191]:
+                - generic [ref=e192]: В корзину
+            - button "Купить сейчас" [disabled] [ref=e194]:
+              - paragraph [ref=e195]:
+                - generic [ref=e196]: Купить сейчас
+        - generic [ref=e204]:
+          - link [ref=e205] [cursor=pointer]:
+            - /url: https://aliexpress.ru/store/1104924082
+            - img [ref=e207]
+          - link "Shop1104924082 Store 91,53% рейтинг продавца · 887 подписчиков" [ref=e208] [cursor=pointer]:
+            - /url: https://aliexpress.ru/store/1104924082
+            - generic [ref=e210]: Shop1104924082 Store
+            - generic [ref=e211]:
+              - generic [ref=e212]:
+                - generic [ref=e213]: 91,53% рейтинг продавца
+                - text: ·
+              - generic [ref=e215]: 887 подписчиков
+      - generic [ref=e225]:
+        - generic [ref=e227]:
+          - heading "Похожие товары" [level=3] [ref=e228]
+          - generic [ref=e230]:
+            - img [ref=e743] [cursor=pointer]
+            - img [ref=e746] [cursor=pointer]
+        - generic [ref=e749]:
+          - generic [ref=e750]:
+            - generic "tab-0" [ref=e751]:
+              - heading "Отзывы" [level=4] [ref=e752]
+            - generic "tab-1" [ref=e753]:
+              - heading "Задать вопрос" [level=4] [ref=e754]
+          - list [ref=e757]:
+            - listitem:
+              - generic [ref=e759]: Товар пока без отзывов — купите сейчас и расскажите о нём всё
+            - listitem [ref=e760]:
+              - generic [ref=e762]:
+                - generic [ref=e763]:
+                  - textbox "Напишите вопрос" [disabled] [ref=e766]
+                  - button "Войти" [disabled] [ref=e767] [cursor=pointer]:
+                    - paragraph [ref=e768]:
+                      - generic [ref=e769]: Войти
+                - generic [ref=e772]: Опубликовать анонимно
+        - generic [ref=e773]:
+          - generic [ref=e777]:
+            - heading "Описание" [level=4] [ref=e778]
+            - generic [ref=e783]:
+              - paragraph [ref=e785]: Цвет продукта соответствует цвету, отображенному на изображении. Пожалуйста, игнорируйте бежевый в вариантах цвета.
+              - img [ref=e787]
+              - img [ref=e789]
+              - img [ref=e791]
+              - img [ref=e793]
+              - img [ref=e795]
+              - img [ref=e797]
+              - img [ref=e799]
+              - img [ref=e801]
+              - img [ref=e803]
+              - img [ref=e805]
+          - generic [ref=e807]:
+            - generic [ref=e808]:
+              - heading "Характеристики" [level=4] [ref=e809]
+              - generic [ref=e812]:
+                - generic [ref=e813]:
+                  - generic [ref=e815]: Название бренда
+                  - generic [ref=e816]: Nike
+                - generic [ref=e817]:
+                  - generic [ref=e819]: Происхождение
+                  - generic [ref=e820]: Вьетнам
+                - generic [ref=e821]:
+                  - generic [ref=e823]: Материал
+                  - generic [ref=e824]: Полиэстер
+                - generic [ref=e825]:
+                  - generic [ref=e827]: Пол
+                  - generic [ref=e828]: Для женщин
+                - generic [ref=e829]:
+                  - generic [ref=e831]: Возрастная категория
+                  - generic [ref=e832]: Женские
+                - generic [ref=e833]:
+                  - generic [ref=e835]: Материал верха
+                  - generic [ref=e836]: other(other)
+                - generic [ref=e837]:
+                  - generic [ref=e839]: Материал подошвы
+                  - generic [ref=e840]: other(other)
+                - generic [ref=e841]:
+                  - generic [ref=e843]: Единица измерения
+                  - generic [ref=e844]: штука/штуки
+            - button "Все характеристики" [disabled] [ref=e845] [cursor=pointer]:
+              - paragraph [ref=e846]:
+                - generic [ref=e847]: Все характеристики
+              - img [ref=e849]
+          - button "Пожаловаться на товар" [disabled] [ref=e853] [cursor=pointer]:
+            - paragraph [ref=e854]:
+              - generic [ref=e855]: Пожаловаться на товар
+        - generic [ref=e857]:
+          - heading "Продавец рекомендует" [level=3] [ref=e858]
+          - generic [ref=e860]:
+            - img [ref=e1288] [cursor=pointer]
+            - img [ref=e1291] [cursor=pointer]
+        - heading "Подобрали для вас" [level=3] [ref=e1295]
+  - generic [ref=e1724]:
+    - img [ref=e1727]
+    - generic [ref=e1730]:
+      - generic [ref=e1731]:
+        - generic [ref=e1732]:
+          - generic [ref=e1733]:
+            - generic [ref=e1734]: Покупателям
+            - generic [ref=e1735]:
+              - link "Поддержка" [ref=e1736] [cursor=pointer]:
+                - /url: https://aliexpress.ru/chat?_title=%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0%20AliExpress&entry_point=footer
+              - link "Календарь распродаж" [ref=e1737] [cursor=pointer]:
+                - /url: https://aliexpress.ru/promo/sales
+              - link "Справка AliExpress" [ref=e1738] [cursor=pointer]:
+                - /url: //docs.aliexpress.ru/
+          - generic [ref=e1739]:
+            - generic [ref=e1740]: Партнёрам
+            - generic [ref=e1741]:
+              - link "Продавайте на AliExpress" [ref=e1742] [cursor=pointer]:
+                - /url: //business.aliexpress.ru/?utm_medium=internal&utm_source=mp&utm_campaign=footer
+              - link "Аффилиатная программа" [ref=e1743] [cursor=pointer]:
+                - /url: //aeplatform.ru
+        - generic [ref=e1744]:
+          - generic [ref=e1745]:
+            - generic [ref=e1746]: О компании
+            - generic [ref=e1747]:
+              - link "Работа в AliExpress" [ref=e1748] [cursor=pointer]:
+                - /url: //it.aliexpress.ru
+              - link "Мы на Хабре" [ref=e1749] [cursor=pointer]:
+                - /url: //habr.com/ru/companies/aliexpress_russia/articles/
+          - generic [ref=e1750]:
+            - generic [ref=e1751]: Мы в соцсетях
+            - generic [ref=e1752]:
+              - link "Вконтакте" [ref=e1753] [cursor=pointer]:
+                - /url: //vk.com/aliexpress
+              - link "Telegram" [ref=e1754] [cursor=pointer]:
+                - /url: //t.me/AliExpressofficial_channel
+              - link "MAX" [ref=e1755] [cursor=pointer]:
+                - /url: //max.ru/AliExpressofficial_channel
+      - generic [ref=e1756]:
+        - generic [ref=e1758]:
+          - generic [ref=e1759]: © AliExpress®
+          - generic [ref=e1760]: 2019 – 2026
+        - generic [ref=e1761]:
+          - generic [ref=e1762]:
+            - link "Политика конфиденциальности" [ref=e1763] [cursor=pointer]:
+              - /url: //business.aliexpress.ru/legal-docs/article/aer_ru_confidentiality_agreement
+            - link "Пользовательские соглашения" [ref=e1764] [cursor=pointer]:
+              - /url: //business.aliexpress.ru/legal-docs
+          - generic [ref=e1765]:
+            - text: На информационном ресурсе применяются
+            - link "рекомендательные технологии" [ref=e1766] [cursor=pointer]:
+              - /url: //business.aliexpress.ru/legal-docs/article/aer_ru_recommendations
+        - generic [ref=e1768]:
+          - link [ref=e1769] [cursor=pointer]:
+            - /url: "https://trk.mail.ru/c/ipure9?mt_idfa={mt_idfa}"
+            - img [ref=e1770]
+          - link [ref=e1792] [cursor=pointer]:
+            - /url: https://msite.onelink.me/LfAv/x37b8gbp
+            - img [ref=e1793]

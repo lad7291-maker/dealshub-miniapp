@@ -1,0 +1,97 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "SmartSkidka .ru" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e6]
+        - generic [ref=e10]:
+          - generic [ref=e11]: SmartSkidka
+          - generic [ref=e12]: .ru
+      - generic [ref=e13]:
+        - img
+        - textbox "Поиск товаров..." [ref=e14]
+        - button "AI поиск" [ref=e15] [cursor=pointer]: 🔮
+      - generic [ref=e16]: "🔮 AI-поиск: 3 из 3 осталось"
+      - button "Избранное" [ref=e18] [cursor=pointer]:
+        - img [ref=e19]
+        - generic [ref=e21]: Избранное
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - heading "Скидки на Обувь до 90%" [level=1] [ref=e25]
+      - paragraph [ref=e26]: 452 товара с бесплатной доставкой на AliExpress
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]: 1000+
+          - generic [ref=e30]: товаров
+        - generic [ref=e31]:
+          - generic [ref=e32]: до 90%
+          - generic [ref=e33]: скидки
+        - generic [ref=e34]:
+          - generic [ref=e35]: Бесплатно
+          - generic [ref=e36]: доставка
+    - navigation "breadcrumb" [ref=e37]:
+      - list [ref=e38]:
+        - listitem [ref=e39]:
+          - link "Главная" [ref=e40] [cursor=pointer]:
+            - /url: /
+          - text: ›
+        - listitem [ref=e41]: Одежда
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - button "Все скидки" [ref=e45] [cursor=pointer]
+          - button "50%+" [ref=e46] [cursor=pointer]
+          - button "70%+" [ref=e47] [cursor=pointer]
+          - button "90%+" [ref=e48] [cursor=pointer]
+        - combobox [ref=e50] [cursor=pointer]:
+          - option "🔥 По скидке" [selected]
+          - option "💰 Сначала дешевые"
+          - option "💰 Сначала дорогие"
+          - option "📦 По заказам"
+      - generic [ref=e51]: Показано 24 товара
+    - button "Показать ещё" [ref=e53] [cursor=pointer]
+  - generic [ref=e54]:
+    - generic [ref=e55]: ✓
+    - generic [ref=e56]: Готово
+  - generic [ref=e58]:
+    - heading "Скидки на Одежда с AliExpress до 90%" [level=2] [ref=e59]
+    - paragraph [ref=e60]: Раздел Одежда на SmartSkidka.ru собирает лучшие предложения по мужской и женской одежде, обуви и аксессуарам с AliExpress. Кроссовки, куртки, футболки и джинсы со скидками до 90%. Бесплатная доставка и реальные отзывы покупателей.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e61]
+    - paragraph [ref=e62]: SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Мы ежедневно обновляем каталог, чтобы вы всегда находили самые выгодные предложения на электронику, одежду, обувь, товары для дома и авто. Все цены указаны в рублях с учётом актуального курса Центробанка.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e63]
+    - paragraph [ref=e64]: Используйте наш поиск по товарам или 🔮 AI-поиск для подбора идеальных покупок. Добавляйте товары в избранное, чтобы вернуться к ним позже. Каждая карточка содержит реальный рейтинг, количество заказов и характеристики — никаких фейковых скидок.
+    - heading "1000+ товаров с бесплатной доставкой" [level=2] [ref=e65]
+    - paragraph [ref=e66]: В нашем каталоге более 1000 товаров с реальными скидками 20–90%. Все ссылки ведут напрямую на AliExpress через партнёрскую программу Admitad — вы получаете ту же цену, а мы небольшую комиссию за направление. Это позволяет нам поддерживать сервис и добавлять новые функции.
+  - contentinfo [ref=e67]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]: SmartSkidka.ru
+        - paragraph [ref=e71]: Лучшие скидки и промокоды на товары с AliExpress. Экономьте умнее!
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - heading "Категории" [level=4] [ref=e74]
+          - link "Электроника" [ref=e75] [cursor=pointer]:
+            - /url: "#"
+          - link "Обувь" [ref=e76] [cursor=pointer]:
+            - /url: "#"
+          - link "Товары для дома" [ref=e77] [cursor=pointer]:
+            - /url: "#"
+          - link "Автотовары" [ref=e78] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e79]:
+          - heading "Информация" [level=4] [ref=e80]
+          - link "О нас" [ref=e81] [cursor=pointer]:
+            - /url: about.html
+          - link "Контакты" [ref=e82] [cursor=pointer]:
+            - /url: contact.html
+          - link "Политика конфиденциальности" [ref=e83] [cursor=pointer]:
+            - /url: privacy.html
+          - link "Условия использования" [ref=e84] [cursor=pointer]:
+            - /url: terms.html
+    - generic [ref=e85]:
+      - paragraph [ref=e86]: SmartSkidka.ru — не является магазином. Все товары продаются на AliExpress.
+      - paragraph [ref=e87]: 2026 SmartSkidka.ru
+      - paragraph [ref=e88]:
+        - link "ИКС сайта" [ref=e89] [cursor=pointer]:
+          - /url: https://webmaster.yandex.ru/siteinfo/?site=https://smart-skidka.ru
+          - img "ИКС сайта" [ref=e90]

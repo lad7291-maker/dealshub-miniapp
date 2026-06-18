@@ -1,0 +1,10 @@
+[    2250ms] [WARNING] tabSortIndex is not valid: null on config! @ https://login.mitgo.com/auth/resources/wgfrh/login/admitad-theme/build/static/js/2654.8d49bd29.js:61
+[   34757ms] [WARNING] Manifest: property 'start_url' ignored, should be same origin as document. @ https://cdn.admitad-connect.com/static/manifest.json:0
+[   36829ms] [ERROR] Access to font at 'https://cdn.admitad-connect.com/static/font/roboto/roboto_bold.woff2' from origin 'https://mynysy.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://mynysy.com/24o37bmpvb9d06uygv1oh9tjmvo2gb/index.html?link1=https%3A//store.admitad.com/en/webmaster/r/9044/:0
+[   36829ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://cdn.admitad-connect.com/static/font/roboto/roboto_bold.woff2:0
+[   36895ms] [ERROR] Access to font at 'https://cdn.admitad-connect.com/static/font/roboto/roboto_regular.woff2' from origin 'https://mynysy.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://mynysy.com/24o37bmpvb9d06uygv1oh9tjmvo2gb/index.html?link1=https%3A//store.admitad.com/en/webmaster/r/9044/:0
+[   36896ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://cdn.admitad-connect.com/static/font/roboto/roboto_regular.woff2:0
+[   37155ms] [LOG] Custom event sent, _ga cookie should be set. @ https://store.admitad.com/en/webmaster/websites/2940069/:339
+[   37157ms] [LOG] Custom event sent, _ga cookie should be set. @ https://store.admitad.com/en/webmaster/websites/2940069/:339
+[   37363ms] [LOG] Custom event sent, _ga cookie should be set. @ https://store.admitad.com/en/webmaster/websites/2940069/:339
+[   37367ms] [LOG] Custom event sent, _ga cookie should be set. @ https://store.admitad.com/en/webmaster/websites/2940069/:339

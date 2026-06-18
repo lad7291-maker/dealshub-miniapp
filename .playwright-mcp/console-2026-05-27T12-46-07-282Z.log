@@ -1,0 +1,25 @@
+[     256ms] [WARNING] Setting secure=true because sameSite=None requires secure cookies @ https://assets.alicdn.com/g/lzd_sec/LWSC-G/index.js:0
+[     280ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://assets.alicdn.com/g/??/AWSC/AWSC/awsc.js,/sd/baxia-entry/baxiaCommon.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://assets.alicdn.com/g/lzd_sec/LWSC-G/index.js:0
+[     281ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://assets.alicdn.com/g/??/AWSC/AWSC/awsc.js,/sd/baxia-entry/baxiaCommon.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://assets.alicdn.com/g/lzd_sec/LWSC-G/index.js:0
+[    1380ms] [LOG] Wed May 27 2026 12:46:08 GMT+0000 (Coordinated Universal Time) @ https://assets.aliexpress-media.com/g/AWSC/et/1.83.41/et_f.js:1
+[    2393ms] [LOG] popSSRInfo undefined pcDetailDeliveryPop web Module @ https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.131/js/index.js:0
+[    2394ms] [LOG] mtop {load: , request: } @ https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.131/js/index.js:0
+[    4394ms] [LOG] [Cookie Guard] 当前页面 "detail" 不在允许的页面列表中，跳过初始化 {allowedPages: Array(3), currentPage: detail} @ https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.431/pc/loader.js:0
+[    5586ms] [LOG] [poplayer-web-container] init {positionSign: PC_Product_Detail_Page} @ https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.431/pc/pop-layer.js:0
+[    5721ms] [LOG] load css succ @ https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.431/pc/index.js:0
+[    5727ms] Error: No data found in sessionStorage. Please call init() first.
+    at e [as createError] (https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.131/js/index.js:1:479898)
+    at e.<anonymous> (https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.131/js/index.js:1:470860)
+    at m (https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.131/js/index.js:24:19448)
+    at Generator.<anonymous> (https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.131/js/index.js:24:20792)
+    at Generator.next (https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.131/js/index.js:24:19877)
+    at r (https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.131/js/index.js:29:154536)
+    at c (https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.131/js/index.js:29:154739)
+    at https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.131/js/index.js:29:154798
+    at new Promise (<anonymous>)
+    at e.<anonymous> (https://assets.aliexpress-media.com/g/ae-fe/pdp-pc/0.2.131/js/index.js:29:154679)
+[    5753ms] [WARNING] 'et' should been 'EXP','CLK','SLD','INPUT','SYS', 'OTHER' @ https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.431/pc/gep-sdk.js:0
+[    6096ms] [LOG] load succ @ https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.431/pc/index.js:0
+[    6648ms] [WARNING] 'et' should been 'EXP','CLK','SLD','INPUT','SYS', 'OTHER' @ https://assets.aliexpress-media.com/g/ae-fe/cosmos/0.0.431/pc/gep-sdk.js:0
+[    9580ms] [WARNING] Setting secure=true because sameSite=None requires secure cookies @ https://assets.aliexpress-media.com/g/AWSC/et/1.83.41/et_f.js:0
+[    9712ms] [LOG] Wed May 27 2026 12:46:16 GMT+0000 (Coordinated Universal Time) @ https://assets.aliexpress-media.com/g/AWSC/et/1.83.41/et_f.js:1

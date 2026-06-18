@@ -1,0 +1,4 @@
+[     392ms] [LOG] [SW] Registered: http://localhost:8080/ @ http://localhost:8080/index.html:225
+[     577ms] [WARNING] [getProductById] NOT FOUND id=1 _products.length=2000 @ http://localhost:8080/js/products-loader.js?v=16:87
+[     577ms] [WARNING] [getProductById] NOT FOUND id=90 _products.length=2000 @ http://localhost:8080/js/products-loader.js?v=16:87
+[    1270ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ http://localhost:8080/index.html:0

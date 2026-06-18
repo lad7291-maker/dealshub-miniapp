@@ -1,0 +1,6 @@
+[     616ms] [LOG] [SW] Registered: https://smart-skidka.ru/ @ https://smart-skidka.ru/:226
+[     812ms] Failed to update a ServiceWorker for scope ('https://smart-skidka.ru/') with script ('Unknown'): The object is in an invalid state.
+[    2993ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://smart-skidka.ru/:0
+[    7828ms] [LOG] [SW] Registered: https://smart-skidka.ru/ @ https://smart-skidka.ru/:226
+[    8097ms] Failed to update a ServiceWorker for scope ('https://smart-skidka.ru/') with script ('Unknown'): Not found
+[    8831ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://smart-skidka.ru/:0

@@ -1,0 +1,657 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - link "AliExpress logo" [ref=e6] [cursor=pointer]:
+        - /url: https://de.aliexpress.com
+        - text: AliExpress
+      - button "Alle Kategorien" [ref=e9]:
+        - img "Alle Kategorien" [ref=e10]
+    - generic [ref=e12]:
+      - generic [ref=e14]:
+        - searchbox "You can type an item name or keyword to search." [ref=e15]
+        - img [ref=e20] [cursor=pointer]
+        - button "You can click this button to search." [ref=e21] [cursor=pointer]
+      - generic [ref=e22]:
+        - button "You can scan the QR code to download the AliExpress app." [ref=e23] [cursor=pointer]:
+          - img [ref=e25]
+          - img [ref=e29]
+        - button "You can select a country, region or language for shopping on AliExpress de. The current language is English." [ref=e33] [cursor=pointer]:
+          - img [ref=e36]
+        - button "You can register, sign in or view more information about your account." [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+          - img [ref=e43]
+        - link "0 items in cart." [ref=e46] [cursor=pointer]:
+          - /url: //www.aliexpress.com/p/shoppingcart/index.html
+          - img [ref=e48]
+          - generic [ref=e50]: "0"
+  - generic [ref=e52]:
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e82]:
+          - heading "Asics Herren Basic Basketballschuhe 1063A090-600 Rutschfeste, verschleißfeste Sportschuhe für Outdoor-Sporttraining" [level=1] [ref=e84]
+          - generic [ref=e86]:
+            - generic [ref=e89]: 1 verkauft
+            - link "byCORE SPORTS Store (4.8 | 160 verkauft )" [ref=e90] [cursor=pointer]:
+              - /url: //de.aliexpress.com/store/1105380610
+              - text: byCORE SPORTS Store (
+              - img [ref=e91]
+              - strong [ref=e92]: "4.8"
+              - text: "| 160 verkauft )"
+            - generic [ref=e95]: 1 verkauft
+            - link "byCORE SPORTS Store (4.8 | 160 verkauft )" [ref=e96] [cursor=pointer]:
+              - /url: //de.aliexpress.com/store/1105380610
+              - text: byCORE SPORTS Store (
+              - img [ref=e97]
+              - strong [ref=e98]: "4.8"
+              - text: "| 160 verkauft )"
+          - generic [ref=e100]:
+            - generic [ref=e101]: 90,99€
+            - generic [ref=e102]: 84% günstiger
+            - generic [ref=e103]: 568,69€
+          - generic [ref=e104]: Preis inkl. MwSt.
+          - link "Später bezahlen mit" [ref=e105] [cursor=pointer]:
+            - /url: https://www.aliexpress.com/ssr/300000437/pWJJTzbMSb?disableNav=YES&pha_manifest=ssr&_immersiveMode=true&wh_ttid=adc&isSmbShow=false&skipPopHalfH5=yes&adc_popup_ratio=0.8&adc_popup=true
+            - img [ref=e106]
+            - generic [ref=e107]:
+              - text: Später bezahlen mit
+              - img [ref=e108]
+              - img [ref=e109]
+              - img [ref=e110]
+            - img [ref=e112]
+          - generic [ref=e114] [cursor=pointer]:
+            - generic [ref=e117]: 3 Stück kaufen, 2% Rabatt erhalten
+            - img [ref=e119]
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - generic [ref=e127]: "Color: 1063A090-600"
+              - img "1063A090-600" [ref=e134] [cursor=pointer]
+            - generic [ref=e135]:
+              - generic [ref=e136]:
+                - button "Shoe Size(EU)" [ref=e138] [cursor=pointer]:
+                  - generic [ref=e139]:
+                    - text: Shoe Size(EU)
+                    - img [ref=e141]
+                - generic [ref=e143] [cursor=pointer]: Größentabelle
+              - generic [ref=e145]:
+                - generic "42(EU 42)" [ref=e146] [cursor=pointer]:
+                  - generic [ref=e147]: 42(EU 42)
+                - generic "42.5(EU 42.5)" [ref=e148] [cursor=pointer]:
+                  - generic [ref=e149]: 42.5(EU 42.5)
+                - generic "43.5(EU 43.5)" [ref=e150] [cursor=pointer]:
+                  - generic [ref=e151]: 43.5(EU 43.5)
+                - generic "44(EU 44)" [ref=e152] [cursor=pointer]:
+                  - generic [ref=e153]: 44(EU 44)
+                - generic "46(EU 46)" [ref=e154] [cursor=pointer]:
+                  - generic [ref=e155]: 46(EU 46)
+              - generic [ref=e156]:
+                - generic [ref=e157]: "Artikelabmessungen:"
+                - generic [ref=e158]:
+                  - generic [ref=e159]: "Fußlänge:"
+                  - text: 10.43"
+          - generic [ref=e163]:
+            - text: Weitere Preisinformationen
+            - img [ref=e165] [cursor=pointer]
+        - generic [ref=e169]:
+          - heading "Ähnliche Artikel" [level=2] [ref=e172]
+          - generic [ref=e174]:
+            - link "361 Degrees BIG3 Team 4.0 Herren-Basketballschuhe, stabiler Aufprallschutz, langlebig, verschleißfest, atmungsaktiv, Turnschuhe 672621113 58,69€ 5 35 verkauft Neueinkäufer sparen 28,23€ Auf AliExpress meistverkauft" [ref=e178] [cursor=pointer]:
+              - /url: //de.aliexpress.com/item/1005012141824339.html?gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=5032388f-6de4-462b-b830-a6a825a46673&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:5032388f-6de4-462b-b830-a6a825a46673,tpp_buckets:668%232846%238115%232000&pdp_ext_f=%7B%22order%22%3A%2235%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21EUR%2186.92%2158.69%21%21%2198.77%2166.69%21%400b0fe78617798859710537075e10b8%2112000057617662498%21rec%21DE%21%21ABXZ%211%210%21n_tag%3A-29910%3Bd%3Ad476bf0%3Bm03_new_user%3A-29895%3BpisId%3A5000000207164066&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005012141824339%7C_p_origin_prod%3A
+              - generic [ref=e183]:
+                - heading "361 Degrees BIG3 Team 4.0 Herren-Basketballschuhe, stabiler Aufprallschutz, langlebig, verschleißfest, atmungsaktiv, Turnschuhe 672621113" [level=3] [ref=e184]:
+                  - img [ref=e185]
+                  - heading "361 Degrees BIG3 Team 4.0 Herren-Basketballschuhe, stabiler Aufprallschutz, langlebig, verschleißfest, atmungsaktiv, Turnschuhe 672621113" [level=3] [ref=e186]
+                - generic "58,69€" [ref=e187]:
+                  - generic [ref=e188]: 58,69€
+                  - generic [ref=e189]: 86,92€
+                  - generic [ref=e190]: "-32%"
+                - generic [ref=e191]:
+                  - generic [ref=e193]: "5"
+                  - generic [ref=e194]: 35 verkauft
+                - generic [ref=e196]:
+                  - generic [ref=e197]:
+                    - img [ref=e198]
+                    - generic "Neueinkäufer sparen 28,23€" [ref=e199]
+                  - generic [ref=e200]:
+                    - img [ref=e201]
+                    - generic "Auf AliExpress meistverkauft" [ref=e202]
+            - link "Asics Herrenschuhe Solution Speed Ff 4 Sportschuhe Leichte, atmungsaktive, modische Freizeitschuhe 1041A532-100 186,39€ Frühbucherangebot, nur noch 4 übrig" [ref=e206] [cursor=pointer]:
+              - /url: //de.aliexpress.com/item/1005012203081284.html?gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=5032388f-6de4-462b-b830-a6a825a46673&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:5032388f-6de4-462b-b830-a6a825a46673,tpp_buckets:668%232846%238115%232000&pdp_ext_f=%7B%22order%22%3A%22-1%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21EUR%21388.31%21186.39%21%21%212991.60%211435.98%21%400b0fe78617798859710537075e10b8%2112000057746833330%21rec%21DE%21%21ABXZ%211%210%21n_tag%3A-29910%3Bd%3Ad476bf0%3Bm03_new_user%3A-29895&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005012203081284%7C_p_origin_prod%3A
+              - generic [ref=e211]:
+                - heading "Asics Herrenschuhe Solution Speed Ff 4 Sportschuhe Leichte, atmungsaktive, modische Freizeitschuhe 1041A532-100" [level=3] [ref=e212]:
+                  - img [ref=e213]
+                  - heading "Asics Herrenschuhe Solution Speed Ff 4 Sportschuhe Leichte, atmungsaktive, modische Freizeitschuhe 1041A532-100" [level=3] [ref=e214]
+                - generic "186,39€" [ref=e215]:
+                  - generic [ref=e216]: 186,39€
+                  - generic [ref=e217]: 388,31€
+                  - generic [ref=e218]: "-51%"
+                - generic "Frühbucherangebot, nur noch 4 übrig" [ref=e221]
+            - link "Männer Laufschuhe Licht Sport Schuhe Basketball Schuhe Outdoor Unisex Atmungsaktive Athletisch Unisex Trainer Frauen Hohe Qualität Turnschuhe 20,99€ 4.7 220 verkauft Neueinkäufer sparen 33,91€" [ref=e225] [cursor=pointer]:
+              - /url: //de.aliexpress.com/item/1005009217325360.html?gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=5032388f-6de4-462b-b830-a6a825a46673&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:5032388f-6de4-462b-b830-a6a825a46673,tpp_buckets:668%232846%238115%232000&pdp_ext_f=%7B%22order%22%3A%22220%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21EUR%2154.90%2120.99%21%21%21422.96%21161.71%21%400b0fe78617798859710537075e10b8%2112000048348756781%21rec%21DE%21%21ABXZ%211%210%21n_tag%3A-29910%3Bd%3Ad476bf0%3Bm03_new_user%3A-29895%3BpisId%3A5000000207164066&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005009217325360%7C_p_origin_prod%3A
+              - generic [ref=e230]:
+                - heading "Männer Laufschuhe Licht Sport Schuhe Basketball Schuhe Outdoor Unisex Atmungsaktive Athletisch Unisex Trainer Frauen Hohe Qualität Turnschuhe" [level=3] [ref=e231]:
+                  - img [ref=e232]
+                  - heading "Männer Laufschuhe Licht Sport Schuhe Basketball Schuhe Outdoor Unisex Atmungsaktive Athletisch Unisex Trainer Frauen Hohe Qualität Turnschuhe" [level=3] [ref=e233]
+                - generic "20,99€" [ref=e234]:
+                  - generic [ref=e235]: 20,99€
+                  - generic [ref=e236]: 54,9€
+                  - generic [ref=e237]: "-61%"
+                - generic [ref=e238]:
+                  - generic [ref=e240]: "4.7"
+                  - generic [ref=e241]: 220 verkauft
+                - generic [ref=e244]:
+                  - img [ref=e245]
+                  - generic "Neueinkäufer sparen 33,91€" [ref=e246]
+            - link "Die Jugend tatsächliche Kampf-Basketballschuh-Bewegung im Freien, bequeme Dämpfung, verschleißfest, modisch, atmungsaktiv, hohe Qualität 18,39€ 4.6 205 verkauft Neueinkäufer sparen 38,54€ Premium-Qualität" [ref=e250] [cursor=pointer]:
+              - /url: //de.aliexpress.com/item/1005005438817349.html?gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=5032388f-6de4-462b-b830-a6a825a46673&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:5032388f-6de4-462b-b830-a6a825a46673,tpp_buckets:668%232846%238115%232000&pdp_ext_f=%7B%22order%22%3A%22205%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21EUR%2156.93%2118.39%21%21%21438.60%21141.68%21%400b0fe78617798859710537075e10b8%2112000033103302008%21rec%21DE%21%21ABXZ%211%210%21n_tag%3A-29910%3Bd%3Ad476bf0%3Bm03_new_user%3A-29895%3BpisId%3A5000000207192015&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005005438817349%7C_p_origin_prod%3A
+              - generic [ref=e255]:
+                - heading "Die Jugend tatsächliche Kampf-Basketballschuh-Bewegung im Freien, bequeme Dämpfung, verschleißfest, modisch, atmungsaktiv, hohe Qualität" [level=3] [ref=e256]:
+                  - img [ref=e257]
+                  - heading "Die Jugend tatsächliche Kampf-Basketballschuh-Bewegung im Freien, bequeme Dämpfung, verschleißfest, modisch, atmungsaktiv, hohe Qualität" [level=3] [ref=e258]
+                - generic "18,39€" [ref=e259]:
+                  - generic [ref=e260]: 18,39€
+                  - generic [ref=e261]: 56,93€
+                  - generic [ref=e262]: "-67%"
+                - generic [ref=e263]:
+                  - generic [ref=e265]: "4.6"
+                  - generic [ref=e266]: 205 verkauft
+                - generic [ref=e268]:
+                  - generic [ref=e269]:
+                    - img [ref=e270]
+                    - generic "Neueinkäufer sparen 38,54€" [ref=e271]
+                  - generic "Premium-Qualität" [ref=e273]
+            - link "Professionelle Tischtennisschuhe für Herren, Badmintonschuhe, Wettkampf-Tennisschuhe, Trainingssneaker, Herren-Sportschuhe, Zapatillas 34,79€ 4.5 99 verkauft Neueinkäufer sparen 44,69€ Kostenloser Versand" [ref=e277] [cursor=pointer]:
+              - /url: //de.aliexpress.com/item/1005010793609986.html?gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=5032388f-6de4-462b-b830-a6a825a46673&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:5032388f-6de4-462b-b830-a6a825a46673,tpp_buckets:668%232846%238115%232000&pdp_ext_f=%7B%22order%22%3A%2299%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21EUR%2179.48%2134.79%21%21%21612.33%21268.03%21%400b0fe78617798859710537075e10b8%2112000053526849342%21rec%21DE%21%21ABXZ%211%210%21n_tag%3A-29910%3Bd%3Ad476bf0%3Bm03_new_user%3A-29895%3BpisId%3A5000000207192015&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005010793609986%7C_p_origin_prod%3A
+              - generic [ref=e282]:
+                - heading "Professionelle Tischtennisschuhe für Herren, Badmintonschuhe, Wettkampf-Tennisschuhe, Trainingssneaker, Herren-Sportschuhe, Zapatillas" [level=3] [ref=e283]:
+                  - heading "Professionelle Tischtennisschuhe für Herren, Badmintonschuhe, Wettkampf-Tennisschuhe, Trainingssneaker, Herren-Sportschuhe, Zapatillas" [level=3] [ref=e284]
+                - generic "34,79€" [ref=e285]:
+                  - generic [ref=e286]: 34,79€
+                  - generic [ref=e287]: 79,48€
+                  - generic [ref=e288]: "-56%"
+                - generic [ref=e289]:
+                  - generic [ref=e291]: "4.5"
+                  - generic [ref=e292]: 99 verkauft
+                - generic [ref=e294]:
+                  - generic [ref=e295]:
+                    - img [ref=e296]
+                    - generic "Neueinkäufer sparen 44,69€" [ref=e297]
+                  - generic "Kostenloser Versand" [ref=e299]
+            - link "Li-Ning WADE FLASH 2 On Court Basketballschuhe für Herren, BOOM Dämpfung, atmungsaktives Futter, stabiler Sneaker ABPV013 75,39€ 4.8 285 verkauft Neueinkäufer sparen 32,36€ Auf AliExpress meistverkauft" [ref=e303] [cursor=pointer]:
+              - /url: //de.aliexpress.com/item/1005010384112589.html?gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=5032388f-6de4-462b-b830-a6a825a46673&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:5032388f-6de4-462b-b830-a6a825a46673,tpp_buckets:668%232846%238115%232000&pdp_ext_f=%7B%22order%22%3A%22285%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21EUR%21107.75%2175.39%21%21%21122.44%2185.66%21%400b0fe78617798859710537075e10b8%2112000052226110385%21rec%21DE%21%21ABXZ%211%210%21n_tag%3A-29910%3Bd%3Ad476bf0%3Bm03_new_user%3A-29895%3BpisId%3A5000000207164066&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005010384112589%7C_p_origin_prod%3A
+              - generic [ref=e308]:
+                - heading "Li-Ning WADE FLASH 2 On Court Basketballschuhe für Herren, BOOM Dämpfung, atmungsaktives Futter, stabiler Sneaker ABPV013" [level=3] [ref=e309]:
+                  - img [ref=e310]
+                  - img [ref=e311]
+                  - heading "Li-Ning WADE FLASH 2 On Court Basketballschuhe für Herren, BOOM Dämpfung, atmungsaktives Futter, stabiler Sneaker ABPV013" [level=3] [ref=e312]
+                - generic "75,39€" [ref=e313]:
+                  - generic [ref=e314]: 75,39€
+                  - generic [ref=e315]: 107,75€
+                  - generic [ref=e316]: "-30%"
+                - generic [ref=e317]:
+                  - generic [ref=e319]: "4.8"
+                  - generic [ref=e320]: 285 verkauft
+                - generic [ref=e322]:
+                  - generic [ref=e323]:
+                    - img [ref=e324]
+                    - generic "Neueinkäufer sparen 32,36€" [ref=e325]
+                  - generic [ref=e326]:
+                    - img [ref=e327]
+                    - generic "Auf AliExpress meistverkauft" [ref=e328]
+            - link "Li-Ning Herren BADFIVE STORM 2025 Outdoor-Basketballschuhe BOOM Dämpfung TUFF OS Strapazierfähige LiNing Sportschuhe ABFV017 66,99€ 4.8 700+ verkauft Neueinkäufer sparen 38€ Auf AliExpress meistverkauft" [ref=e332] [cursor=pointer]:
+              - /url: //de.aliexpress.com/item/1005008548770758.html?gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=5032388f-6de4-462b-b830-a6a825a46673&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:5032388f-6de4-462b-b830-a6a825a46673,tpp_buckets:668%232846%238115%232000&pdp_ext_f=%7B%22order%22%3A%22745%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21EUR%21104.99%2166.99%21%21%21119.31%2176.12%21%400b0fe78617798859710537075e10b8%2112000046506597531%21rec%21DE%21%21ABXZ%211%210%21n_tag%3A-29910%3Bd%3Ad476bf0%3Bm03_new_user%3A-29895%3BpisId%3A5000000207164066&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005008548770758%7C_p_origin_prod%3A
+              - generic [ref=e337]:
+                - heading "Li-Ning Herren BADFIVE STORM 2025 Outdoor-Basketballschuhe BOOM Dämpfung TUFF OS Strapazierfähige LiNing Sportschuhe ABFV017" [level=3] [ref=e338]:
+                  - img [ref=e339]
+                  - heading "Li-Ning Herren BADFIVE STORM 2025 Outdoor-Basketballschuhe BOOM Dämpfung TUFF OS Strapazierfähige LiNing Sportschuhe ABFV017" [level=3] [ref=e340]
+                - generic "66,99€" [ref=e341]:
+                  - generic [ref=e342]: 66,99€
+                  - generic [ref=e343]: 104,99€
+                  - generic [ref=e344]: "-36%"
+                - generic [ref=e345]:
+                  - generic [ref=e347]: "4.8"
+                  - generic [ref=e348]: 700+ verkauft
+                - generic [ref=e350]:
+                  - generic [ref=e351]:
+                    - img [ref=e352]
+                    - generic "Neueinkäufer sparen 38€" [ref=e353]
+                  - generic [ref=e354]:
+                    - img [ref=e355]
+                    - generic "Auf AliExpress meistverkauft" [ref=e356]
+            - link "Li-Ning Herren WADE ICE 2 V2 Basketballschuhe BOOM Cushion Stable Support LiNing Sportschuhe ABPV001 81,39€ 4.7 1.000+ verkauft Neueinkäufer sparen 44,17€ Auf AliExpress meistverkauft" [ref=e360] [cursor=pointer]:
+              - /url: //de.aliexpress.com/item/1005008379776503.html?gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=5032388f-6de4-462b-b830-a6a825a46673&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:5032388f-6de4-462b-b830-a6a825a46673,tpp_buckets:668%232846%238115%232000&pdp_ext_f=%7B%22order%22%3A%221094%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21EUR%21125.56%2181.39%21%21%21142.68%2192.48%21%400b0fe78617798859710537075e10b8%2112000044785479033%21rec%21DE%21%21ABXZ%211%210%21n_tag%3A-29910%3Bd%3Ad476bf0%3Bm03_new_user%3A-29895%3BpisId%3A5000000207164066&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005008379776503%7C_p_origin_prod%3A
+              - generic [ref=e365]:
+                - heading "Li-Ning Herren WADE ICE 2 V2 Basketballschuhe BOOM Cushion Stable Support LiNing Sportschuhe ABPV001" [level=3] [ref=e366]:
+                  - img [ref=e367]
+                  - heading "Li-Ning Herren WADE ICE 2 V2 Basketballschuhe BOOM Cushion Stable Support LiNing Sportschuhe ABPV001" [level=3] [ref=e368]
+                - generic "81,39€" [ref=e369]:
+                  - generic [ref=e370]: 81,39€
+                  - generic [ref=e371]: 125,56€
+                  - generic [ref=e372]: "-35%"
+                - generic [ref=e373]:
+                  - generic [ref=e375]: "4.7"
+                  - generic [ref=e376]: 1.000+ verkauft
+                - generic [ref=e378]:
+                  - generic [ref=e379]:
+                    - img [ref=e380]
+                    - generic "Neueinkäufer sparen 44,17€" [ref=e381]
+                  - generic [ref=e382]:
+                    - img [ref=e383]
+                    - generic "Auf AliExpress meistverkauft" [ref=e384]
+            - link "Asics Herrenschuhe Gelhoop V16 Sportschuhe Dämpfung Leichte Outdoor Court Training Basketballschuhe 1063A090-600 104,39€ 2 verkauft Neueinkäufer sparen 126,63€" [ref=e388] [cursor=pointer]:
+              - /url: //de.aliexpress.com/item/1005010572996061.html?gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=5032388f-6de4-462b-b830-a6a825a46673&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:5032388f-6de4-462b-b830-a6a825a46673,tpp_buckets:668%232846%238115%232000&pdp_ext_f=%7B%22order%22%3A%222%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21EUR%21231.02%21104.39%21%21%211779.82%21804.24%21%400b0fe78617798859710537075e10b8%2112000052859420744%21rec%21DE%21%21ABXZ%211%210%21n_tag%3A-29910%3Bd%3Ad476bf0%3Bm03_new_user%3A-29895%3BpisId%3A5000000207164066&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005010572996061%7C_p_origin_prod%3A
+              - generic [ref=e393]:
+                - heading "Asics Herrenschuhe Gelhoop V16 Sportschuhe Dämpfung Leichte Outdoor Court Training Basketballschuhe 1063A090-600" [level=3] [ref=e394]:
+                  - img [ref=e395]
+                  - heading "Asics Herrenschuhe Gelhoop V16 Sportschuhe Dämpfung Leichte Outdoor Court Training Basketballschuhe 1063A090-600" [level=3] [ref=e396]
+                - generic "104,39€" [ref=e397]:
+                  - generic [ref=e398]: 104,39€
+                  - generic [ref=e399]: 231,02€
+                  - generic [ref=e400]: "-54%"
+                - generic [ref=e402]: 2 verkauft
+                - generic [ref=e404]:
+                  - img [ref=e405]
+                  - generic "Neueinkäufer sparen 126,63€" [ref=e406]
+            - link "2025 Neuer Japanischer Volleyball-Trikot-Stil in Blau für Herren und Damen, Sport-T-Shirt, Komfortables Atmungsaktives 3D-Mode-Shirt 3,95€ 3 verkauft Neueinkäufer sparen 12,96€" [ref=e410] [cursor=pointer]:
+              - /url: //de.aliexpress.com/item/1005012188718058.html?gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=5032388f-6de4-462b-b830-a6a825a46673&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:5032388f-6de4-462b-b830-a6a825a46673,tpp_buckets:668%232846%238115%232000&pdp_ext_f=%7B%22order%22%3A%223%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21EUR%2116.91%213.95%21%21%21130.28%2130.43%21%400b0fe78617798859710537075e10b8%2112000057709385551%21rec%21DE%21%21ABXZ%211%210%21n_tag%3A-29910%3Bd%3Ad476bf0%3Bm03_new_user%3A-29895%3BpisId%3A5000000205289294&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005012188718058%7C_p_origin_prod%3A
+              - generic [ref=e415]:
+                - heading "2025 Neuer Japanischer Volleyball-Trikot-Stil in Blau für Herren und Damen, Sport-T-Shirt, Komfortables Atmungsaktives 3D-Mode-Shirt" [level=3] [ref=e416]:
+                  - img [ref=e417]
+                  - heading "2025 Neuer Japanischer Volleyball-Trikot-Stil in Blau für Herren und Damen, Sport-T-Shirt, Komfortables Atmungsaktives 3D-Mode-Shirt" [level=3] [ref=e418]
+                - generic "3,95€" [ref=e419]:
+                  - generic [ref=e420]: 3,95€
+                  - generic [ref=e421]: 16,91€
+                  - generic [ref=e422]: "-76%"
+                - generic [ref=e424]: 3 verkauft
+                - generic [ref=e426]:
+                  - img [ref=e427]
+                  - generic "Neueinkäufer sparen 12,96€" [ref=e428]
+            - link "Li-Ning RED HARE 8 PRO Racing-Laufschuhe für Herren, BOOM FIBER, gepolstert, stabil, rutschfest, strapazierfähig, Sneakers ARPV003 ARPV015 ARPW001 68,69€ 4.8 5.000+ verkauft Neueinkäufer sparen 38,72€ Auf AliExpress meistverkauft" [ref=e432] [cursor=pointer]:
+              - /url: //de.aliexpress.com/item/1005008351808336.html?gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=5032388f-6de4-462b-b830-a6a825a46673&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:5032388f-6de4-462b-b830-a6a825a46673,tpp_buckets:668%232846%238115%232000&pdp_ext_f=%7B%22order%22%3A%229310%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21EUR%21107.41%2168.69%21%21%21122.06%2178.06%21%400b0fe78617798859710537075e10b8%2112000056696322813%21rec%21DE%21%21ABXZ%211%210%21n_tag%3A-29910%3Bd%3Ad476bf0%3Bm03_new_user%3A-29895%3BpisId%3A5000000207164066&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005008351808336%7C_p_origin_prod%3A
+              - generic [ref=e437]:
+                - heading "Li-Ning RED HARE 8 PRO Racing-Laufschuhe für Herren, BOOM FIBER, gepolstert, stabil, rutschfest, strapazierfähig, Sneakers ARPV003 ARPV015 ARPW001" [level=3] [ref=e438]:
+                  - img [ref=e439]
+                  - heading "Li-Ning RED HARE 8 PRO Racing-Laufschuhe für Herren, BOOM FIBER, gepolstert, stabil, rutschfest, strapazierfähig, Sneakers ARPV003 ARPV015 ARPW001" [level=3] [ref=e440]
+                - generic "68,69€" [ref=e441]:
+                  - generic [ref=e442]: 68,69€
+                  - generic [ref=e443]: 107,41€
+                  - generic [ref=e444]: "-36%"
+                - generic [ref=e445]:
+                  - generic [ref=e447]: "4.8"
+                  - generic [ref=e448]: 5.000+ verkauft
+                - generic [ref=e450]:
+                  - generic [ref=e451]:
+                    - img [ref=e452]
+                    - generic "Neueinkäufer sparen 38,72€" [ref=e453]
+                  - generic [ref=e454]:
+                    - img [ref=e455]
+                    - generic "Auf AliExpress meistverkauft" [ref=e456]
+            - link "Hochwertiger, weißer, roter PU-Basketball, offizielle Größe 7, professioneller Basketball mit 4-lagigem, langlebigem Ball für den Innen- und Außenbereich 21,99€ 4.9 2.000+ verkauft Kostenloser Versand 1,50 € Rabatt bei 3 Artikeln" [ref=e460] [cursor=pointer]:
+              - /url: https://www.aliexpress.com/ssr/300000512/BundleDeals2?productIds=1005008144976185:12000043981256396&pha_manifest=ssr&_immersiveMode=true&disableNav=YES&sourceName=RECOMMENDProduct&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005008144976185%7C_p_origin_prod%3A1005007216905931&pvid=5032388f-6de4-462b-b830-a6a825a46673
+              - generic [ref=e465]:
+                - heading "Hochwertiger, weißer, roter PU-Basketball, offizielle Größe 7, professioneller Basketball mit 4-lagigem, langlebigem Ball für den Innen- und Außenbereich" [level=3] [ref=e466]:
+                  - img [ref=e467]
+                  - heading "Hochwertiger, weißer, roter PU-Basketball, offizielle Größe 7, professioneller Basketball mit 4-lagigem, langlebigem Ball für den Innen- und Außenbereich" [level=3] [ref=e468]
+                - generic "21,99€" [ref=e469]:
+                  - generic [ref=e470]: 21,99€
+                  - generic [ref=e471]: 45,51€
+                  - generic [ref=e472]: "-51%"
+                - generic [ref=e473]:
+                  - generic [ref=e475]: "4.9"
+                  - generic [ref=e476]: 2.000+ verkauft
+                - generic "Kostenloser Versand" [ref=e480]
+                - generic [ref=e481]:
+                  - generic [ref=e482]: 1,50 € Rabatt bei 3 Artikeln
+                  - img [ref=e484]
+        - generic [ref=e490]:
+          - link "Kundenbewertungen" [ref=e491] [cursor=pointer]:
+            - /url: "#nav-review"
+            - img [ref=e493]
+            - text: Kundenbewertungen
+          - link "Spezifikationen" [ref=e496] [cursor=pointer]:
+            - /url: "#nav-specification"
+            - text: Spezifikationen
+          - link "Übersicht" [ref=e499] [cursor=pointer]:
+            - /url: "#nav-description"
+            - text: Übersicht
+          - link "Laden" [ref=e502] [cursor=pointer]:
+            - /url: "#nav-store"
+            - text: Laden
+          - link "Das könnte Sie auch interessieren" [ref=e505] [cursor=pointer]:
+            - /url: "#nav-moretolove"
+            - text: Das könnte Sie auch interessieren
+        - generic [ref=e511]: Bewertungen
+        - generic [ref=e514]:
+          - heading "Spezifikationen" [level=2] [ref=e517]
+          - list [ref=e518]:
+            - listitem [ref=e519]:
+              - generic [ref=e520]:
+                - generic [ref=e521]: Mit oder installieren Sie professionelles Zubehör
+                - generic "Keine" [ref=e522]
+              - generic [ref=e523]:
+                - generic [ref=e524]: Ob mit Metallkappe
+                - generic "Nein" [ref=e525]
+            - listitem [ref=e526]:
+              - generic [ref=e527]:
+                - generic [ref=e528]: Ob wasserdicht
+                - generic "Nein" [ref=e529]
+              - generic [ref=e530]:
+                - generic [ref=e531]: Obere Befestigungsmethode
+                - generic "Nähen" [ref=e532]
+            - listitem [ref=e533]:
+              - generic [ref=e534]:
+                - generic [ref=e535]: Obere Abdeckung
+                - generic "Nicht über dem Knöchel" [ref=e536]
+              - generic [ref=e537]:
+                - generic [ref=e538]: Hochbetriebenes Chemikalienunternehmen
+                - generic "Keine" [ref=e539]
+          - button "Mehr anzeigen" [ref=e540] [cursor=pointer]:
+            - generic [ref=e541]: Mehr anzeigen
+        - generic [ref=e544]:
+          - generic [ref=e545]:
+            - heading "Übersicht" [level=2] [ref=e547]
+            - link "Melden" [ref=e548] [cursor=pointer]:
+              - /url: https://m.aliexpress.com/p/complaint-center/index.html#/complaint/report?itemUrl=%2F%2Fwww.aliexpress.com%2Fitem%2F1005012187879342.html
+          - button "Mehr anzeigen" [ref=e553] [cursor=pointer]:
+            - generic [ref=e554]: Mehr anzeigen
+        - generic [ref=e558]:
+          - heading "Informationen zu Zusatzkosten" [level=2] [ref=e561] [cursor=pointer]
+          - generic [ref=e562]: Bei von außerhalb der Europäischen Union gelieferten Artikeln fallen in Ihrem Land u. U. weitere MwSt.- und wenn anwendbar Zollgebühren an. Wenn AliExpress per Gesetz zur Erhebung der MwSt. verpflichtet ist, wird der Preis an der Kasse inklusive Mehrwertsteuer angezeigt. Für weitere Informationen zu diesen Kosten wenden Sie sich bitte an das Finanzamt bzw. die Zollbehörde Ihres Landes.
+        - generic [ref=e564]: Verkauft von CORE SPORTS Store, bearbeitet von CORE SPORTS Store
+        - heading "Informationen zur Produktkonformität" [level=2] [ref=e568] [cursor=pointer]:
+          - text: Informationen zur Produktkonformität
+          - img [ref=e570]
+        - generic [ref=e572]:
+          - heading "Haftungsausschluss" [level=2] [ref=e575] [cursor=pointer]:
+            - text: Haftungsausschluss
+            - img [ref=e577]
+          - generic [ref=e579]: "Haftungsausschluss: Bilder und Produktinformationen auf dieser Seite können automatisch von KI übersetzt worden sein. Diese Übersetzungen werden nur zur Bequemlichkeit und im Ist-Zustand bereitgestellt und können Ungenauigkeiten oder Inkonsistenzen enthalten."
+      - generic [ref=e584]:
+        - link "Verkauft von CORE SPORTS Store (Händler)" [ref=e585] [cursor=pointer]:
+          - /url: //de.aliexpress.com/store/1105380610
+          - generic [ref=e586]: Verkauft von
+          - generic [ref=e587]:
+            - generic [ref=e588]: CORE SPORTS Store
+            - generic [ref=e589]: (Händler)
+            - img [ref=e591]
+        - link "Kontaktieren" [ref=e594] [cursor=pointer]:
+          - /url: https://message.aliexpress.com/message/new.htm?messageType=product&memberType=seller&productId=1005012187879342&sellerSeq=6505111031&sellerAdminSeq=6505111031
+          - img [ref=e596]
+          - text: Kontaktieren
+        - generic [ref=e604]: Serviceverpflichtung
+        - generic [ref=e605]:
+          - generic [ref=e606]:
+            - generic [ref=e608] [cursor=pointer]:
+              - generic [ref=e609]:
+                - strong [ref=e612]: Pick-up points
+                - strong [ref=e615]:
+                  - img [ref=e616]
+              - strong [ref=e620]: "Versand: 13,43€"
+              - strong [ref=e625]: "Zustellung: Um Jun 04 - 13"
+            - img [ref=e627]
+          - generic [ref=e629] [cursor=pointer]:
+            - generic [ref=e630]:
+              - generic [ref=e631]: Expresslieferung
+              - generic [ref=e632]:
+                - generic [ref=e634]: 1,00€ Coupon-Code für die verspätete Lieferung
+                - generic [ref=e636]: Geld zurück bei defekt geliefertem Artikel
+                - generic [ref=e638]: Geld zurück bei verlorenem Paket
+                - generic [ref=e640]: Geld zurück bei Nichtlieferung in 40 Tagen
+            - img [ref=e642]
+          - generic [ref=e644] [cursor=pointer]:
+            - generic [ref=e646]: Rückgabe bis 15 Tage kostenlos
+            - img [ref=e648]
+          - generic [ref=e650] [cursor=pointer]:
+            - generic [ref=e651]:
+              - generic [ref=e652]:
+                - text: Sicherheit und Datenschutz
+                - generic [ref=e653]: persönliche Daten schützen
+              - generic [ref=e654]:
+                - generic [ref=e656]: "Sichere Zahlungen: Wir geben keine Ihrer personengebundenen Daten ohne Ihre Zustimmung an Dritte weiter."
+                - generic [ref=e658]: "Persönliche Angaben schützen: Wir schützen Ihre Privatsphäre und bewahren Ihre personengebundenen Daten sicher auf."
+            - img [ref=e660]
+        - generic [ref=e664]:
+          - generic [ref=e665]: Menge
+          - generic [ref=e666]:
+            - img [ref=e669]
+            - textbox [ref=e671]: "1"
+            - img [ref=e674] [cursor=pointer]
+          - generic [ref=e677]: Nur 10 übrig
+        - generic [ref=e678]:
+          - button "Jetzt kaufen" [ref=e679] [cursor=pointer]:
+            - generic [ref=e680]: Jetzt kaufen
+          - button "In den Warenkorb" [ref=e681] [cursor=pointer]:
+            - generic [ref=e682]: In den Warenkorb
+          - generic [ref=e683]:
+            - generic [ref=e684] [cursor=pointer]:
+              - img [ref=e686]
+              - generic [ref=e688]: Teilen
+            - generic [ref=e689] [cursor=pointer]:
+              - img [ref=e691]
+              - generic [ref=e693]: "8"
+    - generic [ref=e696]:
+      - generic [ref=e697]:
+        - link "store" [ref=e698] [cursor=pointer]:
+          - /url: //de.aliexpress.com/store/1105380610
+        - generic [ref=e699]:
+          - link "CORE SPORTS Store" [ref=e701] [cursor=pointer]:
+            - /url: //de.aliexpress.com/store/1105380610
+          - generic [ref=e702]:
+            - strong [ref=e703]: 87.5%
+            - text: Positives Feedback |
+            - strong [ref=e704]: "193"
+            - text: Follower
+      - generic [ref=e705]:
+        - generic [ref=e706] [cursor=pointer]:
+          - img [ref=e708]
+          - generic [ref=e710]: Folgen
+        - link "Kontaktieren" [ref=e711] [cursor=pointer]:
+          - /url: https://message.aliexpress.com/message/new.htm?messageType=product&memberType=seller&productId=1005012187879342&sellerSeq=6505111031&sellerAdminSeq=6505111031
+          - img [ref=e713]
+          - generic [ref=e716]: Kontaktieren
+    - generic [ref=e719]:
+      - heading "Andere suchten auch" [level=2] [ref=e724]
+      - generic [ref=e726]:
+        - text: Dieser Artikel gehört zur
+        - link "Home" [ref=e727] [cursor=pointer]:
+          - /url: //de.aliexpress.com/
+    - link "survey" [ref=e728] [cursor=pointer]:
+      - /url: https://survey.aliexpress.com/uone/sg/survey/S-0NoCkKs
+  - contentinfo [ref=e729]:
+    - generic [ref=e731]:
+      - generic [ref=e732]:
+        - generic [ref=e734]:
+          - term [ref=e735]:
+            - heading "Hilfe" [level=5] [ref=e736]
+          - definition [ref=e737]:
+            - link "Hilfe-Center" [ref=e738] [cursor=pointer]:
+              - /url: //so.aliexpress.com/s/ByrCmn?language=de_DE
+            - text: ","
+            - link "Streitigkeiten & Berichte" [ref=e739] [cursor=pointer]:
+              - /url: //report.aliexpress.com
+            - text: ","
+            - link "Rückgabe-und Erstattungsrichtlinie" [ref=e740] [cursor=pointer]:
+              - /url: https://www.aliexpress.com/ssr/300000437/PinKTaDpEb?disableNav=YES&pha_manifest=ssr&_immersiveMode=true
+            - text: ","
+            - link "RGE-Verletzung melden" [ref=e741] [cursor=pointer]:
+              - /url: https://ipp.aidcgroup.net/#/ippHome
+            - text: ","
+            - link "DSA/OSA-Informationen" [ref=e742] [cursor=pointer]:
+              - /url: https://www.aliexpress.com/p/transparencycenter/dsa.html
+            - text: ","
+            - link "Integrität und Konformität" [ref=e743] [cursor=pointer]:
+              - /url: https://aidc.jubao.alibaba.com
+            - text: ","
+            - link "Transparenz zentrum" [ref=e744] [cursor=pointer]:
+              - /url: https://www.aliexpress.com/p/transparencycenter/index.html
+            - text: ","
+            - link "Beschwerdeeinstieg ohne Anmeldung" [ref=e745] [cursor=pointer]:
+              - /url: https://m.aliexpress.com/p/complaint-center/index.html#/complaint/report
+            - text: ","
+            - link "Rückerstattungsrichtlinie" [ref=e746] [cursor=pointer]:
+              - /url: https://www.aliexpress.com/ssr/300000437/G7ZED4yXte?disableNav=YES&pha_manifest=ssr&_immersiveMode=true
+        - generic [ref=e748]:
+          - term [ref=e749]:
+            - heading "Mehrsprachige AliExpress-Websites" [level=5] [ref=e750]
+          - definition [ref=e751]:
+            - link "Pусский" [ref=e752] [cursor=pointer]:
+              - /url: //ru.aliexpress.com
+            - text: ","
+            - link "Portuguese" [ref=e753] [cursor=pointer]:
+              - /url: //pt.aliexpress.com
+            - text: ","
+            - link "Spanish" [ref=e754] [cursor=pointer]:
+              - /url: //es.aliexpress.com
+            - text: ","
+            - link "French" [ref=e755] [cursor=pointer]:
+              - /url: //fr.aliexpress.com
+            - text: ","
+            - link "German" [ref=e756] [cursor=pointer]:
+              - /url: //de.aliexpress.com
+            - text: ","
+            - link "Italian" [ref=e757] [cursor=pointer]:
+              - /url: //it.aliexpress.com
+            - text: ","
+            - link "Dutch" [ref=e758] [cursor=pointer]:
+              - /url: //nl.aliexpress.com
+            - text: ","
+            - link "Turkish" [ref=e759] [cursor=pointer]:
+              - /url: //tr.aliexpress.com
+            - text: ","
+            - link "Japanese" [ref=e760] [cursor=pointer]:
+              - /url: //ja.aliexpress.com
+            - text: ","
+            - link "Korean" [ref=e761] [cursor=pointer]:
+              - /url: //ko.aliexpress.com
+            - text: ","
+            - link "Thai" [ref=e762] [cursor=pointer]:
+              - /url: //th.aliexpress.com
+            - text: ","
+            - link "Arabic" [ref=e763] [cursor=pointer]:
+              - /url: //ar.aliexpress.com
+            - text: ","
+            - link "Hebrew" [ref=e764] [cursor=pointer]:
+              - /url: //he.aliexpress.com
+            - text: ","
+            - link "Polish" [ref=e765] [cursor=pointer]:
+              - /url: //pl.aliexpress.com
+      - generic [ref=e767]:
+        - term [ref=e768]:
+          - heading "Browse by Category" [level=5] [ref=e769]
+        - definition [ref=e770]:
+          - generic [ref=e771]:
+            - link "Alle beliebten" [ref=e772] [cursor=pointer]:
+              - /url: //de.aliexpress.com/popular.html
+            - text: ","
+            - link "Produkt" [ref=e773] [cursor=pointer]:
+              - /url: //de.aliexpress.com/wholesale.html
+            - text: ","
+            - link "Aktion" [ref=e774] [cursor=pointer]:
+              - /url: //de.aliexpress.com/promotion.html
+            - text: ","
+            - link "Günstiger Preis" [ref=e775] [cursor=pointer]:
+              - /url: //de.aliexpress.com/price.html
+            - text: ","
+            - link "Toller Wert" [ref=e776] [cursor=pointer]:
+              - /url: //de.aliexpress.com/cheap.html
+            - text: ","
+            - link "Bewertungen" [ref=e777] [cursor=pointer]:
+              - /url: //de.aliexpress.com/reviews.html
+            - text: ","
+            - link "Wiki" [ref=e778] [cursor=pointer]:
+              - /url: https://de.aliexpress.com/p/wiki/home.html
+            - text: ","
+            - link "Video" [ref=e779] [cursor=pointer]:
+              - /url: https://de.aliexpress.com/p/video/home.html
+      - generic [ref=e781]:
+        - term [ref=e782]:
+          - heading "Alibaba Group" [level=5] [ref=e783]
+        - definition [ref=e784]:
+          - link "Alibaba Group Website" [ref=e785] [cursor=pointer]:
+            - /url: http://www.alibabagroup.com/en/global/home
+          - text: ","
+          - link "AliExpress" [ref=e786] [cursor=pointer]:
+            - /url: //www.aliexpress.com/
+          - text: ","
+          - link "Alimama" [ref=e787] [cursor=pointer]:
+            - /url: http://www.alimama.com/
+          - text: ","
+          - link "Fliggy" [ref=e788] [cursor=pointer]:
+            - /url: http://www.fliggy.com/
+          - text: ","
+          - link "Alibaba Cloud" [ref=e789] [cursor=pointer]:
+            - /url: http://www.alibabacloud.com
+          - text: ","
+          - link "Alibaba International" [ref=e790] [cursor=pointer]:
+            - /url: http://www.alibaba.com/
+          - text: ","
+          - link "AliTelecom" [ref=e791] [cursor=pointer]:
+            - /url: http://aliqin.tmall.com/
+          - text: ","
+          - link "DingTalk" [ref=e792] [cursor=pointer]:
+            - /url: http://www.dingtalk.com/
+          - text: ","
+          - link "Juhuasuan" [ref=e793] [cursor=pointer]:
+            - /url: http://ju.taobao.com/
+          - text: ","
+          - link "Taobao Marketplace" [ref=e794] [cursor=pointer]:
+            - /url: http://www.taobao.com/
+          - text: ","
+          - link "Tmall" [ref=e795] [cursor=pointer]:
+            - /url: http://www.tmall.com/
+          - text: ","
+          - link "Taobao Global" [ref=e796] [cursor=pointer]:
+            - /url: https://world.taobao.com/
+          - text: ","
+          - link "AliOS" [ref=e797] [cursor=pointer]:
+            - /url: http://www.alios.cn/
+          - text: ","
+          - link "1688" [ref=e798] [cursor=pointer]:
+            - /url: http://www.1688.com/
+    - generic [ref=e800]:
+      - link "Intellectual Property Protection" [ref=e801] [cursor=pointer]:
+        - /url: https://ipp.aidcgroup.net/#/ippHome
+      - text: "-"
+      - link "Privacy Policy" [ref=e802] [cursor=pointer]:
+        - /url: https://campaign.aliexpress.com/wow/gcp/app-redirect-terms/index
+      - text: "-"
+      - generic [ref=e803]:
+        - link "Cookie‑Einstellungen" [ref=e804] [cursor=pointer]:
+          - /url: //www.aliexpress.com/p/cookie-setting/index.html
+        - text: "-"
+      - link "Sitemap" [ref=e805] [cursor=pointer]:
+        - /url: https://www.aliexpress.com/sitemap.html
+      - text: "-"
+      - link "AliExpress.com Nutzungsbedingungen" [ref=e806] [cursor=pointer]:
+        - /url: https://terms.alicdn.com/legal-agreement/terms/platform_service/20220531125833304/20220531125833304.html
+      - text: "-"
+      - link "Informationen für EU-Verbraucher" [ref=e807] [cursor=pointer]:
+        - /url: https://cdn.contract.alibaba.com/terms/c_platform_service_agreement/20260106183827470/20260106183827470.html?lng=en
+      - text: "-"
+      - link "Rechtliche Hinweise / Impressum" [ref=e809] [cursor=pointer]:
+        - /url: https://terms.alicdn.com/legal-agreement/terms/c_end_product_protocol/20230928165112460/20230928165112460.html
+      - text: "-"
+      - link "Transaktionsdienstleistungsvertrag für Verbraucher außerhalb der EU/des Vereinigten Königreichs" [ref=e810] [cursor=pointer]:
+        - /url: https://rulechannel.alibaba.com/icbu?type=detail&ruleId=2054&cId=1304#/rule/detail?cId=1304&ruleId=2054
+      - text: "-"
+      - link "Allgemeine Geschäftsbedingungen für EU/EEA/UK-Verbraucher" [ref=e811] [cursor=pointer]:
+        - /url: https://campaign.aliexpress.com/wow/gcp-plus/ae/tupr?_immersiveMode=true&pha_manifest=upr&disableNav=YES&wh_pid=300000414/pt8AMcBikk
+      - text: "-"
+      - link "User Information Legal Enquiry Guide" [ref=e812] [cursor=pointer]:
+        - /url: https://terms.alicdn.com/legal-agreement/terms/data_processing_agreement_others/20231101174825691/20231101174825691.html
+      - text: ©️ 2010-2025 AliExpress.com. All rights reserved.
+  - generic [ref=e815]:
+    - generic [ref=e816]:
+      - heading "Cookie-Einstellungen" [level=3] [ref=e817]
+      - generic [ref=e818] [cursor=pointer]: Später
+    - generic [ref=e819]:
+      - text: Wir verwenden Cookies und ähnliche Technologien für die Verbesserung des Benutzererlebnisses und die Personalisierung von Werbung.Auf diese Weise können wir und Drittanbieter Ihnen sowohl auf als auch außerhalb unserer Websites Inhalte, Marketing und Werbung anbieten, die Ihnen gefallen könnten. Ihre Einstellungen können Sie jederzeit unter
+      - link "Cookie-Einstellungen" [ref=e820] [cursor=pointer]:
+        - /url: https://www.aliexpress.com/p/cookie-setting/index.html
+      - text: “ ändern. Weitere Informationen finden Sie in unserem
+      - link "Cookie-Hinweis" [ref=e821] [cursor=pointer]:
+        - /url: https://cdn.contract.alibaba.com/terms/privacy_other/20240527202557775/20240527202557775.html
+      - text: .
+    - generic [ref=e822]:
+      - button "Cookies personalisieren" [ref=e823] [cursor=pointer]
+      - button "Cookies ablehnen" [ref=e824] [cursor=pointer]
+      - button "Cookies akzeptieren" [ref=e825] [cursor=pointer]

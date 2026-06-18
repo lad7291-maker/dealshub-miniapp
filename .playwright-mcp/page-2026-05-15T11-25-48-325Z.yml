@@ -1,0 +1,307 @@
+- generic [active] [ref=e1]:
+  - generic "Ads"
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "AD admitad" [ref=e4] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/websites/2940069/catalog/landing/
+        - img "AD" [ref=e5]
+        - img "admitad" [ref=e6]
+      - generic [ref=e7]:
+        - text: max. yesterday's earnings
+        - generic [ref=e8]: 12 900$
+      - 'button "Ad Space: Smart Skidka" [ref=e10] [cursor=pointer]':
+        - generic [ref=e11]: "Ad Space:"
+        - generic "Smart Skidka" [ref=e12]
+        - img [ref=e13]
+      - link [ref=e15] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/chats/
+        - img [ref=e16]
+      - link [ref=e21] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/web_notificator/
+        - img [ref=e22]
+      - generic "Hello, Vladislav Sotnikov" [ref=e27]:
+        - generic "Account Level" [ref=e28]: AD0
+        - generic [ref=e29]: vladislav_sotnikov56e18
+        - generic [ref=e30]: vl
+  - navigation [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - link [ref=e35] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/
+          - img [ref=e36]
+        - link "Tools" [ref=e39] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/coupons/
+          - img [ref=e40]
+          - text: Tools
+        - link "Programs" [ref=e46] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/catalog/landing/
+          - img [ref=e47]
+          - text: Programs
+        - link "Product Feeds" [ref=e52] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/products/original/
+          - img [ref=e53]
+          - text: Product Feeds
+        - link "Reports" [ref=e58] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/statistics/websites/?predefined_range=today
+          - img [ref=e59]
+          - text: Reports
+        - generic [ref=e65] [cursor=pointer]:
+          - img [ref=e66]
+          - text: Payments
+      - link "Inbox" [ref=e71] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/tickets/
+        - img [ref=e72]
+      - link "Support" [ref=e78] [cursor=pointer]:
+        - /url: https://support.mitgo.com/hc/requests
+        - img [ref=e79]
+      - link "Help center" [ref=e85] [cursor=pointer]:
+        - /url: https://support.mitgo.com/hc/categories/33312777157778-Admitad-for-Publishers
+        - img [ref=e86]
+  - article [ref=e91]:
+    - iframe [ref=e92]:
+      - generic [ref=f21e3] [cursor=pointer]:
+        - img [ref=f21e4]
+        - paragraph [ref=f21e5]: Марафон героев 2026. 20 апреля - 20 июня. Заработай больше в акционный период и выиграй призовое вознаграждение.
+    - button "Close" [ref=e93] [cursor=pointer]:
+      - img [ref=e94]
+  - list
+  - navigation [ref=e96]:
+    - generic [ref=e97]: Programs
+    - text: ›
+    - link "My Programs" [ref=e98] [cursor=pointer]:
+      - /url: /en/webmaster/websites/2940069/catalog/?connection_status=connected
+    - text: ›
+    - generic [ref=e99]: AliExpress RU&CIS NEW
+  - main [ref=e100]:
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - heading "AliExpress RU&CIS NEW Affiliate Program" [level=1] [ref=e103]
+        - link "Similar programs" [ref=e105] [cursor=pointer]:
+          - /url: /en/webmaster/offers/25179/more_advcampaigns/
+      - generic [ref=e106]: The advertiser pays regular rewards.
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - link "AliExpress RU&CIS NEW" [ref=e111] [cursor=pointer]:
+            - /url: https://aliexpress.ru
+            - img "AliExpress RU&CIS NEW" [ref=e112]
+          - generic [ref=e113]: Active since 07.07.2021
+        - list [ref=e115]:
+          - listitem [ref=e116]:
+            - generic [ref=e117]: EPC
+            - generic [ref=e118]:
+              - text: 137 ₽
+              - button [ref=e120] [cursor=pointer]:
+                - img [ref=e121]
+          - listitem [ref=e123]:
+            - generic [ref=e124]: CR
+            - generic [ref=e125]:
+              - text: 2.96%
+              - button [ref=e127] [cursor=pointer]:
+                - img [ref=e128]
+          - listitem [ref=e130]:
+            - generic [ref=e131]: CR for 48 hours
+            - generic [ref=e132]:
+              - text: 8.29%
+              - button [ref=e134] [cursor=pointer]:
+                - img [ref=e135]
+          - listitem [ref=e137]:
+            - generic [ref=e138]: Approval rate
+            - generic [ref=e139]:
+              - text: 95%
+              - button [ref=e141] [cursor=pointer]:
+                - img [ref=e142]
+          - listitem [ref=e144]:
+            - generic [ref=e145]: Avg. hold time
+            - generic [ref=e146]:
+              - text: 40 days
+              - button [ref=e148] [cursor=pointer]:
+                - img [ref=e149]
+          - listitem [ref=e151]:
+            - generic [ref=e152]: Average payment time
+            - generic [ref=e153]:
+              - text: 47 days
+              - button [ref=e155] [cursor=pointer]:
+                - img [ref=e156]
+          - listitem [ref=e158]:
+            - generic [ref=e159]: Latest action
+            - generic [ref=e160]:
+              - text: 14:25 15.05.2026
+              - button [ref=e162] [cursor=pointer]:
+                - img [ref=e163]
+      - generic [ref=e165]:
+        - article [ref=e166]:
+          - paragraph [ref=e167]: Menu
+          - list [ref=e168]:
+            - listitem [ref=e169]:
+              - button "Program review" [ref=e170] [cursor=pointer]
+            - listitem [ref=e171]:
+              - button "News" [ref=e172] [cursor=pointer]
+            - listitem [ref=e173]:
+              - button "Rules" [ref=e174] [cursor=pointer]
+              - list:
+                - listitem:
+                  - button "Basics"
+                - listitem:
+                  - button "Traffic sources"
+            - listitem [ref=e175]:
+              - button "Banners and Links" [ref=e176] [cursor=pointer]
+              - list:
+                - listitem [ref=e318]:
+                  - button "Banners" [ref=e319] [cursor=pointer]
+                - listitem [ref=e320]:
+                  - button "Landing pages" [ref=e321] [cursor=pointer]
+                - listitem [ref=e322]:
+                  - button "Deeplink" [ref=e323] [cursor=pointer]
+                - listitem [ref=e324]:
+                  - text: NEW
+                  - button "Google Ads" [ref=e325] [cursor=pointer]
+            - listitem [ref=e177]:
+              - link "Coupons and promo codes" [ref=e178] [cursor=pointer]:
+                - /url: /en/webmaster/websites/2940069/coupons/?website=2940069&advcampaigns=25179
+            - listitem [ref=e179]:
+              - link "Contact Support" [ref=e180] [cursor=pointer]:
+                - /url: /en/webmaster/ticket/add/?advcampaign=25179
+            - listitem [ref=e181]:
+              - button "Analytics" [ref=e182] [cursor=pointer]
+            - listitem [ref=e183]:
+              - button "Documents" [ref=e184] [cursor=pointer]
+            - listitem [ref=e185]:
+              - text: NEW
+              - link "Reward calculation" [ref=e186] [cursor=pointer]:
+                - /url: /en/webmaster/products/aliexpress/
+        - article [ref=e187]:
+          - paragraph [ref=e188]: CPA Terms
+          - list [ref=e189]:
+            - listitem [ref=e190]:
+              - generic [ref=e191]: Hot products
+              - strong [ref=e192]:
+                - link "0.38%-69.20%" [ref=e193] [cursor=pointer]:
+                  - /url: /en/webmaster/websites/2940069/offers/25179/action/22217/provisions/
+            - listitem [ref=e194]:
+              - generic [ref=e195]: Affiliate RU&CIS orders
+              - strong [ref=e196]:
+                - link "0.38%-6.92%" [ref=e197] [cursor=pointer]:
+                  - /url: /en/webmaster/websites/2940069/offers/25179/action/22219/provisions/
+            - listitem [ref=e198]:
+              - generic [ref=e199]: Non-affiliate orders
+              - strong [ref=e200]:
+                - link "0%-0.24%" [ref=e201] [cursor=pointer]:
+                  - /url: /en/webmaster/websites/2940069/offers/25179/action/23407/provisions/
+        - article [ref=e202]:
+          - paragraph [ref=e203]: Regions
+          - list [ref=e204]:
+            - listitem [ref=e205]: Armenia,
+            - listitem [ref=e206]: Azerbaijan,
+            - listitem [ref=e207]: Belarus,
+            - listitem [ref=e208]: Georgia,
+            - listitem [ref=e209]: Kyrgyzstan,
+            - listitem [ref=e210]: Kazakhstan,
+            - listitem [ref=e211]: Moldova,
+            - listitem [ref=e212]: Russia,
+            - listitem [ref=e213]: Tajikistan,
+            - listitem [ref=e214]: Turkmenistan,
+            - listitem [ref=e215]: Uzbekistan
+        - article [ref=e216]:
+          - paragraph [ref=e217]: Tools
+          - list [ref=e218]:
+            - listitem [ref=e219]: Deeplink
+            - listitem [ref=e220]: Coupons and promo codes
+            - listitem [ref=e221]: Cart tracking
+            - listitem [ref=e222]: Mobile website tracking
+            - listitem [ref=e223]: Mobile app tracking
+        - article [ref=e224]:
+          - paragraph [ref=e225]: Categories
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - strong [ref=e228]: Online stores
+              - text: ":"
+              - generic [ref=e229]: Marketplaces (including Chinese Stores)
+              - text: ;
+        - article [ref=e230]:
+          - paragraph [ref=e231]: My Ad Spaces
+          - list [ref=e232]:
+            - listitem [ref=e233]:
+              - strong [ref=e234]: "Blocked by advertiser:"
+              - text: Покупайка; Reasons for ad space declination
+            - listitem [ref=e235]:
+              - strong [ref=e236]: "Already joined:"
+              - link "Smart Skidka" [ref=e237] [cursor=pointer]:
+                - /url: /en/webmaster/websites/2940069/catalog/?keyword=AliExpress%20RU%26CIS%20NEW&connection_status=connected
+              - text: ;
+        - article [ref=e238]:
+          - paragraph [ref=e239]: About advertiser
+          - list [ref=e240]:
+            - listitem [ref=e241]: ООО «Алибаба.ком (РУ)»
+            - listitem [ref=e242]:
+              - strong [ref=e243]: Tax Identification Number
+              - text: ": 7703380158"
+      - article [ref=e327]:
+        - paragraph [ref=e328]: Banners and Links
+        - generic [ref=e330]:
+          - text: "Sort:"
+          - combobox "Sort:" [ref=e331]:
+            - option "by eCPC (descending)" [selected]
+            - option "By eCPC (ascending)"
+        - group "Filter" [ref=e333]:
+          - generic [ref=e334] [cursor=pointer]: Filter
+          - list:
+            - listitem [ref=e335]:
+              - generic [ref=e336]: "Date range:"
+              - generic [ref=e340]:
+                - textbox [ref=e341]
+                - text: –
+                - textbox [ref=e342]
+            - listitem [ref=e344]:
+              - generic [ref=e345]: "Sales regions:"
+              - button "Sales regions:" [ref=e347] [cursor=pointer]: Select
+            - listitem [ref=e348]:
+              - generic [ref=e349]: "Size:"
+              - button "Size:" [ref=e351] [cursor=pointer]: Select
+            - listitem [ref=e352]:
+              - generic [ref=e353]: "Format:"
+              - button "Format:" [ref=e355] [cursor=pointer]: Select
+          - generic:
+            - button "Apply" [ref=e356] [cursor=pointer]
+            - button "Clear filter" [ref=e357] [cursor=pointer]
+        - generic [ref=e358]:
+          - generic [ref=e360]: Default affiliate link
+          - generic [ref=e362]:
+            - generic [ref=e363]:
+              - text: "Copy link:"
+              - textbox "Copy link:" [ref=e364]: https://ali.click/97qq81j?gc=vv3q4oey1vfb6bf39686b6d1781017&erid=2bL9aMPo2e49hMef4pdzo6JkYp
+              - img [ref=e366] [cursor=pointer]
+            - generic [ref=e368]:
+              - text: or use
+              - link "Deeplink" [ref=e369] [cursor=pointer]:
+                - /url: "#deeplink"
+  - generic [ref=e263]:
+    - generic [ref=e264]: For affiliates
+    - generic [ref=e265]:
+      - generic [ref=e266]:
+        - link [ref=e267] [cursor=pointer]:
+          - /url: https://account.takeads.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e270]
+        - generic [ref=e273]: Takeads
+      - generic [ref=e274]:
+        - link [ref=e275] [cursor=pointer]:
+          - /url: https://app.takedeals.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e278]
+        - generic [ref=e282]: Takedeals
+      - generic [ref=e283]:
+        - link [ref=e284] [cursor=pointer]:
+          - /url: https://flow.admitad.com/en/publisher/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e287]
+        - generic [ref=e291]: Flow
+    - generic [ref=e292]: For influencers
+    - generic [ref=e293]:
+      - generic [ref=e294]:
+        - link [ref=e295] [cursor=pointer]:
+          - /url: https://app.takefluence.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e298]
+        - generic [ref=e303]: Takefluence
+      - generic [ref=e304]:
+        - link [ref=e305] [cursor=pointer]:
+          - /url: https://account.convertsocial.net/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e308]
+        - generic [ref=e314]: ConvertSocial
+    - generic [ref=e317] [cursor=pointer]: Hide

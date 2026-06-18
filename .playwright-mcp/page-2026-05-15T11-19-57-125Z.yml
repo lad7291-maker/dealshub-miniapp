@@ -1,0 +1,410 @@
+- generic [active] [ref=e1]:
+  - generic "Ads"
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "AD admitad" [ref=e4] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/websites/2940069/catalog/landing/
+        - img "AD" [ref=e5]
+        - img "admitad" [ref=e6]
+      - generic [ref=e7]:
+        - text: max. yesterday's earnings
+        - generic [ref=e8]: 12 900$
+      - 'button "Ad Space: Smart Skidka" [ref=e10] [cursor=pointer]':
+        - generic [ref=e11]: "Ad Space:"
+        - generic "Smart Skidka" [ref=e12]
+        - img [ref=e13]
+      - link [ref=e15] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/chats/
+        - img [ref=e16]
+      - link [ref=e21] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/web_notificator/
+        - img [ref=e22]
+      - generic "Hello, Vladislav Sotnikov" [ref=e27]:
+        - generic "Account Level" [ref=e28]: AD0
+        - generic [ref=e29]: vladislav_sotnikov56e18
+        - generic [ref=e30]: vl
+  - navigation [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - link [ref=e35] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/
+          - img [ref=e36]
+        - link "Tools" [ref=e39] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/coupons/
+          - img [ref=e40]
+          - text: Tools
+        - link "Programs" [ref=e46] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/catalog/landing/
+          - img [ref=e47]
+          - text: Programs
+        - link "Product Feeds" [ref=e52] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/products/original/
+          - img [ref=e53]
+          - text: Product Feeds
+        - link "Reports" [ref=e58] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/statistics/websites/?predefined_range=today
+          - img [ref=e59]
+          - text: Reports
+        - generic [ref=e65] [cursor=pointer]:
+          - img [ref=e66]
+          - text: Payments
+      - link "Inbox" [ref=e71] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/tickets/
+        - img [ref=e72]
+      - link "Support" [ref=e78] [cursor=pointer]:
+        - /url: https://support.mitgo.com/hc/requests
+        - img [ref=e79]
+      - link "Help center" [ref=e85] [cursor=pointer]:
+        - /url: https://support.mitgo.com/hc/categories/33312777157778-Admitad-for-Publishers
+        - img [ref=e86]
+  - list
+  - main [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - article [ref=e94]:
+          - heading "Balance Details" [level=2] [ref=e96]
+          - article [ref=e98]:
+            - strong [ref=e99]: Ready for withdrawal
+            - generic [ref=e100]:
+              - term [ref=e101]: RUB
+              - definition [ref=e102]:
+                - generic [ref=e103]: "0"
+          - generic [ref=e106]:
+            - link "Withdraw" [ref=e107] [cursor=pointer]:
+              - /url: /en/webmaster/balance_dialog/
+            - link "Payments history" [ref=e108] [cursor=pointer]:
+              - /url: /en/webmaster/account/payouts_list/
+        - article [ref=e109]:
+          - generic [ref=e110]:
+            - heading "News" [level=2] [ref=e111]
+            - link "All news" [ref=e112] [cursor=pointer]:
+              - /url: https://www.admitad.com/us/blog/
+          - article [ref=e113]:
+            - time [ref=e114]: 17 January 2025 08:56
+            - 'link "Unlocking the Potential of Promo Code Campaigns in Admitad: A Comprehensive Guide for Publishers" [ref=e115] [cursor=pointer]':
+              - /url: https://www.admitad.com/us/blog/unlocking-the-potential-of-promo-code-campaigns-in-admitad-a-comprehensive-guide-for-publishers/
+          - article [ref=e116]:
+            - time [ref=e117]: 30 December 2024 09:46
+            - link "Happy New Year 2025 from Admitad!" [ref=e118] [cursor=pointer]:
+              - /url: https://www.admitad.com/us/blog/happy-new-year-2025-from-admitad/
+          - article [ref=e119]:
+            - time [ref=e120]: 25 December 2024 13:15
+            - 'link "Google Ads Important Notice: Time to Update the Links" [ref=e121] [cursor=pointer]':
+              - /url: https://www.admitad.com/us/blog/google-ads-important-notice-time-to-update-the-links/
+        - article [ref=e122]:
+          - heading "Admitad Referral Program" [level=2] [ref=e124]
+          - generic [ref=e125]:
+            - term [ref=e126]: Your commission
+            - definition [ref=e127]:
+              - generic [ref=e128]: 5 %
+            - term [ref=e129]: Total referrals
+            - definition [ref=e130]:
+              - generic [ref=e131]: "0"
+            - term [ref=e132]: Active
+            - definition [ref=e133]:
+              - generic [ref=e134]: "0"
+            - term [ref=e135]: Earned (this month)
+            - definition [ref=e136]:
+              - generic [ref=e137]: "0"
+          - list [ref=e139]:
+            - listitem [ref=e140]:
+              - link "Referral link" [ref=e141] [cursor=pointer]:
+                - /url: ""
+      - generic [ref=e142]:
+        - article [ref=e143]:
+          - generic [ref=e144]:
+            - button "Close" [ref=e145] [cursor=pointer]:
+              - img [ref=e146]
+            - iframe [ref=e148]:
+              - generic [ref=f9e2] [cursor=pointer]:
+                - img [ref=f9e3]
+                - heading "Kaspersky - мировой лидер в кибербезопасности" [level=1] [ref=f9e4]
+                - paragraph [ref=f9e5]: Ставка +50% и промокод на Kaspersky Who Calls
+        - generic [ref=e150]:
+          - heading "30-Day Report" [level=2] [ref=e151]
+          - generic [ref=e152]:
+            - strong [ref=e153]: "Show:"
+            - generic [ref=e154]:
+              - checkbox "Earnings" [checked] [ref=e155]
+              - text: Earnings
+            - generic [ref=e156]:
+              - checkbox "Impressions" [checked] [ref=e157]
+              - text: Impressions
+            - generic [ref=e158]:
+              - checkbox "Clicks" [checked] [ref=e159]
+              - text: Clicks
+            - generic [ref=e160]:
+              - checkbox "Actions" [checked] [ref=e161]
+              - text: Actions
+          - img [ref=e164]:
+            - generic [ref=e302]:
+              - generic [ref=e303]: 20 Apr. 2026
+              - generic [ref=e304]: 27 Apr. 2026
+              - generic [ref=e305]: 4 May 2026
+              - generic [ref=e306]: 11 May 2026
+            - generic [ref=e307]:
+              - generic [ref=e308]: "1.00"
+              - generic [ref=e309]: "2.00"
+              - generic [ref=e310]: "3.00"
+            - generic [ref=e311]:
+              - generic [ref=e312]: "1"
+              - generic [ref=e313]: "2"
+              - generic [ref=e314]: "3"
+            - generic [ref=e315]:
+              - generic [ref=e316]: "20"
+              - generic [ref=e317]: "40"
+              - generic [ref=e318]: "60"
+            - generic [ref=e319]:
+              - generic [ref=e320]: "1"
+              - generic [ref=e321]: "2"
+              - generic [ref=e322]: "3"
+        - generic [ref=e328]:
+          - button "Notification settings" [ref=e329] [cursor=pointer]
+          - heading "Latest News" [level=2] [ref=e330]
+          - list [ref=e331]:
+            - listitem [ref=e332]:
+              - generic [ref=e334]:
+                - searchbox [ref=e335]
+                - button "Search" [ref=e336] [cursor=pointer]
+            - listitem [ref=e337]
+            - listitem [ref=e339]
+            - listitem [ref=e341]
+            - listitem [ref=e343]:
+              - button [ref=e344] [cursor=pointer]
+            - listitem [ref=e345]:
+              - link [ref=e346] [cursor=pointer]:
+                - /url: /en/webmaster/events/rss/e72ef2081a3021da3ff4/
+          - time [ref=e347]: Friday, 15 May 2026
+          - generic [ref=e348]:
+            - article [ref=e349]:
+              - time [ref=e350]: 15 May 2026 14:03
+              - generic [ref=e351]:
+                - generic [ref=e353] [cursor=pointer]: …
+                - link "Miravia ES, PT" [ref=e354] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/31369/
+                - heading "New banners added" [level=2] [ref=e355]
+              - link "Miravia ES, PT Affiliate Program":
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/31369/
+                - img [ref=e356] [cursor=pointer]
+              - generic [ref=e357]:
+                - paragraph [ref=e358]: New banners added
+                - generic [ref=e360]:
+                  - list [ref=e363]:
+                    - listitem [ref=e364]
+                    - listitem [ref=e365]
+                    - listitem [ref=e366]
+                    - listitem [ref=e367]
+                  - list [ref=e370]:
+                    - listitem [ref=e371]
+                    - listitem [ref=e372]
+                    - listitem [ref=e373]
+                    - listitem [ref=e374]
+                - paragraph [ref=e375]:
+                  - link "See all banners (18)" [ref=e376] [cursor=pointer]:
+                    - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/31369/?start_date=15.05.2026&end_date=15.05.2026&filter=yes#banners
+                - paragraph
+            - article [ref=e377]:
+              - time [ref=e378]: 15 May 2026 13:41
+              - generic [ref=e379]:
+                - generic [ref=e381] [cursor=pointer]: …
+                - link "Insperia RU" [ref=e382] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/127068/
+                - heading "New deals added" [level=2] [ref=e383]
+              - link "Insperia RU Affiliate Program":
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/127068/
+                - img [ref=e384] [cursor=pointer]
+              - generic [ref=e385]:
+                - paragraph [ref=e387]:
+                  - generic [ref=e388] [cursor=pointer]: Введи номер, чтобы применить скидку 300₽
+                - paragraph [ref=e389]:
+                  - link "Show all deals (1)" [ref=e390] [cursor=pointer]:
+                    - /url: https://store.admitad.com/en/webmaster/websites/2940069/coupons/?coupon_id=928307
+            - article [ref=e391]:
+              - time [ref=e392]: 15 May 2026 13:37
+              - generic [ref=e393]:
+                - generic [ref=e395] [cursor=pointer]: …
+                - link "LETOILE AE QA" [ref=e396] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/125954/
+                - heading "New promo codes added" [level=2] [ref=e397]
+              - link "LETOILE AE QA Affiliate Program":
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/125954/
+                - img [ref=e398] [cursor=pointer]
+              - generic [ref=e399]:
+                - paragraph [ref=e401]:
+                  - generic [ref=e402] [cursor=pointer]: 10% 0ff*
+                - paragraph [ref=e403]:
+                  - link "Show all promo codes (1)" [ref=e404] [cursor=pointer]:
+                    - /url: https://store.admitad.com/en/webmaster/websites/2940069/coupons/?coupon_id=928306
+            - article [ref=e405]:
+              - time [ref=e406]: 15 May 2026 13:19
+              - generic [ref=e407]:
+                - generic [ref=e409] [cursor=pointer]: …
+                - link "Askona" [ref=e410] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/15236/
+                - heading "New banners added" [level=2] [ref=e411]
+              - link "Askona Affiliate Program":
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/15236/
+                - img [ref=e412] [cursor=pointer]
+              - generic [ref=e413]:
+                - paragraph [ref=e414]: New banners added
+                - list [ref=e419]:
+                  - listitem [ref=e420]
+                  - listitem [ref=e421]
+                  - listitem [ref=e422]
+                  - listitem [ref=e423]
+                - paragraph [ref=e424]:
+                  - link "See all banners (6)" [ref=e425] [cursor=pointer]:
+                    - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/15236/?start_date=15.05.2026&end_date=15.05.2026&filter=yes#banners
+                - paragraph
+            - article [ref=e426]:
+              - time [ref=e427]: 15 May 2026 13:17
+              - generic [ref=e428]:
+                - generic [ref=e430] [cursor=pointer]: …
+                - link "Askona" [ref=e431] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/15236/
+                - heading "New deals added" [level=2] [ref=e432]
+              - link "Askona Affiliate Program":
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/15236/
+                - img [ref=e433] [cursor=pointer]
+              - generic [ref=e434]:
+                - paragraph [ref=e436]:
+                  - generic [ref=e437] [cursor=pointer]: Каскадные скидки на КПБ
+                - paragraph [ref=e438]:
+                  - link "Show all deals (1)" [ref=e439] [cursor=pointer]:
+                    - /url: https://store.admitad.com/en/webmaster/websites/2940069/coupons/?coupon_id=928305
+            - article [ref=e440]:
+              - time [ref=e441]: 15 May 2026 13:07
+              - generic [ref=e442]:
+                - generic [ref=e444] [cursor=pointer]: …
+                - link "Askona" [ref=e445] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/15236/
+                - heading "New promo codes added" [level=2] [ref=e446]
+              - link "Askona Affiliate Program":
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/15236/
+                - img [ref=e447] [cursor=pointer]
+              - generic [ref=e448]:
+                - paragraph [ref=e450]:
+                  - generic [ref=e451] [cursor=pointer]: Увезучие Дни
+                - paragraph [ref=e452]:
+                  - link "Show all promo codes (1)" [ref=e453] [cursor=pointer]:
+                    - /url: https://store.admitad.com/en/webmaster/websites/2940069/coupons/?coupon_id=928304
+            - article [ref=e454]:
+              - time [ref=e455]: 15 May 2026 12:55
+              - generic [ref=e456]:
+                - generic [ref=e458] [cursor=pointer]: …
+                - link "Miravia ES, PT" [ref=e459] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/31369/
+                - heading "New promo codes added" [level=2] [ref=e460]
+              - link "Miravia ES, PT Affiliate Program":
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/31369/
+                - img [ref=e461] [cursor=pointer]
+              - generic [ref=e462]:
+                - paragraph [ref=e464]:
+                  - generic [ref=e465] [cursor=pointer]: Hello Summer Plus Coupon -€2 off minimum order value (MOV) of €30 - 2HS005
+                - paragraph [ref=e467]:
+                  - generic [ref=e468] [cursor=pointer]: Hello Summer Plus Coupon -€5 off minimum order value (MOV) of €50 - 5HS005
+                - paragraph [ref=e470]:
+                  - generic [ref=e471] [cursor=pointer]: Hello Summer Coupon -€4 off minimum order value (MOV) of €30
+                - paragraph [ref=e473]:
+                  - generic [ref=e474] [cursor=pointer]: Hello Summer Coupon -€6 off minimum order value €40 minimum order value (MOV)
+                - paragraph [ref=e475]:
+                  - link "Show all promo codes (7)" [ref=e476] [cursor=pointer]:
+                    - /url: https://store.admitad.com/en/webmaster/websites/2940069/coupons/?coupon_id=928298&coupon_id=928299&coupon_id=928300&coupon_id=928301&coupon_id=928302&coupon_id=928303&coupon_id=928308
+            - article [ref=e477]:
+              - time [ref=e478]: 15 May 2026 12:52
+              - generic [ref=e479]:
+                - generic [ref=e481] [cursor=pointer]: …
+                - link "Miravia ES, PT" [ref=e482] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/31369/
+                - heading "New deals added" [level=2] [ref=e483]
+              - link "Miravia ES, PT Affiliate Program":
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/31369/
+                - img [ref=e484] [cursor=pointer]
+              - generic [ref=e485]:
+                - paragraph [ref=e487]:
+                  - generic [ref=e488] [cursor=pointer]: Hello Summer - May 18-24 - Main Campaign
+                - paragraph [ref=e490]:
+                  - generic [ref=e491] [cursor=pointer]: Hello Summer May 18 6h00 PM - 11h59 PM - Evening Drop
+                - paragraph [ref=e493]:
+                  - generic [ref=e494] [cursor=pointer]: Hello Summer - May 18-24 - Outdoor and Garden
+                - paragraph [ref=e496]:
+                  - generic [ref=e497] [cursor=pointer]: Hello Summer - May 18-24 - Summer Season
+                - paragraph [ref=e498]:
+                  - link "Show all deals (5)" [ref=e499] [cursor=pointer]:
+                    - /url: https://store.admitad.com/en/webmaster/websites/2940069/coupons/?coupon_id=928293&coupon_id=928294&coupon_id=928295&coupon_id=928296&coupon_id=928297
+            - article [ref=e500]:
+              - time [ref=e501]: 15 May 2026 11:57
+              - generic [ref=e502]:
+                - generic [ref=e504] [cursor=pointer]: …
+                - link "Askent" [ref=e505] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/26006/
+                - heading "New deals added" [level=2] [ref=e506]
+              - link "Askent Affiliate Program":
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/26006/
+                - img [ref=e507] [cursor=pointer]
+              - generic [ref=e508]:
+                - paragraph [ref=e510]:
+                  - generic [ref=e511] [cursor=pointer]: Скидки до 50% Sample Sale
+                - paragraph [ref=e512]:
+                  - link "Show all deals (1)" [ref=e513] [cursor=pointer]:
+                    - /url: https://store.admitad.com/en/webmaster/websites/2940069/coupons/?coupon_id=928290
+            - article [ref=e514]:
+              - time [ref=e515]: 15 May 2026 11:54
+              - generic [ref=e516]:
+                - generic [ref=e518] [cursor=pointer]: …
+                - link "Askent" [ref=e519] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/26006/
+                - heading "New banners added" [level=2] [ref=e520]
+              - link "Askent Affiliate Program":
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/26006/
+                - img [ref=e521] [cursor=pointer]
+              - generic [ref=e522]:
+                - paragraph [ref=e523]: New banners added
+                - generic [ref=e525]:
+                  - list [ref=e528]:
+                    - listitem [ref=e529]
+                    - listitem [ref=e530]
+                    - listitem [ref=e531]
+                    - listitem [ref=e532]
+                  - list [ref=e535]:
+                    - listitem [ref=e536]
+                    - listitem [ref=e537]
+                    - listitem [ref=e538]
+                    - listitem [ref=e539]
+                - paragraph [ref=e540]:
+                  - link "See all banners (42)" [ref=e541] [cursor=pointer]:
+                    - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/26006/?start_date=15.05.2026&end_date=15.05.2026&filter=yes#banners
+                - paragraph
+  - generic [ref=e542]:
+    - generic [ref=e543]: For affiliates
+    - generic [ref=e544]:
+      - generic [ref=e545]:
+        - link [ref=e546] [cursor=pointer]:
+          - /url: https://account.takeads.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e549]
+        - generic [ref=e552]: Takeads
+      - generic [ref=e553]:
+        - link [ref=e554] [cursor=pointer]:
+          - /url: https://app.takedeals.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e557]
+        - generic [ref=e561]: Takedeals
+      - generic [ref=e562]:
+        - link [ref=e563] [cursor=pointer]:
+          - /url: https://flow.admitad.com/en/publisher/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e566]
+        - generic [ref=e570]: Flow
+    - generic [ref=e571]: For influencers
+    - generic [ref=e572]:
+      - generic [ref=e573]:
+        - link [ref=e574] [cursor=pointer]:
+          - /url: https://app.takefluence.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e577]
+        - generic [ref=e582]: Takefluence
+      - generic [ref=e583]:
+        - link [ref=e584] [cursor=pointer]:
+          - /url: https://account.convertsocial.net/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e587]
+        - generic [ref=e593]: ConvertSocial
+    - generic [ref=e596] [cursor=pointer]: Hide
+  - status [ref=e597]
+  - status [ref=e598]

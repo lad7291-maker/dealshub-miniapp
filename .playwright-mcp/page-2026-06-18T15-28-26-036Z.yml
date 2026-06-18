@@ -1,0 +1,837 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - link [ref=e13] [cursor=pointer]:
+          - /url: /adv
+          - img [ref=e14]
+        - generic [ref=e26]:
+          - button "Поиск по сайту" [ref=e27]:
+            - img [ref=e28]
+          - button "Открыть меню" [ref=e32]:
+            - img [ref=e33]
+    - img [ref=e38]
+    - img [ref=e40]
+    - img [ref=e42]
+    - generic [ref=e43]:
+      - link [ref=e44] [cursor=pointer]:
+        - /url: /adv/news/prioritetnoe-razmeschenie-skidka-15-do-17-iyulya
+      - generic [ref=e45]:
+        - generic [ref=e47]: Повысьте уровень Приоритетного размещения и станьте заметнее в Картах
+        - generic [ref=e48]:
+          - paragraph [ref=e50]: Главное
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - img "Main page slider (slide 1) preview" [ref=e60] [cursor=pointer]
+              - img "Main page slider (slide 1) preview" [ref=e64] [cursor=pointer]
+            - generic [ref=e65]:
+              - img "Main page slider (slide 2) preview" [ref=e69] [cursor=pointer]
+              - img "Main page slider (slide 2) preview" [ref=e72] [cursor=pointer]
+            - generic [ref=e73]:
+              - img "Main page slider (slide 3) preview" [ref=e77] [cursor=pointer]
+              - img "Main page slider (slide 3) preview" [ref=e80] [cursor=pointer]
+    - generic [ref=e85]:
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - heading "Решения Яндекс Рекламы" [level=1] [ref=e90]
+          - paragraph [ref=e91]: Инструменты и рекламные форматы для достижения целей вашего бизнеса на всех этапах маркетинговой воронки
+        - link "Выбрать решение" [ref=e92] [cursor=pointer]:
+          - /url: /adv/products-new
+          - paragraph [ref=e93]: Выбрать решение
+      - generic [ref=e99]:
+        - img [ref=e105]
+        - list [ref=e107]:
+          - listitem [ref=e108]:
+            - link "Единая перфоманс-кампания" [ref=e109] [cursor=pointer]:
+              - /url: /adv/products/epk
+              - generic [ref=e110]:
+                - paragraph [ref=e111]: Единая перфоманс-кампания
+                - img [ref=e112]
+          - listitem [ref=e114]:
+            - link "Мастер кампаний в Яндекс Директе" [ref=e115] [cursor=pointer]:
+              - /url: /adv/products/campaign-master
+              - generic [ref=e116]:
+                - paragraph [ref=e117]: Мастер кампаний в Яндекс Директе
+                - img [ref=e118]
+          - listitem [ref=e120]:
+            - link "Медийная реклама" [ref=e121] [cursor=pointer]:
+              - /url: /adv/products/medijnaya-reklama
+              - generic [ref=e122]:
+                - paragraph [ref=e123]: Медийная реклама
+                - img [ref=e124]
+          - listitem [ref=e126]:
+            - link "Товарная кампания" [ref=e127] [cursor=pointer]:
+              - /url: /adv/products/tovarnaya-kampaniya
+              - generic [ref=e128]:
+                - paragraph [ref=e129]: Товарная кампания
+                - img [ref=e130]
+          - listitem [ref=e132]:
+            - link "Перфоманс-продвижение в Картах" [ref=e133] [cursor=pointer]:
+              - /url: /adv/products/geoperfomans
+              - generic [ref=e134]:
+                - paragraph [ref=e135]: Перфоманс-продвижение в Картах
+                - img [ref=e136]
+          - listitem [ref=e138]:
+            - link "Медийная реклама в Картах" [ref=e139] [cursor=pointer]:
+              - /url: /adv/products/geo
+              - generic [ref=e140]:
+                - paragraph [ref=e141]: Медийная реклама в Картах
+                - img [ref=e142]
+    - generic [ref=e149]:
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - heading "Кейсы" [level=2] [ref=e154]
+          - paragraph [ref=e155]: Как партнёры используют рекламные инструменты Яндекса для продвижения своего бизнеса
+        - link "Все кейсы" [ref=e156] [cursor=pointer]:
+          - /url: /adv/solutions/cases
+          - paragraph [ref=e157]: Все кейсы
+      - generic [ref=e169]:
+        - generic [ref=e177]:
+          - link [ref=e178] [cursor=pointer]:
+            - /url: /adv/solutions/cases/prodvizhenie-vneshney-solncezaschity-cherez-promostranicy-yandeksa-v-gk-alyutekh
+            - img [ref=e179]
+          - paragraph [ref=e182]: Яндекс ПромоСтраницы
+          - paragraph [ref=e183]: Как «АЛЮТЕХ» с помощью ПромоСтраниц сформировал интерес к новой категории товаров — внешней солнцезащите
+        - generic [ref=e191]:
+          - link [ref=e192] [cursor=pointer]:
+            - /url: /adv/solutions/cases/prodvizhenie-regionalnogo-avtodilera-transtekhservis-v-yandeks-direkte-i-promostranicah
+            - img [ref=e193]
+          - paragraph [ref=e196]: Яндекс ПромоСтраницы
+          - paragraph [ref=e197]: Как «ТрансТехСервис» привлёк подписчиков в телеграм-канал с помощью ПромоСтраниц
+        - generic [ref=e205]:
+          - link [ref=e206] [cursor=pointer]:
+            - /url: /adv/solutions/cases/prodvizhenie-internet-magazina-sibirskih-delikatesov-sibifood-v-promostranicah-yandeksa
+            - img [ref=e207]
+          - paragraph [ref=e210]: Яндекс ПромоСтраницы
+          - paragraph [ref=e211]: Как Sibifood формирует интерес к деликатесам через экспертные статьи в ПромоСтраницах
+        - generic [ref=e219]:
+          - link [ref=e220] [cursor=pointer]:
+            - /url: /adv/solutions/cases/prodvizhenie-mebelnogo-brenda-angstrem-v-yandeks-ritme
+            - img [ref=e221]
+          - paragraph [ref=e224]: Кейс
+          - paragraph [ref=e225]: Как «Ангстрем» снизил стоимость лида на 31% с помощью Яндекс Ритма
+        - generic [ref=e233]:
+          - link [ref=e234] [cursor=pointer]:
+            - /url: /adv/solutions/cases/prodvizhenie-professionalnoy-kosmetiki-klassa-lyuks-babor-v-yandeks-ritme
+            - img [ref=e235]
+          - paragraph [ref=e238]: Кейс
+          - paragraph [ref=e239]: Как Babor получил 22 млн показов и 11% онлайн-продаж с помощью Яндекс Ритма
+        - generic [ref=e247]:
+          - link [ref=e248] [cursor=pointer]:
+            - /url: /adv/solutions/cases/prodvizhenie-federalnogo-developera-gk-osnova-s-pomoschyu-promostranic-yandeksa
+            - img [ref=e249]
+          - paragraph [ref=e252]: Яндекс ПромоСтраницы
+          - paragraph [ref=e253]: Как ГК «Основа» снизила стоимость целевого обращения в 2,5 раза с помощью ПромоСтраниц
+    - generic "[object Object]" [ref=e259]:
+      - generic [ref=e261]:
+        - generic:
+          - generic:
+            - img
+      - paragraph [ref=e264]: "Маркетинг в ecommerce: курс для начинающих"
+      - generic [ref=e266]:
+        - paragraph [ref=e267]: Научитесь продвигать интернет-магазины с нуля вместе с экспертами ecom-сферы
+        - link "Зарегистрироваться" [ref=e268] [cursor=pointer]:
+          - /url: https://yard.yandex.ru/courses/marketing-v-ecommerce?utm_source=adv&utm_medium=instrumenty&utm_campaign=banner&utm_content=marketing_v_ecommerce
+          - paragraph [ref=e269]: Зарегистрироваться
+    - generic [ref=e274]:
+      - heading "Новости" [level=2] [ref=e277]
+      - generic [ref=e281]:
+        - generic [ref=e288]:
+          - generic [ref=e291]:
+            - paragraph [ref=e292]: 18 июня
+            - generic [ref=e293]:
+              - link "Теперь рекламу в мессенджерах в Директе можно оптимизировать на конверсии Благодаря новой стратегии и настройкам рекламные посты в Telegram и МАКС смогут приносить больше целевых действий. Рассказываем о новинках и делимся рекомендациями по работе с ними." [ref=e295] [cursor=pointer]:
+                - /url: /adv/news/reklamu-v-messendzherah-mozhno-optimizirovat-na-konversii
+                - generic:
+                  - paragraph: Теперь рекламу в мессенджерах в Директе можно оптимизировать на конверсии
+                  - generic: Благодаря новой стратегии и настройкам рекламные посты в Telegram и МАКС смогут приносить больше целевых действий. Рассказываем о новинках и делимся рекомендациями по работе с ними.
+              - 'link "Автоцели для интернет-магазинов: фиксируйте покупки в Метрике без ручной разметки В Метрике появились два новых типа автоматических целей для интернет-магазинов: «Автосбор: заказ оформлен» и «Автосбор: покупка». Они помогают фиксировать ключевые события на сайте без ручной разметки и участия разработчиков." [ref=e300] [cursor=pointer]':
+                - /url: /adv/news/avtotseli-dlya-internet-magazinov-fiksatsiya-pokupok-v-metrike
+                - generic:
+                  - paragraph: "Автоцели для интернет-магазинов: фиксируйте покупки в Метрике без ручной разметки"
+                  - generic: "В Метрике появились два новых типа автоматических целей для интернет-магазинов: «Автосбор: заказ оформлен» и «Автосбор: покупка». Они помогают фиксировать ключевые события на сайте без ручной разметки и участия разработчиков."
+          - 'link "16 июня Новые возможности Метрики: цели по параметрам событий, мультицели и обновлённый интерфейс Параметры событий теперь можно использовать как условия для создания целей, несколько условий — объединять в мультицели. А ещё появился единый раздел для целей и конверсий: в нём можно создавать и редактировать цели, а также сразу смотреть статистику по ним." [ref=e304] [cursor=pointer]':
+            - /url: /adv/news/novye-vozmozhnosti-yandeks-metriki-tseli-parametry-multitseli
+            - paragraph [ref=e305]: 16 июня
+            - generic [ref=e308]:
+              - generic:
+                - paragraph: "Новые возможности Метрики: цели по параметрам событий, мультицели и обновлённый интерфейс"
+                - generic: "Параметры событий теперь можно использовать как условия для создания целей, несколько условий — объединять в мультицели. А ещё появился единый раздел для целей и конверсий: в нём можно создавать и редактировать цели, а также сразу смотреть статистику по ним."
+        - link "Все новости" [ref=e313] [cursor=pointer]:
+          - /url: /adv/news
+          - paragraph [ref=e314]: Все новости
+    - generic "[object Object]" [ref=e320]:
+      - generic [ref=e322]:
+        - generic:
+          - generic:
+            - img
+      - paragraph [ref=e325]: "Гайд по профессии: специалист по контекстной рекламе"
+      - generic [ref=e327]:
+        - paragraph [ref=e328]: Нейросети, тексты, дизайн — в одном email-курсе от экспертов
+        - link "Узнать больше" [ref=e329] [cursor=pointer]:
+          - /url: https://yandex.ru/adv/project/starter-pak_kontekstologa?utm_source=portal_adv&utm_medium=course&utm_campaign=banner
+          - paragraph [ref=e330]: Узнать больше
+    - generic [ref=e335]:
+      - heading "Вопрос-ответ" [level=2] [ref=e336]
+      - generic [ref=e337]:
+        - generic [ref=e338]:
+          - generic [ref=e341] [cursor=pointer]:
+            - text: Что такое Яндекс Реклама?
+            - img [ref=e342]
+          - text: — — —
+        - generic [ref=e347] [cursor=pointer]:
+          - text: Какие решения для продвижения бизнеса в интернете предлагает Яндекс Реклама?
+          - img [ref=e348]
+        - generic [ref=e353] [cursor=pointer]:
+          - text: Кому подойдёт реклама в Яндексе?
+          - img [ref=e354]
+        - generic [ref=e359] [cursor=pointer]:
+          - text: Как купить рекламу, запустить её и проанализировать результат?
+          - img [ref=e360]
+        - generic [ref=e365] [cursor=pointer]:
+          - text: Чем ещё может быть полезен Портал Рекламы?
+          - img [ref=e366]
+        - generic [ref=e368]:
+          - generic [ref=e371] [cursor=pointer]:
+            - text: Как связаться с поддержкой?
+            - img [ref=e372]
+          - text: — — —
+    - generic [ref=e374]:
+      - generic [ref=e376]:
+        - list [ref=e378]:
+          - listitem [ref=e379]:
+            - generic [ref=e380]: Главная
+        - img [ref=e382]
+        - generic [ref=e394]:
+          - paragraph [ref=e395]: Подпишитесь на новости
+          - iframe [ref=e396]:
+            
+        - paragraph [ref=e397]: Наши соцсети
+        - generic [ref=e398]:
+          - link "ВКонтакте" [ref=e399] [cursor=pointer]:
+            - /url: https://vk.com/yandex_adv
+            - generic [ref=e400]: ВКонтакте
+          - 'link "Telegram: рынок и аналитика" [ref=e401] [cursor=pointer]':
+            - /url: https://t.me/YANtech
+            - generic [ref=e402]: "Telegram: рынок и аналитика"
+          - 'link "Telegram: новости и обучение" [ref=e403] [cursor=pointer]':
+            - /url: https://t.me/yndx_ed
+            - generic [ref=e404]: "Telegram: новости и обучение"
+          - link "YouTube" [ref=e405] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/YandexADV
+            - generic [ref=e406]: YouTube
+          - link "Дзен" [ref=e407] [cursor=pointer]:
+            - /url: https://zen.yandex.ru/adtech
+            - generic [ref=e408]: Дзен
+        - generic [ref=e409]:
+          - link "8 800 234-24-80" [ref=e410] [cursor=pointer]:
+            - /url: tel:88002342480
+            - generic [ref=e411]: 8 800 234-24-80
+          - paragraph [ref=e412]: Звонок из регионов России бесплатный
+        - button "RU" [ref=e417]:
+          - paragraph [ref=e418]: RU
+          - img [ref=e420]
+      - generic [ref=e424]:
+        - generic [ref=e426]:
+          - generic [ref=e428] [cursor=pointer]:
+            - paragraph [ref=e429]: Сервисы Яндекса
+            - button "Сервисы Яндекса" [ref=e430]:
+              - img [ref=e431]
+          - generic [ref=e436] [cursor=pointer]:
+            - paragraph [ref=e437]: Сервисы и решения
+            - button "Сервисы и решения" [ref=e438]:
+              - img [ref=e439]
+          - generic [ref=e444] [cursor=pointer]:
+            - paragraph [ref=e445]: Кейсы, аналитика и практика
+            - button "Кейсы, аналитика и практика" [ref=e446]:
+              - img [ref=e447]
+          - generic [ref=e452] [cursor=pointer]:
+            - paragraph [ref=e453]: Обучение
+            - button "Обучение" [ref=e454]:
+              - img [ref=e455]
+          - generic [ref=e460] [cursor=pointer]:
+            - paragraph [ref=e461]: Агентствам
+            - button "Агентствам" [ref=e462]:
+              - img [ref=e463]
+          - generic [ref=e468] [cursor=pointer]:
+            - paragraph [ref=e469]: "Площадкам: технологии для издателей"
+            - 'button "Площадкам: технологии для издателей" [ref=e470]':
+              - img [ref=e471]
+          - generic [ref=e476] [cursor=pointer]:
+            - paragraph [ref=e477]: Технологии рекламы
+            - button "Технологии рекламы" [ref=e478]:
+              - img [ref=e479]
+          - generic [ref=e484] [cursor=pointer]:
+            - paragraph [ref=e485]: Технические требования
+            - button "Технические требования" [ref=e486]:
+              - img [ref=e487]
+          - generic [ref=e492] [cursor=pointer]:
+            - paragraph [ref=e493]: Цены
+            - button "Цены" [ref=e494]:
+              - img [ref=e495]
+          - generic [ref=e500] [cursor=pointer]:
+            - paragraph [ref=e501]: Политика конфиденциальности
+            - button "Политика конфиденциальности" [ref=e502]:
+              - img [ref=e503]
+          - generic [ref=e508] [cursor=pointer]:
+            - paragraph [ref=e509]: Контакты
+            - button "Контакты" [ref=e510]:
+              - img [ref=e511]
+        - paragraph [ref=e516]: © 2026 Яндекс
+  - alert [ref=e518]
+  - alert "Yandex uses cookies" [ref=e519]:
+    - generic [ref=e520]:
+      - heading "Yandex uses cookies" [level=1] [ref=e521]
+      - generic [ref=e522]:
+        - text: They ensure the smooth operation of all Yandex sites and services. For more information, please read our
+        - link "Cookie Policy" [ref=e523] [cursor=pointer]:
+          - /url: https://yandex.com/legal/cookies_policy_eng/
+      - generic [ref=e524]:
+        - button "Allow all" [ref=e525] [cursor=pointer]
+        - button "Allow essential cookies" [ref=e526] [cursor=pointer]
+        - button "Settings" [ref=e527] [cursor=pointer]
+  - generic [ref=e529]:
+    - generic [ref=e530]:
+      - link [ref=e533] [cursor=pointer]:
+        - /url: /adv
+        - img [ref=e534]
+      - generic [ref=e544]:
+        - button "Поиск по сайту" [ref=e545]:
+          - img [ref=e546]
+        - button [ref=e550]:
+          - img [ref=e551]
+    - generic:
+      - generic [ref=e554]:
+        - link "Войти" [ref=e556] [cursor=pointer]:
+          - /url: https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fyandex.ru%2Fadv&origin=ads_portal
+          - img [ref=e557]
+          - paragraph [ref=e560]: Войти
+        - link "Начать обучение" [ref=e562] [cursor=pointer]:
+          - /url: Https://yard.yandex.ru
+          - img [ref=e564]
+          - paragraph [ref=e569]: Начать обучение
+          - img [ref=e571]
+        - generic [ref=e573]:
+          - button "Сервисы" [ref=e574]:
+            - generic [ref=e575]: Сервисы
+            - img [ref=e576]
+          - button "Продвижение" [ref=e582]:
+            - generic [ref=e583]: Продвижение
+            - img [ref=e584]
+          - button "Аналитика" [ref=e590]:
+            - generic [ref=e591]: Аналитика
+            - img [ref=e592]
+          - button "Монетизация" [ref=e598]:
+            - generic [ref=e599]: Монетизация
+            - img [ref=e600]
+          - button "Для агентств" [ref=e606]:
+            - generic [ref=e607]: Для агентств
+            - img [ref=e608]
+          - link "Для интернет-магазинов" [ref=e614] [cursor=pointer]:
+            - /url: /adv/instrumenty-prodvizheniya-dlya-ecommerce
+            - generic [ref=e615]: Для интернет-магазинов
+            - img [ref=e616]
+        - link "Новости" [ref=e619] [cursor=pointer]:
+          - /url: /adv/news
+          - generic [ref=e620]: Новости
+          - img [ref=e621]
+        - link "Кейсы" [ref=e624] [cursor=pointer]:
+          - /url: /adv/solutions/cases
+          - generic [ref=e625]: Кейсы
+          - img [ref=e626]
+        - link "Мероприятия" [ref=e629] [cursor=pointer]:
+          - /url: /adv/meropriyatiya
+          - generic [ref=e630]: Мероприятия
+          - img [ref=e631]
+        - generic [ref=e633]:
+          - button "Вебинары" [ref=e634]:
+            - generic [ref=e635]: Вебинары
+            - img [ref=e636]
+          - button "Полезные материалы" [ref=e642]:
+            - generic [ref=e643]: Полезные материалы
+            - img [ref=e644]
+          - button "Сертификация" [ref=e650]:
+            - generic [ref=e651]: Сертификация
+            - img [ref=e652]
+          - link "Курсы" [ref=e658] [cursor=pointer]:
+            - /url: /adv/edu/online
+            - generic [ref=e659]: Курсы
+            - img [ref=e660]
+          - link "Про обучение" [ref=e666] [cursor=pointer]:
+            - /url: /adv/edu
+            - generic [ref=e667]: Про обучение
+            - img [ref=e668]
+        - link "Контакты" [ref=e671] [cursor=pointer]:
+          - /url: /adv/contact
+          - generic [ref=e672]: Контакты
+          - img [ref=e673]
+      - generic [ref=e675]:
+        - generic [ref=e676]:
+          - button "Назад" [ref=e678]:
+            - img [ref=e679]
+            - generic [ref=e681]: Назад
+          - paragraph [ref=e682]: Сервисы
+        - generic [ref=e684]:
+          - link "icon icon Директ Размещение контекстной и медийной рекламы" [ref=e685] [cursor=pointer]:
+            - /url: https://direct.yandex.ru/
+            - generic [ref=e686]:
+              - generic [ref=e687]:
+                - img "icon" [ref=e689]
+                - img "icon" [ref=e691]
+              - generic [ref=e692]: Директ
+            - generic [ref=e693]:
+              - paragraph [ref=e694]: Размещение контекстной и медийной рекламы
+              - img [ref=e695]
+          - link "icon icon Рекламная сеть Технологии монетизации для любых площадок" [ref=e701] [cursor=pointer]:
+            - /url: https://partner.yandex.ru/
+            - generic [ref=e702]:
+              - generic [ref=e703]:
+                - img "icon" [ref=e705]
+                - img "icon" [ref=e707]
+              - generic [ref=e708]: Рекламная сеть
+            - generic [ref=e709]:
+              - paragraph [ref=e710]: Технологии монетизации для любых площадок
+              - img [ref=e711]
+          - link "icon icon Метрика Универсальная система веб-аналитики" [ref=e717] [cursor=pointer]:
+            - /url: https://metrika.yandex.ru
+            - generic [ref=e718]:
+              - generic [ref=e719]:
+                - img "icon" [ref=e721]
+                - img "icon" [ref=e723]
+              - generic [ref=e724]: Метрика
+            - generic [ref=e725]:
+              - paragraph [ref=e726]: Универсальная система веб-аналитики
+              - img [ref=e727]
+          - link "icon icon Метрика Про Пакет для крупного бизнеса, который расширяет базовые возможности Яндекс Метрики" [ref=e733] [cursor=pointer]:
+            - /url: https://yandex.ru/project/metrica/pro
+            - generic [ref=e734]:
+              - generic [ref=e735]:
+                - img "icon" [ref=e737]
+                - img "icon" [ref=e739]
+              - generic [ref=e740]: Метрика Про
+            - generic [ref=e741]:
+              - paragraph [ref=e742]: Пакет для крупного бизнеса, который расширяет базовые возможности Яндекс Метрики
+              - img [ref=e743]
+          - link "icon icon Adfox Расширенные возможности монетизации" [ref=e749] [cursor=pointer]:
+            - /url: https://adfox.yandex.ru/promo
+            - generic [ref=e750]:
+              - generic [ref=e751]:
+                - img "icon" [ref=e753]
+                - img "icon" [ref=e755]
+              - generic [ref=e756]: Adfox
+            - generic [ref=e757]:
+              - paragraph [ref=e758]: Расширенные возможности монетизации
+              - img [ref=e759]
+          - link "Яндекс Бизнес Продвижение бизнеса в Картах, Поиске и Рекламной сети" [ref=e765] [cursor=pointer]:
+            - /url: https://business.yandex.ru
+            - generic [ref=e766]:
+              - generic [ref=e767]:
+                - img [ref=e769]
+                - img [ref=e773]
+              - generic [ref=e776]: Яндекс Бизнес
+            - generic [ref=e777]:
+              - paragraph [ref=e778]: Продвижение бизнеса в Картах, Поиске и Рекламной сети
+              - img [ref=e779]
+      - generic [ref=e781]:
+        - generic [ref=e782]:
+          - button "Назад" [ref=e784]:
+            - img [ref=e785]
+            - generic [ref=e787]: Назад
+          - paragraph [ref=e788]: Продвижение
+        - generic [ref=e789]:
+          - generic [ref=e790]:
+            - link "ЕПК Одно решение для всех перфоманс-задач" [ref=e791] [cursor=pointer]:
+              - /url: /adv/products/epk
+              - generic [ref=e793]: ЕПК
+              - generic [ref=e794]:
+                - paragraph [ref=e795]: Одно решение для всех перфоманс-задач
+                - img [ref=e796]
+            - link "Медийная реклама Набор инструментов для запуска охватной рекламы" [ref=e802] [cursor=pointer]:
+              - /url: /adv/products/medijnaya-reklama
+              - generic [ref=e804]: Медийная реклама
+              - generic [ref=e805]:
+                - paragraph [ref=e806]: Набор инструментов для запуска охватной рекламы
+                - img [ref=e807]
+            - link "Медийная реклама в Картах Форматы продвижения в Навигаторе, Картах и Метро" [ref=e813] [cursor=pointer]:
+              - /url: /adv/products/geo
+              - generic [ref=e815]: Медийная реклама в Картах
+              - generic [ref=e816]:
+                - paragraph [ref=e817]: Форматы продвижения в Навигаторе, Картах и Метро
+                - img [ref=e818]
+            - link "Перфоманс-продвижение в Картах Решение для привлечения новых клиентов из офлайна" [ref=e824] [cursor=pointer]:
+              - /url: /adv/products/geoperfomans
+              - generic [ref=e826]: Перфоманс-продвижение в Картах
+              - generic [ref=e827]:
+                - paragraph [ref=e828]: Решение для привлечения новых клиентов из офлайна
+                - img [ref=e829]
+            - link "Мастер кампаний Режим упрощённой настройки кампаний Директа" [ref=e835] [cursor=pointer]:
+              - /url: /adv/products/campaign-master
+              - generic [ref=e837]: Мастер кампаний
+              - generic [ref=e838]:
+                - paragraph [ref=e839]: Режим упрощённой настройки кампаний Директа
+                - img [ref=e840]
+            - link "Товарная кампания Простой инструмент для продвижения товаров в Директе" [ref=e846] [cursor=pointer]:
+              - /url: /adv/products/tovarnaya-kampaniya
+              - generic [ref=e848]: Товарная кампания
+              - generic [ref=e849]:
+                - paragraph [ref=e850]: Простой инструмент для продвижения товаров в Директе
+                - img [ref=e851]
+            - link "Продвижение приложений Решение для привлечения и возвращения пользователей в приложение" [ref=e857] [cursor=pointer]:
+              - /url: /adv/products/reklama-mobilnyh-prilozhenij
+              - generic [ref=e859]: Продвижение приложений
+              - generic [ref=e860]:
+                - paragraph [ref=e861]: Решение для привлечения и возвращения пользователей в приложение
+                - img [ref=e862]
+            - link "Реклама в телеграм-каналах Нативная реклама прямо в мессенджере" [ref=e868] [cursor=pointer]:
+              - /url: /adv/products/telegram-reklama
+              - generic [ref=e870]: Реклама в телеграм-каналах
+              - generic [ref=e871]:
+                - paragraph [ref=e872]: Нативная реклама прямо в мессенджере
+                - img [ref=e873]
+          - link "Все решения Для достижения целей на всех этапах маркетинговой воронки" [ref=e876] [cursor=pointer]:
+            - /url: /adv/products-new
+            - generic [ref=e878]: Все решения
+            - generic [ref=e879]:
+              - paragraph [ref=e880]: Для достижения целей на всех этапах маркетинговой воронки
+              - img [ref=e881]
+      - generic [ref=e883]:
+        - generic [ref=e884]:
+          - button "Назад" [ref=e886]:
+            - img [ref=e887]
+            - generic [ref=e889]: Назад
+          - paragraph [ref=e890]: Аналитика
+        - generic [ref=e891]:
+          - generic [ref=e892]:
+            - link "Базовая аналитика Простые инструменты для решения базовых аналитических задач" [ref=e893] [cursor=pointer]:
+              - /url: /adv/metrika/bazovye-vozmozhnosti-analitiki
+              - generic [ref=e895]: Базовая аналитика
+              - generic [ref=e896]:
+                - paragraph [ref=e897]: Простые инструменты для решения базовых аналитических задач
+                - img [ref=e898]
+            - link "Источники Сравнение источников трафика и оценка каналов привлечения" [ref=e904] [cursor=pointer]:
+              - /url: /adv/metrika/analitika-istochnikov-trafika
+              - generic [ref=e906]: Источники
+              - generic [ref=e907]:
+                - paragraph [ref=e908]: Сравнение источников трафика и оценка каналов привлечения
+                - img [ref=e909]
+            - link "Поведение Изучение опыта взаимодействия пользователей с вашим сайтом" [ref=e915] [cursor=pointer]:
+              - /url: /adv/metrika/analitika-povedeniya
+              - generic [ref=e917]: Поведение
+              - generic [ref=e918]:
+                - paragraph [ref=e919]: Изучение опыта взаимодействия пользователей с вашим сайтом
+                - img [ref=e920]
+            - link "Продажи Оценка эффективности сайтов с товарами или услугами" [ref=e926] [cursor=pointer]:
+              - /url: /adv/metrika/analitika-prodazh
+              - generic [ref=e928]: Продажи
+              - generic [ref=e929]:
+                - paragraph [ref=e930]: Оценка эффективности сайтов с товарами или услугами
+                - img [ref=e931]
+            - link "Контент Анализ эффективности материалов, авторов и рубрик" [ref=e937] [cursor=pointer]:
+              - /url: /adv/metrika/kontentnaya-analitika
+              - generic [ref=e939]: Контент
+              - generic [ref=e940]:
+                - paragraph [ref=e941]: Анализ эффективности материалов, авторов и рубрик
+                - img [ref=e942]
+          - generic [ref=e944]:
+            - link "Демоверсия Знакомство с интерфейсом и возможностями Яндекс Метрики" [ref=e945] [cursor=pointer]:
+              - /url: https://passport.yandex.ru/auth/list?retpath=https%3A%2F%2Fmetrika.yandex.ru%2Fdashboard%3Fid%3D44147844%26utm_source%3Dpromo%26utm_medium%3Dproduct
+              - generic [ref=e947]: Демоверсия
+              - generic [ref=e948]:
+                - paragraph [ref=e949]: Знакомство с интерфейсом и возможностями Яндекс Метрики
+                - img [ref=e950]
+            - link "О сервисе Метрика Всё о том, как устроена Яндекс Метрика" [ref=e956] [cursor=pointer]:
+              - /url: /adv/metrika
+              - generic [ref=e958]: О сервисе Метрика
+              - generic [ref=e959]:
+                - paragraph [ref=e960]: Всё о том, как устроена Яндекс Метрика
+                - img [ref=e961]
+            - link "Новости Яндекс Метрики Последние обновления сервиса на Портале Рекламы" [ref=e967] [cursor=pointer]:
+              - /url: /adv/news?tag=metrika
+              - generic [ref=e969]: Новости Яндекс Метрики
+              - generic [ref=e970]:
+                - paragraph [ref=e971]: Последние обновления сервиса на Портале Рекламы
+                - img [ref=e972]
+      - generic [ref=e974]:
+        - generic [ref=e975]:
+          - button "Назад" [ref=e977]:
+            - img [ref=e978]
+            - generic [ref=e980]: Назад
+          - paragraph [ref=e981]: Монетизация
+        - generic [ref=e982]:
+          - generic [ref=e983]:
+            - link "Для сайтов Зарабатывайте на показах рекламы, размещённой на сайте" [ref=e984] [cursor=pointer]:
+              - /url: /adv/publishers/monetization
+              - generic [ref=e986]: Для сайтов
+              - generic [ref=e987]:
+                - paragraph [ref=e988]: Зарабатывайте на показах рекламы, размещённой на сайте
+                - img [ref=e989]
+            - link "Для приложений Получайте стабильный доход от рекламы в приложении" [ref=e995] [cursor=pointer]:
+              - /url: /adv/publishers/mobile
+              - generic [ref=e997]: Для приложений
+              - generic [ref=e998]:
+                - paragraph [ref=e999]: Получайте стабильный доход от рекламы в приложении
+                - img [ref=e1000]
+            - link "Для телеграм-каналов Зарабатывайте на показах рекламы в каналах от 1 500 подписчиков" [ref=e1006] [cursor=pointer]:
+              - /url: /adv/publishers/monetizaciya-telegramm-kanalov
+              - generic [ref=e1008]: Для телеграм-каналов
+              - generic [ref=e1009]:
+                - paragraph [ref=e1010]: Зарабатывайте на показах рекламы в каналах от 1 500 подписчиков
+                - img [ref=e1011]
+          - link "Курсы по монетизации Научитесь монетизировать сайт, телеграм-канал или приложение" [ref=e1014] [cursor=pointer]:
+            - /url: /adv/edu/online/rsya
+            - generic [ref=e1016]: Курсы по монетизации
+            - generic [ref=e1017]:
+              - paragraph [ref=e1018]: Научитесь монетизировать сайт, телеграм-канал или приложение
+              - img [ref=e1019]
+          - link "Всё о монетизации с РСЯ Технологии монетизации для любых площадок" [ref=e1022] [cursor=pointer]:
+            - /url: /adv/publishers
+            - generic [ref=e1024]: Всё о монетизации с РСЯ
+            - generic [ref=e1025]:
+              - paragraph [ref=e1026]: Технологии монетизации для любых площадок
+              - img [ref=e1027]
+      - generic [ref=e1029]:
+        - generic [ref=e1030]:
+          - button "Назад" [ref=e1032]:
+            - img [ref=e1033]
+            - generic [ref=e1035]: Назад
+          - paragraph [ref=e1036]: Для агентств
+        - generic [ref=e1037]:
+          - generic [ref=e1038]:
+            - link "Всё для агентств Самое важное о возможностях сотрудничества с Яндексом" [ref=e1039] [cursor=pointer]:
+              - /url: /adv/partners
+              - generic [ref=e1041]: Всё для агентств
+              - generic [ref=e1042]:
+                - paragraph [ref=e1043]: Самое важное о возможностях сотрудничества с Яндексом
+                - img [ref=e1044]
+            - link "Возможности сотрудничества Как сотрудничать напрямую или через технологических партнёров" [ref=e1050] [cursor=pointer]:
+              - /url: /adv/partners/cooperation-contract
+              - generic [ref=e1052]: Возможности сотрудничества
+              - generic [ref=e1053]:
+                - paragraph [ref=e1054]: Как сотрудничать напрямую или через технологических партнёров
+                - img [ref=e1055]
+          - generic [ref=e1057]:
+            - link "Яндекс Директ Оценка перфоманс-решений, подобранных для клиентов" [ref=e1058] [cursor=pointer]:
+              - /url: /adv/partners/certification_agency_direct
+              - generic [ref=e1060]: Яндекс Директ
+              - generic [ref=e1061]:
+                - paragraph [ref=e1062]: Оценка перфоманс-решений, подобранных для клиентов
+                - img [ref=e1063]
+            - link "Яндекс Метрика Оценка качества услуг по веб-аналитике" [ref=e1069] [cursor=pointer]:
+              - /url: /adv/partners/certification_agency_metrika
+              - generic [ref=e1071]: Яндекс Метрика
+              - generic [ref=e1072]:
+                - paragraph [ref=e1073]: Оценка качества услуг по веб-аналитике
+                - img [ref=e1074]
+            - link "Медийная реклама Оценка качества настройки медийной рекламы и продвижения в Картах" [ref=e1080] [cursor=pointer]:
+              - /url: /adv/partners/certification_agency_display
+              - generic [ref=e1082]: Медийная реклама
+              - generic [ref=e1083]:
+                - paragraph [ref=e1084]: Оценка качества настройки медийной рекламы и продвижения в Картах
+                - img [ref=e1085]
+            - link "Продвижение приложений Оценка качества продвижения мобильных приложений" [ref=e1091] [cursor=pointer]:
+              - /url: /adv/partners/certification_agency_rmp
+              - generic [ref=e1093]: Продвижение приложений
+              - generic [ref=e1094]:
+                - paragraph [ref=e1095]: Оценка качества продвижения мобильных приложений
+                - img [ref=e1096]
+            - link "Перфоманс-продвижение в Картах Оценка качества настройки продвижения в Картах и на других площадках" [ref=e1102] [cursor=pointer]:
+              - /url: /adv/partners/certification_agency_geo
+              - generic [ref=e1104]: Перфоманс-продвижение в Картах
+              - generic [ref=e1105]:
+                - paragraph [ref=e1106]: Оценка качества настройки продвижения в Картах и на других площадках
+                - img [ref=e1107]
+            - link "ПромоСтраницы Оценка работы по продвижению статей" [ref=e1113] [cursor=pointer]:
+              - /url: /adv/partners/certification_agency_promopages
+              - generic [ref=e1115]: ПромоСтраницы
+              - generic [ref=e1116]:
+                - paragraph [ref=e1117]: Оценка работы по продвижению статей
+                - img [ref=e1118]
+            - link "Индустриальная сертификация Оценка качества работы с клиентами различных индустрий" [ref=e1124] [cursor=pointer]:
+              - /url: /adv/partners/industrialnaya-sertifikaciya
+              - generic [ref=e1126]: Индустриальная сертификация
+              - generic [ref=e1127]:
+                - paragraph [ref=e1128]: Оценка качества работы с клиентами различных индустрий
+                - img [ref=e1129]
+            - link "Яндекс Маркет Оценка по параметрам, связанным с развитием магазинов на Маркете" [ref=e1135] [cursor=pointer]:
+              - /url: /adv/partners/certification_agency_market
+              - generic [ref=e1137]: Яндекс Маркет
+              - generic [ref=e1138]:
+                - paragraph [ref=e1139]: Оценка по параметрам, связанным с развитием магазинов на Маркете
+                - img [ref=e1140]
+      - generic [ref=e1143]:
+        - button "Назад" [ref=e1145]:
+          - img [ref=e1146]
+          - generic [ref=e1148]: Назад
+        - paragraph [ref=e1149]: Для интернет-магазинов
+      - generic [ref=e1150]:
+        - generic [ref=e1151]:
+          - button "Назад" [ref=e1153]:
+            - img [ref=e1154]
+            - generic [ref=e1156]: Назад
+          - paragraph [ref=e1157]: Вебинары
+        - generic [ref=e1158]:
+          - generic [ref=e1159]:
+            - 'link "Что нового в Директе и Метрике: как применять последние изменения в работе с кампаниями и аналитикой 19 июня 2026, 12:00" [ref=e1160] [cursor=pointer]':
+              - /url: /adv/edu/events/chto-novogo-v-direkte-i-metrike
+              - generic [ref=e1162]: "Что нового в Директе и Метрике: как применять последние изменения в работе с кампаниями и аналитикой"
+              - generic [ref=e1163]:
+                - paragraph [ref=e1164]: 19 июня 2026, 12:00
+                - img [ref=e1165]
+            - 'link "Реклама в мессенджерах: как работать с Telegram и МАКСβ через Директ 26 июня 2026, 12:00" [ref=e1171] [cursor=pointer]':
+              - /url: /adv/edu/events/reklama-v-messendjerah-kak-rabotat-s-telegram-i-max
+              - generic [ref=e1174]:
+                - text: "Реклама в мессенджерах: как работать с Telegram и МАКС"
+                - superscript [ref=e1175]: β
+                - text: через Директ
+              - generic [ref=e1176]:
+                - paragraph [ref=e1177]: 26 июня 2026, 12:00
+                - img [ref=e1178]
+            - link "Как интернет-магазину стать заметнее в Поиске с помощью Яндекс Товаров и Директа 10 июня 2026, 16:00" [ref=e1184] [cursor=pointer]:
+              - /url: /adv/edu/events/kak-internet-magazinu-stat-zametnee-v-poiske
+              - generic [ref=e1186]: Как интернет-магазину стать заметнее в Поиске с помощью Яндекс Товаров и Директа
+              - generic [ref=e1187]:
+                - paragraph [ref=e1188]: 10 июня 2026, 16:00
+                - img [ref=e1189]
+            - 'link "Спецпроекты Яндекс Рекламы: нестандартные решения под задачи бизнеса 3 июня 2026, 12:00" [ref=e1195] [cursor=pointer]':
+              - /url: /adv/edu/events/specproekty-yandeks-reklamy-nestandartnye-resheniya-pod-zadachi-biznesa
+              - generic [ref=e1197]: "Спецпроекты Яндекс Рекламы: нестандартные решения под задачи бизнеса"
+              - generic [ref=e1198]:
+                - paragraph [ref=e1199]: 3 июня 2026, 12:00
+                - img [ref=e1200]
+            - 'link "Стратегии коммуникаций для интернет-магазина: как превратить обращения в покупки 27 мая 2026, 16:00" [ref=e1206] [cursor=pointer]':
+              - /url: /adv/edu/events/strategii-kommunikaciy-dlya-internet-magazina
+              - generic [ref=e1208]: "Стратегии коммуникаций для интернет-магазина: как превратить обращения в покупки"
+              - generic [ref=e1209]:
+                - paragraph [ref=e1210]: 27 мая 2026, 16:00
+                - img [ref=e1211]
+          - link "Все вебинары Можно посмотреть в записи" [ref=e1214] [cursor=pointer]:
+            - /url: /adv/edu/events
+            - generic [ref=e1216]: Все вебинары
+            - generic [ref=e1217]:
+              - paragraph [ref=e1218]: Можно посмотреть в записи
+              - img [ref=e1219]
+      - generic [ref=e1221]:
+        - generic [ref=e1222]:
+          - button "Назад" [ref=e1224]:
+            - img [ref=e1225]
+            - generic [ref=e1227]: Назад
+          - paragraph [ref=e1228]: Полезные материалы
+        - generic [ref=e1229]:
+          - generic [ref=e1230]:
+            - link "Директ Подборки, статьи и гайды по сервису" [ref=e1231] [cursor=pointer]:
+              - /url: /adv/edu/materials/tag-direct
+              - generic [ref=e1233]: Директ
+              - generic [ref=e1234]:
+                - paragraph [ref=e1235]: Подборки, статьи и гайды по сервису
+                - img [ref=e1236]
+            - link "Метрика Подборки, статьи и гайды по сервису" [ref=e1242] [cursor=pointer]:
+              - /url: /adv/edu/materials/tag-metrika
+              - generic [ref=e1244]: Метрика
+              - generic [ref=e1245]:
+                - paragraph [ref=e1246]: Подборки, статьи и гайды по сервису
+                - img [ref=e1247]
+            - link "Яндекс для интернет-магазинов Подборки, статьи и гайды" [ref=e1253] [cursor=pointer]:
+              - /url: /adv/edu/materials/tag-ecom
+              - generic [ref=e1255]: Яндекс для интернет-магазинов
+              - generic [ref=e1256]:
+                - paragraph [ref=e1257]: Подборки, статьи и гайды
+                - img [ref=e1258]
+            - link "Маркетплейс Яндекс Маркет Подборки, статьи и гайды по сервису" [ref=e1264] [cursor=pointer]:
+              - /url: /adv/edu/materials/tag-market
+              - generic [ref=e1266]: Маркетплейс Яндекс Маркет
+              - generic [ref=e1267]:
+                - paragraph [ref=e1268]: Подборки, статьи и гайды по сервису
+                - img [ref=e1269]
+            - link "О медийной рекламе Подборки, статьи и гайды" [ref=e1275] [cursor=pointer]:
+              - /url: /adv/edu/materials/tag-display
+              - generic [ref=e1277]: О медийной рекламе
+              - generic [ref=e1278]:
+                - paragraph [ref=e1279]: Подборки, статьи и гайды
+                - img [ref=e1280]
+            - link "Рекламная сеть Яндекса Подборки, статьи и гайды по сервису" [ref=e1286] [cursor=pointer]:
+              - /url: /adv/edu/materials/tag-rsya
+              - generic [ref=e1288]: Рекламная сеть Яндекса
+              - generic [ref=e1289]:
+                - paragraph [ref=e1290]: Подборки, статьи и гайды по сервису
+                - img [ref=e1291]
+            - link "Adfox Подборки, статьи и гайды по сервису" [ref=e1297] [cursor=pointer]:
+              - /url: /adv/edu/materials/tag-adfox
+              - generic [ref=e1299]: Adfox
+              - generic [ref=e1300]:
+                - paragraph [ref=e1301]: Подборки, статьи и гайды по сервису
+                - img [ref=e1302]
+            - link "Вебмастер Подборки, статьи и гайды по сервису" [ref=e1308] [cursor=pointer]:
+              - /url: /adv/edu/materials/tag-webmaster
+              - generic [ref=e1310]: Вебмастер
+              - generic [ref=e1311]:
+                - paragraph [ref=e1312]: Подборки, статьи и гайды по сервису
+                - img [ref=e1313]
+            - link "AppMetrica Подборки, статьи и гайды по сервису" [ref=e1319] [cursor=pointer]:
+              - /url: /adv/edu/materials/tag-appmetrica
+              - generic [ref=e1321]: AppMetrica
+              - generic [ref=e1322]:
+                - paragraph [ref=e1323]: Подборки, статьи и гайды по сервису
+                - img [ref=e1324]
+            - link "Про рекламу приложений Подборки, статьи и гайды" [ref=e1330] [cursor=pointer]:
+              - /url: /adv/edu/materials/tag-apps
+              - generic [ref=e1332]: Про рекламу приложений
+              - generic [ref=e1333]:
+                - paragraph [ref=e1334]: Подборки, статьи и гайды
+                - img [ref=e1335]
+          - link "Все полезные материалы Подборки, статьи и гайды по всем сервисам и инструментам" [ref=e1338] [cursor=pointer]:
+            - /url: /adv/edu/materials
+            - generic [ref=e1340]: Все полезные материалы
+            - generic [ref=e1341]:
+              - paragraph [ref=e1342]: Подборки, статьи и гайды по всем сервисам и инструментам
+              - img [ref=e1343]
+      - generic [ref=e1345]:
+        - generic [ref=e1346]:
+          - button "Назад" [ref=e1348]:
+            - img [ref=e1349]
+            - generic [ref=e1351]: Назад
+          - paragraph [ref=e1352]: Сертификация
+        - generic [ref=e1354]:
+          - link "Сертификация специалистов Подтверждение навыков владения рекламными инструментами Яндекса" [ref=e1355] [cursor=pointer]:
+            - /url: /adv/expert
+            - generic [ref=e1357]: Сертификация специалистов
+            - generic [ref=e1358]:
+              - paragraph [ref=e1359]: Подтверждение навыков владения рекламными инструментами Яндекса
+              - img [ref=e1360]
+          - link "Проверка сертификата Проверьте подлинность сертификата по номеру и фамилии владельца" [ref=e1366] [cursor=pointer]:
+            - /url: /adv/expert/certificates
+            - generic [ref=e1368]: Проверка сертификата
+            - generic [ref=e1369]:
+              - paragraph [ref=e1370]: Проверьте подлинность сертификата по номеру и фамилии владельца
+              - img [ref=e1371]
+          - link "Мои сертификаты И правила использования знака сертифицированного специалиста" [ref=e1377] [cursor=pointer]:
+            - /url: /adv/expert/certificates/my
+            - generic [ref=e1379]: Мои сертификаты
+            - generic [ref=e1380]:
+              - paragraph [ref=e1381]: И правила использования знака сертифицированного специалиста
+              - img [ref=e1382]
+          - link "Правила сертификации Что нужно знать перед прохождением сертификации" [ref=e1388] [cursor=pointer]:
+            - /url: /adv/expert/pro-rules
+            - generic [ref=e1390]: Правила сертификации
+            - generic [ref=e1391]:
+              - paragraph [ref=e1392]: Что нужно знать перед прохождением сертификации
+              - img [ref=e1393]
+      - generic [ref=e1396]:
+        - button "Назад" [ref=e1398]:
+          - img [ref=e1399]
+          - generic [ref=e1401]: Назад
+        - paragraph [ref=e1402]: Курсы
+      - generic [ref=e1404]:
+        - button "Назад" [ref=e1406]:
+          - img [ref=e1407]
+          - generic [ref=e1409]: Назад
+        - paragraph [ref=e1410]: Про обучение
+      - generic [ref=e1411]:
+        - generic [ref=e1412]:
+          - button "Назад" [ref=e1414]:
+            - img [ref=e1415]
+            - generic [ref=e1417]: Назад
+          - paragraph [ref=e1418]: Аккаунт
+        - link "Войти" [ref=e1422] [cursor=pointer]:
+          - /url: https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fyandex.ru%2Fadv&origin=ads_portal
+          - img [ref=e1423]
+          - paragraph [ref=e1426]: Войти

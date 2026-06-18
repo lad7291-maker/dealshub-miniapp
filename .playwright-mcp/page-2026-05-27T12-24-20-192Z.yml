@@ -1,0 +1,10 @@
+- generic [ref=e2]:
+  - heading "点击查看源网页" [level=1] [ref=e4]:
+    - link "点击查看源网页" [ref=e5] [cursor=pointer]:
+      - /url: https://aliexpress.ru/
+      - img "点击查看源网页" [ref=e6]
+  - generic [ref=e8]:
+    - generic [ref=e9]: Code：07a8b972bb4943f9f498ac58efb0a21a
+    - link "Click to feedback >" [ref=e10] [cursor=pointer]:
+      - /url: https://aliexpress.ru:443//item/1005004630825415.html/_____tmd_____/page/feedback?rand=S3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg&x5secdata=xg8ad35cc53d03ad9aka07a8b972bb4943f9f498ac58efb0a21a1779884658a-388365139a1154972875abaac3aafclick33bcac66785c5671843bfe3799fe606d6b2__bx__aliexpress.ru%3A443%2Fitem%2F1005004630825415.html&type=18&language=en
+    - paragraph

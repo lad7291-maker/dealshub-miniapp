@@ -1,0 +1,353 @@
+- generic [active] [ref=e1]:
+  - generic "Ads"
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "AD admitad" [ref=e4] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/websites/2940069/catalog/landing/
+        - img "AD" [ref=e5]
+        - img "admitad" [ref=e6]
+      - generic [ref=e7]:
+        - text: max. yesterday's earnings
+        - generic [ref=e8]: 12 900$
+      - 'button "Ad Space: Smart Skidka" [ref=e10] [cursor=pointer]':
+        - generic [ref=e11]: "Ad Space:"
+        - generic "Smart Skidka" [ref=e12]
+        - img [ref=e13]
+      - link [ref=e15] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/chats/
+        - img [ref=e16]
+      - link [ref=e21] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/web_notificator/
+        - img [ref=e22]
+      - generic "Hello, Vladislav Sotnikov" [ref=e27]:
+        - generic "Account Level" [ref=e28]: AD0
+        - generic [ref=e29]: vladislav_sotnikov56e18
+        - generic [ref=e30]: vl
+  - navigation [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - link [ref=e35] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/
+          - img [ref=e36]
+        - link "Tools" [ref=e39] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/coupons/
+          - img [ref=e40]
+          - text: Tools
+        - link "Programs" [ref=e46] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/catalog/landing/
+          - img [ref=e47]
+          - text: Programs
+        - link "Product Feeds" [ref=e52] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/products/original/
+          - img [ref=e53]
+          - text: Product Feeds
+        - link "Reports" [ref=e58] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/statistics/websites/?predefined_range=today
+          - img [ref=e59]
+          - text: Reports
+        - generic [ref=e65] [cursor=pointer]:
+          - img [ref=e66]
+          - text: Payments
+      - link "Inbox" [ref=e71] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/tickets/
+        - img [ref=e72]
+      - link "Support" [ref=e78] [cursor=pointer]:
+        - /url: https://support.mitgo.com/hc/requests
+        - img [ref=e79]
+      - link "Help center" [ref=e85] [cursor=pointer]:
+        - /url: https://support.mitgo.com/hc/categories/33312777157778-Admitad-for-Publishers
+        - img [ref=e86]
+  - article [ref=e91]:
+    - iframe [ref=e92]:
+      - generic [ref=f19e3] [cursor=pointer]:
+        - img [ref=f19e4]
+        - paragraph [ref=f19e5]: Марафон героев 2026. 20 апреля - 20 июня. Заработай больше в акционный период и выиграй призовое вознаграждение.
+    - button "Close" [ref=e93] [cursor=pointer]:
+      - img [ref=e94]
+  - list
+  - navigation [ref=e96]:
+    - generic [ref=e97]: Programs
+    - text: ›
+    - link "Admitad Store" [ref=e98] [cursor=pointer]:
+      - /url: /en/webmaster/websites/2940069/catalog/
+    - text: ›
+    - generic [ref=e99]: Askona
+  - main [ref=e100]:
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - heading "Askona Affiliate Program" [level=1] [ref=e103]
+        - link "Similar programs" [ref=e105] [cursor=pointer]:
+          - /url: /en/webmaster/offers/15236/more_advcampaigns/
+      - generic [ref=e106]: Advertiser may occasionally delay payments.
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - link "Askona" [ref=e111] [cursor=pointer]:
+            - /url: https://www.askona.ru/
+            - img "Askona" [ref=e112]
+          - generic [ref=e113]: Active since 23.05.2016
+        - list [ref=e115]:
+          - listitem [ref=e116]:
+            - generic [ref=e117]: EPC
+            - generic [ref=e118]:
+              - text: 343 ₽
+              - button [ref=e120] [cursor=pointer]:
+                - img [ref=e121]
+          - listitem [ref=e123]:
+            - generic [ref=e124]: CR
+            - generic [ref=e125]:
+              - text: 1.04%
+              - button [ref=e127] [cursor=pointer]:
+                - img [ref=e128]
+          - listitem [ref=e130]:
+            - generic [ref=e131]: CR for 48 hours
+            - generic [ref=e132]:
+              - text: 0.96%
+              - button [ref=e134] [cursor=pointer]:
+                - img [ref=e135]
+          - listitem [ref=e137]:
+            - generic [ref=e138]: Approval rate
+            - generic [ref=e139]:
+              - text: 74%
+              - button [ref=e141] [cursor=pointer]:
+                - img [ref=e142]
+          - listitem [ref=e144]:
+            - generic [ref=e145]: Avg. hold time
+            - generic [ref=e146]:
+              - text: 69 days
+              - button [ref=e148] [cursor=pointer]:
+                - img [ref=e149]
+          - listitem [ref=e151]:
+            - generic [ref=e152]: Average payment time
+            - generic [ref=e153]:
+              - text: 69 days
+              - button [ref=e155] [cursor=pointer]:
+                - img [ref=e156]
+          - listitem [ref=e158]:
+            - generic [ref=e159]: Latest action
+            - generic [ref=e160]:
+              - text: 06:12 14.05.2026
+              - button [ref=e162] [cursor=pointer]:
+                - img [ref=e163]
+      - generic [ref=e165]:
+        - article [ref=e166]:
+          - paragraph [ref=e167]: Menu
+          - list [ref=e168]:
+            - listitem [ref=e169]:
+              - button "Program review" [ref=e170] [cursor=pointer]
+            - listitem [ref=e171]:
+              - button "News" [ref=e172] [cursor=pointer]
+            - listitem [ref=e173]:
+              - button "Rules" [ref=e174] [cursor=pointer]
+              - list:
+                - listitem:
+                  - button "Basics"
+                - listitem:
+                  - button "Traffic sources"
+            - listitem [ref=e175]:
+              - button "Banners and Links" [ref=e176] [cursor=pointer]
+              - list [ref=e177]:
+                - listitem [ref=e178]:
+                  - button "Banners" [ref=e179] [cursor=pointer]
+                - listitem [ref=e180]:
+                  - button "Deeplink" [ref=e181] [cursor=pointer]
+                - listitem [ref=e182]:
+                  - text: NEW
+                  - button "Google Ads" [ref=e183] [cursor=pointer]
+            - listitem [ref=e184]:
+              - link "Coupons and promo codes" [ref=e185] [cursor=pointer]:
+                - /url: /en/webmaster/websites/2940069/coupons/?website=2940069&advcampaigns=15236
+            - listitem [ref=e186]:
+              - link "Contact Support" [ref=e187] [cursor=pointer]:
+                - /url: /en/webmaster/ticket/add/?advcampaign=15236
+            - listitem [ref=e188]:
+              - button "Analytics" [ref=e189] [cursor=pointer]
+            - listitem [ref=e190]:
+              - button "Product Feeds" [ref=e191] [cursor=pointer]
+        - article [ref=e192]:
+          - paragraph [ref=e193]: CPA Terms
+          - list [ref=e194]:
+            - listitem [ref=e195]:
+              - generic [ref=e196]: Paid order
+              - strong [ref=e197]: 4.45%
+        - article [ref=e198]:
+          - paragraph [ref=e199]: Regions
+          - list [ref=e200]:
+            - listitem [ref=e201]: Russia
+        - article [ref=e202]:
+          - paragraph [ref=e203]: Tools
+          - list [ref=e204]:
+            - listitem [ref=e205]: Deeplink
+            - listitem [ref=e206]: Product Feeds
+            - listitem [ref=e207]: Coupons and promo codes
+            - listitem [ref=e208]: Lost orders
+        - article [ref=e209]:
+          - paragraph [ref=e210]: Categories
+          - list [ref=e211]:
+            - listitem [ref=e212]:
+              - strong [ref=e213]: Online stores
+              - text: ":"
+              - generic [ref=e214]: Furniture & Homeware
+              - text: ;
+        - article [ref=e215]:
+          - paragraph [ref=e216]: About advertiser
+          - list [ref=e217]:
+            - listitem [ref=e218]: ООО "А ТОРГ"
+            - listitem [ref=e219]:
+              - strong [ref=e220]: Tax Identification Number
+              - text: ": 9726067241"
+      - generic [ref=e221]:
+        - button "Apply" [ref=e224] [cursor=pointer]
+        - article [ref=e226]:
+          - paragraph [ref=e227]: Banners and Links
+          - paragraph [ref=e228]:
+            - strong [ref=e229]: Warning!
+            - text: Codes and links will become available after you join the selected ad space to this program.
+          - generic [ref=e231]:
+            - text: "Sort:"
+            - combobox "Sort:" [ref=e232]:
+              - option "by eCPC (descending)" [selected]
+              - option "By eCPC (ascending)"
+          - group "Filter" [ref=e234]:
+            - generic [ref=e235] [cursor=pointer]: Filter
+            - list:
+              - listitem [ref=e236]:
+                - generic [ref=e237]: "Date range:"
+                - generic [ref=e241]:
+                  - textbox [ref=e242]: 15.05.2026
+                  - text: –
+                  - textbox [ref=e243]: 15.05.2026
+              - listitem [ref=e245]:
+                - generic [ref=e246]: "Category:"
+                - button "Category:" [ref=e248] [cursor=pointer]: Select
+              - listitem [ref=e249]:
+                - generic [ref=e250]: "Sales regions:"
+                - generic [ref=e251]:
+                  - generic [ref=e252]:
+                    - strong [ref=e253]: "1"
+                    - text: region
+                    - button "Reset filter" [ref=e254] [cursor=pointer]
+                  - button "Sales regions:" [ref=e255] [cursor=pointer]: Select
+              - listitem [ref=e256]:
+                - generic [ref=e257]: "Size:"
+                - button "Size:" [ref=e259] [cursor=pointer]: Select
+              - listitem [ref=e260]:
+                - generic [ref=e261]: "Format:"
+                - button "Format:" [ref=e263] [cursor=pointer]: Select
+            - generic:
+              - button "Apply" [ref=e264] [cursor=pointer]
+              - button "Clear filter" [ref=e265] [cursor=pointer]
+          - generic [ref=e266]:
+            - paragraph [ref=e267]: Banners 1080x607
+            - list [ref=e268]:
+              - listitem [ref=e269]:
+                - article [ref=e270]:
+                  - paragraph [ref=e271]: 1080x607_Увезучие Дни
+                  - generic [ref=e272]:
+                    - text: "eCPC:"
+                    - strong [ref=e273]: 0 ₽
+                  - link [ref=e275] [cursor=pointer]:
+                    - /url: https://cdn.admitad-connect.com/public/bs/2026/05/15/1080x607_1wm.e20f.png
+                  - list [ref=e276]:
+                    - listitem [ref=e277]: 1080 X 607
+                    - listitem [ref=e278]: PNG
+                    - listitem [ref=e279]: Увезучие Дни
+              - listitem [ref=e280]:
+                - article [ref=e281]:
+                  - paragraph [ref=e282]: 1080x607_Каскадные скидки КПБ
+                  - generic [ref=e283]:
+                    - text: "eCPC:"
+                    - strong [ref=e284]: 0 ₽
+                  - link [ref=e286] [cursor=pointer]:
+                    - /url: https://cdn.admitad-connect.com/public/bs/2026/05/15/1080x607_12wm.f62d.jpg
+                  - list [ref=e287]:
+                    - listitem [ref=e288]: 1080 X 607
+                    - listitem [ref=e289]: JPG
+                    - listitem [ref=e290]: Каскадные скидки КПБ
+          - generic [ref=e291]:
+            - paragraph [ref=e292]: Banners 160x600
+            - list [ref=e293]:
+              - listitem [ref=e294]:
+                - article [ref=e295]:
+                  - paragraph [ref=e296]: 160x600_Увезучие Дни
+                  - generic [ref=e297]:
+                    - text: "eCPC:"
+                    - strong [ref=e298]: 0 ₽
+                  - link [ref=e300] [cursor=pointer]:
+                    - /url: https://cdn.admitad-connect.com/public/bs/2026/05/15/160x600wm.b3d5.png
+                  - list [ref=e301]:
+                    - listitem [ref=e302]: 160 X 600
+                    - listitem [ref=e303]: PNG
+                    - listitem [ref=e304]: Увезучие Дни
+          - generic [ref=e305]:
+            - paragraph [ref=e306]: Banners 240x400
+            - list [ref=e307]:
+              - listitem [ref=e308]:
+                - article [ref=e309]:
+                  - paragraph [ref=e310]: 240x400_Каскадные скидки КПБ
+                  - generic [ref=e311]:
+                    - text: "eCPC:"
+                    - strong [ref=e312]: 0 ₽
+                  - link [ref=e314] [cursor=pointer]:
+                    - /url: https://cdn.admitad-connect.com/public/bs/2026/05/15/240x400_14wm.8cb9.jpg
+                  - list [ref=e315]:
+                    - listitem [ref=e316]: 240 X 400
+                    - listitem [ref=e317]: JPG
+                    - listitem [ref=e318]: Каскадные скидки КПБ
+          - generic [ref=e319]:
+            - paragraph [ref=e320]: Banners 600x600
+            - list [ref=e321]:
+              - listitem [ref=e322]:
+                - article [ref=e323]:
+                  - paragraph [ref=e324]: 600x600_Увезучие Дни
+                  - generic [ref=e325]:
+                    - text: "eCPC:"
+                    - strong [ref=e326]: 0 ₽
+                  - link [ref=e328] [cursor=pointer]:
+                    - /url: https://cdn.admitad-connect.com/public/bs/2026/05/15/600x600_1wm.b780.png
+                  - list [ref=e329]:
+                    - listitem [ref=e330]: 600 X 600
+                    - listitem [ref=e331]: PNG
+                    - listitem [ref=e332]: Увезучие Дни
+              - listitem [ref=e333]:
+                - article [ref=e334]:
+                  - paragraph [ref=e335]: 600x600_Каскадные скидки КПБ
+                  - generic [ref=e336]:
+                    - text: "eCPC:"
+                    - strong [ref=e337]: 0 ₽
+                  - link [ref=e339] [cursor=pointer]:
+                    - /url: https://cdn.admitad-connect.com/public/bs/2026/05/15/600x600_12wm.c395.jpg
+                  - list [ref=e340]:
+                    - listitem [ref=e341]: 600 X 600
+                    - listitem [ref=e342]: JPG
+                    - listitem [ref=e343]: Каскадные скидки КПБ
+  - generic [ref=e344]:
+    - generic [ref=e345]: For affiliates
+    - generic [ref=e346]:
+      - generic [ref=e347]:
+        - link [ref=e348] [cursor=pointer]:
+          - /url: https://account.takeads.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e351]
+        - generic [ref=e354]: Takeads
+      - generic [ref=e355]:
+        - link [ref=e356] [cursor=pointer]:
+          - /url: https://app.takedeals.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e359]
+        - generic [ref=e363]: Takedeals
+      - generic [ref=e364]:
+        - link [ref=e365] [cursor=pointer]:
+          - /url: https://flow.admitad.com/en/publisher/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e368]
+        - generic [ref=e372]: Flow
+    - generic [ref=e373]: For influencers
+    - generic [ref=e374]:
+      - generic [ref=e375]:
+        - link [ref=e376] [cursor=pointer]:
+          - /url: https://app.takefluence.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e379]
+        - generic [ref=e384]: Takefluence
+      - generic [ref=e385]:
+        - link [ref=e386] [cursor=pointer]:
+          - /url: https://account.convertsocial.net/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e389]
+        - generic [ref=e395]: ConvertSocial
+    - generic [ref=e398] [cursor=pointer]: Hide

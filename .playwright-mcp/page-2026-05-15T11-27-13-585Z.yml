@@ -1,0 +1,489 @@
+- generic [ref=e1]:
+  - generic "Ads"
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "AD admitad" [ref=e4] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/websites/2940069/catalog/landing/
+        - img "AD" [ref=e5]
+        - img "admitad" [ref=e6]
+      - generic [ref=e7]:
+        - text: max. yesterday's earnings
+        - generic [ref=e8]: 12 900$
+      - 'button "Ad Space: Smart Skidka" [ref=e10] [cursor=pointer]':
+        - generic [ref=e11]: "Ad Space:"
+        - generic "Smart Skidka" [ref=e12]
+        - img [ref=e13]
+      - link [ref=e15] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/chats/
+        - img [ref=e16]
+      - link [ref=e21] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/web_notificator/
+        - img [ref=e22]
+      - generic "Hello, Vladislav Sotnikov" [ref=e27]:
+        - generic "Account Level" [ref=e28]: AD0
+        - generic [ref=e29]: vladislav_sotnikov56e18
+        - generic [ref=e30]: vl
+  - navigation [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - link [ref=e35] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/
+          - img [ref=e36]
+        - link "Tools" [ref=e39] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/coupons/
+          - img [ref=e40]
+          - text: Tools
+        - link "Programs" [ref=e46] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/catalog/landing/
+          - img [ref=e47]
+          - text: Programs
+        - link "Product Feeds" [ref=e52] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/products/original/
+          - img [ref=e53]
+          - text: Product Feeds
+        - link "Reports" [ref=e58] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/statistics/websites/?predefined_range=today
+          - img [ref=e59]
+          - text: Reports
+        - generic [ref=e65] [cursor=pointer]:
+          - img [ref=e66]
+          - text: Payments
+      - link "Inbox" [ref=e71] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/tickets/
+        - img [ref=e72]
+      - link "Support" [ref=e78] [cursor=pointer]:
+        - /url: https://support.mitgo.com/hc/requests
+        - img [ref=e79]
+      - link "Help center" [ref=e85] [cursor=pointer]:
+        - /url: https://support.mitgo.com/hc/categories/33312777157778-Admitad-for-Publishers
+        - img [ref=e86]
+  - article [ref=e91]:
+    - iframe [ref=e92]:
+      - generic [ref=f21e3] [cursor=pointer]:
+        - img [ref=f21e4]
+        - paragraph [ref=f21e5]: Марафон героев 2026. 20 апреля - 20 июня. Заработай больше в акционный период и выиграй призовое вознаграждение.
+    - button "Close" [ref=e93] [cursor=pointer]:
+      - img [ref=e94]
+  - list
+  - navigation [ref=e96]:
+    - generic [ref=e97]: Programs
+    - text: ›
+    - link "My Programs" [ref=e98] [cursor=pointer]:
+      - /url: /en/webmaster/websites/2940069/catalog/?connection_status=connected
+    - text: ›
+    - generic [ref=e99]: AliExpress RU&CIS NEW
+  - main [ref=e100]:
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - heading "AliExpress RU&CIS NEW Affiliate Program" [level=1] [ref=e103]
+        - link "Similar programs" [ref=e105] [cursor=pointer]:
+          - /url: /en/webmaster/offers/25179/more_advcampaigns/
+      - generic [ref=e106]: The advertiser pays regular rewards.
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - link "AliExpress RU&CIS NEW" [ref=e111] [cursor=pointer]:
+            - /url: https://aliexpress.ru
+            - img "AliExpress RU&CIS NEW" [ref=e112]
+          - generic [ref=e113]: Active since 07.07.2021
+        - list [ref=e115]:
+          - listitem [ref=e116]:
+            - generic [ref=e117]: EPC
+            - generic [ref=e118]:
+              - text: 137 ₽
+              - button [ref=e120] [cursor=pointer]:
+                - img [ref=e121]
+          - listitem [ref=e123]:
+            - generic [ref=e124]: CR
+            - generic [ref=e125]:
+              - text: 2.96%
+              - button [ref=e127] [cursor=pointer]:
+                - img [ref=e128]
+          - listitem [ref=e130]:
+            - generic [ref=e131]: CR for 48 hours
+            - generic [ref=e132]:
+              - text: 8.29%
+              - button [ref=e134] [cursor=pointer]:
+                - img [ref=e135]
+          - listitem [ref=e137]:
+            - generic [ref=e138]: Approval rate
+            - generic [ref=e139]:
+              - text: 95%
+              - button [ref=e141] [cursor=pointer]:
+                - img [ref=e142]
+          - listitem [ref=e144]:
+            - generic [ref=e145]: Avg. hold time
+            - generic [ref=e146]:
+              - text: 40 days
+              - button [ref=e148] [cursor=pointer]:
+                - img [ref=e149]
+          - listitem [ref=e151]:
+            - generic [ref=e152]: Average payment time
+            - generic [ref=e153]:
+              - text: 47 days
+              - button [ref=e155] [cursor=pointer]:
+                - img [ref=e156]
+          - listitem [ref=e158]:
+            - generic [ref=e159]: Latest action
+            - generic [ref=e160]:
+              - text: 14:25 15.05.2026
+              - button [ref=e162] [cursor=pointer]:
+                - img [ref=e163]
+      - generic [ref=e165]:
+        - article [ref=e166]:
+          - paragraph [ref=e167]: Menu
+          - list [ref=e168]:
+            - listitem [ref=e169]:
+              - button "Program review" [ref=e170] [cursor=pointer]
+            - listitem [ref=e171]:
+              - button "News" [ref=e172] [cursor=pointer]
+            - listitem [ref=e173]:
+              - button "Rules" [ref=e174] [cursor=pointer]
+              - list:
+                - listitem:
+                  - button "Basics"
+                - listitem:
+                  - button "Traffic sources"
+            - listitem [ref=e175]:
+              - button "Banners and Links" [ref=e176] [cursor=pointer]
+              - list [ref=e371]:
+                - listitem [ref=e318]:
+                  - button "Banners" [ref=e319] [cursor=pointer]
+                - listitem [ref=e320]:
+                  - button "Landing pages" [ref=e321] [cursor=pointer]
+                - listitem [ref=e322]:
+                  - button "Deeplink" [ref=e323] [cursor=pointer]
+                - listitem [ref=e324]:
+                  - text: NEW
+                  - button "Google Ads" [ref=e325] [cursor=pointer]
+            - listitem [ref=e177]:
+              - link "Coupons and promo codes" [ref=e178] [cursor=pointer]:
+                - /url: /en/webmaster/websites/2940069/coupons/?website=2940069&advcampaigns=25179
+            - listitem [ref=e179]:
+              - link "Contact Support" [ref=e180] [cursor=pointer]:
+                - /url: /en/webmaster/ticket/add/?advcampaign=25179
+            - listitem [ref=e181]:
+              - button "Analytics" [ref=e182] [cursor=pointer]
+            - listitem [ref=e183]:
+              - button "Documents" [ref=e184] [cursor=pointer]
+            - listitem [ref=e185]:
+              - text: NEW
+              - link "Reward calculation" [ref=e186] [cursor=pointer]:
+                - /url: /en/webmaster/products/aliexpress/
+        - article [ref=e187]:
+          - paragraph [ref=e188]: CPA Terms
+          - list [ref=e189]:
+            - listitem [ref=e190]:
+              - generic [ref=e191]: Hot products
+              - strong [ref=e192]:
+                - link "0.38%-69.20%" [ref=e193] [cursor=pointer]:
+                  - /url: /en/webmaster/websites/2940069/offers/25179/action/22217/provisions/
+            - listitem [ref=e194]:
+              - generic [ref=e195]: Affiliate RU&CIS orders
+              - strong [ref=e196]:
+                - link "0.38%-6.92%" [ref=e197] [cursor=pointer]:
+                  - /url: /en/webmaster/websites/2940069/offers/25179/action/22219/provisions/
+            - listitem [ref=e198]:
+              - generic [ref=e199]: Non-affiliate orders
+              - strong [ref=e200]:
+                - link "0%-0.24%" [ref=e201] [cursor=pointer]:
+                  - /url: /en/webmaster/websites/2940069/offers/25179/action/23407/provisions/
+        - article [ref=e202]:
+          - paragraph [ref=e203]: Regions
+          - list [ref=e204]:
+            - listitem [ref=e205]: Armenia,
+            - listitem [ref=e206]: Azerbaijan,
+            - listitem [ref=e207]: Belarus,
+            - listitem [ref=e208]: Georgia,
+            - listitem [ref=e209]: Kyrgyzstan,
+            - listitem [ref=e210]: Kazakhstan,
+            - listitem [ref=e211]: Moldova,
+            - listitem [ref=e212]: Russia,
+            - listitem [ref=e213]: Tajikistan,
+            - listitem [ref=e214]: Turkmenistan,
+            - listitem [ref=e215]: Uzbekistan
+        - article [ref=e216]:
+          - paragraph [ref=e217]: Tools
+          - list [ref=e218]:
+            - listitem [ref=e219]: Deeplink
+            - listitem [ref=e220]: Coupons and promo codes
+            - listitem [ref=e221]: Cart tracking
+            - listitem [ref=e222]: Mobile website tracking
+            - listitem [ref=e223]: Mobile app tracking
+        - article [ref=e224]:
+          - paragraph [ref=e225]: Categories
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - strong [ref=e228]: Online stores
+              - text: ":"
+              - generic [ref=e229]: Marketplaces (including Chinese Stores)
+              - text: ;
+        - article [ref=e230]:
+          - paragraph [ref=e231]: My Ad Spaces
+          - list [ref=e232]:
+            - listitem [ref=e233]:
+              - strong [ref=e234]: "Blocked by advertiser:"
+              - text: Покупайка; Reasons for ad space declination
+            - listitem [ref=e235]:
+              - strong [ref=e236]: "Already joined:"
+              - link "Smart Skidka" [ref=e237] [cursor=pointer]:
+                - /url: /en/webmaster/websites/2940069/catalog/?keyword=AliExpress%20RU%26CIS%20NEW&connection_status=connected
+              - text: ;
+        - article [ref=e238]:
+          - paragraph [ref=e239]: About advertiser
+          - list [ref=e240]:
+            - listitem [ref=e241]: ООО «Алибаба.ком (РУ)»
+            - listitem [ref=e242]:
+              - strong [ref=e243]: Tax Identification Number
+              - text: ": 7703380158"
+      - generic [ref=e326]:
+        - article [ref=e327]:
+          - paragraph [ref=e328]: Banners and Links
+          - generic [ref=e330]:
+            - text: "Sort:"
+            - combobox "Sort:" [ref=e331]:
+              - option "by eCPC (descending)" [selected]
+              - option "By eCPC (ascending)"
+          - group "Filter" [ref=e333]:
+            - generic [ref=e334] [cursor=pointer]: Filter
+            - list:
+              - listitem [ref=e335]:
+                - generic [ref=e336]: "Date range:"
+                - generic [ref=e340]:
+                  - textbox [ref=e341]: 04.05.2026
+                  - text: –
+                  - textbox [ref=e342]: 15.05.2026
+              - listitem [ref=e372]:
+                - generic [ref=e373]: "Category:"
+                - button "Category:" [ref=e375] [cursor=pointer]: Select
+              - listitem [ref=e344]:
+                - generic [ref=e345]: "Sales regions:"
+                - generic [ref=e346]:
+                  - generic [ref=e376]:
+                    - strong [ref=e377]: "1"
+                    - text: region
+                    - button "Reset filter" [ref=e378] [cursor=pointer]
+                  - button "Sales regions:" [ref=e347] [cursor=pointer]: Select
+              - listitem [ref=e348]:
+                - generic [ref=e349]: "Size:"
+                - button "Size:" [ref=e351] [cursor=pointer]: Select
+              - listitem [ref=e352]:
+                - generic [ref=e353]: "Format:"
+                - button "Format:" [ref=e355] [cursor=pointer]: Select
+            - generic:
+              - button "Apply" [ref=e356] [cursor=pointer]
+              - button "Clear filter" [ref=e357] [cursor=pointer]
+          - generic [ref=e358]:
+            - generic [ref=e360]: Default affiliate link
+            - generic [ref=e362]:
+              - generic [ref=e363]:
+                - text: "Copy link:"
+                - textbox "Copy link:" [ref=e364]: https://ali.click/97qq81j?gc=vv3q4oey1vfb6bf39686b6d1781017&erid=2bL9aMPo2e49hMef4pdzo6JkYp
+                - img [ref=e366] [cursor=pointer]
+              - generic [ref=e368]:
+                - text: or use
+                - link "Deeplink" [ref=e369] [cursor=pointer]:
+                  - /url: "#deeplink"
+          - generic [ref=e379]:
+            - paragraph [ref=e380]: Banners 120x600
+            - list [ref=e381]:
+              - listitem [ref=e382]:
+                - article [ref=e383]:
+                  - paragraph [ref=e384]: 120x600_Дни выгоды 2026
+                  - generic [ref=e385]:
+                    - text: "eCPC:"
+                    - strong [ref=e386]: 0 ₽
+                  - link [ref=e388] [cursor=pointer]:
+                    - /url: https://cdn.admitad-connect.com/public/bs/2026/05/06/%D0%90%D0%BB%D0%B82_120x600wm.48b7.png
+                  - button "</>Code" [ref=e389] [cursor=pointer]
+                  - list [ref=e390]:
+                    - listitem [ref=e391]: 120 X 600
+                    - listitem [ref=e392]: PNG
+                    - listitem [ref=e393]: Дни выгоды 2026
+          - generic [ref=e394]:
+            - paragraph [ref=e395]: Banners 300x250
+            - list [ref=e396]:
+              - listitem [ref=e397]:
+                - article [ref=e398]:
+                  - paragraph [ref=e399]: 300x250_Дни выгоды 2026
+                  - generic [ref=e400]:
+                    - text: "eCPC:"
+                    - strong [ref=e401]: 0 ₽
+                  - link [ref=e403] [cursor=pointer]:
+                    - /url: https://cdn.admitad-connect.com/public/bs/2026/05/08/%D0%90%D0%BB%D0%B81_300x250wm.930b.png
+                  - button "</>Code" [ref=e404] [cursor=pointer]
+                  - list [ref=e405]:
+                    - listitem [ref=e406]: 300 X 250
+                    - listitem [ref=e407]: PNG
+                    - listitem [ref=e408]: Дни выгоды 2026
+          - generic [ref=e409]:
+            - paragraph [ref=e410]: Banners 728x90
+            - list [ref=e411]:
+              - listitem [ref=e412]:
+                - article [ref=e413]:
+                  - paragraph [ref=e414]: 728x90_Дни выгоды 2026
+                  - generic [ref=e415]:
+                    - text: "eCPC:"
+                    - strong [ref=e416]: 0 ₽
+                  - link [ref=e418] [cursor=pointer]:
+                    - /url: https://cdn.admitad-connect.com/public/bs/2026/05/04/%D0%90%D0%BB%D0%B81_728x90wm.e192.png
+                  - button "</>Code" [ref=e419] [cursor=pointer]
+                  - list [ref=e420]:
+                    - listitem [ref=e421]: 728 X 90
+                    - listitem [ref=e422]: PNG
+                    - listitem [ref=e423]: Дни выгоды 2026
+        - dialog [ref=e424]:
+          - button "Close" [ref=e425] [cursor=pointer]:
+            - img [ref=e426]
+          - generic [ref=e428]:
+            - paragraph [ref=e429]: Code of the ad creative 300x250_Дни выгоды 2026
+            - article [ref=e431]:
+              - generic [ref=e432]:
+                - list [ref=e433]:
+                  - listitem [ref=e434]:
+                    - generic [ref=e435]: Default link
+                    - generic [ref=e436]:
+                      - textbox [ref=e437]: https://ali.click/f7qq817?gc=0e0bxau0wkfb6bf39686b6d1781017&erid=2bL9aMPo2e49hMef4rqytNndqJ
+                      - generic [ref=e438]: Use this default link to promote the program
+                  - listitem [ref=e439]:
+                    - generic [ref=e440]: Ad Space
+                    - generic [ref=e441]:
+                      - combobox [ref=e442]:
+                        - option "Покупайка"
+                        - option "Smart Skidka" [selected]
+                      - generic [ref=e443]: Choose an ad space for which the code will be generated
+                  - listitem [ref=e444]:
+                    - generic [ref=e445]: Landing page
+                    - combobox [ref=e447]:
+                      - option "Default" [selected]
+                      - option "Дни выгоды Быстрая доставка"
+                      - option "Дни выгоды Топ-товары"
+                      - option "Дни выгоды Доставим бесплатно"
+                      - option "Дни выгоды Хиты распродажи"
+                      - option "Дни выгоды Час выгоды"
+                      - option "Дни выгоды Спорт и отдых"
+                      - option "Дни выгоды Обувь"
+                      - option "Дни выгоды Одежда для всех"
+                      - option "Дни выгоды Красота и здоровье"
+                      - option "Дни выгоды Товары для мам и малышей"
+                      - option "Дни выгоды Игрушки и хобби"
+                      - option "Дни выгоды Модные аксессуары"
+                      - option "Дни выгоды Скидки на смартфоны"
+                      - option "Дни выгоды Ноутбуки, ПК и другое"
+                      - option "Дни выгоды Электроника"
+                      - option "Дни выгоды Бытовая техника"
+                      - option "Дни выгоды Всё для авто"
+                      - option "Дни выгоды Инструменты"
+                      - option "Дни выгоды Обустройство дома"
+                      - option "Дни выгоды Товары для дома, сада и офиса"
+                      - option "Дни выгоды Всё для безопасности"
+                      - option "Распродажа брендов Xiaomi и Poco"
+                      - option "Распродажа брендов Realme"
+                      - option "Распродажа брендов OnePlus"
+                      - option "Распродажа брендов Honor"
+                      - option "Распродажа брендов 70 mai"
+                      - option "Распродажа брендов Dreame"
+                      - option "Распродажа брендов Ugreen"
+                      - option "Распродажа брендов Anycubic"
+                      - option "Распродажа брендов Creality"
+                      - option "Распродажа брендов Teyes"
+                      - option "Дни выгоды"
+                      - option "Дни выгоды Все категории"
+                      - option "Дни выгоды Топ-товары"
+                      - option "Распродажа брендов Baseus"
+                      - option "Распродажа брендов Roborock"
+                      - option "Дни выгоды Доставим бесплатно"
+                      - option "Дни выгоды Хиты распродажи"
+                      - option "Дни выгоды Час выгоды"
+                      - option "Дни выгоды Спорт и отдых"
+                      - option "Дни выгоды Обувь"
+                      - option "Дни выгоды Одежда для всех"
+                      - option "Дни выгоды Красота и здоровье"
+                      - option "Дни выгоды Всё для мам и малышей"
+                      - option "Дни выгоды Игрушки и хобби"
+                      - option "Дни выгоды Модные аксессуары"
+                      - option "Дни выгоды Скидки на смартфоны"
+                      - option "Дни выгоды Ноутбуки, ПК и другое"
+                      - option "Дни выгоды Электроника"
+                      - option "Дни выгоды Бытовая техника"
+                      - option "Дни выгоды Всё для авто"
+                      - option "Дни выгоды Инструменты"
+                      - option "Дни выгоды Уют и обустройство"
+                      - option "Дни выгоды Дом, сад и офис"
+                      - option "Дни выгоды Всё для безопасности"
+                      - option "Дни выгоды Мебель"
+                      - option "Дни выгоды Багаж и сумки"
+                      - option "Дни выгоды Быстрая доставка"
+                      - option "Дни выгоды Все категории"
+                      - option "Дни выгоды"
+                      - option "Дни Выгоды - главная страница распродажи"
+                      - option "Дни Выгоды - Все категории"
+                      - option "Быстрая Доставка"
+                      - option "Топ-товары"
+                      - option "Бесплатная доставка"
+                      - option "Дни Выгоды - Хиты распродажи"
+                      - option "Дни Выгоды - Час Выгоды"
+                      - option "Спорт и отдых"
+                      - option "Обувь"
+                      - option "Одежда для всех"
+                      - option "Красота и здоровье"
+                      - option "Товары для мам и малышей"
+                      - option "Игрушки и хобби"
+                      - option "Модные аксессуары"
+                      - option "Багаж и сумки"
+                      - option "Скидки на смартфоны"
+                      - option "Ноутбуки, ПК и другое"
+                      - option "Электроника"
+                      - option "Бытовая техника"
+                      - option "Всё для авто"
+                      - option "Инструменты"
+                      - option "Обустройство дома"
+                      - option "Товары для дома, сада и офиса"
+                      - option "Всё для безопасности"
+                      - option "Мебель"
+                  - listitem [ref=e448]:
+                    - generic [ref=e449]: SubID
+                    - generic [ref=e450]:
+                      - textbox [active] [ref=e451]
+                      - generic [ref=e452]: Enter SubID value (Optional)
+                - generic [ref=e453]:
+                  - list [ref=e454]:
+                    - listitem [ref=e455]:
+                      - generic [ref=e456]: HTML code
+                      - generic [ref=e457]:
+                        - textbox [ref=e458]: "<!-- admitad.banner: 0e0bxau0wkfb6bf39686b6d1781017 AliExpress RU&CIS --> <a target=\"_blank\" rel=\"nofollow\" href=\"https://ali.click/f7qq817?gc=0e0bxau0wkfb6bf39686b6d1781017&erid=2bL9aMPo2e49hMef4rqytNndqJ\"><img width=\"300\" height=\"250\" border=\"0\" src=\"https://alitems.com/b/0e0bxau0wkfb6bf39686b6d1781017/\" alt=\"AliExpress RU&amp;CIS\"/></a> <!-- /admitad.banner -->"
+                        - generic [ref=e459]: Use this link on your website.
+                  - generic [ref=e460]:
+                    - button "Copy" [ref=e461] [cursor=pointer]
+                    - button "Close" [ref=e462] [cursor=pointer]
+            - list
+  - generic [ref=e263]:
+    - generic [ref=e264]: For affiliates
+    - generic [ref=e265]:
+      - generic [ref=e266]:
+        - link [ref=e267] [cursor=pointer]:
+          - /url: https://account.takeads.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e270]
+        - generic [ref=e273]: Takeads
+      - generic [ref=e274]:
+        - link [ref=e275] [cursor=pointer]:
+          - /url: https://app.takedeals.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e278]
+        - generic [ref=e282]: Takedeals
+      - generic [ref=e283]:
+        - link [ref=e284] [cursor=pointer]:
+          - /url: https://flow.admitad.com/en/publisher/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e287]
+        - generic [ref=e291]: Flow
+    - generic [ref=e292]: For influencers
+    - generic [ref=e293]:
+      - generic [ref=e294]:
+        - link [ref=e295] [cursor=pointer]:
+          - /url: https://app.takefluence.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e298]
+        - generic [ref=e303]: Takefluence
+      - generic [ref=e304]:
+        - link [ref=e305] [cursor=pointer]:
+          - /url: https://account.convertsocial.net/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e308]
+        - generic [ref=e314]: ConvertSocial
+    - generic [ref=e317] [cursor=pointer]: Hide

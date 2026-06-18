@@ -1,0 +1,8 @@
+[     214ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'speaker'. @ :0
+[     462ms] [LOG] [SW] Registered: https://smart-skidka.ru/ @ https://smart-skidka.ru/:226
+[     636ms] Failed to update a ServiceWorker for scope ('https://smart-skidka.ru/') with script ('Unknown'): Not found
+[    1851ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://smart-skidka.ru/:0
+[   76310ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'speaker'. @ :0
+[   76781ms] [LOG] [SW] Registered: https://smart-skidka.ru/ @ https://smart-skidka.ru/:226
+[   77022ms] Failed to update a ServiceWorker for scope ('https://smart-skidka.ru/') with script ('Unknown'): The object is in an invalid state.
+[   78509ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://smart-skidka.ru/:0

@@ -1,0 +1,2270 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "SmartSkidka" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: Установите SmartSkidka
+      - generic [ref=e7]: Быстрый доступ к скидкам
+    - button "Установить" [ref=e8] [cursor=pointer]
+    - button "×" [ref=e9] [cursor=pointer]
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "SmartSkidka .ru" [ref=e12] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e14]
+        - generic [ref=e18]:
+          - generic [ref=e19]: SmartSkidka
+          - generic [ref=e20]: .ru
+      - generic [ref=e21]:
+        - img
+        - textbox "Поиск товаров..." [ref=e22]
+        - button "AI поиск" [ref=e23] [cursor=pointer]: 🔮
+      - generic [ref=e24]: "AI-поиск: 3 из 3 осталось"
+      - button "Избранное" [ref=e26] [cursor=pointer]:
+        - img [ref=e27]
+        - generic [ref=e29]: Избранное
+  - main [ref=e30]:
+    - generic [ref=e32]:
+      - heading "Скидки на Электроника до 90%" [level=1] [ref=e33]
+      - paragraph [ref=e34]: 511 товаров с бесплатной доставкой на AliExpress
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: 124+
+          - generic [ref=e38]: товаров
+        - generic [ref=e39]:
+          - generic [ref=e40]: до 90%
+          - generic [ref=e41]: скидки
+        - generic [ref=e42]:
+          - generic [ref=e43]: Бесплатно
+          - generic [ref=e44]: доставка
+    - navigation "breadcrumb" [ref=e45]:
+      - list [ref=e46]:
+        - listitem [ref=e47]:
+          - link "Главная" [ref=e48] [cursor=pointer]:
+            - /url: /
+          - text: ›
+        - listitem [ref=e49]: Электроника
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - button "Все скидки" [ref=e53] [cursor=pointer]
+          - button "50%+" [ref=e54] [cursor=pointer]
+          - button "70%+" [ref=e55] [cursor=pointer]
+          - button "90%+" [ref=e56] [cursor=pointer]
+        - combobox [ref=e58] [cursor=pointer]:
+          - option "🔥 По скидке" [selected]
+          - option "💰 Сначала дешевые"
+          - option "💰 Сначала дорогие"
+          - option "📦 По заказам"
+      - generic [ref=e59]: 124 товаров
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - generic [ref=e2703] [cursor=pointer]:
+          - generic [ref=e2704]: "-82%"
+          - button "В избранное" [ref=e2705]:
+            - img [ref=e2706]
+          - generic [ref=e2708]:
+            - img "Комплект из 4 аккумуляторов 18В 12.0Ач M18 для замены литиевых батарей Milwaukee для беспроводных инструментов, быстрая"
+          - generic [ref=e2709]:
+            - heading "Комплект из 4 аккумуляторов 18В 12.0Ач M18 для замены литиевых батарей Milwaukee для беспроводных инструментов, быстрая" [level=3] [ref=e2710]
+            - generic [ref=e2711]:
+              - generic [ref=e2712]: 7 152 ₽
+              - generic [ref=e2713]: 39 732 ₽
+            - generic [ref=e2715]:
+              - img [ref=e2716]
+              - text: 77 человек смотрят сейчас
+            - generic [ref=e2720]:
+              - img [ref=e2721]
+              - text: Скидка действует ещё 48 часов
+            - generic [ref=e2724]:
+              - img [ref=e2725]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e2727]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012206415022.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e2728]
+              - text: На AliExpress →
+            - paragraph [ref=e2732]:
+              - img [ref=e2733]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e2735]:
+              - img [ref=e2736]
+              - text: Поделиться
+        - generic [ref=e2739] [cursor=pointer]:
+          - generic [ref=e2740]: "-75%"
+          - button "В избранное" [ref=e2741]:
+            - img [ref=e2742]
+          - generic [ref=e2744]:
+            - img "Ручная мясорубка из нержавеющей стали 304 с креплением на стол, насадкой для колбас и 2 режущими дисками"
+          - generic [ref=e2745]:
+            - heading "Ручная мясорубка из нержавеющей стали 304 с креплением на стол, насадкой для колбас и 2 режущими дисками" [level=3] [ref=e2746]
+            - generic [ref=e2747]:
+              - generic [ref=e2748]: 6 146 ₽
+              - generic [ref=e2749]: 24 582 ₽
+            - generic [ref=e2751]:
+              - img [ref=e2752]
+              - text: 141 человек смотрят сейчас
+            - generic [ref=e2756]:
+              - img [ref=e2757]
+              - text: Скидка действует ещё 29 часов
+            - generic [ref=e2760]:
+              - img [ref=e2761]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e2763]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012312632615.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e2764]
+              - text: На AliExpress →
+            - paragraph [ref=e2768]:
+              - img [ref=e2769]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e2771]:
+              - img [ref=e2772]
+              - text: Поделиться
+        - generic [ref=e2775] [cursor=pointer]:
+          - generic [ref=e2776]: "-75%"
+          - button "В избранное" [ref=e2777]:
+            - img [ref=e2778]
+          - generic [ref=e2780]:
+            - 'img "Настенный органайзер для электроинструментов: держатель для беспроводной дрели и аккумулятора, подставка для хранения эл"'
+          - generic [ref=e2781]:
+            - 'heading "Настенный органайзер для электроинструментов: держатель для беспроводной дрели и аккумулятора, подставка для хранения эл" [level=3] [ref=e2782]'
+            - generic [ref=e2783]:
+              - generic [ref=e2784]: 7 183 ₽
+              - generic [ref=e2785]: 28 732 ₽
+            - generic [ref=e2787]:
+              - img [ref=e2788]
+              - text: 25 человек смотрят сейчас
+            - generic [ref=e2792]:
+              - img [ref=e2793]
+              - text: Скидка действует ещё 27 часов
+            - generic [ref=e2796]:
+              - img [ref=e2797]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e2799]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012156831519.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e2800]
+              - text: На AliExpress →
+            - paragraph [ref=e2804]:
+              - img [ref=e2805]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e2807]:
+              - img [ref=e2808]
+              - text: Поделиться
+        - generic [ref=e2811] [cursor=pointer]:
+          - generic [ref=e2812]: "-75%"
+          - button "В избранное" [ref=e2813]:
+            - img [ref=e2814]
+          - generic [ref=e2816]:
+            - img "Бесщеточный аккумуляторный шуруповерт, 70 Нм, 620 дюйм-фунтов, 20 В, набор с аккумулятором 2,0 Ач и зарядным устройством"
+          - generic [ref=e2817]:
+            - heading "Бесщеточный аккумуляторный шуруповерт, 70 Нм, 620 дюйм-фунтов, 20 В, набор с аккумулятором 2,0 Ач и зарядным устройством" [level=3] [ref=e2818]
+            - generic [ref=e2819]:
+              - generic [ref=e2820]: 7 010 ₽
+              - generic [ref=e2821]: 28 043 ₽
+            - generic [ref=e2823]:
+              - img [ref=e2824]
+              - text: 72 человек смотрят сейчас
+            - generic [ref=e2828]:
+              - img [ref=e2829]
+              - text: Скидка действует ещё 16 часов
+            - generic [ref=e2832]:
+              - img [ref=e2833]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e2835]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012260551904.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e2836]
+              - text: На AliExpress →
+            - paragraph [ref=e2840]:
+              - img [ref=e2841]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e2843]:
+              - img [ref=e2844]
+              - text: Поделиться
+        - generic [ref=e2847] [cursor=pointer]:
+          - generic [ref=e2848]: "-75%"
+          - button "В избранное" [ref=e2849]:
+            - img [ref=e2850]
+          - generic [ref=e2852]:
+            - 'img "Настенный органайзер для электроинструментов: держатель для беспроводной дрели и аккумулятора, подставка для хранения эл"'
+          - generic [ref=e2853]:
+            - 'heading "Настенный органайзер для электроинструментов: держатель для беспроводной дрели и аккумулятора, подставка для хранения эл" [level=3] [ref=e2854]'
+            - generic [ref=e2855]:
+              - generic [ref=e2856]: 7 183 ₽
+              - generic [ref=e2857]: 28 732 ₽
+            - generic [ref=e2859]:
+              - img [ref=e2860]
+              - text: 132 человек смотрят сейчас
+            - generic [ref=e2864]:
+              - img [ref=e2865]
+              - text: Скидка действует ещё 20 часов
+            - generic [ref=e2868]:
+              - img [ref=e2869]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e2871]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012050748638.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e2872]
+              - text: На AliExpress →
+            - paragraph [ref=e2876]:
+              - img [ref=e2877]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e2879]:
+              - img [ref=e2880]
+              - text: Поделиться
+        - generic [ref=e2883] [cursor=pointer]:
+          - generic [ref=e2884]: "-75%"
+          - button "В избранное" [ref=e2885]:
+            - img [ref=e2886]
+          - generic [ref=e2888]:
+            - img "Пусковое устройство 4000А для всех бензиновых и дизельных двигателей объемом до 10.0 л, литиевая аккумуляторная батарея"
+          - generic [ref=e2889]:
+            - heading "Пусковое устройство 4000А для всех бензиновых и дизельных двигателей объемом до 10.0 л, литиевая аккумуляторная батарея" [level=3] [ref=e2890]
+            - generic [ref=e2891]:
+              - generic [ref=e2892]: 6 496 ₽
+              - generic [ref=e2893]: 25 983 ₽
+            - generic [ref=e2895]:
+              - img [ref=e2896]
+              - text: 100 человек смотрят сейчас
+            - generic [ref=e2900]:
+              - img [ref=e2901]
+              - text: Скидка действует ещё 31 часов
+            - generic [ref=e2904]:
+              - img [ref=e2905]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e2907]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012307839266.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e2908]
+              - text: На AliExpress →
+            - paragraph [ref=e2912]:
+              - img [ref=e2913]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e2915]:
+              - img [ref=e2916]
+              - text: Поделиться
+        - generic [ref=e2919] [cursor=pointer]:
+          - generic [ref=e2920]: "-75%"
+          - button "В избранное" [ref=e2921]:
+            - img [ref=e2922]
+          - generic [ref=e2924]:
+            - img "Водонепроницаемый утепленный чехол-футмуфт Funlife Anti-Kick для зимних прогулочных колясок, универсальный, с регулировк"
+          - generic [ref=e2925]:
+            - heading "Водонепроницаемый утепленный чехол-футмуфт Funlife Anti-Kick для зимних прогулочных колясок, универсальный, с регулировк" [level=3] [ref=e2926]
+            - generic [ref=e2927]:
+              - generic [ref=e2928]: 7 148 ₽
+              - generic [ref=e2929]: 28 594 ₽
+            - generic [ref=e2931]:
+              - img [ref=e2932]
+              - text: 20 человек смотрят сейчас
+            - generic [ref=e2936]:
+              - img [ref=e2937]
+              - text: Скидка действует ещё 19 часов
+            - generic [ref=e2940]:
+              - img [ref=e2941]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e2943]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012152046424.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e2944]
+              - text: На AliExpress →
+            - paragraph [ref=e2948]:
+              - img [ref=e2949]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e2951]:
+              - img [ref=e2952]
+              - text: Поделиться
+        - generic [ref=e2955] [cursor=pointer]:
+          - generic [ref=e2956]: "-75%"
+          - button "В избранное" [ref=e2957]:
+            - img [ref=e2958]
+          - generic [ref=e2960]:
+            - img "Водонепроницаемый утепленный чехол-футмуфт Funlife Anti-Kick для зимних прогулочных колясок, универсальный, с регулировк"
+          - generic [ref=e2961]:
+            - heading "Водонепроницаемый утепленный чехол-футмуфт Funlife Anti-Kick для зимних прогулочных колясок, универсальный, с регулировк" [level=3] [ref=e2962]
+            - generic [ref=e2963]:
+              - generic [ref=e2964]: 7 148 ₽
+              - generic [ref=e2965]: 28 594 ₽
+            - generic [ref=e2967]:
+              - img [ref=e2968]
+              - text: 195 человек смотрят сейчас
+            - generic [ref=e2972]:
+              - img [ref=e2973]
+              - text: Скидка действует ещё 25 часов
+            - generic [ref=e2976]:
+              - img [ref=e2977]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e2979]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012153204555.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e2980]
+              - text: На AliExpress →
+            - paragraph [ref=e2984]:
+              - img [ref=e2985]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e2987]:
+              - img [ref=e2988]
+              - text: Поделиться
+        - generic [ref=e2991] [cursor=pointer]:
+          - generic [ref=e2992]: "-70%"
+          - button "В избранное" [ref=e2993]:
+            - img [ref=e2994]
+          - generic [ref=e2996]:
+            - img "1800A Пик/26800 мАч Многоцелевой аккумулятор переменного тока с подсветкой"
+          - generic [ref=e2997]:
+            - heading "1800A Пик/26800 мАч Многоцелевой аккумулятор переменного тока с подсветкой" [level=3] [ref=e2998]
+            - generic [ref=e2999]:
+              - generic [ref=e3000]: 6 777 ₽
+              - generic [ref=e3001]: 22 591 ₽
+            - generic [ref=e3003]:
+              - img [ref=e3004]
+              - text: 70 человек смотрят сейчас
+            - generic [ref=e3008]:
+              - img [ref=e3009]
+              - text: Скидка действует ещё 15 часов
+            - generic [ref=e3012]:
+              - img [ref=e3013]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3015]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009435856385.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3016]
+              - text: На AliExpress →
+            - paragraph [ref=e3020]:
+              - img [ref=e3021]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3023]:
+              - img [ref=e3024]
+              - text: Поделиться
+        - generic [ref=e3027] [cursor=pointer]:
+          - generic [ref=e3028]: "-70%"
+          - button "В избранное" [ref=e3029]:
+            - img [ref=e3030]
+          - generic [ref=e3032]:
+            - img "1/2/4 шт. 5.0/8.0 Ач GBA80200 Замена для литий-ионного аккумулятора Greenworks 80V Pin GBA80400 GBA80500, совместим с эл"
+          - generic [ref=e3033]:
+            - heading "1/2/4 шт. 5.0/8.0 Ач GBA80200 Замена для литий-ионного аккумулятора Greenworks 80V Pin GBA80400 GBA80500, совместим с эл" [level=3] [ref=e3034]
+            - generic [ref=e3035]:
+              - generic [ref=e3036]: 7 121 ₽
+              - generic [ref=e3037]: 23 737 ₽
+            - generic [ref=e3039]:
+              - img [ref=e3040]
+              - text: 113 человек смотрят сейчас
+            - generic [ref=e3044]:
+              - img [ref=e3045]
+              - text: Скидка действует ещё 44 часов
+            - generic [ref=e3048]:
+              - img [ref=e3049]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3051]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010757923367.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3052]
+              - text: На AliExpress →
+            - paragraph [ref=e3056]:
+              - img [ref=e3057]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3059]:
+              - img [ref=e3060]
+              - text: Поделиться
+        - generic [ref=e3063] [cursor=pointer]:
+          - generic [ref=e3064]: "-68%"
+          - button "В избранное" [ref=e3065]:
+            - img [ref=e3066]
+          - generic [ref=e3068]:
+            - img "2 шт., 6,0 Ач, замена аккумулятора OP4040 для литиевой батареи Ryobi, 40 В, штифт OP40602 OP40261 OP4030, костюм для бес"
+          - generic [ref=e3069]:
+            - heading "2 шт., 6,0 Ач, замена аккумулятора OP4040 для литиевой батареи Ryobi, 40 В, штифт OP40602 OP40261 OP4030, костюм для бес" [level=3] [ref=e3070]
+            - generic [ref=e3071]:
+              - generic [ref=e3072]: 6 954 ₽
+              - generic [ref=e3073]: 21 732 ₽
+            - generic [ref=e3075]:
+              - img [ref=e3076]
+              - text: 181 человек смотрят сейчас
+            - generic [ref=e3080]:
+              - img [ref=e3081]
+              - text: Скидка действует ещё 47 часов
+            - generic [ref=e3084]:
+              - img [ref=e3085]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3087]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009820702056.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3088]
+              - text: На AliExpress →
+            - paragraph [ref=e3092]:
+              - img [ref=e3093]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3095]:
+              - img [ref=e3096]
+              - text: Поделиться
+        - generic [ref=e3099] [cursor=pointer]:
+          - generic [ref=e3100]: "-67%"
+          - button "В избранное" [ref=e3101]:
+            - img [ref=e3102]
+          - generic [ref=e3104]:
+            - img "Перезаряжаемая USB-зажигалка с выдвижным стержнем, 360° ° Вращающийся наконечник для свечей и грилей"
+          - generic [ref=e3105]:
+            - heading "Перезаряжаемая USB-зажигалка с выдвижным стержнем, 360° ° Вращающийся наконечник для свечей и грилей" [level=3] [ref=e3106]
+            - generic [ref=e3107]:
+              - generic [ref=e3108]: 6 925 ₽
+              - generic [ref=e3109]: 20 985 ₽
+            - generic [ref=e3111]:
+              - img [ref=e3112]
+              - text: 86 человек смотрят сейчас
+            - generic [ref=e3116]:
+              - img [ref=e3117]
+              - text: Скидка действует ещё 15 часов
+            - generic [ref=e3120]:
+              - img [ref=e3121]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3123]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011731499610.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3124]
+              - text: На AliExpress →
+            - paragraph [ref=e3128]:
+              - img [ref=e3129]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3131]:
+              - img [ref=e3132]
+              - text: Поделиться
+        - generic [ref=e3135] [cursor=pointer]:
+          - generic [ref=e3136]: "-67%"
+          - button "В избранное" [ref=e3137]:
+            - img [ref=e3138]
+          - generic [ref=e3140]:
+            - img "Универсальная платформа-адаптер для самоката и детской коляски, сиденье-подножка для детей, аксессуары для самоката"
+          - generic [ref=e3141]:
+            - heading "Универсальная платформа-адаптер для самоката и детской коляски, сиденье-подножка для детей, аксессуары для самоката" [level=3] [ref=e3142]
+            - generic [ref=e3144]: платформа
+            - generic [ref=e3145]:
+              - generic [ref=e3146]: 6 138 ₽
+              - generic [ref=e3147]: 18 599 ₽
+            - generic [ref=e3149]:
+              - img [ref=e3150]
+              - text: 118 человек смотрят сейчас
+            - generic [ref=e3154]:
+              - img [ref=e3155]
+              - text: Скидка действует ещё 20 часов
+            - generic [ref=e3158]:
+              - img [ref=e3159]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3161]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011541644630.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3162]
+              - text: На AliExpress →
+            - paragraph [ref=e3166]:
+              - img [ref=e3167]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3169]:
+              - img [ref=e3170]
+              - text: Поделиться
+        - generic [ref=e3173] [cursor=pointer]:
+          - generic [ref=e3174]: "-66%"
+          - button "В избранное" [ref=e3175]:
+            - img [ref=e3176]
+          - generic [ref=e3178]:
+            - img "C & P для Bosch 14,4 В, аккумуляторный контакт 4,0 Ач, 2 шт., сменный аккумулятор DDB180-02 GDR 1080-LI GSR 1440-LI HDB1"
+          - generic [ref=e3179]:
+            - heading "C & P для Bosch 14,4 В, аккумуляторный контакт 4,0 Ач, 2 шт., сменный аккумулятор DDB180-02 GDR 1080-LI GSR 1440-LI HDB1" [level=3] [ref=e3180]
+            - generic [ref=e3181]:
+              - generic [ref=e3182]: 6 617 ₽
+              - generic [ref=e3183]: 19 463 ₽
+            - generic [ref=e3185]:
+              - img [ref=e3186]
+              - text: 44 человек смотрят сейчас
+            - generic [ref=e3190]:
+              - img [ref=e3191]
+              - text: Скидка действует ещё 33 часов
+            - generic [ref=e3194]:
+              - img [ref=e3195]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3197]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010235035762.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3198]
+              - text: На AliExpress →
+            - paragraph [ref=e3202]:
+              - img [ref=e3203]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3205]:
+              - img [ref=e3206]
+              - text: Поделиться
+        - generic [ref=e3209] [cursor=pointer]:
+          - generic [ref=e3210]: "-66%"
+          - button "В избранное" [ref=e3211]:
+            - img [ref=e3212]
+          - generic [ref=e3214]:
+            - img "Аккумуляторный блок Milwaukee M18 REDLITHIUM HIGH OUTPUT XC6.0 Li-Ion (2 шт.)"
+          - generic [ref=e3215]:
+            - heading "Аккумуляторный блок Milwaukee M18 REDLITHIUM HIGH OUTPUT XC6.0 Li-Ion (2 шт.)" [level=3] [ref=e3216]
+            - generic [ref=e3217]:
+              - generic [ref=e3218]: 6 565 ₽
+              - generic [ref=e3219]: 19 309 ₽
+            - generic [ref=e3221]:
+              - img [ref=e3222]
+              - text: 127 человек смотрят сейчас
+            - generic [ref=e3226]:
+              - img [ref=e3227]
+              - text: Скидка действует ещё 25 часов
+            - generic [ref=e3230]:
+              - img [ref=e3231]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3233]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012204143907.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3234]
+              - text: На AliExpress →
+            - paragraph [ref=e3238]:
+              - img [ref=e3239]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3241]:
+              - img [ref=e3242]
+              - text: Поделиться
+        - generic [ref=e3245] [cursor=pointer]:
+          - generic [ref=e3246]: "-66%"
+          - button "В избранное" [ref=e3247]:
+            - img [ref=e3248]
+          - generic [ref=e3250]:
+            - img "Vanon 2/4 упаковки P108 7,0 Ач 18 В один + литиевая батарея, замена для Ryobi P102 P103 P104 P105 P106 P109 P122, штифт"
+          - generic [ref=e3251]:
+            - heading "Vanon 2/4 упаковки P108 7,0 Ач 18 В один + литиевая батарея, замена для Ryobi P102 P103 P104 P105 P106 P109 P122, штифт" [level=3] [ref=e3252]
+            - generic [ref=e3253]:
+              - generic [ref=e3254]: 6 146 ₽
+              - generic [ref=e3255]: 18 078 ₽
+            - generic [ref=e3257]:
+              - img [ref=e3258]
+              - text: 197 человек смотрят сейчас
+            - generic [ref=e3262]:
+              - img [ref=e3263]
+              - text: Скидка действует ещё 13 часов
+            - generic [ref=e3266]:
+              - img [ref=e3267]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3269]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009786471858.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3270]
+              - text: На AliExpress →
+            - paragraph [ref=e3274]:
+              - img [ref=e3275]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3277]:
+              - img [ref=e3278]
+              - text: Поделиться
+        - generic [ref=e3281] [cursor=pointer]:
+          - generic [ref=e3282]: "-62%"
+          - button "В избранное" [ref=e3283]:
+            - img [ref=e3284]
+          - generic [ref=e3286]:
+            - img "Аккумуляторный бесщеточный ударный гайковерт Bosch GDS18V-350 с высоким крутящим моментом, 18В, литий-ионный, для строит"
+          - generic [ref=e3287]:
+            - heading "Аккумуляторный бесщеточный ударный гайковерт Bosch GDS18V-350 с высоким крутящим моментом, 18В, литий-ионный, для строит" [level=3] [ref=e3288]
+            - generic [ref=e3289]:
+              - generic [ref=e3290]: 6 820 ₽
+              - generic [ref=e3291]: 17 955 ₽
+            - generic [ref=e3293]:
+              - img [ref=e3294]
+              - text: 49 человек смотрят сейчас
+            - generic [ref=e3298]:
+              - img [ref=e3299]
+              - text: Скидка действует ещё 22 часов
+            - generic [ref=e3302]:
+              - img [ref=e3303]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3305]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012472381770.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3306]
+              - text: На AliExpress →
+            - paragraph [ref=e3310]:
+              - img [ref=e3311]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3313]:
+              - img [ref=e3314]
+              - text: Поделиться
+        - generic [ref=e3317] [cursor=pointer]:
+          - generic [ref=e3318]: "-62%"
+          - button "В избранное" [ref=e3319]:
+            - img [ref=e3320]
+          - generic [ref=e3322]:
+            - 'img "Хит продаж: Беспроводная ударная гайковертка OEMTOOLS с приводом 1/2 дюйма для быстрого снятия и затягивания крепежа, пе"'
+          - generic [ref=e3323]:
+            - 'heading "Хит продаж: Беспроводная ударная гайковертка OEMTOOLS с приводом 1/2 дюйма для быстрого снятия и затягивания крепежа, пе" [level=3] [ref=e3324]'
+            - generic [ref=e3325]:
+              - generic [ref=e3326]: 6 789 ₽
+              - generic [ref=e3327]: 17 866 ₽
+            - generic [ref=e3329]:
+              - img [ref=e3330]
+              - text: 139 человек смотрят сейчас
+            - generic [ref=e3334]:
+              - img [ref=e3335]
+              - text: Скидка действует ещё 38 часов
+            - generic [ref=e3338]:
+              - img [ref=e3339]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3341]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011699320036.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3342]
+              - text: На AliExpress →
+            - paragraph [ref=e3346]:
+              - img [ref=e3347]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3349]:
+              - img [ref=e3350]
+              - text: Поделиться
+        - generic [ref=e3353] [cursor=pointer]:
+          - generic [ref=e3354]: "-59%"
+          - button "В избранное" [ref=e3355]:
+            - img [ref=e3356]
+          - generic [ref=e3358]:
+            - 'img "Бесщеточный двигатель для аккумуляторных садовых инструментов Makita 18В: газонокосилок, почвообрабатывающих машин и про"'
+          - generic [ref=e3359]:
+            - 'heading "Бесщеточный двигатель для аккумуляторных садовых инструментов Makita 18В: газонокосилок, почвообрабатывающих машин и про" [level=3] [ref=e3360]'
+            - generic [ref=e3361]:
+              - generic [ref=e3362]: 6 338 ₽
+              - generic [ref=e3363]: 15 459 ₽
+            - generic [ref=e3365]:
+              - img [ref=e3366]
+              - text: 26 человек смотрят сейчас
+            - generic [ref=e3370]:
+              - img [ref=e3371]
+              - text: Скидка действует ещё 32 часов
+            - generic [ref=e3374]:
+              - img [ref=e3375]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3377]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012342845047.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3378]
+              - text: На AliExpress →
+            - paragraph [ref=e3382]:
+              - img [ref=e3383]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3385]:
+              - img [ref=e3386]
+              - text: Поделиться
+        - generic [ref=e3389] [cursor=pointer]:
+          - generic [ref=e3390]: "-59%"
+          - button "В избранное" [ref=e3391]:
+            - img [ref=e3392]
+          - generic [ref=e3394]:
+            - img "Мощная беспроводная электрическая газонокосилка для сада, совместимая с аккумулятором Makita 18В, электроинструмент для"
+          - generic [ref=e3395]:
+            - heading "Мощная беспроводная электрическая газонокосилка для сада, совместимая с аккумулятором Makita 18В, электроинструмент для" [level=3] [ref=e3396]
+            - generic [ref=e3397]:
+              - generic [ref=e3398]: 6 338 ₽
+              - generic [ref=e3399]: 15 459 ₽
+            - generic [ref=e3401]:
+              - img [ref=e3402]
+              - text: 179 человек смотрят сейчас
+            - generic [ref=e3406]:
+              - img [ref=e3407]
+              - text: Скидка действует ещё 20 часов
+            - generic [ref=e3410]:
+              - img [ref=e3411]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3413]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012344302096.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3414]
+              - text: На AliExpress →
+            - paragraph [ref=e3418]:
+              - img [ref=e3419]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3421]:
+              - img [ref=e3422]
+              - text: Поделиться
+        - generic [ref=e3425] [cursor=pointer]:
+          - generic [ref=e3426]: "-58%"
+          - button "В избранное" [ref=e3427]:
+            - img [ref=e3428]
+          - generic [ref=e3430]:
+            - img "Новый RTK GPS 11,1 В 10000 мАч BL10000 аккумулятор Power Stick Power Pole Многофункциональная аккумуляторная панель RTK"
+          - generic [ref=e3431]:
+            - heading "Новый RTK GPS 11,1 В 10000 мАч BL10000 аккумулятор Power Stick Power Pole Многофункциональная аккумуляторная панель RTK" [level=3] [ref=e3432]
+            - generic [ref=e3433]:
+              - generic [ref=e3434]: 6 492 ₽
+              - generic [ref=e3435]: 15 458 ₽
+            - generic [ref=e3437]:
+              - img [ref=e3438]
+              - text: 26 человек смотрят сейчас
+            - generic [ref=e3442]:
+              - img [ref=e3443]
+              - text: Скидка действует ещё 35 часов
+            - generic [ref=e3446]:
+              - img [ref=e3447]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3449]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005007979023421.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3450]
+              - text: На AliExpress →
+            - paragraph [ref=e3454]:
+              - img [ref=e3455]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3457]:
+              - img [ref=e3458]
+              - text: Поделиться
+        - generic [ref=e3461] [cursor=pointer]:
+          - generic [ref=e3462]: "-56%"
+          - button "В избранное" [ref=e3463]:
+            - img [ref=e3464]
+          - generic [ref=e3466]:
+            - img "Электрический водяной насос Makita, беспроводной погружной насос для глубоких скважин, портативный насос для перекачки в"
+          - generic [ref=e3467]:
+            - heading "Электрический водяной насос Makita, беспроводной погружной насос для глубоких скважин, портативный насос для перекачки в" [level=3] [ref=e3468]
+            - generic [ref=e3469]:
+              - generic [ref=e3470]: 6 203 ₽
+              - generic [ref=e3471]: 13 966 ₽
+            - generic [ref=e3473]:
+              - img [ref=e3474]
+              - text: 44 человек смотрят сейчас
+            - generic [ref=e3478]:
+              - img [ref=e3479]
+              - text: Скидка действует ещё 24 часов
+            - generic [ref=e3482]:
+              - img [ref=e3483]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3485]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012452815950.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3486]
+              - text: На AliExpress →
+            - paragraph [ref=e3490]:
+              - img [ref=e3491]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3493]:
+              - img [ref=e3494]
+              - text: Поделиться
+        - generic [ref=e3497] [cursor=pointer]:
+          - generic [ref=e3498]: "-55%"
+          - button "В избранное" [ref=e3499]:
+            - img [ref=e3500]
+          - generic [ref=e3502]:
+            - img "Портативная электрическая кофемолка, USB-заряжаемая, с регулируемой степенью помола, для дома, офиса и путешествий, эффе"
+          - generic [ref=e3503]:
+            - heading "Портативная электрическая кофемолка, USB-заряжаемая, с регулируемой степенью помола, для дома, офиса и путешествий, эффе" [level=3] [ref=e3504]
+            - generic [ref=e3505]:
+              - generic [ref=e3506]: 6 665 ₽
+              - generic [ref=e3507]: 14 812 ₽
+            - generic [ref=e3509]:
+              - img [ref=e3510]
+              - text: 116 человек смотрят сейчас
+            - generic [ref=e3514]:
+              - img [ref=e3515]
+              - text: Скидка действует ещё 39 часов
+            - generic [ref=e3518]:
+              - img [ref=e3519]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3521]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010399929424.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3522]
+              - text: На AliExpress →
+            - paragraph [ref=e3526]:
+              - img [ref=e3527]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3529]:
+              - img [ref=e3530]
+              - text: Поделиться
+        - generic [ref=e3533] [cursor=pointer]:
+          - generic [ref=e3534]: "-55%"
+          - button "В избранное" [ref=e3535]:
+            - img [ref=e3536]
+          - generic [ref=e3538]:
+            - img "Аккумуляторный гвоздезабиватель Makita 18В 6.0Ач, на 100 гвоздей, идеально подходит для укладки напольных покрытий, стел"
+          - generic [ref=e3539]:
+            - heading "Аккумуляторный гвоздезабиватель Makita 18В 6.0Ач, на 100 гвоздей, идеально подходит для укладки напольных покрытий, стел" [level=3] [ref=e3540]
+            - generic [ref=e3541]:
+              - generic [ref=e3542]: 6 599 ₽
+              - generic [ref=e3543]: 14 664 ₽
+            - generic [ref=e3545]:
+              - img [ref=e3546]
+              - text: 189 человек смотрят сейчас
+            - generic [ref=e3550]:
+              - img [ref=e3551]
+              - text: Скидка действует ещё 45 часов
+            - generic [ref=e3554]:
+              - img [ref=e3555]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3557]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012433921320.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3558]
+              - text: На AliExpress →
+            - paragraph [ref=e3562]:
+              - img [ref=e3563]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3565]:
+              - img [ref=e3566]
+              - text: Поделиться
+        - generic [ref=e3569] [cursor=pointer]:
+          - generic [ref=e3570]: "-54%"
+          - button "В избранное" [ref=e3571]:
+            - img [ref=e3572]
+          - generic [ref=e3574]:
+            - img "Стабильная док-станция M.2 NVMe к PCIe X16 SFF-8611 Внешняя графическая док-станция M.2 Адаптер EGPU 128 Гбит/с K993G-F4"
+          - generic [ref=e3575]:
+            - heading "Стабильная док-станция M.2 NVMe к PCIe X16 SFF-8611 Внешняя графическая док-станция M.2 Адаптер EGPU 128 Гбит/с K993G-F4" [level=3] [ref=e3576]
+            - generic [ref=e3577]:
+              - generic [ref=e3578]: 6 230 ₽
+              - generic [ref=e3579]: 13 544 ₽
+            - generic [ref=e3581]:
+              - img [ref=e3582]
+              - text: 182 человек смотрят сейчас
+            - generic [ref=e3586]:
+              - img [ref=e3587]
+              - text: Скидка действует ещё 15 часов
+            - generic [ref=e3590]:
+              - img [ref=e3591]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3593]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010288328590.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3594]
+              - text: На AliExpress →
+            - paragraph [ref=e3598]:
+              - img [ref=e3599]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3601]:
+              - img [ref=e3602]
+              - text: Поделиться
+        - generic [ref=e3605] [cursor=pointer]:
+          - generic [ref=e3606]: "-54%"
+          - button "В избранное" [ref=e3607]:
+            - img [ref=e3608]
+          - generic [ref=e3610]:
+            - img "Стабильный корпус SSD M.2 40 Гбит/с Корпус M.2 NVMe USB4/USB3.2 Тип C Охлаждающий корпус SSD-диска 2280/2230 для Thunder"
+          - generic [ref=e3611]:
+            - heading "Стабильный корпус SSD M.2 40 Гбит/с Корпус M.2 NVMe USB4/USB3.2 Тип C Охлаждающий корпус SSD-диска 2280/2230 для Thunder" [level=3] [ref=e3612]
+            - generic [ref=e3613]:
+              - generic [ref=e3614]: 6 717 ₽
+              - generic [ref=e3615]: 14 602 ₽
+            - generic [ref=e3617]:
+              - img [ref=e3618]
+              - text: 43 человек смотрят сейчас
+            - generic [ref=e3622]:
+              - img [ref=e3623]
+              - text: Скидка действует ещё 32 часов
+            - generic [ref=e3626]:
+              - img [ref=e3627]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3629]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010288360372.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3630]
+              - text: На AliExpress →
+            - paragraph [ref=e3634]:
+              - img [ref=e3635]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3637]:
+              - img [ref=e3638]
+              - text: Поделиться
+        - generic [ref=e3641] [cursor=pointer]:
+          - generic [ref=e3642]: "-54%"
+          - button "В избранное" [ref=e3643]:
+            - img [ref=e3644]
+          - generic [ref=e3646]:
+            - img "Сменный аккумулятор для роботизированной газонокосилки 18 В, 4000 мАч-6000 мАч для Husqvarna Automower 330X 2013 для Aut"
+          - generic [ref=e3647]:
+            - heading "Сменный аккумулятор для роботизированной газонокосилки 18 В, 4000 мАч-6000 мАч для Husqvarna Automower 330X 2013 для Aut" [level=3] [ref=e3648]
+            - generic [ref=e3649]:
+              - generic [ref=e3650]: 6 697 ₽
+              - generic [ref=e3651]: 14 559 ₽
+            - generic [ref=e3653]:
+              - img [ref=e3654]
+              - text: 69 человек смотрят сейчас
+            - generic [ref=e3658]:
+              - img [ref=e3659]
+              - text: Скидка действует ещё 32 часов
+            - generic [ref=e3662]:
+              - img [ref=e3663]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3665]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010693069290.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3666]
+              - text: На AliExpress →
+            - paragraph [ref=e3670]:
+              - img [ref=e3671]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3673]:
+              - img [ref=e3674]
+              - text: Поделиться
+        - generic [ref=e3677] [cursor=pointer]:
+          - generic [ref=e3678]: "-53%"
+          - button "В избранное" [ref=e3679]:
+            - img [ref=e3680]
+          - generic [ref=e3682]:
+            - img "Контроллер солнечной воды SR258 без Wi-Fi и с функцией Wi-Fi и подключением к Tuya на выбор"
+          - generic [ref=e3683]:
+            - heading "Контроллер солнечной воды SR258 без Wi-Fi и с функцией Wi-Fi и подключением к Tuya на выбор" [level=3] [ref=e3684]
+            - generic [ref=e3685]:
+              - generic [ref=e3686]: 6 790 ₽
+              - generic [ref=e3687]: 14 447 ₽
+            - generic [ref=e3689]:
+              - img [ref=e3690]
+              - text: 167 человек смотрят сейчас
+            - generic [ref=e3694]:
+              - img [ref=e3695]
+              - text: Скидка действует ещё 40 часов
+            - generic [ref=e3698]:
+              - img [ref=e3699]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3701]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005005787670674.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3702]
+              - text: На AliExpress →
+            - paragraph [ref=e3706]:
+              - img [ref=e3707]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3709]:
+              - img [ref=e3710]
+              - text: Поделиться
+        - generic [ref=e3713] [cursor=pointer]:
+          - generic [ref=e3714]: "-53%"
+          - button "В избранное" [ref=e3715]:
+            - img [ref=e3716]
+          - generic [ref=e3718]:
+            - img "НОВЫЙ Бесщеточный электрический воздуходув 1200 Вт для аккумуляторов Makita/Dewalt/Milwaukee/Bosch/Ryobi 18 В – для убор"
+          - generic [ref=e3719]:
+            - heading "НОВЫЙ Бесщеточный электрический воздуходув 1200 Вт для аккумуляторов Makita/Dewalt/Milwaukee/Bosch/Ryobi 18 В – для убор" [level=3] [ref=e3720]
+            - generic [ref=e3721]:
+              - generic [ref=e3722]: 6 336 ₽
+              - generic [ref=e3723]: 13 481 ₽
+            - generic [ref=e3725]:
+              - img [ref=e3726]
+              - text: 189 человек смотрят сейчас
+            - generic [ref=e3730]:
+              - img [ref=e3731]
+              - text: Скидка действует ещё 18 часов
+            - generic [ref=e3734]:
+              - img [ref=e3735]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3737]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011575534253.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3738]
+              - text: На AliExpress →
+            - paragraph [ref=e3742]:
+              - img [ref=e3743]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3745]:
+              - img [ref=e3746]
+              - text: Поделиться
+        - generic [ref=e3749] [cursor=pointer]:
+          - generic [ref=e3750]: "-53%"
+          - button "В избранное" [ref=e3751]:
+            - img [ref=e3752]
+          - generic [ref=e3754]:
+            - img "Блок питания MS 1500W с цифровым дисплеем, регулируемый, 12В 13.8В 15В 24В 30В 36В 48В 60В 68В 72В 80В 150В 200В 220В 11"
+          - generic [ref=e3755]:
+            - heading "Блок питания MS 1500W с цифровым дисплеем, регулируемый, 12В 13.8В 15В 24В 30В 36В 48В 60В 68В 72В 80В 150В 200В 220В 11" [level=3] [ref=e3756]
+            - generic [ref=e3757]:
+              - generic [ref=e3758]: 6 966 ₽
+              - generic [ref=e3759]: 14 822 ₽
+            - generic [ref=e3761]:
+              - img [ref=e3762]
+              - text: 43 человек смотрят сейчас
+            - generic [ref=e3766]:
+              - img [ref=e3767]
+              - text: Скидка действует ещё 28 часов
+            - generic [ref=e3770]:
+              - img [ref=e3771]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3773]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010771020507.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3774]
+              - text: На AliExpress →
+            - paragraph [ref=e3778]:
+              - img [ref=e3779]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3781]:
+              - img [ref=e3782]
+              - text: Поделиться
+        - generic [ref=e3785] [cursor=pointer]:
+          - generic [ref=e3786]: "-53%"
+          - button "В избранное" [ref=e3787]:
+            - img [ref=e3788]
+          - generic [ref=e3790]:
+            - img "Зарядная станция DCB104 с 4 портами для быстрой зарядки литий-ионных аккумуляторов DeWalt 12V/20V/60V MAX Flex"
+          - generic [ref=e3791]:
+            - heading "Зарядная станция DCB104 с 4 портами для быстрой зарядки литий-ионных аккумуляторов DeWalt 12V/20V/60V MAX Flex" [level=3] [ref=e3792]
+            - generic [ref=e3793]:
+              - generic [ref=e3794]: 6 257 ₽
+              - generic [ref=e3795]: 13 312 ₽
+            - generic [ref=e3797]:
+              - img [ref=e3798]
+              - text: 48 человек смотрят сейчас
+            - generic [ref=e3802]:
+              - img [ref=e3803]
+              - text: Скидка действует ещё 42 часов
+            - generic [ref=e3806]:
+              - img [ref=e3807]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3809]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012184184974.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3810]
+              - text: На AliExpress →
+            - paragraph [ref=e3814]:
+              - img [ref=e3815]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3817]:
+              - img [ref=e3818]
+              - text: Поделиться
+        - generic [ref=e3821] [cursor=pointer]:
+          - generic [ref=e3822]: "-53%"
+          - button "В избранное" [ref=e3823]:
+            - img [ref=e3824]
+          - generic [ref=e3826]:
+            - img "Беспроводной турбовентилятор для аккумуляторов Makita/Dewalt/Milwaukee/Bosch/Ryobi 18В, воздуходувка для ухода за газоно"
+          - generic [ref=e3827]:
+            - heading "Беспроводной турбовентилятор для аккумуляторов Makita/Dewalt/Milwaukee/Bosch/Ryobi 18В, воздуходувка для ухода за газоно" [level=3] [ref=e3828]
+            - generic [ref=e3829]:
+              - generic [ref=e3830]: 6 146 ₽
+              - generic [ref=e3831]: 13 077 ₽
+            - generic [ref=e3833]:
+              - img [ref=e3834]
+              - text: 24 человек смотрят сейчас
+            - generic [ref=e3838]:
+              - img [ref=e3839]
+              - text: Скидка действует ещё 32 часов
+            - generic [ref=e3842]:
+              - img [ref=e3843]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3845]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010806157490.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3846]
+              - text: На AliExpress →
+            - paragraph [ref=e3850]:
+              - img [ref=e3851]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3853]:
+              - img [ref=e3854]
+              - text: Поделиться
+        - generic [ref=e3857] [cursor=pointer]:
+          - generic [ref=e3858]: "-53%"
+          - button "В избранное" [ref=e3859]:
+            - img [ref=e3860]
+          - generic [ref=e3862]:
+            - img "Аккумулятор для ноутбуков GNS-I60 6830 мАч для GIGABYTE P35G P35G V2 P35K P35W P35W V2 P35W-v3 P35X P35X V3 P37X P37X V5"
+          - generic [ref=e3863]:
+            - heading "Аккумулятор для ноутбуков GNS-I60 6830 мАч для GIGABYTE P35G P35G V2 P35K P35W P35W V2 P35W-v3 P35X P35X V3 P37X P37X V5" [level=3] [ref=e3864]
+            - generic [ref=e3865]:
+              - generic [ref=e3866]: 6 184 ₽
+              - generic [ref=e3867]: 13 281 ₽
+            - generic [ref=e3869]:
+              - img [ref=e3870]
+              - text: 178 человек смотрят сейчас
+            - generic [ref=e3874]:
+              - img [ref=e3875]
+              - text: Скидка действует ещё 22 часов
+            - generic [ref=e3878]:
+              - img [ref=e3879]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3881]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011615904528.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3882]
+              - text: На AliExpress →
+            - paragraph [ref=e3886]:
+              - img [ref=e3887]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3889]:
+              - img [ref=e3890]
+              - text: Поделиться
+        - generic [ref=e3893] [cursor=pointer]:
+          - generic [ref=e3894]: "-53%"
+          - button "В избранное" [ref=e3895]:
+            - img [ref=e3896]
+          - generic [ref=e3898]:
+            - img "Тормозной диск Cpl BE05A-1A/BMG05/1, высокоточный механический тормозной диск в сборе для промышленного оборудования"
+          - generic [ref=e3899]:
+            - heading "Тормозной диск Cpl BE05A-1A/BMG05/1, высокоточный механический тормозной диск в сборе для промышленного оборудования" [level=3] [ref=e3900]
+            - generic [ref=e3901]:
+              - generic [ref=e3902]: 6 389 ₽
+              - generic [ref=e3903]: 13 595 ₽
+            - generic [ref=e3905]:
+              - img [ref=e3906]
+              - text: 156 человек смотрят сейчас
+            - generic [ref=e3910]:
+              - img [ref=e3911]
+              - text: Скидка действует ещё 22 часов
+            - generic [ref=e3914]:
+              - img [ref=e3915]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3917]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011572794115.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3918]
+              - text: На AliExpress →
+            - paragraph [ref=e3922]:
+              - img [ref=e3923]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3925]:
+              - img [ref=e3926]
+              - text: Поделиться
+        - generic [ref=e3929] [cursor=pointer]:
+          - generic [ref=e3930]: "-52%"
+          - button "В избранное" [ref=e3931]:
+            - img [ref=e3932]
+          - generic [ref=e3934]:
+            - img "SOECOPO 600 Вт Бесплатный контроллер 100 А Набор солнечных панелей 3*200 Вт Портативные фотоэлектрические панели USB 5 В"
+          - generic [ref=e3935]:
+            - heading "SOECOPO 600 Вт Бесплатный контроллер 100 А Набор солнечных панелей 3*200 Вт Портативные фотоэлектрические панели USB 5 В" [level=3] [ref=e3936]
+            - generic [ref=e3937]:
+              - generic [ref=e3938]: 6 164 ₽
+              - generic [ref=e3939]: 12 710 ₽
+            - generic [ref=e3941]:
+              - img [ref=e3942]
+              - text: 137 человек смотрят сейчас
+            - generic [ref=e3946]:
+              - img [ref=e3947]
+              - text: Скидка действует ещё 23 часов
+            - generic [ref=e3950]:
+              - img [ref=e3951]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3953]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009985042514.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3954]
+              - text: На AliExpress →
+            - paragraph [ref=e3958]:
+              - img [ref=e3959]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3961]:
+              - img [ref=e3962]
+              - text: Поделиться
+        - generic [ref=e3965] [cursor=pointer]:
+          - generic [ref=e3966]: "-52%"
+          - button "В избранное" [ref=e3967]:
+            - img [ref=e3968]
+          - generic [ref=e3970]:
+            - img "Бесщеточная аккумуляторная ударная дрель-шуруповерт BOSCH GSB 185-LI 18В, многофункциональный электроинструмент GSB185-L"
+          - generic [ref=e3971]:
+            - heading "Бесщеточная аккумуляторная ударная дрель-шуруповерт BOSCH GSB 185-LI 18В, многофункциональный электроинструмент GSB185-L" [level=3] [ref=e3972]
+            - generic [ref=e3973]:
+              - generic [ref=e3974]: 6 699 ₽
+              - generic [ref=e3975]: 13 956 ₽
+            - generic [ref=e3977]:
+              - img [ref=e3978]
+              - text: 82 человек смотрят сейчас
+            - generic [ref=e3982]:
+              - img [ref=e3983]
+              - text: Скидка действует ещё 33 часов
+            - generic [ref=e3986]:
+              - img [ref=e3987]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e3989]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012316367822.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e3990]
+              - text: На AliExpress →
+            - paragraph [ref=e3994]:
+              - img [ref=e3995]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e3997]:
+              - img [ref=e3998]
+              - text: Поделиться
+        - generic [ref=e4001] [cursor=pointer]:
+          - generic [ref=e4002]: "-52%"
+          - button "В избранное" [ref=e4003]:
+            - img [ref=e4004]
+          - generic [ref=e4006]:
+            - img "11,1 В 10000 мАч RTK Аккумулятор Stick Rod Bar BL10000 Внешний аккумулятор для SPS GPS GNSS-приемника (7-контактный для"
+          - generic [ref=e4007]:
+            - heading "11,1 В 10000 мАч RTK Аккумулятор Stick Rod Bar BL10000 Внешний аккумулятор для SPS GPS GNSS-приемника (7-контактный для" [level=3] [ref=e4008]
+            - generic [ref=e4009]:
+              - generic [ref=e4010]: 7 160 ₽
+              - generic [ref=e4011]: 14 916 ₽
+            - generic [ref=e4013]:
+              - img [ref=e4014]
+              - text: 106 человек смотрят сейчас
+            - generic [ref=e4018]:
+              - img [ref=e4019]
+              - text: Скидка действует ещё 35 часов
+            - generic [ref=e4022]:
+              - img [ref=e4023]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4025]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005008834276760.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4026]
+              - text: На AliExpress →
+            - paragraph [ref=e4030]:
+              - img [ref=e4031]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4033]:
+              - img [ref=e4034]
+              - text: Поделиться
+        - generic [ref=e4037] [cursor=pointer]:
+          - generic [ref=e4038]: "-52%"
+          - button "В избранное" [ref=e4039]:
+            - img [ref=e4040]
+          - generic [ref=e4042]:
+            - img "Универсальная сменная литиевая аккумуляторная батарея 1580 мАч с высокой емкостью для цифровых устройств, б/у"
+          - generic [ref=e4043]:
+            - heading "Универсальная сменная литиевая аккумуляторная батарея 1580 мАч с высокой емкостью для цифровых устройств, б/у" [level=3] [ref=e4044]
+            - generic [ref=e4045]:
+              - generic [ref=e4046]: 7 147 ₽
+              - generic [ref=e4047]: 14 889 ₽
+            - generic [ref=e4049]:
+              - img [ref=e4050]
+              - text: 105 человек смотрят сейчас
+            - generic [ref=e4054]:
+              - img [ref=e4055]
+              - text: Скидка действует ещё 29 часов
+            - generic [ref=e4058]:
+              - img [ref=e4059]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4061]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010631518735.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4062]
+              - text: На AliExpress →
+            - paragraph [ref=e4066]:
+              - img [ref=e4067]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4069]:
+              - img [ref=e4070]
+              - text: Поделиться
+        - generic [ref=e4073] [cursor=pointer]:
+          - generic [ref=e4074]: "-51%"
+          - button "В избранное" [ref=e4075]:
+            - img [ref=e4076]
+          - generic [ref=e4078]:
+            - img "LJL SMS GSM 4G LTE 8-канальное реле ВКЛ/ВЫКЛ для управления двигателем открывания ворот SM8-WLTE APP Пульт дистанционног"
+          - generic [ref=e4079]:
+            - heading "LJL SMS GSM 4G LTE 8-канальное реле ВКЛ/ВЫКЛ для управления двигателем открывания ворот SM8-WLTE APP Пульт дистанционног" [level=3] [ref=e4080]
+            - generic [ref=e4081]:
+              - generic [ref=e4082]: 6 761 ₽
+              - generic [ref=e4083]: 13 798 ₽
+            - generic [ref=e4085]:
+              - img [ref=e4086]
+              - text: 161 человек смотрят сейчас
+            - generic [ref=e4090]:
+              - img [ref=e4091]
+              - text: Скидка действует ещё 30 часов
+            - generic [ref=e4094]:
+              - img [ref=e4095]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4097]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009199533065.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4098]
+              - text: На AliExpress →
+            - paragraph [ref=e4102]:
+              - img [ref=e4103]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4105]:
+              - img [ref=e4106]
+              - text: Поделиться
+        - generic [ref=e4109] [cursor=pointer]:
+          - generic [ref=e4110]: "-51%"
+          - button "В избранное" [ref=e4111]:
+            - img [ref=e4112]
+          - generic [ref=e4114]:
+            - img "SOECOPO 1200 Вт Портативный комплект солнечных панелей 2*600 Вт (12 В-18 В) Солнечные панели Бесплатный контроллер 100 А"
+          - generic [ref=e4115]:
+            - heading "SOECOPO 1200 Вт Портативный комплект солнечных панелей 2*600 Вт (12 В-18 В) Солнечные панели Бесплатный контроллер 100 А" [level=3] [ref=e4116]
+            - generic [ref=e4117]:
+              - generic [ref=e4118]: 6 303 ₽
+              - generic [ref=e4119]: 12 995 ₽
+            - generic [ref=e4121]:
+              - img [ref=e4122]
+              - text: 141 человек смотрят сейчас
+            - generic [ref=e4126]:
+              - img [ref=e4127]
+              - text: Скидка действует ещё 28 часов
+            - generic [ref=e4130]:
+              - img [ref=e4131]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4133]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009919684366.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4134]
+              - text: На AliExpress →
+            - paragraph [ref=e4138]:
+              - img [ref=e4139]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4141]:
+              - img [ref=e4142]
+              - text: Поделиться
+        - generic [ref=e4145] [cursor=pointer]:
+          - generic [ref=e4146]: "-51%"
+          - button "В избранное" [ref=e4147]:
+            - img [ref=e4148]
+          - generic [ref=e4150]:
+            - img "VICTOR Mini DC Регулируемый источник питания 160 В/20 А/300 Вт с несколькими функциями защиты Программируемые инструмент"
+          - generic [ref=e4151]:
+            - heading "VICTOR Mini DC Регулируемый источник питания 160 В/20 А/300 Вт с несколькими функциями защиты Программируемые инструмент" [level=3] [ref=e4152]
+            - generic [ref=e4153]:
+              - generic [ref=e4154]: 6 209 ₽
+              - generic [ref=e4155]: 12 671 ₽
+            - generic [ref=e4157]:
+              - img [ref=e4158]
+              - text: 123 человек смотрят сейчас
+            - generic [ref=e4162]:
+              - img [ref=e4163]
+              - text: Скидка действует ещё 18 часов
+            - generic [ref=e4166]:
+              - img [ref=e4167]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4169]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010635326540.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4170]
+              - text: На AliExpress →
+            - paragraph [ref=e4174]:
+              - img [ref=e4175]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4177]:
+              - img [ref=e4178]
+              - text: Поделиться
+        - generic [ref=e4181] [cursor=pointer]:
+          - generic [ref=e4182]: "-51%"
+          - button "В избранное" [ref=e4183]:
+            - img [ref=e4184]
+          - generic [ref=e4186]:
+            - img "Держатель для кофейного порошка 51/54/58 мм с стуком, двухслойный деревянный распределитель, универсальный портафильтр и"
+          - generic [ref=e4187]:
+            - heading "Держатель для кофейного порошка 51/54/58 мм с стуком, двухслойный деревянный распределитель, универсальный портафильтр и" [level=3] [ref=e4188]
+            - generic [ref=e4189]:
+              - generic [ref=e4190]: 6 420 ₽
+              - generic [ref=e4191]: 13 103 ₽
+            - generic [ref=e4193]:
+              - img [ref=e4194]
+              - text: 157 человек смотрят сейчас
+            - generic [ref=e4198]:
+              - img [ref=e4199]
+              - text: Скидка действует ещё 13 часов
+            - generic [ref=e4202]:
+              - img [ref=e4203]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4205]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009401355735.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4206]
+              - text: На AliExpress →
+            - paragraph [ref=e4210]:
+              - img [ref=e4211]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4213]:
+              - img [ref=e4214]
+              - text: Поделиться
+        - generic [ref=e4217] [cursor=pointer]:
+          - generic [ref=e4218]: "-50%"
+          - button "В избранное" [ref=e4219]:
+            - img [ref=e4220]
+          - generic [ref=e4222]:
+            - img "Комплект стартера 2 кВт 3 кВт Коробка для ключей GX160 Комплект для сборки электрического запуска Электрический большой"
+          - generic [ref=e4223]:
+            - heading "Комплект стартера 2 кВт 3 кВт Коробка для ключей GX160 Комплект для сборки электрического запуска Электрический большой" [level=3] [ref=e4224]
+            - generic [ref=e4225]:
+              - generic [ref=e4226]: 6 214 ₽
+              - generic [ref=e4227]: 12 429 ₽
+            - generic [ref=e4229]:
+              - img [ref=e4230]
+              - text: 51 человек смотрят сейчас
+            - generic [ref=e4234]:
+              - img [ref=e4235]
+              - text: Скидка действует ещё 35 часов
+            - generic [ref=e4238]:
+              - img [ref=e4239]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4241]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010414855590.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4242]
+              - text: На AliExpress →
+            - paragraph [ref=e4246]:
+              - img [ref=e4247]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4249]:
+              - img [ref=e4250]
+              - text: Поделиться
+        - generic [ref=e4253] [cursor=pointer]:
+          - generic [ref=e4254]: "-50%"
+          - button "В избранное" [ref=e4255]:
+            - img [ref=e4256]
+          - generic [ref=e4258]:
+            - img "Портативный электрический подогреваемый ланч-бокс 1,6 л с USB-подогревом, термоизолированный, для кемпинга, перезаряжаем"
+          - generic [ref=e4259]:
+            - heading "Портативный электрический подогреваемый ланч-бокс 1,6 л с USB-подогревом, термоизолированный, для кемпинга, перезаряжаем" [level=3] [ref=e4260]
+            - generic [ref=e4262]: боксерские
+            - generic [ref=e4263]:
+              - generic [ref=e4264]: 6 826 ₽
+              - generic [ref=e4265]: 13 651 ₽
+            - generic [ref=e4267]:
+              - img [ref=e4268]
+              - text: 90 человек смотрят сейчас
+            - generic [ref=e4272]:
+              - img [ref=e4273]
+              - text: Скидка действует ещё 23 часов
+            - generic [ref=e4276]:
+              - img [ref=e4277]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4279]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011601283784.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4280]
+              - text: На AliExpress →
+            - paragraph [ref=e4284]:
+              - img [ref=e4285]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4287]:
+              - img [ref=e4288]
+              - text: Поделиться
+        - generic [ref=e4291] [cursor=pointer]:
+          - generic [ref=e4292]: "-50%"
+          - button "В избранное" [ref=e4293]:
+            - img [ref=e4294]
+          - generic [ref=e4296]:
+            - img "Щеточный двигатель для инвалидных колясок для Unite Brush Motor, металлический электрический щеточный двигатель для инва"
+          - generic [ref=e4297]:
+            - heading "Щеточный двигатель для инвалидных колясок для Unite Brush Motor, металлический электрический щеточный двигатель для инва" [level=3] [ref=e4298]
+            - generic [ref=e4299]:
+              - generic [ref=e4300]: 6 294 ₽
+              - generic [ref=e4301]: 12 587 ₽
+            - generic [ref=e4303]:
+              - img [ref=e4304]
+              - text: 77 человек смотрят сейчас
+            - generic [ref=e4308]:
+              - img [ref=e4309]
+              - text: Скидка действует ещё 36 часов
+            - generic [ref=e4312]:
+              - img [ref=e4313]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4315]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009692069088.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4316]
+              - text: На AliExpress →
+            - paragraph [ref=e4320]:
+              - img [ref=e4321]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4323]:
+              - img [ref=e4324]
+              - text: Поделиться
+        - generic [ref=e4327] [cursor=pointer]:
+          - generic [ref=e4328]: "-50%"
+          - button "В избранное" [ref=e4329]:
+            - img [ref=e4330]
+          - generic [ref=e4332]:
+            - img "Система солнечных панелей от 12 В до 110 В/220 В, 600WS, солнечная панель, контроллер заряда батареи, 6000 Вт, комплект"
+          - generic [ref=e4333]:
+            - heading "Система солнечных панелей от 12 В до 110 В/220 В, 600WS, солнечная панель, контроллер заряда батареи, 6000 Вт, комплект" [level=3] [ref=e4334]
+            - generic [ref=e4335]:
+              - generic [ref=e4336]: 6 134 ₽
+              - generic [ref=e4337]: 12 268 ₽
+            - generic [ref=e4339]:
+              - img [ref=e4340]
+              - text: 27 человек смотрят сейчас
+            - generic [ref=e4344]:
+              - img [ref=e4345]
+              - text: Скидка действует ещё 29 часов
+            - generic [ref=e4348]:
+              - img [ref=e4349]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4351]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009733441466.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4352]
+              - text: На AliExpress →
+            - paragraph [ref=e4356]:
+              - img [ref=e4357]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4359]:
+              - img [ref=e4360]
+              - text: Поделиться
+        - generic [ref=e4363] [cursor=pointer]:
+          - generic [ref=e4364]: "-50%"
+          - button "В избранное" [ref=e4365]:
+            - img [ref=e4366]
+          - generic [ref=e4368]:
+            - img "Сменный аккумулятор емкостью 2500 мАч для ручного пылесоса Tineco Pure One S11 11-02, литий-ионный аккумулятор 21,2 В"
+          - generic [ref=e4369]:
+            - heading "Сменный аккумулятор емкостью 2500 мАч для ручного пылесоса Tineco Pure One S11 11-02, литий-ионный аккумулятор 21,2 В" [level=3] [ref=e4370]
+            - generic [ref=e4371]:
+              - generic [ref=e4372]: 6 419 ₽
+              - generic [ref=e4373]: 12 837 ₽
+            - generic [ref=e4375]:
+              - img [ref=e4376]
+              - text: 27 человек смотрят сейчас
+            - generic [ref=e4380]:
+              - img [ref=e4381]
+              - text: Скидка действует ещё 36 часов
+            - generic [ref=e4384]:
+              - img [ref=e4385]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4387]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010692789887.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4388]
+              - text: На AliExpress →
+            - paragraph [ref=e4392]:
+              - img [ref=e4393]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4395]:
+              - img [ref=e4396]
+              - text: Поделиться
+        - generic [ref=e4399] [cursor=pointer]:
+          - generic [ref=e4400]: "-50%"
+          - button "В избранное" [ref=e4401]:
+            - img [ref=e4402]
+          - generic [ref=e4404]:
+            - img "Инвертор с чистой синусоидой 1600W 2000W, преобразователь напряжения DC12V 24V в AC110V 220V, ЖК-дисплей, универсальная"
+          - generic [ref=e4405]:
+            - heading "Инвертор с чистой синусоидой 1600W 2000W, преобразователь напряжения DC12V 24V в AC110V 220V, ЖК-дисплей, универсальная" [level=3] [ref=e4406]
+            - generic [ref=e4407]:
+              - generic [ref=e4408]: 6 347 ₽
+              - generic [ref=e4409]: 12 694 ₽
+            - generic [ref=e4411]:
+              - img [ref=e4412]
+              - text: 96 человек смотрят сейчас
+            - generic [ref=e4416]:
+              - img [ref=e4417]
+              - text: Скидка действует ещё 22 часов
+            - generic [ref=e4420]:
+              - img [ref=e4421]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4423]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012287068353.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4424]
+              - text: На AliExpress →
+            - paragraph [ref=e4428]:
+              - img [ref=e4429]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4431]:
+              - img [ref=e4432]
+              - text: Поделиться
+        - generic [ref=e4435] [cursor=pointer]:
+          - generic [ref=e4436]: "-50%"
+          - button "В избранное" [ref=e4437]:
+            - img [ref=e4438]
+          - generic [ref=e4440]:
+            - img "Бесщеточный электрический шуруповерт, электрическая дрель, ударная дрель, комбинированный набор для аккумулятора DEWALT"
+          - generic [ref=e4441]:
+            - heading "Бесщеточный электрический шуруповерт, электрическая дрель, ударная дрель, комбинированный набор для аккумулятора DEWALT" [level=3] [ref=e4442]
+            - generic [ref=e4443]:
+              - generic [ref=e4444]: 6 842 ₽
+              - generic [ref=e4445]: 13 685 ₽
+            - generic [ref=e4447]:
+              - img [ref=e4448]
+              - text: 51 человек смотрят сейчас
+            - generic [ref=e4452]:
+              - img [ref=e4453]
+              - text: Скидка действует ещё 12 часов
+            - generic [ref=e4456]:
+              - img [ref=e4457]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4459]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012148088411.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4460]
+              - text: На AliExpress →
+            - paragraph [ref=e4464]:
+              - img [ref=e4465]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4467]:
+              - img [ref=e4468]
+              - text: Поделиться
+        - generic [ref=e4471] [cursor=pointer]:
+          - generic [ref=e4472]: "-50%"
+          - button "В избранное" [ref=e4473]:
+            - img [ref=e4474]
+          - generic [ref=e4476]:
+            - img "Система электрообслуживания и мониторинга ABB CM-MSS.23S для промышленного оборудования обеспечивает диагностику в реаль"
+          - generic [ref=e4477]:
+            - heading "Система электрообслуживания и мониторинга ABB CM-MSS.23S для промышленного оборудования обеспечивает диагностику в реаль" [level=3] [ref=e4478]
+            - generic [ref=e4479]:
+              - generic [ref=e4480]: 6 870 ₽
+              - generic [ref=e4481]: 13 741 ₽
+            - generic [ref=e4483]:
+              - img [ref=e4484]
+              - text: 144 человек смотрят сейчас
+            - generic [ref=e4488]:
+              - img [ref=e4489]
+              - text: Скидка действует ещё 33 часов
+            - generic [ref=e4492]:
+              - img [ref=e4493]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4495]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010341516100.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4496]
+              - text: На AliExpress →
+            - paragraph [ref=e4500]:
+              - img [ref=e4501]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4503]:
+              - img [ref=e4504]
+              - text: Поделиться
+        - generic [ref=e4507] [cursor=pointer]:
+          - generic [ref=e4508]: "-50%"
+          - button "В избранное" [ref=e4509]:
+            - img [ref=e4510]
+          - generic [ref=e4512]:
+            - img "Складная портативная солнечная панель мощностью 1000 Вт, водонепроницаемое солнечное зарядное устройство IP65 с импортны"
+          - generic [ref=e4513]:
+            - heading "Складная портативная солнечная панель мощностью 1000 Вт, водонепроницаемое солнечное зарядное устройство IP65 с импортны" [level=3] [ref=e4514]
+            - generic [ref=e4515]:
+              - generic [ref=e4516]: 7 148 ₽
+              - generic [ref=e4517]: 14 296 ₽
+            - generic [ref=e4519]:
+              - img [ref=e4520]
+              - text: 107 человек смотрят сейчас
+            - generic [ref=e4524]:
+              - img [ref=e4525]
+              - text: Скидка действует ещё 44 часов
+            - generic [ref=e4528]:
+              - img [ref=e4529]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4531]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012308733244.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4532]
+              - text: На AliExpress →
+            - paragraph [ref=e4536]:
+              - img [ref=e4537]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4539]:
+              - img [ref=e4540]
+              - text: Поделиться
+        - generic [ref=e4543] [cursor=pointer]:
+          - generic [ref=e4544]: "-50%"
+          - button "В избранное" [ref=e4545]:
+            - img [ref=e4546]
+          - generic [ref=e4548]:
+            - img "Блок питания KUAIQU 30В 10А постоянного тока, регулируемый, с регулировкой напряжения и тока, с энкодерной ручкой, преду"
+          - generic [ref=e4549]:
+            - heading "Блок питания KUAIQU 30В 10А постоянного тока, регулируемый, с регулировкой напряжения и тока, с энкодерной ручкой, преду" [level=3] [ref=e4550]
+            - generic [ref=e4551]:
+              - generic [ref=e4552]: 6 769 ₽
+              - generic [ref=e4553]: 13 538 ₽
+            - generic [ref=e4555]:
+              - img [ref=e4556]
+              - text: 90 человек смотрят сейчас
+            - generic [ref=e4560]:
+              - img [ref=e4561]
+              - text: Скидка действует ещё 13 часов
+            - generic [ref=e4564]:
+              - img [ref=e4565]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4567]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011817221562.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4568]
+              - text: На AliExpress →
+            - paragraph [ref=e4572]:
+              - img [ref=e4573]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4575]:
+              - img [ref=e4576]
+              - text: Поделиться
+        - generic [ref=e4579] [cursor=pointer]:
+          - generic [ref=e4580]: "-50%"
+          - button "В избранное" [ref=e4581]:
+            - img [ref=e4582]
+          - generic [ref=e4584]:
+            - img "Зарядное устройство для литий-ионных аккумуляторов с 4 портами зарядки, ток зарядки 3А, для Dewalt 14.4V 18V 20V DCB140"
+          - generic [ref=e4585]:
+            - heading "Зарядное устройство для литий-ионных аккумуляторов с 4 портами зарядки, ток зарядки 3А, для Dewalt 14.4V 18V 20V DCB140" [level=3] [ref=e4586]
+            - generic [ref=e4587]:
+              - generic [ref=e4588]: 6 782 ₽
+              - generic [ref=e4589]: 13 564 ₽
+            - generic [ref=e4591]:
+              - img [ref=e4592]
+              - text: 18 человек смотрят сейчас
+            - generic [ref=e4596]:
+              - img [ref=e4597]
+              - text: Скидка действует ещё 15 часов
+            - generic [ref=e4600]:
+              - img [ref=e4601]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4603]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012402864456.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4604]
+              - text: На AliExpress →
+            - paragraph [ref=e4608]:
+              - img [ref=e4609]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4611]:
+              - img [ref=e4612]
+              - text: Поделиться
+        - generic [ref=e4615] [cursor=pointer]:
+          - generic [ref=e4616]: "-50%"
+          - button "В избранное" [ref=e4617]:
+            - img [ref=e4618]
+          - generic [ref=e4620]:
+            - img "Новейшая светодиодная рабочая лампа для Makita, Ryobi, Black&Decker, DeWalt, питание от литий-ионных аккумуляторов 18В 2"
+          - generic [ref=e4621]:
+            - heading "Новейшая светодиодная рабочая лампа для Makita, Ryobi, Black&Decker, DeWalt, питание от литий-ионных аккумуляторов 18В 2" [level=3] [ref=e4622]
+            - generic [ref=e4623]:
+              - generic [ref=e4624]: 6 197 ₽
+              - generic [ref=e4625]: 12 395 ₽
+            - generic [ref=e4627]:
+              - img [ref=e4628]
+              - text: 150 человек смотрят сейчас
+            - generic [ref=e4632]:
+              - img [ref=e4633]
+              - text: Скидка действует ещё 18 часов
+            - generic [ref=e4636]:
+              - img [ref=e4637]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4639]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011741735614.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4640]
+              - text: На AliExpress →
+            - paragraph [ref=e4644]:
+              - img [ref=e4645]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4647]:
+              - img [ref=e4648]
+              - text: Поделиться
+        - generic [ref=e4651] [cursor=pointer]:
+          - generic [ref=e4652]: "-50%"
+          - button "В избранное" [ref=e4653]:
+            - img [ref=e4654]
+          - generic [ref=e4656]:
+            - img "Аккумулятор для пылесоса 21.6V для Samsung DJ96-00193B PowerBot R7040 R1AM7010UW VR1AM7040W9 VR1AM7010U5 VR1AM7040WG VCA"
+          - generic [ref=e4657]:
+            - heading "Аккумулятор для пылесоса 21.6V для Samsung DJ96-00193B PowerBot R7040 R1AM7010UW VR1AM7040W9 VR1AM7010U5 VR1AM7040WG VCA" [level=3] [ref=e4658]
+            - generic [ref=e4659]:
+              - generic [ref=e4660]: 7 100 ₽
+              - generic [ref=e4661]: 14 200 ₽
+            - generic [ref=e4663]:
+              - img [ref=e4664]
+              - text: 154 человек смотрят сейчас
+            - generic [ref=e4668]:
+              - img [ref=e4669]
+              - text: Скидка действует ещё 34 часов
+            - generic [ref=e4672]:
+              - img [ref=e4673]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4675]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011844005678.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4676]
+              - text: На AliExpress →
+            - paragraph [ref=e4680]:
+              - img [ref=e4681]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4683]:
+              - img [ref=e4684]
+              - text: Поделиться
+        - generic [ref=e4687] [cursor=pointer]:
+          - generic [ref=e4688]: "-50%"
+          - button "В избранное" [ref=e4689]:
+            - img [ref=e4690]
+          - generic [ref=e4692]:
+            - img "Замена зарядного устройства для аккумулятора Dewalt DCB104, совместимого с многофункциональной зарядной станцией Dewalt"
+          - generic [ref=e4693]:
+            - heading "Замена зарядного устройства для аккумулятора Dewalt DCB104, совместимого с многофункциональной зарядной станцией Dewalt" [level=3] [ref=e4694]
+            - generic [ref=e4695]:
+              - generic [ref=e4696]: 6 627 ₽
+              - generic [ref=e4697]: 13 253 ₽
+            - generic [ref=e4699]:
+              - img [ref=e4700]
+              - text: 15 человек смотрят сейчас
+            - generic [ref=e4704]:
+              - img [ref=e4705]
+              - text: Скидка действует ещё 33 часов
+            - generic [ref=e4708]:
+              - img [ref=e4709]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4711]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005008811618032.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4712]
+              - text: На AliExpress →
+            - paragraph [ref=e4716]:
+              - img [ref=e4717]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4719]:
+              - img [ref=e4720]
+              - text: Поделиться
+        - generic [ref=e4723] [cursor=pointer]:
+          - generic [ref=e4724]: "-50%"
+          - button "В избранное" [ref=e4725]:
+            - img [ref=e4726]
+          - generic [ref=e4728]:
+            - img "Светодиодный рабочий фонарь для Makita BL1830 BL1840, для Ryobi P108, для DeWalt DCB200, для Black&Decker LBXR20, 18В 20"
+          - generic [ref=e4729]:
+            - heading "Светодиодный рабочий фонарь для Makita BL1830 BL1840, для Ryobi P108, для DeWalt DCB200, для Black&Decker LBXR20, 18В 20" [level=3] [ref=e4730]
+            - generic [ref=e4731]:
+              - generic [ref=e4732]: 6 526 ₽
+              - generic [ref=e4733]: 13 053 ₽
+            - generic [ref=e4735]:
+              - img [ref=e4736]
+              - text: 160 человек смотрят сейчас
+            - generic [ref=e4740]:
+              - img [ref=e4741]
+              - text: Скидка действует ещё 24 часов
+            - generic [ref=e4744]:
+              - img [ref=e4745]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4747]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012132180085.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4748]
+              - text: На AliExpress →
+            - paragraph [ref=e4752]:
+              - img [ref=e4753]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4755]:
+              - img [ref=e4756]
+              - text: Поделиться
+        - generic [ref=e4759] [cursor=pointer]:
+          - generic [ref=e4760]: "-50%"
+          - button "В избранное" [ref=e4761]:
+            - img [ref=e4762]
+          - generic [ref=e4764]:
+            - img "Зарядное устройство для литий-ионного аккумулятора Rapid Optimum, 4 порта, 3 А, ток зарядки для Dewalt 14,4 В, 18 В, 20"
+          - generic [ref=e4765]:
+            - heading "Зарядное устройство для литий-ионного аккумулятора Rapid Optimum, 4 порта, 3 А, ток зарядки для Dewalt 14,4 В, 18 В, 20" [level=3] [ref=e4766]
+            - generic [ref=e4767]:
+              - generic [ref=e4768]: 6 821 ₽
+              - generic [ref=e4769]: 13 642 ₽
+            - generic [ref=e4771]:
+              - img [ref=e4772]
+              - text: 26 человек смотрят сейчас
+            - generic [ref=e4776]:
+              - img [ref=e4777]
+              - text: Скидка действует ещё 24 часов
+            - generic [ref=e4780]:
+              - img [ref=e4781]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4783]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010526790538.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4784]
+              - text: На AliExpress →
+            - paragraph [ref=e4788]:
+              - img [ref=e4789]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4791]:
+              - img [ref=e4792]
+              - text: Поделиться
+        - generic [ref=e4795] [cursor=pointer]:
+          - generic [ref=e4796]: "-50%"
+          - button "В избранное" [ref=e4797]:
+            - img [ref=e4798]
+          - generic [ref=e4800]:
+            - img "4-портовая станция быстрой зарядки для нескольких аккумуляторов, совместимая с батареями Makita 14.4/18V, для электроинс"
+          - generic [ref=e4801]:
+            - heading "4-портовая станция быстрой зарядки для нескольких аккумуляторов, совместимая с батареями Makita 14.4/18V, для электроинс" [level=3] [ref=e4802]
+            - generic [ref=e4803]:
+              - generic [ref=e4804]: 6 723 ₽
+              - generic [ref=e4805]: 13 445 ₽
+            - generic [ref=e4807]:
+              - img [ref=e4808]
+              - text: 45 человек смотрят сейчас
+            - generic [ref=e4812]:
+              - img [ref=e4813]
+              - text: Скидка действует ещё 32 часов
+            - generic [ref=e4816]:
+              - img [ref=e4817]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4819]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011713004919.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4820]
+              - text: На AliExpress →
+            - paragraph [ref=e4824]:
+              - img [ref=e4825]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4827]:
+              - img [ref=e4828]
+              - text: Поделиться
+        - generic [ref=e4831] [cursor=pointer]:
+          - generic [ref=e4832]: "-50%"
+          - button "В избранное" [ref=e4833]:
+            - img [ref=e4834]
+          - generic [ref=e4836]:
+            - img "Электрический разбрасыватель удобрений для семян, 21 В, аккумуляторный разбрасыватель для плавления семян травы, 3,3 л"
+          - generic [ref=e4837]:
+            - heading "Электрический разбрасыватель удобрений для семян, 21 В, аккумуляторный разбрасыватель для плавления семян травы, 3,3 л" [level=3] [ref=e4838]
+            - generic [ref=e4839]:
+              - generic [ref=e4840]: 6 586 ₽
+              - generic [ref=e4841]: 13 170 ₽
+            - generic [ref=e4843]:
+              - img [ref=e4844]
+              - text: 73 человек смотрят сейчас
+            - generic [ref=e4848]:
+              - img [ref=e4849]
+              - text: Скидка действует ещё 38 часов
+            - generic [ref=e4852]:
+              - img [ref=e4853]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4855]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010415898699.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4856]
+              - text: На AliExpress →
+            - paragraph [ref=e4860]:
+              - img [ref=e4861]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4863]:
+              - img [ref=e4864]
+              - text: Поделиться
+        - generic [ref=e4867] [cursor=pointer]:
+          - generic [ref=e4868]: "-50%"
+          - button "В избранное" [ref=e4869]:
+            - img [ref=e4870]
+          - generic [ref=e4872]:
+            - img "Зарядное устройство для аккумуляторов Makita 14,4–18 В LXT, литий-ионное, 4-портовое, быстрое зарядное устройство с двум"
+          - generic [ref=e4873]:
+            - heading "Зарядное устройство для аккумуляторов Makita 14,4–18 В LXT, литий-ионное, 4-портовое, быстрое зарядное устройство с двум" [level=3] [ref=e4874]
+            - generic [ref=e4875]:
+              - generic [ref=e4876]: 6 397 ₽
+              - generic [ref=e4877]: 12 793 ₽
+            - generic [ref=e4879]:
+              - img [ref=e4880]
+              - text: 151 человек смотрят сейчас
+            - generic [ref=e4884]:
+              - img [ref=e4885]
+              - text: Скидка действует ещё 32 часов
+            - generic [ref=e4888]:
+              - img [ref=e4889]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4891]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012011005690.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4892]
+              - text: На AliExpress →
+            - paragraph [ref=e4896]:
+              - img [ref=e4897]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4899]:
+              - img [ref=e4900]
+              - text: Поделиться
+        - generic [ref=e4903] [cursor=pointer]:
+          - generic [ref=e4904]: "-50%"
+          - button "В избранное" [ref=e4905]:
+            - img [ref=e4906]
+          - generic [ref=e4908]:
+            - img "Высокое качество, новинка 121300 Аккумулятор для сборника данных Trimble TSC7 Spectra Ranger 7 822-702-7600"
+          - generic [ref=e4909]:
+            - heading "Высокое качество, новинка 121300 Аккумулятор для сборника данных Trimble TSC7 Spectra Ranger 7 822-702-7600" [level=3] [ref=e4910]
+            - generic [ref=e4911]:
+              - generic [ref=e4912]: 7 168 ₽
+              - generic [ref=e4913]: 14 335 ₽
+            - generic [ref=e4915]:
+              - img [ref=e4916]
+              - text: 197 человек смотрят сейчас
+            - generic [ref=e4920]:
+              - img [ref=e4921]
+              - text: Скидка действует ещё 32 часов
+            - generic [ref=e4924]:
+              - img [ref=e4925]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4927]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005007922178291.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4928]
+              - text: На AliExpress →
+            - paragraph [ref=e4932]:
+              - img [ref=e4933]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4935]:
+              - img [ref=e4936]
+              - text: Поделиться
+        - generic [ref=e4939] [cursor=pointer]:
+          - generic [ref=e4940]: "-50%"
+          - button "В избранное" [ref=e4941]:
+            - img [ref=e4942]
+          - generic [ref=e4944]:
+            - img "Оригинальный аккумулятор Makita BL1860 6 Ач, 18 В, Li-ion, для электроинструментов, замена LXT BL1850 BL1840, для шурупо"
+          - generic [ref=e4945]:
+            - heading "Оригинальный аккумулятор Makita BL1860 6 Ач, 18 В, Li-ion, для электроинструментов, замена LXT BL1850 BL1840, для шурупо" [level=3] [ref=e4946]
+            - generic [ref=e4947]:
+              - generic [ref=e4948]: 6 717 ₽
+              - generic [ref=e4949]: 13 433 ₽
+            - generic [ref=e4951]:
+              - img [ref=e4952]
+              - text: 50 человек смотрят сейчас
+            - generic [ref=e4956]:
+              - img [ref=e4957]
+              - text: Скидка действует ещё 16 часов
+            - generic [ref=e4960]:
+              - img [ref=e4961]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4963]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012316841303.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e4964]
+              - text: На AliExpress →
+            - paragraph [ref=e4968]:
+              - img [ref=e4969]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e4971]:
+              - img [ref=e4972]
+              - text: Поделиться
+        - generic [ref=e4975] [cursor=pointer]:
+          - generic [ref=e4976]: "-50%"
+          - button "В избранное" [ref=e4977]:
+            - img [ref=e4978]
+          - generic [ref=e4980]:
+            - img "НОВЫЙ Зарядное устройство DCB104 для литий-ионных аккумуляторов, 4 порта, ток 3А, для DeWalt 10.8V 12V 14.4V 18V 20V Fle"
+          - generic [ref=e4981]:
+            - heading "НОВЫЙ Зарядное устройство DCB104 для литий-ионных аккумуляторов, 4 порта, ток 3А, для DeWalt 10.8V 12V 14.4V 18V 20V Fle" [level=3] [ref=e4982]
+            - generic [ref=e4983]:
+              - generic [ref=e4984]: 6 144 ₽
+              - generic [ref=e4985]: 12 289 ₽
+            - generic [ref=e4987]:
+              - img [ref=e4988]
+              - text: 123 человек смотрят сейчас
+            - generic [ref=e4992]:
+              - img [ref=e4993]
+              - text: Скидка действует ещё 45 часов
+            - generic [ref=e4996]:
+              - img [ref=e4997]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e4999]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011865427876.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e5000]
+              - text: На AliExpress →
+            - paragraph [ref=e5004]:
+              - img [ref=e5005]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e5007]:
+              - img [ref=e5008]
+              - text: Поделиться
+        - generic [ref=e5011] [cursor=pointer]:
+          - generic [ref=e5012]: "-50%"
+          - button "В избранное" [ref=e5013]:
+            - img [ref=e5014]
+          - generic [ref=e5016]:
+            - img "Быстрое зарядное устройство DCB104 для литиевой батареи DeWalt 12 В 14,4 В 18 В 20 В, четырехпортовая зарядка, одновреме"
+          - generic [ref=e5017]:
+            - heading "Быстрое зарядное устройство DCB104 для литиевой батареи DeWalt 12 В 14,4 В 18 В 20 В, четырехпортовая зарядка, одновреме" [level=3] [ref=e5018]
+            - generic [ref=e5019]:
+              - generic [ref=e5020]: 6 987 ₽
+              - generic [ref=e5021]: 13 975 ₽
+            - generic [ref=e5023]:
+              - img [ref=e5024]
+              - text: 73 человек смотрят сейчас
+            - generic [ref=e5028]:
+              - img [ref=e5029]
+              - text: Скидка действует ещё 22 часов
+            - generic [ref=e5032]:
+              - img [ref=e5033]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e5035]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005008710058583.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e5036]
+              - text: На AliExpress →
+            - paragraph [ref=e5040]:
+              - img [ref=e5041]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e5043]:
+              - img [ref=e5044]
+              - text: Поделиться
+        - generic [ref=e5047] [cursor=pointer]:
+          - generic [ref=e5048]: "-50%"
+          - button "В избранное" [ref=e5049]:
+            - img [ref=e5050]
+          - generic [ref=e5052]:
+            - img "Аккумуляторный светодиодный рабочий фонарь Milwaukee M18ALIS-0 18В, портативный, поворотный прожектор с USB-зарядкой для"
+          - generic [ref=e5053]:
+            - heading "Аккумуляторный светодиодный рабочий фонарь Milwaukee M18ALIS-0 18В, портативный, поворотный прожектор с USB-зарядкой для" [level=3] [ref=e5054]
+            - generic [ref=e5055]:
+              - generic [ref=e5056]: 7 015 ₽
+              - generic [ref=e5057]: 14 031 ₽
+            - generic [ref=e5059]:
+              - img [ref=e5060]
+              - text: 53 человек смотрят сейчас
+            - generic [ref=e5064]:
+              - img [ref=e5065]
+              - text: Скидка действует ещё 17 часов
+            - generic [ref=e5068]:
+              - img [ref=e5069]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e5071]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012102850627.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e5072]
+              - text: На AliExpress →
+            - paragraph [ref=e5076]:
+              - img [ref=e5077]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e5079]:
+              - img [ref=e5080]
+              - text: Поделиться
+        - generic [ref=e5083] [cursor=pointer]:
+          - generic [ref=e5084]: "-50%"
+          - button "В избранное" [ref=e5085]:
+            - img [ref=e5086]
+          - generic [ref=e5088]:
+            - img "Литий-ионная аккумуляторная батарея контроллера Trimble 121300 для геодезической станции контроллера данных Trimble TSC7"
+          - generic [ref=e5089]:
+            - heading "Литий-ионная аккумуляторная батарея контроллера Trimble 121300 для геодезической станции контроллера данных Trimble TSC7" [level=3] [ref=e5090]
+            - generic [ref=e5091]:
+              - generic [ref=e5092]: 6 242 ₽
+              - generic [ref=e5093]: 12 485 ₽
+            - generic [ref=e5095]:
+              - img [ref=e5096]
+              - text: 141 человек смотрят сейчас
+            - generic [ref=e5100]:
+              - img [ref=e5101]
+              - text: Скидка действует ещё 22 часов
+            - generic [ref=e5104]:
+              - img [ref=e5105]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e5107]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009494636352.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e5108]
+              - text: На AliExpress →
+            - paragraph [ref=e5112]:
+              - img [ref=e5113]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e5115]:
+              - img [ref=e5116]
+              - text: Поделиться
+        - generic [ref=e5119] [cursor=pointer]:
+          - generic [ref=e5120]: "-50%"
+          - button "В избранное" [ref=e5121]:
+            - img [ref=e5122]
+          - generic [ref=e5124]:
+            - img "Портативный чайник, дорожный электрический чайник, 350 мл, портативный маленький чайник для чая, кофе, USB перезаряжаемы"
+          - generic [ref=e5125]:
+            - heading "Портативный чайник, дорожный электрический чайник, 350 мл, портативный маленький чайник для чая, кофе, USB перезаряжаемы" [level=3] [ref=e5126]
+            - generic [ref=e5127]:
+              - generic [ref=e5128]: 6 188 ₽
+              - generic [ref=e5129]: 12 377 ₽
+            - generic [ref=e5131]:
+              - img [ref=e5132]
+              - text: 78 человек смотрят сейчас
+            - generic [ref=e5136]:
+              - img [ref=e5137]
+              - text: Скидка действует ещё 29 часов
+            - generic [ref=e5140]:
+              - img [ref=e5141]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e5143]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009759472853.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e5144]
+              - text: На AliExpress →
+            - paragraph [ref=e5148]:
+              - img [ref=e5149]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e5151]:
+              - img [ref=e5152]
+              - text: Поделиться
+        - generic [ref=e5155] [cursor=pointer]:
+          - generic [ref=e5156]: "-50%"
+          - button "В избранное" [ref=e5157]:
+            - img [ref=e5158]
+          - generic [ref=e5160]:
+            - img "Портативный инвертор для литиевых аккумуляторов Makita 18-21В, преобразующий DC 18В в AC 110В/220В, 550Вт, с чистой сину"
+          - generic [ref=e5161]:
+            - heading "Портативный инвертор для литиевых аккумуляторов Makita 18-21В, преобразующий DC 18В в AC 110В/220В, 550Вт, с чистой сину" [level=3] [ref=e5162]
+            - generic [ref=e5163]:
+              - generic [ref=e5164]: 6 751 ₽
+              - generic [ref=e5165]: 13 501 ₽
+            - generic [ref=e5167]:
+              - img [ref=e5168]
+              - text: 65 человек смотрят сейчас
+            - generic [ref=e5172]:
+              - img [ref=e5173]
+              - text: Скидка действует ещё 31 часов
+            - generic [ref=e5176]:
+              - img [ref=e5177]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e5179]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012141746690.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e5180]
+              - text: На AliExpress →
+            - paragraph [ref=e5184]:
+              - img [ref=e5185]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e5187]:
+              - img [ref=e5188]
+              - text: Поделиться
+        - generic [ref=e5191] [cursor=pointer]:
+          - generic [ref=e5192]: "-49%"
+          - button "В избранное" [ref=e5193]:
+            - img [ref=e5194]
+          - generic [ref=e5196]:
+            - img "CTOLITY SP100 100 Вт, 20,5 В, солнечная панель Portatil PET + 600D, материал QC3.0 USB-A и Type-C, 18 В постоянного тока"
+          - generic [ref=e5197]:
+            - heading "CTOLITY SP100 100 Вт, 20,5 В, солнечная панель Portatil PET + 600D, материал QC3.0 USB-A и Type-C, 18 В постоянного тока" [level=3] [ref=e5198]
+            - generic [ref=e5199]:
+              - generic [ref=e5200]: 6 411 ₽
+              - generic [ref=e5201]: 12 570 ₽
+            - generic [ref=e5203]:
+              - img [ref=e5204]
+              - text: 114 человек смотрят сейчас
+            - generic [ref=e5208]:
+              - img [ref=e5209]
+              - text: Скидка действует ещё 43 часов
+            - generic [ref=e5212]:
+              - img [ref=e5213]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e5215]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010661698270.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e5216]
+              - text: На AliExpress →
+            - paragraph [ref=e5220]:
+              - img [ref=e5221]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e5223]:
+              - img [ref=e5224]
+              - text: Поделиться
+        - generic [ref=e5227] [cursor=pointer]:
+          - generic [ref=e5228]: "-48%"
+          - button "В избранное" [ref=e5229]:
+            - img [ref=e5230]
+          - generic [ref=e5232]:
+            - img "30 В 10 А Источник питания постоянного тока Регулируемый USB-цифровой дисплей Лабораторные источники питания Регулятор н"
+          - generic [ref=e5233]:
+            - heading "30 В 10 А Источник питания постоянного тока Регулируемый USB-цифровой дисплей Лабораторные источники питания Регулятор н" [level=3] [ref=e5234]
+            - generic [ref=e5235]:
+              - generic [ref=e5236]: 6 670 ₽
+              - generic [ref=e5237]: 12 827 ₽
+            - generic [ref=e5239]:
+              - img [ref=e5240]
+              - text: 28 человек смотрят сейчас
+            - generic [ref=e5244]:
+              - img [ref=e5245]
+              - text: Скидка действует ещё 40 часов
+            - generic [ref=e5248]:
+              - img [ref=e5249]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e5251]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009778464846.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e5252]
+              - text: На AliExpress →
+            - paragraph [ref=e5256]:
+              - img [ref=e5257]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e5259]:
+              - img [ref=e5260]
+              - text: Поделиться
+        - generic [ref=e5263] [cursor=pointer]:
+          - generic [ref=e5264]: "-46%"
+          - button "В избранное" [ref=e5265]:
+            - img [ref=e5266]
+          - generic [ref=e5268]:
+            - img "DZ 150 Вт солнечная и AC220 В/110 В портативная электростанция 12 Втч аккумулятор выходной светодиодный светильник униве"
+          - generic [ref=e5269]:
+            - heading "DZ 150 Вт солнечная и AC220 В/110 В портативная электростанция 12 Втч аккумулятор выходной светодиодный светильник униве" [level=3] [ref=e5270]
+            - generic [ref=e5271]:
+              - generic [ref=e5272]: 7 185 ₽
+              - generic [ref=e5273]: 13 306 ₽
+            - generic [ref=e5275]:
+              - img [ref=e5276]
+              - text: 156 человек смотрят сейчас
+            - generic [ref=e5280]:
+              - img [ref=e5281]
+              - text: Скидка действует ещё 24 часов
+            - generic [ref=e5284]:
+              - img [ref=e5285]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e5287]:
+              - /url: https://ali.click/o7m4e1q?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005009824500251.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e5288]
+              - text: На AliExpress →
+            - paragraph [ref=e5292]:
+              - img [ref=e5293]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e5295]:
+              - img [ref=e5296]
+              - text: Поделиться
+      - button "Показать ещё" [active] [ref=e928] [cursor=pointer]
+  - generic [ref=e929]:
+    - img [ref=e5299]
+    - generic [ref=e931]: Загружено ещё товаров
+  - button "Наверх" [ref=e2700] [cursor=pointer]:
+    - img [ref=e2701]
+  - generic [ref=e933]:
+    - heading "Скидки на Электроника с AliExpress до 90%" [level=2] [ref=e934]
+    - paragraph [ref=e935]: В категории Электроника вы найдёте смартфоны, наушники, умные часы, зарядные устройства и аксессуары по лучшим ценам. AliExpress предлагает прямые поставки от производителей из Китая с бесплатной доставкой в Россию. Все товары проходят проверку рейтинга и отзывов.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e936]
+    - paragraph [ref=e937]: SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Мы ежедневно обновляем каталог, чтобы вы всегда находили самые выгодные предложения на электронику, одежду, обувь, товары для дома и авто. Все цены указаны в рублях с учётом актуального курса Центробанка.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e938]
+    - paragraph [ref=e939]: Используйте наш поиск по товарам или 🔮 AI-поиск для подбора идеальных покупок. Добавляйте товары в избранное, чтобы вернуться к ним позже. Каждая карточка содержит реальный рейтинг, количество заказов и характеристики — никаких фейковых скидок.
+    - heading "1000+ товаров с бесплатной доставкой" [level=2] [ref=e940]
+    - paragraph [ref=e941]: В нашем каталоге более 1000 товаров с реальными скидками 20–90%. Все ссылки ведут напрямую на AliExpress через партнёрскую программу Admitad — вы получаете ту же цену, а мы небольшую комиссию за направление. Это позволяет нам поддерживать сервис и добавлять новые функции.
+  - contentinfo [ref=e942]:
+    - generic [ref=e943]:
+      - generic [ref=e944]:
+        - generic [ref=e945]: SmartSkidka.ru
+        - paragraph [ref=e946]: Лучшие скидки и промокоды на товары с AliExpress. Экономьте умнее!
+      - generic [ref=e947]:
+        - generic [ref=e948]:
+          - heading "Категории" [level=4] [ref=e949]
+          - link "Электроника" [ref=e950] [cursor=pointer]:
+            - /url: "#"
+          - link "Одежда" [ref=e951] [cursor=pointer]:
+            - /url: "#"
+          - link "Товары для дома" [ref=e952] [cursor=pointer]:
+            - /url: "#"
+          - link "Автотовары" [ref=e953] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e954]:
+          - heading "Информация" [level=4] [ref=e955]
+          - link "О нас" [ref=e956] [cursor=pointer]:
+            - /url: about.html
+          - link "Контакты" [ref=e957] [cursor=pointer]:
+            - /url: contact.html
+          - link "Политика конфиденциальности" [ref=e958] [cursor=pointer]:
+            - /url: privacy.html
+          - link "Условия использования" [ref=e959] [cursor=pointer]:
+            - /url: terms.html
+    - generic [ref=e960]:
+      - paragraph [ref=e961]: SmartSkidka.ru — не является магазином. Все товары продаются на AliExpress.
+      - paragraph [ref=e962]: 2026 SmartSkidka.ru
+      - paragraph [ref=e963]:
+        - link "ИКС сайта" [ref=e964] [cursor=pointer]:
+          - /url: https://webmaster.yandex.ru/siteinfo/?site=https://smart-skidka.ru
+          - img "ИКС сайта" [ref=e965]

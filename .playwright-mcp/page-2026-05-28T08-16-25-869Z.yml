@@ -1,0 +1,1070 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "SmartSkidka" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: Установите SmartSkidka
+      - generic [ref=e7]: Быстрый доступ к скидкам
+    - button "Установить" [ref=e8] [cursor=pointer]
+    - button "×" [ref=e9] [cursor=pointer]
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "Smart Skidka .ru" [ref=e12] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e14]
+        - generic [ref=e18]:
+          - generic [ref=e19]: Smart
+          - generic [ref=e20]: Skidka
+          - generic [ref=e21]: .ru
+      - generic [ref=e22]:
+        - img
+        - textbox "Поиск товаров..." [ref=e23]
+        - button "AI поиск" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+      - generic [ref=e27]:
+        - generic [ref=e28]: "AI-поиск: 3 из 3 осталось"
+        - button "Избранное" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+  - main [ref=e32]:
+    - generic [ref=e34]:
+      - generic [ref=e36]: 1000+ товаров со скидками до 90%
+      - heading "Лучшие скидки AliExpress" [level=1] [ref=e37]
+      - paragraph [ref=e38]: Экономьте до 90% на топовых товарах с бесплатной доставкой
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: 1547+
+          - generic [ref=e42]: Товаров
+        - generic [ref=e43]:
+          - generic [ref=e44]: до 90%
+          - generic [ref=e45]: Скидки
+        - generic [ref=e46]:
+          - generic [ref=e47]: Бесплатно
+          - generic [ref=e48]: Доставка
+    - generic [ref=e49]:
+      - complementary [ref=e50]:
+        - heading "Категории" [level=3] [ref=e52]
+        - navigation [ref=e53]:
+          - button "⊞ Все" [ref=e1275] [cursor=pointer]:
+            - generic [ref=e1276]: ⊞ Все
+          - generic [ref=e1277]:
+            - button "💻 Электроника 5000" [ref=e1278] [cursor=pointer]:
+              - generic [ref=e1279]: 💻 Электроника
+              - generic [ref=e1280]: "5000"
+            - generic [ref=e1281]:
+              - button "Комплектующие" [ref=e1282] [cursor=pointer]
+              - button "Периферия" [ref=e1283] [cursor=pointer]
+              - button "Накопители" [ref=e1284] [cursor=pointer]
+              - button "Сетевое оборудование" [ref=e1285] [cursor=pointer]
+              - button "Планшеты" [ref=e1286] [cursor=pointer]
+              - button "Умная электроника" [ref=e1287] [cursor=pointer]
+          - generic [ref=e1288]:
+            - button "👕 Одежда 223" [ref=e1289] [cursor=pointer]:
+              - generic [ref=e1290]: 👕 Одежда
+              - generic [ref=e1291]: "223"
+            - generic:
+              - button "Рубашки" [ref=e1292] [cursor=pointer]
+              - button "Пуховики" [ref=e1293] [cursor=pointer]
+              - button "Сумки" [ref=e1294] [cursor=pointer]
+              - button "Рюкзаки" [ref=e1295] [cursor=pointer]
+              - button "Чемоданы" [ref=e1296] [cursor=pointer]
+              - button "Аксессуары" [ref=e1297] [cursor=pointer]
+          - generic [ref=e1298]:
+            - button "👟 Обувь 223" [ref=e1299] [cursor=pointer]:
+              - generic [ref=e1300]: 👟 Обувь
+              - generic [ref=e1301]: "223"
+            - generic:
+              - button "Кроссовки" [ref=e1302] [cursor=pointer]
+              - button "Женская обувь" [ref=e1303] [cursor=pointer]
+              - button "Мужская обувь" [ref=e1304] [cursor=pointer]
+          - generic [ref=e1305]:
+            - button "🏠 Дом 222" [ref=e1306] [cursor=pointer]:
+              - generic [ref=e1307]: 🏠 Дом
+              - generic [ref=e1308]: "222"
+            - generic:
+              - button "Товары для дома" [ref=e1309] [cursor=pointer]
+              - button "Кухня" [ref=e1310] [cursor=pointer]
+              - button "Ванная" [ref=e1311] [cursor=pointer]
+              - button "Стройматериалы" [ref=e1312] [cursor=pointer]
+          - generic [ref=e1313]:
+            - button "🚗 Авто 222" [ref=e1314] [cursor=pointer]:
+              - generic [ref=e1315]: 🚗 Авто
+              - generic [ref=e1316]: "222"
+            - generic:
+              - button "Двигатели" [ref=e1317] [cursor=pointer]
+              - button "Кузовные детали" [ref=e1318] [cursor=pointer]
+              - button "Автосвет" [ref=e1319] [cursor=pointer]
+              - button "Инструменты" [ref=e1320] [cursor=pointer]
+              - button "Мотоциклы" [ref=e1321] [cursor=pointer]
+          - generic [ref=e1322]:
+            - button "💄 Красота 222" [ref=e1323] [cursor=pointer]:
+              - generic [ref=e1324]: 💄 Красота
+              - generic [ref=e1325]: "222"
+            - generic:
+              - button "Стоматология" [ref=e1326] [cursor=pointer]
+              - button "Маникюр" [ref=e1327] [cursor=pointer]
+              - button "Уход за волосами" [ref=e1328] [cursor=pointer]
+              - button "Парфюм" [ref=e1329] [cursor=pointer]
+          - generic [ref=e1330]:
+            - button "⚽ Спорт 222" [ref=e1331] [cursor=pointer]:
+              - generic [ref=e1332]: ⚽ Спорт
+              - generic [ref=e1333]: "222"
+            - generic:
+              - button "Лыжи" [ref=e1334] [cursor=pointer]
+              - button "Спортивные сумки" [ref=e1335] [cursor=pointer]
+              - button "Активный отдых" [ref=e1336] [cursor=pointer]
+          - generic [ref=e1337]:
+            - button "💎 Украшения 222" [ref=e1338] [cursor=pointer]:
+              - generic [ref=e1339]: 💎 Украшения
+              - generic [ref=e1340]: "222"
+            - generic:
+              - button "Ювелирка" [ref=e1341] [cursor=pointer]
+              - button "Часы" [ref=e1342] [cursor=pointer]
+          - generic [ref=e1343]:
+            - button "🧸 Игрушки 222" [ref=e1344] [cursor=pointer]:
+              - generic [ref=e1345]: 🧸 Игрушки
+              - generic [ref=e1346]: "222"
+            - generic:
+              - button "Фигурки" [ref=e1347] [cursor=pointer]
+              - button "Конструкторы" [ref=e1348] [cursor=pointer]
+              - button "Р/У игрушки" [ref=e1349] [cursor=pointer]
+              - button "Игры и пазлы" [ref=e1350] [cursor=pointer]
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - button "Все" [ref=e2255] [cursor=pointer]
+          - button "Накопители" [ref=e2256] [cursor=pointer]
+          - button "Периферия" [ref=e2257] [cursor=pointer]
+          - button "Для ноутбука" [ref=e2258] [cursor=pointer]
+          - button "Сети" [ref=e2259] [cursor=pointer]
+          - button "Планшеты" [ref=e2260] [cursor=pointer]
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - button "Все скидки" [ref=e139] [cursor=pointer]
+              - button "30%+" [ref=e140] [cursor=pointer]
+              - button "50%+" [ref=e141] [cursor=pointer]
+              - button "70%+" [ref=e142] [cursor=pointer]
+              - button "90%+" [ref=e143] [cursor=pointer]
+            - generic [ref=e144]:
+              - generic [ref=e145]: "Цена:"
+              - spinbutton [ref=e146]
+              - generic [ref=e147]: —
+              - spinbutton [ref=e148]
+              - button "OK" [ref=e149] [cursor=pointer]
+            - combobox [ref=e151] [cursor=pointer]:
+              - option "По скидке" [selected]
+              - option "Сначала дешевые"
+              - option "Сначала дорогие"
+              - option "По заказам"
+          - generic [ref=e152]: 1547 товаров
+        - generic [ref=e153]:
+          - heading "Подборки скидок" [level=2] [ref=e154]:
+            - img [ref=e155]
+            - text: Подборки скидок
+          - generic [ref=e157]:
+            - link "Скидки до 90% на электронику →" [ref=e158] [cursor=pointer]:
+              - /url: /electronics.html?filter=90
+              - img [ref=e160]
+              - generic [ref=e163]: Скидки до 90% на электронику
+              - generic [ref=e164]: →
+            - link "Топ одежды со скидками 70%+ →" [ref=e165] [cursor=pointer]:
+              - /url: /clothing.html?filter=70
+              - img [ref=e167]
+              - generic [ref=e169]: Топ одежды со скидками 70%+
+              - generic [ref=e170]: →
+            - link "Лучшие цены на кроссовки →" [ref=e171] [cursor=pointer]:
+              - /url: /shoes.html?filter=all
+              - img [ref=e173]
+              - generic [ref=e177]: Лучшие цены на кроссовки
+              - generic [ref=e178]: →
+            - link "Всё для дома до 1000₽ →" [ref=e179] [cursor=pointer]:
+              - /url: /home.html?filter=all
+              - img [ref=e181]
+              - generic [ref=e184]: Всё для дома до 1000₽
+              - generic [ref=e185]: →
+        - generic [ref=e186]:
+          - heading "Топ-10 за неделю" [level=2] [ref=e187]:
+            - img [ref=e188]
+            - text: Топ-10 за неделю
+          - generic [ref=e191]:
+            - link "1 Queen Heart 4ct Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry Queen Heart 4ct Moissanite Diamond Ring 9 177 ₽ -90%" [ref=e192] [cursor=pointer]:
+              - /url: /item/74279.html
+              - generic [ref=e193]: "1"
+              - img "Queen Heart 4ct Moissanite Diamond Ring 100% Real 925 Sterling Silver Party Wedding Band Rings for Women Engagement Jewelry" [ref=e194]
+              - generic [ref=e195]:
+                - generic [ref=e196]: Queen Heart 4ct Moissanite Diamond Ring
+                - generic [ref=e197]: 9 177 ₽
+              - generic [ref=e198]: "-90%"
+            - link "2 CKT Real Vvs1 Diamond Water Droplet Ring for Women Pear Shape 18K Gold Mossum Stone Moissanite Rings Wedding Fine Jewelry Gift CKT Real Vvs1 Diamond Water Droplet Ring 9 135 ₽ -90%" [ref=e199] [cursor=pointer]:
+              - /url: /item/75091.html
+              - generic [ref=e200]: "2"
+              - img "CKT Real Vvs1 Diamond Water Droplet Ring for Women Pear Shape 18K Gold Mossum Stone Moissanite Rings Wedding Fine Jewelry Gift" [ref=e201]
+              - generic [ref=e202]:
+                - generic [ref=e203]: CKT Real Vvs1 Diamond Water Droplet Ring
+                - generic [ref=e204]: 9 135 ₽
+              - generic [ref=e205]: "-90%"
+            - link "3 CKT 18k Gold Cross Stud Earrings for Women Fashion D Color Moissanite Earrings Hip-hop American Wedding Fine Jewelry CKT 18k Gold Cross Stud Earrings for Wom 8 726 ₽ -90%" [ref=e206] [cursor=pointer]:
+              - /url: /item/75124.html
+              - generic [ref=e207]: "3"
+              - img "CKT 18k Gold Cross Stud Earrings for Women Fashion D Color Moissanite Earrings Hip-hop American Wedding Fine Jewelry" [ref=e208]
+              - generic [ref=e209]:
+                - generic [ref=e210]: CKT 18k Gold Cross Stud Earrings for Wom
+                - generic [ref=e211]: 8 726 ₽
+              - generic [ref=e212]: "-90%"
+            - link "4 CKT 0.5CT Moissanite Snowflake Inlaid Diamond 18k White Gold Stud Earrings for Women's Short Symmetrical Platinum Pt950 Earrings CKT 0.5CT Moissanite Snowflake Inlaid Di 8 999 ₽ -90%" [ref=e213] [cursor=pointer]:
+              - /url: /item/75285.html
+              - generic [ref=e214]: "4"
+              - img "CKT 0.5CT Moissanite Snowflake Inlaid Diamond 18k White Gold Stud Earrings for Women's Short Symmetrical Platinum Pt950 Earrings" [ref=e215]
+              - generic [ref=e216]:
+                - generic [ref=e217]: CKT 0.5CT Moissanite Snowflake Inlaid Di
+                - generic [ref=e218]: 8 999 ₽
+              - generic [ref=e219]: "-90%"
+            - link "5 Elegant Flower Moissanite Diamond Dangle Earring 100% Real 925 Sterling Silver Wedding Drop Earrings for Women Bridal Jewelry Elegant Flower Moissanite Diamond Dangle 8 076 ₽ -90%" [ref=e220] [cursor=pointer]:
+              - /url: /item/75294.html
+              - generic [ref=e221]: "5"
+              - img "Elegant Flower Moissanite Diamond Dangle Earring 100% Real 925 Sterling Silver Wedding Drop Earrings for Women Bridal Jewelry" [ref=e222]
+              - generic [ref=e223]:
+                - generic [ref=e224]: Elegant Flower Moissanite Diamond Dangle
+                - generic [ref=e225]: 8 076 ₽
+              - generic [ref=e226]: "-90%"
+            - link "6 2025 Fine 5Ct D Color Moissanite Diamond Ring 925 Sterling Silver Party Wedding Band Rings for Women Bridal Engagement Jewelry 2025 Fine 5Ct D Color Moissanite Diamond 8 271 ₽ -90%" [ref=e227] [cursor=pointer]:
+              - /url: /item/75550.html
+              - generic [ref=e228]: "6"
+              - img "2025 Fine 5Ct D Color Moissanite Diamond Ring 925 Sterling Silver Party Wedding Band Rings for Women Bridal Engagement Jewelry" [ref=e229]
+              - generic [ref=e230]:
+                - generic [ref=e231]: 2025 Fine 5Ct D Color Moissanite Diamond
+                - generic [ref=e232]: 8 271 ₽
+              - generic [ref=e233]: "-90%"
+            - link "7 Eternity Moissanite Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women men Fine Jewelry Gift Eternity Moissanite Diamond Ring 100% Or 8 076 ₽ -90%" [ref=e234] [cursor=pointer]:
+              - /url: /item/75653.html
+              - generic [ref=e235]: "7"
+              - img "Eternity Moissanite Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women men Fine Jewelry Gift" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Eternity Moissanite Diamond Ring 100% Or
+                - generic [ref=e239]: 8 076 ₽
+              - generic [ref=e240]: "-90%"
+            - link "8 Women Valentine's Day 18K White Gold Wedding Drop Earrings 1.12/2.12/4.12CT Moissanite Diamond PT950 Platinum Girl Birthday Gift Women Valentine's Day 18K White Gold Wed 8 005 ₽ -90%" [ref=e241] [cursor=pointer]:
+              - /url: /item/75739.html
+              - generic [ref=e242]: "8"
+              - img "Women Valentine's Day 18K White Gold Wedding Drop Earrings 1.12/2.12/4.12CT Moissanite Diamond PT950 Platinum Girl Birthday Gift" [ref=e243]
+              - generic [ref=e244]:
+                - generic [ref=e245]: Women Valentine's Day 18K White Gold Wed
+                - generic [ref=e246]: 8 005 ₽
+              - generic [ref=e247]: "-90%"
+            - link "9 Elegant 6ct Pink Sapphire Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women Party Jewelry Elegant 6ct Pink Sapphire Diamond Ring 1 8 076 ₽ -90%" [ref=e248] [cursor=pointer]:
+              - /url: /item/75819.html
+              - generic [ref=e249]: "9"
+              - img "Elegant 6ct Pink Sapphire Diamond Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women Party Jewelry" [ref=e250]
+              - generic [ref=e251]:
+                - generic [ref=e252]: Elegant 6ct Pink Sapphire Diamond Ring 1
+                - generic [ref=e253]: 8 076 ₽
+              - generic [ref=e254]: "-90%"
+            - link "10 Oval Cut 3ct Gemstones Diamond Ring 100% Original 925 sterling silver Wedding band Rings for Women Men Engagement Jewelry Gift Oval Cut 3ct Gemstones Diamond Ring 100% 8 076 ₽ -90%" [ref=e255] [cursor=pointer]:
+              - /url: /item/75824.html
+              - generic [ref=e256]: "10"
+              - img "Oval Cut 3ct Gemstones Diamond Ring 100% Original 925 sterling silver Wedding band Rings for Women Men Engagement Jewelry Gift" [ref=e257]
+              - generic [ref=e258]:
+                - generic [ref=e259]: Oval Cut 3ct Gemstones Diamond Ring 100%
+                - generic [ref=e260]: 8 076 ₽
+              - generic [ref=e261]: "-90%"
+        - link "AliExpress RU&CIS" [ref=e263] [cursor=pointer]:
+          - /url: https://rzekl.com/g/1e8d114494fb6bf3968616525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Faliexpress.ru%252F&subid=smartskidka_banner
+          - img "AliExpress RU&CIS" [ref=e264]
+        - generic [ref=e265]:
+          - generic [ref=e266]:
+            - generic [ref=e2261] [cursor=pointer]:
+              - generic [ref=e2262]: "-73%"
+              - button "В избранное" [ref=e2263]:
+                - img [ref=e2264]
+              - generic [ref=e2266]:
+                - img "8-in-1 USB-C Hub with 4K HDMI, 115W PD Charging, Ethernet, Card Readers for Laptops and Tablets"
+              - generic [ref=e2267]:
+                - heading "8-in-1 USB-C Hub with 4K HDMI, 115W PD Charging, Ethernet, Card Readers for Laptops and Tablets" [level=3] [ref=e2268]
+                - generic [ref=e2269]:
+                  - generic [ref=e2270]: авто
+                  - generic [ref=e2271]: ноутбуки
+                - generic [ref=e2272]:
+                  - generic [ref=e2273]: 8 181 ₽
+                  - generic [ref=e2274]: 30 299 ₽
+                - generic [ref=e2276]:
+                  - img [ref=e2277]
+                  - text: 126 человек смотрят сейчас
+                - generic [ref=e2281]:
+                  - img [ref=e2282]
+                  - text: Скидка действует ещё 46 часов
+                - generic [ref=e2285]:
+                  - img [ref=e2286]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2288]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012106299860.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2289]
+                  - text: На AliExpress →
+                - paragraph [ref=e2293]:
+                  - img [ref=e2294]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2296]:
+                  - img [ref=e2297]
+                  - text: Поделиться
+            - generic [ref=e2300] [cursor=pointer]:
+              - generic [ref=e2301]: "-73%"
+              - button "В избранное" [ref=e2302]:
+                - img [ref=e2303]
+              - generic [ref=e2305]:
+                - img "USB C Hub 6-in-1 Adapter, 4K 60Hz, 10Gbps, 100W PD, 50cm Cable"
+              - generic [ref=e2306]:
+                - heading "USB C Hub 6-in-1 Adapter, 4K 60Hz, 10Gbps, 100W PD, 50cm Cable" [level=3] [ref=e2307]
+                - generic [ref=e2308]:
+                  - generic [ref=e2309]: 7 976 ₽
+                  - generic [ref=e2310]: 29 541 ₽
+                - generic [ref=e2312]:
+                  - img [ref=e2313]
+                  - text: 140 человек смотрят сейчас
+                - generic [ref=e2317]:
+                  - img [ref=e2318]
+                  - text: Скидка действует ещё 31 часов
+                - generic [ref=e2321]:
+                  - img [ref=e2322]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2324]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012331907826.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2325]
+                  - text: На AliExpress →
+                - paragraph [ref=e2329]:
+                  - img [ref=e2330]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2332]:
+                  - img [ref=e2333]
+                  - text: Поделиться
+            - generic [ref=e2336] [cursor=pointer]:
+              - generic [ref=e2337]: "-73%"
+              - button "В избранное" [ref=e2338]:
+                - img [ref=e2339]
+              - generic [ref=e2341]:
+                - img "4G LTE Solar Outdoor Security Camera, 2 Pack No WiFi Needed, 360° View, 2K Night Vision with SIM Card - White"
+              - generic [ref=e2342]:
+                - heading "4G LTE Solar Outdoor Security Camera, 2 Pack No WiFi Needed, 360° View, 2K Night Vision with SIM Card - White" [level=3] [ref=e2343]
+                - generic [ref=e2345]: авто
+                - generic [ref=e2346]:
+                  - generic [ref=e2347]: 8 047 ₽
+                  - generic [ref=e2348]: 29 804 ₽
+                - generic [ref=e2350]:
+                  - img [ref=e2351]
+                  - text: 171 человек смотрят сейчас
+                - generic [ref=e2355]:
+                  - img [ref=e2356]
+                  - text: Скидка действует ещё 15 часов
+                - generic [ref=e2359]:
+                  - img [ref=e2360]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2362]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012006971851.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2363]
+                  - text: На AliExpress →
+                - paragraph [ref=e2367]:
+                  - img [ref=e2368]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2370]:
+                  - img [ref=e2371]
+                  - text: Поделиться
+            - generic [ref=e2374] [cursor=pointer]:
+              - generic [ref=e2375]: "-73%"
+              - button "В избранное" [ref=e2376]:
+                - img [ref=e2377]
+              - generic [ref=e2379]:
+                - 'img "7-in-1 USB-C Hub: 100W Charging, 4K HDMI, USB 4, Card Reader for MacBook Air/Pro M5/M4 - Midnight"'
+              - generic [ref=e2380]:
+                - 'heading "7-in-1 USB-C Hub: 100W Charging, 4K HDMI, USB 4, Card Reader for MacBook Air/Pro M5/M4 - Midnight" [level=3] [ref=e2381]'
+                - generic [ref=e2383]: авто
+                - generic [ref=e2384]:
+                  - generic [ref=e2385]: 8 181 ₽
+                  - generic [ref=e2386]: 30 299 ₽
+                - generic [ref=e2388]:
+                  - img [ref=e2389]
+                  - text: 189 человек смотрят сейчас
+                - generic [ref=e2393]:
+                  - img [ref=e2394]
+                  - text: Скидка действует ещё 21 часов
+                - generic [ref=e2397]:
+                  - img [ref=e2398]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2400]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012106339727.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2401]
+                  - text: На AliExpress →
+                - paragraph [ref=e2405]:
+                  - img [ref=e2406]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2408]:
+                  - img [ref=e2409]
+                  - text: Поделиться
+            - generic [ref=e2412] [cursor=pointer]:
+              - generic [ref=e2413]: "-73%"
+              - button "В избранное" [ref=e2414]:
+                - img [ref=e2415]
+              - generic [ref=e2417]:
+                - img "ORICO USB C HUB with External M.2 NVMe SSD Enclosure to 4K30Hz USB 3.1 10Gbps PD100 Charging RJ45 Adapter Type-C Docking Station"
+              - generic [ref=e2418]:
+                - heading "ORICO USB C HUB with External M.2 NVMe SSD Enclosure to 4K30Hz USB 3.1 10Gbps PD100 Charging RJ45 Adapter Type-C Docking Station" [level=3] [ref=e2419]
+                - generic [ref=e2420]:
+                  - generic [ref=e2421]: 8 421 ₽
+                  - generic [ref=e2422]: 31 189 ₽
+                - generic [ref=e2424]:
+                  - img [ref=e2425]
+                  - text: 27 человек смотрят сейчас
+                - generic [ref=e2429]:
+                  - img [ref=e2430]
+                  - text: Скидка действует ещё 30 часов
+                - generic [ref=e2433]:
+                  - img [ref=e2434]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2436]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012086672669.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2437]
+                  - text: На AliExpress →
+                - paragraph [ref=e2441]:
+                  - img [ref=e2442]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2444]:
+                  - img [ref=e2445]
+                  - text: Поделиться
+            - generic [ref=e2448] [cursor=pointer]:
+              - generic [ref=e2449]: "-73%"
+              - button "В избранное" [ref=e2450]:
+                - img [ref=e2451]
+              - generic [ref=e2453]:
+                - img "300W 40-Port USB Charging Station, 20 USB-A & 20 USB-C, Fast Charger for Multiple Devices"
+              - generic [ref=e2454]:
+                - heading "300W 40-Port USB Charging Station, 20 USB-A & 20 USB-C, Fast Charger for Multiple Devices" [level=3] [ref=e2455]
+                - generic [ref=e2456]:
+                  - generic [ref=e2457]: 7 976 ₽
+                  - generic [ref=e2458]: 29 541 ₽
+                - generic [ref=e2460]:
+                  - img [ref=e2461]
+                  - text: 42 человек смотрят сейчас
+                - generic [ref=e2465]:
+                  - img [ref=e2466]
+                  - text: Скидка действует ещё 48 часов
+                - generic [ref=e2469]:
+                  - img [ref=e2470]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2472]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012336592497.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2473]
+                  - text: На AliExpress →
+                - paragraph [ref=e2477]:
+                  - img [ref=e2478]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2480]:
+                  - img [ref=e2481]
+                  - text: Поделиться
+            - generic [ref=e2484] [cursor=pointer]:
+              - generic [ref=e2485]: "-73%"
+              - button "В избранное" [ref=e2486]:
+                - img [ref=e2487]
+              - generic [ref=e2489]:
+                - img "3 in 1 Webcam - 2K HD USB C Webcam with Microphone and Speaker Stereo Sound and Noise-Cancelling Mics Privacy Cover Light Corre"
+              - generic [ref=e2490]:
+                - heading "3 in 1 Webcam - 2K HD USB C Webcam with Microphone and Speaker Stereo Sound and Noise-Cancelling Mics Privacy Cover Light Corre" [level=3] [ref=e2491]
+                - generic [ref=e2493]: телефоны
+                - generic [ref=e2494]:
+                  - generic [ref=e2495]: 7 953 ₽
+                  - generic [ref=e2496]: 29 457 ₽
+                - generic [ref=e2498]:
+                  - img [ref=e2499]
+                  - text: 149 человек смотрят сейчас
+                - generic [ref=e2503]:
+                  - img [ref=e2504]
+                  - text: Скидка действует ещё 17 часов
+                - generic [ref=e2507]:
+                  - img [ref=e2508]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2510]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012117074545.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2511]
+                  - text: На AliExpress →
+                - paragraph [ref=e2515]:
+                  - img [ref=e2516]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2518]:
+                  - img [ref=e2519]
+                  - text: Поделиться
+            - generic [ref=e2522] [cursor=pointer]:
+              - generic [ref=e2523]: "-73%"
+              - button "В избранное" [ref=e2524]:
+                - img [ref=e2525]
+              - generic [ref=e2527]:
+                - img "12-in-1 USB C Hub with 4K HDMI, Dual Display, 100W PD, Ethernet for MacBook Dell HP Laptops"
+              - generic [ref=e2528]:
+                - heading "12-in-1 USB C Hub with 4K HDMI, Dual Display, 100W PD, Ethernet for MacBook Dell HP Laptops" [level=3] [ref=e2529]
+                - generic [ref=e2531]: ноутбуки
+                - generic [ref=e2532]:
+                  - generic [ref=e2533]: 8 349 ₽
+                  - generic [ref=e2534]: 30 922 ₽
+                - generic [ref=e2536]:
+                  - img [ref=e2537]
+                  - text: 26 человек смотрят сейчас
+                - generic [ref=e2541]:
+                  - img [ref=e2542]
+                  - text: Скидка действует ещё 23 часов
+                - generic [ref=e2545]:
+                  - img [ref=e2546]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2548]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011700184206.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2549]
+                  - text: На AliExpress →
+                - paragraph [ref=e2553]:
+                  - img [ref=e2554]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2556]:
+                  - img [ref=e2557]
+                  - text: Поделиться
+            - generic [ref=e2560] [cursor=pointer]:
+              - generic [ref=e2561]: "-73%"
+              - button "В избранное" [ref=e2562]:
+                - img [ref=e2563]
+              - generic [ref=e2565]:
+                - img "Wireless HD Camera Clock with Night Vision, Motion Detection, 160° Wide Angle for Home Security"
+              - generic [ref=e2566]:
+                - heading "Wireless HD Camera Clock with Night Vision, Motion Detection, 160° Wide Angle for Home Security" [level=3] [ref=e2567]
+                - generic [ref=e2568]:
+                  - generic [ref=e2569]: 8 047 ₽
+                  - generic [ref=e2570]: 29 804 ₽
+                - generic [ref=e2572]:
+                  - img [ref=e2573]
+                  - text: 32 человек смотрят сейчас
+                - generic [ref=e2577]:
+                  - img [ref=e2578]
+                  - text: Скидка действует ещё 19 часов
+                - generic [ref=e2581]:
+                  - img [ref=e2582]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2584]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012009840706.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2585]
+                  - text: На AliExpress →
+                - paragraph [ref=e2589]:
+                  - img [ref=e2590]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2592]:
+                  - img [ref=e2593]
+                  - text: Поделиться
+            - generic [ref=e2596] [cursor=pointer]:
+              - generic [ref=e2597]: "-73%"
+              - button "В избранное" [ref=e2598]:
+                - img [ref=e2599]
+              - generic [ref=e2601]:
+                - img "7-in-1 USB-C Docking Station with Dual 4K HDMI, 10Gbps Ports & 100W PD for Laptops"
+              - generic [ref=e2602]:
+                - heading "7-in-1 USB-C Docking Station with Dual 4K HDMI, 10Gbps Ports & 100W PD for Laptops" [level=3] [ref=e2603]
+                - generic [ref=e2605]: ноутбуки
+                - generic [ref=e2606]:
+                  - generic [ref=e2607]: 7 946 ₽
+                  - generic [ref=e2608]: 29 432 ₽
+                - generic [ref=e2610]:
+                  - img [ref=e2611]
+                  - text: 111 человек смотрят сейчас
+                - generic [ref=e2615]:
+                  - img [ref=e2616]
+                  - text: Скидка действует ещё 38 часов
+                - generic [ref=e2619]:
+                  - img [ref=e2620]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2622]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011700228231.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2623]
+                  - text: На AliExpress →
+                - paragraph [ref=e2627]:
+                  - img [ref=e2628]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2630]:
+                  - img [ref=e2631]
+                  - text: Поделиться
+            - generic [ref=e2634] [cursor=pointer]:
+              - generic [ref=e2635]: "-73%"
+              - button "В избранное" [ref=e2636]:
+                - img [ref=e2637]
+              - generic [ref=e2639]:
+                - img "Pro V2 Center Screen Webcam Mount for Laptops-32 Aluminum Alloy Black Adjustable Gooseneck for Precise Eye-Level Positioning"
+              - generic [ref=e2640]:
+                - heading "Pro V2 Center Screen Webcam Mount for Laptops-32 Aluminum Alloy Black Adjustable Gooseneck for Precise Eye-Level Positioning" [level=3] [ref=e2641]
+                - generic [ref=e2643]: ноутбуки
+                - generic [ref=e2644]:
+                  - generic [ref=e2645]: 8 751 ₽
+                  - generic [ref=e2646]: 32 410 ₽
+                - generic [ref=e2648]:
+                  - img [ref=e2649]
+                  - text: 187 человек смотрят сейчас
+                - generic [ref=e2653]:
+                  - img [ref=e2654]
+                  - text: Скидка действует ещё 13 часов
+                - generic [ref=e2657]:
+                  - img [ref=e2658]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2660]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012202056296.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2661]
+                  - text: На AliExpress →
+                - paragraph [ref=e2665]:
+                  - img [ref=e2666]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2668]:
+                  - img [ref=e2669]
+                  - text: Поделиться
+            - generic [ref=e2672] [cursor=pointer]:
+              - generic [ref=e2673]: "-73%"
+              - button "В избранное" [ref=e2674]:
+                - img [ref=e2675]
+              - generic [ref=e2677]:
+                - 'img "12-in-2 MacBook Docking Station: Dual 4K@144Hz, 150W Charging, 5Gbps USB Hub with SD/TF & Ethernet"'
+              - generic [ref=e2678]:
+                - 'heading "12-in-2 MacBook Docking Station: Dual 4K@144Hz, 150W Charging, 5Gbps USB Hub with SD/TF & Ethernet" [level=3] [ref=e2679]'
+                - generic [ref=e2680]:
+                  - generic [ref=e2681]: 8 768 ₽
+                  - generic [ref=e2682]: 32 474 ₽
+                - generic [ref=e2684]:
+                  - img [ref=e2685]
+                  - text: 130 человек смотрят сейчас
+                - generic [ref=e2689]:
+                  - img [ref=e2690]
+                  - text: Скидка действует ещё 31 часов
+                - generic [ref=e2693]:
+                  - img [ref=e2694]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2696]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011575706651.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2697]
+                  - text: На AliExpress →
+                - paragraph [ref=e2701]:
+                  - img [ref=e2702]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2704]:
+                  - img [ref=e2705]
+                  - text: Поделиться
+            - generic [ref=e2708] [cursor=pointer]:
+              - generic [ref=e2709]: "-73%"
+              - button "В избранное" [ref=e2710]:
+                - img [ref=e2711]
+              - generic [ref=e2713]:
+                - img "Outdoor 5MP Security Camera with Night Vision, Smart Detection, Local Storage, Home Hub Compatible"
+              - generic [ref=e2714]:
+                - heading "Outdoor 5MP Security Camera with Night Vision, Smart Detection, Local Storage, Home Hub Compatible" [level=3] [ref=e2715]
+                - generic [ref=e2716]:
+                  - generic [ref=e2717]: 8 550 ₽
+                  - generic [ref=e2718]: 31 667 ₽
+                - generic [ref=e2720]:
+                  - img [ref=e2721]
+                  - text: 98 человек смотрят сейчас
+                - generic [ref=e2725]:
+                  - img [ref=e2726]
+                  - text: Скидка действует ещё 18 часов
+                - generic [ref=e2729]:
+                  - img [ref=e2730]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2732]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012315196488.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2733]
+                  - text: На AliExpress →
+                - paragraph [ref=e2737]:
+                  - img [ref=e2738]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2740]:
+                  - img [ref=e2741]
+                  - text: Поделиться
+            - generic [ref=e2744] [cursor=pointer]:
+              - generic [ref=e2745]: "-73%"
+              - button "В избранное" [ref=e2746]:
+                - img [ref=e2747]
+              - generic [ref=e2749]:
+                - img "12-in-1 USB-C Docking Station with Triple Display, 85W PD, Gigabit Ethernet for Laptops"
+              - generic [ref=e2750]:
+                - heading "12-in-1 USB-C Docking Station with Triple Display, 85W PD, Gigabit Ethernet for Laptops" [level=3] [ref=e2751]
+                - generic [ref=e2753]: ноутбуки
+                - generic [ref=e2754]:
+                  - generic [ref=e2755]: 8 550 ₽
+                  - generic [ref=e2756]: 31 667 ₽
+                - generic [ref=e2758]:
+                  - img [ref=e2759]
+                  - text: 134 человек смотрят сейчас
+                - generic [ref=e2763]:
+                  - img [ref=e2764]
+                  - text: Скидка действует ещё 16 часов
+                - generic [ref=e2767]:
+                  - img [ref=e2768]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2770]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011700347608.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2771]
+                  - text: На AliExpress →
+                - paragraph [ref=e2775]:
+                  - img [ref=e2776]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2778]:
+                  - img [ref=e2779]
+                  - text: Поделиться
+            - generic [ref=e2782] [cursor=pointer]:
+              - generic [ref=e2783]: "-73%"
+              - button "В избранное" [ref=e2784]:
+                - img [ref=e2785]
+              - generic [ref=e2787]:
+                - img "3-in-1 1080P Webcam with Mic & Speaker, Wide Angle, Noise Cancel, Auto Low Light Correction for Online Conference"
+              - generic [ref=e2788]:
+                - heading "3-in-1 1080P Webcam with Mic & Speaker, Wide Angle, Noise Cancel, Auto Low Light Correction for Online Conference" [level=3] [ref=e2789]
+                - generic [ref=e2791]: авто
+                - generic [ref=e2792]:
+                  - generic [ref=e2793]: 8 173 ₽
+                  - generic [ref=e2794]: 30 270 ₽
+                - generic [ref=e2796]:
+                  - img [ref=e2797]
+                  - text: 118 человек смотрят сейчас
+                - generic [ref=e2801]:
+                  - img [ref=e2802]
+                  - text: Скидка действует ещё 40 часов
+                - generic [ref=e2805]:
+                  - img [ref=e2806]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2808]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012071203723.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2809]
+                  - text: На AliExpress →
+                - paragraph [ref=e2813]:
+                  - img [ref=e2814]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2816]:
+                  - img [ref=e2817]
+                  - text: Поделиться
+            - generic [ref=e2820] [cursor=pointer]:
+              - generic [ref=e2821]: "-73%"
+              - button "В избранное" [ref=e2822]:
+                - img [ref=e2823]
+              - generic [ref=e2825]:
+                - img "HD Pro Webcam with 1080p Video, Light Correction, Compatible with Teams, Zoom, and Nintendo Switch GameChat - Black"
+              - generic [ref=e2826]:
+                - heading "HD Pro Webcam with 1080p Video, Light Correction, Compatible with Teams, Zoom, and Nintendo Switch GameChat - Black" [level=3] [ref=e2827]
+                - generic [ref=e2828]:
+                  - generic [ref=e2829]: 8 496 ₽
+                  - generic [ref=e2830]: 31 467 ₽
+                - generic [ref=e2832]:
+                  - img [ref=e2833]
+                  - text: 158 человек смотрят сейчас
+                - generic [ref=e2837]:
+                  - img [ref=e2838]
+                  - text: Скидка действует ещё 40 часов
+                - generic [ref=e2841]:
+                  - img [ref=e2842]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2844]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011744482393.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2845]
+                  - text: На AliExpress →
+                - paragraph [ref=e2849]:
+                  - img [ref=e2850]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2852]:
+                  - img [ref=e2853]
+                  - text: Поделиться
+            - generic [ref=e2856] [cursor=pointer]:
+              - generic [ref=e2857]: "-73%"
+              - button "В избранное" [ref=e2858]:
+                - img [ref=e2859]
+              - generic [ref=e2861]:
+                - img "11-in-1 USB C Hub with Triple Display, Dual HDMI, VGA, 3 USB 3.0 Ports, Ethernet, PD Charging for MacBook XPS Surface"
+              - generic [ref=e2862]:
+                - heading "11-in-1 USB C Hub with Triple Display, Dual HDMI, VGA, 3 USB 3.0 Ports, Ethernet, PD Charging for MacBook XPS Surface" [level=3] [ref=e2863]
+                - generic [ref=e2864]:
+                  - generic [ref=e2865]: 8 047 ₽
+                  - generic [ref=e2866]: 29 804 ₽
+                - generic [ref=e2868]:
+                  - img [ref=e2869]
+                  - text: 162 человек смотрят сейчас
+                - generic [ref=e2873]:
+                  - img [ref=e2874]
+                  - text: Скидка действует ещё 12 часов
+                - generic [ref=e2877]:
+                  - img [ref=e2878]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2880]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011700437774.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2881]
+                  - text: На AliExpress →
+                - paragraph [ref=e2885]:
+                  - img [ref=e2886]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2888]:
+                  - img [ref=e2889]
+                  - text: Поделиться
+            - generic [ref=e2892] [cursor=pointer]:
+              - generic [ref=e2893]: "-73%"
+              - button "В избранное" [ref=e2894]:
+                - img [ref=e2895]
+              - generic [ref=e2897]:
+                - img "7-Port USB-C Hub with Fast Charge, 5x USB-A & 2x USB-C Ports, 5Gbps Speed, Self-Powered for Desktop/Laptop"
+              - generic [ref=e2898]:
+                - heading "7-Port USB-C Hub with Fast Charge, 5x USB-A & 2x USB-C Ports, 5Gbps Speed, Self-Powered for Desktop/Laptop" [level=3] [ref=e2899]
+                - generic [ref=e2901]: ноутбуки
+                - generic [ref=e2902]:
+                  - generic [ref=e2903]: 7 855 ₽
+                  - generic [ref=e2904]: 29 092 ₽
+                - generic [ref=e2906]:
+                  - img [ref=e2907]
+                  - text: 72 человек смотрят сейчас
+                - generic [ref=e2911]:
+                  - img [ref=e2912]
+                  - text: Скидка действует ещё 34 часов
+                - generic [ref=e2915]:
+                  - img [ref=e2916]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2918]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012106319427.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2919]
+                  - text: На AliExpress →
+                - paragraph [ref=e2923]:
+                  - img [ref=e2924]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2926]:
+                  - img [ref=e2927]
+                  - text: Поделиться
+            - generic [ref=e2930] [cursor=pointer]:
+              - generic [ref=e2931]: "-73%"
+              - button "В избранное" [ref=e2932]:
+                - img [ref=e2933]
+              - generic [ref=e2935]:
+                - img "Full HD 1080P Webcam with 90° Wide Angle, 4X Digital Zoom, Plug-and-Play for PC/Mac"
+              - generic [ref=e2936]:
+                - heading "Full HD 1080P Webcam with 90° Wide Angle, 4X Digital Zoom, Plug-and-Play for PC/Mac" [level=3] [ref=e2937]
+                - generic [ref=e2938]:
+                  - generic [ref=e2939]: 8 639 ₽
+                  - generic [ref=e2940]: 31 997 ₽
+                - generic [ref=e2942]:
+                  - img [ref=e2943]
+                  - text: 67 человек смотрят сейчас
+                - generic [ref=e2947]:
+                  - img [ref=e2948]
+                  - text: Скидка действует ещё 38 часов
+                - generic [ref=e2951]:
+                  - img [ref=e2952]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2954]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012283965256.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2955]
+                  - text: На AliExpress →
+                - paragraph [ref=e2959]:
+                  - img [ref=e2960]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2962]:
+                  - img [ref=e2963]
+                  - text: Поделиться
+            - generic [ref=e2966] [cursor=pointer]:
+              - generic [ref=e2967]: "-73%"
+              - button "В избранное" [ref=e2968]:
+                - img [ref=e2969]
+              - generic [ref=e2971]:
+                - img "10-in-1 USB C Docking Station with Dual HDMI, PD Charging, 5 USB Ports & SD/TF Reader"
+              - generic [ref=e2972]:
+                - heading "10-in-1 USB C Docking Station with Dual HDMI, PD Charging, 5 USB Ports & SD/TF Reader" [level=3] [ref=e2973]
+                - generic [ref=e2974]:
+                  - generic [ref=e2975]: 8 148 ₽
+                  - generic [ref=e2976]: 30 177 ₽
+                - generic [ref=e2978]:
+                  - img [ref=e2979]
+                  - text: 80 человек смотрят сейчас
+                - generic [ref=e2983]:
+                  - img [ref=e2984]
+                  - text: Скидка действует ещё 34 часов
+                - generic [ref=e2987]:
+                  - img [ref=e2988]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e2990]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011700008522.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e2991]
+                  - text: На AliExpress →
+                - paragraph [ref=e2995]:
+                  - img [ref=e2996]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e2998]:
+                  - img [ref=e2999]
+                  - text: Поделиться
+            - generic [ref=e3002] [cursor=pointer]:
+              - generic [ref=e3003]: "-73%"
+              - button "В избранное" [ref=e3004]:
+                - img [ref=e3005]
+              - generic [ref=e3007]:
+                - 'img "Streaming webcam for content creators: aluminum alloy body, white color, 1440p 60 FPS resolution with auto focus, wide-angle le"'
+              - generic [ref=e3008]:
+                - 'heading "Streaming webcam for content creators: aluminum alloy body, white color, 1440p 60 FPS resolution with auto focus, wide-angle le" [level=3] [ref=e3009]'
+                - generic [ref=e3011]: авто
+                - generic [ref=e3012]:
+                  - generic [ref=e3013]: 9 091 ₽
+                  - generic [ref=e3014]: 33 669 ₽
+                - generic [ref=e3016]:
+                  - img [ref=e3017]
+                  - text: 100 человек смотрят сейчас
+                - generic [ref=e3021]:
+                  - img [ref=e3022]
+                  - text: Скидка действует ещё 29 часов
+                - generic [ref=e3025]:
+                  - img [ref=e3026]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e3028]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012291683175.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e3029]
+                  - text: На AliExpress →
+                - paragraph [ref=e3033]:
+                  - img [ref=e3034]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e3036]:
+                  - img [ref=e3037]
+                  - text: Поделиться
+            - generic [ref=e3040] [cursor=pointer]:
+              - generic [ref=e3041]: "-73%"
+              - button "В избранное" [ref=e3042]:
+                - img [ref=e3043]
+              - generic [ref=e3045]:
+                - img "USB-C Hub for Laptop with 4K HDMI, Thunderbolt 4, 100W Charging, SD/TF Card Slots"
+              - generic [ref=e3046]:
+                - heading "USB-C Hub for Laptop with 4K HDMI, Thunderbolt 4, 100W Charging, SD/TF Card Slots" [level=3] [ref=e3047]
+                - generic [ref=e3048]:
+                  - generic [ref=e3049]: авто
+                  - generic [ref=e3050]: ноутбуки
+                - generic [ref=e3051]:
+                  - generic [ref=e3052]: 8 148 ₽
+                  - generic [ref=e3053]: 30 177 ₽
+                - generic [ref=e3055]:
+                  - img [ref=e3056]
+                  - text: 123 человек смотрят сейчас
+                - generic [ref=e3060]:
+                  - img [ref=e3061]
+                  - text: Скидка действует ещё 38 часов
+                - generic [ref=e3064]:
+                  - img [ref=e3065]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e3067]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011700100252.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e3068]
+                  - text: На AliExpress →
+                - paragraph [ref=e3072]:
+                  - img [ref=e3073]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e3075]:
+                  - img [ref=e3076]
+                  - text: Поделиться
+            - generic [ref=e3079] [cursor=pointer]:
+              - generic [ref=e3080]: "-73%"
+              - button "В избранное" [ref=e3081]:
+                - img [ref=e3082]
+              - generic [ref=e3084]:
+                - img "4K Magnetic Webcam for Apple Pro Display XDR, Ultra HD Video with Easy Mount"
+              - generic [ref=e3085]:
+                - heading "4K Magnetic Webcam for Apple Pro Display XDR, Ultra HD Video with Easy Mount" [level=3] [ref=e3086]
+                - generic [ref=e3087]:
+                  - generic [ref=e3088]: 8 550 ₽
+                  - generic [ref=e3089]: 31 668 ₽
+                - generic [ref=e3091]:
+                  - img [ref=e3092]
+                  - text: 123 человек смотрят сейчас
+                - generic [ref=e3096]:
+                  - img [ref=e3097]
+                  - text: Скидка действует ещё 45 часов
+                - generic [ref=e3100]:
+                  - img [ref=e3101]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e3103]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011744484363.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e3104]
+                  - text: На AliExpress →
+                - paragraph [ref=e3108]:
+                  - img [ref=e3109]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e3111]:
+                  - img [ref=e3112]
+                  - text: Поделиться
+            - generic [ref=e3115] [cursor=pointer]:
+              - generic [ref=e3116]: "-73%"
+              - button "В избранное" [ref=e3117]:
+                - img [ref=e3118]
+              - generic [ref=e3120]:
+                - img "ORICO USB C HUB with External M.2 NVMe SSD Enclosure to 4K30Hz USB 3.1 10Gbps PD100 Charging RJ45 Adapter Type-C Docking Station"
+              - generic [ref=e3121]:
+                - heading "ORICO USB C HUB with External M.2 NVMe SSD Enclosure to 4K30Hz USB 3.1 10Gbps PD100 Charging RJ45 Adapter Type-C Docking Station" [level=3] [ref=e3122]
+                - generic [ref=e3123]:
+                  - generic [ref=e3124]: 8 196 ₽
+                  - generic [ref=e3125]: 30 357 ₽
+                - generic [ref=e3127]:
+                  - img [ref=e3128]
+                  - text: 108 человек смотрят сейчас
+                - generic [ref=e3132]:
+                  - img [ref=e3133]
+                  - text: Скидка действует ещё 38 часов
+                - generic [ref=e3136]:
+                  - img [ref=e3137]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e3139]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012257249886.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e3140]
+                  - text: На AliExpress →
+                - paragraph [ref=e3144]:
+                  - img [ref=e3145]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e3147]:
+                  - img [ref=e3148]
+                  - text: Поделиться
+          - button "Показать ещё" [ref=e1219] [cursor=pointer]
+        - generic [ref=e1220]:
+          - heading "Недавно смотрели" [level=2] [ref=e1221]:
+            - img [ref=e1222]
+            - text: Недавно смотрели
+          - link "Asics Men Basic Basketball Shoes 1063A090-600 Non-slip Wear Resistant Athletic Sneakers Outdoor Sports Training Footwear -84% Asics Men Basic Basketball Sho 8 024 ₽" [ref=e1226] [cursor=pointer]:
+            - /url: /item/1954.html
+            - img "Asics Men Basic Basketball Shoes 1063A090-600 Non-slip Wear Resistant Athletic Sneakers Outdoor Sports Training Footwear" [ref=e1227]
+            - generic [ref=e1228]: "-84%"
+            - generic [ref=e1229]: Asics Men Basic Basketball Sho
+            - generic [ref=e1230]: 8 024 ₽
+  - generic [ref=e1231]:
+    - generic [ref=e1232]: ✓
+    - generic [ref=e1233]: Готово
+  - generic [ref=e1235]:
+    - heading "Скидки на AliExpress до 90% — как это работает" [level=2] [ref=e1236]
+    - paragraph [ref=e1237]: SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Мы ежедневно обновляем каталог, чтобы вы всегда находили самые выгодные предложения на электронику, одежду, обувь, товары для дома и авто. Все цены указаны в рублях с учётом актуального курса Центробанка.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e1238]
+    - paragraph [ref=e1239]: Используйте наш поиск по товарам или AI-поиск для подбора идеальных покупок. Добавляйте товары в избранное, чтобы вернуться к ним позже. Каждая карточка содержит реальный рейтинг, количество заказов и характеристики — никаких фейковых скидок.
+    - heading "1000+ товаров с бесплатной доставкой" [level=2] [ref=e1240]
+    - paragraph [ref=e1241]: В нашем каталоге более 1000 товаров с реальными скидками 20–90%. Все ссылки ведут напрямую на AliExpress через партнёрскую программу Admitad — вы получаете ту же цену, а мы небольшую комиссию за направление. Это позволяет нам поддерживать сервис и добавлять новые функции.
+  - contentinfo [ref=e1242]:
+    - generic [ref=e1243]:
+      - generic [ref=e1244]:
+        - generic [ref=e1245]: SmartSkidka.ru
+        - paragraph [ref=e1246]: Лучшие скидки и промокоды на товары с AliExpress. Экономьте умнее!
+      - generic [ref=e1247]:
+        - generic [ref=e1248]:
+          - heading "Категории" [level=4] [ref=e1249]
+          - link "Обувь" [ref=e1250] [cursor=pointer]:
+            - /url: /shoes.html
+          - link "Электроника" [ref=e1251] [cursor=pointer]:
+            - /url: /electronics.html
+          - link "Товары для дома" [ref=e1252] [cursor=pointer]:
+            - /url: /home.html
+          - link "Автотовары" [ref=e1253] [cursor=pointer]:
+            - /url: /auto.html
+          - link "Красота" [ref=e1254] [cursor=pointer]:
+            - /url: /beauty.html
+          - link "Спорт" [ref=e1255] [cursor=pointer]:
+            - /url: /sports.html
+        - generic [ref=e1256]:
+          - heading "Информация" [level=4] [ref=e1257]
+          - link "О нас" [ref=e1258] [cursor=pointer]:
+            - /url: about.html
+          - link "Контакты" [ref=e1259] [cursor=pointer]:
+            - /url: contact.html
+          - link "Политика конфиденциальности" [ref=e1260] [cursor=pointer]:
+            - /url: privacy.html
+          - link "Условия использования" [ref=e1261] [cursor=pointer]:
+            - /url: terms.html
+    - generic [ref=e1262]:
+      - paragraph [ref=e1263]: SmartSkidka.ru — не является магазином. Все товары продаются на AliExpress.
+      - paragraph [ref=e1264]:
+        - img [ref=e1265]
+        - link "Скидки в Telegram — @SmartRuMarket" [ref=e1269] [cursor=pointer]:
+          - /url: https://t.me/SmartRuMarket
+      - paragraph [ref=e1270]: 2026 SmartSkidka.ru
+      - paragraph [ref=e1271]:
+        - link "ИКС сайта" [ref=e1272] [cursor=pointer]:
+          - /url: https://webmaster.yandex.ru/siteinfo/?site=https://smart-skidka.ru
+          - img "ИКС сайта" [ref=e1273]

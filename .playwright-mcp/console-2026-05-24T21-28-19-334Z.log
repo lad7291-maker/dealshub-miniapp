@@ -1,0 +1,7 @@
+[     434ms] [LOG] [SW] Registered: http://localhost:8080/ @ http://localhost:8080/index.html?v=refresh:167
+[     932ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/index.html?v=refresh:0
+[    1310ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ http://localhost:8080/index.html?v=refresh:0
+[   27438ms] [LOG] [CardClick] card.dataset.id=90 parsed=90 @ http://localhost:8080/js/app.js?v=20:332
+[   27440ms] [LOG] [openProductModal] id=90 product=Регулируемый источник питания постоянног @ http://localhost:8080/js/app.js?v=20:714
+[   87398ms] [LOG] [CardClick] card.dataset.id=1 parsed=1 @ http://localhost:8080/js/app.js?v=20:332
+[   87401ms] [LOG] [openProductModal] id=1 product=Новые стильные светящиеся в темноте крос @ http://localhost:8080/js/app.js?v=20:714

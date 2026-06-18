@@ -1,0 +1,122 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Smart Skidka .ru" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e6]
+        - generic [ref=e10]:
+          - generic [ref=e11]: Smart
+          - generic [ref=e12]: Skidka
+          - generic [ref=e13]: .ru
+      - generic [ref=e14]:
+        - img
+        - textbox "Поиск товаров..." [ref=e15]
+        - button "AI поиск" [ref=e16] [cursor=pointer]: 🔮
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]: ✦
+          - generic [ref=e20]: "AI-поиск: 3 из 3"
+        - button "Избранное" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e28]: 1000+ товаров со скидками до 90%
+      - heading "Лучшие скидки AliExpress" [level=1] [ref=e29]
+      - paragraph [ref=e30]: Экономьте до 90% на топовых товарах с бесплатной доставкой
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: 1000+
+          - generic [ref=e34]: Товаров
+        - generic [ref=e35]:
+          - generic [ref=e36]: до 90%
+          - generic [ref=e37]: Скидки
+        - generic [ref=e38]:
+          - generic [ref=e39]: 0₽
+          - generic [ref=e40]: Доставка
+    - generic [ref=e42]:
+      - button "Все" [ref=e43] [cursor=pointer]
+      - button "Обувь" [ref=e44] [cursor=pointer]
+      - button "Одежда" [ref=e45] [cursor=pointer]
+      - button "Электроника" [ref=e46] [cursor=pointer]
+      - button "Дом" [ref=e47] [cursor=pointer]
+      - button "Авто" [ref=e48] [cursor=pointer]
+      - button "Красота" [ref=e49] [cursor=pointer]
+      - button "Спорт" [ref=e50] [cursor=pointer]
+      - button "Украшения" [ref=e51] [cursor=pointer]
+      - button "Игрушки" [ref=e52] [cursor=pointer]
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - button "Все скидки" [ref=e56] [cursor=pointer]
+          - button "50%+" [ref=e57] [cursor=pointer]
+          - button "70%+" [ref=e58] [cursor=pointer]
+          - button "90%+" [ref=e59] [cursor=pointer]
+        - combobox [ref=e61] [cursor=pointer]:
+          - option "🔥 По скидке" [selected]
+          - option "💰 Сначала дешевые"
+          - option "💰 Сначала дорогие"
+          - option "⭐ По рейтингу"
+          - option "📦 По заказам"
+      - generic [ref=e62]: Показано 24 товара
+    - heading "🔥 Подборки скидок" [level=2] [ref=e64]
+    - heading "🏆 Топ-10 за неделю" [level=2] [ref=e66]
+    - link "AliExpress RU&CIS" [ref=e68] [cursor=pointer]:
+      - /url: https://ali.click/c7qq81p?gc=ad0kctin2rfb6bf39686b6d1781017&erid=2bL9aMPo2e49hMef4rqytMJKXR
+      - img "AliExpress RU&CIS" [ref=e69]
+    - button "Показать ещё" [ref=e71] [cursor=pointer]
+  - generic [ref=e72]:
+    - generic [ref=e73]: 🔥 Лучшие скидки на AliExpress
+    - link "Смотреть скидки" [ref=e74] [cursor=pointer]:
+      - /url: /
+  - generic [ref=e75]:
+    - generic [ref=e76]: ✓
+    - generic [ref=e77]: Добавлено в корзину
+  - generic [ref=e79]:
+    - heading "Скидки на AliExpress до 90% — как это работает" [level=2] [ref=e80]
+    - paragraph [ref=e81]: SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Мы ежедневно обновляем каталог, чтобы вы всегда находили самые выгодные предложения на электронику, одежду, обувь, товары для дома и авто. Все цены указаны в рублях с учётом актуального курса Центробанка.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e82]
+    - paragraph [ref=e83]: Используйте наш поиск по товарам или 🔮 AI-поиск для подбора идеальных покупок. Добавляйте товары в избранное, чтобы вернуться к ним позже. Каждая карточка содержит реальный рейтинг, количество заказов и характеристики — никаких фейковых скидок.
+    - heading "1000+ товаров с бесплатной доставкой" [level=2] [ref=e84]
+    - paragraph [ref=e85]: В нашем каталоге более 1000 товаров с реальными скидками 20–90%. Все ссылки ведут напрямую на AliExpress через партнёрскую программу Admitad — вы получаете ту же цену, а мы небольшую комиссию за направление. Это позволяет нам поддерживать сервис и добавлять новые функции.
+  - contentinfo [ref=e86]:
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e89]: SmartSkidka.ru
+        - paragraph [ref=e90]: Лучшие скидки и промокоды на товары с AliExpress. Экономьте умнее!
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - heading "Категории" [level=4] [ref=e93]
+          - link "Обувь" [ref=e94] [cursor=pointer]:
+            - /url: /shoes.html
+          - link "Электроника" [ref=e95] [cursor=pointer]:
+            - /url: /electronics.html
+          - link "Одежда" [ref=e96] [cursor=pointer]:
+            - /url: /clothing.html
+          - link "Товары для дома" [ref=e97] [cursor=pointer]:
+            - /url: /home.html
+          - link "Автотовары" [ref=e98] [cursor=pointer]:
+            - /url: /auto.html
+          - link "Красота" [ref=e99] [cursor=pointer]:
+            - /url: /beauty.html
+          - link "Украшения" [ref=e100] [cursor=pointer]:
+            - /url: /jewelry.html
+          - link "Спорт" [ref=e101] [cursor=pointer]:
+            - /url: /sports.html
+          - link "Игрушки" [ref=e102] [cursor=pointer]:
+            - /url: /toys.html
+        - generic [ref=e103]:
+          - heading "Информация" [level=4] [ref=e104]
+          - link "О нас" [ref=e105] [cursor=pointer]:
+            - /url: about.html
+          - link "Контакты" [ref=e106] [cursor=pointer]:
+            - /url: contact.html
+          - link "Политика конфиденциальности" [ref=e107] [cursor=pointer]:
+            - /url: privacy.html
+          - link "Условия использования" [ref=e108] [cursor=pointer]:
+            - /url: terms.html
+    - generic [ref=e109]:
+      - paragraph [ref=e110]: SmartSkidka.ru — не является магазином. Все товары продаются на AliExpress.
+      - paragraph [ref=e111]:
+        - link "📢 Скидки в Telegram — @SmartRuMarket" [ref=e112] [cursor=pointer]:
+          - /url: https://t.me/SmartRuMarket
+      - paragraph [ref=e113]: 2026 SmartSkidka.ru

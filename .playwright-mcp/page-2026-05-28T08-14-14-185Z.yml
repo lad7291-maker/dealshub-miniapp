@@ -1,0 +1,1012 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "SmartSkidka" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: Установите SmartSkidka
+      - generic [ref=e7]: Быстрый доступ к скидкам
+    - button "Установить" [ref=e8] [cursor=pointer]
+    - button "×" [ref=e9] [cursor=pointer]
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "Smart Skidka .ru" [ref=e12] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e14]
+        - generic [ref=e18]:
+          - generic [ref=e19]: Smart
+          - generic [ref=e20]: Skidka
+          - generic [ref=e21]: .ru
+      - generic [ref=e22]:
+        - img
+        - textbox "Поиск товаров..." [ref=e23]
+        - button "AI поиск" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+      - generic [ref=e27]:
+        - generic [ref=e28]: "AI-поиск: 3 из 3 осталось"
+        - button "Избранное" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+  - main [ref=e32]:
+    - generic [ref=e34]:
+      - generic [ref=e36]: 1000+ товаров со скидками до 90%
+      - heading "Лучшие скидки AliExpress" [level=1] [ref=e37]
+      - paragraph [ref=e38]: Экономьте до 90% на топовых товарах с бесплатной доставкой
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: 1000+
+          - generic [ref=e42]: Товаров
+        - generic [ref=e43]:
+          - generic [ref=e44]: до 90%
+          - generic [ref=e45]: Скидки
+        - generic [ref=e46]:
+          - generic [ref=e47]: Бесплатно
+          - generic [ref=e48]: Доставка
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - button "Все скидки" [ref=e52] [cursor=pointer]
+          - button "30%+" [ref=e53] [cursor=pointer]
+          - button "50%+" [ref=e54] [cursor=pointer]
+          - button "70%+" [ref=e55] [cursor=pointer]
+          - button "90%+" [ref=e56] [cursor=pointer]
+        - generic [ref=e57]:
+          - generic [ref=e58]: "Цена:"
+          - spinbutton [ref=e59]
+          - generic [ref=e60]: —
+          - spinbutton [ref=e61]
+          - button "OK" [ref=e62] [cursor=pointer]
+        - combobox [ref=e64] [cursor=pointer]:
+          - option "По скидке" [selected]
+          - option "Сначала дешевые"
+          - option "Сначала дорогие"
+          - option "По заказам"
+      - generic [ref=e65]: 1000 товаров
+    - generic [ref=e66]:
+      - heading "Подборки скидок" [level=2] [ref=e67]:
+        - img [ref=e68]
+        - text: Подборки скидок
+      - generic [ref=e70]:
+        - link "Скидки до 90% на электронику →" [ref=e71] [cursor=pointer]:
+          - /url: /electronics.html?filter=90
+          - img [ref=e73]
+          - generic [ref=e76]: Скидки до 90% на электронику
+          - generic [ref=e77]: →
+        - link "Топ одежды со скидками 70%+ →" [ref=e78] [cursor=pointer]:
+          - /url: /clothing.html?filter=70
+          - img [ref=e80]
+          - generic [ref=e82]: Топ одежды со скидками 70%+
+          - generic [ref=e83]: →
+        - link "Лучшие цены на кроссовки →" [ref=e84] [cursor=pointer]:
+          - /url: /shoes.html?filter=all
+          - img [ref=e86]
+          - generic [ref=e90]: Лучшие цены на кроссовки
+          - generic [ref=e91]: →
+        - link "Всё для дома до 1000₽ →" [ref=e92] [cursor=pointer]:
+          - /url: /home.html?filter=all
+          - img [ref=e94]
+          - generic [ref=e97]: Всё для дома до 1000₽
+          - generic [ref=e98]: →
+    - generic [ref=e99]:
+      - heading "Топ-10 за неделю" [level=2] [ref=e100]:
+        - img [ref=e101]
+        - text: Топ-10 за неделю
+      - generic [ref=e104]:
+        - link "1 Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренир Мужские базовые баскетбольные кроссовки 6 180 ₽ -84%" [ref=e105] [cursor=pointer]:
+          - /url: /item/1.html
+          - generic [ref=e106]: "1"
+          - img "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренир" [ref=e107]
+          - generic [ref=e108]:
+            - generic [ref=e109]: Мужские базовые баскетбольные кроссовки
+            - generic [ref=e110]: 6 180 ₽
+          - generic [ref=e111]: "-84%"
+        - link "2 Мужские кроссовки Adidas JR9380 белые, черные, красные, флуоресцентные, спортивные Мужские кроссовки Adidas JR9380 белые, ч 6 395 ₽ -84%" [ref=e112] [cursor=pointer]:
+          - /url: /item/2.html
+          - generic [ref=e113]: "2"
+          - img "Мужские кроссовки Adidas JR9380 белые, черные, красные, флуоресцентные, спортивные" [ref=e114]
+          - generic [ref=e115]:
+            - generic [ref=e116]: Мужские кроссовки Adidas JR9380 белые, ч
+            - generic [ref=e117]: 6 395 ₽
+          - generic [ref=e118]: "-84%"
+        - link "3 Оригинальные мужские легкие кроссовки Nike Journey Run с амортизацией FN0228-008 Оригинальные мужские легкие кроссовки Ni 6 193 ₽ -84%" [ref=e119] [cursor=pointer]:
+          - /url: /item/3.html
+          - generic [ref=e120]: "3"
+          - img "Оригинальные мужские легкие кроссовки Nike Journey Run с амортизацией FN0228-008" [ref=e121]
+          - generic [ref=e122]:
+            - generic [ref=e123]: Оригинальные мужские легкие кроссовки Ni
+            - generic [ref=e124]: 6 193 ₽
+          - generic [ref=e125]: "-84%"
+        - link "4 Женские кроссовки Nike Journey Run Autumn New для повседневных тренировок FJ7765-114 Женские кроссовки Nike Journey Run Autum 6 193 ₽ -84%" [ref=e126] [cursor=pointer]:
+          - /url: /item/4.html
+          - generic [ref=e127]: "4"
+          - img "Женские кроссовки Nike Journey Run Autumn New для повседневных тренировок FJ7765-114" [ref=e128]
+          - generic [ref=e129]:
+            - generic [ref=e130]: Женские кроссовки Nike Journey Run Autum
+            - generic [ref=e131]: 6 193 ₽
+          - generic [ref=e132]: "-84%"
+        - 'link "5 Новые мужские повседневные кроссовки Nike 2026: легкие, дышащие, нескользящие, с мягкой подошвой, для ежедневного исполь Новые мужские повседневные кроссовки Nik 6 294 ₽ -84%" [ref=e133] [cursor=pointer]':
+          - /url: /item/5.html
+          - generic [ref=e134]: "5"
+          - 'img "Новые мужские повседневные кроссовки Nike 2026: легкие, дышащие, нескользящие, с мягкой подошвой, для ежедневного исполь" [ref=e135]'
+          - generic [ref=e136]:
+            - generic [ref=e137]: Новые мужские повседневные кроссовки Nik
+            - generic [ref=e138]: 6 294 ₽
+          - generic [ref=e139]: "-84%"
+        - link "6 Новые мужские и женские кроссовки Adidas Terrex Boat Slip-On Climacool для активного отдыха, туризма, альпинизма и велос Новые мужские и женские кроссовки Adidas 6 158 ₽ -80%" [ref=e140] [cursor=pointer]:
+          - /url: /item/6.html
+          - generic [ref=e141]: "6"
+          - img "Новые мужские и женские кроссовки Adidas Terrex Boat Slip-On Climacool для активного отдыха, туризма, альпинизма и велос" [ref=e142]
+          - generic [ref=e143]:
+            - generic [ref=e144]: Новые мужские и женские кроссовки Adidas
+            - generic [ref=e145]: 6 158 ₽
+          - generic [ref=e146]: "-80%"
+        - link "7 Детские низкие кроссовки Nike DV5456141 2026 года, с кожаным верхом и прочной резиновой подошвой, для школы Детские низкие кроссовки Nike DV5456141 6 192 ₽ -78%" [ref=e147] [cursor=pointer]:
+          - /url: /item/7.html
+          - generic [ref=e148]: "7"
+          - img "Детские низкие кроссовки Nike DV5456141 2026 года, с кожаным верхом и прочной резиновой подошвой, для школы" [ref=e149]
+          - generic [ref=e150]:
+            - generic [ref=e151]: Детские низкие кроссовки Nike DV5456141
+            - generic [ref=e152]: 6 192 ₽
+          - generic [ref=e153]: "-78%"
+        - link "8 Новые черные кроссовки Nike Revolution 6 Single Layer Mesh Low-Top DC3728-003 Новые черные кроссовки Nike Revolution 6 6 228 ₽ -78%" [ref=e154] [cursor=pointer]:
+          - /url: /item/8.html
+          - generic [ref=e155]: "8"
+          - img "Новые черные кроссовки Nike Revolution 6 Single Layer Mesh Low-Top DC3728-003" [ref=e156]
+          - generic [ref=e157]:
+            - generic [ref=e158]: Новые черные кроссовки Nike Revolution 6
+            - generic [ref=e159]: 6 228 ₽
+          - generic [ref=e160]: "-78%"
+        - link "9 Черные кроссовки Nike Revolution 6 Single Layer Mesh Low-Top DC3728-003 Черные кроссовки Nike Revolution 6 Singl 6 228 ₽ -78%" [ref=e161] [cursor=pointer]:
+          - /url: /item/9.html
+          - generic [ref=e162]: "9"
+          - img "Черные кроссовки Nike Revolution 6 Single Layer Mesh Low-Top DC3728-003" [ref=e163]
+          - generic [ref=e164]:
+            - generic [ref=e165]: Черные кроссовки Nike Revolution 6 Singl
+            - generic [ref=e166]: 6 228 ₽
+          - generic [ref=e167]: "-78%"
+        - link "10 Кронштейн для оконного кондиционера без сверления, сверхпрочный, выдерживает до 160 кг, для кондиционеров мощностью 5000 Кронштейн для оконного кондиционера без 6 215 ₽ -75%" [ref=e168] [cursor=pointer]:
+          - /url: /item/10.html
+          - generic [ref=e169]: "10"
+          - img "Кронштейн для оконного кондиционера без сверления, сверхпрочный, выдерживает до 160 кг, для кондиционеров мощностью 5000" [ref=e170]
+          - generic [ref=e171]:
+            - generic [ref=e172]: Кронштейн для оконного кондиционера без
+            - generic [ref=e173]: 6 215 ₽
+          - generic [ref=e174]: "-75%"
+    - link "AliExpress RU&CIS" [ref=e176] [cursor=pointer]:
+      - /url: https://rzekl.com/g/1e8d114494fb6bf3968616525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Faliexpress.ru%252F&subid=smartskidka_banner
+      - img "AliExpress RU&CIS" [ref=e177]
+    - generic [ref=e178]:
+      - generic [ref=e179]:
+        - generic [ref=e180] [cursor=pointer]:
+          - generic [ref=e181]: "-84%"
+          - button "В избранное" [ref=e182]:
+            - img [ref=e183]
+          - generic [ref=e185]:
+            - img "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренир"
+          - generic [ref=e186]:
+            - heading "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренир" [level=3] [ref=e187]
+            - generic [ref=e188]:
+              - generic [ref=e189]: asics
+              - generic [ref=e190]: баскетбольные
+              - generic [ref=e191]: кроссовки
+            - generic [ref=e192]:
+              - generic [ref=e193]: 6 180 ₽
+              - generic [ref=e194]: 38 628 ₽
+            - generic [ref=e196]:
+              - img [ref=e197]
+              - text: 97 человек смотрят сейчас
+            - generic [ref=e201]:
+              - img [ref=e202]
+              - text: Скидка действует ещё 24 часов
+            - generic [ref=e205]:
+              - img [ref=e206]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e208]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012187879342.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e209]
+              - text: На AliExpress →
+            - paragraph [ref=e213]:
+              - img [ref=e214]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e216]:
+              - img [ref=e217]
+              - text: Поделиться
+        - generic [ref=e220] [cursor=pointer]:
+          - generic [ref=e221]: "-84%"
+          - button "В избранное" [ref=e222]:
+            - img [ref=e223]
+          - generic [ref=e225]:
+            - img "Мужские кроссовки Adidas JR9380 белые, черные, красные, флуоресцентные, спортивные"
+          - generic [ref=e226]:
+            - heading "Мужские кроссовки Adidas JR9380 белые, черные, красные, флуоресцентные, спортивные" [level=3] [ref=e227]
+            - generic [ref=e228]:
+              - generic [ref=e229]: adidas
+              - generic [ref=e230]: белые
+              - generic [ref=e231]: красные
+            - generic [ref=e232]:
+              - generic [ref=e233]: 6 395 ₽
+              - generic [ref=e234]: 39 965 ₽
+            - generic [ref=e236]:
+              - img [ref=e237]
+              - text: 38 человек смотрят сейчас
+            - generic [ref=e241]:
+              - img [ref=e242]
+              - text: Скидка действует ещё 20 часов
+            - generic [ref=e245]:
+              - img [ref=e246]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e248]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012208770329.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e249]
+              - text: На AliExpress →
+            - paragraph [ref=e253]:
+              - img [ref=e254]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e256]:
+              - img [ref=e257]
+              - text: Поделиться
+        - generic [ref=e260] [cursor=pointer]:
+          - generic [ref=e261]: "-84%"
+          - button "В избранное" [ref=e262]:
+            - img [ref=e263]
+          - generic [ref=e265]:
+            - img "Оригинальные мужские легкие кроссовки Nike Journey Run с амортизацией FN0228-008"
+          - generic [ref=e266]:
+            - heading "Оригинальные мужские легкие кроссовки Nike Journey Run с амортизацией FN0228-008" [level=3] [ref=e267]
+            - generic [ref=e268]:
+              - generic [ref=e269]: nike
+              - generic [ref=e270]: кроссовки
+              - generic [ref=e271]: легкие
+            - generic [ref=e272]:
+              - generic [ref=e273]: 6 193 ₽
+              - generic [ref=e274]: 38 703 ₽
+            - generic [ref=e276]:
+              - img [ref=e277]
+              - text: 127 человек смотрят сейчас
+            - generic [ref=e281]:
+              - img [ref=e282]
+              - text: Скидка действует ещё 20 часов
+            - generic [ref=e285]:
+              - img [ref=e286]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e288]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012323775812.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e289]
+              - text: На AliExpress →
+            - paragraph [ref=e293]:
+              - img [ref=e294]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e296]:
+              - img [ref=e297]
+              - text: Поделиться
+        - generic [ref=e300] [cursor=pointer]:
+          - generic [ref=e301]: "-84%"
+          - button "В избранное" [ref=e302]:
+            - img [ref=e303]
+          - generic [ref=e305]:
+            - img "Женские кроссовки Nike Journey Run Autumn New для повседневных тренировок FJ7765-114"
+          - generic [ref=e306]:
+            - heading "Женские кроссовки Nike Journey Run Autumn New для повседневных тренировок FJ7765-114" [level=3] [ref=e307]
+            - generic [ref=e308]:
+              - generic [ref=e309]: nike
+              - generic [ref=e310]: женские
+              - generic [ref=e311]: кроссовки
+            - generic [ref=e312]:
+              - generic [ref=e313]: 6 193 ₽
+              - generic [ref=e314]: 38 703 ₽
+            - generic [ref=e316]:
+              - img [ref=e317]
+              - text: 170 человек смотрят сейчас
+            - generic [ref=e321]:
+              - img [ref=e322]
+              - text: Скидка действует ещё 46 часов
+            - generic [ref=e325]:
+              - img [ref=e326]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e328]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012328750479.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e329]
+              - text: На AliExpress →
+            - paragraph [ref=e333]:
+              - img [ref=e334]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e336]:
+              - img [ref=e337]
+              - text: Поделиться
+        - generic [ref=e340] [cursor=pointer]:
+          - generic [ref=e341]: "-84%"
+          - button "В избранное" [ref=e342]:
+            - img [ref=e343]
+          - generic [ref=e345]:
+            - 'img "Новые мужские повседневные кроссовки Nike 2026: легкие, дышащие, нескользящие, с мягкой подошвой, для ежедневного исполь"'
+          - generic [ref=e346]:
+            - 'heading "Новые мужские повседневные кроссовки Nike 2026: легкие, дышащие, нескользящие, с мягкой подошвой, для ежедневного исполь" [level=3] [ref=e347]'
+            - generic [ref=e348]:
+              - generic [ref=e349]: nike
+              - generic [ref=e350]: дышащие
+              - generic [ref=e351]: кроссовки
+            - generic [ref=e352]:
+              - generic [ref=e353]: 6 294 ₽
+              - generic [ref=e354]: 39 337 ₽
+            - generic [ref=e356]:
+              - img [ref=e357]
+              - text: 135 человек смотрят сейчас
+            - generic [ref=e361]:
+              - img [ref=e362]
+              - text: Скидка действует ещё 33 часов
+            - generic [ref=e365]:
+              - img [ref=e366]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e368]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012206797633.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e369]
+              - text: На AliExpress →
+            - paragraph [ref=e373]:
+              - img [ref=e374]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e376]:
+              - img [ref=e377]
+              - text: Поделиться
+        - generic [ref=e380] [cursor=pointer]:
+          - generic [ref=e381]: "-80%"
+          - button "В избранное" [ref=e382]:
+            - img [ref=e383]
+          - generic [ref=e385]:
+            - img "Новые мужские и женские кроссовки Adidas Terrex Boat Slip-On Climacool для активного отдыха, туризма, альпинизма и велос"
+          - generic [ref=e386]:
+            - heading "Новые мужские и женские кроссовки Adidas Terrex Boat Slip-On Climacool для активного отдыха, туризма, альпинизма и велос" [level=3] [ref=e387]
+            - generic [ref=e388]:
+              - generic [ref=e389]: adidas
+              - generic [ref=e390]: slip-on
+              - generic [ref=e391]: велосипедныеивные
+            - generic [ref=e392]:
+              - generic [ref=e393]: 6 158 ₽
+              - generic [ref=e394]: 30 790 ₽
+            - generic [ref=e396]:
+              - img [ref=e397]
+              - text: 200 человек смотрят сейчас
+            - generic [ref=e401]:
+              - img [ref=e402]
+              - text: Скидка действует ещё 27 часов
+            - generic [ref=e405]:
+              - img [ref=e406]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e408]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012332444150.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e409]
+              - text: На AliExpress →
+            - paragraph [ref=e413]:
+              - img [ref=e414]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e416]:
+              - img [ref=e417]
+              - text: Поделиться
+        - generic [ref=e420] [cursor=pointer]:
+          - generic [ref=e421]: "-78%"
+          - button "В избранное" [ref=e422]:
+            - img [ref=e423]
+          - generic [ref=e425]:
+            - img "Детские низкие кроссовки Nike DV5456141 2026 года, с кожаным верхом и прочной резиновой подошвой, для школы"
+          - generic [ref=e426]:
+            - heading "Детские низкие кроссовки Nike DV5456141 2026 года, с кожаным верхом и прочной резиновой подошвой, для школы" [level=3] [ref=e427]
+            - generic [ref=e428]:
+              - generic [ref=e429]: nike
+              - generic [ref=e430]: детские
+              - generic [ref=e431]: кроссовки
+            - generic [ref=e432]:
+              - generic [ref=e433]: 6 192 ₽
+              - generic [ref=e434]: 28 146 ₽
+            - generic [ref=e436]:
+              - img [ref=e437]
+              - text: 159 человек смотрят сейчас
+            - generic [ref=e441]:
+              - img [ref=e442]
+              - text: Скидка действует ещё 12 часов
+            - generic [ref=e445]:
+              - img [ref=e446]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e448]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012306781221.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e449]
+              - text: На AliExpress →
+            - paragraph [ref=e453]:
+              - img [ref=e454]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e456]:
+              - img [ref=e457]
+              - text: Поделиться
+        - generic [ref=e460] [cursor=pointer]:
+          - generic [ref=e461]: "-78%"
+          - button "В избранное" [ref=e462]:
+            - img [ref=e463]
+          - generic [ref=e465]:
+            - img "Новые черные кроссовки Nike Revolution 6 Single Layer Mesh Low-Top DC3728-003"
+          - generic [ref=e466]:
+            - heading "Новые черные кроссовки Nike Revolution 6 Single Layer Mesh Low-Top DC3728-003" [level=3] [ref=e467]
+            - generic [ref=e468]:
+              - generic [ref=e469]: nike
+              - generic [ref=e470]: кроссовки
+              - generic [ref=e471]: черные
+            - generic [ref=e472]:
+              - generic [ref=e473]: 6 228 ₽
+              - generic [ref=e474]: 28 310 ₽
+            - generic [ref=e476]:
+              - img [ref=e477]
+              - text: 76 человек смотрят сейчас
+            - generic [ref=e481]:
+              - img [ref=e482]
+              - text: Скидка действует ещё 45 часов
+            - generic [ref=e485]:
+              - img [ref=e486]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e488]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012308101160.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e489]
+              - text: На AliExpress →
+            - paragraph [ref=e493]:
+              - img [ref=e494]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e496]:
+              - img [ref=e497]
+              - text: Поделиться
+        - generic [ref=e500] [cursor=pointer]:
+          - generic [ref=e501]: "-78%"
+          - button "В избранное" [ref=e502]:
+            - img [ref=e503]
+          - generic [ref=e505]:
+            - img "Черные кроссовки Nike Revolution 6 Single Layer Mesh Low-Top DC3728-003"
+          - generic [ref=e506]:
+            - heading "Черные кроссовки Nike Revolution 6 Single Layer Mesh Low-Top DC3728-003" [level=3] [ref=e507]
+            - generic [ref=e508]:
+              - generic [ref=e509]: nike
+              - generic [ref=e510]: кроссовки
+              - generic [ref=e511]: черные
+            - generic [ref=e512]:
+              - generic [ref=e513]: 6 228 ₽
+              - generic [ref=e514]: 28 310 ₽
+            - generic [ref=e516]:
+              - img [ref=e517]
+              - text: 185 человек смотрят сейчас
+            - generic [ref=e521]:
+              - img [ref=e522]
+              - text: Скидка действует ещё 14 часов
+            - generic [ref=e525]:
+              - img [ref=e526]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e528]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012281775116.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e529]
+              - text: На AliExpress →
+            - paragraph [ref=e533]:
+              - img [ref=e534]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e536]:
+              - img [ref=e537]
+              - text: Поделиться
+        - generic [ref=e540] [cursor=pointer]:
+          - generic [ref=e541]: "-75%"
+          - button "В избранное" [ref=e542]:
+            - img [ref=e543]
+          - generic [ref=e545]:
+            - img "Кронштейн для оконного кондиционера без сверления, сверхпрочный, выдерживает до 160 кг, для кондиционеров мощностью 5000"
+          - generic [ref=e546]:
+            - heading "Кронштейн для оконного кондиционера без сверления, сверхпрочный, выдерживает до 160 кг, для кондиционеров мощностью 5000" [level=3] [ref=e547]
+            - generic [ref=e548]:
+              - generic [ref=e549]: 6 215 ₽
+              - generic [ref=e550]: 24 860 ₽
+            - generic [ref=e552]:
+              - img [ref=e553]
+              - text: 32 человек смотрят сейчас
+            - generic [ref=e557]:
+              - img [ref=e558]
+              - text: Скидка действует ещё 26 часов
+            - generic [ref=e561]:
+              - img [ref=e562]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e564]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012280648158.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e565]
+              - text: На AliExpress →
+            - paragraph [ref=e569]:
+              - img [ref=e570]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e572]:
+              - img [ref=e573]
+              - text: Поделиться
+        - generic [ref=e576] [cursor=pointer]:
+          - generic [ref=e577]: "-69%"
+          - button "В избранное" [ref=e578]:
+            - img [ref=e579]
+          - generic [ref=e581]:
+            - img "Мужские кроссовки Trail Glove 6"
+          - generic [ref=e582]:
+            - heading "Мужские кроссовки Trail Glove 6" [level=3] [ref=e583]
+            - generic [ref=e584]:
+              - generic [ref=e585]: кроссовки
+              - generic [ref=e586]: мужские
+            - generic [ref=e587]:
+              - generic [ref=e588]: 6 753 ₽
+              - generic [ref=e589]: 21 783 ₽
+            - generic [ref=e591]:
+              - img [ref=e592]
+              - text: 33 человек смотрят сейчас
+            - generic [ref=e596]:
+              - img [ref=e597]
+              - text: Скидка действует ещё 31 часов
+            - generic [ref=e600]:
+              - img [ref=e601]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e603]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012063173576.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e604]
+              - text: На AliExpress →
+            - paragraph [ref=e608]:
+              - img [ref=e609]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e611]:
+              - img [ref=e612]
+              - text: Поделиться
+        - generic [ref=e615] [cursor=pointer]:
+          - generic [ref=e616]: "-67%"
+          - button "В избранное" [ref=e617]:
+            - img [ref=e618]
+          - generic [ref=e620]:
+            - img "120 Вт редуктор червячного редуктора, двигатель с высоким крутящим моментом, 24 В постоянного тока, редуктор червячного"
+          - generic [ref=e621]:
+            - heading "120 Вт редуктор червячного редуктора, двигатель с высоким крутящим моментом, 24 В постоянного тока, редуктор червячного" [level=3] [ref=e622]
+            - generic [ref=e623]:
+              - generic [ref=e624]: 6 177 ₽
+              - generic [ref=e625]: 18 717 ₽
+            - generic [ref=e627]:
+              - img [ref=e628]
+              - text: 191 человек смотрят сейчас
+            - generic [ref=e632]:
+              - img [ref=e633]
+              - text: Скидка действует ещё 42 часов
+            - generic [ref=e636]:
+              - img [ref=e637]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e639]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005008741985282.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e640]
+              - text: На AliExpress →
+            - paragraph [ref=e644]:
+              - img [ref=e645]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e647]:
+              - img [ref=e648]
+              - text: Поделиться
+        - generic [ref=e651] [cursor=pointer]:
+          - generic [ref=e652]: "-66%"
+          - button "В избранное" [ref=e653]:
+            - img [ref=e654]
+          - generic [ref=e656]:
+            - img "Отрезной диск для угловой шлифмашины Тип 29, 100 мм, зернистость 120, темно-серый, высокопроизводительный, прочный абраз"
+          - generic [ref=e657]:
+            - heading "Отрезной диск для угловой шлифмашины Тип 29, 100 мм, зернистость 120, темно-серый, высокопроизводительный, прочный абраз" [level=3] [ref=e658]
+            - generic [ref=e659]:
+              - generic [ref=e660]: 6 504 ₽
+              - generic [ref=e661]: 18 987 ₽
+            - generic [ref=e663]:
+              - img [ref=e664]
+              - text: 53 человек смотрят сейчас
+            - generic [ref=e668]:
+              - img [ref=e669]
+              - text: Скидка действует ещё 12 часов
+            - generic [ref=e672]:
+              - img [ref=e673]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e675]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011930563977.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e676]
+              - text: На AliExpress →
+            - paragraph [ref=e680]:
+              - img [ref=e681]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e683]:
+              - img [ref=e684]
+              - text: Поделиться
+        - generic [ref=e687] [cursor=pointer]:
+          - generic [ref=e688]: "-65%"
+          - button "В избранное" [ref=e689]:
+            - img [ref=e690]
+          - generic [ref=e692]:
+            - img "Новые модные женские повседневные спортивные кроссовки Nike W Nike P 6000 BV1021-011"
+          - generic [ref=e693]:
+            - heading "Новые модные женские повседневные спортивные кроссовки Nike W Nike P 6000 BV1021-011" [level=3] [ref=e694]
+            - generic [ref=e695]:
+              - generic [ref=e696]: nike
+              - generic [ref=e697]: женские
+              - generic [ref=e698]: кроссовки
+            - generic [ref=e699]:
+              - generic [ref=e700]: 6 547 ₽
+              - generic [ref=e701]: 18 706 ₽
+            - generic [ref=e703]:
+              - img [ref=e704]
+              - text: 183 человек смотрят сейчас
+            - generic [ref=e708]:
+              - img [ref=e709]
+              - text: Скидка действует ещё 43 часов
+            - generic [ref=e712]:
+              - img [ref=e713]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e715]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011913344197.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e716]
+              - text: На AliExpress →
+            - paragraph [ref=e720]:
+              - img [ref=e721]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e723]:
+              - img [ref=e724]
+              - text: Поделиться
+        - generic [ref=e727] [cursor=pointer]:
+          - generic [ref=e728]: "-65%"
+          - button "В избранное" [ref=e729]:
+            - img [ref=e730]
+          - generic [ref=e732]:
+            - img "Флеш-лампа Bluetooth для стоматологической фотографии, светодиодный светильник для освещения полости рта, оборудование д"
+          - generic [ref=e733]:
+            - heading "Флеш-лампа Bluetooth для стоматологической фотографии, светодиодный светильник для освещения полости рта, оборудование д" [level=3] [ref=e734]
+            - generic [ref=e735]:
+              - generic [ref=e736]: 6 368 ₽
+              - generic [ref=e737]: 18 196 ₽
+            - generic [ref=e739]:
+              - img [ref=e740]
+              - text: 199 человек смотрят сейчас
+            - generic [ref=e744]:
+              - img [ref=e745]
+              - text: Скидка действует ещё 41 часов
+            - generic [ref=e748]:
+              - img [ref=e749]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e751]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012060988917.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e752]
+              - text: На AliExpress →
+            - paragraph [ref=e756]:
+              - img [ref=e757]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e759]:
+              - img [ref=e760]
+              - text: Поделиться
+        - generic [ref=e763] [cursor=pointer]:
+          - generic [ref=e764]: "-65%"
+          - button "В избранное" [ref=e765]:
+            - img [ref=e766]
+          - generic [ref=e768]:
+            - img "Модель зубов-типодонтов для обучения, настольная стойка-крепление, стоматологический манекен с регулируемым шарнирным со"
+          - generic [ref=e769]:
+            - heading "Модель зубов-типодонтов для обучения, настольная стойка-крепление, стоматологический манекен с регулируемым шарнирным со" [level=3] [ref=e770]
+            - generic [ref=e771]:
+              - generic [ref=e772]: 6 330 ₽
+              - generic [ref=e773]: 18 087 ₽
+            - generic [ref=e775]:
+              - img [ref=e776]
+              - text: 101 человек смотрят сейчас
+            - generic [ref=e780]:
+              - img [ref=e781]
+              - text: Скидка действует ещё 33 часов
+            - generic [ref=e784]:
+              - img [ref=e785]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e787]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012156692409.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e788]
+              - text: На AliExpress →
+            - paragraph [ref=e792]:
+              - img [ref=e793]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e795]:
+              - img [ref=e796]
+              - text: Поделиться
+        - generic [ref=e799] [cursor=pointer]:
+          - generic [ref=e800]: "-65%"
+          - button "В избранное" [ref=e801]:
+            - img [ref=e802]
+          - generic [ref=e804]:
+            - img "120 Вт редуктор червячного редуктора, двигатель с высоким крутящим моментом, 12 В постоянного тока, редуктор червячного"
+          - generic [ref=e805]:
+            - heading "120 Вт редуктор червячного редуктора, двигатель с высоким крутящим моментом, 12 В постоянного тока, редуктор червячного" [level=3] [ref=e806]
+            - generic [ref=e807]:
+              - generic [ref=e808]: 6 030 ₽
+              - generic [ref=e809]: 17 228 ₽
+            - generic [ref=e811]:
+              - img [ref=e812]
+              - text: 16 человек смотрят сейчас
+            - generic [ref=e816]:
+              - img [ref=e817]
+              - text: Скидка действует ещё 27 часов
+            - generic [ref=e820]:
+              - img [ref=e821]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e823]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005008741967684.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e824]
+              - text: На AliExpress →
+            - paragraph [ref=e828]:
+              - img [ref=e829]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e831]:
+              - img [ref=e832]
+              - text: Поделиться
+        - generic [ref=e835] [cursor=pointer]:
+          - generic [ref=e836]: "-65%"
+          - button "В избранное" [ref=e837]:
+            - img [ref=e838]
+          - generic [ref=e840]:
+            - img "Настенный органайзер для рентгеновских фартуков - Сверхпрочная вешалка на 8 крючков для 4 свинцовых фартуков, прочная ст"
+          - generic [ref=e841]:
+            - heading "Настенный органайзер для рентгеновских фартуков - Сверхпрочная вешалка на 8 крючков для 4 свинцовых фартуков, прочная ст" [level=3] [ref=e842]
+            - generic [ref=e843]:
+              - generic [ref=e844]: 6 330 ₽
+              - generic [ref=e845]: 18 087 ₽
+            - generic [ref=e847]:
+              - img [ref=e848]
+              - text: 138 человек смотрят сейчас
+            - generic [ref=e852]:
+              - img [ref=e853]
+              - text: Скидка действует ещё 16 часов
+            - generic [ref=e856]:
+              - img [ref=e857]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e859]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012140029635.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e860]
+              - text: На AliExpress →
+            - paragraph [ref=e864]:
+              - img [ref=e865]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e867]:
+              - img [ref=e868]
+              - text: Поделиться
+        - generic [ref=e871] [cursor=pointer]:
+          - generic [ref=e872]: "-65%"
+          - button "В избранное" [ref=e873]:
+            - img [ref=e874]
+          - generic [ref=e876]:
+            - img "Стильные, удобные, легкие, дышащие, нескользящие повседневные туфли Puma Mid 406818-02"
+          - generic [ref=e877]:
+            - heading "Стильные, удобные, легкие, дышащие, нескользящие повседневные туфли Puma Mid 406818-02" [level=3] [ref=e878]
+            - generic [ref=e879]:
+              - generic [ref=e880]: puma
+              - generic [ref=e881]: дышащие
+              - generic [ref=e882]: легкие
+            - generic [ref=e883]:
+              - generic [ref=e884]: 6 315 ₽
+              - generic [ref=e885]: 18 043 ₽
+            - generic [ref=e887]:
+              - img [ref=e888]
+              - text: 163 человек смотрят сейчас
+            - generic [ref=e892]:
+              - img [ref=e893]
+              - text: Скидка действует ещё 43 часов
+            - generic [ref=e896]:
+              - img [ref=e897]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e899]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011982127069.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e900]
+              - text: На AliExpress →
+            - paragraph [ref=e904]:
+              - img [ref=e905]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e907]:
+              - img [ref=e908]
+              - text: Поделиться
+        - generic [ref=e911] [cursor=pointer]:
+          - generic [ref=e912]: "-64%"
+          - button "В избранное" [ref=e913]:
+            - img [ref=e914]
+          - generic [ref=e916]:
+            - img "Ускорьте ходьбу с мужскими ортопедическими стельками Speed Orthotics — ваш идеальный спутник для быстрых тренировок и ко"
+          - generic [ref=e917]:
+            - heading "Ускорьте ходьбу с мужскими ортопедическими стельками Speed Orthotics — ваш идеальный спутник для быстрых тренировок и ко" [level=3] [ref=e918]
+            - generic [ref=e919]:
+              - generic [ref=e920]: 6 428 ₽
+              - generic [ref=e921]: 17 855 ₽
+            - generic [ref=e923]:
+              - img [ref=e924]
+              - text: 25 человек смотрят сейчас
+            - generic [ref=e928]:
+              - img [ref=e929]
+              - text: Скидка действует ещё 33 часов
+            - generic [ref=e932]:
+              - img [ref=e933]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e935]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012208583052.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e936]
+              - text: На AliExpress →
+            - paragraph [ref=e940]:
+              - img [ref=e941]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e943]:
+              - img [ref=e944]
+              - text: Поделиться
+        - generic [ref=e947] [cursor=pointer]:
+          - generic [ref=e948]: "-62%"
+          - button "В избранное" [ref=e949]:
+            - img [ref=e950]
+          - generic [ref=e952]:
+            - img "Зонт для патио с солнечными светильниками, 32 светодиода, зонт для бассейна с функцией наклона и ручным приводом, уличны"
+          - generic [ref=e953]:
+            - heading "Зонт для патио с солнечными светильниками, 32 светодиода, зонт для бассейна с функцией наклона и ручным приводом, уличны" [level=3] [ref=e954]
+            - generic [ref=e955]:
+              - generic [ref=e956]: 6 138 ₽
+              - generic [ref=e957]: 16 152 ₽
+            - generic [ref=e959]:
+              - img [ref=e960]
+              - text: 56 человек смотрят сейчас
+            - generic [ref=e964]:
+              - img [ref=e965]
+              - text: Скидка действует ещё 34 часов
+            - generic [ref=e968]:
+              - img [ref=e969]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e971]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012117869607.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e972]
+              - text: На AliExpress →
+            - paragraph [ref=e976]:
+              - img [ref=e977]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e979]:
+              - img [ref=e980]
+              - text: Поделиться
+        - generic [ref=e983] [cursor=pointer]:
+          - generic [ref=e984]: "-62%"
+          - button "В избранное" [ref=e985]:
+            - img [ref=e986]
+          - generic [ref=e988]:
+            - img "(Доставка по США 2-8 дней) SOECOPO 1500W Портативная солнечная панель с ячейками 22-23% высокой эффективности, водонепро"
+          - generic [ref=e989]:
+            - heading "(Доставка по США 2-8 дней) SOECOPO 1500W Портативная солнечная панель с ячейками 22-23% высокой эффективности, водонепро" [level=3] [ref=e990]
+            - generic [ref=e991]:
+              - generic [ref=e992]: 6 182 ₽
+              - generic [ref=e993]: 16 268 ₽
+            - generic [ref=e995]:
+              - img [ref=e996]
+              - text: 142 человек смотрят сейчас
+            - generic [ref=e1000]:
+              - img [ref=e1001]
+              - text: Скидка действует ещё 15 часов
+            - generic [ref=e1004]:
+              - img [ref=e1005]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1007]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011741346672.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e1008]
+              - text: На AliExpress →
+            - paragraph [ref=e1012]:
+              - img [ref=e1013]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1015]:
+              - img [ref=e1016]
+              - text: Поделиться
+        - generic [ref=e1019] [cursor=pointer]:
+          - generic [ref=e1020]: "-62%"
+          - button "В избранное" [ref=e1021]:
+            - img [ref=e1022]
+          - generic [ref=e1024]:
+            - img "Портативное складное солнечное зарядное устройство 30 Вт, водонепроницаемое и пылезащищенное (IP65), быстрая зарядка для"
+          - generic [ref=e1025]:
+            - heading "Портативное складное солнечное зарядное устройство 30 Вт, водонепроницаемое и пылезащищенное (IP65), быстрая зарядка для" [level=3] [ref=e1026]
+            - generic [ref=e1027]:
+              - generic [ref=e1028]: 6 266 ₽
+              - generic [ref=e1029]: 16 490 ₽
+            - generic [ref=e1031]:
+              - img [ref=e1032]
+              - text: 186 человек смотрят сейчас
+            - generic [ref=e1036]:
+              - img [ref=e1037]
+              - text: Скидка действует ещё 31 часов
+            - generic [ref=e1040]:
+              - img [ref=e1041]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1043]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012018927960.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e1044]
+              - text: На AliExpress →
+            - paragraph [ref=e1048]:
+              - img [ref=e1049]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1051]:
+              - img [ref=e1052]
+              - text: Поделиться
+        - generic [ref=e1055] [cursor=pointer]:
+          - generic [ref=e1056]: "-62%"
+          - button "В избранное" [ref=e1057]:
+            - img [ref=e1058]
+          - generic [ref=e1060]:
+            - img "EPever XTRA3210N 30A12v 24v XTRA4415N 40A 12v 24v 48v Контроллер заряда солнечной батареи 30Amp 40A ЖК-дисплей Солнечный"
+          - generic [ref=e1061]:
+            - heading "EPever XTRA3210N 30A12v 24v XTRA4415N 40A 12v 24v 48v Контроллер заряда солнечной батареи 30Amp 40A ЖК-дисплей Солнечный" [level=3] [ref=e1062]
+            - generic [ref=e1063]:
+              - generic [ref=e1064]: 6 050 ₽
+              - generic [ref=e1065]: 15 921 ₽
+            - generic [ref=e1067]:
+              - img [ref=e1068]
+              - text: 181 человек смотрят сейчас
+            - generic [ref=e1072]:
+              - img [ref=e1073]
+              - text: Скидка действует ещё 35 часов
+            - generic [ref=e1076]:
+              - img [ref=e1077]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1079]:
+              - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005008417464618.html%3Faf%3D2529186%26cv%3D47843
+              - img [ref=e1080]
+              - text: На AliExpress →
+            - paragraph [ref=e1084]:
+              - img [ref=e1085]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1087]:
+              - img [ref=e1088]
+              - text: Поделиться
+      - button "Показать ещё" [ref=e1091] [cursor=pointer]
+    - generic [ref=e1092]:
+      - heading "Недавно смотрели" [level=2] [ref=e1093]:
+        - img [ref=e1094]
+        - text: Недавно смотрели
+      - generic [ref=e1097]:
+        - link "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренир -84% Мужские базовые баскетбольные 6 180 ₽" [ref=e1098] [cursor=pointer]:
+          - /url: /item/1.html
+          - img "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренир" [ref=e1099]
+          - generic [ref=e1100]: "-84%"
+          - generic [ref=e1101]: Мужские базовые баскетбольные
+          - generic [ref=e1102]: 6 180 ₽
+        - link "Nike Air Max Alpha Trainer 5. Удобные и универсальные низкие кроссовки с мягкой подкладкой для мужчин и женщин DM0829010 -56% Nike Air Max Alpha Trainer 5. 6 092 ₽" [ref=e1103] [cursor=pointer]:
+          - /url: /item/90.html
+          - img "Nike Air Max Alpha Trainer 5. Удобные и универсальные низкие кроссовки с мягкой подкладкой для мужчин и женщин DM0829010" [ref=e1104]
+          - generic [ref=e1105]: "-56%"
+          - generic [ref=e1106]: Nike Air Max Alpha Trainer 5.
+          - generic [ref=e1107]: 6 092 ₽
+  - generic [ref=e1108]:
+    - generic [ref=e1109]: ✓
+    - generic [ref=e1110]: Готово
+  - generic [ref=e1112]:
+    - heading "Скидки на AliExpress до 90% — как это работает" [level=2] [ref=e1113]
+    - paragraph [ref=e1114]: SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Мы ежедневно обновляем каталог, чтобы вы всегда находили самые выгодные предложения на электронику, одежду, обувь, товары для дома и авто. Все цены указаны в рублях с учётом актуального курса Центробанка.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e1115]
+    - paragraph [ref=e1116]: Используйте наш поиск по товарам или AI-поиск для подбора идеальных покупок. Добавляйте товары в избранное, чтобы вернуться к ним позже. Каждая карточка содержит реальный рейтинг, количество заказов и характеристики — никаких фейковых скидок.
+    - heading "1000+ товаров с бесплатной доставкой" [level=2] [ref=e1117]
+    - paragraph [ref=e1118]: В нашем каталоге более 1000 товаров с реальными скидками 20–90%. Все ссылки ведут напрямую на AliExpress через партнёрскую программу Admitad — вы получаете ту же цену, а мы небольшую комиссию за направление. Это позволяет нам поддерживать сервис и добавлять новые функции.
+  - contentinfo [ref=e1119]:
+    - generic [ref=e1120]:
+      - generic [ref=e1121]:
+        - generic [ref=e1122]: SmartSkidka.ru
+        - paragraph [ref=e1123]: Лучшие скидки и промокоды на товары с AliExpress. Экономьте умнее!
+      - generic [ref=e1124]:
+        - generic [ref=e1125]:
+          - heading "Категории" [level=4] [ref=e1126]
+          - link "Обувь" [ref=e1127] [cursor=pointer]:
+            - /url: /shoes.html
+          - link "Электроника" [ref=e1128] [cursor=pointer]:
+            - /url: /electronics.html
+          - link "Товары для дома" [ref=e1129] [cursor=pointer]:
+            - /url: /home.html
+          - link "Автотовары" [ref=e1130] [cursor=pointer]:
+            - /url: /auto.html
+          - link "Красота" [ref=e1131] [cursor=pointer]:
+            - /url: /beauty.html
+          - link "Спорт" [ref=e1132] [cursor=pointer]:
+            - /url: /sports.html
+        - generic [ref=e1133]:
+          - heading "Информация" [level=4] [ref=e1134]
+          - link "О нас" [ref=e1135] [cursor=pointer]:
+            - /url: about.html
+          - link "Контакты" [ref=e1136] [cursor=pointer]:
+            - /url: contact.html
+          - link "Политика конфиденциальности" [ref=e1137] [cursor=pointer]:
+            - /url: privacy.html
+          - link "Условия использования" [ref=e1138] [cursor=pointer]:
+            - /url: terms.html
+    - generic [ref=e1139]:
+      - paragraph [ref=e1140]: SmartSkidka.ru — не является магазином. Все товары продаются на AliExpress.
+      - paragraph [ref=e1141]:
+        - img [ref=e1142]
+        - link "Скидки в Telegram — @SmartRuMarket" [ref=e1146] [cursor=pointer]:
+          - /url: https://t.me/SmartRuMarket
+      - paragraph [ref=e1147]: 2026 SmartSkidka.ru
+      - paragraph [ref=e1148]:
+        - link "ИКС сайта" [ref=e1149] [cursor=pointer]:
+          - /url: https://webmaster.yandex.ru/siteinfo/?site=https://smart-skidka.ru
+          - img "ИКС сайта" [ref=e1150]

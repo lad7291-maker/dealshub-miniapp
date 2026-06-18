@@ -1,0 +1,23 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "SmartSkidka.ru" [ref=e4] [cursor=pointer]:
+      - /url: /
+  - main [ref=e5]:
+    - img "Машина для резки лапши и пасты Kelli 5 в 1 для раскатки теста и равиоли" [ref=e7]
+    - generic [ref=e8]:
+      - text: "-60%"
+      - heading "Машина для резки лапши и пасты Kelli 5 в 1 для раскатки теста и равиоли" [level=1] [ref=e9]
+      - generic [ref=e10]: 4.5 ★ 0 заказов auto
+      - generic [ref=e11]: 6 342 ₽ 15 855 ₽ Экономия 9 513 ₽
+      - generic [ref=e12]:
+        - img [ref=e13]
+        - text: Доставка по условиям продавца на AliExpress
+      - generic [ref=e15]:
+        - link "Купить на AliExpress" [ref=e16] [cursor=pointer]:
+          - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005002790267691.html%3Faf%3D2529186%26cv%3D47843
+          - text: Купить на AliExpress
+          - img [ref=e17]
+        - link "← Все скидки" [ref=e21] [cursor=pointer]:
+          - /url: /
+  - contentinfo [ref=e22]:
+    - paragraph [ref=e23]: SmartSkidka.ru — партнёрские ссылки AliExpress. Актуальная цена на AliExpress.

@@ -1,0 +1,210 @@
+- generic [active] [ref=e1]:
+  - generic "Ads"
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "AD admitad" [ref=e4] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/websites/2940069/catalog/landing/
+        - img "AD" [ref=e5]
+        - img "admitad" [ref=e6]
+      - generic [ref=e7]:
+        - text: max. yesterday's earnings
+        - generic [ref=e8]: 12 900$
+      - 'button "Ad Space: Smart Skidka" [ref=e10] [cursor=pointer]':
+        - generic [ref=e11]: "Ad Space:"
+        - generic "Smart Skidka" [ref=e12]
+        - img [ref=e13]
+      - link [ref=e15] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/chats/
+        - img [ref=e16]
+      - link [ref=e21] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/web_notificator/
+        - img [ref=e22]
+      - generic "Hello, Vladislav Sotnikov" [ref=e27]:
+        - generic "Account Level" [ref=e28]: AD0
+        - generic [ref=e29]: vladislav_sotnikov56e18
+        - generic [ref=e30]: vl
+  - navigation [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - link [ref=e35] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/
+          - img [ref=e36]
+        - link "Tools" [ref=e39] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/coupons/
+          - img [ref=e40]
+          - text: Tools
+        - link "Programs" [ref=e46] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/catalog/landing/
+          - img [ref=e47]
+          - text: Programs
+        - link "Product Feeds" [ref=e52] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/websites/2940069/products/original/
+          - img [ref=e53]
+          - text: Product Feeds
+        - link "Reports" [ref=e58] [cursor=pointer]:
+          - /url: https://store.admitad.com/en/webmaster/statistics/websites/?predefined_range=today
+          - img [ref=e59]
+          - text: Reports
+        - generic [ref=e65] [cursor=pointer]:
+          - img [ref=e66]
+          - text: Payments
+      - link "Inbox" [ref=e71] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/tickets/
+        - img [ref=e72]
+      - link "Support" [ref=e78] [cursor=pointer]:
+        - /url: https://support.mitgo.com/hc/requests
+        - img [ref=e79]
+      - link "Help center" [ref=e85] [cursor=pointer]:
+        - /url: https://support.mitgo.com/hc/categories/33312777157778-Admitad-for-Publishers
+        - img [ref=e86]
+  - list
+  - main [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - article [ref=e94]:
+          - heading "Balance Details" [level=2] [ref=e96]
+          - article [ref=e98]:
+            - strong [ref=e99]: Ready for withdrawal
+            - generic [ref=e100]:
+              - term [ref=e101]: RUB
+              - definition [ref=e102]:
+                - generic [ref=e103]: "0"
+          - generic [ref=e106]:
+            - link "Withdraw" [ref=e107] [cursor=pointer]:
+              - /url: /en/webmaster/balance_dialog/
+            - link "Payments history" [ref=e108] [cursor=pointer]:
+              - /url: /en/webmaster/account/payouts_list/
+        - article [ref=e109]:
+          - generic [ref=e110]:
+            - heading "News" [level=2] [ref=e111]
+            - link "All news" [ref=e112] [cursor=pointer]:
+              - /url: https://www.admitad.com/us/blog/
+          - article [ref=e113]:
+            - time [ref=e114]: 17 January 2025 08:56
+            - 'link "Unlocking the Potential of Promo Code Campaigns in Admitad: A Comprehensive Guide for Publishers" [ref=e115] [cursor=pointer]':
+              - /url: https://www.admitad.com/us/blog/unlocking-the-potential-of-promo-code-campaigns-in-admitad-a-comprehensive-guide-for-publishers/
+          - article [ref=e116]:
+            - time [ref=e117]: 30 December 2024 09:46
+            - link "Happy New Year 2025 from Admitad!" [ref=e118] [cursor=pointer]:
+              - /url: https://www.admitad.com/us/blog/happy-new-year-2025-from-admitad/
+          - article [ref=e119]:
+            - time [ref=e120]: 25 December 2024 13:15
+            - 'link "Google Ads Important Notice: Time to Update the Links" [ref=e121] [cursor=pointer]':
+              - /url: https://www.admitad.com/us/blog/google-ads-important-notice-time-to-update-the-links/
+        - article [ref=e122]:
+          - heading "Admitad Referral Program" [level=2] [ref=e124]
+          - generic [ref=e125]:
+            - term [ref=e126]: Your commission
+            - definition [ref=e127]:
+              - generic [ref=e128]: 5 %
+            - term [ref=e129]: Total referrals
+            - definition [ref=e130]:
+              - generic [ref=e131]: "0"
+            - term [ref=e132]: Active
+            - definition [ref=e133]:
+              - generic [ref=e134]: "0"
+            - term [ref=e135]: Earned (this month)
+            - definition [ref=e136]:
+              - generic [ref=e137]: "0"
+          - list [ref=e139]:
+            - listitem [ref=e140]:
+              - link "Referral link" [ref=e141] [cursor=pointer]:
+                - /url: ""
+      - generic [ref=e142]:
+        - article [ref=e143]:
+          - generic [ref=e144]:
+            - button "Close" [ref=e145] [cursor=pointer]:
+              - img [ref=e146]
+            - iframe [ref=e148]:
+              - generic [ref=f16e2] [cursor=pointer]:
+                - img [ref=f16e3]
+                - heading "Kaspersky - мировой лидер в кибербезопасности" [level=1] [ref=f16e4]
+                - paragraph [ref=f16e5]: Ставка +50% и промокод на Kaspersky Who Calls
+        - generic [ref=e150]:
+          - heading "30-Day Report" [level=2] [ref=e151]
+          - generic [ref=e152]:
+            - strong [ref=e153]: "Show:"
+            - generic [ref=e154]:
+              - checkbox "Earnings" [checked] [ref=e155]
+              - text: Earnings
+            - generic [ref=e156]:
+              - checkbox "Impressions" [checked] [ref=e157]
+              - text: Impressions
+            - generic [ref=e158]:
+              - checkbox "Clicks" [checked] [ref=e159]
+              - text: Clicks
+            - generic [ref=e160]:
+              - checkbox "Actions" [checked] [ref=e161]
+              - text: Actions
+          - img [ref=e164]:
+            - generic [ref=e302]:
+              - generic [ref=e303]: 20 Apr. 2026
+              - generic [ref=e304]: 27 Apr. 2026
+              - generic [ref=e305]: 4 May 2026
+              - generic [ref=e306]: 11 May 2026
+            - generic [ref=e307]:
+              - generic [ref=e308]: "1.00"
+              - generic [ref=e309]: "2.00"
+              - generic [ref=e310]: "3.00"
+            - generic [ref=e311]:
+              - generic [ref=e312]: "1"
+              - generic [ref=e313]: "2"
+              - generic [ref=e314]: "3"
+            - generic [ref=e315]:
+              - generic [ref=e316]: "20"
+              - generic [ref=e317]: "40"
+              - generic [ref=e318]: "60"
+            - generic [ref=e319]:
+              - generic [ref=e320]: "1"
+              - generic [ref=e321]: "2"
+              - generic [ref=e322]: "3"
+        - generic [ref=e328]:
+          - button "Notification settings" [ref=e329] [cursor=pointer]
+          - heading "Latest News" [level=2] [ref=e330]
+          - list [ref=e331]:
+            - listitem [ref=e332]:
+              - generic [ref=e334]:
+                - searchbox [ref=e335]
+                - button "Search" [ref=e336] [cursor=pointer]
+            - listitem [ref=e337]
+            - listitem [ref=e339]
+            - listitem [ref=e341]
+            - listitem [ref=e343]:
+              - button [ref=e344] [cursor=pointer]
+            - listitem [ref=e345]:
+              - link [ref=e346] [cursor=pointer]:
+                - /url: /en/webmaster/events/rss/e72ef2081a3021da3ff4/
+          - time [ref=e347]: Friday, 15 May 2026
+  - generic [ref=e349]:
+    - generic [ref=e350]: For affiliates
+    - generic [ref=e351]:
+      - generic [ref=e352]:
+        - link [ref=e353] [cursor=pointer]:
+          - /url: https://account.takeads.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e356]
+        - generic [ref=e359]: Takeads
+      - generic [ref=e360]:
+        - link [ref=e361] [cursor=pointer]:
+          - /url: https://app.takedeals.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e364]
+        - generic [ref=e368]: Takedeals
+      - generic [ref=e369]:
+        - link [ref=e370] [cursor=pointer]:
+          - /url: https://flow.admitad.com/en/publisher/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e373]
+        - generic [ref=e377]: Flow
+    - generic [ref=e378]: For influencers
+    - generic [ref=e379]:
+      - generic [ref=e380]:
+        - link [ref=e381] [cursor=pointer]:
+          - /url: https://app.takefluence.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e384]
+        - generic [ref=e389]: Takefluence
+      - generic [ref=e390]:
+        - link [ref=e391] [cursor=pointer]:
+          - /url: https://account.convertsocial.net/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e394]
+        - generic [ref=e400]: ConvertSocial
+    - generic [ref=e403] [cursor=pointer]: Hide
+  - status [ref=e404]
+  - status [ref=e405]

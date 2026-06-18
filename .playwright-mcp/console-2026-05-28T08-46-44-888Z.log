@@ -1,0 +1,8 @@
+[     327ms] [LOG] [SW] Registered: http://localhost:8080/ @ http://localhost:8080/index.html:224
+[     408ms] [WARNING] [getProductById] NOT FOUND id=1 _products.length=2000 @ http://localhost:8080/js/products-loader.js?v=16:87
+[     412ms] [WARNING] [getProductById] NOT FOUND id=90 _products.length=2000 @ http://localhost:8080/js/products-loader.js?v=16:87
+[     974ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/index.html:0
+[    1085ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ http://localhost:8080/index.html:0
+[    4451ms] [WARNING] The resource http://localhost:8080/products/all.json was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/index.html:0
+[    8995ms] [WARNING] The resource http://localhost:8080/products/all.json was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/index.html:0
+[   18764ms] [WARNING] The resource http://localhost:8080/products/all.json was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8080/index.html:0

@@ -1,0 +1,3 @@
+[    1190ms] [WARNING] Manifest: property 'start_url' ignored, should be same origin as document. @ https://acdn.admitad-connect.com/static/manifest.json:0
+[    4372ms] [ERROR] Access to font at 'https://cdn.admitad-connect.com/static/font/roboto/roboto_bold.woff2' from origin 'https://mynysy.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://mynysy.com/0zq0qiyf5b79kinrhndqanbcvze8h3/index.html?link1=https%3A//store.admitad.com/en/webmaster/r/8995/:0
+[    4372ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://cdn.admitad-connect.com/static/font/roboto/roboto_bold.woff2:0

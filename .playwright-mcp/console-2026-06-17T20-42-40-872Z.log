@@ -1,0 +1,4 @@
+[     140ms] [LOG] [SW] Registered: http://localhost:8080/ @ http://localhost:8080/electronics.html:505
+[     253ms] Failed to update a ServiceWorker for scope ('http://localhost:8080/') with script ('Unknown'): Not found
+[     368ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/electronics.html:0
+[     652ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ http://localhost:8080/electronics.html:0

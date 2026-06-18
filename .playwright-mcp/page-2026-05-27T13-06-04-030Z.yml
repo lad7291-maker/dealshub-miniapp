@@ -1,0 +1,1385 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - generic:
+            - generic:
+              - heading "Конвертер 12В в 24В VGEPS 12V to 24V" [level=3]
+        - generic:
+          - generic:
+            - generic:
+              - paragraph: 4 139 ₽
+        - generic [ref=e8]:
+          - button "В корзину" [disabled] [ref=e10]:
+            - paragraph [ref=e11]:
+              - generic [ref=e12]: В корзину
+          - button "Купить сейчас" [disabled] [ref=e14]:
+            - paragraph [ref=e15]:
+              - generic [ref=e16]: Купить сейчас
+      - banner [ref=e19]:
+        - link [ref=e22] [cursor=pointer]:
+          - /url: https://aliexpress.ru/
+          - img [ref=e23]
+        - generic [ref=e25]:
+          - navigation [ref=e26]:
+            - list [ref=e27]:
+              - listitem [ref=e28]:
+                - button [ref=e29] [cursor=pointer]:
+                  - img [ref=e32]
+          - generic [ref=e35]:
+            - textbox "xiaomi redmi note 11" [ref=e36]
+            - button "Найти" [ref=e37] [cursor=pointer]
+          - navigation [ref=e38]:
+            - list [ref=e39]:
+              - listitem [ref=e40]:
+                - button [ref=e41] [cursor=pointer]:
+                  - link [ref=e43]:
+                    - /url: /order-list
+                    - img [ref=e44]
+              - listitem [ref=e46]:
+                - button [ref=e47] [cursor=pointer]:
+                  - link [ref=e49]:
+                    - /url: /cart
+                    - img [ref=e50]
+              - listitem [ref=e54]:
+                - button [ref=e55] [cursor=pointer]:
+                  - link [ref=e57]:
+                    - /url: https://aliexpress.ru/account
+                    - img [ref=e58]
+      - generic [ref=e60]:
+        - generic [ref=e62]:
+          - link:
+            - /url: https://aliexpress.ru/one-price
+          - link:
+            - /url: https://aliexpress.ru/promotions/sl/flashdeals?fusion=y&hastoolbar=false&page=1&pageName=Promotions_2963&presentationmode=push
+          - link:
+            - /url: https://aliexpress.ru/promotions/sl/bigsave
+          - link:
+            - /url: https://aliexpress.ru/top
+          - link:
+            - /url: https://aliexpress.ru/promotions/sl/ce_category?fusion=y&hastoolbar=false&pageName=Promotions_1383&presentationmode=push
+          - link:
+            - /url: https://aliexpress.ru/promotions/sl/roborock_sbd?fusion=y&hastoolbar=false&pageName=Promotions_1848&presentationmode=push
+        - generic [ref=e64]:
+          - generic [ref=e66] [cursor=pointer]: RUB
+          - generic [ref=e68] [cursor=pointer]: EN
+          - generic [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e73]: Россия
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - link "AliExpress" [ref=e76] [cursor=pointer]:
+            - /url: https://aliexpress.ru
+            - generic [ref=e77]: AliExpress
+            - img [ref=e79]
+          - generic [ref=e81] [cursor=pointer]:
+            - generic [ref=e83]:
+              - generic [ref=e84]: ...
+              - img [ref=e86]
+            - generic:
+              - link "Обустройство дома и инструменты":
+                - /url: https://aliexpress.ru/category/16029/home-improvement-tools
+                - generic: Обустройство дома и инструменты
+                - generic:
+                  - img
+              - link "Ремонт и обустройство":
+                - /url: https://aliexpress.ru/category/5/home-improvement
+                - generic: Ремонт и обустройство
+                - generic:
+                  - img
+              - link "Электрика":
+                - /url: https://aliexpress.ru/category/5257/electrical-equipment-supplies
+                - generic: Электрика
+                - generic:
+                  - img
+          - link "Источники питания" [ref=e88] [cursor=pointer]:
+            - /url: https://aliexpress.ru/category/5637/power-supplies
+            - generic [ref=e89]: Источники питания
+            - img [ref=e91]
+          - link "Инверторы и конвертеры" [ref=e93] [cursor=pointer]:
+            - /url: https://aliexpress.ru/category/23886/inverters-converters
+            - generic [ref=e94]: Инверторы и конвертеры
+        - generic [ref=e95]:
+          - generic [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - text: Артикул 1005002291450444
+          - button "В избранное" [ref=e99] [cursor=pointer]:
+            - img [ref=e100]
+            - generic [ref=e102]: В избранное
+          - button "Поделиться" [ref=e104] [cursor=pointer]:
+            - img [ref=e105]
+            - generic [ref=e107]: Поделиться
+      - generic [ref=e109]:
+        - generic [ref=e112]:
+          - heading "Конвертер 12В в 24В VGEPS 12V to 24V" [level=1] [ref=e114]
+          - generic [ref=e116]:
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - img [ref=e120]
+                - img [ref=e124]
+                - img [ref=e128]
+                - img [ref=e132]
+                - img [ref=e136]
+              - generic [ref=e139]: 5,0
+            - link "1 отзыв" [ref=e140] [cursor=pointer]:
+              - /url: "#reviews_anchor"
+            - generic [ref=e141]: 11 купили
+            - generic [ref=e142]:
+              - link "Характеристики" [ref=e143] [cursor=pointer]:
+                - /url: "#characteristics_anchor"
+              - link "Описание" [ref=e144] [cursor=pointer]:
+                - /url: "#content_anchor"
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - img [ref=e152] [cursor=pointer]
+            - img [ref=e155] [cursor=pointer]
+            - img [ref=e158] [cursor=pointer]
+            - img [ref=e161] [cursor=pointer]
+            - img [ref=e164] [cursor=pointer]
+            - img [ref=e167] [cursor=pointer]
+            - img [ref=e170] [cursor=pointer]
+            - img [ref=e173] [cursor=pointer]
+          - generic [ref=e177]:
+            - img "Конвертер 12В в 24В VGEPS 12V to 24V" [ref=e179]
+            - button [ref=e184] [cursor=pointer]:
+              - img [ref=e185]
+            - img "Конвертер 12В в 24В VGEPS 12V to 24V" [ref=e189]
+            - img "Конвертер 12В в 24В VGEPS 12V to 24V" [ref=e192]
+            - img "Конвертер 12В в 24В VGEPS 12V to 24V" [ref=e195]
+            - img "Конвертер 12В в 24В VGEPS 12V to 24V" [ref=e198]
+            - img "Конвертер 12В в 24В VGEPS 12V to 24V" [ref=e201]
+            - img "Конвертер 12В в 24В VGEPS 12V to 24V" [ref=e204]
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - generic [ref=e212]: "Цвет:"
+              - generic [ref=e213]: 30A
+            - list [ref=e214]:
+              - listitem [ref=e215]:
+                - button [ref=e216] [cursor=pointer]:
+                  - generic:
+                    - img
+              - listitem [ref=e217]:
+                - button [ref=e218] [cursor=pointer]:
+                  - generic:
+                    - img
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - generic [ref=e221]: "Входное напряжение:"
+              - generic [ref=e222]: 12 В
+            - list [ref=e223]:
+              - listitem [ref=e224]:
+                - button "12 В" [ref=e225] [cursor=pointer]:
+                  - generic [ref=e226]: 12 В
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - generic [ref=e229]: "Выходное напряжение:"
+              - generic [ref=e230]: 24V
+            - list [ref=e231]:
+              - listitem [ref=e232]:
+                - button "24V" [ref=e233] [cursor=pointer]:
+                  - generic [ref=e234]: 24V
+        - generic [ref=e236]:
+          - generic [ref=e237]:
+            - generic [ref=e238]:
+              - generic [ref=e243]: 4 139 ₽
+              - generic [ref=e244]: Цена за 1 штуку
+            - generic [ref=e246]:
+              - button "В корзину" [disabled] [ref=e248]:
+                - paragraph [ref=e249]:
+                  - generic [ref=e250]: В корзину
+              - button "Купить сейчас" [disabled] [ref=e252]:
+                - paragraph [ref=e253]:
+                  - generic [ref=e254]: Купить сейчас
+          - generic [ref=e262]: Бесплатный возврат по любой причине в течение 15 дней
+          - generic [ref=e265]:
+            - link [ref=e266] [cursor=pointer]:
+              - /url: https://aliexpress.ru/store/5059041
+              - img [ref=e268]
+            - link "VGEPS Official Store official 95,66% рейтинг продавца · 421 подписчик" [ref=e269] [cursor=pointer]:
+              - /url: https://aliexpress.ru/store/5059041
+              - generic [ref=e270]:
+                - generic [ref=e271]: VGEPS Official Store
+                - generic [ref=e273]:
+                  - img [ref=e274]
+                  - generic [ref=e277]: official
+              - generic [ref=e278]:
+                - generic [ref=e279]:
+                  - generic [ref=e280]: 95,66% рейтинг продавца
+                  - text: ·
+                - generic [ref=e282]: 421 подписчик
+        - generic [ref=e284]:
+          - generic [ref=e285]:
+            - heading "Похожие товары" [level=3] [ref=e286]
+            - generic [ref=e288]:
+              - generic [ref=e289]:
+                - generic [ref=e291]:
+                  - link "Конвертер 12В в 28В VGEPS Конвертер 12В в 28В VGEPS Конвертер 12В в 28В VGEPS Конвертер 12В в 28В VGEPS Конвертер 12В в 28В VGEPS Конвертер 12В в 28В VGEPS Конвертер 12В в 28В VGEPS" [ref=e292] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005002289772263.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000019935637349&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e295]:
+                      - img "Конвертер 12В в 28В VGEPS" [ref=e297]
+                      - img "Конвертер 12В в 28В VGEPS" [ref=e300]
+                      - img "Конвертер 12В в 28В VGEPS" [ref=e303]
+                      - img "Конвертер 12В в 28В VGEPS" [ref=e306]
+                      - img "Конвертер 12В в 28В VGEPS" [ref=e309]
+                      - img "Конвертер 12В в 28В VGEPS" [ref=e312]
+                      - img "Конвертер 12В в 28В VGEPS" [ref=e315]
+                    - img [ref=e327]
+                  - link "3 989 ₽ 4.6 167 купили Конвертер 12В в 28В VGEPS до 14 дней, от 2 324 ₽" [ref=e330] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005002289772263.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000019935637349&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e334]: 3 989 ₽
+                    - generic [ref=e335]:
+                      - generic [ref=e336]:
+                        - generic [ref=e337]:
+                          - img [ref=e338]
+                          - generic [ref=e339]: "4.6"
+                        - generic [ref=e341]: 167 купили
+                      - generic "Конвертер 12В в 28В VGEPS" [ref=e343]
+                    - generic [ref=e346]:
+                      - img [ref=e347]
+                      - text: до 14 дней, от 2 324 ₽
+                - generic [ref=e349]:
+                  - link "VGEPS Конвертер DC/DC 15~90v TO 12V VGEPS Конвертер DC/DC 15~90v TO 12V VGEPS Конвертер DC/DC 15~90v TO 12V VGEPS Конвертер DC/DC 15~90v TO 12V VGEPS Конвертер DC/DC 15~90v TO 12V VGEPS Конвертер DC/DC 15~90v TO 12V VGEPS Конвертер DC/DC 15~90v TO 12V" [ref=e350] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008111799154.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000043827807187&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e353]:
+                      - img "VGEPS Конвертер DC/DC 15~90v TO 12V" [ref=e355]
+                      - img "VGEPS Конвертер DC/DC 15~90v TO 12V" [ref=e358]
+                      - img "VGEPS Конвертер DC/DC 15~90v TO 12V" [ref=e361]
+                      - img "VGEPS Конвертер DC/DC 15~90v TO 12V" [ref=e364]
+                      - img "VGEPS Конвертер DC/DC 15~90v TO 12V" [ref=e367]
+                      - img "VGEPS Конвертер DC/DC 15~90v TO 12V" [ref=e370]
+                      - img "VGEPS Конвертер DC/DC 15~90v TO 12V" [ref=e373]
+                    - img [ref=e385]
+                  - link "182 ₽ 4.7 942 купили VGEPS Конвертер DC/DC 15~90v TO 12V до 14 дней, от 278 ₽" [ref=e388] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008111799154.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000043827807187&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e392]: 182 ₽
+                    - generic [ref=e393]:
+                      - generic [ref=e394]:
+                        - generic [ref=e395]:
+                          - img [ref=e396]
+                          - generic [ref=e397]: "4.7"
+                        - generic [ref=e399]: 942 купили
+                      - generic "VGEPS Конвертер DC/DC 15~90v TO 12V" [ref=e401]
+                    - generic [ref=e404]:
+                      - img [ref=e405]
+                      - text: до 14 дней, от 278 ₽
+                - generic [ref=e407]:
+                  - link "Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А" [ref=e408] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008282806356.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000053231154712&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e411]:
+                      - img "Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А" [ref=e413]
+                      - img "Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А" [ref=e416]
+                      - img "Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А" [ref=e419]
+                      - img "Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А" [ref=e422]
+                      - img "Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А" [ref=e425]
+                      - img "Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А" [ref=e428]
+                      - img "Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А" [ref=e431]
+                    - img [ref=e443]
+                  - link "3 070 ₽ с купоном 3 289 ₽ 4.8 12 купили Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А до 14 дней, бесплатно" [ref=e446] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008282806356.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000053231154712&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e447]:
+                      - generic [ref=e450]: 3 070 ₽ с купоном
+                      - generic [ref=e452]: 3 289 ₽
+                    - generic [ref=e453]:
+                      - generic [ref=e454]:
+                        - generic [ref=e455]:
+                          - img [ref=e456]
+                          - generic [ref=e457]: "4.8"
+                        - generic [ref=e459]: 12 купили
+                      - generic "Kangwobei 12В до 24В повышающий преобразователь постоянного тока 30А" [ref=e461]
+                    - generic [ref=e464]:
+                      - img [ref=e465]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e467]:
+                  - link "WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А" [ref=e468] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005009535292256.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000049391006391&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e471]:
+                      - img "WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А" [ref=e473]
+                      - img "WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А" [ref=e476]
+                      - img "WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А" [ref=e479]
+                      - img "WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А" [ref=e482]
+                      - img "WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А" [ref=e485]
+                      - img "WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А" [ref=e488]
+                      - img "WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А" [ref=e491]
+                    - img [ref=e503]
+                  - link "5 245 ₽ с купоном 5 480 ₽ 5.0 13 купили WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А до 14 дней, бесплатно" [ref=e506] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005009535292256.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000049391006391&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e507]:
+                      - generic [ref=e510]: 5 245 ₽ с купоном
+                      - generic [ref=e512]: 5 480 ₽
+                    - generic [ref=e513]:
+                      - generic [ref=e514]:
+                        - generic [ref=e515]:
+                          - img [ref=e516]
+                          - generic [ref=e517]: "5.0"
+                        - generic [ref=e519]: 13 купили
+                      - generic "WAOHEI Неизолированный повышающий преобразователь 12В в 24В 1-30А" [ref=e521]
+                    - generic [ref=e524]:
+                      - img [ref=e525]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e527]:
+                  - link "Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS" [ref=e528] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005002278682215.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000019885653920&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e531]:
+                      - img "Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS" [ref=e533]
+                      - img "Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS" [ref=e536]
+                      - img "Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS" [ref=e539]
+                      - img "Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS" [ref=e542]
+                      - img "Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS" [ref=e545]
+                      - img "Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS" [ref=e548]
+                      - img "Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS" [ref=e551]
+                    - img [ref=e563]
+                  - link "1 190 ₽ 5.0 4 купили Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS до 14 дней, от 523 ₽" [ref=e566] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005002278682215.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000019885653920&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e570]: 1 190 ₽
+                    - generic [ref=e571]:
+                      - generic [ref=e572]:
+                        - generic [ref=e573]:
+                          - img [ref=e574]
+                          - generic [ref=e575]: "5.0"
+                        - generic [ref=e577]: 4 купили
+                      - generic "Конвертер 24В в 12В, 13.8В, 19В, 24В, 28В VGEPS" [ref=e579]
+                    - generic [ref=e582]:
+                      - img [ref=e583]
+                      - text: до 14 дней, от 523 ₽
+                - generic [ref=e585]:
+                  - link "Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А" [ref=e586] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008368964010.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000044763583540&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e589]:
+                      - img "Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А" [ref=e591]
+                      - img "Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А" [ref=e594]
+                      - img "Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А" [ref=e597]
+                      - img "Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А" [ref=e600]
+                      - img "Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А" [ref=e603]
+                      - img "Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А" [ref=e606]
+                      - img "Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А" [ref=e609]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - img [ref=e621]
+                  - link "18 592 ₽ -13% 16 231 ₽ 5.0 23 купили Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А до 14 дней, бесплатно" [ref=e624] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008368964010.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000044763583540&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e625]:
+                      - generic [ref=e627]:
+                        - generic [ref=e628]: 18 592 ₽
+                        - generic [ref=e629]: "-13%"
+                      - generic [ref=e631]: 16 231 ₽
+                    - generic [ref=e632]:
+                      - generic [ref=e633]:
+                        - generic [ref=e634]:
+                          - img [ref=e635]
+                          - generic [ref=e636]: "5.0"
+                        - generic [ref=e638]: 23 купили
+                      - generic "Конвертер напряжения XWST DC-DC 12В в 24В/28В 35А/40А/50А/65А" [ref=e640]
+                    - generic [ref=e643]:
+                      - img [ref=e644]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e646]:
+                  - link "Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V" [ref=e647] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005006976590272.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000038914160553&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e650]:
+                      - img "Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V" [ref=e652]
+                      - img "Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V" [ref=e655]
+                      - img "Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V" [ref=e658]
+                      - img "Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V" [ref=e661]
+                      - img "Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V" [ref=e664]
+                      - img "Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V" [ref=e667]
+                      - img "Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V" [ref=e670]
+                    - img [ref=e682]
+                  - link "2 888 ₽ -30% 2 022 ₽ 4.8 675 купили Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V до 14 дней, бесплатно" [ref=e685] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005006976590272.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000038914160553&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e686]:
+                      - generic [ref=e688]:
+                        - generic [ref=e689]: 2 888 ₽
+                        - generic [ref=e690]: "-30%"
+                      - generic [ref=e692]: 2 022 ₽
+                    - generic [ref=e693]:
+                      - generic [ref=e694]:
+                        - generic [ref=e695]:
+                          - img [ref=e696]
+                          - generic [ref=e697]: "4.8"
+                        - generic [ref=e699]: 675 купили
+                      - generic "Стабилизатор напряжения waohei DC DC 8-40V до 13.8V 12V" [ref=e701]
+                    - generic [ref=e704]:
+                      - img [ref=e705]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e707]:
+                  - link "Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V" [ref=e708] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005005685048590.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000034005855313&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e711]:
+                      - img "Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V" [ref=e713]
+                      - img "Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V" [ref=e716]
+                      - img "Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V" [ref=e719]
+                      - img "Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V" [ref=e722]
+                      - img "Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V" [ref=e725]
+                      - img "Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V" [ref=e728]
+                      - img "Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V" [ref=e731]
+                    - img [ref=e743]
+                  - link "2 581 ₽ 4.9 152 купили Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V до 14 дней, бесплатно" [ref=e746] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005005685048590.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000034005855313&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e750]: 2 581 ₽
+                    - generic [ref=e751]:
+                      - generic [ref=e752]:
+                        - generic [ref=e753]:
+                          - img [ref=e754]
+                          - generic [ref=e755]: "4.9"
+                        - generic [ref=e757]: 152 купили
+                      - generic "Преобразователь напряжения DC-DC 12V/24V в 3.3V/3.7V/4.2V/5V/6V/7.5V/9V" [ref=e759]
+                    - generic [ref=e762]:
+                      - img [ref=e763]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e765]:
+                  - link "Повышающий преобразователь постоянного тока 12 В в 28 в 40 А, акция, 12 В в 28 В постоянного тока, 40 А, 1000 Вт, H40-12-28 дней, сертификация CE RoHS" [ref=e766] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/32243265459.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=67110983684&traffic_source=recommendation&type_rcmd=core
+                    - img "Повышающий преобразователь постоянного тока 12 В в 28 в 40 А, акция, 12 В в 28 В постоянного тока, 40 А, 1000 Вт, H40-12-28 дней, сертификация CE RoHS" [ref=e771]
+                    - img [ref=e776]
+                  - link "5 859 ₽ 5.0 20 купили Повышающий преобразователь постоянного тока 12 В в 28 в 40 А, акция, 12 В в 28 В постоянного тока, 40 А, 1000 Вт, H40-12-28 дней, сертификация CE RoHS до 14 дней, от 5 427 ₽" [ref=e779] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/32243265459.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=67110983684&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e783]: 5 859 ₽
+                    - generic [ref=e784]:
+                      - generic [ref=e785]:
+                        - generic [ref=e786]:
+                          - img [ref=e787]
+                          - generic [ref=e788]: "5.0"
+                        - generic [ref=e790]: 20 купили
+                      - generic "Повышающий преобразователь постоянного тока 12 В в 28 в 40 А, акция, 12 В в 28 В постоянного тока, 40 А, 1000 Вт, H40-12-28 дней, сертификация CE RoHS" [ref=e792]
+                    - generic [ref=e795]:
+                      - img [ref=e796]
+                      - text: до 14 дней, от 5 427 ₽
+                - generic [ref=e798]:
+                  - link "LYNNDM Преобразователь 12/24/48В в 5В LYNNDM Преобразователь 12/24/48В в 5В LYNNDM Преобразователь 12/24/48В в 5В LYNNDM Преобразователь 12/24/48В в 5В LYNNDM Преобразователь 12/24/48В в 5В LYNNDM Преобразователь 12/24/48В в 5В LYNNDM Преобразователь 12/24/48В в 5В" [ref=e799] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005006501718669.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000037436681387&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e802]:
+                      - img "LYNNDM Преобразователь 12/24/48В в 5В" [ref=e804]
+                      - img "LYNNDM Преобразователь 12/24/48В в 5В" [ref=e807]
+                      - img "LYNNDM Преобразователь 12/24/48В в 5В" [ref=e810]
+                      - img "LYNNDM Преобразователь 12/24/48В в 5В" [ref=e813]
+                      - img "LYNNDM Преобразователь 12/24/48В в 5В" [ref=e816]
+                      - img "LYNNDM Преобразователь 12/24/48В в 5В" [ref=e819]
+                      - img "LYNNDM Преобразователь 12/24/48В в 5В" [ref=e822]
+                    - img [ref=e834]
+                  - link "839 ₽ 4.8 1 920 купили LYNNDM Преобразователь 12/24/48В в 5В до 14 дней, бесплатно" [ref=e837] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005006501718669.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000037436681387&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e841]: 839 ₽
+                    - generic [ref=e842]:
+                      - generic [ref=e843]:
+                        - generic [ref=e844]:
+                          - img [ref=e845]
+                          - generic [ref=e846]: "4.8"
+                        - generic [ref=e848]: 1 920 купили
+                      - generic "LYNNDM Преобразователь 12/24/48В в 5В" [ref=e850]
+                    - generic [ref=e853]:
+                      - img [ref=e854]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e856]:
+                  - link "RU Warehouse 24V TO 12V10A и 60A Новейший понижающий преобразователь постоянного тока в постоянный ток, источник питания, все на складе RU Warehouse 24V TO 12V10A и 60A Новейший понижающий преобразователь постоянного тока в постоянный ток, источник питания, все на складе RU Warehouse 24V TO 12V10A и 60A Новейший понижающий преобразователь постоянного тока в постоянный ток, источник питания, все на складе" [ref=e857] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/32321181756.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=12000051758658654&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e860]:
+                      - img "RU Warehouse 24V TO 12V10A и 60A Новейший понижающий преобразователь постоянного тока в постоянный ток, источник питания, все на складе" [ref=e862]
+                      - img "RU Warehouse 24V TO 12V10A и 60A Новейший понижающий преобразователь постоянного тока в постоянный ток, источник питания, все на складе" [ref=e865]
+                      - img "RU Warehouse 24V TO 12V10A и 60A Новейший понижающий преобразователь постоянного тока в постоянный ток, источник питания, все на складе" [ref=e868]
+                    - img [ref=e876]
+                  - link "261 ₽ 4.5 67 купили RU Warehouse 24V TO 12V10A и 60A Новейший понижающий преобразователь постоянного тока в постоянный ток, источник питания, все на складе от 183 ₽" [ref=e879] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/32321181756.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=12000051758658654&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e883]: 261 ₽
+                    - generic [ref=e884]:
+                      - generic [ref=e885]:
+                        - generic [ref=e886]:
+                          - img [ref=e887]
+                          - generic [ref=e888]: "4.5"
+                        - generic [ref=e890]: 67 купили
+                      - generic "RU Warehouse 24V TO 12V10A и 60A Новейший понижающий преобразователь постоянного тока в постоянный ток, источник питания, все на складе" [ref=e892]
+                    - generic [ref=e895]:
+                      - img [ref=e896]
+                      - text: от 183 ₽
+                - generic [ref=e898]:
+                  - link "Преобразователь напряжения XWST 12В в 24В 3-20А Преобразователь напряжения XWST 12В в 24В 3-20А Преобразователь напряжения XWST 12В в 24В 3-20А Преобразователь напряжения XWST 12В в 24В 3-20А Преобразователь напряжения XWST 12В в 24В 3-20А Преобразователь напряжения XWST 12В в 24В 3-20А Преобразователь напряжения XWST 12В в 24В 3-20А" [ref=e899] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005002058561627.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000018589208188&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e902]:
+                      - img "Преобразователь напряжения XWST 12В в 24В 3-20А" [ref=e904]
+                      - img "Преобразователь напряжения XWST 12В в 24В 3-20А" [ref=e907]
+                      - img "Преобразователь напряжения XWST 12В в 24В 3-20А" [ref=e910]
+                      - img "Преобразователь напряжения XWST 12В в 24В 3-20А" [ref=e913]
+                      - img "Преобразователь напряжения XWST 12В в 24В 3-20А" [ref=e916]
+                      - img "Преобразователь напряжения XWST 12В в 24В 3-20А" [ref=e919]
+                      - img "Преобразователь напряжения XWST 12В в 24В 3-20А" [ref=e922]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - img [ref=e934]
+                  - link "1 292 ₽ -13% 1 129 ₽ 4.9 2 873 купили Преобразователь напряжения XWST 12В в 24В 3-20А до 14 дней, бесплатно" [ref=e937] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005002058561627.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000018589208188&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e938]:
+                      - generic [ref=e940]:
+                        - generic [ref=e941]: 1 292 ₽
+                        - generic [ref=e942]: "-13%"
+                      - generic [ref=e944]: 1 129 ₽
+                    - generic [ref=e945]:
+                      - generic [ref=e946]:
+                        - generic [ref=e947]:
+                          - img [ref=e948]
+                          - generic [ref=e949]: "4.9"
+                        - generic [ref=e951]: 2 873 купили
+                      - generic "Преобразователь напряжения XWST 12В в 24В 3-20А" [ref=e953]
+                    - generic [ref=e956]:
+                      - img [ref=e957]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e959]:
+                  - link "XWST Преобразователь постоянного тока 10-45В в 48В 1-72А XWST Преобразователь постоянного тока 10-45В в 48В 1-72А XWST Преобразователь постоянного тока 10-45В в 48В 1-72А XWST Преобразователь постоянного тока 10-45В в 48В 1-72А XWST Преобразователь постоянного тока 10-45В в 48В 1-72А XWST Преобразователь постоянного тока 10-45В в 48В 1-72А XWST Преобразователь постоянного тока 10-45В в 48В 1-72А" [ref=e960] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008643339429.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000046071884765&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e963]:
+                      - img "XWST Преобразователь постоянного тока 10-45В в 48В 1-72А" [ref=e965]
+                      - img "XWST Преобразователь постоянного тока 10-45В в 48В 1-72А" [ref=e968]
+                      - img "XWST Преобразователь постоянного тока 10-45В в 48В 1-72А" [ref=e971]
+                      - img "XWST Преобразователь постоянного тока 10-45В в 48В 1-72А" [ref=e974]
+                      - img "XWST Преобразователь постоянного тока 10-45В в 48В 1-72А" [ref=e977]
+                      - img "XWST Преобразователь постоянного тока 10-45В в 48В 1-72А" [ref=e980]
+                      - img "XWST Преобразователь постоянного тока 10-45В в 48В 1-72А" [ref=e983]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - img [ref=e995]
+                  - link "2 852 ₽ -8% 2 629 ₽ 4.4 190 купили XWST Преобразователь постоянного тока 10-45В в 48В 1-72А до 14 дней, бесплатно" [ref=e998] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008643339429.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000046071884765&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e999]:
+                      - generic [ref=e1001]:
+                        - generic [ref=e1002]: 2 852 ₽
+                        - generic [ref=e1003]: "-8%"
+                      - generic [ref=e1005]: 2 629 ₽
+                    - generic [ref=e1006]:
+                      - generic [ref=e1007]:
+                        - generic [ref=e1008]:
+                          - img [ref=e1009]
+                          - generic [ref=e1010]: "4.4"
+                        - generic [ref=e1012]: 190 купили
+                      - generic "XWST Преобразователь постоянного тока 10-45В в 48В 1-72А" [ref=e1014]
+                    - generic [ref=e1017]:
+                      - img [ref=e1018]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e1020]:
+                  - link "RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А" [ref=e1021] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005007121667576.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000045751835705&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1024]:
+                      - img "RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А" [ref=e1026]
+                      - img "RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А" [ref=e1029]
+                      - img "RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А" [ref=e1032]
+                      - img "RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А" [ref=e1035]
+                      - img "RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А" [ref=e1038]
+                      - img "RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А" [ref=e1041]
+                      - img "RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А" [ref=e1044]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - img [ref=e1056]
+                  - link "2 012 ₽ -14% 1 740 ₽ 4.1 131 купили RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А до 14 дней, от 934 ₽" [ref=e1059] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005007121667576.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000045751835705&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1060]:
+                      - generic [ref=e1062]:
+                        - generic [ref=e1063]: 2 012 ₽
+                        - generic [ref=e1064]: "-14%"
+                      - generic [ref=e1066]: 1 740 ₽
+                    - generic [ref=e1067]:
+                      - generic [ref=e1068]:
+                        - generic [ref=e1069]:
+                          - img [ref=e1070]
+                          - generic [ref=e1071]: "4.1"
+                        - generic [ref=e1073]: 131 купили
+                      - generic "RCNUN Преобразователь напряжения 18-36В в 12В/13.8В 50А/60А" [ref=e1075]
+                    - generic [ref=e1078]:
+                      - img [ref=e1079]
+                      - text: до 14 дней, от 934 ₽
+                - generic [ref=e1081]:
+                  - link "XWST Конвертер напряжения DC/DC 1A~50A XWST Конвертер напряжения DC/DC 1A~50A XWST Конвертер напряжения DC/DC 1A~50A XWST Конвертер напряжения DC/DC 1A~50A XWST Конвертер напряжения DC/DC 1A~50A XWST Конвертер напряжения DC/DC 1A~50A XWST Конвертер напряжения DC/DC 1A~50A" [ref=e1082] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008858913122.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000047057460745&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1085]:
+                      - img "XWST Конвертер напряжения DC/DC 1A~50A" [ref=e1087]
+                      - img "XWST Конвертер напряжения DC/DC 1A~50A" [ref=e1090]
+                      - img "XWST Конвертер напряжения DC/DC 1A~50A" [ref=e1093]
+                      - img "XWST Конвертер напряжения DC/DC 1A~50A" [ref=e1096]
+                      - img "XWST Конвертер напряжения DC/DC 1A~50A" [ref=e1099]
+                      - img "XWST Конвертер напряжения DC/DC 1A~50A" [ref=e1102]
+                      - img "XWST Конвертер напряжения DC/DC 1A~50A" [ref=e1105]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - img [ref=e1117]
+                  - link "754 ₽ -13% 659 ₽ 4.6 95 купили XWST Конвертер напряжения DC/DC 1A~50A до 14 дней, бесплатно" [ref=e1120] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008858913122.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000047057460745&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1121]:
+                      - generic [ref=e1123]:
+                        - generic [ref=e1124]: 754 ₽
+                        - generic [ref=e1125]: "-13%"
+                      - generic [ref=e1127]: 659 ₽
+                    - generic [ref=e1128]:
+                      - generic [ref=e1129]:
+                        - generic [ref=e1130]:
+                          - img [ref=e1131]
+                          - generic [ref=e1132]: "4.6"
+                        - generic [ref=e1134]: 95 купили
+                      - generic "XWST Конвертер напряжения DC/DC 1A~50A" [ref=e1136]
+                    - generic [ref=e1139]:
+                      - img [ref=e1140]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e1142]:
+                  - link "kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A" [ref=e1143] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005004981343733.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000031230039113&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1146]:
+                      - img "kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A" [ref=e1148]
+                      - img "kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A" [ref=e1151]
+                      - img "kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A" [ref=e1154]
+                      - img "kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A" [ref=e1157]
+                      - img "kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A" [ref=e1160]
+                      - img "kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A" [ref=e1163]
+                      - img "kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A" [ref=e1166]
+                    - img [ref=e1178]
+                  - link "5 490 ₽ с купоном 5 709 ₽ 5.0 33 купили kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A до 14 дней, бесплатно" [ref=e1181] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005004981343733.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000031230039113&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1182]:
+                      - generic [ref=e1185]: 5 490 ₽ с купоном
+                      - generic [ref=e1187]: 5 709 ₽
+                    - generic [ref=e1188]:
+                      - generic [ref=e1189]:
+                        - generic [ref=e1190]:
+                          - img [ref=e1191]
+                          - generic [ref=e1192]: "5.0"
+                        - generic [ref=e1194]: 33 купили
+                      - generic "kangwobei DC 15-40V понижающий преобразователь 24В в 12В 1A-60A" [ref=e1196]
+                    - generic [ref=e1199]:
+                      - img [ref=e1200]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e1202]:
+                  - link [ref=e1203] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/32848036747.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=67598484480&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1206]:
+                      - img "Понижающий преобразователь с 24 В на 12 В, 30 А, 60 А, 100 А, 14,6 В постоянного тока, 16,8 В постоянного тока, зарядное устройство Daygreen CE RoHS, срок службы 15 лет для автомобиля" [ref=e1208]
+                      - img "Понижающий преобразователь с 24 В на 12 В, 30 А, 60 А, 100 А, 14,6 В постоянного тока, 16,8 В постоянного тока, зарядное устройство Daygreen CE RoHS, срок службы 15 лет для автомобиля" [ref=e1211]
+                      - img "Понижающий преобразователь с 24 В на 12 В, 30 А, 60 А, 100 А, 14,6 В постоянного тока, 16,8 В постоянного тока, зарядное устройство Daygreen CE RoHS, срок службы 15 лет для автомобиля" [ref=e1214]
+                      - img "Понижающий преобразователь с 24 В на 12 В, 30 А, 60 А, 100 А, 14,6 В постоянного тока, 16,8 В постоянного тока, зарядное устройство Daygreen CE RoHS, срок службы 15 лет для автомобиля" [ref=e1217]
+                      - img "Понижающий преобразователь с 24 В на 12 В, 30 А, 60 А, 100 А, 14,6 В постоянного тока, 16,8 В постоянного тока, зарядное устройство Daygreen CE RoHS, срок службы 15 лет для автомобиля" [ref=e1220]
+                    - img [ref=e1230]
+                  - link "4 080 ₽ 4.9 85 купили Понижающий преобразователь с 24 В на 12 В, 30 А, 60 А, 100 А, 14,6 В постоянного тока, 16,8 В постоянного тока, зарядное устройство Daygreen CE RoHS, срок службы 15 лет для автомобиля до 14 дней, от 1 801 ₽" [ref=e1233] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/32848036747.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=67598484480&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1237]: 4 080 ₽
+                    - generic [ref=e1238]:
+                      - generic [ref=e1239]:
+                        - generic [ref=e1240]:
+                          - img [ref=e1241]
+                          - generic [ref=e1242]: "4.9"
+                        - generic [ref=e1244]: 85 купили
+                      - generic "Понижающий преобразователь с 24 В на 12 В, 30 А, 60 А, 100 А, 14,6 В постоянного тока, 16,8 В постоянного тока, зарядное устройство Daygreen CE RoHS, срок службы 15 лет для автомобиля" [ref=e1246]
+                    - generic [ref=e1249]:
+                      - img [ref=e1250]
+                      - text: до 14 дней, от 1 801 ₽
+                - generic [ref=e1252]:
+                  - link "LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В" [ref=e1253] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005006501964045.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000037436805982&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1256]:
+                      - img "LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В" [ref=e1258]
+                      - img "LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В" [ref=e1261]
+                      - img "LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В" [ref=e1264]
+                      - img "LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В" [ref=e1267]
+                      - img "LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В" [ref=e1270]
+                      - img "LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В" [ref=e1273]
+                    - img [ref=e1284]
+                  - link "1 302 ₽ 4.8 3 589 купили LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В до 14 дней, бесплатно" [ref=e1287] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005006501964045.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000037436805982&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1291]: 1 302 ₽
+                    - generic [ref=e1292]:
+                      - generic [ref=e1293]:
+                        - generic [ref=e1294]:
+                          - img [ref=e1295]
+                          - generic [ref=e1296]: "4.8"
+                        - generic [ref=e1298]: 3 589 купили
+                      - generic "LYNNDM Преобразователь напряжения DC/DC 12В до 19/24/36/48В" [ref=e1300]
+                    - generic [ref=e1303]:
+                      - img [ref=e1304]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e1306]:
+                  - link "RCNUN Преобразователь 12В в 24В 30/40/50А RCNUN Преобразователь 12В в 24В 30/40/50А RCNUN Преобразователь 12В в 24В 30/40/50А RCNUN Преобразователь 12В в 24В 30/40/50А RCNUN Преобразователь 12В в 24В 30/40/50А RCNUN Преобразователь 12В в 24В 30/40/50А RCNUN Преобразователь 12В в 24В 30/40/50А" [ref=e1307] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005005065885972.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000045655765877&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1310]:
+                      - img "RCNUN Преобразователь 12В в 24В 30/40/50А" [ref=e1312]
+                      - img "RCNUN Преобразователь 12В в 24В 30/40/50А" [ref=e1315]
+                      - img "RCNUN Преобразователь 12В в 24В 30/40/50А" [ref=e1318]
+                      - img "RCNUN Преобразователь 12В в 24В 30/40/50А" [ref=e1321]
+                      - img "RCNUN Преобразователь 12В в 24В 30/40/50А" [ref=e1324]
+                      - img "RCNUN Преобразователь 12В в 24В 30/40/50А" [ref=e1327]
+                      - img "RCNUN Преобразователь 12В в 24В 30/40/50А" [ref=e1330]
+                    - img [ref=e1342]
+                  - link "5 340 ₽ 4.8 105 купили RCNUN Преобразователь 12В в 24В 30/40/50А до 14 дней, от 1 809 ₽" [ref=e1345] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005005065885972.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000045655765877&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1349]: 5 340 ₽
+                    - generic [ref=e1350]:
+                      - generic [ref=e1351]:
+                        - generic [ref=e1352]:
+                          - img [ref=e1353]
+                          - generic [ref=e1354]: "4.8"
+                        - generic [ref=e1356]: 105 купили
+                      - generic "RCNUN Преобразователь 12В в 24В 30/40/50А" [ref=e1358]
+                    - generic [ref=e1361]:
+                      - img [ref=e1362]
+                      - text: до 14 дней, от 1 809 ₽
+                - generic [ref=e1364]:
+                  - link "XWST повышающий преобразователь напряжения XW-12V XWST повышающий преобразователь напряжения XW-12V XWST повышающий преобразователь напряжения XW-12V XWST повышающий преобразователь напряжения XW-12V XWST повышающий преобразователь напряжения XW-12V XWST повышающий преобразователь напряжения XW-12V" [ref=e1365] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008053888308.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000043480597636&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1368]:
+                      - img "XWST повышающий преобразователь напряжения XW-12V" [ref=e1370]
+                      - img "XWST повышающий преобразователь напряжения XW-12V" [ref=e1373]
+                      - img "XWST повышающий преобразователь напряжения XW-12V" [ref=e1376]
+                      - img "XWST повышающий преобразователь напряжения XW-12V" [ref=e1379]
+                      - img "XWST повышающий преобразователь напряжения XW-12V" [ref=e1382]
+                      - img "XWST повышающий преобразователь напряжения XW-12V" [ref=e1385]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - img [ref=e1396]
+                  - link "2 231 ₽ -41% 1 322 ₽ 4.9 252 купили XWST повышающий преобразователь напряжения XW-12V до 14 дней, бесплатно" [ref=e1399] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008053888308.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000043480597636&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1400]:
+                      - generic [ref=e1402]:
+                        - generic [ref=e1403]: 2 231 ₽
+                        - generic [ref=e1404]: "-41%"
+                      - generic [ref=e1406]: 1 322 ₽
+                    - generic [ref=e1407]:
+                      - generic [ref=e1408]:
+                        - generic [ref=e1409]:
+                          - img [ref=e1410]
+                          - generic [ref=e1411]: "4.9"
+                        - generic [ref=e1413]: 252 купили
+                      - generic "XWST повышающий преобразователь напряжения XW-12V" [ref=e1415]
+                    - generic [ref=e1418]:
+                      - img [ref=e1419]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e1421]:
+                  - link "RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А" [ref=e1422] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/33022133135.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000045575329314&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1425]:
+                      - img "RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А" [ref=e1427]
+                      - img "RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А" [ref=e1430]
+                      - img "RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А" [ref=e1433]
+                      - img "RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А" [ref=e1436]
+                      - img "RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А" [ref=e1439]
+                      - img "RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А" [ref=e1442]
+                      - img "RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А" [ref=e1445]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - img [ref=e1457]
+                  - link "4 727 ₽ -13% 4 089 ₽ 4.9 544 купили RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А до 14 дней, от 1 786 ₽" [ref=e1460] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/33022133135.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000045575329314&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1461]:
+                      - generic [ref=e1463]:
+                        - generic [ref=e1464]: 4 727 ₽
+                        - generic [ref=e1465]: "-13%"
+                      - generic [ref=e1467]: 4 089 ₽
+                    - generic [ref=e1468]:
+                      - generic [ref=e1469]:
+                        - generic [ref=e1470]:
+                          - img [ref=e1471]
+                          - generic [ref=e1472]: "4.9"
+                        - generic [ref=e1474]: 544 купили
+                      - generic "RCNUN Преобразователь напряжения DC 12В в DC 24В/28В/30В/40А/50А" [ref=e1476]
+                    - generic [ref=e1479]:
+                      - img [ref=e1480]
+                      - text: до 14 дней, от 1 786 ₽
+                - generic [ref=e1482]:
+                  - link "Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В" [ref=e1483] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008730885155.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000046442370413&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1486]:
+                      - img "Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В" [ref=e1488]
+                      - img "Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В" [ref=e1491]
+                      - img "Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В" [ref=e1494]
+                      - img "Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В" [ref=e1497]
+                      - img "Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В" [ref=e1500]
+                      - img "Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В" [ref=e1503]
+                      - img "Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В" [ref=e1506]
+                    - img [ref=e1518]
+                  - link "389 ₽ 4.8 17 купили Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В до 14 дней, от 319 ₽" [ref=e1521] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008730885155.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000046442370413&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1525]: 389 ₽
+                    - generic [ref=e1526]:
+                      - generic [ref=e1527]:
+                        - generic [ref=e1528]:
+                          - img [ref=e1529]
+                          - generic [ref=e1530]: "4.8"
+                        - generic [ref=e1532]: 17 купили
+                      - generic "Конвертер DC-DC VGEPS 12В в 13,8В/15В/19В/24В/28В" [ref=e1534]
+                    - generic [ref=e1537]:
+                      - img [ref=e1538]
+                      - text: до 14 дней, от 319 ₽
+                - generic [ref=e1540]:
+                  - link "RCNUN понижающий модуль преобразователь 24В в 12В RCNUN понижающий модуль преобразователь 24В в 12В RCNUN понижающий модуль преобразователь 24В в 12В RCNUN понижающий модуль преобразователь 24В в 12В RCNUN понижающий модуль преобразователь 24В в 12В RCNUN понижающий модуль преобразователь 24В в 12В RCNUN понижающий модуль преобразователь 24В в 12В" [ref=e1541] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/4000315202452.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=10000001298769244&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1544]:
+                      - img "RCNUN понижающий модуль преобразователь 24В в 12В" [ref=e1546]
+                      - img "RCNUN понижающий модуль преобразователь 24В в 12В" [ref=e1549]
+                      - img "RCNUN понижающий модуль преобразователь 24В в 12В" [ref=e1552]
+                      - img "RCNUN понижающий модуль преобразователь 24В в 12В" [ref=e1555]
+                      - img "RCNUN понижающий модуль преобразователь 24В в 12В" [ref=e1558]
+                      - img "RCNUN понижающий модуль преобразователь 24В в 12В" [ref=e1561]
+                      - img "RCNUN понижающий модуль преобразователь 24В в 12В" [ref=e1564]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - img [ref=e1576]
+                  - link "934 ₽ -13% 809 ₽ 4.8 86 купили RCNUN понижающий модуль преобразователь 24В в 12В до 14 дней, от 557 ₽" [ref=e1579] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/4000315202452.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=10000001298769244&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1580]:
+                      - generic [ref=e1582]:
+                        - generic [ref=e1583]: 934 ₽
+                        - generic [ref=e1584]: "-13%"
+                      - generic [ref=e1586]: 809 ₽
+                    - generic [ref=e1587]:
+                      - generic [ref=e1588]:
+                        - generic [ref=e1589]:
+                          - img [ref=e1590]
+                          - generic [ref=e1591]: "4.8"
+                        - generic [ref=e1593]: 86 купили
+                      - generic "RCNUN понижающий модуль преобразователь 24В в 12В" [ref=e1595]
+                    - generic [ref=e1598]:
+                      - img [ref=e1599]
+                      - text: до 14 дней, от 557 ₽
+                - generic [ref=e1601]:
+                  - link "RCNUN Повышающий преобразователь постоянного тока 12В до 28В RCNUN Повышающий преобразователь постоянного тока 12В до 28В RCNUN Повышающий преобразователь постоянного тока 12В до 28В RCNUN Повышающий преобразователь постоянного тока 12В до 28В RCNUN Повышающий преобразователь постоянного тока 12В до 28В RCNUN Повышающий преобразователь постоянного тока 12В до 28В RCNUN Повышающий преобразователь постоянного тока 12В до 28В" [ref=e1602] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005007096929438.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000045658146043&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1605]:
+                      - img "RCNUN Повышающий преобразователь постоянного тока 12В до 28В" [ref=e1607]
+                      - img "RCNUN Повышающий преобразователь постоянного тока 12В до 28В" [ref=e1610]
+                      - img "RCNUN Повышающий преобразователь постоянного тока 12В до 28В" [ref=e1613]
+                      - img "RCNUN Повышающий преобразователь постоянного тока 12В до 28В" [ref=e1616]
+                      - img "RCNUN Повышающий преобразователь постоянного тока 12В до 28В" [ref=e1619]
+                      - img "RCNUN Повышающий преобразователь постоянного тока 12В до 28В" [ref=e1622]
+                      - img "RCNUN Повышающий преобразователь постоянного тока 12В до 28В" [ref=e1625]
+                    - img [ref=e1637]
+                  - link "2 709 ₽ 4.8 53 купили RCNUN Повышающий преобразователь постоянного тока 12В до 28В до 14 дней, от 1 729 ₽" [ref=e1640] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005007096929438.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000045658146043&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1644]: 2 709 ₽
+                    - generic [ref=e1645]:
+                      - generic [ref=e1646]:
+                        - generic [ref=e1647]:
+                          - img [ref=e1648]
+                          - generic [ref=e1649]: "4.8"
+                        - generic [ref=e1651]: 53 купили
+                      - generic "RCNUN Повышающий преобразователь постоянного тока 12В до 28В" [ref=e1653]
+                    - generic [ref=e1656]:
+                      - img [ref=e1657]
+                      - text: до 14 дней, от 1 729 ₽
+                - generic [ref=e1659]:
+                  - link "Повышающий преобразователь постоянного тока с 12 В до 24 В, 20 А, 25 А, 30 А, 30 А, 720 Вт, от 12 В постоянного тока до 24 В постоянного тока, 30 А, регулятор напряжения, Модуль повышения мощности CE ROHS" [ref=e1660] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/32234146925.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=65184351320&traffic_source=recommendation&type_rcmd=core
+                    - img "Повышающий преобразователь постоянного тока с 12 В до 24 В, 20 А, 25 А, 30 А, 30 А, 720 Вт, от 12 В постоянного тока до 24 В постоянного тока, 30 А, регулятор напряжения, Модуль повышения мощности CE ROHS" [ref=e1665]
+                    - img [ref=e1670]
+                  - link "3 339 ₽ 5.0 9 купили Повышающий преобразователь постоянного тока с 12 В до 24 В, 20 А, 25 А, 30 А, 30 А, 720 Вт, от 12 В постоянного тока до 24 В постоянного тока, 30 А, регулятор напряжения, Модуль повышения мощности CE ROHS до 14 дней, от 4 567 ₽" [ref=e1673] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/32234146925.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=65184351320&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1677]: 3 339 ₽
+                    - generic [ref=e1678]:
+                      - generic [ref=e1679]:
+                        - generic [ref=e1680]:
+                          - img [ref=e1681]
+                          - generic [ref=e1682]: "5.0"
+                        - generic [ref=e1684]: 9 купили
+                      - generic "Повышающий преобразователь постоянного тока с 12 В до 24 В, 20 А, 25 А, 30 А, 30 А, 720 Вт, от 12 В постоянного тока до 24 В постоянного тока, 30 А, регулятор напряжения, Модуль повышения мощности CE ROHS" [ref=e1686]
+                    - generic [ref=e1689]:
+                      - img [ref=e1690]
+                      - text: до 14 дней, от 4 567 ₽
+                - generic [ref=e1692]:
+                  - link "Конвертер DC-DC VGEPS Y1 Конвертер DC-DC VGEPS Y1 Конвертер DC-DC VGEPS Y1 Конвертер DC-DC VGEPS Y1 Конвертер DC-DC VGEPS Y1 Конвертер DC-DC VGEPS Y1 Конвертер DC-DC VGEPS Y1" [ref=e1693] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005009255136134.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000048492790516&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1696]:
+                      - img "Конвертер DC-DC VGEPS Y1" [ref=e1698]
+                      - img "Конвертер DC-DC VGEPS Y1" [ref=e1701]
+                      - img "Конвертер DC-DC VGEPS Y1" [ref=e1704]
+                      - img "Конвертер DC-DC VGEPS Y1" [ref=e1707]
+                      - img "Конвертер DC-DC VGEPS Y1" [ref=e1710]
+                      - img "Конвертер DC-DC VGEPS Y1" [ref=e1713]
+                      - img "Конвертер DC-DC VGEPS Y1" [ref=e1716]
+                    - img [ref=e1728]
+                  - link "389 ₽ 4.8 114 купили Конвертер DC-DC VGEPS Y1 до 14 дней, от 349 ₽" [ref=e1731] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005009255136134.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000048492790516&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1735]: 389 ₽
+                    - generic [ref=e1736]:
+                      - generic [ref=e1737]:
+                        - generic [ref=e1738]:
+                          - img [ref=e1739]
+                          - generic [ref=e1740]: "4.8"
+                        - generic [ref=e1742]: 114 купили
+                      - generic "Конвертер DC-DC VGEPS Y1" [ref=e1744]
+                    - generic [ref=e1747]:
+                      - img [ref=e1748]
+                      - text: до 14 дней, от 349 ₽
+                - generic [ref=e1750]:
+                  - link "Понижающий преобразователь постоянного тока, 24 В постоянного тока в 12 В постоянного тока, 100 А, модуль редуктор регулятора напряжения, трансформатор, понижающий, сверхмощный Понижающий преобразователь постоянного тока, 24 В постоянного тока в 12 В постоянного тока, 100 А, модуль редуктор регулятора напряжения, трансформатор, понижающий, сверхмощный Понижающий преобразователь постоянного тока, 24 В постоянного тока в 12 В постоянного тока, 100 А, модуль редуктор регулятора напряжения, трансформатор, понижающий, сверхмощный" [ref=e1751] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/32322928218.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000030718220978&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1754]:
+                      - img "Понижающий преобразователь постоянного тока, 24 В постоянного тока в 12 В постоянного тока, 100 А, модуль редуктор регулятора напряжения, трансформатор, понижающий, сверхмощный" [ref=e1756]
+                      - img "Понижающий преобразователь постоянного тока, 24 В постоянного тока в 12 В постоянного тока, 100 А, модуль редуктор регулятора напряжения, трансформатор, понижающий, сверхмощный" [ref=e1759]
+                      - img "Понижающий преобразователь постоянного тока, 24 В постоянного тока в 12 В постоянного тока, 100 А, модуль редуктор регулятора напряжения, трансформатор, понижающий, сверхмощный" [ref=e1762]
+                    - img [ref=e1770]
+                  - link "6 349 ₽ 4.8 37 купили Понижающий преобразователь постоянного тока, 24 В постоянного тока в 12 В постоянного тока, 100 А, модуль редуктор регулятора напряжения, трансформатор, понижающий, сверхмощный до 14 дней, от 4 567 ₽" [ref=e1773] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/32322928218.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000030718220978&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1777]: 6 349 ₽
+                    - generic [ref=e1778]:
+                      - generic [ref=e1779]:
+                        - generic [ref=e1780]:
+                          - img [ref=e1781]
+                          - generic [ref=e1782]: "4.8"
+                        - generic [ref=e1784]: 37 купили
+                      - generic "Понижающий преобразователь постоянного тока, 24 В постоянного тока в 12 В постоянного тока, 100 А, модуль редуктор регулятора напряжения, трансформатор, понижающий, сверхмощный" [ref=e1786]
+                    - generic [ref=e1789]:
+                      - img [ref=e1790]
+                      - text: до 14 дней, от 4 567 ₽
+                - generic [ref=e1792]:
+                  - link [ref=e1793] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005007008960348.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000039046527741&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1796]:
+                      - img "Преобразователь мощности постоянного тока 48/60/72 В до 12 В 20 А 30 А 40 А 50 А автоматический понижающий регулятор понижающего напряжения модуль питания для автомобиля" [ref=e1798]
+                      - img "Преобразователь мощности постоянного тока 48/60/72 В до 12 В 20 А 30 А 40 А 50 А автоматический понижающий регулятор понижающего напряжения модуль питания для автомобиля" [ref=e1801]
+                      - img "Преобразователь мощности постоянного тока 48/60/72 В до 12 В 20 А 30 А 40 А 50 А автоматический понижающий регулятор понижающего напряжения модуль питания для автомобиля" [ref=e1804]
+                      - img "Преобразователь мощности постоянного тока 48/60/72 В до 12 В 20 А 30 А 40 А 50 А автоматический понижающий регулятор понижающего напряжения модуль питания для автомобиля" [ref=e1807]
+                      - img "Преобразователь мощности постоянного тока 48/60/72 В до 12 В 20 А 30 А 40 А 50 А автоматический понижающий регулятор понижающего напряжения модуль питания для автомобиля" [ref=e1810]
+                      - img "Преобразователь мощности постоянного тока 48/60/72 В до 12 В 20 А 30 А 40 А 50 А автоматический понижающий регулятор понижающего напряжения модуль питания для автомобиля" [ref=e1813]
+                      - img "Преобразователь мощности постоянного тока 48/60/72 В до 12 В 20 А 30 А 40 А 50 А автоматический понижающий регулятор понижающего напряжения модуль питания для автомобиля" [ref=e1816]
+                    - img [ref=e1828]
+                  - link "8 009 ₽ с купоном 8 222 ₽ 5.0 7 купили Преобразователь мощности постоянного тока 48/60/72 В до 12 В 20 А 30 А 40 А 50 А автоматический понижающий регулятор понижающего напряжения модуль питания для автомобиля до 14 дней, бесплатно" [ref=e1831] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005007008960348.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000039046527741&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1832]:
+                      - generic [ref=e1835]: 8 009 ₽ с купоном
+                      - generic [ref=e1837]: 8 222 ₽
+                    - generic [ref=e1838]:
+                      - generic [ref=e1839]:
+                        - generic [ref=e1840]:
+                          - img [ref=e1841]
+                          - generic [ref=e1842]: "5.0"
+                        - generic [ref=e1844]: 7 купили
+                      - generic "Преобразователь мощности постоянного тока 48/60/72 В до 12 В 20 А 30 А 40 А 50 А автоматический понижающий регулятор понижающего напряжения модуль питания для автомобиля" [ref=e1846]
+                    - generic [ref=e1849]:
+                      - img [ref=e1850]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e1852]:
+                  - link "kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В" [ref=e1853] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005005812552305.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000034439855142&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1856]:
+                      - img "kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В" [ref=e1858]
+                      - img "kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В" [ref=e1861]
+                      - img "kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В" [ref=e1864]
+                      - img "kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В" [ref=e1867]
+                      - img "kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В" [ref=e1870]
+                      - img "kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В" [ref=e1873]
+                      - img "kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В" [ref=e1876]
+                    - img [ref=e1888]
+                  - link "429 ₽ 4.7 862 купили kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В до 14 дней, от 124 ₽" [ref=e1891] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005005812552305.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000034439855142&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1895]: 429 ₽
+                    - generic [ref=e1896]:
+                      - generic [ref=e1897]:
+                        - generic [ref=e1898]:
+                          - img [ref=e1899]
+                          - generic [ref=e1900]: "4.7"
+                        - generic [ref=e1902]: 862 купили
+                      - generic "kangwobei DC/DC Converters понижающий преобразователь 8-22В до 3-15В" [ref=e1904]
+                    - generic [ref=e1907]:
+                      - img [ref=e1908]
+                      - text: до 14 дней, от 124 ₽
+                - generic [ref=e1910]:
+                  - link "WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V" [ref=e1911] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005007355906833.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=12000040402832381&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1914]:
+                      - img "WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V" [ref=e1916]
+                      - img "WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V" [ref=e1919]
+                      - img "WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V" [ref=e1922]
+                      - img "WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V" [ref=e1925]
+                      - img "WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V" [ref=e1928]
+                      - img "WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V" [ref=e1931]
+                      - img "WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V" [ref=e1934]
+                    - img [ref=e1946]
+                  - link "525 ₽ -30% 369 ₽ 4.8 544 купили WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V бесплатно" [ref=e1949] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005007355906833.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005002291450444&ru_algo_pv_id=0b34e6-61b690-6921f7-d6f6f1-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=12000040402832381&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1950]:
+                      - generic [ref=e1952]:
+                        - generic [ref=e1953]: 525 ₽
+                        - generic [ref=e1954]: "-30%"
+                      - generic [ref=e1956]: 369 ₽
+                    - generic [ref=e1957]:
+                      - generic [ref=e1958]:
+                        - generic [ref=e1959]:
+                          - img [ref=e1960]
+                          - generic [ref=e1961]: "4.8"
+                        - generic [ref=e1963]: 544 купили
+                      - generic "WAOHEI Конвертер напряжения 24V 12V в 7.5V 6V 9V" [ref=e1965]
+                    - generic [ref=e1968]:
+                      - img [ref=e1969]
+                      - text: бесплатно
+              - img [ref=e1971] [cursor=pointer]
+          - list [ref=e1975]:
+            - listitem [ref=e1976]:
+              - link "tab-list-item-0" [ref=e1977] [cursor=pointer]:
+                - /url: /item/1005002291450444/reviews
+                - generic [ref=e1978]:
+                  - heading "Отзывы" [level=2] [ref=e1979]
+                  - img [ref=e1980]
+              - generic [ref=e1983]:
+                - generic [ref=e1985]:
+                  - generic [ref=e1987]:
+                    - generic [ref=e1988]:
+                      - generic [ref=e1989]: 5,0
+                      - generic [ref=e1990]:
+                        - img [ref=e1992]
+                        - img [ref=e1995]
+                        - img [ref=e1998]
+                        - img [ref=e2001]
+                        - img [ref=e2004]
+                    - generic [ref=e2006]:
+                      - generic "all_review_link" [ref=e2007] [cursor=pointer]:
+                        - paragraph [ref=e2008]: 1 отзыв
+                        - img [ref=e2009]
+                      - generic [ref=e2011]: 11 купили
+                  - generic [ref=e2012]:
+                    - generic [ref=e2013]:
+                      - generic [ref=e2015]:
+                        - img [ref=e2016]
+                        - img [ref=e2018]
+                        - img [ref=e2020]
+                        - img [ref=e2022]
+                        - img [ref=e2024]
+                      - generic [ref=e2029]:
+                        - img [ref=e2030]
+                        - img [ref=e2032]
+                        - img [ref=e2034]
+                        - img [ref=e2036]
+                        - img [ref=e2038]
+                      - generic [ref=e2042]:
+                        - img [ref=e2043]
+                        - img [ref=e2045]
+                        - img [ref=e2047]
+                        - img [ref=e2049]
+                        - img [ref=e2051]
+                      - generic [ref=e2055]:
+                        - img [ref=e2056]
+                        - img [ref=e2058]
+                        - img [ref=e2060]
+                        - img [ref=e2062]
+                        - img [ref=e2064]
+                      - generic [ref=e2068]:
+                        - img [ref=e2069]
+                        - img [ref=e2071]
+                        - img [ref=e2073]
+                        - img [ref=e2075]
+                        - img [ref=e2077]
+                    - generic [ref=e2080]:
+                      - generic [ref=e2081] [cursor=pointer]: "1"
+                      - generic: "0"
+                      - generic: "0"
+                      - generic: "0"
+                      - generic: "0"
+                - generic [ref=e2084]:
+                  - generic [ref=e2085]:
+                    - generic [ref=e2087]:
+                      - button "С фото" [ref=e2088] [cursor=pointer]
+                      - button "Из России" [ref=e2089] [cursor=pointer]
+                      - button "Все звезды" [ref=e2093] [cursor=pointer]:
+                        - text: Все звезды
+                        - img [ref=e2094]
+                      - button "Дополненные" [ref=e2096] [cursor=pointer]
+                    - button "Сначала полезные" [ref=e2100] [cursor=pointer]:
+                      - text: Сначала полезные
+                      - img [ref=e2101]
+                  - list [ref=e2103]:
+                    - listitem [ref=e2104]:
+                      - generic [ref=e2105]:
+                        - generic [ref=e2106]:
+                          - generic [ref=e2108]:
+                            - generic [ref=e2109]:
+                              - generic [ref=e2110]:
+                                - generic [ref=e2111]:
+                                  - generic [ref=e2112]: KH
+                                  - img [ref=e2115]
+                                - generic [ref=e2116]:
+                                  - paragraph [ref=e2117]: Katya H.
+                                  - paragraph [ref=e2118]: 4 апреля 2026
+                              - button "toggleActions" [ref=e2120]:
+                                - img [ref=e2121]
+                            - generic [ref=e2123]:
+                              - generic [ref=e2124]:
+                                - img [ref=e2125]
+                                - img [ref=e2127]
+                                - img [ref=e2129]
+                                - img [ref=e2131]
+                                - img [ref=e2133]
+                              - paragraph [ref=e2135]: 30A | 12 В | 24V | China Mainland
+                          - paragraph [ref=e2137]: Удивительно, но работает. Хотя напряжение отдаваемое на выходе при при 20 амперах в нагрузку меньше 24 вольт. Что будет при 30 Амперах вопрос??
+                        - button "likeButton" [ref=e2139] [cursor=pointer]:
+                          - img [ref=e2141]
+                - button "allReviewsButton" [ref=e2145] [cursor=pointer]:
+                  - paragraph [ref=e2146]:
+                    - generic [ref=e2148]: Все отзывы (1)
+            - listitem [ref=e2149]:
+              - generic "tab-list-item-1" [ref=e2150]:
+                - heading "Задать вопрос" [level=2] [ref=e2152]
+                - generic [ref=e2153]: Задайте вопрос о товаре. Вам ответит пользователь, купивший этот товар.
+              - button "leaveQuestion" [ref=e2156] [cursor=pointer]:
+                - paragraph [ref=e2157]:
+                  - generic [ref=e2158]: Задать вопрос
+          - generic [ref=e2159]:
+            - generic [ref=e2161]:
+              - generic [ref=e2163]:
+                - heading "Описание" [level=4] [ref=e2164]
+                - generic [ref=e2167]:
+                  - img [ref=e2169]
+                  - generic [ref=e2170]:
+                    - paragraph [ref=e2171]: Технические характеристики продукта
+                    - img [ref=e2173]
+                  - generic [ref=e2174]:
+                    - paragraph [ref=e2175]: Размер товара
+                    - img [ref=e2177]
+                  - generic [ref=e2178]:
+                    - paragraph [ref=e2179]: подробности о продукте
+                    - img [ref=e2181]
+                  - generic [ref=e2182]:
+                    - paragraph [ref=e2183]: Схема подключения
+                    - generic [ref=e2184]:
+                      - img [ref=e2185]
+                      - img [ref=e2186]
+                  - generic [ref=e2187]:
+                    - paragraph [ref=e2188]: Область применения
+                    - img [ref=e2190]
+                  - generic [ref=e2191]:
+                    - paragraph [ref=e2192]: Демонстрация продуктов
+                    - img [ref=e2194]
+                  - generic [ref=e2195]:
+                    - paragraph [ref=e2196]: Профиль компании
+                    - img [ref=e2198]
+                  - generic [ref=e2199]:
+                    - paragraph [ref=e2200]: Доставка и оплата
+                    - img [ref=e2202]
+                  - generic [ref=e2203]:
+                    - paragraph [ref=e2204]: Часто задаваемые вопросы
+                    - img [ref=e2206]
+                  - paragraph [ref=e2207]
+              - button "Полное описание" [ref=e2209] [cursor=pointer]:
+                - paragraph [ref=e2210]:
+                  - generic [ref=e2211]: Полное описание
+                - img [ref=e2213]
+            - generic [ref=e2215]:
+              - generic [ref=e2216]:
+                - heading "Характеристики" [level=4] [ref=e2217]
+                - generic [ref=e2220]:
+                  - generic [ref=e2221]:
+                    - generic [ref=e2223]: Название бренда
+                    - generic [ref=e2224]: VGEPS
+                  - generic [ref=e2225]:
+                    - generic [ref=e2227]: Номер модели
+                    - generic [ref=e2228]: 12V to 24V
+                  - generic [ref=e2229]:
+                    - generic [ref=e2231]: Происхождение
+                    - generic [ref=e2232]: Китай
+                  - generic [ref=e2233]:
+                    - generic [ref=e2235]: Тип
+                    - generic [ref=e2236]: Конвертеры DC/DC
+                  - generic [ref=e2237]:
+                    - generic [ref=e2239]: Размер
+                    - generic [ref=e2240]: 150*127*63mm
+                  - generic [ref=e2241]:
+                    - generic [ref=e2243]: Вес
+                    - generic [ref=e2244]: 1.5kg
+                  - generic [ref=e2245]:
+                    - generic [ref=e2247]: Индивидуальное изготовление
+                    - generic [ref=e2248]: Да
+                  - generic [ref=e2249]:
+                    - generic [ref=e2251]: Сертификация
+                    - generic [ref=e2252]: Евротест (СЕ)
+              - button "Все характеристики" [ref=e2253] [cursor=pointer]:
+                - paragraph [ref=e2254]:
+                  - generic [ref=e2255]: Все характеристики
+                - img [ref=e2257]
+            - generic [ref=e2261]:
+              - link [ref=e2262] [cursor=pointer]:
+                - /url: https://aliexpress.ru/store/5059041
+                - img [ref=e2264]
+              - link "VGEPS Official Store official 95,66% рейтинг продавца · 421 подписчик · 4,8 рейтинг товаров" [ref=e2265] [cursor=pointer]:
+                - /url: https://aliexpress.ru/store/5059041
+                - generic [ref=e2266]:
+                  - heading "VGEPS Official Store" [level=5] [ref=e2267]
+                  - generic [ref=e2269]:
+                    - img [ref=e2270]
+                    - generic [ref=e2273]: official
+                - generic [ref=e2274]:
+                  - generic [ref=e2275]:
+                    - generic [ref=e2276]: 95,66% рейтинг продавца
+                    - text: ·
+                  - generic [ref=e2277]:
+                    - generic [ref=e2278]: 421 подписчик
+                    - text: ·
+                  - generic [ref=e2279]:
+                    - img [ref=e2280]
+                    - generic [ref=e2282]: 4,8 рейтинг товаров
+              - list [ref=e2283]:
+                - listitem [ref=e2284]:
+                  - button "Подписаться" [ref=e2285] [cursor=pointer]:
+                    - generic [ref=e2287]:
+                      - img [ref=e2288]
+                      - img [ref=e2291]
+                    - paragraph [ref=e2295]:
+                      - generic [ref=e2296]: Подписаться
+                - listitem [ref=e2297]:
+                  - link "Чат с продавцом" [ref=e2298] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/chat?entry_point=Pdp&type=bs&item_id=1005002291450444&seller_id=233026603&sku_id=12000019941305141
+                    - button "Чат с продавцом" [ref=e2299]:
+                      - paragraph [ref=e2300]:
+                        - generic [ref=e2301]: Чат с продавцом
+                - listitem [ref=e2303]:
+                  - button [ref=e2304] [cursor=pointer]:
+                    - img [ref=e2307]
+            - button "Пожаловаться на товар" [ref=e2311] [cursor=pointer]:
+              - paragraph [ref=e2312]:
+                - generic [ref=e2313]: Пожаловаться на товар
+          - generic [ref=e2315]:
+            - heading "Продавец рекомендует" [level=3] [ref=e2316]
+            - img [ref=e2746] [cursor=pointer]
+          - heading "Подобрали для вас" [level=3] [ref=e2750]
+          - generic [ref=e3180]:
+            - text: Связанный поиск
+            - generic [ref=e3181]:
+              - link "инвертор 24v" [ref=e3183] [cursor=pointer]:
+                - /url: /popular/%D0%B8%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%BE%D1%80-24v
+                - generic [ref=e3184]: инвертор 24v
+              - link "12v 24v converter" [ref=e3186] [cursor=pointer]:
+                - /url: /popular/12v-24v-converter
+                - generic [ref=e3187]: 12v 24v converter
+              - link "преобразователь 24 12" [ref=e3189] [cursor=pointer]:
+                - /url: /popular/%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C-24-12
+                - generic [ref=e3190]: преобразователь 24 12
+              - link "преобразователь с 12 на 5" [ref=e3192] [cursor=pointer]:
+                - /url: /popular/%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C-%D1%81-12-%D0%BD%D0%B0-5
+                - generic [ref=e3193]: преобразователь с 12 на 5
+              - link "12v to 24v boost converter" [ref=e3195] [cursor=pointer]:
+                - /url: /popular/12v-to-24v-boost-converter
+                - generic [ref=e3196]: 12v to 24v boost converter
+              - link "инвертор 12v 24v" [ref=e3198] [cursor=pointer]:
+                - /url: /popular/%D0%B8%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%BE%D1%80-12v-24v
+                - generic [ref=e3199]: инвертор 12v 24v
+              - link "преобразователь 12в 24в" [ref=e3201] [cursor=pointer]:
+                - /url: /popular/%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C-12%D0%B2-24%D0%B2
+                - generic [ref=e3202]: преобразователь 12в 24в
+              - link "инвертор 12 24" [ref=e3204] [cursor=pointer]:
+                - /url: /popular/%D0%B8%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%BE%D1%80-12-24
+                - generic [ref=e3205]: инвертор 12 24
+              - link "преобразователь напряжения 24 12" [ref=e3207] [cursor=pointer]:
+                - /url: /popular/%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C-%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-24-12
+                - generic [ref=e3208]: преобразователь напряжения 24 12
+              - link "dc dc converter 12v 24v" [ref=e3210] [cursor=pointer]:
+                - /url: /popular/dc-dc-converter-12v-24v
+                - generic [ref=e3211]: dc dc converter 12v 24v
+              - link "преобразователь 12 24в" [ref=e3213] [cursor=pointer]:
+                - /url: /popular/%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C-12-24%D0%B2
+                - generic [ref=e3214]: преобразователь 12 24в
+              - link "конвертер 24 в на 12 в" [ref=e3216] [cursor=pointer]:
+                - /url: /popular/%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%B5%D1%80-24-%D0%B2-%D0%BD%D0%B0-12-%D0%B2
+                - generic [ref=e3217]: конвертер 24 в на 12 в
+    - generic [ref=e3220]:
+      - generic [ref=e3223]:
+        - text: Используя этот сайт, Вы выражаете согласие на сбор и обработку Ваших персональных данных, в том числе с привлечением сторонних сервисов, с применением cookie-файлов и средств анализа поведения пользователей (веб-аналитики), согласно нашей
+        - link "Политике конфиденциальности" [ref=e3224] [cursor=pointer]:
+          - /url: https://business.aliexpress.ru/legal-docs/article/aer_ru_confidentiality_agreement
+        - text: . Вы также принимаете условия наших
+        - link "Пользовательских соглашений" [ref=e3225] [cursor=pointer]:
+          - /url: https://business.aliexpress.ru/legal-docs
+        - text: .
+      - button "Понятно" [ref=e3227] [cursor=pointer]
+    - generic [ref=e3228]:
+      - img [ref=e3231]
+      - generic [ref=e3234]:
+        - generic [ref=e3235]:
+          - generic [ref=e3236]:
+            - generic [ref=e3237]:
+              - generic [ref=e3238]: Покупателям
+              - generic [ref=e3239]:
+                - link "Поддержка" [ref=e3240] [cursor=pointer]:
+                  - /url: https://aliexpress.ru/chat?_title=%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0%20AliExpress&entry_point=footer
+                - link "Календарь распродаж" [ref=e3241] [cursor=pointer]:
+                  - /url: https://aliexpress.ru/promo/sales
+                - link "Справка AliExpress" [ref=e3242] [cursor=pointer]:
+                  - /url: //docs.aliexpress.ru/
+            - generic [ref=e3243]:
+              - generic [ref=e3244]: Партнёрам
+              - generic [ref=e3245]:
+                - link "Продавайте на AliExpress" [ref=e3246] [cursor=pointer]:
+                  - /url: //business.aliexpress.ru/?utm_medium=internal&utm_source=mp&utm_campaign=footer
+                - link "Аффилиатная программа" [ref=e3247] [cursor=pointer]:
+                  - /url: //aeplatform.ru
+          - generic [ref=e3248]:
+            - generic [ref=e3249]:
+              - generic [ref=e3250]: О компании
+              - generic [ref=e3251]:
+                - link "Работа в AliExpress" [ref=e3252] [cursor=pointer]:
+                  - /url: //it.aliexpress.ru
+                - link "Мы на Хабре" [ref=e3253] [cursor=pointer]:
+                  - /url: //habr.com/ru/companies/aliexpress_russia/articles/
+            - generic [ref=e3254]:
+              - generic [ref=e3255]: Мы в соцсетях
+              - generic [ref=e3256]:
+                - link "Вконтакте" [ref=e3257] [cursor=pointer]:
+                  - /url: //vk.com/aliexpress
+                - link "Telegram" [ref=e3258] [cursor=pointer]:
+                  - /url: //t.me/AliExpressofficial_channel
+                - link "MAX" [ref=e3259] [cursor=pointer]:
+                  - /url: //max.ru/AliExpressofficial_channel
+        - generic [ref=e3260]:
+          - generic [ref=e3262]:
+            - generic [ref=e3263]: © AliExpress®
+            - generic [ref=e3264]: 2019 – 2026
+          - generic [ref=e3265]:
+            - generic [ref=e3266]:
+              - link "Политика конфиденциальности" [ref=e3267] [cursor=pointer]:
+                - /url: //business.aliexpress.ru/legal-docs/article/aer_ru_confidentiality_agreement
+              - link "Пользовательские соглашения" [ref=e3268] [cursor=pointer]:
+                - /url: //business.aliexpress.ru/legal-docs
+            - generic [ref=e3269]:
+              - text: На информационном ресурсе применяются
+              - link "рекомендательные технологии" [ref=e3270] [cursor=pointer]:
+                - /url: //business.aliexpress.ru/legal-docs/article/aer_ru_recommendations
+          - generic [ref=e3272]:
+            - link [ref=e3273] [cursor=pointer]:
+              - /url: "https://trk.mail.ru/c/ipure9?mt_idfa={mt_idfa}"
+              - img [ref=e3274]
+            - link [ref=e3296] [cursor=pointer]:
+              - /url: https://msite.onelink.me/LfAv/x37b8gbp
+              - img [ref=e3297]
+  - generic:
+    - generic:
+      - heading "Выберите валюту" [level=3]
+      - generic:
+        - list:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - textbox
+  - generic:
+    - generic:
+      - heading "Выберите язык" [level=3]
+      - generic:
+        - list
+  - generic:
+    - generic:
+      - heading "Вы находитесь в Россия? Точный адрес поможет заранее увидеть условия доставки товаров" [level=6]:
+        - text: Вы находитесь в Россия?
+        - generic: Точный адрес поможет заранее увидеть условия доставки товаров
+      - generic:
+        - img
+        - text: Указать адрес на карте
+      - generic:
+        - button "Изменить"
+        - button "Да, верно"
+      - img
+    - generic:
+      - img

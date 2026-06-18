@@ -1,0 +1,93 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "SmartSkidka.ru" [ref=e4] [cursor=pointer]:
+      - /url: /
+  - navigation "breadcrumb" [ref=e5]:
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link "Главная" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - text: ›
+      - listitem [ref=e9]:
+        - link "Электроника" [ref=e10] [cursor=pointer]:
+          - /url: /electronics.html
+        - text: ›
+      - listitem [ref=e11]: 12V to 24V DC power supply boost converter 12V lit...
+  - main [ref=e12]:
+    - img "12V to 24V DC power supply boost converter 12V liters 24V automotive power supply voltage regulator module waterproof booster" [ref=e14]
+    - generic [ref=e15]:
+      - text: "-0%"
+      - heading "12V to 24V DC power supply boost converter 12V liters 24V automotive power supply voltage regulator module waterproof booster" [level=1] [ref=e16]
+      - generic [ref=e17]: 3 ★ 0 заказов Электроника
+      - generic [ref=e18]: 8 770 ₽ 8 770 ₽ Экономия 0 ₽
+      - generic [ref=e19]: авто
+      - generic [ref=e20]:
+        - img [ref=e21]
+        - text: Бесплатная доставка из Китая — 15-30 дней
+      - generic [ref=e23]:
+        - link "Купить на AliExpress" [ref=e24] [cursor=pointer]:
+          - /url: https://aliexpress.ru/item/1005002291450444.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+          - text: Купить на AliExpress
+          - img [ref=e25]
+        - paragraph [ref=e29]:
+          - img [ref=e30]
+          - text: Партнёрская ссылка. Цена для вас не меняется — мы получаем небольшую комиссию от AliExpress.
+        - link "← Все скидки" [ref=e32] [cursor=pointer]:
+          - /url: /
+  - generic [ref=e33]:
+    - heading "Описание" [level=2] [ref=e34]
+    - paragraph [ref=e35]: 12V to 24V DC power supply boost converter 12V liters 24V automotive power supply voltage regulator module waterproof booster — товар со скидкой 0% на AliExpress. Рейтинг 3⭐, 0 заказов. Бесплатная доставка.
+  - generic [ref=e36]:
+    - heading "Характеристики" [level=2] [ref=e37]
+    - generic [ref=e38]:
+      - term [ref=e39]: Тип
+      - definition [ref=e40]: Electrical Equipment & Supplies
+      - term [ref=e41]: Комиссия
+      - definition [ref=e42]: 5.38%
+      - term [ref=e43]: Магазин
+      - definition [ref=e44]: "ID: 5059041"
+  - generic [ref=e45]:
+    - heading "Похожие товары" [level=2] [ref=e46]
+    - generic [ref=e47]:
+      - link "MHCNC Nema34 Stepper Motor 86HS100 86mm Flange 6.8Nm 971ozin 5A 4-Lead 1500RPM For CNC Router Robot Arm Automation Equipment -12% 8 929 ₽" [ref=e48] [cursor=pointer]:
+        - /url: /item/470.html
+        - img "MHCNC Nema34 Stepper Motor 86HS100 86mm Flange 6.8Nm 971ozin 5A 4-Lead 1500RPM For CNC Router Robot Arm Automation Equipment" [ref=e49]
+        - generic [ref=e50]: "-12%"
+        - generic [ref=e51]: 8 929 ₽
+      - link "Second hand DOP-B05S100 touch screen test OK, fast shipping -0% 7 864 ₽" [ref=e52] [cursor=pointer]:
+        - /url: /item/996.html
+        - img "Second hand DOP-B05S100 touch screen test OK, fast shipping" [ref=e53]
+        - generic [ref=e54]: "-0%"
+        - generic [ref=e55]: 7 864 ₽
+      - link "20W Science Education Experimental New DIY Micro Five Leaf Wind Turbine Model Three phase Permanent Magnet Brushless Generator -50% 7 873 ₽" [ref=e56] [cursor=pointer]:
+        - /url: /item/444.html
+        - img "20W Science Education Experimental New DIY Micro Five Leaf Wind Turbine Model Three phase Permanent Magnet Brushless Generator" [ref=e57]
+        - generic [ref=e58]: "-50%"
+        - generic [ref=e59]: 7 873 ₽
+      - link "C For HP 15-FC Palmrest Upper Cover Keyboard Top Case Backlit N32715-001 -0% 8 822 ₽" [ref=e60] [cursor=pointer]:
+        - /url: /item/548.html
+        - img "C For HP 15-FC Palmrest Upper Cover Keyboard Top Case Backlit N32715-001" [ref=e61]
+        - generic [ref=e62]: "-0%"
+        - generic [ref=e63]: 8 822 ₽
+      - link "KUAIQU LAB Regulated Power Supply Adjustable 0-120V 0-10A With OCP OVP OUTPUT Switch,For Experimental Testing Development DIY -53% 8 265 ₽" [ref=e64] [cursor=pointer]:
+        - /url: /item/645.html
+        - img "KUAIQU LAB Regulated Power Supply Adjustable 0-120V 0-10A With OCP OVP OUTPUT Switch,For Experimental Testing Development DIY" [ref=e65]
+        - generic [ref=e66]: "-53%"
+        - generic [ref=e67]: 8 265 ₽
+      - link "LSA462 LSA46.2 LSA49 LSA49.1 Leroy Somer Generator Rectifier Diode kit 82PFR80 82PF80 Diode Varistor Surge Absorber -39% 7 881 ₽" [ref=e68] [cursor=pointer]:
+        - /url: /item/384.html
+        - img "LSA462 LSA46.2 LSA49 LSA49.1 Leroy Somer Generator Rectifier Diode kit 82PFR80 82PF80 Diode Varistor Surge Absorber" [ref=e69]
+        - generic [ref=e70]: "-39%"
+        - generic [ref=e71]: 7 881 ₽
+      - link "DC motor controllers control motors 115V 230V four-quadrant operation dc driver Products Description Product Paramenters Input -0% 7 820 ₽" [ref=e72] [cursor=pointer]:
+        - /url: /item/1085.html
+        - img "DC motor controllers control motors 115V 230V four-quadrant operation dc driver Products Description Product Paramenters Input" [ref=e73]
+        - generic [ref=e74]: "-0%"
+        - generic [ref=e75]: 7 820 ₽
+      - link "【Price-Drop!】DC 60V 20A 1200W Power Supply 110V AC To DC 60V Converter 20A 1200W Switch Power Supply Transformer For Drive Senso -0% 7 915 ₽" [ref=e76] [cursor=pointer]:
+        - /url: /item/392.html
+        - img "【Price-Drop!】DC 60V 20A 1200W Power Supply 110V AC To DC 60V Converter 20A 1200W Switch Power Supply Transformer For Drive Senso" [ref=e77]
+        - generic [ref=e78]: "-0%"
+        - generic [ref=e79]: 7 915 ₽
+  - contentinfo [ref=e80]:
+    - paragraph [ref=e81]: SmartSkidka.ru — партнёрские ссылки AliExpress. Цены актуальны на момент публикации.

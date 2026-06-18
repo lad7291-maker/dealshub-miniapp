@@ -1,0 +1,997 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "SmartSkidka" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: Установите SmartSkidka
+      - generic [ref=e7]: Быстрый доступ к скидкам
+    - button "Установить" [ref=e8] [cursor=pointer]
+    - button "×" [ref=e9] [cursor=pointer]
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "Smart Skidka .ru" [ref=e12] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e14]
+        - generic [ref=e18]:
+          - generic [ref=e19]: Smart
+          - generic [ref=e20]: Skidka
+          - generic [ref=e21]: .ru
+      - generic [ref=e22]:
+        - img
+        - textbox "Поиск товаров..." [ref=e23]
+        - button "AI поиск" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+      - generic [ref=e27]:
+        - generic [ref=e28]: "AI-поиск: 3 из 3 осталось"
+        - button "Избранное" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+  - main [ref=e32]:
+    - generic [ref=e34]:
+      - generic [ref=e36]: 1000+ товаров со скидками до 90%
+      - heading "Лучшие скидки AliExpress" [level=1] [ref=e37]
+      - paragraph [ref=e38]: Экономьте до 90% на топовых товарах с бесплатной доставкой
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: 1000+
+          - generic [ref=e42]: Товаров
+        - generic [ref=e43]:
+          - generic [ref=e44]: до 90%
+          - generic [ref=e45]: Скидки
+        - generic [ref=e46]:
+          - generic [ref=e47]: Бесплатно
+          - generic [ref=e48]: Доставка
+    - generic [ref=e50]:
+      - button "Все" [ref=e51] [cursor=pointer]
+      - button "Обувь" [ref=e52] [cursor=pointer]
+      - button "Электроника" [ref=e53] [cursor=pointer]
+      - button "Дом" [ref=e54] [cursor=pointer]
+      - button "Авто" [ref=e55] [cursor=pointer]
+      - button "Красота" [ref=e56] [cursor=pointer]
+      - button "Спорт" [ref=e57] [cursor=pointer]
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - button "Все скидки" [ref=e61] [cursor=pointer]
+          - button "30%+" [ref=e62] [cursor=pointer]
+          - button "50%+" [ref=e63] [cursor=pointer]
+          - button "70%+" [ref=e64] [cursor=pointer]
+          - button "90%+" [ref=e65] [cursor=pointer]
+        - generic [ref=e66]:
+          - text: "Цена:"
+          - spinbutton [ref=e67]
+          - text: —
+          - spinbutton [ref=e68]
+          - button "OK" [ref=e69]
+        - combobox [ref=e71] [cursor=pointer]:
+          - option "По скидке" [selected]
+          - option "Сначала дешевые"
+          - option "Сначала дорогие"
+          - option "По заказам"
+      - generic [ref=e72]: 1000 товаров
+    - generic [ref=e73]:
+      - heading "Подборки скидок" [level=2] [ref=e74]:
+        - img [ref=e75]
+        - text: Подборки скидок
+      - generic [ref=e77]:
+        - link "Скидки до 90% на электронику →" [ref=e78] [cursor=pointer]:
+          - /url: /electronics.html?filter=90
+          - img [ref=e80]
+          - generic [ref=e83]: Скидки до 90% на электронику
+          - generic [ref=e84]: →
+        - link "Топ одежды со скидками 70%+ →" [ref=e85] [cursor=pointer]:
+          - /url: /clothing.html?filter=70
+          - img [ref=e87]
+          - generic [ref=e89]: Топ одежды со скидками 70%+
+          - generic [ref=e90]: →
+        - link "Лучшие цены на кроссовки →" [ref=e91] [cursor=pointer]:
+          - /url: /shoes.html?filter=all
+          - img [ref=e93]
+          - generic [ref=e97]: Лучшие цены на кроссовки
+          - generic [ref=e98]: →
+        - link "Всё для дома до 1000₽ →" [ref=e99] [cursor=pointer]:
+          - /url: /home.html?filter=all
+          - img [ref=e101]
+          - generic [ref=e104]: Всё для дома до 1000₽
+          - generic [ref=e105]: →
+    - generic [ref=e106]:
+      - heading "Топ-10 за неделю" [level=2] [ref=e107]:
+        - img [ref=e108]
+        - text: Топ-10 за неделю
+      - generic [ref=e111]:
+        - link "1 Новые стильные светящиеся в темноте кроссовки, очень легкие, идеально подходят для пар. Эти модные и универсальные кросс Новые стильные светящиеся в темноте крос 6 087 ₽ -79%" [ref=e112] [cursor=pointer]:
+          - /url: /item/1.html
+          - generic [ref=e113]: "1"
+          - img "Новые стильные светящиеся в темноте кроссовки, очень легкие, идеально подходят для пар. Эти модные и универсальные кросс" [ref=e114]
+          - generic [ref=e115]:
+            - generic [ref=e116]: Новые стильные светящиеся в темноте крос
+            - generic [ref=e117]: 6 087 ₽
+          - generic [ref=e118]: "-79%"
+        - link "2 Кроссовки для скейтбординга Adidas Low Top KK1283 с верхом из синтетической кожи, повседневные ретро-кроссовки для скейт Кроссовки для скейтбординга Adidas Low T 6 156 ₽ -78%" [ref=e119] [cursor=pointer]:
+          - /url: /item/2.html
+          - generic [ref=e120]: "2"
+          - img "Кроссовки для скейтбординга Adidas Low Top KK1283 с верхом из синтетической кожи, повседневные ретро-кроссовки для скейт" [ref=e121]
+          - generic [ref=e122]:
+            - generic [ref=e123]: Кроссовки для скейтбординга Adidas Low T
+            - generic [ref=e124]: 6 156 ₽
+          - generic [ref=e125]: "-78%"
+        - 'link "3 Новые повседневные кроссовки Nike 2026 для детей: легкие, дышащие, нескользящие, с мягкой подошвой, для мальчиков и дево Новые повседневные кроссовки Nike 2026 д 6 790 ₽ -78%" [ref=e126] [cursor=pointer]':
+          - /url: /item/3.html
+          - generic [ref=e127]: "3"
+          - 'img "Новые повседневные кроссовки Nike 2026 для детей: легкие, дышащие, нескользящие, с мягкой подошвой, для мальчиков и дево" [ref=e128]'
+          - generic [ref=e129]:
+            - generic [ref=e130]: Новые повседневные кроссовки Nike 2026 д
+            - generic [ref=e131]: 6 790 ₽
+          - generic [ref=e132]: "-78%"
+        - link "4 Мужская повседневная обувь Nike, дышащие, легкие, нескользящие, износостойкие кроссовки для ежедневных прогулок на улице Мужская повседневная обувь Nike, дышащие 6 763 ₽ -78%" [ref=e133] [cursor=pointer]:
+          - /url: /item/4.html
+          - generic [ref=e134]: "4"
+          - img "Мужская повседневная обувь Nike, дышащие, легкие, нескользящие, износостойкие кроссовки для ежедневных прогулок на улице" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Мужская повседневная обувь Nike, дышащие
+            - generic [ref=e138]: 6 763 ₽
+          - generic [ref=e139]: "-78%"
+        - link "5 Мужская повседневная обувь Nike, легкие дышащие нескользящие износостойкие удобные уличные кроссовки для ежедневных прог Мужская повседневная обувь Nike, легкие 6 763 ₽ -78%" [ref=e140] [cursor=pointer]:
+          - /url: /item/5.html
+          - generic [ref=e141]: "5"
+          - img "Мужская повседневная обувь Nike, легкие дышащие нескользящие износостойкие удобные уличные кроссовки для ежедневных прог" [ref=e142]
+          - generic [ref=e143]:
+            - generic [ref=e144]: Мужская повседневная обувь Nike, легкие
+            - generic [ref=e145]: 6 763 ₽
+          - generic [ref=e146]: "-78%"
+        - link "6 Женские низкие кроссовки Adidas для скейтбординга с замшевым верхом, повседневные, на платформе, розовые, темно-синие, ц Женские низкие кроссовки Adidas для скей 6 328 ₽ -78%" [ref=e147] [cursor=pointer]:
+          - /url: /item/6.html
+          - generic [ref=e148]: "6"
+          - img "Женские низкие кроссовки Adidas для скейтбординга с замшевым верхом, повседневные, на платформе, розовые, темно-синие, ц" [ref=e149]
+          - generic [ref=e150]:
+            - generic [ref=e151]: Женские низкие кроссовки Adidas для скей
+            - generic [ref=e152]: 6 328 ₽
+          - generic [ref=e153]: "-78%"
+        - link "7 Новые низкие кеды Puma 2026 для скейтбординга, дышащие повседневные кроссовки 395082-01 Новые низкие кеды Puma 2026 для скейтбор 6 186 ₽ -78%" [ref=e154] [cursor=pointer]:
+          - /url: /item/7.html
+          - generic [ref=e155]: "7"
+          - img "Новые низкие кеды Puma 2026 для скейтбординга, дышащие повседневные кроссовки 395082-01" [ref=e156]
+          - generic [ref=e157]:
+            - generic [ref=e158]: Новые низкие кеды Puma 2026 для скейтбор
+            - generic [ref=e159]: 6 186 ₽
+          - generic [ref=e160]: "-78%"
+        - link "8 Стоматологическое лабораторное оборудование, полировка, бесщеточный микромотор, портативный Электрический микромотор, по Стоматологическое лабораторное оборудова 6 355 ₽ -77%" [ref=e161] [cursor=pointer]:
+          - /url: /item/8.html
+          - generic [ref=e162]: "8"
+          - img "Стоматологическое лабораторное оборудование, полировка, бесщеточный микромотор, портативный Электрический микромотор, по" [ref=e163]
+          - generic [ref=e164]:
+            - generic [ref=e165]: Стоматологическое лабораторное оборудова
+            - generic [ref=e166]: 6 355 ₽
+          - generic [ref=e167]: "-77%"
+        - link "9 Набор из 10 крестообразных ортодонтических позиционирующих калибров из высокоточной нержавеющей стали с карандашными гри Набор из 10 крестообразных ортодонтическ 6 694 ₽ -76%" [ref=e168] [cursor=pointer]:
+          - /url: /item/9.html
+          - generic [ref=e169]: "9"
+          - img "Набор из 10 крестообразных ортодонтических позиционирующих калибров из высокоточной нержавеющей стали с карандашными гри" [ref=e170]
+          - generic [ref=e171]:
+            - generic [ref=e172]: Набор из 10 крестообразных ортодонтическ
+            - generic [ref=e173]: 6 694 ₽
+          - generic [ref=e174]: "-76%"
+        - link "10 Стальной корпус, 12 x 12 x 8 дюймов, электрический шкаф NEMA 4X, IP66, водонепроницаемый и пыленепроницаемый, для наружн Стальной корпус, 12 x 12 x 8 дюймов, эле 6 303 ₽ -75%" [ref=e175] [cursor=pointer]:
+          - /url: /item/10.html
+          - generic [ref=e176]: "10"
+          - img "Стальной корпус, 12 x 12 x 8 дюймов, электрический шкаф NEMA 4X, IP66, водонепроницаемый и пыленепроницаемый, для наружн" [ref=e177]
+          - generic [ref=e178]:
+            - generic [ref=e179]: Стальной корпус, 12 x 12 x 8 дюймов, эле
+            - generic [ref=e180]: 6 303 ₽
+          - generic [ref=e181]: "-75%"
+    - link "AliExpress RU&CIS" [ref=e183] [cursor=pointer]:
+      - /url: https://ali.click/c7qq81p?gc=ad0kctin2rfb6bf39686b6d1781017&erid=2bL9aMPo2e49hMef4rqytMJKXR
+      - img "AliExpress RU&CIS" [ref=e184]
+    - generic [ref=e185]:
+      - generic [ref=e186]:
+        - generic [ref=e187] [cursor=pointer]:
+          - generic [ref=e188]: "-79%"
+          - button "В избранное" [ref=e189]:
+            - img [ref=e190]
+          - generic [ref=e192]:
+            - img "Новые стильные светящиеся в темноте кроссовки, очень легкие, идеально подходят для пар. Эти модные и универсальные кросс"
+          - generic [ref=e193]:
+            - heading "Новые стильные светящиеся в темноте кроссовки, очень легкие, идеально подходят для пар. Эти модные и универсальные кросс" [level=3] [ref=e194]
+            - generic [ref=e195]:
+              - generic [ref=e196]: беговые
+              - generic [ref=e197]: кроссовки
+              - generic [ref=e198]: легкие
+            - generic [ref=e199]:
+              - generic [ref=e200]: 6 087 ₽
+              - generic [ref=e201]: 28 984 ₽
+            - generic [ref=e203]:
+              - img [ref=e204]
+              - text: 62 человек смотрят сейчас
+            - generic [ref=e208]:
+              - img [ref=e209]
+              - text: Скидка действует ещё 44 часов
+            - generic [ref=e212]:
+              - img [ref=e213]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e215]:
+              - /url: https://aliexpress.ru/item/1005012013384923.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e216]
+              - text: На AliExpress →
+            - paragraph [ref=e220]:
+              - img [ref=e221]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e223]:
+              - img [ref=e224]
+              - text: Поделиться
+        - generic [ref=e227] [cursor=pointer]:
+          - generic [ref=e228]: "-78%"
+          - button "В избранное" [ref=e229]:
+            - img [ref=e230]
+          - generic [ref=e232]:
+            - img "Кроссовки для скейтбординга Adidas Low Top KK1283 с верхом из синтетической кожи, повседневные ретро-кроссовки для скейт"
+          - generic [ref=e233]:
+            - heading "Кроссовки для скейтбординга Adidas Low Top KK1283 с верхом из синтетической кожи, повседневные ретро-кроссовки для скейт" [level=3] [ref=e234]
+            - generic [ref=e235]:
+              - generic [ref=e236]: adidas
+              - generic [ref=e237]: белые
+              - generic [ref=e238]: красные
+            - generic [ref=e239]:
+              - generic [ref=e240]: 6 156 ₽
+              - generic [ref=e241]: 27 982 ₽
+            - generic [ref=e243]:
+              - img [ref=e244]
+              - text: 71 человек смотрят сейчас
+            - generic [ref=e248]:
+              - img [ref=e249]
+              - text: Скидка действует ещё 14 часов
+            - generic [ref=e252]:
+              - img [ref=e253]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e255]:
+              - /url: https://aliexpress.ru/item/1005012027734506.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e256]
+              - text: На AliExpress →
+            - paragraph [ref=e260]:
+              - img [ref=e261]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e263]:
+              - img [ref=e264]
+              - text: Поделиться
+        - generic [ref=e267] [cursor=pointer]:
+          - generic [ref=e268]: "-78%"
+          - button "В избранное" [ref=e269]:
+            - img [ref=e270]
+          - generic [ref=e272]:
+            - 'img "Новые повседневные кроссовки Nike 2026 для детей: легкие, дышащие, нескользящие, с мягкой подошвой, для мальчиков и дево"'
+          - generic [ref=e273]:
+            - 'heading "Новые повседневные кроссовки Nike 2026 для детей: легкие, дышащие, нескользящие, с мягкой подошвой, для мальчиков и дево" [level=3] [ref=e274]'
+            - generic [ref=e275]:
+              - generic [ref=e276]: nike
+              - generic [ref=e277]: дышащие
+              - generic [ref=e278]: кроссовки
+            - generic [ref=e279]:
+              - generic [ref=e280]: 6 790 ₽
+              - generic [ref=e281]: 30 861 ₽
+            - generic [ref=e283]:
+              - img [ref=e284]
+              - text: 68 человек смотрят сейчас
+            - generic [ref=e288]:
+              - img [ref=e289]
+              - text: Скидка действует ещё 32 часов
+            - generic [ref=e292]:
+              - img [ref=e293]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e295]:
+              - /url: https://aliexpress.ru/item/1005012215113174.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e296]
+              - text: На AliExpress →
+            - paragraph [ref=e300]:
+              - img [ref=e301]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e303]:
+              - img [ref=e304]
+              - text: Поделиться
+        - generic [ref=e307] [cursor=pointer]:
+          - generic [ref=e308]: "-78%"
+          - button "В избранное" [ref=e309]:
+            - img [ref=e310]
+          - generic [ref=e312]:
+            - img "Мужская повседневная обувь Nike, дышащие, легкие, нескользящие, износостойкие кроссовки для ежедневных прогулок на улице"
+          - generic [ref=e313]:
+            - heading "Мужская повседневная обувь Nike, дышащие, легкие, нескользящие, износостойкие кроссовки для ежедневных прогулок на улице" [level=3] [ref=e314]
+            - generic [ref=e315]:
+              - generic [ref=e316]: nike
+              - generic [ref=e317]: дышащие
+              - generic [ref=e318]: кроссовки
+            - generic [ref=e319]:
+              - generic [ref=e320]: 6 763 ₽
+              - generic [ref=e321]: 30 739 ₽
+            - generic [ref=e323]:
+              - img [ref=e324]
+              - text: 200 человек смотрят сейчас
+            - generic [ref=e328]:
+              - img [ref=e329]
+              - text: Скидка действует ещё 21 часов
+            - generic [ref=e332]:
+              - img [ref=e333]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e335]:
+              - /url: https://aliexpress.ru/item/1005012200637982.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e336]
+              - text: На AliExpress →
+            - paragraph [ref=e340]:
+              - img [ref=e341]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e343]:
+              - img [ref=e344]
+              - text: Поделиться
+        - generic [ref=e347] [cursor=pointer]:
+          - generic [ref=e348]: "-78%"
+          - button "В избранное" [ref=e349]:
+            - img [ref=e350]
+          - generic [ref=e352]:
+            - img "Мужская повседневная обувь Nike, легкие дышащие нескользящие износостойкие удобные уличные кроссовки для ежедневных прог"
+          - generic [ref=e353]:
+            - heading "Мужская повседневная обувь Nike, легкие дышащие нескользящие износостойкие удобные уличные кроссовки для ежедневных прог" [level=3] [ref=e354]
+            - generic [ref=e355]:
+              - generic [ref=e356]: nike
+              - generic [ref=e357]: дышащие
+              - generic [ref=e358]: кроссовки
+            - generic [ref=e359]:
+              - generic [ref=e360]: 6 763 ₽
+              - generic [ref=e361]: 30 739 ₽
+            - generic [ref=e363]:
+              - img [ref=e364]
+              - text: 187 человек смотрят сейчас
+            - generic [ref=e368]:
+              - img [ref=e369]
+              - text: Скидка действует ещё 24 часов
+            - generic [ref=e372]:
+              - img [ref=e373]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e375]:
+              - /url: https://aliexpress.ru/item/1005012199575423.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e376]
+              - text: На AliExpress →
+            - paragraph [ref=e380]:
+              - img [ref=e381]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e383]:
+              - img [ref=e384]
+              - text: Поделиться
+        - generic [ref=e387] [cursor=pointer]:
+          - generic [ref=e388]: "-78%"
+          - button "В избранное" [ref=e389]:
+            - img [ref=e390]
+          - generic [ref=e392]:
+            - img "Женские низкие кроссовки Adidas для скейтбординга с замшевым верхом, повседневные, на платформе, розовые, темно-синие, ц"
+          - generic [ref=e393]:
+            - heading "Женские низкие кроссовки Adidas для скейтбординга с замшевым верхом, повседневные, на платформе, розовые, темно-синие, ц" [level=3] [ref=e394]
+            - generic [ref=e395]:
+              - generic [ref=e396]: adidas
+              - generic [ref=e397]: женские
+              - generic [ref=e398]: кроссовки
+            - generic [ref=e399]:
+              - generic [ref=e400]: 6 328 ₽
+              - generic [ref=e401]: 28 764 ₽
+            - generic [ref=e403]:
+              - img [ref=e404]
+              - text: 195 человек смотрят сейчас
+            - generic [ref=e408]:
+              - img [ref=e409]
+              - text: Скидка действует ещё 17 часов
+            - generic [ref=e412]:
+              - img [ref=e413]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e415]:
+              - /url: https://aliexpress.ru/item/1005012204775906.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e416]
+              - text: На AliExpress →
+            - paragraph [ref=e420]:
+              - img [ref=e421]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e423]:
+              - img [ref=e424]
+              - text: Поделиться
+        - generic [ref=e427] [cursor=pointer]:
+          - generic [ref=e428]: "-78%"
+          - button "В избранное" [ref=e429]:
+            - img [ref=e430]
+          - generic [ref=e432]:
+            - img "Новые низкие кеды Puma 2026 для скейтбординга, дышащие повседневные кроссовки 395082-01"
+          - generic [ref=e433]:
+            - heading "Новые низкие кеды Puma 2026 для скейтбординга, дышащие повседневные кроссовки 395082-01" [level=3] [ref=e434]
+            - generic [ref=e435]:
+              - generic [ref=e436]: puma
+              - generic [ref=e437]: дышащие
+              - generic [ref=e438]: кеды
+            - generic [ref=e439]:
+              - generic [ref=e440]: 6 186 ₽
+              - generic [ref=e441]: 28 118 ₽
+            - generic [ref=e443]:
+              - img [ref=e444]
+              - text: 151 человек смотрят сейчас
+            - generic [ref=e448]:
+              - img [ref=e449]
+              - text: Скидка действует ещё 36 часов
+            - generic [ref=e452]:
+              - img [ref=e453]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e455]:
+              - /url: https://aliexpress.ru/item/1005012155065776.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e456]
+              - text: На AliExpress →
+            - paragraph [ref=e460]:
+              - img [ref=e461]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e463]:
+              - img [ref=e464]
+              - text: Поделиться
+        - generic [ref=e467] [cursor=pointer]:
+          - generic [ref=e468]: "-77%"
+          - button "В избранное" [ref=e469]:
+            - img [ref=e470]
+          - generic [ref=e472]:
+            - img "Стоматологическое лабораторное оборудование, полировка, бесщеточный микромотор, портативный Электрический микромотор, по"
+          - generic [ref=e473]:
+            - heading "Стоматологическое лабораторное оборудование, полировка, бесщеточный микромотор, портативный Электрический микромотор, по" [level=3] [ref=e474]
+            - generic [ref=e475]:
+              - generic [ref=e476]: 6 355 ₽
+              - generic [ref=e477]: 27 629 ₽
+            - generic [ref=e479]:
+              - img [ref=e480]
+              - text: 17 человек смотрят сейчас
+            - generic [ref=e484]:
+              - img [ref=e485]
+              - text: Скидка действует ещё 45 часов
+            - generic [ref=e488]:
+              - img [ref=e489]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e491]:
+              - /url: https://aliexpress.ru/item/1005007677148967.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e492]
+              - text: На AliExpress →
+            - paragraph [ref=e496]:
+              - img [ref=e497]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e499]:
+              - img [ref=e500]
+              - text: Поделиться
+        - generic [ref=e503] [cursor=pointer]:
+          - generic [ref=e504]: "-76%"
+          - button "В избранное" [ref=e505]:
+            - img [ref=e506]
+          - generic [ref=e508]:
+            - img "Набор из 10 крестообразных ортодонтических позиционирующих калибров из высокоточной нержавеющей стали с карандашными гри"
+          - generic [ref=e509]:
+            - heading "Набор из 10 крестообразных ортодонтических позиционирующих калибров из высокоточной нержавеющей стали с карандашными гри" [level=3] [ref=e510]
+            - generic [ref=e511]:
+              - generic [ref=e512]: 6 694 ₽
+              - generic [ref=e513]: 27 890 ₽
+            - generic [ref=e515]:
+              - img [ref=e516]
+              - text: 141 человек смотрят сейчас
+            - generic [ref=e520]:
+              - img [ref=e521]
+              - text: Скидка действует ещё 13 часов
+            - generic [ref=e524]:
+              - img [ref=e525]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e527]:
+              - /url: https://aliexpress.ru/item/1005010803725775.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e528]
+              - text: На AliExpress →
+            - paragraph [ref=e532]:
+              - img [ref=e533]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e535]:
+              - img [ref=e536]
+              - text: Поделиться
+        - generic [ref=e539] [cursor=pointer]:
+          - generic [ref=e540]: "-75%"
+          - button "В избранное" [ref=e541]:
+            - img [ref=e542]
+          - generic [ref=e544]:
+            - img "Стальной корпус, 12 x 12 x 8 дюймов, электрический шкаф NEMA 4X, IP66, водонепроницаемый и пыленепроницаемый, для наружн"
+          - generic [ref=e545]:
+            - heading "Стальной корпус, 12 x 12 x 8 дюймов, электрический шкаф NEMA 4X, IP66, водонепроницаемый и пыленепроницаемый, для наружн" [level=3] [ref=e546]
+            - generic [ref=e547]:
+              - generic [ref=e548]: 6 303 ₽
+              - generic [ref=e549]: 25 211 ₽
+            - generic [ref=e551]:
+              - img [ref=e552]
+              - text: 140 человек смотрят сейчас
+            - generic [ref=e556]:
+              - img [ref=e557]
+              - text: Скидка действует ещё 22 часов
+            - generic [ref=e560]:
+              - img [ref=e561]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e563]:
+              - /url: https://aliexpress.ru/item/1005012253368944.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e564]
+              - text: На AliExpress →
+            - paragraph [ref=e568]:
+              - img [ref=e569]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e571]:
+              - img [ref=e572]
+              - text: Поделиться
+        - generic [ref=e575] [cursor=pointer]:
+          - generic [ref=e576]: "-69%"
+          - button "В избранное" [ref=e577]:
+            - img [ref=e578]
+          - generic [ref=e580]:
+            - img "2,5X 3,5X стоматологический светодиодный головной светильник для увеличения, бинокулярные лупы, 5 Вт, стоматологические"
+          - generic [ref=e581]:
+            - heading "2,5X 3,5X стоматологический светодиодный головной светильник для увеличения, бинокулярные лупы, 5 Вт, стоматологические" [level=3] [ref=e582]
+            - generic [ref=e583]:
+              - generic [ref=e584]: 6 543 ₽
+              - generic [ref=e585]: 21 105 ₽
+            - generic [ref=e587]:
+              - img [ref=e588]
+              - text: 47 человек смотрят сейчас
+            - generic [ref=e592]:
+              - img [ref=e593]
+              - text: Скидка действует ещё 27 часов
+            - generic [ref=e596]:
+              - img [ref=e597]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e599]:
+              - /url: https://aliexpress.ru/item/1005004421151420.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e600]
+              - text: На AliExpress →
+            - paragraph [ref=e604]:
+              - img [ref=e605]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e607]:
+              - img [ref=e608]
+              - text: Поделиться
+        - generic [ref=e611] [cursor=pointer]:
+          - generic [ref=e612]: "-69%"
+          - button "В избранное" [ref=e613]:
+            - img [ref=e614]
+          - generic [ref=e616]:
+            - img "Стоматологическая фонарь, бинокулярная лупа, Регулируемая 5 Вт Стоматологическая бинокулярная лупа, 2,5x/3,5x"
+          - generic [ref=e617]:
+            - heading "Стоматологическая фонарь, бинокулярная лупа, Регулируемая 5 Вт Стоматологическая бинокулярная лупа, 2,5x/3,5x" [level=3] [ref=e618]
+            - generic [ref=e619]:
+              - generic [ref=e620]: 6 543 ₽
+              - generic [ref=e621]: 21 106 ₽
+            - generic [ref=e623]:
+              - img [ref=e624]
+              - text: 157 человек смотрят сейчас
+            - generic [ref=e628]:
+              - img [ref=e629]
+              - text: Скидка действует ещё 27 часов
+            - generic [ref=e632]:
+              - img [ref=e633]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e635]:
+              - /url: https://aliexpress.ru/item/1005004421455886.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e636]
+              - text: На AliExpress →
+            - paragraph [ref=e640]:
+              - img [ref=e641]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e643]:
+              - img [ref=e644]
+              - text: Поделиться
+        - generic [ref=e647] [cursor=pointer]:
+          - generic [ref=e648]: "-67%"
+          - button "В избранное" [ref=e649]:
+            - img [ref=e650]
+          - generic [ref=e652]:
+            - img "Стоматологическая 5 Вт светодиодсветодиодный фара бинокулярная Лупа Стоматологическая головная Повязка регулируемый крон"
+          - generic [ref=e653]:
+            - heading "Стоматологическая 5 Вт светодиодсветодиодный фара бинокулярная Лупа Стоматологическая головная Повязка регулируемый крон" [level=3] [ref=e654]
+            - generic [ref=e655]:
+              - generic [ref=e656]: 6 782 ₽
+              - generic [ref=e657]: 20 552 ₽
+            - generic [ref=e659]:
+              - img [ref=e660]
+              - text: 179 человек смотрят сейчас
+            - generic [ref=e664]:
+              - img [ref=e665]
+              - text: Скидка действует ещё 12 часов
+            - generic [ref=e668]:
+              - img [ref=e669]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e671]:
+              - /url: https://aliexpress.ru/item/1005004745115030.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e672]
+              - text: На AliExpress →
+            - paragraph [ref=e676]:
+              - img [ref=e677]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e679]:
+              - img [ref=e680]
+              - text: Поделиться
+        - generic [ref=e683] [cursor=pointer]:
+          - generic [ref=e684]: "-67%"
+          - button "В избранное" [ref=e685]:
+            - img [ref=e686]
+          - generic [ref=e688]:
+            - img "Набор ортодонтических щипцов SYJH, 18 шт./компл., для удаления брекетов, дистальные кусачки, инструменты для стоматологи"
+          - generic [ref=e689]:
+            - heading "Набор ортодонтических щипцов SYJH, 18 шт./компл., для удаления брекетов, дистальные кусачки, инструменты для стоматологи" [level=3] [ref=e690]
+            - generic [ref=e691]:
+              - generic [ref=e692]: 7 100 ₽
+              - generic [ref=e693]: 21 517 ₽
+            - generic [ref=e695]:
+              - img [ref=e696]
+              - text: 29 человек смотрят сейчас
+            - generic [ref=e700]:
+              - img [ref=e701]
+              - text: Скидка действует ещё 24 часов
+            - generic [ref=e704]:
+              - img [ref=e705]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e707]:
+              - /url: https://aliexpress.ru/item/1005012106014697.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e708]
+              - text: На AliExpress →
+            - paragraph [ref=e712]:
+              - img [ref=e713]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e715]:
+              - img [ref=e716]
+              - text: Поделиться
+        - generic [ref=e719] [cursor=pointer]:
+          - generic [ref=e720]: "-67%"
+          - button "В избранное" [ref=e721]:
+            - img [ref=e722]
+          - generic [ref=e724]:
+            - img "Стоматологическая повязка на голову, кронштейн для хирургии, медицинский бинокуляр, увеличительное стекло, увеличительно"
+          - generic [ref=e725]:
+            - heading "Стоматологическая повязка на голову, кронштейн для хирургии, медицинский бинокуляр, увеличительное стекло, увеличительно" [level=3] [ref=e726]
+            - generic [ref=e727]:
+              - generic [ref=e728]: 6 782 ₽
+              - generic [ref=e729]: 20 552 ₽
+            - generic [ref=e731]:
+              - img [ref=e732]
+              - text: 176 человек смотрят сейчас
+            - generic [ref=e736]:
+              - img [ref=e737]
+              - text: Скидка действует ещё 37 часов
+            - generic [ref=e740]:
+              - img [ref=e741]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e743]:
+              - /url: https://aliexpress.ru/item/1005004420945490.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e744]
+              - text: На AliExpress →
+            - paragraph [ref=e748]:
+              - img [ref=e749]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e751]:
+              - img [ref=e752]
+              - text: Поделиться
+        - generic [ref=e755] [cursor=pointer]:
+          - generic [ref=e756]: "-65%"
+          - button "В избранное" [ref=e757]:
+            - img [ref=e758]
+          - generic [ref=e760]:
+            - img "Бинокулярные стоматологические лупы SYJH с увеличением 2.5X и 3.5X, с LED-подсветкой, люксовые увеличительные очки для л"
+          - generic [ref=e761]:
+            - heading "Бинокулярные стоматологические лупы SYJH с увеличением 2.5X и 3.5X, с LED-подсветкой, люксовые увеличительные очки для л" [level=3] [ref=e762]
+            - generic [ref=e763]:
+              - generic [ref=e764]: 6 053 ₽
+              - generic [ref=e765]: 17 293 ₽
+            - generic [ref=e767]:
+              - img [ref=e768]
+              - text: 64 человек смотрят сейчас
+            - generic [ref=e772]:
+              - img [ref=e773]
+              - text: Скидка действует ещё 41 часов
+            - generic [ref=e776]:
+              - img [ref=e777]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e779]:
+              - /url: https://aliexpress.ru/item/1005012225264163.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e780]
+              - text: На AliExpress →
+            - paragraph [ref=e784]:
+              - img [ref=e785]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e787]:
+              - img [ref=e788]
+              - text: Поделиться
+        - generic [ref=e791] [cursor=pointer]:
+          - generic [ref=e792]: "-65%"
+          - button "В избранное" [ref=e793]:
+            - img [ref=e794]
+          - generic [ref=e796]:
+            - img "Флеш-лампа Bluetooth для стоматологической фотографии, светодиодный светильник для освещения полости рта, оборудование д"
+          - generic [ref=e797]:
+            - heading "Флеш-лампа Bluetooth для стоматологической фотографии, светодиодный светильник для освещения полости рта, оборудование д" [level=3] [ref=e798]
+            - generic [ref=e799]:
+              - generic [ref=e800]: 6 383 ₽
+              - generic [ref=e801]: 18 238 ₽
+            - generic [ref=e803]:
+              - img [ref=e804]
+              - text: 190 человек смотрят сейчас
+            - generic [ref=e808]:
+              - img [ref=e809]
+              - text: Скидка действует ещё 15 часов
+            - generic [ref=e812]:
+              - img [ref=e813]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e815]:
+              - /url: https://aliexpress.ru/item/1005012060988917.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e816]
+              - text: На AliExpress →
+            - paragraph [ref=e820]:
+              - img [ref=e821]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e823]:
+              - img [ref=e824]
+              - text: Поделиться
+        - generic [ref=e827] [cursor=pointer]:
+          - generic [ref=e828]: "-65%"
+          - button "В избранное" [ref=e829]:
+            - img [ref=e830]
+          - generic [ref=e832]:
+            - img "Модель зубов-типодонтов для обучения, настольная стойка-крепление, стоматологический манекен с регулируемым шарнирным со"
+          - generic [ref=e833]:
+            - heading "Модель зубов-типодонтов для обучения, настольная стойка-крепление, стоматологический манекен с регулируемым шарнирным со" [level=3] [ref=e834]
+            - generic [ref=e835]:
+              - generic [ref=e836]: 6 294 ₽
+              - generic [ref=e837]: 18 165 ₽
+            - generic [ref=e839]:
+              - img [ref=e840]
+              - text: 34 человек смотрят сейчас
+            - generic [ref=e844]:
+              - img [ref=e845]
+              - text: Скидка действует ещё 19 часов
+            - generic [ref=e848]:
+              - img [ref=e849]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e851]:
+              - /url: https://aliexpress.ru/item/1005012156692409.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e852]
+              - text: На AliExpress →
+            - paragraph [ref=e856]:
+              - img [ref=e857]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e859]:
+              - img [ref=e860]
+              - text: Поделиться
+        - generic [ref=e863] [cursor=pointer]:
+          - generic [ref=e864]: "-65%"
+          - button "В избранное" [ref=e865]:
+            - img [ref=e866]
+          - generic [ref=e868]:
+            - img "Стоматологический операционный светильник ETERFANT с 6 светодиодами для стоматологического кресла, 9 Вт, лампа для освещ"
+          - generic [ref=e869]:
+            - heading "Стоматологический операционный светильник ETERFANT с 6 светодиодами для стоматологического кресла, 9 Вт, лампа для освещ" [level=3] [ref=e870]
+            - generic [ref=e871]:
+              - generic [ref=e872]: 6 892 ₽
+              - generic [ref=e873]: 19 693 ₽
+            - generic [ref=e875]:
+              - img [ref=e876]
+              - text: 198 человек смотрят сейчас
+            - generic [ref=e880]:
+              - img [ref=e881]
+              - text: Скидка действует ещё 16 часов
+            - generic [ref=e884]:
+              - img [ref=e885]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e887]:
+              - /url: https://aliexpress.ru/item/1005011936627440.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e888]
+              - text: На AliExpress →
+            - paragraph [ref=e892]:
+              - img [ref=e893]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e895]:
+              - img [ref=e896]
+              - text: Поделиться
+        - generic [ref=e899] [cursor=pointer]:
+          - generic [ref=e900]: "-65%"
+          - button "В избранное" [ref=e901]:
+            - img [ref=e902]
+          - generic [ref=e904]:
+            - img "Стоматологические бинокулярные лупы 2.5X/3.5X с подсветкой, перезаряжаемые, с двойным светом, на одной батарее, налобный"
+          - generic [ref=e905]:
+            - heading "Стоматологические бинокулярные лупы 2.5X/3.5X с подсветкой, перезаряжаемые, с двойным светом, на одной батарее, налобный" [level=3] [ref=e906]
+            - generic [ref=e907]:
+              - generic [ref=e908]: 6 053 ₽
+              - generic [ref=e909]: 17 293 ₽
+            - generic [ref=e911]:
+              - img [ref=e912]
+              - text: 124 человек смотрят сейчас
+            - generic [ref=e916]:
+              - img [ref=e917]
+              - text: Скидка действует ещё 16 часов
+            - generic [ref=e920]:
+              - img [ref=e921]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e923]:
+              - /url: https://aliexpress.ru/item/1005012221389606.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e924]
+              - text: На AliExpress →
+            - paragraph [ref=e928]:
+              - img [ref=e929]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e931]:
+              - img [ref=e932]
+              - text: Поделиться
+        - generic [ref=e935] [cursor=pointer]:
+          - generic [ref=e936]: "-65%"
+          - button "В избранное" [ref=e937]:
+            - img [ref=e938]
+          - generic [ref=e940]:
+            - img "Флеш-лампа Bluetooth для стоматологической фотографии, светодиодный светильник для освещения полости рта, оборудование д"
+          - generic [ref=e941]:
+            - heading "Флеш-лампа Bluetooth для стоматологической фотографии, светодиодный светильник для освещения полости рта, оборудование д" [level=3] [ref=e942]
+            - generic [ref=e943]:
+              - generic [ref=e944]: 6 269 ₽
+              - generic [ref=e945]: 17 910 ₽
+            - generic [ref=e947]:
+              - img [ref=e948]
+              - text: 37 человек смотрят сейчас
+            - generic [ref=e952]:
+              - img [ref=e953]
+              - text: Скидка действует ещё 21 часов
+            - generic [ref=e956]:
+              - img [ref=e957]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e959]:
+              - /url: https://aliexpress.ru/item/1005012215566344.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e960]
+              - text: На AliExpress →
+            - paragraph [ref=e964]:
+              - img [ref=e965]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e967]:
+              - img [ref=e968]
+              - text: Поделиться
+        - generic [ref=e971] [cursor=pointer]:
+          - generic [ref=e972]: "-65%"
+          - button "В избранное" [ref=e973]:
+            - img [ref=e974]
+          - generic [ref=e976]:
+            - img "Классическая модель человеческого черепа с магнитными соединениями, анатомический набор из 3 частей + бесплатное програм"
+          - generic [ref=e977]:
+            - heading "Классическая модель человеческого черепа с магнитными соединениями, анатомический набор из 3 частей + бесплатное програм" [level=3] [ref=e978]
+            - generic [ref=e979]:
+              - generic [ref=e980]: 6 214 ₽
+              - generic [ref=e981]: 17 757 ₽
+            - generic [ref=e983]:
+              - img [ref=e984]
+              - text: 80 человек смотрят сейчас
+            - generic [ref=e988]:
+              - img [ref=e989]
+              - text: Скидка действует ещё 27 часов
+            - generic [ref=e992]:
+              - img [ref=e993]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e995]:
+              - /url: https://aliexpress.ru/item/1005012027592393.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e996]
+              - text: На AliExpress →
+            - paragraph [ref=e1000]:
+              - img [ref=e1001]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1003]:
+              - img [ref=e1004]
+              - text: Поделиться
+        - generic [ref=e1007] [cursor=pointer]:
+          - generic [ref=e1008]: "-65%"
+          - button "В избранное" [ref=e1009]:
+            - img [ref=e1010]
+          - generic [ref=e1012]:
+            - img "Лабораторный вибратор 8x6 дюймов, осциллирующая квадратная вибропластина, вибратор для гипса, стоматологическое оборудов"
+          - generic [ref=e1013]:
+            - heading "Лабораторный вибратор 8x6 дюймов, осциллирующая квадратная вибропластина, вибратор для гипса, стоматологическое оборудов" [level=3] [ref=e1014]
+            - generic [ref=e1015]:
+              - generic [ref=e1016]: 6 987 ₽
+              - generic [ref=e1017]: 20 164 ₽
+            - generic [ref=e1019]:
+              - img [ref=e1020]
+              - text: 46 человек смотрят сейчас
+            - generic [ref=e1024]:
+              - img [ref=e1025]
+              - text: Скидка действует ещё 31 часов
+            - generic [ref=e1028]:
+              - img [ref=e1029]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1031]:
+              - /url: https://aliexpress.ru/item/1005012146357809.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e1032]
+              - text: На AliExpress →
+            - paragraph [ref=e1036]:
+              - img [ref=e1037]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1039]:
+              - img [ref=e1040]
+              - text: Поделиться
+        - generic [ref=e1043] [cursor=pointer]:
+          - generic [ref=e1044]: "-64%"
+          - button "В избранное" [ref=e1045]:
+            - img [ref=e1046]
+          - generic [ref=e1048]:
+            - img "ELIJAH стоматологические светодиодные бинокулярные лупы с 2 фильтрами, хирургический налобный светильник 5 Вт, увеличите"
+          - generic [ref=e1049]:
+            - heading "ELIJAH стоматологические светодиодные бинокулярные лупы с 2 фильтрами, хирургический налобный светильник 5 Вт, увеличите" [level=3] [ref=e1050]
+            - generic [ref=e1051]:
+              - generic [ref=e1052]: 6 067 ₽
+              - generic [ref=e1053]: 16 852 ₽
+            - generic [ref=e1055]:
+              - img [ref=e1056]
+              - text: 145 человек смотрят сейчас
+            - generic [ref=e1060]:
+              - img [ref=e1061]
+              - text: Скидка действует ещё 35 часов
+            - generic [ref=e1064]:
+              - img [ref=e1065]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e1067]:
+              - /url: https://aliexpress.ru/item/1005009304636725.html?af=2529186&cv=47843&utm_source=admitad&utm_medium=cpa
+              - img [ref=e1068]
+              - text: На AliExpress →
+            - paragraph [ref=e1072]:
+              - img [ref=e1073]
+              - text: Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e1075]:
+              - img [ref=e1076]
+              - text: Поделиться
+      - button "Показать ещё" [ref=e1079] [cursor=pointer]
+    - generic [ref=e1080]:
+      - heading "Недавно смотрели" [level=2] [ref=e1081]:
+        - img [ref=e1082]
+        - text: Недавно смотрели
+      - generic [ref=e1085]:
+        - link "Регулируемый источник питания постоянного тока KUAIQU 30В 10А 5А, 4-разрядный энкодер-регулятор, переменный регулируемый -54% Регулируемый источник питания 6 110 ₽" [ref=e1086] [cursor=pointer]:
+          - /url: /item/90.html
+          - img "Регулируемый источник питания постоянного тока KUAIQU 30В 10А 5А, 4-разрядный энкодер-регулятор, переменный регулируемый" [ref=e1087]
+          - generic [ref=e1088]: "-54%"
+          - generic [ref=e1089]: Регулируемый источник питания
+          - generic [ref=e1090]: 6 110 ₽
+        - link "Новые стильные светящиеся в темноте кроссовки, очень легкие, идеально подходят для пар. Эти модные и универсальные кросс -79% Новые стильные светящиеся в те 6 087 ₽" [ref=e1091] [cursor=pointer]:
+          - /url: /item/1.html
+          - img "Новые стильные светящиеся в темноте кроссовки, очень легкие, идеально подходят для пар. Эти модные и универсальные кросс" [ref=e1092]
+          - generic [ref=e1093]: "-79%"
+          - generic [ref=e1094]: Новые стильные светящиеся в те
+          - generic [ref=e1095]: 6 087 ₽
+  - generic [ref=e1096]:
+    - generic [ref=e1097]: ✓
+    - generic [ref=e1098]: Готово
+  - generic [ref=e1100]:
+    - heading "Скидки на AliExpress до 90% — как это работает" [level=2] [ref=e1101]
+    - paragraph [ref=e1102]: SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Мы ежедневно обновляем каталог, чтобы вы всегда находили самые выгодные предложения на электронику, одежду, обувь, товары для дома и авто. Все цены указаны в рублях с учётом актуального курса Центробанка.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e1103]
+    - paragraph [ref=e1104]: Используйте наш поиск по товарам или AI-поиск для подбора идеальных покупок. Добавляйте товары в избранное, чтобы вернуться к ним позже. Каждая карточка содержит реальный рейтинг, количество заказов и характеристики — никаких фейковых скидок.
+    - heading "1000+ товаров с бесплатной доставкой" [level=2] [ref=e1105]
+    - paragraph [ref=e1106]: В нашем каталоге более 1000 товаров с реальными скидками 20–90%. Все ссылки ведут напрямую на AliExpress через партнёрскую программу Admitad — вы получаете ту же цену, а мы небольшую комиссию за направление. Это позволяет нам поддерживать сервис и добавлять новые функции.
+  - contentinfo [ref=e1107]:
+    - generic [ref=e1108]:
+      - generic [ref=e1109]:
+        - generic [ref=e1110]: SmartSkidka.ru
+        - paragraph [ref=e1111]: Лучшие скидки и промокоды на товары с AliExpress. Экономьте умнее!
+      - generic [ref=e1112]:
+        - generic [ref=e1113]:
+          - heading "Категории" [level=4] [ref=e1114]
+          - link "Обувь" [ref=e1115] [cursor=pointer]:
+            - /url: /shoes.html
+          - link "Электроника" [ref=e1116] [cursor=pointer]:
+            - /url: /electronics.html
+          - link "Товары для дома" [ref=e1117] [cursor=pointer]:
+            - /url: /home.html
+          - link "Автотовары" [ref=e1118] [cursor=pointer]:
+            - /url: /auto.html
+          - link "Красота" [ref=e1119] [cursor=pointer]:
+            - /url: /beauty.html
+          - link "Спорт" [ref=e1120] [cursor=pointer]:
+            - /url: /sports.html
+        - generic [ref=e1121]:
+          - heading "Информация" [level=4] [ref=e1122]
+          - link "О нас" [ref=e1123] [cursor=pointer]:
+            - /url: about.html
+          - link "Контакты" [ref=e1124] [cursor=pointer]:
+            - /url: contact.html
+          - link "Политика конфиденциальности" [ref=e1125] [cursor=pointer]:
+            - /url: privacy.html
+          - link "Условия использования" [ref=e1126] [cursor=pointer]:
+            - /url: terms.html
+    - generic [ref=e1127]:
+      - paragraph [ref=e1128]: SmartSkidka.ru — не является магазином. Все товары продаются на AliExpress.
+      - paragraph [ref=e1129]:
+        - img [ref=e1130]
+        - link "Скидки в Telegram — @SmartRuMarket" [ref=e1134] [cursor=pointer]:
+          - /url: https://t.me/SmartRuMarket
+      - paragraph [ref=e1135]: 2026 SmartSkidka.ru

@@ -1,0 +1,2 @@
+[    1739ms] [LOG] [SW] Registered: http://localhost:8080/ @ http://localhost:8080/?nocache=2:118
+[    2513ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/?nocache=2:0

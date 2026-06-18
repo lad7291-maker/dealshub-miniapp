@@ -1,0 +1,136 @@
+#!/usr/bin/env python3
+"""AI Search API endpoint for SmartSkidka."""
+
+import json
+import os
+import re
+import sys
+import time
+from urllib.request import Request, urlopen
+
+# Read query from environment
+query = os.environ.get('QUERY_STRING', '')
+q = ''
+for part in query.split('&'):
+    if part.startswith('q='):
+        q = part[2:]
+        try:
+            from urllib.parse import unquote
+            q = unquote(q)
+        except:
+            pass
+        break
+
+# CORS headers
+print("Content-Type: application/json")
+print("Access-Control-Allow-Origin: https://smart-skidka.ru")
+print()
+
+# Rate limit
+ip = os.environ.get('REMOTE_ADDR', 'unknown')
+ip_safe = re.sub(r'[^a-zA-Z0-9.-]', '_', ip)
+rate_file = f"/tmp/ai_search_{ip_safe}.json"
+max_requests = 3
+window_hours = 24
+
+usage = []
+if os.path.exists(rate_file):
+    try:
+        with open(rate_file, 'r') as f:
+            usage = json.load(f)
+        cutoff = time.time() - (window_hours * 3600)
+        usage = [t for t in usage if t > cutoff]
+    except:
+        usage = []
+
+if len(usage) >= max_requests:
+    print(json.dumps({'error': 'Лимит 3 AI-запроса на 24 часа исчерпан', 'remaining': 0}))
+    sys.exit(0)
+
+if not q or len(q) < 3:
+    print(json.dumps({'error': 'Запрос слишком короткий'}))
+    sys.exit(0)
+
+# Load products
+products_file = '/var/www/dealshub-miniapp/products.json'
+if not os.path.exists(products_file):
+    print(json.dumps({'error': 'Products database not found'}))
+    sys.exit(0)
+
+try:
+    with open(products_file, 'r', encoding='utf-8') as f:
+        all_products = json.load(f)
+except:
+    print(json.dumps({'error': 'Failed to load products'}))
+    sys.exit(0)
+
+if not all_products:
+    print(json.dumps({'error': 'No products available'}))
+    sys.exit(0)
+
+import random
+random.shuffle(all_products)
+context_products = all_products[:150]
+
+context = ""
+for p in context_products:
+    tags = ', '.join(p.get('tags', []))
+    context += f"ID:{p['id']} | {p['title']} | категория:{p['category']} | цена:${p['price']} | скидка {p['discount']}% | теги: {tags}\n"
+
+prompt = f'Пользователь ищет: \"{q}\"\n\nИз списка товаров ниже выбери ТОП-10 наиболее подходящих. Ответь ТОЛЬКО JSON массивом ID товаров.\n\n{context}\n\nОтвет (только JSON): [1, 5, 12, ...]'
+
+# Call RouterAI
+api_key = ''
+# Try env first
+api_key = os.environ.get('ROUTERAI_SEARCH_KEY', '')
+# Try .env file
+if not api_key:
+    try:
+        with open('/root/admitad_ai_connector/.env', 'r') as f:
+            for line in f:
+                line = line.strip()
+                if line.startswith('ROUTERAI_API_KEY='):
+                    api_key = line.split('=', 1)[1].strip().strip('\"').strip(\"'\")
+                    break
+    except:
+        pass
+
+if not api_key:
+    print(json.dumps({'error': 'AI service not configured', 'remaining': max(0, max_requests - len(usage))}))
+    sys.exit(0)
+
+try:
+    req = Request('https://routerai.ru/api/v1/chat/completions',
+                  data=json.dumps({
+                      'model': 'openai/gpt-4o-mini',
+                      'messages': [{'role': 'user', 'content': prompt}],
+                      'temperature': 0.3,
+                      'max_tokens': 500
+                  }).encode('utf-8'),
+                  headers={
+                      'Content-Type': 'application/json',
+                      'Authorization': f'Bearer {api_key}'
+                  },
+                  method='POST')
+    with urlopen(req, timeout=20) as resp:
+        result = json.loads(resp.read().decode('utf-8'))
+    ai_response = result.get('choices', [{}])[0].get('message', {}).get('content', '[]')
+except Exception as e:
+    print(json.dumps({'error': 'AI service unavailable', 'remaining': max(0, max_requests - len(usage))}))
+    sys.exit(0)
+
+# Log usage
+usage.append(time.time())
+with open(rate_file, 'w') as f:
+    json.dump(usage, f)
+
+# Parse JSON from AI response
+m = re.search(r'\[.*?\]', ai_response, re.DOTALL)
+ids = json.loads(m.group(0) if m else '[]') or []
+ids = [i for i in ids if isinstance(i, int)]
+
+print(json.dumps({
+    'ids': ids,
+    'remaining': max(0, max_requests - len(usage)),
+    'query': q
+}))

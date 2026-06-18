@@ -1,0 +1,1031 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "SmartSkidka" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: Установите SmartSkidka
+      - generic [ref=e7]: Быстрый доступ к скидкам
+    - button "Установить" [ref=e8] [cursor=pointer]
+    - button "×" [ref=e9] [cursor=pointer]
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "Smart Skidka .ru" [ref=e12] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e14]
+        - generic [ref=e18]:
+          - generic [ref=e19]: Smart
+          - generic [ref=e20]: Skidka
+          - generic [ref=e21]: .ru
+      - generic [ref=e22]:
+        - img
+        - textbox "Поиск товаров..." [ref=e23]
+        - button "AI поиск" [ref=e24] [cursor=pointer]: 🔮
+      - generic [ref=e25]:
+        - generic [ref=e26]: "🔮 AI-поиск: 3 из 3 осталось"
+        - button "Избранное" [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+  - main [ref=e30]:
+    - generic [ref=e32]:
+      - generic [ref=e34]: 1000+ товаров со скидками до 90%
+      - heading "Лучшие скидки AliExpress" [level=1] [ref=e35]
+      - paragraph [ref=e36]: Экономьте до 90% на топовых товарах с бесплатной доставкой
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: 1000+
+          - generic [ref=e40]: Товаров
+        - generic [ref=e41]:
+          - generic [ref=e42]: до 90%
+          - generic [ref=e43]: Скидки
+        - generic [ref=e44]:
+          - generic [ref=e45]: 0₽
+          - generic [ref=e46]: Доставка
+    - generic [ref=e48]:
+      - button "Все" [ref=e49] [cursor=pointer]
+      - button "Обувь" [ref=e50] [cursor=pointer]
+      - button "Одежда" [ref=e51] [cursor=pointer]
+      - button "Электроника" [ref=e52] [cursor=pointer]
+      - button "Дом" [ref=e53] [cursor=pointer]
+      - button "Авто" [ref=e54] [cursor=pointer]
+      - button "Красота" [ref=e55] [cursor=pointer]
+      - button "Спорт" [ref=e56] [cursor=pointer]
+      - button "Украшения" [ref=e57] [cursor=pointer]
+      - button "Игрушки" [ref=e58] [cursor=pointer]
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - button "Все скидки" [ref=e62] [cursor=pointer]
+          - button "50%+" [ref=e63] [cursor=pointer]
+          - button "70%+" [ref=e64] [cursor=pointer]
+          - button "90%+" [ref=e65] [cursor=pointer]
+        - combobox [ref=e67] [cursor=pointer]:
+          - option "🔥 По скидке" [selected]
+          - option "💰 Сначала дешевые"
+          - option "💰 Сначала дорогие"
+          - option "⭐ По рейтингу"
+          - option "📦 По заказам"
+      - generic [ref=e68]: 1000 товаров
+    - generic [ref=e69]:
+      - heading "🔥 Подборки скидок" [level=2] [ref=e70]
+      - generic [ref=e71]:
+        - link "🔌 Скидки до 90% на электронику →" [ref=e72] [cursor=pointer]:
+          - /url: /electronics.html?filter=90
+          - generic [ref=e73]: 🔌
+          - generic [ref=e74]: Скидки до 90% на электронику
+          - generic [ref=e75]: →
+        - link "👕 Топ одежды со скидками 70%+ →" [ref=e76] [cursor=pointer]:
+          - /url: /clothing.html?filter=70
+          - generic [ref=e77]: 👕
+          - generic [ref=e78]: Топ одежды со скидками 70%+
+          - generic [ref=e79]: →
+        - link "👟 Лучшие цены на кроссовки →" [ref=e80] [cursor=pointer]:
+          - /url: /clothing.html?filter=all
+          - generic [ref=e81]: 👟
+          - generic [ref=e82]: Лучшие цены на кроссовки
+          - generic [ref=e83]: →
+        - link "🏠 Всё для дома до 1000₽ →" [ref=e84] [cursor=pointer]:
+          - /url: /home.html?filter=all
+          - generic [ref=e85]: 🏠
+          - generic [ref=e86]: Всё для дома до 1000₽
+          - generic [ref=e87]: →
+    - generic [ref=e88]:
+      - heading "🏆 Топ-10 за неделю" [level=2] [ref=e89]
+      - generic [ref=e90]:
+        - link "1 Мужские сандалии Skechers, нескользящие, удобные, для активного отдыха, пляжа, летние, повседневные, 237594-CHAR Мужские сандалии Skechers, нескользящие, 6 534 ₽ -78%" [ref=e91] [cursor=pointer]:
+          - /url: /item/1.html
+          - generic [ref=e92]: "1"
+          - img "Мужские сандалии Skechers, нескользящие, удобные, для активного отдыха, пляжа, летние, повседневные, 237594-CHAR" [ref=e93]
+          - generic [ref=e94]:
+            - generic [ref=e95]: Мужские сандалии Skechers, нескользящие,
+            - generic [ref=e96]: 6 534 ₽
+          - generic [ref=e97]: "-78%"
+        - link "2 Мужская повседневная обувь Nike, легкие, дышащие, нескользящие, износостойкие, удобные для ежедневного использования, с Мужская повседневная обувь Nike, легкие, 6 781 ₽ -78%" [ref=e98] [cursor=pointer]:
+          - /url: /item/2.html
+          - generic [ref=e99]: "2"
+          - img "Мужская повседневная обувь Nike, легкие, дышащие, нескользящие, износостойкие, удобные для ежедневного использования, с" [ref=e100]
+          - generic [ref=e101]:
+            - generic [ref=e102]: Мужская повседневная обувь Nike, легкие,
+            - generic [ref=e103]: 6 781 ₽
+          - generic [ref=e104]: "-78%"
+        - link "3 Мужские походные кроссовки Skechers 237322C-BBK/ 237322C-BRBK/237322C-NVGY/237322C-GYBK, легкие, нескользящие Мужские походные кроссовки Skechers 2373 6 642 ₽ -78%" [ref=e105] [cursor=pointer]:
+          - /url: /item/3.html
+          - generic [ref=e106]: "3"
+          - img "Мужские походные кроссовки Skechers 237322C-BBK/ 237322C-BRBK/237322C-NVGY/237322C-GYBK, легкие, нескользящие" [ref=e107]
+          - generic [ref=e108]:
+            - generic [ref=e109]: Мужские походные кроссовки Skechers 2373
+            - generic [ref=e110]: 6 642 ₽
+          - generic [ref=e111]: "-78%"
+        - link "4 Мужские повседневные кроссовки Skechers 232748-WBK, легкие, удобные, в стиле ретро Мужские повседневные кроссовки Skechers 7 214 ₽ -78%" [ref=e112] [cursor=pointer]:
+          - /url: /item/4.html
+          - generic [ref=e113]: "4"
+          - img "Мужские повседневные кроссовки Skechers 232748-WBK, легкие, удобные, в стиле ретро" [ref=e114]
+          - generic [ref=e115]:
+            - generic [ref=e116]: Мужские повседневные кроссовки Skechers
+            - generic [ref=e117]: 7 214 ₽
+          - generic [ref=e118]: "-78%"
+        - link "5 Мужские футбольные бутсы Puma Mg с шипами, профессиональные тренировочные бутсы 107934-01 Мужские футбольные бутсы Puma Mg с шипам 6 478 ₽ -78%" [ref=e119] [cursor=pointer]:
+          - /url: /item/5.html
+          - generic [ref=e120]: "5"
+          - img "Мужские футбольные бутсы Puma Mg с шипами, профессиональные тренировочные бутсы 107934-01" [ref=e121]
+          - generic [ref=e122]:
+            - generic [ref=e123]: Мужские футбольные бутсы Puma Mg с шипам
+            - generic [ref=e124]: 6 478 ₽
+          - generic [ref=e125]: "-78%"
+        - link "6 Мужские низкие кроссовки Adidas Top Skateboarding Sneakers KK1283 белые, черные, красные Мужские низкие кроссовки Adidas Top Skat 6 336 ₽ -78%" [ref=e126] [cursor=pointer]:
+          - /url: /item/6.html
+          - generic [ref=e127]: "6"
+          - img "Мужские низкие кроссовки Adidas Top Skateboarding Sneakers KK1283 белые, черные, красные" [ref=e128]
+          - generic [ref=e129]:
+            - generic [ref=e130]: Мужские низкие кроссовки Adidas Top Skat
+            - generic [ref=e131]: 6 336 ₽
+          - generic [ref=e132]: "-78%"
+        - link "7 Водные кроссовки унисекс Adidas JR1820, серые, дышащие, быстросохнущие, для активного отдыха и походов Водные кроссовки унисекс Adidas JR1820, 7 184 ₽ -78%" [ref=e133] [cursor=pointer]:
+          - /url: /item/7.html
+          - generic [ref=e134]: "7"
+          - img "Водные кроссовки унисекс Adidas JR1820, серые, дышащие, быстросохнущие, для активного отдыха и походов" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Водные кроссовки унисекс Adidas JR1820,
+            - generic [ref=e138]: 7 184 ₽
+          - generic [ref=e139]: "-78%"
+        - link "8 Кроссовки для скейтбординга Adidas Low Top KK1283 с верхом из синтетической кожи, повседневные ретро-кроссовки для скейт Кроссовки для скейтбординга Adidas Low T 6 335 ₽ -78%" [ref=e140] [cursor=pointer]:
+          - /url: /item/8.html
+          - generic [ref=e141]: "8"
+          - img "Кроссовки для скейтбординга Adidas Low Top KK1283 с верхом из синтетической кожи, повседневные ретро-кроссовки для скейт" [ref=e142]
+          - generic [ref=e143]:
+            - generic [ref=e144]: Кроссовки для скейтбординга Adidas Low T
+            - generic [ref=e145]: 6 335 ₽
+          - generic [ref=e146]: "-78%"
+        - link "9 Кроссовки Puma Mid Skate Shoes Low Top Stylish Sneakers 392290-37 Кроссовки Puma Mid Skate Shoes Low Top S 6 871 ₽ -78%" [ref=e147] [cursor=pointer]:
+          - /url: /item/9.html
+          - generic [ref=e148]: "9"
+          - img "Кроссовки Puma Mid Skate Shoes Low Top Stylish Sneakers 392290-37" [ref=e149]
+          - generic [ref=e150]:
+            - generic [ref=e151]: Кроссовки Puma Mid Skate Shoes Low Top S
+            - generic [ref=e152]: 6 871 ₽
+          - generic [ref=e153]: "-78%"
+        - link "10 Летние кроссовки Skechers Black Warrior, мужские дышащие повседневные кроссовки 232969-BBK Летние кроссовки Skechers Black Warrior, 6 284 ₽ -78%" [ref=e154] [cursor=pointer]:
+          - /url: /item/10.html
+          - generic [ref=e155]: "10"
+          - img "Летние кроссовки Skechers Black Warrior, мужские дышащие повседневные кроссовки 232969-BBK" [ref=e156]
+          - generic [ref=e157]:
+            - generic [ref=e158]: Летние кроссовки Skechers Black Warrior,
+            - generic [ref=e159]: 6 284 ₽
+          - generic [ref=e160]: "-78%"
+    - link "AliExpress RU&CIS" [ref=e162] [cursor=pointer]:
+      - /url: https://ali.click/c7qq81p?gc=ad0kctin2rfb6bf39686b6d1781017&erid=2bL9aMPo2e49hMef4rqytMJKXR
+      - img "AliExpress RU&CIS" [ref=e163]
+    - generic [ref=e164]:
+      - generic [ref=e165]:
+        - generic [ref=e166] [cursor=pointer]:
+          - generic [ref=e167]: "-78%"
+          - button "В избранное" [ref=e168]:
+            - img [ref=e169]
+          - generic [ref=e171]:
+            - img "Мужские сандалии Skechers, нескользящие, удобные, для активного отдыха, пляжа, летние, повседневные, 237594-CHAR"
+          - generic [ref=e172]:
+            - heading "Мужские сандалии Skechers, нескользящие, удобные, для активного отдыха, пляжа, летние, повседневные, 237594-CHAR" [level=3] [ref=e173]
+            - generic [ref=e174]:
+              - generic [ref=e175]: skechers
+              - generic [ref=e176]: летние
+              - generic [ref=e177]: мужские
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - generic [ref=e180]: ★
+                - generic [ref=e181]: ★
+                - generic [ref=e182]: ★
+                - generic [ref=e183]: ★
+                - generic [ref=e184]: ★
+              - generic [ref=e185]: "4.5"
+            - generic [ref=e186]:
+              - generic [ref=e187]: 6 534 ₽
+              - generic [ref=e188]: 29 702 ₽
+            - generic [ref=e189]: 🔥 161 человек смотрят сейчас
+            - generic [ref=e190]: ⏰ Скидка действует ещё 40 часов
+            - generic [ref=e191]:
+              - img [ref=e192]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e194]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012176000973.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e195]
+              - text: На AliExpress →
+            - paragraph [ref=e199]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e200]: 📤 Поделиться
+        - generic [ref=e201] [cursor=pointer]:
+          - generic [ref=e202]: "-78%"
+          - button "В избранное" [ref=e203]:
+            - img [ref=e204]
+          - generic [ref=e206]:
+            - img "Мужская повседневная обувь Nike, легкие, дышащие, нескользящие, износостойкие, удобные для ежедневного использования, с"
+          - generic [ref=e207]:
+            - heading "Мужская повседневная обувь Nike, легкие, дышащие, нескользящие, износостойкие, удобные для ежедневного использования, с" [level=3] [ref=e208]
+            - generic [ref=e209]:
+              - generic [ref=e210]: nike
+              - generic [ref=e211]: дышащие
+              - generic [ref=e212]: кроссовки
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - generic [ref=e215]: ★
+                - generic [ref=e216]: ★
+                - generic [ref=e217]: ★
+                - generic [ref=e218]: ★
+                - generic [ref=e219]: ★
+              - generic [ref=e220]: "4.5"
+            - generic [ref=e221]:
+              - generic [ref=e222]: 6 781 ₽
+              - generic [ref=e223]: 30 825 ₽
+            - generic [ref=e224]: 🔥 150 человек смотрят сейчас
+            - generic [ref=e225]: ⏰ Скидка действует ещё 22 часов
+            - generic [ref=e226]:
+              - img [ref=e227]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e229]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012201924812.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e230]
+              - text: На AliExpress →
+            - paragraph [ref=e234]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e235]: 📤 Поделиться
+        - generic [ref=e236] [cursor=pointer]:
+          - generic [ref=e237]: "-78%"
+          - button "В избранное" [ref=e238]:
+            - img [ref=e239]
+          - generic [ref=e241]:
+            - img "Мужские походные кроссовки Skechers 237322C-BBK/ 237322C-BRBK/237322C-NVGY/237322C-GYBK, легкие, нескользящие"
+          - generic [ref=e242]:
+            - heading "Мужские походные кроссовки Skechers 237322C-BBK/ 237322C-BRBK/237322C-NVGY/237322C-GYBK, легкие, нескользящие" [level=3] [ref=e243]
+            - generic [ref=e244]:
+              - generic [ref=e245]: skechers
+              - generic [ref=e246]: кроссовки
+              - generic [ref=e247]: легкие
+            - generic [ref=e248]:
+              - generic [ref=e249]:
+                - generic [ref=e250]: ★
+                - generic [ref=e251]: ★
+                - generic [ref=e252]: ★
+                - generic [ref=e253]: ★
+                - generic [ref=e254]: ★
+              - generic [ref=e255]: "4.5"
+            - generic [ref=e256]:
+              - generic [ref=e257]: 6 642 ₽
+              - generic [ref=e258]: 30 194 ₽
+            - generic [ref=e259]: 🔥 95 человек смотрят сейчас
+            - generic [ref=e260]: ⏰ Скидка действует ещё 37 часов
+            - generic [ref=e261]:
+              - img [ref=e262]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e264]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012145757261.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e265]
+              - text: На AliExpress →
+            - paragraph [ref=e269]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e270]: 📤 Поделиться
+        - generic [ref=e271] [cursor=pointer]:
+          - generic [ref=e272]: "-78%"
+          - button "В избранное" [ref=e273]:
+            - img [ref=e274]
+          - generic [ref=e276]:
+            - img "Мужские повседневные кроссовки Skechers 232748-WBK, легкие, удобные, в стиле ретро"
+          - generic [ref=e277]:
+            - heading "Мужские повседневные кроссовки Skechers 232748-WBK, легкие, удобные, в стиле ретро" [level=3] [ref=e278]
+            - generic [ref=e279]:
+              - generic [ref=e280]: skechers
+              - generic [ref=e281]: кроссовки
+              - generic [ref=e282]: легкие
+            - generic [ref=e283]:
+              - generic [ref=e284]:
+                - generic [ref=e285]: ★
+                - generic [ref=e286]: ★
+                - generic [ref=e287]: ★
+                - generic [ref=e288]: ★
+                - generic [ref=e289]: ★
+              - generic [ref=e290]: "4.5"
+            - generic [ref=e291]:
+              - generic [ref=e292]: 7 214 ₽
+              - generic [ref=e293]: 32 789 ₽
+            - generic [ref=e294]: 🔥 193 человек смотрят сейчас
+            - generic [ref=e295]: ⏰ Скидка действует ещё 15 часов
+            - generic [ref=e296]:
+              - img [ref=e297]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e299]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012151866981.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e300]
+              - text: На AliExpress →
+            - paragraph [ref=e304]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e305]: 📤 Поделиться
+        - generic [ref=e306] [cursor=pointer]:
+          - generic [ref=e307]: "-78%"
+          - button "В избранное" [ref=e308]:
+            - img [ref=e309]
+          - generic [ref=e311]:
+            - img "Мужские футбольные бутсы Puma Mg с шипами, профессиональные тренировочные бутсы 107934-01"
+          - generic [ref=e312]:
+            - heading "Мужские футбольные бутсы Puma Mg с шипами, профессиональные тренировочные бутсы 107934-01" [level=3] [ref=e313]
+            - generic [ref=e314]:
+              - generic [ref=e315]: puma
+              - generic [ref=e316]: мужские
+              - generic [ref=e317]: футбольные
+            - generic [ref=e318]:
+              - generic [ref=e319]:
+                - generic [ref=e320]: ★
+                - generic [ref=e321]: ★
+                - generic [ref=e322]: ★
+                - generic [ref=e323]: ★
+                - generic [ref=e324]: ★
+              - generic [ref=e325]: "4.5"
+            - generic [ref=e326]:
+              - generic [ref=e327]: 6 478 ₽
+              - generic [ref=e328]: 29 444 ₽
+            - generic [ref=e329]: 🔥 77 человек смотрят сейчас
+            - generic [ref=e330]: ⏰ Скидка действует ещё 47 часов
+            - generic [ref=e331]:
+              - img [ref=e332]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e334]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012020398132.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e335]
+              - text: На AliExpress →
+            - paragraph [ref=e339]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e340]: 📤 Поделиться
+        - generic [ref=e341] [cursor=pointer]:
+          - generic [ref=e342]: "-78%"
+          - button "В избранное" [ref=e343]:
+            - img [ref=e344]
+          - generic [ref=e346]:
+            - img "Мужские низкие кроссовки Adidas Top Skateboarding Sneakers KK1283 белые, черные, красные"
+          - generic [ref=e347]:
+            - heading "Мужские низкие кроссовки Adidas Top Skateboarding Sneakers KK1283 белые, черные, красные" [level=3] [ref=e348]
+            - generic [ref=e349]:
+              - generic [ref=e350]: adidas
+              - generic [ref=e351]: белые
+              - generic [ref=e352]: красные
+            - generic [ref=e353]:
+              - generic [ref=e354]:
+                - generic [ref=e355]: ★
+                - generic [ref=e356]: ★
+                - generic [ref=e357]: ★
+                - generic [ref=e358]: ★
+                - generic [ref=e359]: ★
+              - generic [ref=e360]: "4.5"
+            - generic [ref=e361]:
+              - generic [ref=e362]: 6 336 ₽
+              - generic [ref=e363]: 28 798 ₽
+            - generic [ref=e364]: 🔥 185 человек смотрят сейчас
+            - generic [ref=e365]: ⏰ Скидка действует ещё 41 часов
+            - generic [ref=e366]:
+              - img [ref=e367]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e369]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012200890557.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e370]
+              - text: На AliExpress →
+            - paragraph [ref=e374]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e375]: 📤 Поделиться
+        - generic [ref=e376] [cursor=pointer]:
+          - generic [ref=e377]: "-78%"
+          - button "В избранное" [ref=e378]:
+            - img [ref=e379]
+          - generic [ref=e381]:
+            - img "Водные кроссовки унисекс Adidas JR1820, серые, дышащие, быстросохнущие, для активного отдыха и походов"
+          - generic [ref=e382]:
+            - heading "Водные кроссовки унисекс Adidas JR1820, серые, дышащие, быстросохнущие, для активного отдыха и походов" [level=3] [ref=e383]
+            - generic [ref=e384]:
+              - generic [ref=e385]: adidas
+              - generic [ref=e386]: быстросохнущие
+              - generic [ref=e387]: дышащие
+            - generic [ref=e388]:
+              - generic [ref=e389]:
+                - generic [ref=e390]: ★
+                - generic [ref=e391]: ★
+                - generic [ref=e392]: ★
+                - generic [ref=e393]: ★
+                - generic [ref=e394]: ★
+              - generic [ref=e395]: "4.5"
+            - generic [ref=e396]:
+              - generic [ref=e397]: 7 184 ₽
+              - generic [ref=e398]: 32 654 ₽
+            - generic [ref=e399]: 🔥 83 человек смотрят сейчас
+            - generic [ref=e400]: ⏰ Скидка действует ещё 43 часов
+            - generic [ref=e401]:
+              - img [ref=e402]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e404]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012104756808.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e405]
+              - text: На AliExpress →
+            - paragraph [ref=e409]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e410]: 📤 Поделиться
+        - generic [ref=e411] [cursor=pointer]:
+          - generic [ref=e412]: "-78%"
+          - button "В избранное" [ref=e413]:
+            - img [ref=e414]
+          - generic [ref=e416]:
+            - img "Кроссовки для скейтбординга Adidas Low Top KK1283 с верхом из синтетической кожи, повседневные ретро-кроссовки для скейт"
+          - generic [ref=e417]:
+            - heading "Кроссовки для скейтбординга Adidas Low Top KK1283 с верхом из синтетической кожи, повседневные ретро-кроссовки для скейт" [level=3] [ref=e418]
+            - generic [ref=e419]:
+              - generic [ref=e420]: adidas
+              - generic [ref=e421]: белые
+              - generic [ref=e422]: красные
+            - generic [ref=e423]:
+              - generic [ref=e424]:
+                - generic [ref=e425]: ★
+                - generic [ref=e426]: ★
+                - generic [ref=e427]: ★
+                - generic [ref=e428]: ★
+                - generic [ref=e429]: ★
+              - generic [ref=e430]: "4.5"
+            - generic [ref=e431]:
+              - generic [ref=e432]: 6 335 ₽
+              - generic [ref=e433]: 28 798 ₽
+            - generic [ref=e434]: 🔥 163 человек смотрят сейчас
+            - generic [ref=e435]: ⏰ Скидка действует ещё 35 часов
+            - generic [ref=e436]:
+              - img [ref=e437]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e439]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012027734506.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e440]
+              - text: На AliExpress →
+            - paragraph [ref=e444]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e445]: 📤 Поделиться
+        - generic [ref=e446] [cursor=pointer]:
+          - generic [ref=e447]: "-78%"
+          - button "В избранное" [ref=e448]:
+            - img [ref=e449]
+          - generic [ref=e451]:
+            - img "Кроссовки Puma Mid Skate Shoes Low Top Stylish Sneakers 392290-37"
+          - generic [ref=e452]:
+            - heading "Кроссовки Puma Mid Skate Shoes Low Top Stylish Sneakers 392290-37" [level=3] [ref=e453]
+            - generic [ref=e454]:
+              - generic [ref=e455]: puma
+              - generic [ref=e456]: кроссовки
+            - generic [ref=e457]:
+              - generic [ref=e458]:
+                - generic [ref=e459]: ★
+                - generic [ref=e460]: ★
+                - generic [ref=e461]: ★
+                - generic [ref=e462]: ★
+                - generic [ref=e463]: ★
+              - generic [ref=e464]: "4.5"
+            - generic [ref=e465]:
+              - generic [ref=e466]: 6 871 ₽
+              - generic [ref=e467]: 31 236 ₽
+            - generic [ref=e468]: 🔥 102 человек смотрят сейчас
+            - generic [ref=e469]: ⏰ Скидка действует ещё 46 часов
+            - generic [ref=e470]:
+              - img [ref=e471]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e473]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012019668807.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e474]
+              - text: На AliExpress →
+            - paragraph [ref=e478]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e479]: 📤 Поделиться
+        - generic [ref=e480] [cursor=pointer]:
+          - generic [ref=e481]: "-78%"
+          - button "В избранное" [ref=e482]:
+            - img [ref=e483]
+          - generic [ref=e485]:
+            - img "Летние кроссовки Skechers Black Warrior, мужские дышащие повседневные кроссовки 232969-BBK"
+          - generic [ref=e486]:
+            - heading "Летние кроссовки Skechers Black Warrior, мужские дышащие повседневные кроссовки 232969-BBK" [level=3] [ref=e487]
+            - generic [ref=e488]:
+              - generic [ref=e489]: skechers
+              - generic [ref=e490]: warrior
+              - generic [ref=e491]: дышащие
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - generic [ref=e494]: ★
+                - generic [ref=e495]: ★
+                - generic [ref=e496]: ★
+                - generic [ref=e497]: ★
+                - generic [ref=e498]: ★
+              - generic [ref=e499]: "4.5"
+            - generic [ref=e500]:
+              - generic [ref=e501]: 6 284 ₽
+              - generic [ref=e502]: 28 562 ₽
+            - generic [ref=e503]: 🔥 149 человек смотрят сейчас
+            - generic [ref=e504]: ⏰ Скидка действует ещё 31 часов
+            - generic [ref=e505]:
+              - img [ref=e506]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e508]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012217904060.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e509]
+              - text: На AliExpress →
+            - paragraph [ref=e513]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e514]: 📤 Поделиться
+        - generic [ref=e515] [cursor=pointer]:
+          - generic [ref=e516]: "-78%"
+          - button "В избранное" [ref=e517]:
+            - img [ref=e518]
+          - generic [ref=e520]:
+            - 'img "Новые повседневные кроссовки Nike 2026 для детей: легкие, дышащие, нескользящие, с мягкой подошвой, для мальчиков и дево"'
+          - generic [ref=e521]:
+            - 'heading "Новые повседневные кроссовки Nike 2026 для детей: легкие, дышащие, нескользящие, с мягкой подошвой, для мальчиков и дево" [level=3] [ref=e522]'
+            - generic [ref=e523]:
+              - generic [ref=e524]: nike
+              - generic [ref=e525]: дышащие
+              - generic [ref=e526]: кроссовки
+            - generic [ref=e527]:
+              - generic [ref=e528]:
+                - generic [ref=e529]: ★
+                - generic [ref=e530]: ★
+                - generic [ref=e531]: ★
+                - generic [ref=e532]: ★
+                - generic [ref=e533]: ★
+              - generic [ref=e534]: "4.5"
+            - generic [ref=e535]:
+              - generic [ref=e536]: 6 988 ₽
+              - generic [ref=e537]: 31 762 ₽
+            - generic [ref=e538]: 🔥 142 человек смотрят сейчас
+            - generic [ref=e539]: ⏰ Скидка действует ещё 25 часов
+            - generic [ref=e540]:
+              - img [ref=e541]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e543]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012215113174.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e544]
+              - text: На AliExpress →
+            - paragraph [ref=e548]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e549]: 📤 Поделиться
+        - generic [ref=e550] [cursor=pointer]:
+          - generic [ref=e551]: "-78%"
+          - button "В избранное" [ref=e552]:
+            - img [ref=e553]
+          - generic [ref=e555]:
+            - img "Женские низкие кеды Adidas для скейтбординга с замшевым верхом, повседневные, на платформе, розовые, темно-синие, JP7629"
+          - generic [ref=e556]:
+            - heading "Женские низкие кеды Adidas для скейтбординга с замшевым верхом, повседневные, на платформе, розовые, темно-синие, JP7629" [level=3] [ref=e557]
+            - generic [ref=e558]:
+              - generic [ref=e559]: adidas
+              - generic [ref=e560]: женские
+              - generic [ref=e561]: кеды
+            - generic [ref=e562]:
+              - generic [ref=e563]:
+                - generic [ref=e564]: ★
+                - generic [ref=e565]: ★
+                - generic [ref=e566]: ★
+                - generic [ref=e567]: ★
+                - generic [ref=e568]: ★
+              - generic [ref=e569]: "4.5"
+            - generic [ref=e570]:
+              - generic [ref=e571]: 6 692 ₽
+              - generic [ref=e572]: 30 420 ₽
+            - generic [ref=e573]: 🔥 196 человек смотрят сейчас
+            - generic [ref=e574]: ⏰ Скидка действует ещё 42 часов
+            - generic [ref=e575]:
+              - img [ref=e576]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e578]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012024980907.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e579]
+              - text: На AliExpress →
+            - paragraph [ref=e583]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e584]: 📤 Поделиться
+        - generic [ref=e585] [cursor=pointer]:
+          - generic [ref=e586]: "-78%"
+          - button "В избранное" [ref=e587]:
+            - img [ref=e588]
+          - generic [ref=e590]:
+            - img "Мужские кроссовки Nike Wearallday, новые дышащие повседневные спортивные кроссовки для бега CJ1682-004"
+          - generic [ref=e591]:
+            - heading "Мужские кроссовки Nike Wearallday, новые дышащие повседневные спортивные кроссовки для бега CJ1682-004" [level=3] [ref=e592]
+            - generic [ref=e593]:
+              - generic [ref=e594]: nike
+              - generic [ref=e595]: беговые
+              - generic [ref=e596]: дышащие
+            - generic [ref=e597]:
+              - generic [ref=e598]:
+                - generic [ref=e599]: ★
+                - generic [ref=e600]: ★
+                - generic [ref=e601]: ★
+                - generic [ref=e602]: ★
+                - generic [ref=e603]: ★
+              - generic [ref=e604]: "4.5"
+            - generic [ref=e605]:
+              - generic [ref=e606]: 6 781 ₽
+              - generic [ref=e607]: 30 825 ₽
+            - generic [ref=e608]: 🔥 197 человек смотрят сейчас
+            - generic [ref=e609]: ⏰ Скидка действует ещё 12 часов
+            - generic [ref=e610]:
+              - img [ref=e611]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e613]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012052436675.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e614]
+              - text: На AliExpress →
+            - paragraph [ref=e618]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e619]: 📤 Поделиться
+        - generic [ref=e620] [cursor=pointer]:
+          - generic [ref=e621]: "-78%"
+          - button "В избранное" [ref=e622]:
+            - img [ref=e623]
+          - generic [ref=e625]:
+            - img "Мужская повседневная обувь Nike, дышащие, легкие, нескользящие, износостойкие кроссовки для ежедневных прогулок на улице"
+          - generic [ref=e626]:
+            - heading "Мужская повседневная обувь Nike, дышащие, легкие, нескользящие, износостойкие кроссовки для ежедневных прогулок на улице" [level=3] [ref=e627]
+            - generic [ref=e628]:
+              - generic [ref=e629]: nike
+              - generic [ref=e630]: дышащие
+              - generic [ref=e631]: кроссовки
+            - generic [ref=e632]:
+              - generic [ref=e633]:
+                - generic [ref=e634]: ★
+                - generic [ref=e635]: ★
+                - generic [ref=e636]: ★
+                - generic [ref=e637]: ★
+                - generic [ref=e638]: ★
+              - generic [ref=e639]: "4.5"
+            - generic [ref=e640]:
+              - generic [ref=e641]: 6 960 ₽
+              - generic [ref=e642]: 31 636 ₽
+            - generic [ref=e643]: 🔥 118 человек смотрят сейчас
+            - generic [ref=e644]: ⏰ Скидка действует ещё 33 часов
+            - generic [ref=e645]:
+              - img [ref=e646]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e648]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012200637982.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e649]
+              - text: На AliExpress →
+            - paragraph [ref=e653]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e654]: 📤 Поделиться
+        - generic [ref=e655] [cursor=pointer]:
+          - generic [ref=e656]: "-78%"
+          - button "В избранное" [ref=e657]:
+            - img [ref=e658]
+          - generic [ref=e660]:
+            - img "Мужская повседневная обувь Nike, легкие дышащие нескользящие износостойкие удобные уличные кроссовки для ежедневных прог"
+          - generic [ref=e661]:
+            - heading "Мужская повседневная обувь Nike, легкие дышащие нескользящие износостойкие удобные уличные кроссовки для ежедневных прог" [level=3] [ref=e662]
+            - generic [ref=e663]:
+              - generic [ref=e664]: nike
+              - generic [ref=e665]: дышащие
+              - generic [ref=e666]: кроссовки
+            - generic [ref=e667]:
+              - generic [ref=e668]:
+                - generic [ref=e669]: ★
+                - generic [ref=e670]: ★
+                - generic [ref=e671]: ★
+                - generic [ref=e672]: ★
+                - generic [ref=e673]: ★
+              - generic [ref=e674]: "4.5"
+            - generic [ref=e675]:
+              - generic [ref=e676]: 6 960 ₽
+              - generic [ref=e677]: 31 636 ₽
+            - generic [ref=e678]: 🔥 164 человек смотрят сейчас
+            - generic [ref=e679]: ⏰ Скидка действует ещё 36 часов
+            - generic [ref=e680]:
+              - img [ref=e681]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e683]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012199575423.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e684]
+              - text: На AliExpress →
+            - paragraph [ref=e688]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e689]: 📤 Поделиться
+        - generic [ref=e690] [cursor=pointer]:
+          - generic [ref=e691]: "-78%"
+          - button "В избранное" [ref=e692]:
+            - img [ref=e693]
+          - generic [ref=e695]:
+            - img "Мужские походные кроссовки Skechers 237067W-BBK, легкие, противоскользящие, для прогулок"
+          - generic [ref=e696]:
+            - heading "Мужские походные кроссовки Skechers 237067W-BBK, легкие, противоскользящие, для прогулок" [level=3] [ref=e697]
+            - generic [ref=e698]:
+              - generic [ref=e699]: skechers
+              - generic [ref=e700]: кроссовки
+              - generic [ref=e701]: легкие
+            - generic [ref=e702]:
+              - generic [ref=e703]:
+                - generic [ref=e704]: ★
+                - generic [ref=e705]: ★
+                - generic [ref=e706]: ★
+                - generic [ref=e707]: ★
+                - generic [ref=e708]: ★
+              - generic [ref=e709]: "4.5"
+            - generic [ref=e710]:
+              - generic [ref=e711]: 6 311 ₽
+              - generic [ref=e712]: 28 686 ₽
+            - generic [ref=e713]: 🔥 111 человек смотрят сейчас
+            - generic [ref=e714]: ⏰ Скидка действует ещё 29 часов
+            - generic [ref=e715]:
+              - img [ref=e716]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e718]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012148259128.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e719]
+              - text: На AliExpress →
+            - paragraph [ref=e723]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e724]: 📤 Поделиться
+        - generic [ref=e725] [cursor=pointer]:
+          - generic [ref=e726]: "-78%"
+          - button "В избранное" [ref=e727]:
+            - img [ref=e728]
+          - generic [ref=e730]:
+            - img "Женские повседневные кроссовки Skechers, новая весенняя коллекция, массивные кроссовки в стиле Dad Sneakers, на платформ"
+          - generic [ref=e731]:
+            - heading "Женские повседневные кроссовки Skechers, новая весенняя коллекция, массивные кроссовки в стиле Dad Sneakers, на платформ" [level=3] [ref=e732]
+            - generic [ref=e733]:
+              - generic [ref=e734]: skechers
+              - generic [ref=e735]: женские
+              - generic [ref=e736]: кроссовки
+            - generic [ref=e737]:
+              - generic [ref=e738]:
+                - generic [ref=e739]: ★
+                - generic [ref=e740]: ★
+                - generic [ref=e741]: ★
+                - generic [ref=e742]: ★
+                - generic [ref=e743]: ★
+              - generic [ref=e744]: "4.5"
+            - generic [ref=e745]:
+              - generic [ref=e746]: 6 775 ₽
+              - generic [ref=e747]: 30 795 ₽
+            - generic [ref=e748]: 🔥 61 человек смотрят сейчас
+            - generic [ref=e749]: ⏰ Скидка действует ещё 43 часов
+            - generic [ref=e750]:
+              - img [ref=e751]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e753]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012156387099.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e754]
+              - text: На AliExpress →
+            - paragraph [ref=e758]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e759]: 📤 Поделиться
+        - generic [ref=e760] [cursor=pointer]:
+          - generic [ref=e761]: "-78%"
+          - button "В избранное" [ref=e762]:
+            - img [ref=e763]
+          - generic [ref=e765]:
+            - img "Мужские повседневные кроссовки Skechers 232491-BKNT/232491-OLMT, легкие, удобные, в стиле ретро"
+          - generic [ref=e766]:
+            - heading "Мужские повседневные кроссовки Skechers 232491-BKNT/232491-OLMT, легкие, удобные, в стиле ретро" [level=3] [ref=e767]
+            - generic [ref=e768]:
+              - generic [ref=e769]: skechers
+              - generic [ref=e770]: кроссовки
+              - generic [ref=e771]: легкие
+            - generic [ref=e772]:
+              - generic [ref=e773]:
+                - generic [ref=e774]: ★
+                - generic [ref=e775]: ★
+                - generic [ref=e776]: ★
+                - generic [ref=e777]: ★
+                - generic [ref=e778]: ★
+              - generic [ref=e779]: "4.5"
+            - generic [ref=e780]:
+              - generic [ref=e781]: 6 391 ₽
+              - generic [ref=e782]: 29 050 ₽
+            - generic [ref=e783]: 🔥 99 человек смотрят сейчас
+            - generic [ref=e784]: ⏰ Скидка действует ещё 32 часов
+            - generic [ref=e785]:
+              - img [ref=e786]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e788]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012158112014.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e789]
+              - text: На AliExpress →
+            - paragraph [ref=e793]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e794]: 📤 Поделиться
+        - generic [ref=e795] [cursor=pointer]:
+          - generic [ref=e796]: "-75%"
+          - button "В избранное" [ref=e797]:
+            - img [ref=e798]
+          - generic [ref=e800]:
+            - img "Набор из 10 крестообразных ортодонтических позиционирующих калибров из высокоточной нержавеющей стали с карандашными гри"
+          - generic [ref=e801]:
+            - heading "Набор из 10 крестообразных ортодонтических позиционирующих калибров из высокоточной нержавеющей стали с карандашными гри" [level=3] [ref=e802]
+            - generic [ref=e803]:
+              - generic [ref=e804]:
+                - generic [ref=e805]: ★
+                - generic [ref=e806]: ★
+                - generic [ref=e807]: ★
+                - generic [ref=e808]: ★
+                - generic [ref=e809]: ★
+              - generic [ref=e810]: "4.5"
+            - generic [ref=e811]:
+              - generic [ref=e812]: 7 176 ₽
+              - generic [ref=e813]: 28 704 ₽
+            - generic [ref=e814]: 🔥 188 человек смотрят сейчас
+            - generic [ref=e815]: ⏰ Скидка действует ещё 39 часов
+            - generic [ref=e816]:
+              - img [ref=e817]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e819]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005010803725775.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e820]
+              - text: На AliExpress →
+            - paragraph [ref=e824]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e825]: 📤 Поделиться
+        - generic [ref=e826] [cursor=pointer]:
+          - generic [ref=e827]: "-69%"
+          - button "В избранное" [ref=e828]:
+            - img [ref=e829]
+          - generic [ref=e831]:
+            - img "2,5X 3,5X стоматологический светодиодный головной светильник для увеличения, бинокулярные лупы, 5 Вт, стоматологические"
+          - generic [ref=e832]:
+            - heading "2,5X 3,5X стоматологический светодиодный головной светильник для увеличения, бинокулярные лупы, 5 Вт, стоматологические" [level=3] [ref=e833]
+            - generic [ref=e834]:
+              - generic [ref=e835]:
+                - generic [ref=e836]: ★
+                - generic [ref=e837]: ★
+                - generic [ref=e838]: ★
+                - generic [ref=e839]: ★
+                - generic [ref=e840]: ★
+              - generic [ref=e841]: "4.5"
+            - generic [ref=e842]:
+              - generic [ref=e843]: 6 733 ₽
+              - generic [ref=e844]: 21 721 ₽
+            - generic [ref=e845]: 🔥 132 человек смотрят сейчас
+            - generic [ref=e846]: ⏰ Скидка действует ещё 15 часов
+            - generic [ref=e847]:
+              - img [ref=e848]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e850]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005004421151420.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e851]
+              - text: На AliExpress →
+            - paragraph [ref=e855]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e856]: 📤 Поделиться
+        - generic [ref=e857] [cursor=pointer]:
+          - generic [ref=e858]: "-69%"
+          - button "В избранное" [ref=e859]:
+            - img [ref=e860]
+          - generic [ref=e862]:
+            - img "Мужские низкие водонепроницаемые походные ботинки Thermator"
+          - generic [ref=e863]:
+            - heading "Мужские низкие водонепроницаемые походные ботинки Thermator" [level=3] [ref=e864]
+            - generic [ref=e865]:
+              - generic [ref=e866]: ботинки
+              - generic [ref=e867]: мужские
+            - generic [ref=e868]:
+              - generic [ref=e869]:
+                - generic [ref=e870]: ★
+                - generic [ref=e871]: ★
+                - generic [ref=e872]: ★
+                - generic [ref=e873]: ★
+                - generic [ref=e874]: ★
+              - generic [ref=e875]: "4.5"
+            - generic [ref=e876]:
+              - generic [ref=e877]: 6 298 ₽
+              - generic [ref=e878]: 20 316 ₽
+            - generic [ref=e879]: 🔥 91 человек смотрят сейчас
+            - generic [ref=e880]: ⏰ Скидка действует ещё 20 часов
+            - generic [ref=e881]:
+              - img [ref=e882]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e884]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012065862721.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e885]
+              - text: На AliExpress →
+            - paragraph [ref=e889]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e890]: 📤 Поделиться
+        - generic [ref=e891] [cursor=pointer]:
+          - generic [ref=e892]: "-67%"
+          - button "В избранное" [ref=e893]:
+            - img [ref=e894]
+          - generic [ref=e896]:
+            - img "Электрический распределительный короб из холоднокатаной стали 19.69*15.75*7.87 дюймов, IP50-55, настенный, для внутренне"
+          - generic [ref=e897]:
+            - heading "Электрический распределительный короб из холоднокатаной стали 19.69*15.75*7.87 дюймов, IP50-55, настенный, для внутренне" [level=3] [ref=e898]
+            - generic [ref=e899]:
+              - generic [ref=e900]:
+                - generic [ref=e901]: ★
+                - generic [ref=e902]: ★
+                - generic [ref=e903]: ★
+                - generic [ref=e904]: ★
+                - generic [ref=e905]: ★
+              - generic [ref=e906]: "4.5"
+            - generic [ref=e907]:
+              - generic [ref=e908]: 6 578 ₽
+              - generic [ref=e909]: 19 934 ₽
+            - generic [ref=e910]: 🔥 155 человек смотрят сейчас
+            - generic [ref=e911]: ⏰ Скидка действует ещё 43 часов
+            - generic [ref=e912]:
+              - img [ref=e913]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e915]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005011894113651.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e916]
+              - text: На AliExpress →
+            - paragraph [ref=e920]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e921]: 📤 Поделиться
+        - generic [ref=e922] [cursor=pointer]:
+          - generic [ref=e923]: "-67%"
+          - button "В избранное" [ref=e924]:
+            - img [ref=e925]
+          - generic [ref=e927]:
+            - img "Стоматологическая 5 Вт светодиодсветодиодный фара бинокулярная Лупа Стоматологическая головная Повязка регулируемый крон"
+          - generic [ref=e928]:
+            - heading "Стоматологическая 5 Вт светодиодсветодиодный фара бинокулярная Лупа Стоматологическая головная Повязка регулируемый крон" [level=3] [ref=e929]
+            - generic [ref=e930]:
+              - generic [ref=e931]:
+                - generic [ref=e932]: ★
+                - generic [ref=e933]: ★
+                - generic [ref=e934]: ★
+                - generic [ref=e935]: ★
+                - generic [ref=e936]: ★
+              - generic [ref=e937]: "4.5"
+            - generic [ref=e938]:
+              - generic [ref=e939]: 6 980 ₽
+              - generic [ref=e940]: 21 151 ₽
+            - generic [ref=e941]: 🔥 135 человек смотрят сейчас
+            - generic [ref=e942]: ⏰ Скидка действует ещё 25 часов
+            - generic [ref=e943]:
+              - img [ref=e944]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e946]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005004745115030.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e947]
+              - text: На AliExpress →
+            - paragraph [ref=e951]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e952]: 📤 Поделиться
+        - generic [ref=e953] [cursor=pointer]:
+          - generic [ref=e954]: "-65%"
+          - button "В избранное" [ref=e955]:
+            - img [ref=e956]
+          - generic [ref=e958]:
+            - img "Флеш-лампа Bluetooth для стоматологической фотографии, светодиодный светильник для освещения полости рта, оборудование д"
+          - generic [ref=e959]:
+            - heading "Флеш-лампа Bluetooth для стоматологической фотографии, светодиодный светильник для освещения полости рта, оборудование д" [level=3] [ref=e960]
+            - generic [ref=e961]:
+              - generic [ref=e962]:
+                - generic [ref=e963]: ★
+                - generic [ref=e964]: ★
+                - generic [ref=e965]: ★
+                - generic [ref=e966]: ★
+                - generic [ref=e967]: ★
+              - generic [ref=e968]: "4.5"
+            - generic [ref=e969]:
+              - generic [ref=e970]: 6 569 ₽
+              - generic [ref=e971]: 18 770 ₽
+            - generic [ref=e972]: 🔥 98 человек смотрят сейчас
+            - generic [ref=e973]: ⏰ Скидка действует ещё 30 часов
+            - generic [ref=e974]:
+              - img [ref=e975]
+              - text: Бесплатная доставка
+            - link "На AliExpress →" [ref=e977]:
+              - /url: https://ali.click/97qq81j?ulp=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012060988917.html&i=5&f_id=50005&subid=smartskidka
+              - img [ref=e978]
+              - text: На AliExpress →
+            - paragraph [ref=e982]: 💡 Партнёрская ссылка. Цена для вас не меняется.
+            - button "Поделиться" [ref=e983]: 📤 Поделиться
+      - button "Показать ещё" [ref=e984] [cursor=pointer]
+    - generic [ref=e985]:
+      - heading "👁 Недавно смотрели" [level=2] [ref=e986]
+      - link "Мужские сандалии Skechers, нескользящие, удобные, для активного отдыха, пляжа, летние, повседневные, 237594-CHAR -78% Мужские сандалии Skechers, нес 6 534 ₽" [ref=e988] [cursor=pointer]:
+        - /url: /item/1.html
+        - img "Мужские сандалии Skechers, нескользящие, удобные, для активного отдыха, пляжа, летние, повседневные, 237594-CHAR" [ref=e989]
+        - generic [ref=e990]: "-78%"
+        - generic [ref=e991]: Мужские сандалии Skechers, нес
+        - generic [ref=e992]: 6 534 ₽
+  - generic [ref=e993]:
+    - generic [ref=e994]: ✓
+    - generic [ref=e995]: Добавлено в корзину
+  - generic [ref=e997]:
+    - heading "Скидки на AliExpress до 90% — как это работает" [level=2] [ref=e998]
+    - paragraph [ref=e999]: SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Мы ежедневно обновляем каталог, чтобы вы всегда находили самые выгодные предложения на электронику, одежду, обувь, товары для дома и авто. Все цены указаны в рублях с учётом актуального курса Центробанка.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e1000]
+    - paragraph [ref=e1001]: Используйте наш поиск по товарам или 🔮 AI-поиск для подбора идеальных покупок. Добавляйте товары в избранное, чтобы вернуться к ним позже. Каждая карточка содержит реальный рейтинг, количество заказов и характеристики — никаких фейковых скидок.
+    - heading "1000+ товаров с бесплатной доставкой" [level=2] [ref=e1002]
+    - paragraph [ref=e1003]: В нашем каталоге более 1000 товаров с реальными скидками 20–90%. Все ссылки ведут напрямую на AliExpress через партнёрскую программу Admitad — вы получаете ту же цену, а мы небольшую комиссию за направление. Это позволяет нам поддерживать сервис и добавлять новые функции.
+  - contentinfo [ref=e1004]:
+    - generic [ref=e1005]:
+      - generic [ref=e1006]:
+        - generic [ref=e1007]: SmartSkidka.ru
+        - paragraph [ref=e1008]: Лучшие скидки и промокоды на товары с AliExpress. Экономьте умнее!
+      - generic [ref=e1009]:
+        - generic [ref=e1010]:
+          - heading "Категории" [level=4] [ref=e1011]
+          - link "Обувь" [ref=e1012] [cursor=pointer]:
+            - /url: /shoes.html
+          - link "Электроника" [ref=e1013] [cursor=pointer]:
+            - /url: /electronics.html
+          - link "Одежда" [ref=e1014] [cursor=pointer]:
+            - /url: /clothing.html
+          - link "Товары для дома" [ref=e1015] [cursor=pointer]:
+            - /url: /home.html
+          - link "Автотовары" [ref=e1016] [cursor=pointer]:
+            - /url: /auto.html
+          - link "Красота" [ref=e1017] [cursor=pointer]:
+            - /url: /beauty.html
+          - link "Украшения" [ref=e1018] [cursor=pointer]:
+            - /url: /jewelry.html
+          - link "Спорт" [ref=e1019] [cursor=pointer]:
+            - /url: /sports.html
+          - link "Игрушки" [ref=e1020] [cursor=pointer]:
+            - /url: /toys.html
+        - generic [ref=e1021]:
+          - heading "Информация" [level=4] [ref=e1022]
+          - link "О нас" [ref=e1023] [cursor=pointer]:
+            - /url: about.html
+          - link "Контакты" [ref=e1024] [cursor=pointer]:
+            - /url: contact.html
+          - link "Политика конфиденциальности" [ref=e1025] [cursor=pointer]:
+            - /url: privacy.html
+          - link "Условия использования" [ref=e1026] [cursor=pointer]:
+            - /url: terms.html
+    - generic [ref=e1027]:
+      - paragraph [ref=e1028]: SmartSkidka.ru — не является магазином. Все товары продаются на AliExpress.
+      - paragraph [ref=e1029]:
+        - link "📢 Скидки в Telegram — @SmartRuMarket" [ref=e1030] [cursor=pointer]:
+          - /url: https://t.me/SmartRuMarket
+      - paragraph [ref=e1031]: 2026 SmartSkidka.ru

@@ -1,0 +1,10 @@
+- generic [active] [ref=e1]:
+  - generic "Ads"
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - link "AD admitad" [ref=e6] [cursor=pointer]:
+        - /url: ""
+        - img "AD" [ref=e7]
+        - img "admitad" [ref=e8]
+    - main [ref=e9]
+    - img [ref=e11]

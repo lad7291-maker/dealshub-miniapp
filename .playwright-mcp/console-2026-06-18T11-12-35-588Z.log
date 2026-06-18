@@ -1,0 +1,3 @@
+[     385ms] [LOG] [SW] Registered: https://smart-skidka.ru/ @ https://smart-skidka.ru/:226
+[     850ms] Failed to update a ServiceWorker for scope ('https://smart-skidka.ru/') with script ('Unknown'): Not found
+[    1443ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://smart-skidka.ru/:0

@@ -1,0 +1,1002 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Smart Skidka .ru" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e6]
+        - generic [ref=e10]:
+          - generic [ref=e11]: Smart
+          - generic [ref=e12]: Skidka
+          - generic [ref=e13]: .ru
+      - generic [ref=e14]:
+        - img
+        - textbox "Поиск товаров..." [ref=e15]
+        - button "AI поиск" [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+      - generic [ref=e19]:
+        - generic [ref=e20]: "AI-поиск: 3 из 3 осталось"
+        - button "Избранное" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e28]: 1000+ товаров со скидками до 90%
+      - heading "Лучшие скидки AliExpress" [level=1] [ref=e29]
+      - paragraph [ref=e30]: Экономьте до 90% на топовых товарах с бесплатной доставкой
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: 6000+
+          - generic [ref=e34]: Товаров
+        - generic [ref=e35]:
+          - generic [ref=e36]: до 90%
+          - generic [ref=e37]: Скидки
+        - generic [ref=e38]:
+          - generic [ref=e39]: Бесплатно
+          - generic [ref=e40]: Доставка
+    - generic [ref=e41]:
+      - complementary [ref=e42]:
+        - heading "Категории" [level=3] [ref=e44]
+        - navigation [ref=e45]:
+          - button "⊞ Все" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]: ⊞ Все
+          - generic [ref=e49]:
+            - button "💻 Электроника 123" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 💻 Электроника
+              - generic [ref=e52]: "123"
+            - generic:
+              - button "Комплектующие" [ref=e53] [cursor=pointer]
+              - button "Периферия" [ref=e54] [cursor=pointer]
+              - button "Накопители" [ref=e55] [cursor=pointer]
+              - button "Сетевое оборудование" [ref=e56] [cursor=pointer]
+              - button "Планшеты" [ref=e57] [cursor=pointer]
+              - button "Умная электроника" [ref=e58] [cursor=pointer]
+          - generic [ref=e59]:
+            - button "👕 Одежда 271" [ref=e60] [cursor=pointer]:
+              - generic [ref=e61]: 👕 Одежда
+              - generic [ref=e62]: "271"
+            - generic:
+              - button "Рубашки" [ref=e63] [cursor=pointer]
+              - button "Пуховики" [ref=e64] [cursor=pointer]
+              - button "Сумки" [ref=e65] [cursor=pointer]
+              - button "Рюкзаки" [ref=e66] [cursor=pointer]
+              - button "Чемоданы" [ref=e67] [cursor=pointer]
+              - button "Аксессуары" [ref=e68] [cursor=pointer]
+          - generic [ref=e69]:
+            - button "👟 Обувь" [ref=e70] [cursor=pointer]:
+              - generic [ref=e71]: 👟 Обувь
+            - generic:
+              - button "Кроссовки" [ref=e72] [cursor=pointer]
+              - button "Женская обувь" [ref=e73] [cursor=pointer]
+              - button "Мужская обувь" [ref=e74] [cursor=pointer]
+          - generic [ref=e75]:
+            - button "🏠 Дом 321" [ref=e76] [cursor=pointer]:
+              - generic [ref=e77]: 🏠 Дом
+              - generic [ref=e78]: "321"
+            - generic:
+              - button "Товары для дома" [ref=e79] [cursor=pointer]
+              - button "Кухня" [ref=e80] [cursor=pointer]
+              - button "Ванная" [ref=e81] [cursor=pointer]
+              - button "Стройматериалы" [ref=e82] [cursor=pointer]
+          - generic [ref=e83]:
+            - button "🚗 Авто 78" [ref=e84] [cursor=pointer]:
+              - generic [ref=e85]: 🚗 Авто
+              - generic [ref=e86]: "78"
+            - generic:
+              - button "Двигатели" [ref=e87] [cursor=pointer]
+              - button "Кузовные детали" [ref=e88] [cursor=pointer]
+              - button "Автосвет" [ref=e89] [cursor=pointer]
+              - button "Инструменты" [ref=e90] [cursor=pointer]
+              - button "Мотоциклы" [ref=e91] [cursor=pointer]
+          - generic [ref=e92]:
+            - button "💄 Красота 9" [ref=e93] [cursor=pointer]:
+              - generic [ref=e94]: 💄 Красота
+              - generic [ref=e95]: "9"
+            - generic:
+              - button "Стоматология" [ref=e96] [cursor=pointer]
+              - button "Маникюр" [ref=e97] [cursor=pointer]
+              - button "Уход за волосами" [ref=e98] [cursor=pointer]
+              - button "Парфюм" [ref=e99] [cursor=pointer]
+          - generic [ref=e100]:
+            - button "⚽ Спорт 192" [ref=e101] [cursor=pointer]:
+              - generic [ref=e102]: ⚽ Спорт
+              - generic [ref=e103]: "192"
+            - generic:
+              - button "Лыжи" [ref=e104] [cursor=pointer]
+              - button "Спортивные сумки" [ref=e105] [cursor=pointer]
+              - button "Активный отдых" [ref=e106] [cursor=pointer]
+          - generic [ref=e107]:
+            - button "💎 Украшения 6" [ref=e108] [cursor=pointer]:
+              - generic [ref=e109]: 💎 Украшения
+              - generic [ref=e110]: "6"
+            - generic:
+              - button "Ювелирка" [ref=e111] [cursor=pointer]
+              - button "Часы" [ref=e112] [cursor=pointer]
+          - generic [ref=e113]:
+            - button "🧸 Игрушки" [ref=e114] [cursor=pointer]:
+              - generic [ref=e115]: 🧸 Игрушки
+            - generic:
+              - button "Фигурки" [ref=e116] [cursor=pointer]
+              - button "Конструкторы" [ref=e117] [cursor=pointer]
+              - button "Р/У игрушки" [ref=e118] [cursor=pointer]
+              - button "Игры и пазлы" [ref=e119] [cursor=pointer]
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - button "Все" [ref=e122] [cursor=pointer]
+          - button "Для детей" [ref=e123] [cursor=pointer]
+          - button "Аксессуары" [ref=e124] [cursor=pointer]
+          - button "Брендовое" [ref=e125] [cursor=pointer]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - button "Все скидки" [ref=e129] [cursor=pointer]
+              - button "30%+" [ref=e130] [cursor=pointer]
+              - button "50%+" [ref=e131] [cursor=pointer]
+              - button "70%+" [ref=e132] [cursor=pointer]
+              - button "90%+" [ref=e133] [cursor=pointer]
+            - generic [ref=e134]:
+              - generic [ref=e135]: "Цена:"
+              - spinbutton [ref=e136]
+              - generic [ref=e137]: —
+              - spinbutton [ref=e138]
+              - button "OK" [ref=e139] [cursor=pointer]
+            - combobox [ref=e141] [cursor=pointer]:
+              - option "По скидке" [selected]
+              - option "Сначала дешевые"
+              - option "Сначала дорогие"
+              - option "По заказам"
+          - generic [ref=e142]: 6000 товаров
+        - heading "Подборки скидок" [level=2] [ref=e144]:
+          - img [ref=e145]
+          - text: Подборки скидок
+        - heading "Топ-10 за неделю" [level=2] [ref=e148]:
+          - img [ref=e149]
+          - text: Топ-10 за неделю
+        - link "AliExpress RU&CIS" [ref=e153] [cursor=pointer]:
+          - /url: https://rzekl.com/g/1e8d114494fb6bf3968616525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Faliexpress.ru%252F&subid=smartskidka_banner
+          - img "AliExpress RU&CIS" [ref=e154]
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e157] [cursor=pointer]:
+              - generic [ref=e158]: "-84%"
+              - button "В избранное" [ref=e159]:
+                - img [ref=e160]
+              - generic [ref=e162]:
+                - img "Asics Men Basic Basketball Shoes 1063A090-600 Non-slip Wear Resistant Athletic Sneakers Outdoor Sports Training Footwear"
+              - generic [ref=e163]:
+                - heading "Asics Men Basic Basketball Shoes 1063A090-600 Non-slip Wear Resistant Athletic Sneakers Outdoor Sports Training Footwear" [level=3] [ref=e164]
+                - generic [ref=e165]:
+                  - generic [ref=e166]: asics
+                  - generic [ref=e167]: кроссовки
+                  - generic [ref=e168]: мужские
+                - generic [ref=e169]:
+                  - generic [ref=e170]: 8 024 ₽
+                  - generic [ref=e171]: 50 156 ₽
+                - generic [ref=e173]:
+                  - img [ref=e174]
+                  - text: 87 человек смотрят сейчас
+                - generic [ref=e178]:
+                  - img [ref=e179]
+                  - text: Скидка действует ещё 35 часов
+                - generic [ref=e182]:
+                  - img [ref=e183]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e185]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012187879342.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e186]
+                  - text: На AliExpress →
+                - paragraph [ref=e190]:
+                  - img [ref=e191]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e193]:
+                  - img [ref=e194]
+                  - text: Поделиться
+            - generic [ref=e197] [cursor=pointer]:
+              - generic [ref=e198]: "-84%"
+              - button "В избранное" [ref=e199]:
+                - img [ref=e200]
+              - generic [ref=e202]:
+                - img "PUMA Future 9 MG Multi-Ground Soccer Cleats Men's Artificial Grass Training & Match Football Shoes 108904-03"
+              - generic [ref=e203]:
+                - heading "PUMA Future 9 MG Multi-Ground Soccer Cleats Men's Artificial Grass Training & Match Football Shoes 108904-03" [level=3] [ref=e204]
+                - generic [ref=e205]:
+                  - generic [ref=e206]: puma
+                  - generic [ref=e207]: кроссовки
+                  - generic [ref=e208]: мужские
+                - generic [ref=e209]:
+                  - generic [ref=e210]: 8 319 ₽
+                  - generic [ref=e211]: 51 995 ₽
+                - generic [ref=e213]:
+                  - img [ref=e214]
+                  - text: 169 человек смотрят сейчас
+                - generic [ref=e218]:
+                  - img [ref=e219]
+                  - text: Скидка действует ещё 17 часов
+                - generic [ref=e222]:
+                  - img [ref=e223]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e225]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012107861816.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e226]
+                  - text: На AliExpress →
+                - paragraph [ref=e230]:
+                  - img [ref=e231]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e233]:
+                  - img [ref=e234]
+                  - text: Поделиться
+            - generic [ref=e237] [cursor=pointer]:
+              - generic [ref=e238]: "-82%"
+              - button "В избранное" [ref=e239]:
+                - img [ref=e240]
+              - generic [ref=e242]:
+                - img "Комплект из 4 аккумуляторов 18В 12.0Ач M18 для замены литиевых батарей Milwaukee для беспроводных инструментов, быстрая"
+              - generic [ref=e243]:
+                - heading "Комплект из 4 аккумуляторов 18В 12.0Ач M18 для замены литиевых батарей Milwaukee для беспроводных инструментов, быстрая" [level=3] [ref=e244]
+                - generic [ref=e245]:
+                  - generic [ref=e246]: 7 212 ₽
+                  - generic [ref=e247]: 40 067 ₽
+                - generic [ref=e249]:
+                  - img [ref=e250]
+                  - text: 77 человек смотрят сейчас
+                - generic [ref=e254]:
+                  - img [ref=e255]
+                  - text: Скидка действует ещё 42 часов
+                - generic [ref=e258]:
+                  - img [ref=e259]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e261]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012206415022.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e262]
+                  - text: На AliExpress →
+                - paragraph [ref=e266]:
+                  - img [ref=e267]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e269]:
+                  - img [ref=e270]
+                  - text: Поделиться
+            - generic [ref=e273] [cursor=pointer]:
+              - generic [ref=e274]: "-81%"
+              - button "В избранное" [ref=e275]:
+                - img [ref=e276]
+              - generic [ref=e278]:
+                - img "【Новый стиль】Щетка для чистки гриля без щетины с волнистой головкой, 18-дюймовая ручка, бесшовный скребок для чугуна и н"
+              - generic [ref=e279]:
+                - heading "【Новый стиль】Щетка для чистки гриля без щетины с волнистой головкой, 18-дюймовая ручка, бесшовный скребок для чугуна и н" [level=3] [ref=e280]
+                - generic [ref=e281]:
+                  - generic [ref=e282]: 6 492 ₽
+                  - generic [ref=e283]: 34 168 ₽
+                - generic [ref=e285]:
+                  - img [ref=e286]
+                  - text: 132 человек смотрят сейчас
+                - generic [ref=e290]:
+                  - img [ref=e291]
+                  - text: Скидка действует ещё 40 часов
+                - generic [ref=e294]:
+                  - img [ref=e295]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e297]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012233745962.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e298]
+                  - text: На AliExpress →
+                - paragraph [ref=e302]:
+                  - img [ref=e303]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e305]:
+                  - img [ref=e306]
+                  - text: Поделиться
+            - generic [ref=e309] [cursor=pointer]:
+              - generic [ref=e310]: "-81%"
+              - button "В избранное" [ref=e311]:
+                - img [ref=e312]
+              - generic [ref=e314]:
+                - img "Цифровой стеклянный электрический чайник 1,7 л с изменяющей цвет LED-подсветкой, контролем температуры, двойными стенкам"
+              - generic [ref=e315]:
+                - heading "Цифровой стеклянный электрический чайник 1,7 л с изменяющей цвет LED-подсветкой, контролем температуры, двойными стенкам" [level=3] [ref=e316]
+                - generic [ref=e317]:
+                  - generic [ref=e318]: 7 006 ₽
+                  - generic [ref=e319]: 36 876 ₽
+                - generic [ref=e321]:
+                  - img [ref=e322]
+                  - text: 105 человек смотрят сейчас
+                - generic [ref=e326]:
+                  - img [ref=e327]
+                  - text: Скидка действует ещё 24 часов
+                - generic [ref=e330]:
+                  - img [ref=e331]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e333]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012323766737.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e334]
+                  - text: На AliExpress →
+                - paragraph [ref=e338]:
+                  - img [ref=e339]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e341]:
+                  - img [ref=e342]
+                  - text: Поделиться
+            - generic [ref=e345] [cursor=pointer]:
+              - generic [ref=e346]: "-80%"
+              - button "В избранное" [ref=e347]:
+                - img [ref=e348]
+              - generic [ref=e350]:
+                - img "Пылесборник для гравировального станка с ЧПУ, мощность всасывания 6000 Па, большой объем 2,8 л, комплект для удаления пы"
+              - generic [ref=e351]:
+                - heading "Пылесборник для гравировального станка с ЧПУ, мощность всасывания 6000 Па, большой объем 2,8 л, комплект для удаления пы" [level=3] [ref=e352]
+                - generic [ref=e353]:
+                  - generic [ref=e354]: 7 010 ₽
+                  - generic [ref=e355]: 35 049 ₽
+                - generic [ref=e357]:
+                  - img [ref=e358]
+                  - text: 184 человек смотрят сейчас
+                - generic [ref=e362]:
+                  - img [ref=e363]
+                  - text: Скидка действует ещё 15 часов
+                - generic [ref=e366]:
+                  - img [ref=e367]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e369]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012418747310.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e370]
+                  - text: На AliExpress →
+                - paragraph [ref=e374]:
+                  - img [ref=e375]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e377]:
+                  - img [ref=e378]
+                  - text: Поделиться
+            - generic [ref=e381] [cursor=pointer]:
+              - generic [ref=e382]: "-80%"
+              - button "В избранное" [ref=e383]:
+                - img [ref=e384]
+              - generic [ref=e386]:
+                - img "New Adidas Men's And Women's Terrex Boat Slip-On Climacool Outdoor Hiking Mountaineering Cycling Sports Shoes JI3503"
+              - generic [ref=e387]:
+                - heading "New Adidas Men's And Women's Terrex Boat Slip-On Climacool Outdoor Hiking Mountaineering Cycling Sports Shoes JI3503" [level=3] [ref=e388]
+                - generic [ref=e389]:
+                  - generic [ref=e390]: adidas
+                  - generic [ref=e391]: кроссовки
+                  - generic [ref=e392]: мужские
+                - generic [ref=e393]:
+                  - generic [ref=e394]: 7 996 ₽
+                  - generic [ref=e395]: 39 980 ₽
+                - generic [ref=e397]:
+                  - img [ref=e398]
+                  - text: 185 человек смотрят сейчас
+                - generic [ref=e402]:
+                  - img [ref=e403]
+                  - text: Скидка действует ещё 26 часов
+                - generic [ref=e406]:
+                  - img [ref=e407]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e409]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012332444150.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e410]
+                  - text: На AliExpress →
+                - paragraph [ref=e414]:
+                  - img [ref=e415]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e417]:
+                  - img [ref=e418]
+                  - text: Поделиться
+            - generic [ref=e421] [cursor=pointer]:
+              - generic [ref=e422]: "-80%"
+              - button "В избранное" [ref=e423]:
+                - img [ref=e424]
+              - generic [ref=e426]:
+                - img "New Genuine Nike New Men's Cushioned Breathable Casual Sports Training Running Shoes FQ1833-001"
+              - generic [ref=e427]:
+                - heading "New Genuine Nike New Men's Cushioned Breathable Casual Sports Training Running Shoes FQ1833-001" [level=3] [ref=e428]
+                - generic [ref=e429]:
+                  - generic [ref=e430]: nike
+                  - generic [ref=e431]: кроссовки
+                  - generic [ref=e432]: мужские
+                - generic [ref=e433]:
+                  - generic [ref=e434]: 7 834 ₽
+                  - generic [ref=e435]: 39 170 ₽
+                - generic [ref=e437]:
+                  - img [ref=e438]
+                  - text: 45 человек смотрят сейчас
+                - generic [ref=e442]:
+                  - img [ref=e443]
+                  - text: Скидка действует ещё 39 часов
+                - generic [ref=e446]:
+                  - img [ref=e447]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e449]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012308089235.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e450]
+                  - text: На AliExpress →
+                - paragraph [ref=e454]:
+                  - img [ref=e455]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e457]:
+                  - img [ref=e458]
+                  - text: Поделиться
+            - generic [ref=e461] [cursor=pointer]:
+              - generic [ref=e462]: "-80%"
+              - button "В избранное" [ref=e463]:
+                - img [ref=e464]
+              - generic [ref=e466]:
+                - img "New Adidas Men's And Women's Football Shoes F50 League 2G/3G Ag Spike Training Sneakers Jq1485"
+              - generic [ref=e467]:
+                - heading "New Adidas Men's And Women's Football Shoes F50 League 2G/3G Ag Spike Training Sneakers Jq1485" [level=3] [ref=e468]
+                - generic [ref=e469]:
+                  - generic [ref=e470]: adidas
+                  - generic [ref=e471]: кроссовки
+                  - generic [ref=e472]: мужские
+                - generic [ref=e473]:
+                  - generic [ref=e474]: 8 906 ₽
+                  - generic [ref=e475]: 44 527 ₽
+                - generic [ref=e477]:
+                  - img [ref=e478]
+                  - text: 61 человек смотрят сейчас
+                - generic [ref=e482]:
+                  - img [ref=e483]
+                  - text: Скидка действует ещё 32 часов
+                - generic [ref=e486]:
+                  - img [ref=e487]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e489]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012331504959.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e490]
+                  - text: На AliExpress →
+                - paragraph [ref=e494]:
+                  - img [ref=e495]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e497]:
+                  - img [ref=e498]
+                  - text: Поделиться
+            - generic [ref=e501] [cursor=pointer]:
+              - generic [ref=e502]: "-80%"
+              - button "В избранное" [ref=e503]:
+                - img [ref=e504]
+              - generic [ref=e506]:
+                - img "2026 New Adidas KK3774 Comfortable Rubber Outsole Sneakers"
+              - generic [ref=e507]:
+                - heading "2026 New Adidas KK3774 Comfortable Rubber Outsole Sneakers" [level=3] [ref=e508]
+                - generic [ref=e509]:
+                  - generic [ref=e510]: adidas
+                  - generic [ref=e511]: кроссовки
+                - generic [ref=e512]:
+                  - generic [ref=e513]: 7 996 ₽
+                  - generic [ref=e514]: 39 980 ₽
+                - generic [ref=e516]:
+                  - img [ref=e517]
+                  - text: 111 человек смотрят сейчас
+                - generic [ref=e521]:
+                  - img [ref=e522]
+                  - text: Скидка действует ещё 20 часов
+                - generic [ref=e525]:
+                  - img [ref=e526]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e528]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012230190443.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e529]
+                  - text: На AliExpress →
+                - paragraph [ref=e533]:
+                  - img [ref=e534]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e536]:
+                  - img [ref=e537]
+                  - text: Поделиться
+            - generic [ref=e540] [cursor=pointer]:
+              - generic [ref=e541]: "-79%"
+              - button "В избранное" [ref=e542]:
+                - img [ref=e543]
+              - generic [ref=e545]:
+                - img "New Stylish Glow-In-The-Dark Shoes Are Super Lightweight Perfect for Couples. These Fashionable And Versatile Outdoor Trail Run"
+              - generic [ref=e546]:
+                - heading "New Stylish Glow-In-The-Dark Shoes Are Super Lightweight Perfect for Couples. These Fashionable And Versatile Outdoor Trail Run" [level=3] [ref=e547]
+                - generic [ref=e549]: кроссовки
+                - generic [ref=e550]:
+                  - generic [ref=e551]: 7 864 ₽
+                  - generic [ref=e552]: 37 447 ₽
+                - generic [ref=e554]:
+                  - img [ref=e555]
+                  - text: 83 человек смотрят сейчас
+                - generic [ref=e559]:
+                  - img [ref=e560]
+                  - text: Скидка действует ещё 41 часов
+                - generic [ref=e563]:
+                  - img [ref=e564]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e566]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012013384923.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e567]
+                  - text: На AliExpress →
+                - paragraph [ref=e571]:
+                  - img [ref=e572]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e574]:
+                  - img [ref=e575]
+                  - text: Поделиться
+            - generic [ref=e578] [cursor=pointer]:
+              - generic [ref=e579]: "-78%"
+              - button "В избранное" [ref=e580]:
+                - img [ref=e581]
+              - generic [ref=e583]:
+                - img "Adidas Low Top Skateboarding Sneakers KK1283 Synthetic Leather Upper Casual Retro Skate Shoes White Black Red"
+              - generic [ref=e584]:
+                - heading "Adidas Low Top Skateboarding Sneakers KK1283 Synthetic Leather Upper Casual Retro Skate Shoes White Black Red" [level=3] [ref=e585]
+                - generic [ref=e586]:
+                  - generic [ref=e587]: adidas
+                  - generic [ref=e588]: кроссовки
+                - generic [ref=e589]:
+                  - generic [ref=e590]: 7 975 ₽
+                  - generic [ref=e591]: 36 250 ₽
+                - generic [ref=e593]:
+                  - img [ref=e594]
+                  - text: 94 человек смотрят сейчас
+                - generic [ref=e598]:
+                  - img [ref=e599]
+                  - text: Скидка действует ещё 30 часов
+                - generic [ref=e602]:
+                  - img [ref=e603]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e605]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012027734506.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e606]
+                  - text: На AliExpress →
+                - paragraph [ref=e610]:
+                  - img [ref=e611]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e613]:
+                  - img [ref=e614]
+                  - text: Поделиться
+            - generic [ref=e617] [cursor=pointer]:
+              - generic [ref=e618]: "-78%"
+              - button "В избранное" [ref=e619]:
+                - img [ref=e620]
+              - generic [ref=e622]:
+                - img "Nike 2026new Kids Casual Shoes Lightweight Breathable Non-slip Soft Sole Boys Girls Daily Outdoor Sneakers HQ6411-103"
+              - generic [ref=e623]:
+                - heading "Nike 2026new Kids Casual Shoes Lightweight Breathable Non-slip Soft Sole Boys Girls Daily Outdoor Sneakers HQ6411-103" [level=3] [ref=e624]
+                - generic [ref=e625]:
+                  - generic [ref=e626]: nike
+                  - generic [ref=e627]: кроссовки
+                  - generic [ref=e628]: детские
+                - generic [ref=e629]:
+                  - generic [ref=e630]: 8 795 ₽
+                  - generic [ref=e631]: 39 980 ₽
+                - generic [ref=e633]:
+                  - img [ref=e634]
+                  - text: 111 человек смотрят сейчас
+                - generic [ref=e638]:
+                  - img [ref=e639]
+                  - text: Скидка действует ещё 13 часов
+                - generic [ref=e642]:
+                  - img [ref=e643]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e645]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012215113174.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e646]
+                  - text: На AliExpress →
+                - paragraph [ref=e650]:
+                  - img [ref=e651]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e653]:
+                  - img [ref=e654]
+                  - text: Поделиться
+            - generic [ref=e657] [cursor=pointer]:
+              - generic [ref=e658]: "-78%"
+              - button "В избранное" [ref=e659]:
+                - img [ref=e660]
+              - generic [ref=e662]:
+                - img "Skechers Women's Casual Shoes, New Spring Style, Chunky Dad Sneakers, Platform Shoes 66666179-BBK"
+              - generic [ref=e663]:
+                - heading "Skechers Women's Casual Shoes, New Spring Style, Chunky Dad Sneakers, Platform Shoes 66666179-BBK" [level=3] [ref=e664]
+                - generic [ref=e665]:
+                  - generic [ref=e666]: skechers
+                  - generic [ref=e667]: кроссовки
+                  - generic [ref=e668]: мужские
+                - generic [ref=e669]:
+                  - generic [ref=e670]: 8 528 ₽
+                  - generic [ref=e671]: 38 763 ₽
+                - generic [ref=e673]:
+                  - img [ref=e674]
+                  - text: 38 человек смотрят сейчас
+                - generic [ref=e678]:
+                  - img [ref=e679]
+                  - text: Скидка действует ещё 14 часов
+                - generic [ref=e682]:
+                  - img [ref=e683]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e685]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012156387099.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e686]
+                  - text: На AliExpress →
+                - paragraph [ref=e690]:
+                  - img [ref=e691]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e693]:
+                  - img [ref=e694]
+                  - text: Поделиться
+            - generic [ref=e697] [cursor=pointer]:
+              - generic [ref=e698]: "-78%"
+              - button "В избранное" [ref=e699]:
+                - img [ref=e700]
+              - generic [ref=e702]:
+                - img "Womens Low Adidas Top Skateboarding Sneakers Suede Upper Casual Platform Shoes Pink Navy Gum JP7629"
+              - generic [ref=e703]:
+                - heading "Womens Low Adidas Top Skateboarding Sneakers Suede Upper Casual Platform Shoes Pink Navy Gum JP7629" [level=3] [ref=e704]
+                - generic [ref=e705]:
+                  - generic [ref=e706]: adidas
+                  - generic [ref=e707]: кроссовки
+                  - generic [ref=e708]: мужские
+                - generic [ref=e709]:
+                  - generic [ref=e710]: 8 198 ₽
+                  - generic [ref=e711]: 37 263 ₽
+                - generic [ref=e713]:
+                  - img [ref=e714]
+                  - text: 38 человек смотрят сейчас
+                - generic [ref=e718]:
+                  - img [ref=e719]
+                  - text: Скидка действует ещё 29 часов
+                - generic [ref=e722]:
+                  - img [ref=e723]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e725]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012204775906.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e726]
+                  - text: На AliExpress →
+                - paragraph [ref=e730]:
+                  - img [ref=e731]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e733]:
+                  - img [ref=e734]
+                  - text: Поделиться
+            - generic [ref=e737] [cursor=pointer]:
+              - generic [ref=e738]: "-78%"
+              - button "В избранное" [ref=e739]:
+                - img [ref=e740]
+              - generic [ref=e742]:
+                - img "Skechers Men's Casual Dad Shoes 232491-BKNT/232491-OLMT Lightweight Comfortable Retro Sneakers"
+              - generic [ref=e743]:
+                - heading "Skechers Men's Casual Dad Shoes 232491-BKNT/232491-OLMT Lightweight Comfortable Retro Sneakers" [level=3] [ref=e744]
+                - generic [ref=e745]:
+                  - generic [ref=e746]: skechers
+                  - generic [ref=e747]: кроссовки
+                  - generic [ref=e748]: мужские
+                - generic [ref=e749]:
+                  - generic [ref=e750]: 8 044 ₽
+                  - generic [ref=e751]: 36 565 ₽
+                - generic [ref=e753]:
+                  - img [ref=e754]
+                  - text: 40 человек смотрят сейчас
+                - generic [ref=e758]:
+                  - img [ref=e759]
+                  - text: Скидка действует ещё 25 часов
+                - generic [ref=e762]:
+                  - img [ref=e763]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e765]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012158112014.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e766]
+                  - text: На AliExpress →
+                - paragraph [ref=e770]:
+                  - img [ref=e771]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e773]:
+                  - img [ref=e774]
+                  - text: Поделиться
+            - generic [ref=e777] [cursor=pointer]:
+              - generic [ref=e778]: "-78%"
+              - button "В избранное" [ref=e779]:
+                - img [ref=e780]
+              - generic [ref=e782]:
+                - img "Nike Men Casual Shoes, Breathable Lightweight Non-slip Wear Resistant Daily Street Outdoor Walking Sneakers IB2765-011"
+              - generic [ref=e783]:
+                - heading "Nike Men Casual Shoes, Breathable Lightweight Non-slip Wear Resistant Daily Street Outdoor Walking Sneakers IB2765-011" [level=3] [ref=e784]
+                - generic [ref=e785]:
+                  - generic [ref=e786]: nike
+                  - generic [ref=e787]: кроссовки
+                  - generic [ref=e788]: мужские
+                - generic [ref=e789]:
+                  - generic [ref=e790]: 8 760 ₽
+                  - generic [ref=e791]: 39 821 ₽
+                - generic [ref=e793]:
+                  - img [ref=e794]
+                  - text: 53 человек смотрят сейчас
+                - generic [ref=e798]:
+                  - img [ref=e799]
+                  - text: Скидка действует ещё 26 часов
+                - generic [ref=e802]:
+                  - img [ref=e803]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e805]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012200637982.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e806]
+                  - text: На AliExpress →
+                - paragraph [ref=e810]:
+                  - img [ref=e811]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e813]:
+                  - img [ref=e814]
+                  - text: Поделиться
+            - generic [ref=e817] [cursor=pointer]:
+              - generic [ref=e818]: "-78%"
+              - button "В избранное" [ref=e819]:
+                - img [ref=e820]
+              - generic [ref=e822]:
+                - img "2026 New Puma Low Top Skate Shoes Breathable Casual Sneakers 395082-01"
+              - generic [ref=e823]:
+                - heading "2026 New Puma Low Top Skate Shoes Breathable Casual Sneakers 395082-01" [level=3] [ref=e824]
+                - generic [ref=e825]:
+                  - generic [ref=e826]: puma
+                  - generic [ref=e827]: кроссовки
+                - generic [ref=e828]:
+                  - generic [ref=e829]: 8 013 ₽
+                  - generic [ref=e830]: 36 426 ₽
+                - generic [ref=e832]:
+                  - img [ref=e833]
+                  - text: 89 человек смотрят сейчас
+                - generic [ref=e837]:
+                  - img [ref=e838]
+                  - text: Скидка действует ещё 12 часов
+                - generic [ref=e841]:
+                  - img [ref=e842]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e844]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012155065776.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e845]
+                  - text: На AliExpress →
+                - paragraph [ref=e849]:
+                  - img [ref=e850]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e852]:
+                  - img [ref=e853]
+                  - text: Поделиться
+            - generic [ref=e856] [cursor=pointer]:
+              - generic [ref=e857]: "-78%"
+              - button "В избранное" [ref=e858]:
+                - img [ref=e859]
+              - generic [ref=e861]:
+                - img "Nike Men Casual Shoes, Lightweight Breathable Non-slip Wear Resistant Comfort Street Daily Walking Sneakers IB2765-001"
+              - generic [ref=e862]:
+                - heading "Nike Men Casual Shoes, Lightweight Breathable Non-slip Wear Resistant Comfort Street Daily Walking Sneakers IB2765-001" [level=3] [ref=e863]
+                - generic [ref=e864]:
+                  - generic [ref=e865]: nike
+                  - generic [ref=e866]: кроссовки
+                  - generic [ref=e867]: мужские
+                - generic [ref=e868]:
+                  - generic [ref=e869]: 8 760 ₽
+                  - generic [ref=e870]: 39 821 ₽
+                - generic [ref=e872]:
+                  - img [ref=e873]
+                  - text: 38 человек смотрят сейчас
+                - generic [ref=e877]:
+                  - img [ref=e878]
+                  - text: Скидка действует ещё 28 часов
+                - generic [ref=e881]:
+                  - img [ref=e882]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e884]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012199575423.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e885]
+                  - text: На AliExpress →
+                - paragraph [ref=e889]:
+                  - img [ref=e890]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e892]:
+                  - img [ref=e893]
+                  - text: Поделиться
+            - generic [ref=e896] [cursor=pointer]:
+              - generic [ref=e897]: "-78%"
+              - button "В избранное" [ref=e898]:
+                - img [ref=e899]
+              - generic [ref=e901]:
+                - img "PUMA Mid Cut MG Multi Ground Football Boots Men Professional Training Match Soccer Cleats 108914-01"
+              - generic [ref=e902]:
+                - heading "PUMA Mid Cut MG Multi Ground Football Boots Men Professional Training Match Soccer Cleats 108914-01" [level=3] [ref=e903]
+                - generic [ref=e904]:
+                  - generic [ref=e905]: puma
+                  - generic [ref=e906]: ботинки
+                  - generic [ref=e907]: мужские
+                - generic [ref=e908]:
+                  - generic [ref=e909]: 8 438 ₽
+                  - generic [ref=e910]: 38 355 ₽
+                - generic [ref=e912]:
+                  - img [ref=e913]
+                  - text: 197 человек смотрят сейчас
+                - generic [ref=e917]:
+                  - img [ref=e918]
+                  - text: Скидка действует ещё 24 часов
+                - generic [ref=e921]:
+                  - img [ref=e922]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e924]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012112488033.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e925]
+                  - text: На AliExpress →
+                - paragraph [ref=e929]:
+                  - img [ref=e930]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e932]:
+                  - img [ref=e933]
+                  - text: Поделиться
+            - generic [ref=e936] [cursor=pointer]:
+              - generic [ref=e937]: "-78%"
+              - button "В избранное" [ref=e938]:
+                - img [ref=e939]
+              - generic [ref=e941]:
+                - img "2026 New Puma 396353-02 Lightweight Canvas Sneakers For Daily Wear"
+              - generic [ref=e942]:
+                - heading "2026 New Puma 396353-02 Lightweight Canvas Sneakers For Daily Wear" [level=3] [ref=e943]
+                - generic [ref=e944]:
+                  - generic [ref=e945]: puma
+                  - generic [ref=e946]: кроссовки
+                - generic [ref=e947]:
+                  - generic [ref=e948]: 7 975 ₽
+                  - generic [ref=e949]: 36 249 ₽
+                - generic [ref=e951]:
+                  - img [ref=e952]
+                  - text: 67 человек смотрят сейчас
+                - generic [ref=e956]:
+                  - img [ref=e957]
+                  - text: Скидка действует ещё 35 часов
+                - generic [ref=e960]:
+                  - img [ref=e961]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e963]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012266280010.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e964]
+                  - text: На AliExpress →
+                - paragraph [ref=e968]:
+                  - img [ref=e969]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e971]:
+                  - img [ref=e972]
+                  - text: Поделиться
+            - generic [ref=e975] [cursor=pointer]:
+              - generic [ref=e976]: "-78%"
+              - button "В избранное" [ref=e977]:
+                - img [ref=e978]
+              - generic [ref=e980]:
+                - img "2026 Sport Nike DV5456141 kids Low Top Sneakers Leather Upper Durable Rubber Sole School Shoes"
+              - generic [ref=e981]:
+                - heading "2026 Sport Nike DV5456141 kids Low Top Sneakers Leather Upper Durable Rubber Sole School Shoes" [level=3] [ref=e982]
+                - generic [ref=e983]:
+                  - generic [ref=e984]: nike
+                  - generic [ref=e985]: кроссовки
+                  - generic [ref=e986]: детские
+                - generic [ref=e987]:
+                  - generic [ref=e988]: 8 040 ₽
+                  - generic [ref=e989]: 36 547 ₽
+                - generic [ref=e991]:
+                  - img [ref=e992]
+                  - text: 33 человек смотрят сейчас
+                - generic [ref=e996]:
+                  - img [ref=e997]
+                  - text: Скидка действует ещё 48 часов
+                - generic [ref=e1000]:
+                  - img [ref=e1001]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e1003]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012306781221.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e1004]
+                  - text: На AliExpress →
+                - paragraph [ref=e1008]:
+                  - img [ref=e1009]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e1011]:
+                  - img [ref=e1012]
+                  - text: Поделиться
+            - generic [ref=e1015] [cursor=pointer]:
+              - generic [ref=e1016]: "-78%"
+              - button "В избранное" [ref=e1017]:
+                - img [ref=e1018]
+              - generic [ref=e1020]:
+                - img "Adidas 2026 New Mens KJ4606 Black Running Shoes With Lace Up Design"
+              - generic [ref=e1021]:
+                - heading "Adidas 2026 New Mens KJ4606 Black Running Shoes With Lace Up Design" [level=3] [ref=e1022]
+                - generic [ref=e1023]:
+                  - generic [ref=e1024]: adidas
+                  - generic [ref=e1025]: кроссовки
+                  - generic [ref=e1026]: мужские
+                - generic [ref=e1027]:
+                  - generic [ref=e1028]: 8 084 ₽
+                  - generic [ref=e1029]: 36 747 ₽
+                - generic [ref=e1031]:
+                  - img [ref=e1032]
+                  - text: 88 человек смотрят сейчас
+                - generic [ref=e1036]:
+                  - img [ref=e1037]
+                  - text: Скидка действует ещё 39 часов
+                - generic [ref=e1040]:
+                  - img [ref=e1041]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e1043]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012175469280.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e1044]
+                  - text: На AliExpress →
+                - paragraph [ref=e1048]:
+                  - img [ref=e1049]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e1051]:
+                  - img [ref=e1052]
+                  - text: Поделиться
+            - generic [ref=e1055] [cursor=pointer]:
+              - generic [ref=e1056]: "-78%"
+              - button "В избранное" [ref=e1057]:
+                - img [ref=e1058]
+              - generic [ref=e1060]:
+                - img "Adidas Womens 2026 New Blue White Low Top Leather Skate Shoes Gum Sole Casual Sneakers ID9074"
+              - generic [ref=e1061]:
+                - heading "Adidas Womens 2026 New Blue White Low Top Leather Skate Shoes Gum Sole Casual Sneakers ID9074" [level=3] [ref=e1062]
+                - generic [ref=e1063]:
+                  - generic [ref=e1064]: adidas
+                  - generic [ref=e1065]: кроссовки
+                  - generic [ref=e1066]: мужские
+                - generic [ref=e1067]:
+                  - generic [ref=e1068]: 7 862 ₽
+                  - generic [ref=e1069]: 35 739 ₽
+                - generic [ref=e1071]:
+                  - img [ref=e1072]
+                  - text: 140 человек смотрят сейчас
+                - generic [ref=e1076]:
+                  - img [ref=e1077]
+                  - text: Скидка действует ещё 38 часов
+                - generic [ref=e1080]:
+                  - img [ref=e1081]
+                  - text: Бесплатная доставка
+                - link "На AliExpress →" [ref=e1083]:
+                  - /url: https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ&dl_target_url=https%3A%2F%2Faliexpress.ru%2Fitem%2F1005012347512600.html%3Faf%3D2529186%26cv%3D47843
+                  - img [ref=e1084]
+                  - text: На AliExpress →
+                - paragraph [ref=e1088]:
+                  - img [ref=e1089]
+                  - text: Партнёрская ссылка. Цена для вас не меняется.
+                - button "Поделиться" [ref=e1091]:
+                  - img [ref=e1092]
+                  - text: Поделиться
+          - button "Показать ещё" [ref=e1095] [cursor=pointer]
+  - generic [ref=e1096]:
+    - generic [ref=e1097]: ✓
+    - generic [ref=e1098]: Готово
+  - generic [ref=e1100]:
+    - heading "Скидки на AliExpress до 90% — как это работает" [level=2] [ref=e1101]
+    - paragraph [ref=e1102]: SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Мы ежедневно обновляем каталог, чтобы вы всегда находили самые выгодные предложения на электронику, одежду, обувь, товары для дома и авто. Все цены указаны в рублях с учётом актуального курса Центробанка.
+    - heading "Как экономить на покупках в AliExpress" [level=2] [ref=e1103]
+    - paragraph [ref=e1104]: Используйте наш поиск по товарам или AI-поиск для подбора идеальных покупок. Добавляйте товары в избранное, чтобы вернуться к ним позже. Каждая карточка содержит реальный рейтинг, количество заказов и характеристики — никаких фейковых скидок.
+    - heading "1000+ товаров с бесплатной доставкой" [level=2] [ref=e1105]
+    - paragraph [ref=e1106]: В нашем каталоге более 1000 товаров с реальными скидками 20–90%. Все ссылки ведут напрямую на AliExpress через партнёрскую программу Admitad — вы получаете ту же цену, а мы небольшую комиссию за направление. Это позволяет нам поддерживать сервис и добавлять новые функции.
+  - contentinfo [ref=e1107]:
+    - generic [ref=e1108]:
+      - generic [ref=e1109]:
+        - generic [ref=e1110]: SmartSkidka.ru
+        - paragraph [ref=e1111]: Лучшие скидки и промокоды на товары с AliExpress. Экономьте умнее!
+      - generic [ref=e1112]:
+        - generic [ref=e1113]:
+          - heading "Категории" [level=4] [ref=e1114]
+          - link "Обувь" [ref=e1115] [cursor=pointer]:
+            - /url: /shoes.html
+          - link "Электроника" [ref=e1116] [cursor=pointer]:
+            - /url: /electronics.html
+          - link "Товары для дома" [ref=e1117] [cursor=pointer]:
+            - /url: /home.html
+          - link "Автотовары" [ref=e1118] [cursor=pointer]:
+            - /url: /auto.html
+          - link "Красота" [ref=e1119] [cursor=pointer]:
+            - /url: /beauty.html
+          - link "Спорт" [ref=e1120] [cursor=pointer]:
+            - /url: /sports.html
+        - generic [ref=e1121]:
+          - heading "Информация" [level=4] [ref=e1122]
+          - link "О нас" [ref=e1123] [cursor=pointer]:
+            - /url: about.html
+          - link "Контакты" [ref=e1124] [cursor=pointer]:
+            - /url: contact.html
+          - link "Политика конфиденциальности" [ref=e1125] [cursor=pointer]:
+            - /url: privacy.html
+          - link "Условия использования" [ref=e1126] [cursor=pointer]:
+            - /url: terms.html
+    - generic [ref=e1127]:
+      - paragraph [ref=e1128]: SmartSkidka.ru — не является магазином. Все товары продаются на AliExpress.
+      - paragraph [ref=e1129]:
+        - img [ref=e1130]
+        - link "Скидки в Telegram — @SmartRuMarket" [ref=e1134] [cursor=pointer]:
+          - /url: https://t.me/SmartRuMarket
+      - paragraph [ref=e1135]: 2026 SmartSkidka.ru
+      - paragraph [ref=e1136]:
+        - link "ИКС сайта" [ref=e1137] [cursor=pointer]:
+          - /url: https://webmaster.yandex.ru/siteinfo/?site=https://smart-skidka.ru
+          - img "ИКС сайта" [ref=e1138]

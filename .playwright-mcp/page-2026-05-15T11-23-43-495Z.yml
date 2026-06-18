@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "AD admitad" [ref=e4] [cursor=pointer]:
+      - /url: https://store.admitad.com/en/
+      - img "AD" [ref=e5]
+      - img "admitad" [ref=e6]
+  - generic [ref=e7]:
+    - img "404" [ref=e8]
+    - heading "Page not found" [level=1] [ref=e9]
+    - paragraph [ref=e10]: You may have made a typo, or that page may never have existed.
+    - link "Back to homepage" [ref=e11] [cursor=pointer]:
+      - /url: https://store.admitad.com/en/

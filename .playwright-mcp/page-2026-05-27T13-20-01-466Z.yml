@@ -1,0 +1,1056 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - generic:
+            - generic:
+              - heading "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренировок на открытом воздухе" [level=3]
+        - generic:
+          - generic:
+            - generic:
+              - paragraph: 6 109 ₽
+              - paragraph: 38 178 ₽
+        - generic [ref=e8]:
+          - button "В корзину" [ref=e10] [cursor=pointer]:
+            - paragraph [ref=e11]:
+              - generic [ref=e12]: В корзину
+          - button "Купить сейчас" [ref=e14] [cursor=pointer]:
+            - paragraph [ref=e15]:
+              - generic [ref=e16]: Купить сейчас
+      - banner [ref=e19]:
+        - link [ref=e22] [cursor=pointer]:
+          - /url: https://aliexpress.ru/
+          - img [ref=e23]
+        - generic [ref=e25]:
+          - navigation [ref=e26]:
+            - list [ref=e27]:
+              - listitem [ref=e28]:
+                - button [ref=e29] [cursor=pointer]:
+                  - img [ref=e32]
+          - generic [ref=e35]:
+            - textbox "кружка" [ref=e36]
+            - button "Найти" [ref=e37] [cursor=pointer]
+          - navigation [ref=e38]:
+            - list [ref=e39]:
+              - listitem [ref=e40]:
+                - button [ref=e41] [cursor=pointer]:
+                  - link [ref=e43]:
+                    - /url: /order-list
+                    - img [ref=e44]
+              - listitem [ref=e46]:
+                - button [ref=e47] [cursor=pointer]:
+                  - link [ref=e49]:
+                    - /url: /cart
+                    - img [ref=e50]
+              - listitem [ref=e54]:
+                - button [ref=e55] [cursor=pointer]:
+                  - link [ref=e57]:
+                    - /url: https://aliexpress.ru/account
+                    - img [ref=e58]
+      - generic [ref=e60]:
+        - generic [ref=e62]:
+          - link:
+            - /url: https://aliexpress.ru/one-price
+          - link:
+            - /url: https://aliexpress.ru/promotions/sl/flashdeals?fusion=y&hastoolbar=false&page=1&pageName=Promotions_2963&presentationmode=push
+          - link:
+            - /url: https://aliexpress.ru/promotions/sl/bigsave
+          - link:
+            - /url: https://aliexpress.ru/top
+          - link:
+            - /url: https://aliexpress.ru/promotions/sl/ce_category?fusion=y&hastoolbar=false&pageName=Promotions_1383&presentationmode=push
+          - link:
+            - /url: https://aliexpress.ru/promotions/sl/roborock_sbd?fusion=y&hastoolbar=false&pageName=Promotions_1848&presentationmode=push
+        - generic [ref=e64]:
+          - generic [ref=e66] [cursor=pointer]: RUB
+          - generic [ref=e68] [cursor=pointer]: EN
+          - generic [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e73]: Россия
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - link "AliExpress" [ref=e76] [cursor=pointer]:
+            - /url: https://aliexpress.ru
+            - generic [ref=e77]: AliExpress
+            - img [ref=e79]
+          - generic [ref=e81] [cursor=pointer]:
+            - generic [ref=e83]:
+              - generic [ref=e84]: ...
+              - img [ref=e86]
+            - generic:
+              - link "Обувь":
+                - /url: https://aliexpress.ru/category/20/shoes
+                - generic: Обувь
+                - generic:
+                  - img
+          - link "Спортивная обувь" [ref=e88] [cursor=pointer]:
+            - /url: https://aliexpress.ru/category/6570/sport-shoes
+            - generic [ref=e89]: Спортивная обувь
+            - img [ref=e91]
+          - link "Обувь для бега" [ref=e93] [cursor=pointer]:
+            - /url: https://aliexpress.ru/category/6589/running-shoes
+            - generic [ref=e94]: Обувь для бега
+        - generic [ref=e95]:
+          - generic [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - text: Артикул 1005012187879342
+          - button "В избранное" [ref=e99] [cursor=pointer]:
+            - img [ref=e100]
+            - generic [ref=e102]: В избранное
+          - button "Поделиться" [ref=e104] [cursor=pointer]:
+            - img [ref=e105]
+            - generic [ref=e107]: Поделиться
+      - generic [ref=e109]:
+        - generic [ref=e112]:
+          - heading "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренировок на открытом воздухе" [level=1] [ref=e114]
+          - generic [ref=e116]:
+            - generic [ref=e117]: 1 купили
+            - generic [ref=e118]:
+              - link "Характеристики" [ref=e119] [cursor=pointer]:
+                - /url: "#characteristics_anchor"
+              - link "Описание" [ref=e120] [cursor=pointer]:
+                - /url: "#content_anchor"
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - img [ref=e128] [cursor=pointer]
+            - img [ref=e131] [cursor=pointer]
+            - img [ref=e134] [cursor=pointer]
+            - img [ref=e137] [cursor=pointer]
+            - img [ref=e140] [cursor=pointer]
+            - img [ref=e143] [cursor=pointer]
+            - img [ref=e146] [cursor=pointer]
+          - generic [ref=e150]:
+            - img "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренировок на открытом воздухе" [ref=e152]
+            - img "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренировок на открытом воздухе" [ref=e155]
+            - img "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренировок на открытом воздухе" [ref=e158]
+            - img "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренировок на открытом воздухе" [ref=e161]
+            - img "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренировок на открытом воздухе" [ref=e164]
+            - img "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренировок на открытом воздухе" [ref=e167]
+            - img "Мужские базовые баскетбольные кроссовки Asics 1063A090-600, нескользящие, износостойкие, спортивные кроссовки для тренировок на открытом воздухе" [ref=e170]
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - generic [ref=e178]: "Цвет:"
+              - generic [ref=e179]: 1063A090-600
+            - list [ref=e180]:
+              - listitem [ref=e181]:
+                - button [ref=e182] [cursor=pointer]:
+                  - generic:
+                    - img
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - generic [ref=e185]: "Размер:"
+              - generic [ref=e186]: "44"
+            - list [ref=e187]:
+              - listitem [ref=e188]:
+                - button "42" [ref=e189] [cursor=pointer]:
+                  - generic [ref=e190]: "42"
+              - listitem [ref=e191]:
+                - button "42.5" [ref=e192] [cursor=pointer]:
+                  - generic [ref=e193]: "42.5"
+              - listitem [ref=e194]:
+                - button "43.5" [ref=e195] [cursor=pointer]:
+                  - generic [ref=e196]: "43.5"
+              - listitem [ref=e197]:
+                - button "44" [ref=e198] [cursor=pointer]:
+                  - generic [ref=e199]: "44"
+          - generic [ref=e201] [cursor=pointer]:
+            - img [ref=e202]
+            - generic [ref=e204]: Таблица размеров
+        - generic [ref=e206]:
+          - generic [ref=e207]:
+            - generic [ref=e208]:
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - generic [ref=e211]:
+                    - generic [ref=e213]: 6 109 ₽
+                    - text: цена сейчас
+                  - generic [ref=e214] [cursor=pointer]:
+                    - img [ref=e216]
+                    - generic [ref=e218]:
+                      - generic [ref=e219]: 6 045 ₽
+                      - generic [ref=e220]: взять купон на 64 ₽
+                - generic [ref=e223]:
+                  - generic [ref=e224]: 38 178 ₽
+                  - generic [ref=e226]: "-84%"
+                - generic [ref=e227]:
+                  - generic [ref=e2794]:
+                    - img "tag" [ref=e2795]
+                    - text: Осталось 10 шт.
+                  - generic [ref=e229] [cursor=pointer]:
+                    - img [ref=e230]
+                    - generic [ref=e231]: Скидка от 3 шт.
+                    - img [ref=e232]
+              - generic [ref=e234]: Цена за 1 штуку
+            - generic [ref=e236]:
+              - button "В корзину" [ref=e238] [cursor=pointer]:
+                - paragraph [ref=e239]:
+                  - generic [ref=e240]: В корзину
+              - button "Купить сейчас" [ref=e242] [cursor=pointer]:
+                - paragraph [ref=e243]:
+                  - generic [ref=e244]: Купить сейчас
+            - generic [ref=e2796]:
+              - list [ref=e2797]:
+                - listitem [ref=e2798]:
+                  - paragraph [ref=e2799]:
+                    - generic [ref=e2800]: 7–10 июня в пункт выдачи
+                    - generic [ref=e2801]: 930 ₽
+                - listitem [ref=e2802]:
+                  - paragraph [ref=e2803]:
+                    - generic [ref=e2804]: 10–14 июня почтой
+                    - generic [ref=e2805]: 930 ₽
+                - listitem [ref=e2806]:
+                  - paragraph [ref=e2807]:
+                    - generic [ref=e2808]: 12–14 июня курьером
+                    - generic [ref=e2809]: 2 092 ₽
+              - paragraph [ref=e2810]: Вернём деньги, если не получите заказ через 75 дней после отправки.
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - link [ref=e253] [cursor=pointer]:
+                - /url: https://aliexpress.ru/store/1105380610
+                - img [ref=e255]
+              - link "CORE SPORTS Store новый 66,67% рейтинг продавца · 97 подписчиков" [ref=e256] [cursor=pointer]:
+                - /url: https://aliexpress.ru/store/1105380610
+                - generic [ref=e257]:
+                  - generic [ref=e258]: CORE SPORTS Store
+                  - generic [ref=e260]:
+                    - img [ref=e261]
+                    - generic [ref=e264]: новый
+                - generic [ref=e265]:
+                  - generic [ref=e266]:
+                    - generic [ref=e267]: 66,67% рейтинг продавца
+                    - text: ·
+                  - generic [ref=e269]: 97 подписчиков
+            - generic [ref=e273]:
+              - generic [ref=e274]:
+                - generic [ref=e275]: Купоны
+                - link "Ещё (5)" [ref=e276] [cursor=pointer]:
+                  - /url: "#coupon_anchor"
+              - generic [ref=e279]:
+                - generic [ref=e280]:
+                  - img [ref=e281]
+                  - img [ref=e283]
+                - img [ref=e286]
+                - generic [ref=e290]:
+                  - generic "-64 ₽" [ref=e291]
+                  - generic [ref=e292]: При заказе от 65 ₽
+                - generic [ref=e293]:
+                  - img [ref=e294]
+                  - img [ref=e297] [cursor=pointer]
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - heading "Похожие товары" [level=3] [ref=e302]
+            - generic [ref=e304]:
+              - generic [ref=e305]:
+                - generic [ref=e307]:
+                  - link "Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e308] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_92735471.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000180281165&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e311]:
+                      - img "Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e313]
+                      - img "Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e316]
+                      - img "Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e319]
+                      - img "Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e322]
+                      - img "Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e325]
+                      - img "Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e328]
+                    - img [ref=e339]
+                  - link "962,06 ₽ -50% 481,03 ₽ Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро бесплатно" [ref=e342] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_92735471.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000180281165&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e343]:
+                      - generic [ref=e345]:
+                        - generic [ref=e346]: 962,06 ₽
+                        - generic [ref=e347]: "-50%"
+                      - generic [ref=e349]: 481,03 ₽
+                    - generic "Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e353]
+                    - generic [ref=e356]:
+                      - img [ref=e357]
+                      - text: бесплатно
+                - generic [ref=e359]:
+                  - link "Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж" [ref=e360] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_488764369.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000002459225090&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e363]:
+                      - img "Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж" [ref=e365]
+                      - img "Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж" [ref=e368]
+                      - img "Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж" [ref=e371]
+                      - img "Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж" [ref=e374]
+                      - img "Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж" [ref=e377]
+                      - img "Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж" [ref=e380]
+                    - img [ref=e391]
+                  - link "5 654,75 ₽ -19% 4 585,80 ₽ Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж бесплатно" [ref=e394] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_488764369.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000002459225090&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e395]:
+                      - generic [ref=e397]:
+                        - generic [ref=e398]: 5 654,75 ₽
+                        - generic [ref=e399]: "-19%"
+                      - generic [ref=e401]: 4 585,80 ₽
+                    - generic "Баскетбольные КроссовКи Asics Для Мужчин Удобные И Прочные Средней Высоты Практичные Модель V15. хит продаж" [ref=e405]
+                    - generic [ref=e408]:
+                      - img [ref=e409]
+                      - text: бесплатно
+                - generic [ref=e411]:
+                  - link [ref=e412] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005009633858171.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000049722188621&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e415]:
+                      - img "Кроссовки на воздушной подушке Marathon Specialty Мужские спортивные дышащие легкие женские удобные спортивные нескользящие кроссовки" [ref=e417]
+                      - img "Кроссовки на воздушной подушке Marathon Specialty Мужские спортивные дышащие легкие женские удобные спортивные нескользящие кроссовки" [ref=e420]
+                      - img "Кроссовки на воздушной подушке Marathon Specialty Мужские спортивные дышащие легкие женские удобные спортивные нескользящие кроссовки" [ref=e423]
+                      - img "Кроссовки на воздушной подушке Marathon Specialty Мужские спортивные дышащие легкие женские удобные спортивные нескользящие кроссовки" [ref=e426]
+                      - img "Кроссовки на воздушной подушке Marathon Specialty Мужские спортивные дышащие легкие женские удобные спортивные нескользящие кроссовки" [ref=e429]
+                      - img "Кроссовки на воздушной подушке Marathon Specialty Мужские спортивные дышащие легкие женские удобные спортивные нескользящие кроссовки" [ref=e432]
+                      - img "Кроссовки на воздушной подушке Marathon Specialty Мужские спортивные дышащие легкие женские удобные спортивные нескользящие кроссовки" [ref=e435]
+                    - img [ref=e447]
+                  - link "3 121 ₽ -50% 1 561 ₽ 467 купили Кроссовки на воздушной подушке Marathon Specialty Мужские спортивные дышащие легкие женские удобные спортивные нескользящие кроссовки Рекомендуем до 14 дней, от 944 ₽" [ref=e450] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005009633858171.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000049722188621&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e451]:
+                      - generic [ref=e453]:
+                        - generic [ref=e454]: 3 121 ₽
+                        - generic [ref=e455]: "-50%"
+                      - generic [ref=e457]: 1 561 ₽
+                    - generic [ref=e458]:
+                      - generic [ref=e461]: 467 купили
+                      - generic [ref=e462]:
+                        - generic "Кроссовки на воздушной подушке Marathon Specialty Мужские спортивные дышащие легкие женские удобные спортивные нескользящие кроссовки" [ref=e463]
+                        - generic [ref=e465]: Рекомендуем
+                    - generic [ref=e468]:
+                      - img [ref=e469]
+                      - text: до 14 дней, от 944 ₽
+                - generic [ref=e471]:
+                  - link "Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь" [ref=e472] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005009018181200.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000114119504&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e475]:
+                      - img "Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь" [ref=e477]
+                      - img "Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь" [ref=e480]
+                      - img "Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь" [ref=e483]
+                      - img "Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь" [ref=e486]
+                      - img "Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь" [ref=e489]
+                      - img "Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь" [ref=e492]
+                    - img [ref=e503]
+                  - link "2 073,76 ₽ -50% 1 036,88 ₽ Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь бесплатно" [ref=e506] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005009018181200.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000114119504&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e507]:
+                      - generic [ref=e509]:
+                        - generic [ref=e510]: 2 073,76 ₽
+                        - generic [ref=e511]: "-50%"
+                      - generic [ref=e513]: 1 036,88 ₽
+                    - generic "Обувь Кроссовки баскетбольные кроссовки ASICS Paris Olympic mid top cushioning NOVA SURGE 3 Paris спортивная мужская баскетбольная обувь" [ref=e517]
+                    - generic [ref=e520]:
+                      - img [ref=e521]
+                      - text: бесплатно
+                - generic [ref=e523]:
+                  - link "Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс" [ref=e524] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_366666042.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000002012703120&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e527]:
+                      - img "Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс" [ref=e529]
+                      - img "Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс" [ref=e532]
+                      - img "Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс" [ref=e535]
+                      - img "Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс" [ref=e538]
+                      - img "Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс" [ref=e541]
+                      - img "Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс" [ref=e544]
+                    - img [ref=e555]
+                  - link "10 117,83 ₽ -50% 5 058,92 ₽ Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс бесплатно" [ref=e558] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_366666042.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000002012703120&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e559]:
+                      - generic [ref=e561]:
+                        - generic [ref=e562]: 10 117,83 ₽
+                        - generic [ref=e563]: "-50%"
+                      - generic [ref=e565]: 5 058,92 ₽
+                    - generic "Мужские баскетбольные кроссовки Asics с амортизацией для улучшения отс" [ref=e569]
+                    - generic [ref=e572]:
+                      - img [ref=e573]
+                      - text: бесплатно
+                - generic [ref=e575]:
+                  - link "Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376 Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376 Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376 Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376 Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376 Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376" [ref=e576] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_105804225.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000254589031&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e579]:
+                      - img "Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376" [ref=e581]
+                      - img "Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376" [ref=e584]
+                      - img "Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376" [ref=e587]
+                      - img "Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376" [ref=e590]
+                      - img "Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376" [ref=e593]
+                      - img "Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376" [ref=e596]
+                    - img [ref=e607]
+                  - link "1 988,25 ₽ -67% 662,75 ₽ Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376 бесплатно" [ref=e610] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_105804225.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000254589031&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e611]:
+                      - generic [ref=e613]:
+                        - generic [ref=e614]: 1 988,25 ₽
+                        - generic [ref=e615]: "-67%"
+                      - generic [ref=e617]: 662,75 ₽
+                    - generic "Розничная торговля Обувь кроссовки Кроссовки Asics Gel Resolution 9 Asics ретро дышащие удобные повседневные беговые 1041A376" [ref=e621]
+                    - generic [ref=e624]:
+                      - img [ref=e625]
+                      - text: бесплатно
+                - generic [ref=e627]:
+                  - link [ref=e628] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005010472380674.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000052523210458&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e631]:
+                      - img "Профессиональная теннисная обувь, мужская противоскользящая обувь для настольного тенниса, мужские домашние мужские кроссовки для бадминтона, уличная мужская волейбольная обувь" [ref=e633]
+                      - img "Профессиональная теннисная обувь, мужская противоскользящая обувь для настольного тенниса, мужские домашние мужские кроссовки для бадминтона, уличная мужская волейбольная обувь" [ref=e636]
+                      - img "Профессиональная теннисная обувь, мужская противоскользящая обувь для настольного тенниса, мужские домашние мужские кроссовки для бадминтона, уличная мужская волейбольная обувь" [ref=e639]
+                      - img "Профессиональная теннисная обувь, мужская противоскользящая обувь для настольного тенниса, мужские домашние мужские кроссовки для бадминтона, уличная мужская волейбольная обувь" [ref=e642]
+                      - img "Профессиональная теннисная обувь, мужская противоскользящая обувь для настольного тенниса, мужские домашние мужские кроссовки для бадминтона, уличная мужская волейбольная обувь" [ref=e645]
+                      - img "Профессиональная теннисная обувь, мужская противоскользящая обувь для настольного тенниса, мужские домашние мужские кроссовки для бадминтона, уличная мужская волейбольная обувь" [ref=e648]
+                      - img "Профессиональная теннисная обувь, мужская противоскользящая обувь для настольного тенниса, мужские домашние мужские кроссовки для бадминтона, уличная мужская волейбольная обувь" [ref=e651]
+                    - img [ref=e663]
+                  - link "2 573 ₽ с купоном 2 679 ₽ 3 купили Профессиональная теннисная обувь, мужская противоскользящая обувь для настольного тенниса, мужские домашние мужские кроссовки для бадминтона, уличная мужская волейбольная обувь Рекомендуем до 14 дней, от 1 017 ₽" [ref=e666] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005010472380674.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000052523210458&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e667]:
+                      - generic [ref=e670]: 2 573 ₽ с купоном
+                      - generic [ref=e672]: 2 679 ₽
+                    - generic [ref=e673]:
+                      - generic [ref=e676]: 3 купили
+                      - generic [ref=e677]:
+                        - generic "Профессиональная теннисная обувь, мужская противоскользящая обувь для настольного тенниса, мужские домашние мужские кроссовки для бадминтона, уличная мужская волейбольная обувь" [ref=e678]
+                        - generic [ref=e680]: Рекомендуем
+                    - generic [ref=e683]:
+                      - img [ref=e684]
+                      - text: до 14 дней, от 1 017 ₽
+                - generic [ref=e686]:
+                  - link "Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492 Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492 Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492 Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492 Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492 Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e687] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_92733678.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000180260752&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e690]:
+                      - img "Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e692]
+                      - img "Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e695]
+                      - img "Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e698]
+                      - img "Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e701]
+                      - img "Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e704]
+                      - img "Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e707]
+                    - img [ref=e718]
+                  - link "1 058,26 ₽ -51% 523,78 ₽ Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492 бесплатно" [ref=e721] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_92733678.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000180260752&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e722]:
+                      - generic [ref=e724]:
+                        - generic [ref=e725]: 1 058,26 ₽
+                        - generic [ref=e726]: "-51%"
+                      - generic [ref=e728]: 523,78 ₽
+                    - generic "Сделки Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e732]
+                    - generic [ref=e735]:
+                      - img [ref=e736]
+                      - text: бесплатно
+                - generic [ref=e738]:
+                  - link "Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки" [ref=e739] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_92735366.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000180279959&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e742]:
+                      - img "Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки" [ref=e744]
+                      - img "Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки" [ref=e747]
+                      - img "Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки" [ref=e750]
+                      - img "Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки" [ref=e753]
+                      - img "Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки" [ref=e756]
+                      - img "Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки" [ref=e759]
+                    - img [ref=e770]
+                  - link "10 219,16 ₽ -50% 5 109,58 ₽ Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки бесплатно" [ref=e773] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_92735366.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000180279959&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e774]:
+                      - generic [ref=e776]:
+                        - generic [ref=e777]: 10 219,16 ₽
+                        - generic [ref=e778]: "-50%"
+                      - generic [ref=e780]: 5 109,58 ₽
+                    - generic "Asics Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Лучший выгляд Обувь кроссовки" [ref=e784]
+                    - generic [ref=e787]:
+                      - img [ref=e788]
+                      - text: бесплатно
+                - generic [ref=e790]:
+                  - link "Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492 Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492 Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492 Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492 Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492 Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e791] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_238904375.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000001271702494&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e794]:
+                      - img "Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e796]
+                      - img "Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e799]
+                      - img "Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e802]
+                      - img "Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e805]
+                      - img "Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e808]
+                      - img "Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e811]
+                    - img [ref=e822]
+                  - link "11 197,89 ₽ -51% 5 462,33 ₽ Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492 бесплатно" [ref=e825] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_238904375.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000001271702494&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e826]:
+                      - generic [ref=e828]:
+                        - generic [ref=e829]: 11 197,89 ₽
+                        - generic [ref=e830]: "-51%"
+                      - generic [ref=e832]: 5 462,33 ₽
+                    - generic "Сделки Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 38492" [ref=e836]
+                    - generic [ref=e839]:
+                      - img [ref=e840]
+                      - text: бесплатно
+                - generic [ref=e842]:
+                  - link "Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом" [ref=e843] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_74443413.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000030180431&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e846]:
+                      - img "Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом" [ref=e848]
+                      - img "Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом" [ref=e851]
+                      - img "Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом" [ref=e854]
+                      - img "Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом" [ref=e857]
+                      - img "Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом" [ref=e860]
+                      - img "Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом" [ref=e863]
+                      - img "Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом" [ref=e866]
+                    - img [ref=e878]
+                  - link "53 447,50 ₽ -88% 6 157,15 ₽ Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом бесплатно" [ref=e881] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_74443413.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000030180431&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e882]:
+                      - generic [ref=e884]:
+                        - generic [ref=e885]: 53 447,50 ₽
+                        - generic [ref=e886]: "-88%"
+                      - generic [ref=e888]: 6 157,15 ₽
+                    - generic "Удобные кроссовки ASICS унисекс для повседневной носки с прочной подошвой и высококачественным материалом" [ref=e892]
+                    - generic [ref=e895]:
+                      - img [ref=e896]
+                      - text: бесплатно
+                - generic [ref=e898]:
+                  - link [ref=e899] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005011749013284.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000056427459655&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e902]:
+                      - img "Мужские баскетбольные кроссовки, дышащие, с амортизацией, нескользящие, износостойкие, для бега, тренировок в спортзале, спортивные баскетбольные кроссовки для мужчин" [ref=e904]
+                      - img "Мужские баскетбольные кроссовки, дышащие, с амортизацией, нескользящие, износостойкие, для бега, тренировок в спортзале, спортивные баскетбольные кроссовки для мужчин" [ref=e907]
+                      - img "Мужские баскетбольные кроссовки, дышащие, с амортизацией, нескользящие, износостойкие, для бега, тренировок в спортзале, спортивные баскетбольные кроссовки для мужчин" [ref=e910]
+                      - img "Мужские баскетбольные кроссовки, дышащие, с амортизацией, нескользящие, износостойкие, для бега, тренировок в спортзале, спортивные баскетбольные кроссовки для мужчин" [ref=e913]
+                      - img "Мужские баскетбольные кроссовки, дышащие, с амортизацией, нескользящие, износостойкие, для бега, тренировок в спортзале, спортивные баскетбольные кроссовки для мужчин" [ref=e916]
+                      - img "Мужские баскетбольные кроссовки, дышащие, с амортизацией, нескользящие, износостойкие, для бега, тренировок в спортзале, спортивные баскетбольные кроссовки для мужчин" [ref=e919]
+                      - img "Мужские баскетбольные кроссовки, дышащие, с амортизацией, нескользящие, износостойкие, для бега, тренировок в спортзале, спортивные баскетбольные кроссовки для мужчин" [ref=e922]
+                    - img [ref=e934]
+                  - link "6 254 ₽ -50% 3 129 ₽ Мужские баскетбольные кроссовки, дышащие, с амортизацией, нескользящие, износостойкие, для бега, тренировок в спортзале, спортивные баскетбольные кроссовки для мужчин до 14 дней, бесплатно" [ref=e937] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005011749013284.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000056427459655&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e938]:
+                      - generic [ref=e940]:
+                        - generic [ref=e941]: 6 254 ₽
+                        - generic [ref=e942]: "-50%"
+                      - generic [ref=e944]: 3 129 ₽
+                    - generic "Мужские баскетбольные кроссовки, дышащие, с амортизацией, нескользящие, износостойкие, для бега, тренировок в спортзале, спортивные баскетбольные кроссовки для мужчин" [ref=e948]
+                    - generic [ref=e951]:
+                      - img [ref=e952]
+                      - text: до 14 дней, бесплатно
+                - generic [ref=e954]:
+                  - link "Кроссовки In Style of Asics Metairie Кроссовки In Style of Asics Metairie Кроссовки In Style of Asics Metairie Кроссовки In Style of Asics Metairie Кроссовки In Style of Asics Metairie Кроссовки In Style of Asics Metairie" [ref=e955] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008200361038.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=12000044215489122&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e958]:
+                      - img "Кроссовки In Style of Asics Metairie" [ref=e960]
+                      - img "Кроссовки In Style of Asics Metairie" [ref=e963]
+                      - img "Кроссовки In Style of Asics Metairie" [ref=e966]
+                      - img "Кроссовки In Style of Asics Metairie" [ref=e969]
+                      - img "Кроссовки In Style of Asics Metairie" [ref=e972]
+                      - img "Кроссовки In Style of Asics Metairie" [ref=e975]
+                    - img [ref=e986]
+                  - link "16 034,25 ₽ -67% 5 344,75 ₽ Кроссовки In Style of Asics Metairie бесплатно" [ref=e989] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005008200361038.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=12000044215489122&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e990]:
+                      - generic [ref=e992]:
+                        - generic [ref=e993]: 16 034,25 ₽
+                        - generic [ref=e994]: "-67%"
+                      - generic [ref=e996]: 5 344,75 ₽
+                    - generic "Кроссовки In Style of Asics Metairie" [ref=e1000]
+                    - generic [ref=e1003]:
+                      - img [ref=e1004]
+                      - text: бесплатно
+                - generic [ref=e1006]:
+                  - link "баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки" [ref=e1007] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_320004798.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000001736453346&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1010]:
+                      - img "баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки" [ref=e1012]
+                      - img "баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки" [ref=e1015]
+                      - img "баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки" [ref=e1018]
+                      - img "баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки" [ref=e1021]
+                      - img "баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки" [ref=e1024]
+                      - img "баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки" [ref=e1027]
+                    - img [ref=e1038]
+                  - link "17 696,79 ₽ -61% 6 851,44 ₽ баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки бесплатно" [ref=e1041] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_320004798.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000001736453346&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1042]:
+                      - generic [ref=e1044]:
+                        - generic [ref=e1045]: 17 696,79 ₽
+                        - generic [ref=e1046]: "-61%"
+                      - generic [ref=e1048]: 6 851,44 ₽
+                    - generic "баскетбольные кроссовки Asics Универсальные повседневные спортивные баскетбольные кроссовки" [ref=e1052]
+                    - generic [ref=e1055]:
+                      - img [ref=e1056]
+                      - text: бесплатно
+                - generic [ref=e1058]:
+                  - link "Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e1059] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_233834247.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000001221658134&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1062]:
+                      - img "Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e1064]
+                      - img "Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e1067]
+                      - img "Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e1070]
+                      - img "Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e1073]
+                      - img "Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e1076]
+                      - img "Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e1079]
+                    - img [ref=e1090]
+                  - link "17 900,64 ₽ -50% 8 950,32 ₽ Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро бесплатно" [ref=e1093] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_233834247.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000001221658134&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1094]:
+                      - generic [ref=e1096]:
+                        - generic [ref=e1097]: 17 900,64 ₽
+                        - generic [ref=e1098]: "-50%"
+                      - generic [ref=e1100]: 8 950,32 ₽
+                    - generic "Обувь КроссовКи Metarise 2 Paris Asics Антискольжение Средние Волейбольные Кроссовки 1051A089 100 Винтаж Ретро" [ref=e1104]
+                    - generic [ref=e1107]:
+                      - img [ref=e1108]
+                      - text: бесплатно
+                - generic [ref=e1110]:
+                  - link [ref=e1111] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005009339776490.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000048803707149&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1114]:
+                      - img "Мужские баскетбольные кроссовки, безопасная удобная спортивная обувь на плоской подошве, износостойкие противоскользящие амортизирующие тренировочные баскетбольные ботинки с отскоком" [ref=e1116]
+                      - img "Мужские баскетбольные кроссовки, безопасная удобная спортивная обувь на плоской подошве, износостойкие противоскользящие амортизирующие тренировочные баскетбольные ботинки с отскоком" [ref=e1119]
+                      - img "Мужские баскетбольные кроссовки, безопасная удобная спортивная обувь на плоской подошве, износостойкие противоскользящие амортизирующие тренировочные баскетбольные ботинки с отскоком" [ref=e1122]
+                      - img "Мужские баскетбольные кроссовки, безопасная удобная спортивная обувь на плоской подошве, износостойкие противоскользящие амортизирующие тренировочные баскетбольные ботинки с отскоком" [ref=e1125]
+                      - img "Мужские баскетбольные кроссовки, безопасная удобная спортивная обувь на плоской подошве, износостойкие противоскользящие амортизирующие тренировочные баскетбольные ботинки с отскоком" [ref=e1128]
+                      - img "Мужские баскетбольные кроссовки, безопасная удобная спортивная обувь на плоской подошве, износостойкие противоскользящие амортизирующие тренировочные баскетбольные ботинки с отскоком" [ref=e1131]
+                      - img "Мужские баскетбольные кроссовки, безопасная удобная спортивная обувь на плоской подошве, износостойкие противоскользящие амортизирующие тренировочные баскетбольные ботинки с отскоком" [ref=e1134]
+                    - img [ref=e1146]
+                  - link "1 257 ₽ с купоном 1 321 ₽ 11 купили Мужские баскетбольные кроссовки, безопасная удобная спортивная обувь на плоской подошве, износостойкие противоскользящие амортизирующие тренировочные баскетбольные ботинки с отскоком до 14 дней, от 1 331 ₽" [ref=e1149] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005009339776490.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000048803707149&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1150]:
+                      - generic [ref=e1153]: 1 257 ₽ с купоном
+                      - generic [ref=e1155]: 1 321 ₽
+                    - generic [ref=e1156]:
+                      - generic [ref=e1159]: 11 купили
+                      - generic "Мужские баскетбольные кроссовки, безопасная удобная спортивная обувь на плоской подошве, износостойкие противоскользящие амортизирующие тренировочные баскетбольные ботинки с отскоком" [ref=e1161]
+                    - generic [ref=e1164]:
+                      - img [ref=e1165]
+                      - text: до 14 дней, от 1 331 ₽
+                - generic [ref=e1167]:
+                  - link "Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для" [ref=e1168] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_74441968.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000030174624&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1171]:
+                      - img "Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для" [ref=e1173]
+                      - img "Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для" [ref=e1176]
+                      - img "Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для" [ref=e1179]
+                      - img "Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для" [ref=e1182]
+                      - img "Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для" [ref=e1185]
+                      - img "Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для" [ref=e1188]
+                      - img "Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для" [ref=e1191]
+                    - img [ref=e1203]
+                  - link "53 447,50 ₽ -89% 5 644,06 ₽ Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для бесплатно" [ref=e1206] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_74441968.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000000030174624&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1207]:
+                      - generic [ref=e1209]:
+                        - generic [ref=e1210]: 53 447,50 ₽
+                        - generic [ref=e1211]: "-89%"
+                      - generic [ref=e1213]: 5 644,06 ₽
+                    - generic "Универсальные кроссовки ASICS для бега унисекс на каждый день с прочной подошвой и высококачественным материалом для" [ref=e1217]
+                    - generic [ref=e1220]:
+                      - img [ref=e1221]
+                      - text: бесплатно
+                - generic [ref=e1223]:
+                  - link [ref=e1224] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005010609382911.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000052963360533&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1227]:
+                      - img "Мужские баскетбольные кроссовки с дышащей амортизацией, нескользящие носимые кроссовки для бега, спортивные баскетбольные кроссовки для тренировок в тренажерном зале для мужчин" [ref=e1229]
+                      - img "Мужские баскетбольные кроссовки с дышащей амортизацией, нескользящие носимые кроссовки для бега, спортивные баскетбольные кроссовки для тренировок в тренажерном зале для мужчин" [ref=e1232]
+                      - img "Мужские баскетбольные кроссовки с дышащей амортизацией, нескользящие носимые кроссовки для бега, спортивные баскетбольные кроссовки для тренировок в тренажерном зале для мужчин" [ref=e1235]
+                      - img "Мужские баскетбольные кроссовки с дышащей амортизацией, нескользящие носимые кроссовки для бега, спортивные баскетбольные кроссовки для тренировок в тренажерном зале для мужчин" [ref=e1238]
+                      - img "Мужские баскетбольные кроссовки с дышащей амортизацией, нескользящие носимые кроссовки для бега, спортивные баскетбольные кроссовки для тренировок в тренажерном зале для мужчин" [ref=e1241]
+                      - img "Мужские баскетбольные кроссовки с дышащей амортизацией, нескользящие носимые кроссовки для бега, спортивные баскетбольные кроссовки для тренировок в тренажерном зале для мужчин" [ref=e1244]
+                      - img "Мужские баскетбольные кроссовки с дышащей амортизацией, нескользящие носимые кроссовки для бега, спортивные баскетбольные кроссовки для тренировок в тренажерном зале для мужчин" [ref=e1247]
+                    - img [ref=e1259]
+                  - link "5 144 ₽ -75% 1 289 ₽ 2 купили Мужские баскетбольные кроссовки с дышащей амортизацией, нескользящие носимые кроссовки для бега, спортивные баскетбольные кроссовки для тренировок в тренажерном зале для мужчин до 14 дней, от 1 339 ₽" [ref=e1262] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005010609382911.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000052963360533&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1263]:
+                      - generic [ref=e1265]:
+                        - generic [ref=e1266]: 5 144 ₽
+                        - generic [ref=e1267]: "-75%"
+                      - generic [ref=e1269]: 1 289 ₽
+                    - generic [ref=e1270]:
+                      - generic [ref=e1273]: 2 купили
+                      - generic "Мужские баскетбольные кроссовки с дышащей амортизацией, нескользящие носимые кроссовки для бега, спортивные баскетбольные кроссовки для тренировок в тренажерном зале для мужчин" [ref=e1275]
+                    - generic [ref=e1278]:
+                      - img [ref=e1279]
+                      - text: до 14 дней, от 1 339 ₽
+                - generic [ref=e1281]:
+                  - link "ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн" [ref=e1282] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_212769104.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000001085255451&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1285]:
+                      - img "ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн" [ref=e1287]
+                      - img "ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн" [ref=e1290]
+                      - img "ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн" [ref=e1293]
+                      - img "ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн" [ref=e1296]
+                      - img "ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн" [ref=e1299]
+                      - img "ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн" [ref=e1302]
+                    - img [ref=e1313]
+                  - link "9 492,28 ₽ ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн бесплатно" [ref=e1316] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1_212769104.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&sku_id=5000001085255451&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1320]: 9 492,28 ₽
+                    - generic "ASICS Кроссовки Спортивные Баскетбольные зала для Уличные, Мужчин И Женщин, с амортизацией и поддержкой голеностопа, Универсальн" [ref=e1324]
+                    - generic [ref=e1327]:
+                      - img [ref=e1328]
+                      - text: бесплатно
+                - generic [ref=e1330]:
+                  - link "Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020 Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020 Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020 Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020 Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020 Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020 Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020" [ref=e1331] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005011939032522.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000057084752276&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1334]:
+                      - img "Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020" [ref=e1336]
+                      - img "Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020" [ref=e1339]
+                      - img "Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020" [ref=e1342]
+                      - img "Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020" [ref=e1345]
+                      - img "Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020" [ref=e1348]
+                      - img "Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020" [ref=e1351]
+                      - img "Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020" [ref=e1354]
+                    - img [ref=e1366]
+                  - link "7 288 ₽ с купоном 7 352 ₽ Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020 до 14 дней, от 930 ₽" [ref=e1369] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005011939032522.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000057084752276&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1370]:
+                      - generic [ref=e1373]: 7 288 ₽ с купоном
+                      - generic [ref=e1375]: 7 352 ₽
+                    - generic "Повседневная обувь Asics, удобные кроссовки для ходьбы, легкая нескользящая модная обувь 1203A764-020" [ref=e1379]
+                    - generic [ref=e1382]:
+                      - img [ref=e1383]
+                      - text: до 14 дней, от 930 ₽
+                - generic [ref=e1385]:
+                  - link [ref=e1386] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005012199126453.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000057730795272&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1389]:
+                      - img "Мужские кроссовки Asics средней высоты, дышащие, с амортизацией, нескользящие, удобные, для занятий спортом на открытом воздухе 1011C084-300" [ref=e1391]
+                      - img "Мужские кроссовки Asics средней высоты, дышащие, с амортизацией, нескользящие, удобные, для занятий спортом на открытом воздухе 1011C084-300" [ref=e1394]
+                      - img "Мужские кроссовки Asics средней высоты, дышащие, с амортизацией, нескользящие, удобные, для занятий спортом на открытом воздухе 1011C084-300" [ref=e1397]
+                      - img "Мужские кроссовки Asics средней высоты, дышащие, с амортизацией, нескользящие, удобные, для занятий спортом на открытом воздухе 1011C084-300" [ref=e1400]
+                      - img "Мужские кроссовки Asics средней высоты, дышащие, с амортизацией, нескользящие, удобные, для занятий спортом на открытом воздухе 1011C084-300" [ref=e1403]
+                      - img "Мужские кроссовки Asics средней высоты, дышащие, с амортизацией, нескользящие, удобные, для занятий спортом на открытом воздухе 1011C084-300" [ref=e1406]
+                      - img "Мужские кроссовки Asics средней высоты, дышащие, с амортизацией, нескользящие, удобные, для занятий спортом на открытом воздухе 1011C084-300" [ref=e1409]
+                    - img [ref=e1421]
+                  - link "6 088 ₽ с купоном 6 152 ₽ Мужские кроссовки Asics средней высоты, дышащие, с амортизацией, нескользящие, удобные, для занятий спортом на открытом воздухе 1011C084-300 до 14 дней, от 930 ₽" [ref=e1424] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005012199126453.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000057730795272&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1425]:
+                      - generic [ref=e1428]: 6 088 ₽ с купоном
+                      - generic [ref=e1430]: 6 152 ₽
+                    - generic "Мужские кроссовки Asics средней высоты, дышащие, с амортизацией, нескользящие, удобные, для занятий спортом на открытом воздухе 1011C084-300" [ref=e1434]
+                    - generic [ref=e1437]:
+                      - img [ref=e1438]
+                      - text: до 14 дней, от 930 ₽
+                - generic [ref=e1440]:
+                  - link [ref=e1441] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005012197627312.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000057735765057&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1444]:
+                      - img "Мужские кроссовки Asics средней высоты, амортизирующие, дышащие, легкие, нескользящие, прочные, для занятий спортом на открытом воздухе 1011C052-250" [ref=e1446]
+                      - img "Мужские кроссовки Asics средней высоты, амортизирующие, дышащие, легкие, нескользящие, прочные, для занятий спортом на открытом воздухе 1011C052-250" [ref=e1449]
+                      - img "Мужские кроссовки Asics средней высоты, амортизирующие, дышащие, легкие, нескользящие, прочные, для занятий спортом на открытом воздухе 1011C052-250" [ref=e1452]
+                      - img "Мужские кроссовки Asics средней высоты, амортизирующие, дышащие, легкие, нескользящие, прочные, для занятий спортом на открытом воздухе 1011C052-250" [ref=e1455]
+                      - img "Мужские кроссовки Asics средней высоты, амортизирующие, дышащие, легкие, нескользящие, прочные, для занятий спортом на открытом воздухе 1011C052-250" [ref=e1458]
+                      - img "Мужские кроссовки Asics средней высоты, амортизирующие, дышащие, легкие, нескользящие, прочные, для занятий спортом на открытом воздухе 1011C052-250" [ref=e1461]
+                      - img "Мужские кроссовки Asics средней высоты, амортизирующие, дышащие, легкие, нескользящие, прочные, для занятий спортом на открытом воздухе 1011C052-250" [ref=e1464]
+                    - img [ref=e1476]
+                  - link "11 099 ₽ с купоном 11 269 ₽ Мужские кроссовки Asics средней высоты, амортизирующие, дышащие, легкие, нескользящие, прочные, для занятий спортом на открытом воздухе 1011C052-250 до 14 дней, от 930 ₽" [ref=e1479] [cursor=pointer]:
+                    - /url: https://aliexpress.ru/item/1005012197627312.html?mixer_rcmd_bucket_id=cde326a33cb7ba61&pdp_trigger_item_id=0_1005012187879342&ru_algo_pv_id=0b34e6-61b690-6921f7-d2687a-1779886800&scenario=aerSimilarItemPdpRcmd&shpMethod=CAINIAO_STANDARD&sku_id=12000057735765057&traffic_source=recommendation&type_rcmd=core
+                    - generic [ref=e1480]:
+                      - generic [ref=e1483]: 11 099 ₽ с купоном
+                      - generic [ref=e1485]: 11 269 ₽
+                    - generic "Мужские кроссовки Asics средней высоты, амортизирующие, дышащие, легкие, нескользящие, прочные, для занятий спортом на открытом воздухе 1011C052-250" [ref=e1489]
+                    - generic [ref=e1492]:
+                      - img [ref=e1493]
+                      - text: до 14 дней, от 930 ₽
+              - img [ref=e1495] [cursor=pointer]
+          - list [ref=e1499]:
+            - listitem [ref=e1500]:
+              - generic "tab-list-item-0" [ref=e1501]:
+                - heading "Отзывы" [level=2] [ref=e1503]
+              - generic [ref=e1505]: Товар пока без отзывов — купите сейчас и расскажите о нём всё
+            - listitem [ref=e1506]:
+              - generic "tab-list-item-1" [ref=e1507]:
+                - heading "Задать вопрос" [level=2] [ref=e1509]
+                - generic [ref=e1510]: Задайте вопрос о товаре. Вам ответит пользователь, купивший этот товар.
+              - button "leaveQuestion" [ref=e1513] [cursor=pointer]:
+                - paragraph [ref=e1514]:
+                  - generic [ref=e1515]: Задать вопрос
+          - generic [ref=e1516]:
+            - generic [ref=e1518]:
+              - generic [ref=e1520]:
+                - heading "Описание" [level=4] [ref=e1521]
+                - generic [ref=e1524]:
+                  - paragraph [ref=e1526]: Добро пожаловать в наш магазин!
+                  - img [ref=e1528]
+                  - img [ref=e1530]
+                  - generic [ref=e1531]:
+                    - paragraph [ref=e1532]: 1063A090-600
+                    - generic [ref=e1533]:
+                      - img [ref=e1534]
+                      - img [ref=e1535]
+                      - img [ref=e1536]
+                      - img [ref=e1537]
+                      - img [ref=e1538]
+                      - img [ref=e1539]
+                  - generic [ref=e1540]:
+                    - img [ref=e1541]
+                    - img [ref=e1542]
+                    - img [ref=e1543]
+                    - img [ref=e1544]
+                    - img [ref=e1545]
+                    - img [ref=e1546]
+                  - img [ref=e1548]
+              - button "Полное описание" [ref=e1550] [cursor=pointer]:
+                - paragraph [ref=e1551]:
+                  - generic [ref=e1552]: Полное описание
+                - img [ref=e1554]
+            - generic [ref=e1556]:
+              - generic [ref=e1557]:
+                - heading "Характеристики" [level=4] [ref=e1558]
+                - generic [ref=e1561]:
+                  - generic [ref=e1562]:
+                    - generic [ref=e1564]: Название бренда
+                    - generic [ref=e1565]: ASICS
+                  - generic [ref=e1566]:
+                    - generic [ref=e1568]: Номер модели
+                    - generic [ref=e1569]: 1063A090-600
+                  - generic [ref=e1570]:
+                    - generic [ref=e1572]: Функции
+                    - generic [ref=e1573]: Амортизация
+                  - generic [ref=e1574]:
+                    - generic [ref=e1576]: Происхождение
+                    - generic [ref=e1577]: Китай
+                  - generic [ref=e1578]:
+                    - generic [ref=e1580]: Материал
+                    - generic [ref=e1581]: Хлопок
+                  - generic [ref=e1582]:
+                    - generic [ref=e1584]: Пол
+                    - generic [ref=e1585]: Для мужчин
+                  - generic [ref=e1586]:
+                    - generic [ref=e1588]: Возрастная категория
+                    - generic [ref=e1589]: Для взрослых
+                  - generic [ref=e1590]:
+                    - generic [ref=e1592]: Вид застежки
+                    - generic [ref=e1593]: Шнуровка
+              - button "Все характеристики" [ref=e1594] [cursor=pointer]:
+                - paragraph [ref=e1595]:
+                  - generic [ref=e1596]: Все характеристики
+                - img [ref=e1598]
+            - generic [ref=e1601]:
+              - generic [ref=e1602]:
+                - link [ref=e1603] [cursor=pointer]:
+                  - /url: https://aliexpress.ru/store/1105380610
+                  - img [ref=e1605]
+                - link "CORE SPORTS Store новый 66,67% рейтинг продавца · 97 подписчиков · 3,8 рейтинг товаров" [ref=e1606] [cursor=pointer]:
+                  - /url: https://aliexpress.ru/store/1105380610
+                  - generic [ref=e1607]:
+                    - heading "CORE SPORTS Store" [level=5] [ref=e1608]
+                    - generic [ref=e1610]:
+                      - img [ref=e1611]
+                      - generic [ref=e1614]: новый
+                  - generic [ref=e1615]:
+                    - generic [ref=e1616]:
+                      - generic [ref=e1617]: 66,67% рейтинг продавца
+                      - text: ·
+                    - generic [ref=e1618]:
+                      - generic [ref=e1619]: 97 подписчиков
+                      - text: ·
+                    - generic [ref=e1620]:
+                      - img [ref=e1621]
+                      - generic [ref=e1623]: 3,8 рейтинг товаров
+                - list [ref=e1624]:
+                  - listitem [ref=e1625]:
+                    - button "Подписаться" [ref=e1626] [cursor=pointer]:
+                      - generic [ref=e1628]:
+                        - img [ref=e1629]
+                        - img [ref=e1632]
+                      - paragraph [ref=e1636]:
+                        - generic [ref=e1637]: Подписаться
+                  - listitem [ref=e1638]:
+                    - link "Чат с продавцом" [ref=e1639] [cursor=pointer]:
+                      - /url: https://aliexpress.ru/chat?entry_point=Pdp&type=bs&item_id=1005012187879342&seller_id=6505111031&sku_id=12000057717359498
+                      - button "Чат с продавцом" [ref=e1640]:
+                        - paragraph [ref=e1641]:
+                          - generic [ref=e1642]: Чат с продавцом
+                  - listitem [ref=e1644]:
+                    - button [ref=e1645] [cursor=pointer]:
+                      - img [ref=e1648]
+              - generic [ref=e1652]:
+                - generic [ref=e1654]:
+                  - heading "Скидка магазина" [level=5] [ref=e1655]
+                  - generic [ref=e1656]:
+                    - generic [ref=e1657]: Скидка 2% при покупке 3 шт.
+                    - generic [ref=e1658]: Скидка 106 ₽ за 10 690 ₽
+                  - generic [ref=e1659]: Без учета стоимости доставки
+                - generic [ref=e1662]:
+                  - generic [ref=e1664]:
+                    - generic [ref=e1666]:
+                      - generic [ref=e1667]:
+                        - img [ref=e1668]
+                        - img [ref=e1670]
+                      - img [ref=e1673]
+                      - generic [ref=e1675]:
+                        - generic [ref=e1676]:
+                          - img [ref=e1677]
+                          - generic [ref=e1679]: до 31 мая
+                        - generic [ref=e1681]:
+                          - generic "-64 ₽" [ref=e1682]
+                          - generic [ref=e1683]: При заказе от 65 ₽
+                      - generic [ref=e1684]:
+                        - img [ref=e1685]
+                        - img [ref=e1688] [cursor=pointer]
+                    - generic [ref=e1691]:
+                      - generic [ref=e1692]:
+                        - img [ref=e1693]
+                        - img [ref=e1695]
+                      - img [ref=e1698]
+                      - generic [ref=e1700]:
+                        - generic [ref=e1701]:
+                          - img [ref=e1702]
+                          - generic [ref=e1704]: до 31 мая
+                        - generic [ref=e1706]:
+                          - generic "-64 ₽" [ref=e1707]
+                          - generic [ref=e1708]: При заказе от 1 069 ₽
+                      - generic [ref=e1709]:
+                        - img [ref=e1710]
+                        - img [ref=e1713] [cursor=pointer]
+                    - generic [ref=e1716]:
+                      - generic [ref=e1717]:
+                        - img [ref=e1718]
+                        - img [ref=e1720]
+                      - img [ref=e1723]
+                      - generic [ref=e1725]:
+                        - generic [ref=e1726]:
+                          - img [ref=e1727]
+                          - generic [ref=e1729]: до 31 мая
+                        - generic [ref=e1731]:
+                          - generic "-64 ₽" [ref=e1732]
+                          - generic [ref=e1733]: При заказе от 2 138 ₽
+                      - generic [ref=e1734]:
+                        - img [ref=e1735]
+                        - img [ref=e1738] [cursor=pointer]
+                    - generic [ref=e1741]:
+                      - generic [ref=e1742]:
+                        - img [ref=e1743]
+                        - img [ref=e1745]
+                      - img [ref=e1748]
+                      - generic [ref=e1750]:
+                        - generic [ref=e1751]:
+                          - img [ref=e1752]
+                          - generic [ref=e1754]: до 31 мая
+                        - generic [ref=e1756]:
+                          - generic "-64 ₽" [ref=e1757]
+                          - generic [ref=e1758]: При заказе от 2 138 ₽
+                      - generic [ref=e1759]:
+                        - img [ref=e1760]
+                        - img [ref=e1763] [cursor=pointer]
+                    - generic [ref=e1766]:
+                      - generic [ref=e1767]:
+                        - img [ref=e1768]
+                        - img [ref=e1770]
+                      - img [ref=e1773]
+                      - generic [ref=e1775]:
+                        - generic [ref=e1776]:
+                          - img [ref=e1777]
+                          - generic [ref=e1779]: до 31 мая
+                        - generic [ref=e1781]:
+                          - generic "-64 ₽" [ref=e1782]
+                          - generic [ref=e1783]: При заказе от 2 138 ₽
+                      - generic [ref=e1784]:
+                        - img [ref=e1785]
+                        - img [ref=e1788] [cursor=pointer]
+                    - generic [ref=e1791]:
+                      - generic [ref=e1792]:
+                        - img [ref=e1793]
+                        - img [ref=e1795]
+                      - img [ref=e1798]
+                      - generic [ref=e1800]:
+                        - generic [ref=e1801]:
+                          - img [ref=e1802]
+                          - generic [ref=e1804]: до 1 июня
+                        - generic [ref=e1806]:
+                          - generic "-64 ₽" [ref=e1807]
+                          - generic [ref=e1808]: При заказе от 3 207 ₽
+                      - generic [ref=e1809]:
+                        - img [ref=e1810]
+                        - img [ref=e1813] [cursor=pointer]
+                  - img [ref=e1817] [cursor=pointer]
+            - button "Пожаловаться на товар" [ref=e1821] [cursor=pointer]:
+              - paragraph [ref=e1822]:
+                - generic [ref=e1823]: Пожаловаться на товар
+          - generic [ref=e1825]:
+            - heading "Продавец рекомендует" [level=3] [ref=e1826]
+            - img [ref=e2256] [cursor=pointer]
+          - heading "Подобрали для вас" [level=3] [ref=e2260]
+    - generic [ref=e2691]:
+      - generic [ref=e2694]:
+        - text: Используя этот сайт, Вы выражаете согласие на сбор и обработку Ваших персональных данных, в том числе с привлечением сторонних сервисов, с применением cookie-файлов и средств анализа поведения пользователей (веб-аналитики), согласно нашей
+        - link "Политике конфиденциальности" [ref=e2695] [cursor=pointer]:
+          - /url: https://business.aliexpress.ru/legal-docs/article/aer_ru_confidentiality_agreement
+        - text: . Вы также принимаете условия наших
+        - link "Пользовательских соглашений" [ref=e2696] [cursor=pointer]:
+          - /url: https://business.aliexpress.ru/legal-docs
+        - text: .
+      - button "Понятно" [ref=e2698] [cursor=pointer]
+    - generic [ref=e2699]:
+      - img [ref=e2702]
+      - generic [ref=e2705]:
+        - generic [ref=e2706]:
+          - generic [ref=e2707]:
+            - generic [ref=e2708]:
+              - generic [ref=e2709]: Покупателям
+              - generic [ref=e2710]:
+                - link "Поддержка" [ref=e2711] [cursor=pointer]:
+                  - /url: https://aliexpress.ru/chat?_title=%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0%20AliExpress&entry_point=footer
+                - link "Календарь распродаж" [ref=e2712] [cursor=pointer]:
+                  - /url: https://aliexpress.ru/promo/sales
+                - link "Справка AliExpress" [ref=e2713] [cursor=pointer]:
+                  - /url: //docs.aliexpress.ru/
+            - generic [ref=e2714]:
+              - generic [ref=e2715]: Партнёрам
+              - generic [ref=e2716]:
+                - link "Продавайте на AliExpress" [ref=e2717] [cursor=pointer]:
+                  - /url: //business.aliexpress.ru/?utm_medium=internal&utm_source=mp&utm_campaign=footer
+                - link "Аффилиатная программа" [ref=e2718] [cursor=pointer]:
+                  - /url: //aeplatform.ru
+          - generic [ref=e2719]:
+            - generic [ref=e2720]:
+              - generic [ref=e2721]: О компании
+              - generic [ref=e2722]:
+                - link "Работа в AliExpress" [ref=e2723] [cursor=pointer]:
+                  - /url: //it.aliexpress.ru
+                - link "Мы на Хабре" [ref=e2724] [cursor=pointer]:
+                  - /url: //habr.com/ru/companies/aliexpress_russia/articles/
+            - generic [ref=e2725]:
+              - generic [ref=e2726]: Мы в соцсетях
+              - generic [ref=e2727]:
+                - link "Вконтакте" [ref=e2728] [cursor=pointer]:
+                  - /url: //vk.com/aliexpress
+                - link "Telegram" [ref=e2729] [cursor=pointer]:
+                  - /url: //t.me/AliExpressofficial_channel
+                - link "MAX" [ref=e2730] [cursor=pointer]:
+                  - /url: //max.ru/AliExpressofficial_channel
+        - generic [ref=e2731]:
+          - generic [ref=e2733]:
+            - generic [ref=e2734]: © AliExpress®
+            - generic [ref=e2735]: 2019 – 2026
+          - generic [ref=e2736]:
+            - generic [ref=e2737]:
+              - link "Политика конфиденциальности" [ref=e2738] [cursor=pointer]:
+                - /url: //business.aliexpress.ru/legal-docs/article/aer_ru_confidentiality_agreement
+              - link "Пользовательские соглашения" [ref=e2739] [cursor=pointer]:
+                - /url: //business.aliexpress.ru/legal-docs
+            - generic [ref=e2740]:
+              - text: На информационном ресурсе применяются
+              - link "рекомендательные технологии" [ref=e2741] [cursor=pointer]:
+                - /url: //business.aliexpress.ru/legal-docs/article/aer_ru_recommendations
+          - generic [ref=e2743]:
+            - link [ref=e2744] [cursor=pointer]:
+              - /url: "https://trk.mail.ru/c/ipure9?mt_idfa={mt_idfa}"
+              - img [ref=e2745]
+            - link [ref=e2767] [cursor=pointer]:
+              - /url: https://msite.onelink.me/LfAv/x37b8gbp
+              - img [ref=e2768]
+  - generic:
+    - generic:
+      - heading "Выберите валюту" [level=3]
+      - generic:
+        - list:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - textbox
+  - generic:
+    - generic:
+      - heading "Выберите язык" [level=3]
+      - generic:
+        - list
+  - generic:
+    - generic:
+      - heading "Вы находитесь в Россия? Точный адрес поможет заранее увидеть условия доставки товаров" [level=6]:
+        - text: Вы находитесь в Россия?
+        - generic: Точный адрес поможет заранее увидеть условия доставки товаров
+      - generic:
+        - img
+        - text: Указать адрес на карте
+      - generic:
+        - button "Изменить"
+        - button "Да, верно"
+      - img
+    - generic:
+      - img

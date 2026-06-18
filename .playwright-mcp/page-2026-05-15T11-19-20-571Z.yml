@@ -1,0 +1,78 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - dialog "Consent to Cookies & Data processing" [ref=e2]:
+      - document [ref=e3]:
+        - generic [ref=e6]:
+          - text: On this website we use cookies and similar functions to process end device information and personal data (e.g. such as IP-addresses or browser information). The processing is used for purposes such as to integrate content, external services and elements from third parties, statistical analysis/measurement, personalized advertising and the integration of social media. Depending on the function, data is passed on to up to
+          - link "34 third parties" [ref=e7] [cursor=pointer]:
+            - /url: "#"
+          - text: and processed by them. This consent is voluntary, not required for the use of our website and can be revoked at any time using the icon on the bottom left.
+        - form [ref=e8]:
+          - button "Accept all" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: Accept all
+          - button "Reject all" [ref=e13] [cursor=pointer]:
+            - generic [ref=e14]: Reject all
+          - link "Customize your choice" [ref=e16] [cursor=pointer]:
+            - /url: "#"
+    - button "Privacy settings" [ref=e18] [cursor=pointer]:
+      - img "Privacy settings" [ref=e19]
+  - generic [ref=e22]:
+    - generic [ref=e25]:
+      - generic [ref=e26] [cursor=pointer]: EN
+      - button [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - generic [ref=e44]: /
+            - img [ref=e45]
+          - generic [ref=e50]:
+            - generic [ref=e51]: Log in to Admitad
+            - generic [ref=e52]:
+              - text: Don't have an account yet?
+              - link "Sign up" [ref=e53] [cursor=pointer]:
+                - /url: /auth/realms/users/login-actions/registration?client_id=monolith&tab_id=LXlgPBWw_ss
+                - generic [ref=e54]: Sign up
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - generic [ref=e61]:
+                - generic:
+                  - generic: Email
+                - textbox [ref=e63]
+              - generic [ref=e66]:
+                - generic:
+                  - generic: Password
+                - textbox [ref=e68]
+              - generic [ref=e71] [cursor=pointer]: Forgot password?
+            - button "Log in" [disabled] [ref=e73]:
+              - generic [ref=e74]: Log in
+          - generic [ref=e76]: or
+          - generic [ref=e78]:
+            - img [ref=e80] [cursor=pointer]
+            - img [ref=e86] [cursor=pointer]
+            - img [ref=e89] [cursor=pointer]
+            - img [ref=e92] [cursor=pointer]
+      - generic [ref=e94]:
+        - generic [ref=e95]: Mitgo ID is your key to all services.
+        - link "Learn more" [ref=e96] [cursor=pointer]:
+          - /url: https://mitgoid.com/
+          - generic [ref=e97]: Learn more
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - generic [ref=e100]: "Contact support:"
+        - link "support@mitgo.com" [ref=e101] [cursor=pointer]:
+          - /url: mailto:support@mitgo.com
+          - generic [ref=e102]: support@mitgo.com
+      - generic [ref=e103]:
+        - link "Privacy Policy" [ref=e104] [cursor=pointer]:
+          - /url: https://policies.mitgo.com/privacy-policy/mitgo-privacy-policy/
+          - generic [ref=e105]: Privacy Policy
+        - link "Terms of Use" [ref=e106] [cursor=pointer]:
+          - /url: https://policies.mitgo.com/en/general/terms-of-use-for-mitgo-products/
+          - generic [ref=e107]: Terms of Use
+        - link "Mitgo" [ref=e108] [cursor=pointer]:
+          - /url: https://mitgo.com/
+          - generic [ref=e109]: Mitgo

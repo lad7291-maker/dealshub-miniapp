@@ -1,0 +1,5 @@
+[     704ms] [LOG] [SW] Registered: http://localhost:8080/ @ http://localhost:8080/:76
+[    2689ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/:0
+[    5331ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ http://localhost:8080/:0
+[   40077ms] [ERROR] Failed to load resource: the server responded with a status of 503 (Service Unavailable) @ http://localhost:8080/item/1.html:0
+[   40335ms] [ERROR] Failed to load resource: the server responded with a status of 503 (Service Unavailable) @ http://localhost:8080/favicon.ico:0

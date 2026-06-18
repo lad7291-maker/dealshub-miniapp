@@ -1,0 +1,659 @@
+- generic [active] [ref=e1]:
+  - generic "Ads"
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - link "AD admitad" [ref=e6] [cursor=pointer]:
+        - /url: https://store.admitad.com/en/webmaster/websites/2940069/catalog/landing/
+        - img "AD" [ref=e7]
+        - img "admitad" [ref=e8]
+      - 'button "Ad Space: Smart Skidka" [ref=e17]':
+        - generic [ref=e18]: "Ad Space:"
+        - generic [ref=e19]: Smart Skidka
+        - img [ref=e21]
+      - link "Chat" [ref=e23] [cursor=pointer]:
+        - /url: /en/webmaster/chats/
+        - img [ref=e25]
+      - link [ref=e31] [cursor=pointer]:
+        - /url: /en/webmaster/web_notificator/
+        - img [ref=e33]
+      - button [ref=e37]:
+        - img [ref=e39]
+    - article [ref=e42]:
+      - iframe [ref=e44]:
+        - generic [ref=f10e3] [cursor=pointer]:
+          - img [ref=f10e4]
+          - paragraph [ref=f10e5]: Марафон героев 2026. 20 апреля - 20 июня. Заработай больше в акционный период и выиграй призовое вознаграждение.
+      - button "Close" [ref=e45]:
+        - img [ref=e46]
+    - main [ref=e9]:
+      - generic [ref=e48]:
+        - combobox "Affiliate programs" [ref=e52]:
+          - generic [ref=e55] [cursor=pointer]: Affiliate programs
+        - paragraph [ref=e58]: "Advertisers found: 1237"
+        - generic [ref=e59]:
+          - button "Filters" [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]: Filters
+          - text: NEW
+        - generic [ref=e62]:
+          - button "Sort by rating" [ref=e63] [cursor=pointer]:
+            - generic [ref=e64]: Sort by rating
+            - img [ref=e66]
+          - button [ref=e68] [cursor=pointer]:
+            - img [ref=e70]
+        - generic [ref=e72]:
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - generic [ref=e77]:
+                - img [ref=e80]
+                - generic [ref=e85]:
+                  - heading "Promotions with increased rates" [level=2] [ref=e86]
+                  - paragraph [ref=e87]: Join during the promotion period and get increased rates.
+                  - paragraph [ref=e88]: Don’t miss the chance to increase your income!
+              - generic [ref=e89]:
+                - img [ref=e91]
+                - generic [ref=e97]: Offer is limited
+            - generic [ref=e98]:
+              - button [disabled] [ref=e99]:
+                - img [ref=e101]
+              - generic [ref=e103]:
+                - article [ref=e104]:
+                  - generic [ref=e105]:
+                    - link "Kaspersky" [ref=e107] [cursor=pointer]:
+                      - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/2381-kaspersky/?offer-source=temporary-high-rate
+                      - img "Kaspersky" [ref=e108]
+                    - heading "Kaspersky" [level=2] [ref=e110]:
+                      - link "Kaspersky" [ref=e111] [cursor=pointer]:
+                        - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/2381-kaspersky/?offer-source=temporary-high-rate
+                    - generic [ref=e112]:
+                      - generic [ref=e113]:
+                        - generic [ref=e114]: Commission
+                        - generic [ref=e115]:
+                          - generic [ref=e116]: 20.62%
+                          - generic [ref=e117]: to 30.93%
+                      - generic [ref=e118]:
+                        - generic [ref=e119]: "Days until the promotion ends:"
+                        - generic [ref=e120]: "37"
+                    - button "Join" [ref=e123] [cursor=pointer]
+                - article [ref=e124]:
+                  - generic [ref=e125]:
+                    - link "Lingualeo" [ref=e127] [cursor=pointer]:
+                      - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/2476-lingualeo/?offer-source=temporary-high-rate
+                      - img "Lingualeo" [ref=e128]
+                    - heading "Lingualeo" [level=2] [ref=e130]:
+                      - link "Lingualeo" [ref=e131] [cursor=pointer]:
+                        - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/2476-lingualeo/?offer-source=temporary-high-rate
+                    - generic [ref=e132]:
+                      - generic [ref=e133]:
+                        - generic [ref=e134]: Commission
+                        - generic [ref=e135]:
+                          - generic [ref=e136]: 14.78%
+                          - generic [ref=e137]: to 22.17%
+                      - generic [ref=e138]:
+                        - generic [ref=e139]: "Days until the promotion ends:"
+                        - generic [ref=e140]: "37"
+                    - button "Join" [ref=e143] [cursor=pointer]
+                - article [ref=e144]:
+                  - generic [ref=e145]:
+                    - link "Буквоед" [ref=e147] [cursor=pointer]:
+                      - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/3063-bukvoed/?offer-source=temporary-high-rate
+                      - img "Буквоед" [ref=e148]
+                    - heading "Буквоед" [level=2] [ref=e150]:
+                      - link "Буквоед" [ref=e151] [cursor=pointer]:
+                        - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/3063-bukvoed/?offer-source=temporary-high-rate
+                    - generic [ref=e152]:
+                      - generic [ref=e153]:
+                        - generic [ref=e154]: Commission
+                        - generic [ref=e155]:
+                          - generic [ref=e156]: 8.65%
+                          - generic [ref=e157]: to 12.93%
+                      - generic [ref=e158]:
+                        - generic [ref=e159]: "Days until the promotion ends:"
+                        - generic [ref=e160]: "6"
+                    - button "Join" [ref=e163] [cursor=pointer]
+              - button [ref=e164] [cursor=pointer]:
+                - img [ref=e166]
+            - generic [ref=e168]:
+              - button [ref=e169] [cursor=pointer]
+              - button [ref=e170] [cursor=pointer]
+              - button [ref=e171] [cursor=pointer]
+              - button [ref=e172] [cursor=pointer]
+              - button [ref=e173] [cursor=pointer]
+              - button [ref=e174] [cursor=pointer]
+              - button [ref=e175] [cursor=pointer]
+              - button [ref=e176] [cursor=pointer]
+              - button [ref=e177] [cursor=pointer]
+              - button [ref=e178] [cursor=pointer]
+              - button [ref=e179] [cursor=pointer]
+              - button [ref=e180] [cursor=pointer]
+              - button [ref=e181] [cursor=pointer]
+              - button [ref=e182] [cursor=pointer]
+              - button [ref=e183] [cursor=pointer]
+              - button [ref=e184] [cursor=pointer]
+              - button [ref=e185] [cursor=pointer]
+              - button [ref=e186] [cursor=pointer]
+              - button [ref=e187] [cursor=pointer]
+          - generic [ref=e188]:
+            - generic [ref=e189]: Programs for you
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - generic [ref=e193]:
+                  - img "green" [ref=e196]
+                  - img "temporary_high_rate" [ref=e199]
+                - button [ref=e200]:
+                  - img [ref=e202]
+              - link "Победа Вкуса" [ref=e205] [cursor=pointer]:
+                - /url: https://store.admitad.com/webmaster/r/9011/?offer-source=interested
+                - img "Победа Вкуса" [ref=e206]
+              - heading "Победа Вкуса" [level=2] [ref=e208]:
+                - link "Победа Вкуса" [ref=e209] [cursor=pointer]:
+                  - /url: https://store.admitad.com/webmaster/r/9011/?offer-source=interested
+              - generic [ref=e210]:
+                - generic [ref=e212]:
+                  - generic [ref=e213]: "Commission:"
+                  - button "5.59%" [ref=e214]
+                - generic [ref=e216]:
+                  - generic [ref=e217]: "Payment term:"
+                  - link "24 days" [ref=e218] [cursor=pointer]:
+                    - /url: https://store.admitad.com/webmaster/r/9011/?offer-source=interested#analytics
+                - generic [ref=e220]:
+                  - generic [ref=e221]: "Conversion rate:"
+                  - link "0.2%" [ref=e222] [cursor=pointer]:
+                    - /url: https://store.admitad.com/webmaster/r/9011/?offer-source=interested#analytics
+                - generic [ref=e224]:
+                  - generic [ref=e225]: "Confirmation rate:"
+                  - link "79%" [ref=e226] [cursor=pointer]:
+                    - /url: https://store.admitad.com/webmaster/r/9011/?offer-source=interested#analytics
+              - generic [ref=e227]:
+                - link "... Learn more" [ref=e228] [cursor=pointer]:
+                  - /url: https://store.admitad.com/webmaster/r/9011/?offer-source=interested
+                  - generic [ref=e229]: ...
+                  - generic [ref=e230]: Learn more
+                - button "Join" [disabled] [ref=e232]:
+                  - generic [ref=e233]:
+                    - generic [ref=e234]: Join
+                    - img [ref=e235]
+            - generic [ref=e238]:
+              - generic [ref=e239]:
+                - generic [ref=e240]:
+                  - img "green" [ref=e243]
+                  - img "temporary_high_rate" [ref=e246]
+                - button [ref=e247]:
+                  - img [ref=e249]
+              - link "BABOR" [ref=e252] [cursor=pointer]:
+                - /url: https://store.admitad.com/webmaster/r/9009/?offer-source=interested
+                - img "BABOR" [ref=e253]
+              - heading "BABOR" [level=2] [ref=e255]:
+                - link "BABOR" [ref=e256] [cursor=pointer]:
+                  - /url: https://store.admitad.com/webmaster/r/9009/?offer-source=interested
+              - generic [ref=e257]:
+                - generic [ref=e259]:
+                  - generic [ref=e260]: "Commission:"
+                  - button "5.99%" [ref=e261]
+                - generic [ref=e263]:
+                  - generic [ref=e264]: "Payment term:"
+                  - link "24 days" [ref=e265] [cursor=pointer]:
+                    - /url: https://store.admitad.com/webmaster/r/9009/?offer-source=interested#analytics
+                - generic [ref=e267]:
+                  - generic [ref=e268]: "Conversion rate:"
+                  - link "0.8%" [ref=e269] [cursor=pointer]:
+                    - /url: https://store.admitad.com/webmaster/r/9009/?offer-source=interested#analytics
+                - generic [ref=e271]:
+                  - generic [ref=e272]: "Confirmation rate:"
+                  - link "81%" [ref=e273] [cursor=pointer]:
+                    - /url: https://store.admitad.com/webmaster/r/9009/?offer-source=interested#analytics
+              - generic [ref=e274]:
+                - link "... Learn more" [ref=e275] [cursor=pointer]:
+                  - /url: https://store.admitad.com/webmaster/r/9009/?offer-source=interested
+                  - generic [ref=e276]: ...
+                  - generic [ref=e277]: Learn more
+                - button "Join" [ref=e279] [cursor=pointer]:
+                  - generic [ref=e280]:
+                    - generic [ref=e281]: Join
+                    - img [ref=e282]
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - generic [ref=e287]:
+                  - img "green" [ref=e290]
+                  - img "temporary_high_rate" [ref=e293]
+                - button [ref=e294]:
+                  - img [ref=e296]
+              - link "Столото" [ref=e299] [cursor=pointer]:
+                - /url: https://store.admitad.com/webmaster/r/9010/?offer-source=interested
+                - img "Столото" [ref=e300]
+              - heading "Столото" [level=2] [ref=e302]:
+                - link "Столото" [ref=e303] [cursor=pointer]:
+                  - /url: https://store.admitad.com/webmaster/r/9010/?offer-source=interested
+              - generic [ref=e304]:
+                - generic [ref=e306]:
+                  - generic [ref=e307]: "Commission:"
+                  - button "37.58-407.19₽" [ref=e308]
+                - generic [ref=e310]:
+                  - generic [ref=e311]: "Payment term:"
+                  - link "45 days" [ref=e312] [cursor=pointer]:
+                    - /url: https://store.admitad.com/webmaster/r/9010/?offer-source=interested#analytics
+                - generic [ref=e314]:
+                  - generic [ref=e315]: "Conversion rate:"
+                  - link "0.6%" [ref=e316] [cursor=pointer]:
+                    - /url: https://store.admitad.com/webmaster/r/9010/?offer-source=interested#analytics
+                - generic [ref=e318]:
+                  - generic [ref=e319]: "Confirmation rate:"
+                  - link "100%" [ref=e320] [cursor=pointer]:
+                    - /url: https://store.admitad.com/webmaster/r/9010/?offer-source=interested#analytics
+              - generic [ref=e321]:
+                - link "... Learn more" [ref=e322] [cursor=pointer]:
+                  - /url: https://store.admitad.com/webmaster/r/9010/?offer-source=interested
+                  - generic [ref=e323]: ...
+                  - generic [ref=e324]: Learn more
+                - button "Join" [ref=e326] [cursor=pointer]:
+                  - generic [ref=e327]:
+                    - generic [ref=e328]: Join
+                    - img [ref=e329]
+          - generic [ref=e332]:
+            - generic [ref=e333]:
+              - img "green" [ref=e337]
+              - button [ref=e338]:
+                - img [ref=e340]
+            - link "Яндекс Бизнес [CPS] RU" [ref=e343] [cursor=pointer]:
+              - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/27641-iandeks-biznes-cps-ru/
+              - img "Яндекс Бизнес [CPS] RU" [ref=e344]
+            - heading "Яндекс Бизнес [CPS] RU" [level=2] [ref=e346]:
+              - link "Яндекс Бизнес [CPS] RU" [ref=e347] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/27641-iandeks-biznes-cps-ru/
+            - generic [ref=e348]:
+              - generic [ref=e350]:
+                - generic [ref=e351]: "Commission:"
+                - button "8660.83₽" [ref=e352]
+              - generic [ref=e354]:
+                - generic [ref=e355]: "Payment term:"
+                - link "45 days" [ref=e356] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/27641-iandeks-biznes-cps-ru/#analytics
+              - generic [ref=e358]:
+                - generic [ref=e359]: "Conversion rate:"
+                - link "1.4%" [ref=e360] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/27641-iandeks-biznes-cps-ru/#analytics
+              - generic [ref=e362]:
+                - generic [ref=e363]: "Confirmation rate:"
+                - link "94%" [ref=e364] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/27641-iandeks-biznes-cps-ru/#analytics
+            - generic [ref=e365]:
+              - link "... Learn more" [ref=e366] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/27641-iandeks-biznes-cps-ru/
+                - generic [ref=e367]: ...
+                - generic [ref=e368]: Learn more
+              - button "Join" [ref=e370] [cursor=pointer]:
+                - generic [ref=e371]:
+                  - generic [ref=e372]: Join
+                  - img [ref=e373]
+          - generic [ref=e376]:
+            - generic [ref=e377]:
+              - generic [ref=e378]:
+                - img "exclusive" [ref=e381]
+                - img "green" [ref=e384]
+              - button [ref=e385]:
+                - img [ref=e387]
+            - link "Answear UA" [ref=e390] [cursor=pointer]:
+              - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/14578-answear-ua/
+              - img "Answear UA" [ref=e391]
+            - heading "Answear UA" [level=2] [ref=e393]:
+              - link "Answear UA" [ref=e394] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/14578-answear-ua/
+            - generic [ref=e395]:
+              - generic [ref=e397]:
+                - generic [ref=e398]: "Commission:"
+                - button "3.50-9%" [ref=e399]
+              - generic [ref=e401]:
+                - generic [ref=e402]: "Payment term:"
+                - link "97 days" [ref=e403] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/14578-answear-ua/#analytics
+              - generic [ref=e405]:
+                - generic [ref=e406]: "Conversion rate:"
+                - link "3.2%" [ref=e407] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/14578-answear-ua/#analytics
+              - generic [ref=e409]:
+                - generic [ref=e410]: "Confirmation rate:"
+                - link "81%" [ref=e411] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/14578-answear-ua/#analytics
+            - generic [ref=e412]:
+              - link "... Learn more" [ref=e413] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/14578-answear-ua/
+                - generic [ref=e414]: ...
+                - generic [ref=e415]: Learn more
+              - button "Join" [ref=e417] [cursor=pointer]:
+                - generic [ref=e418]:
+                  - generic [ref=e419]: Join
+                  - img [ref=e420]
+          - generic [ref=e423]:
+            - generic [ref=e424]:
+              - img "mobile" [ref=e428]
+              - button [ref=e429]:
+                - img [ref=e431]
+            - link "Yandex.Browser [CPA, Android] RU" [ref=e434] [cursor=pointer]:
+              - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/14544-yandexbrowser-cpa-android-ru/
+              - img "Yandex.Browser [CPA, Android] RU" [ref=e435]
+            - heading "Yandex.Browser [CPA, Android] RU" [level=2] [ref=e437]:
+              - link "Yandex.Browser [CPA, Android] RU" [ref=e438] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/14544-yandexbrowser-cpa-android-ru/
+            - generic [ref=e439]:
+              - generic [ref=e441]:
+                - generic [ref=e442]: "Commission:"
+                - button "34.90₽" [ref=e443]
+              - generic [ref=e445]:
+                - generic [ref=e446]: "Payment term:"
+                - link "55 days" [ref=e447] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/14544-yandexbrowser-cpa-android-ru/#analytics
+              - generic [ref=e449]:
+                - generic [ref=e450]: "Conversion rate:"
+                - link "3%" [ref=e451] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/14544-yandexbrowser-cpa-android-ru/#analytics
+              - generic [ref=e453]:
+                - generic [ref=e454]: "Confirmation rate:"
+                - link "0%" [ref=e455] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/14544-yandexbrowser-cpa-android-ru/#analytics
+            - generic [ref=e456]:
+              - link "... Learn more" [ref=e457] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/14544-yandexbrowser-cpa-android-ru/
+                - generic [ref=e458]: ...
+                - generic [ref=e459]: Learn more
+              - button "Join" [disabled] [ref=e461]:
+                - generic [ref=e462]:
+                  - generic [ref=e463]: Join
+                  - img [ref=e464]
+          - generic [ref=e467]:
+            - generic [ref=e468]:
+              - img "green" [ref=e472]
+              - button [ref=e473]:
+                - img [ref=e475]
+            - link "Acko Bike [CPS] IN" [ref=e478] [cursor=pointer]:
+              - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/28652-acko-bike-cps-in/
+              - img "Acko Bike [CPS] IN" [ref=e479]
+            - heading "Acko Bike [CPS] IN" [level=2] [ref=e481]:
+              - link "Acko Bike [CPS] IN" [ref=e482] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/28652-acko-bike-cps-in/
+            - generic [ref=e483]:
+              - generic [ref=e485]:
+                - generic [ref=e486]: "Commission:"
+                - button "32.20%" [ref=e487]
+              - generic [ref=e489]:
+                - generic [ref=e490]: "Payment term:"
+                - link "90 days" [ref=e491] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/28652-acko-bike-cps-in/#analytics
+              - generic [ref=e493]:
+                - generic [ref=e494]: "Conversion rate:"
+                - link "6.4%" [ref=e495] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/28652-acko-bike-cps-in/#analytics
+              - generic [ref=e497]:
+                - generic [ref=e498]: "Confirmation rate:"
+                - link "98%" [ref=e499] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/28652-acko-bike-cps-in/#analytics
+            - generic [ref=e500]:
+              - link "... Learn more" [ref=e501] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/28652-acko-bike-cps-in/
+                - generic [ref=e502]: ...
+                - generic [ref=e503]: Learn more
+              - button "Join" [ref=e505] [cursor=pointer]:
+                - generic [ref=e506]:
+                  - generic [ref=e507]: Join
+                  - img [ref=e508]
+          - generic [ref=e511]:
+            - generic [ref=e512]:
+              - img "green" [ref=e516]
+              - button [ref=e517]:
+                - img [ref=e519]
+            - link "Trip.com WW" [ref=e522] [cursor=pointer]:
+              - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/23733-tripcom-ww/
+              - img "Trip.com WW" [ref=e523]
+            - heading "Trip.com WW" [level=2] [ref=e525]:
+              - link "Trip.com WW" [ref=e526] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/23733-tripcom-ww/
+            - generic [ref=e527]:
+              - generic [ref=e529]:
+                - generic [ref=e530]: "Commission:"
+                - button "1-5.50%" [ref=e531]
+              - generic [ref=e533]:
+                - generic [ref=e534]: "Payment term:"
+                - link "64 days" [ref=e535] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/23733-tripcom-ww/#analytics
+              - generic [ref=e537]:
+                - generic [ref=e538]: "Conversion rate:"
+                - link "3.6%" [ref=e539] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/23733-tripcom-ww/#analytics
+              - generic [ref=e541]:
+                - generic [ref=e542]: "Confirmation rate:"
+                - link "90%" [ref=e543] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/23733-tripcom-ww/#analytics
+            - generic [ref=e544]:
+              - link "... Learn more" [ref=e545] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/23733-tripcom-ww/
+                - generic [ref=e546]: ...
+                - generic [ref=e547]: Learn more
+              - button "Join" [ref=e549] [cursor=pointer]:
+                - generic [ref=e550]:
+                  - generic [ref=e551]: Join
+                  - img [ref=e552]
+          - generic [ref=e555]:
+            - button [ref=e558]:
+              - img [ref=e560]
+            - link "Traderepublic many GEOs" [ref=e563] [cursor=pointer]:
+              - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/143721-traderepublic-many-geos/
+              - img "Traderepublic many GEOs" [ref=e564]
+            - heading "Traderepublic many GEOs" [level=2] [ref=e566]:
+              - link "Traderepublic many GEOs" [ref=e567] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/143721-traderepublic-many-geos/
+            - generic [ref=e568]:
+              - generic [ref=e570]:
+                - generic [ref=e571]: "Commission:"
+                - button "35€" [ref=e572]
+              - generic [ref=e574]:
+                - generic [ref=e575]: "Payment term:"
+                - link "68 days" [ref=e576] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/143721-traderepublic-many-geos/#analytics
+              - generic [ref=e578]:
+                - generic [ref=e579]: "Conversion rate:"
+                - link "0.1%" [ref=e580] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/143721-traderepublic-many-geos/#analytics
+              - generic [ref=e582]:
+                - generic [ref=e583]: "Confirmation rate:"
+                - link "99%" [ref=e584] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/143721-traderepublic-many-geos/#analytics
+            - generic [ref=e585]:
+              - link "... Learn more" [ref=e586] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/143721-traderepublic-many-geos/
+                - generic [ref=e587]: ...
+                - generic [ref=e588]: Learn more
+              - button "Join" [ref=e590] [cursor=pointer]:
+                - generic [ref=e591]:
+                  - generic [ref=e592]: Join
+                  - img [ref=e593]
+          - generic [ref=e596]:
+            - generic [ref=e597]:
+              - generic [ref=e598]:
+                - img "green" [ref=e601]
+                - img "temporary_high_rate" [ref=e604]
+              - button [ref=e605]:
+                - img [ref=e607]
+            - link "Foxford" [ref=e610] [cursor=pointer]:
+              - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/11738-foxford/
+              - img "Foxford" [ref=e611]
+            - heading "Foxford" [level=2] [ref=e613]:
+              - link "Foxford" [ref=e614] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/11738-foxford/
+            - generic [ref=e615]:
+              - generic [ref=e617]:
+                - generic [ref=e618]: "Commission:"
+                - button "1.03-17.51%" [ref=e619]
+              - generic [ref=e621]:
+                - generic [ref=e622]: "Payment term:"
+                - link "26 days" [ref=e623] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/11738-foxford/#analytics
+              - generic [ref=e625]:
+                - generic [ref=e626]: "Conversion rate:"
+                - link "2.4%" [ref=e627] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/11738-foxford/#analytics
+              - generic [ref=e629]:
+                - generic [ref=e630]: "Confirmation rate:"
+                - link "88%" [ref=e631] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/11738-foxford/#analytics
+            - generic [ref=e632]:
+              - link "... Learn more" [ref=e633] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/11738-foxford/
+                - generic [ref=e634]: ...
+                - generic [ref=e635]: Learn more
+              - button "Join" [disabled] [ref=e637]:
+                - generic [ref=e638]:
+                  - generic [ref=e639]: Join
+                  - img [ref=e640]
+          - generic [ref=e643]:
+            - button [ref=e646]:
+              - img [ref=e648]
+            - link "1CLICK RU" [ref=e651] [cursor=pointer]:
+              - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/182270-1click-ru/
+              - img "1CLICK RU" [ref=e652]
+            - heading "1CLICK RU" [level=2] [ref=e654]:
+              - link "1CLICK RU" [ref=e655] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/182270-1click-ru/
+            - generic [ref=e656]:
+              - generic [ref=e658]:
+                - generic [ref=e659]: "Commission:"
+                - button "2.46%" [ref=e660]
+              - generic [ref=e662]:
+                - generic [ref=e663]: "Payment term:"
+                - generic [ref=e664]: —
+              - generic [ref=e666]:
+                - generic [ref=e667]: "Conversion rate:"
+                - generic [ref=e668]: —
+              - generic [ref=e670]:
+                - generic [ref=e671]: "Confirmation rate:"
+                - generic [ref=e672]: —
+            - generic [ref=e673]:
+              - link "... Learn more" [ref=e674] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/182270-1click-ru/
+                - generic [ref=e675]: ...
+                - generic [ref=e676]: Learn more
+              - button "Join" [ref=e678] [cursor=pointer]:
+                - generic [ref=e679]:
+                  - generic [ref=e680]: Join
+                  - img [ref=e681]
+          - generic [ref=e684]:
+            - generic [ref=e685]:
+              - generic [ref=e686]:
+                - img "exclusive" [ref=e689]
+                - img "green" [ref=e692]
+              - button [ref=e693]:
+                - img [ref=e695]
+            - link "OZON Travel" [ref=e698] [cursor=pointer]:
+              - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/29169-ozon-travel/
+              - img "OZON Travel" [ref=e699]
+            - heading "OZON Travel" [level=2] [ref=e701]:
+              - link "OZON Travel" [ref=e702] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/29169-ozon-travel/
+            - generic [ref=e703]:
+              - generic [ref=e705]:
+                - generic [ref=e706]: "Commission:"
+                - button "1.60-5.76%" [ref=e707]
+              - generic [ref=e709]:
+                - generic [ref=e710]: "Payment term:"
+                - link "35 days" [ref=e711] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/29169-ozon-travel/#analytics
+              - generic [ref=e713]:
+                - generic [ref=e714]: "Conversion rate:"
+                - link "1.4%" [ref=e715] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/29169-ozon-travel/#analytics
+              - generic [ref=e717]:
+                - generic [ref=e718]: "Confirmation rate:"
+                - link "95%" [ref=e719] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/29169-ozon-travel/#analytics
+            - generic [ref=e720]:
+              - link "... Learn more" [ref=e721] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/29169-ozon-travel/
+                - generic [ref=e722]: ...
+                - generic [ref=e723]: Learn more
+              - button "Join" [ref=e725] [cursor=pointer]:
+                - generic [ref=e726]:
+                  - generic [ref=e727]: Join
+                  - img [ref=e728]
+          - generic [ref=e731]:
+            - generic [ref=e732]:
+              - img "grey" [ref=e736]
+              - button [ref=e737]:
+                - img [ref=e739]
+            - link "ICICI Lombard [CPS] IN" [ref=e742] [cursor=pointer]:
+              - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/24486-icici-lombard-cps-in/
+              - img "ICICI Lombard [CPS] IN" [ref=e743]
+            - heading "ICICI Lombard [CPS] IN" [level=2] [ref=e745]:
+              - link "ICICI Lombard [CPS] IN" [ref=e746] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/24486-icici-lombard-cps-in/
+            - generic [ref=e747]:
+              - generic [ref=e749]:
+                - generic [ref=e750]: "Commission:"
+                - button "31.50%" [ref=e751]
+              - generic [ref=e753]:
+                - generic [ref=e754]: "Payment term:"
+                - link "92 days" [ref=e755] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/24486-icici-lombard-cps-in/#analytics
+              - generic [ref=e757]:
+                - generic [ref=e758]: "Conversion rate:"
+                - link "0.6%" [ref=e759] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/24486-icici-lombard-cps-in/#analytics
+              - generic [ref=e761]:
+                - generic [ref=e762]: "Confirmation rate:"
+                - link "94%" [ref=e763] [cursor=pointer]:
+                  - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/24486-icici-lombard-cps-in/#analytics
+            - generic [ref=e764]:
+              - link "... Learn more" [ref=e765] [cursor=pointer]:
+                - /url: https://store.admitad.com/en/webmaster/websites/2940069/offers/24486-icici-lombard-cps-in/
+                - generic [ref=e766]: ...
+                - generic [ref=e767]: Learn more
+              - button "Join" [ref=e769] [cursor=pointer]:
+                - generic [ref=e770]:
+                  - generic [ref=e771]: Join
+                  - img [ref=e772]
+          - generic [ref=e774]:
+            - generic [ref=e775]:
+              - img [ref=e778]
+              - generic [ref=e781]: "1"
+              - link "2" [ref=e782] [cursor=pointer]:
+                - /url: /en/webmaster/websites/2940069/catalog/?limit=10&offset=10
+              - link "3" [ref=e783] [cursor=pointer]:
+                - /url: /en/webmaster/websites/2940069/catalog/?limit=10&offset=20
+              - img [ref=e786]
+              - link "124" [ref=e790] [cursor=pointer]:
+                - /url: /en/webmaster/websites/2940069/catalog/?limit=10&offset=1230
+              - link [ref=e791] [cursor=pointer]:
+                - /url: /en/webmaster/websites/2940069/catalog/?limit=10&offset=10
+                - img [ref=e793]
+            - generic [ref=e796]:
+              - generic [ref=e797]: "Results per page:"
+              - combobox "10" [ref=e798]:
+                - generic [ref=e801] [cursor=pointer]: "10"
+            - generic [ref=e804]: 1 - 10of 1237
+  - generic [ref=e806]:
+    - generic [ref=e807]: For affiliates
+    - generic [ref=e808]:
+      - generic [ref=e809]:
+        - link [ref=e810] [cursor=pointer]:
+          - /url: https://account.takeads.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e813]
+        - generic [ref=e816]: Takeads
+      - generic [ref=e817]:
+        - link [ref=e818] [cursor=pointer]:
+          - /url: https://app.takedeals.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e821]
+        - generic [ref=e825]: Takedeals
+      - generic [ref=e826]:
+        - link [ref=e827] [cursor=pointer]:
+          - /url: https://flow.admitad.com/en/publisher/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e830]
+        - generic [ref=e834]: Flow
+    - generic [ref=e835]: For influencers
+    - generic [ref=e836]:
+      - generic [ref=e837]:
+        - link [ref=e838] [cursor=pointer]:
+          - /url: https://app.takefluence.com/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e841]
+        - generic [ref=e846]: Takefluence
+      - generic [ref=e847]:
+        - link [ref=e848] [cursor=pointer]:
+          - /url: https://account.convertsocial.net/?utm_source=mitgo_widget&utm_medium=widget&utm_campaign=admitad
+          - img [ref=e851]
+        - generic [ref=e857]: ConvertSocial
+    - generic [ref=e860] [cursor=pointer]: Hide
