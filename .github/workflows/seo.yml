@@ -51,6 +51,9 @@ jobs:
             --exclude https://aliexpress.com
             --exclude https://www.aliexpress.com
             --exclude https://*.aliexpress.com
+            --exclude https://ali.click
+            --exclude https://*.ali.click
+            --exclude-path node_modules/
             --timeout 30
             --max-concurrency 5
             --no-progress
