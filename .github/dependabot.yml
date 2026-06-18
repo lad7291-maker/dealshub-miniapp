@@ -4,7 +4,16 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 5
+    groups:
+      dev-dependencies:
+        patterns:
+          - "*"
+    ignore:
+      - dependency-name: "eslint"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@lhci/cli"
+        update-types: ["version-update:semver-major"]
     reviewers:
       - "lad7291-maker"
 
@@ -12,4 +21,9 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 3
+    groups:
+      actions:
+        patterns:
+          - "*"
+
