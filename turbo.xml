@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru"
+     version="2.0">
+  <channel>
+    <title>SmartSkidka.ru — скидки AliExpress</title>
+    <link>https://smart-skidka.ru/</link>
+    <description>Лучшие скидки на товары с AliExpress. 1000+ товаров со скидками до 90%.</description>
+    <language>ru</language>
+    <turbo:analytics type="Yandex" id="109145874"/>
+    <item turbo="true">
+      <link>https://smart-skidka.ru/</link>
+      <turbo:source>https://smart-skidka.ru/</turbo:source>
+      <turbo:topic>SmartSkidka.ru — Лучшие скидки AliExpress</turbo:topic>
+      <pubDate>Wed, 27 May 2026 10:27:03 +0000</pubDate>
+      <author>SmartSkidka.ru</author>
+      <title>Лучшие скидки AliExpress — до 90%</title>
+      <description>1000+ товаров со скидками до 90%. Электроника, одежда, обувь, товары для дома и авто.</description>
+      <turbo:content>
+        <![CDATA[
+          <h1>Лучшие скидки AliExpress</h1>
+          <p>1000+ товаров со скидками до 90%. Бесплатная доставка. Обновляется ежедневно.</p>
+          <p>Популярные категории: электроника, одежда, обувь, товары для дома, авто, красота, спорт.</p>
+          <a href="https://smart-skidka.ru/">Перейти к товарам</a>
+        ]]>
+      </turbo:content>
+    </item>
+  </channel>
+</rss>

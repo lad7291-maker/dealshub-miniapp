@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="RynWiwYHLRUXKAXMlR78wbfEkJT8eFbdZlJUCfJ81JU" />
+    <title>Test — SmartSkidka Products</title>
+</head>
+<body>
+    <h1>Test Page</h1>
+    <div id="status">Loading...</div>
+    <div id="products-count"></div>
+    <div id="first-product"></div>
+
+    <script src="js/products-loader.js"></script>
+    <script>
+        (async function() {
+            const status = document.getElementById('status');
+            const countDiv = document.getElementById('products-count');
+            const firstDiv = document.getElementById('first-product');
+
+            try {
+                status.textContent = 'Calling loadInitialProducts()...';
+                const products = await loadInitialProducts();
+                status.textContent = 'Loaded successfully!';
+                countDiv.textContent = 'Products count: ' + products.length;
+                if (products.length > 0) {
+                    firstDiv.innerHTML = '<pre>First: ' + JSON.stringify(products[0], null, 2) + '</pre>';
+                }
+            } catch (e) {
+                status.textContent = 'ERROR: ' + e.message;
+                console.error(e);
+            }
+        })();
+    </script>
+<div class="related-links"><h3>📚 Читайте также</h3><ul>
+  <li><a href="/new.html">New</a></li>
+</ul></div>
+</body>
+</html>
