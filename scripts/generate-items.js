@@ -21,6 +21,12 @@ const CATEGORY_NAMES = {
   toys: 'Игрушки'
 };
 
+function truncate(text, maxLength) {
+  if (!text) return '';
+  if (text.length <= maxLength) return text;
+  return text.substring(0, maxLength - 3).trim() + '...';
+}
+
 function escapeHtml(text) {
   if (!text) return '';
   return text
@@ -84,17 +90,18 @@ function generateItemHtml(product, allProducts) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="${escapeHtml(product.title)} — скидка ${product.discount}% на AliExpress. Цена ${formatPrice(product.price)} ₽ вместо ${formatPrice(product.originalPrice)} ₽.">
+    <meta name="description" content="${escapeHtml(truncate(product.title, 100))} — скидка ${product.discount}% на AliExpress. Цена ${formatPrice(product.price)} ₽ вместо ${formatPrice(product.originalPrice)} ₽.">
     <meta name="theme-color" content="#0a0a0f">
-    <meta property="og:title" content="${escapeHtml(product.title)} — скидка ${product.discount}%">
+    <meta property="og:title" content="${escapeHtml(truncate(product.title, 50))} — скидка ${product.discount}%">
     <meta property="og:description" content="${formatPrice(product.price)} ₽ вместо ${formatPrice(product.originalPrice)} ₽. Рейтинг ${product.rating}⭐ (${product.orders} заказов).">
     <meta property="og:image" content="${escapeHtml(product.image)}">
     <meta property="og:type" content="product">
+    <meta property="og:url" content="https://smart-skidka.ru/item/${product.itemId || product.id}.html">
     <meta property="og:price:amount" content="${product.price}">
     <meta property="og:price:currency" content="RUB">
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "${escapeHtml(product.title)}", "image": "${escapeHtml(product.image)}", "offers": {"@type": "Offer", "price": "${product.price}", "priceCurrency": "RUB", "availability": "https://schema.org/InStock", "url": "https://smart-skidka.ru/item/${product.itemId || product.id}.html"}, "aggregateRating": {"@type": "AggregateRating", "ratingValue": "${product.rating}", "reviewCount": "${product.orders}"}}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "${escapeHtml(truncate(product.title, 100))}", "image": "${escapeHtml(product.image)}", "offers": {"@type": "Offer", "price": "${product.price}", "priceCurrency": "RUB", "availability": "https://schema.org/InStock", "url": "https://smart-skidka.ru/item/${product.itemId || product.id}.html"}, "aggregateRating": {"@type": "AggregateRating", "ratingValue": "${product.rating}", "reviewCount": "${product.orders}"}}</script>
     <script type="application/ld+json">${breadcrumbJson}</script>
-    <title>${escapeHtml(product.title)} — ${formatPrice(product.price)} ₽ | SmartSkidka</title>
+    <title>${escapeHtml(truncate(product.title, 30))} — ${formatPrice(product.price)} ₽ | SmartSkidka</title>
     <link rel="canonical" href="https://smart-skidka.ru/item/${product.itemId || product.id}.html">
     <link rel="icon" type="image/png" href="/icons/icon-72x72.png">
     <link rel="stylesheet" href="/css/style.css">

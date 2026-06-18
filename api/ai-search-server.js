@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = 3001;
-const PRODUCTS_FILE = '/var/www/dealshub-miniapp/products.json';
+const PRODUCTS_FILE = path.join(__dirname, '..', 'products', 'all.json');
 
 // Load products once at startup
 let allProducts = [];
@@ -44,7 +44,9 @@ function isBlocked(ip) {
                 return true;
             }
             fs.unlinkSync(blockFile);
-        } catch (e) {}
+        } catch (e) {
+            // ignore read/unlink errors
+        }
     }
     return false;
 }

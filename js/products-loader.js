@@ -61,16 +61,23 @@ async function loadCategory(category) {
 async function loadChunkedCategory(category) {
     const items = [];
     let chunkNum = 1;
-    while (true) {
+    let hasMore = true;
+    while (hasMore) {
         try {
             const res = await fetch(PRODUCTS_BASE + category + '-' + chunkNum + '.json');
-            if (!res.ok) break;
+            if (!res.ok) {
+                hasMore = false;
+                break;
+            }
             const chunk = await res.json();
-            if (!Array.isArray(chunk) || chunk.length === 0) break;
+            if (!Array.isArray(chunk) || chunk.length === 0) {
+                hasMore = false;
+                break;
+            }
             items.push(...chunk);
             chunkNum++;
         } catch (e) {
-            break;
+            hasMore = false;
         }
     }
     if (items.length > 0) {

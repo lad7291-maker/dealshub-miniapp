@@ -16,7 +16,11 @@ const http = require('http');
 // ============================================
 // CONFIG
 // ============================================
-const FEED_URL = 'http://export.admitad.com/en/webmaster/websites/2940069/products/export_adv_products/?user=vladislav_sotnikov56e18&code=4fkgb3nkie&feed_id=14284&format=csv&fcid=6115';
+const FEED_URL = process.env.ADMITAD_FEED_URL;
+if (!FEED_URL) {
+  console.error('❌ ADMITAD_FEED_URL environment variable is required');
+  process.exit(1);
+}
 const USD_TO_RUB = 92; // Курс конвертации USD → RUB
 const MAX_PER_CATEGORY = 3000; // Макс товаров на категорию
 const OUTPUT_DIR = path.join(__dirname, '..', 'products');
@@ -156,7 +160,6 @@ const CATEGORY_MAP = {
   
   // Спорт
   'Skiing & Snowboarding': 'sports',
-  'Sport Bags': 'sports',
   'Activity & Gear': 'sports',
   'Sports Accessories': 'sports',
   'Racquet Sports': 'sports',

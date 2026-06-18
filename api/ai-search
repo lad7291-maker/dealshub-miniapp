@@ -52,7 +52,8 @@ if not q or len(q) < 3:
     sys.exit(0)
 
 # Load products
-products_file = '/var/www/dealshub-miniapp/products.json'
+script_dir = os.path.dirname(os.path.abspath(__file__))
+products_file = os.path.join(script_dir, '..', 'products', 'all.json')
 if not os.path.exists(products_file):
     print(json.dumps({'error': 'Products database not found'}))
     sys.exit(0)

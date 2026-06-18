@@ -1,0 +1,37 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "script"
+  },
+  "globals": {
+    "gtag": "readonly",
+    "ym": "readonly",
+    "loadInitialProducts": "readonly",
+    "loadCategory": "readonly",
+    "loadAllProducts": "readonly",
+    "getProductsByCategory": "readonly",
+    "getProductById": "readonly",
+    "generateDeeplink": "readonly",
+    "getProductsByCategorySync": "readonly"
+  },
+  "rules": {
+    "no-unused-vars": ["warn", { "args": "none" }],
+    "no-console": "off",
+    "no-undef": "warn"
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    "js/products.js",
+    "js/products_real.js",
+    "products/",
+    "item/",
+    "dist/",
+    "build/"
+  ]
+}

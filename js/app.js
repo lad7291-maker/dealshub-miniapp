@@ -275,7 +275,6 @@ async function renderProducts() {
 function createProductCard(product, index) {
     const isFav = state.favorites.includes(product.id);
     const animationDelay = (index % 24) * 0.05;
-    const savings = product.originalPrice - product.price;
     const imgAttrs = index < 4 ? 'fetchpriority="high"' : 'loading="lazy"';
     const timerHours = Math.floor(Math.random() * 37) + 12;
     const viewers = Math.floor(Math.random() * 186) + 15;
@@ -446,27 +445,8 @@ function attachCardListeners() {
 
 // Tag filter functions
 function renderTagFilters() {
-    return; // Disabled — no tag chips
-
-    const container = document.getElementById('tag-filters');
-    if (!container) return;
-    
-    const topTags = ['кроссовки', 'спортивные', 'nike', 'мужские', 'легкие', 'беговые', 'модные', 'женские'];
-    
-    let html = '<button class="tag-chip' + (state.activeTag === null ? ' active' : '') + '" data-tag="">Все</button>';
-    topTags.forEach(tag => {
-        const active = state.activeTag === tag ? ' active' : '';
-        html += '<button class="tag-chip' + active + '" data-tag="' + tag + '">' + tag + '</button>';
-    });
-    container.innerHTML = html;
-    
-    // Bind clicks
-    container.querySelectorAll('.tag-chip').forEach(chip => {
-        chip.addEventListener('click', () => {
-            const tag = chip.dataset.tag;
-            filterByTag(tag || null);
-        });
-    });
+    // Disabled — no tag chips
+    return;
 }
 
 function filterByTag(tag) {

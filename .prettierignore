@@ -1,0 +1,10 @@
+node_modules/
+products/
+item/
+js/products.js
+js/products_real.js
+sitemap.xml
+turbo.xml
+*.min.js
+.playwright-mcp/
+package-lock.json

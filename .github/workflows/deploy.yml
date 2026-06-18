@@ -1,0 +1,84 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Update product feed
+        env:
+          ADMITAD_FEED_URL: ${{ secrets.ADMITAD_FEED_URL }}
+        run: npm run update-feed
+        continue-on-error: true
+
+      - name: Generate item pages and sitemap
+        run: |
+          npm run generate-items
+          npm run build
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Add host to known_hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Deploy to VPS
+        env:
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+        run: |
+          rsync -avz --delete \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='node_modules' \
+            --exclude='.env' \
+            --exclude='.playwright-mcp' \
+            --exclude='bugtest_*.png' \
+            --exclude='desktop_*.png' \
+            --exclude='final_*.png' \
+            --exclude='homepage*.png' \
+            --exclude='gsc_*.png' \
+            --exclude='*.log' \
+            ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/dealshub-miniapp/
+
+      - name: Restart AI search service
+        env:
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+        run: |
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} '
+            set -e
+            cd /var/www/dealshub-miniapp
+            if systemctl is-active --quiet dealshub-ai-search 2>/dev/null; then
+              sudo systemctl restart dealshub-ai-search
+            elif pm2 describe dealshub-ai-search >/dev/null 2>&1; then
+              pm2 restart dealshub-ai-search
+            else
+              echo "No known service manager found. Please restart ai-search-server.js manually."
+            fi
+          '
+
+      - name: Notify on failure
+        if: failure()
+        run: echo "❌ Deploy failed. Check logs above."
