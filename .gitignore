@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+.playwright-mcp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+/tmp
+*.tmp
+
+# Backup files
+*.bak*
+
+# Screenshots and generated audit artifacts
+bugtest_*.png
+desktop_*.png
+final_*.png
+homepage*.png
+gsc_*.png
+
+# Build artifacts (if any)
+dist/
+build/
