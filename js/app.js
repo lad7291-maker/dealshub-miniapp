@@ -290,7 +290,10 @@ async function renderProducts() {
 function createProductCard(product, index) {
   const isFav = state.favorites.includes(product.id);
   const animationDelay = (index % 24) * 0.05;
-  const imgAttrs = index < 4 ? 'fetchpriority="high"' : 'loading="lazy"';
+  const imgAttrs =
+    index < 4
+      ? 'fetchpriority="high" width="400" height="400" decoding="async"'
+      : 'loading="lazy" width="400" height="400" decoding="async"';
   const timerHours = Math.floor(Math.random() * 37) + 12;
   const viewers = Math.floor(Math.random() * 186) + 15;
 
@@ -942,7 +945,7 @@ function openProductModal(id) {
 
   els.modalContent.innerHTML = `
         <div class="modal-image-section">
-            <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" loading="lazy" onerror="this.src='https://via.placeholder.com/600?text=${encodeURIComponent(product.title.substring(0, 20))}'">
+            <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" loading="lazy" decoding="async" width="600" height="600" onerror="this.src='https://via.placeholder.com/600?text=${encodeURIComponent(product.title.substring(0, 20))}'">
         </div>
         <div class="modal-details">
             <span class="modal-discount">Экономия ${product.discount}% — ${Math.round(savings).toLocaleString('ru-RU')} ₽</span>
@@ -1137,7 +1140,7 @@ function renderFavorites() {
 
       return `
             <div class="fav-item">
-                <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" class="fav-item-img" loading="lazy" onerror="this.src='https://via.placeholder.com/72?text=?'">
+                <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" class="fav-item-img" loading="lazy" decoding="async" width="72" height="72" onerror="this.src='https://via.placeholder.com/72?text=?'">
                 <div class="fav-item-details">
                     <div class="fav-item-title">${escapeHtml(product.title)}</div>
                     <div class="fav-item-price">${product.price.toLocaleString('ru-RU')} ₽</div>
@@ -1350,7 +1353,7 @@ function initRecentlyViewed() {
     .map(
       (p) => `
         <a href="/item/${p.id}.html" class="recent-card">
-            <img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.title)}" loading="lazy">
+            <img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.title)}" loading="lazy" decoding="async" width="100" height="100">
             <span class="recent-discount">-${p.discount}%</span>
             <span class="recent-title">${escapeHtml(p.title.substring(0, 30))}</span>
             <span class="recent-price">${p.price.toLocaleString('ru-RU')} ₽</span>
@@ -1393,7 +1396,7 @@ async function renderTop10() {
       (p, i) => `
         <a href="/item/${p.id}.html" class="top10-card" data-delay="${i * 0.05}">
             <span class="top10-rank">${i + 1}</span>
-            <img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.title)}" loading="lazy">
+            <img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.title)}" loading="lazy" decoding="async" width="100" height="100">
             <div class="top10-info">
                 <span class="top10-title">${escapeHtml(p.title.substring(0, 40))}</span>
                 <span class="top10-price">${p.price.toLocaleString('ru-RU')} ₽</span>

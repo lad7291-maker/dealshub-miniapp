@@ -111,13 +111,18 @@ function generateItemHtml(product, allProducts) {
     <title>${escapeHtml(truncate(product.title, 30))} — ${formatPrice(product.price)} ₽ | SmartSkidka</title>
     <link rel="canonical" href="https://smart-skidka.ru/item/${product.itemId || product.id}.html">
     <link rel="icon" type="image/png" href="/icons/icon-72x72.png">
-    <link rel="stylesheet" href="/css/style.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VG8VX6F69T"></script>
+    <link rel="stylesheet" href="/css/style.css?v=7">
     <script>
+      window.addEventListener('load', function() {
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-VG8VX6F69T';
+        document.head.appendChild(s);
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-VG8VX6F69T');
+      });
     </script>
 </head>
 <body>
@@ -147,7 +152,7 @@ function generateItemHtml(product, allProducts) {
         
         <main class="item-main">
             <div class="item-gallery">
-                <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" loading="eager" onerror="this.src='/icons/icon-192x192.png'">
+                <img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" loading="eager" decoding="async" width="600" height="600" onerror="this.src='/icons/icon-192x192.png'">
             </div>
             <div class="item-info">
                 <span class="item-discount-badge">-${product.discount}%</span>

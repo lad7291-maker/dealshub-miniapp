@@ -2,8 +2,8 @@
    SmartSkidka.ru — Service Worker
    ============================================ */
 
-const STATIC_CACHE = 'static-v9';
-const DATA_CACHE = 'data-v9';
+const STATIC_CACHE = 'static-v10';
+const DATA_CACHE = 'data-v10';
 
 const STATIC_ASSETS = [
   '/',
@@ -11,8 +11,8 @@ const STATIC_ASSETS = [
   '/css/style.css',
   '/js/deeplink.js?v=12',
   '/js/products.js?v=15',
-  '/js/products-loader.js?v=17',
-  '/js/app.js?v=28',
+  '/js/products-loader.js?v=18',
+  '/js/app.js?v=29',
   '/js/mobile-fix.js',
   '/manifest.json?v=2',
   '/icons/icon-72x72.png',

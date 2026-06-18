@@ -58,21 +58,21 @@
     <meta name="keywords" content="скидки, электроника, Китай, AliExpress, промокоды">
     
     <!-- Preload critical resources for Core Web Vitals -->
-    <link rel="preload" href="css/style.css?v=6" as="style">
-    <link rel="preload" href="js/app.js?v=28" as="script">
+    <link rel="preload" href="css/style.css?v=7" as="style">
+    <link rel="preload" href="js/app.js?v=29" as="script">
     <link rel="prefetch" href="products/all.json" as="fetch" type="application/json" crossorigin>
     
     <link rel="manifest" href="manifest.json?v=2">
     <link rel="apple-touch-icon" href="icons/icon-192x192.png">
     <link rel="icon" type="image/png" href="icons/icon-72x72.png">
-    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://ae-pic-a1.aliexpress-media.com">
     <link rel="preconnect" href="https://ae01.alicdn.com">
-    <link rel="preconnect" href="./products/">
-    <link rel="prefetch" href="products/all.json" as="fetch" type="application/json">
+    <link rel="dns-prefetch" href="https://mc.yandex.ru">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=6">
+    <link rel="stylesheet" href="css/style.css?v=7">
         <!-- Mobile Fixes -->
     <style>
         @media (max-width: 768px) {
@@ -203,21 +203,28 @@
     </style>
 
 
-    <!-- Google Analytics 4 — SmartSkidka.ru -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VG8VX6F69T"></script>
+    <!-- Google Analytics 4 — SmartSkidka.ru (отложено до полной загрузки страницы) -->
     <script>
+      window.addEventListener('load', function() {
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-VG8VX6F69T';
+        document.head.appendChild(s);
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-VG8VX6F69T');
+      });
     </script>
 
-    <!-- Yandex.Metrika — SmartSkidka.ru (ID: 109145874) -->
+    <!-- Yandex.Metrika — SmartSkidka.ru (ID: 109145874) (отложено до полной загрузки страницы) -->
     <script>
+      window.addEventListener('load', function() {
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
         m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
         ym(109145874, "init", {clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});
+      });
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/109145874" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <script type="application/ld+json">{ "@context": "https://schema.org", "@type": "Organization", "name": "SmartSkidka.ru", "url": "https://smart-skidka.ru", "logo": "https://smart-skidka.ru/icons/icon-192x192.png", "address": { "@type": "PostalAddress", "addressCountry": "RU" } }</script>
@@ -545,7 +552,7 @@
     </footer>
 
     <script src="js/deeplink.js?v=12" defer></script>
-    <script src="js/products-loader.js?v=17"></script>
-    <script src="js/app.js?v=28"></script>
+    <script src="js/products-loader.js?v=18" defer></script>
+    <script src="js/app.js?v=29" defer></script>
 </body>
 </html>
