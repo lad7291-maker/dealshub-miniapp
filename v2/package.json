@@ -12,7 +12,8 @@
     "test:analytics": "node scripts/test-analytics.cjs",
     "test:pwa": "node scripts/test-pwa.cjs",
     "test:products": "node scripts/test-product-pages.cjs",
-    "test:sitemap": "node scripts/test-sitemap.cjs"
+    "test:sitemap": "node scripts/test-sitemap.cjs",
+    "test:jsonld": "node scripts/test-jsonld.cjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

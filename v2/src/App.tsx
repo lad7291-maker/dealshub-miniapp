@@ -27,6 +27,117 @@ import type { Product, Category } from '@/types'
 
 type Page = 'home' | 'promo' | 'blog' | 'favorites' | 'product' | 'ai-search'
 
+function generateHomeJsonLd(products: Product[]) {
+  const electronics = products.filter(p => p.category === 'electronics').slice(0, 6)
+  const clothing = products.filter(p => p.category === 'clothing').slice(0, 6)
+  
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        name: 'SmartSkidka.ru',
+        url: 'https://smart-skidka.ru/',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: {
+            '@type': 'EntryPoint',
+            urlTemplate: 'https://smart-skidka.ru/?search={search_term_string}',
+          },
+          'query-input': 'required name=search_term_string',
+        },
+      },
+      {
+        '@type': 'Organization',
+        name: 'SmartSkidka.ru',
+        url: 'https://smart-skidka.ru/',
+        logo: 'https://smart-skidka.ru/icons/icon-512x512.png',
+        sameAs: [
+          'https://t.me/SmartRuMarket',
+        ],
+      },
+      {
+        '@type': 'ItemList',
+        name: 'Лучшие скидки на электронику',
+        itemListElement: electronics.map((p, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          item: {
+            '@type': 'Product',
+            name: p.title,
+            image: p.image,
+            sku: p.itemId || String(p.id),
+            offers: {
+              '@type': 'Offer',
+              price: String(p.price),
+              priceCurrency: 'RUB',
+              availability: 'https://schema.org/InStock',
+            },
+          },
+        })),
+      },
+      {
+        '@type': 'ItemList',
+        name: 'Лучшие скидки на одежду',
+        itemListElement: clothing.map((p, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          item: {
+            '@type': 'Product',
+            name: p.title,
+            image: p.image,
+            sku: p.itemId || String(p.id),
+            offers: {
+              '@type': 'Offer',
+              price: String(p.price),
+              priceCurrency: 'RUB',
+              availability: 'https://schema.org/InStock',
+            },
+          },
+        })),
+      },
+    ],
+  }
+}
+
+function generateCategoryJsonLd(category: Category, products: Product[]) {
+  const catProducts = products.filter(p => p.category === category.id).slice(0, 12)
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: category.seoTitle || `Скидки на ${category.name}`,
+    itemListElement: catProducts.map((p, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Product',
+        name: p.title,
+        image: p.image,
+        sku: p.itemId || String(p.id),
+        offers: {
+          '@type': 'Offer',
+          price: String(p.price),
+          priceCurrency: 'RUB',
+          availability: 'https://schema.org/InStock',
+        },
+      },
+    })),
+  }
+}
+
+function generateBreadcrumbJsonLd(items: { name: string; url: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  }
+}
+
 function getInitialItemId(): string | null {
   if (typeof window === 'undefined') return null
   return (
@@ -163,12 +274,18 @@ function App() {
     const activeCat = categories.find(c => c.id === activeCategory)
 
     if (currentPage === 'product' && selectedProduct) {
+      const breadcrumb = generateBreadcrumbJsonLd([
+        { name: 'Главная', url: 'https://smart-skidka.ru/' },
+        { name: selectedProduct.category === 'electronics' ? 'Электроника' : selectedProduct.category === 'clothing' ? 'Одежда' : selectedProduct.category === 'shoes' ? 'Обувь' : selectedProduct.category === 'home' ? 'Дом' : selectedProduct.category === 'auto' ? 'Авто' : selectedProduct.category === 'beauty' ? 'Красота' : 'Спорт', url: `https://smart-skidka.ru/${selectedProduct.category}.html` },
+        { name: selectedProduct.title, url: `https://smart-skidka.ru/item/${selectedProduct.itemId}.html` },
+      ])
       return {
         title: `${selectedProduct.title} — купить со скидкой ${selectedProduct.discount}% | SmartSkidka`,
         description: selectedProduct.subtitle || `Скидка ${selectedProduct.discount}% на ${selectedProduct.title}. Цена ${selectedProduct.price.toLocaleString('ru')} ₽ на AliExpress.`,
         canonical: `/item/${selectedProduct.itemId}.html`,
         ogImage: selectedProduct.image,
         ogType: 'product',
+        jsonLd: breadcrumb,
       }
     }
 
@@ -205,6 +322,7 @@ function App() {
         title: activeCat.seoTitle || `Скидки AliExpress на ${activeCat.name} — лучшие предложения`,
         description: activeCat.seoDescription || `Лучшие скидки на ${activeCat.name} с AliExpress. Реальные скидки, проверенные отзывы.`,
         faqSchema: activeCat.faq,
+        jsonLd: generateCategoryJsonLd(activeCat, products),
       }
     }
     // Home
@@ -213,6 +331,7 @@ function App() {
       description: 'SmartSkidka.ru собирает лучшие товары с AliExpress со скидками до 90%. Электроника, одежда, обувь, товары для дома с бесплатной доставкой. Реальные скидки, проверенные отзывы!',
       keywords: 'скидки AliExpress, товары с AliExpress со скидкой, промокоды AliExpress, купоны AliExpress, скидки на электронику, одежда с AliExpress',
       faqSchema: mainFAQ,
+      jsonLd: generateHomeJsonLd(products),
     }
   }
 
@@ -255,6 +374,7 @@ function App() {
           keywords={seo.keywords}
           faqSchema={seo.faqSchema}
           canonical={currentPage === 'home' ? '/' : `/${currentPage}`}
+          jsonLd={seo.jsonLd}
         />
 
         <Header

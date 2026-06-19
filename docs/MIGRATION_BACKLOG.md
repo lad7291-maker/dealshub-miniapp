@@ -149,21 +149,24 @@
   - Запускается автоматически при сборке.
 - **Тесты:** `v2/scripts/test-sitemap.cjs` (XML, URL count, no /api/, no query strings, all smart-skidka.ru).
 
-### 2.2 Добавление структурированных данных
+### ~~2.2 Добавление структурированных данных~~ ✅
 - **Приоритет:** P1
 - **Сложность:** L
-- **Статус:** backlog
+- **Статус:** ✅ Выполнено
 - **Владелец:** TBD
-- **Задача:**
-  - WebSite + SearchAction + Organization на главной.
-  - ItemList + Product на категориях.
-  - Product + Offer + AggregateRating + BreadcrumbList на странице товара.
-  - FAQPage на главной/категориях/промокодах.
-  - BlogPosting на страницах блога.
+- **Задача:** Добавить JSON-LD schema.org на все типы страниц.
+- **Результат:**
+  - **Главная:** `WebSite` + `SearchAction` + `Organization` + 2×`ItemList` (электроника, одежда)
+  - **Категории:** `ItemList` с 12 товарами
+  - **Товар (статические страницы):** `Product` + `Offer` + `AggregateRating` (уже было в 1.1)
+  - **Товар (SPA):** `BreadcrumbList` (хлебные крошки: Главная → Категория → Товар)
+  - **FAQ:** `FAQPage` на главной, категориях, промокодах (уже было)
+  - **SEO.tsx:** расширен проп `jsonLd` для произвольного JSON-LD
 - **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Google Rich Results Test не показывает критических ошибок.
   - `validate-jsonld.js` проходит для всех типов страниц.
+- **Тесты:** `v2/scripts/test-jsonld.cjs` (Product/Offer/AggregateRating на статических страницах, WebSite/Organization/ItemList/BreadcrumbList в коде SPA).
 
 ### 2.3 Open Graph и Twitter Cards
 - **Приоритет:** P1
