@@ -16,6 +16,34 @@
 
 ---
 
+## Definition of Done (DoD)
+
+Каждая задача в этом бэклоге считается выполненной только при соблюдении следующих правил:
+
+1. **Код реализован и протестирован**
+   - Написаны автоматические тесты (unit/integration/e2e) для нового функционала.
+   - Тесты запускаются командой `npm test` или эквивалентной.
+   - Ручное тестирование на https://beta.smart-skidka.ru подтверждено.
+
+2. **Проверки качества пройдены**
+   - `npm run lint` без ошибок.
+   - `npm run build` успешно собирает проект.
+   - Lighthouse / SEO / accessibility проверки не показывают регрессий (если применимо).
+
+3. **Статус задачи обновлён**
+   - В `docs/MIGRATION_BACKLOG.md` статус изменён на `done`.
+   - В `MIGRATION_BACKLOG.md` добавлена короткая заметка о результате (опционально).
+
+4. **Коммит и push**
+   - Все изменения закоммичены в ветку `v2-react-migration`.
+   - Сообщение коммита следует conventional commits: `feat(v2): ...`, `fix(v2): ...`, `test(v2): ...`, `docs: ...`.
+   - Изменения запушены в origin.
+
+5. **Документация обновлена**
+   - Если задача меняет архитектуру, API или деплой — обновлён соответствующий README / AGENTS.md / docs.
+
+---
+
 ## Эпик 1: Блокеры миграции (P0)
 
 Без выполнения этих задач переключение `smart-skidka.ru` на новый сайт запрещено.
@@ -30,6 +58,7 @@
   - **Вариант A (рекомендуется):** Генерировать статические `/item/{itemId}.html` из нового дизайна при сборке.
   - **Вариант B:** Настроить 301-редиректы старых URL на новые `/product/{id}` внутри SPA.
   - **Вариант C:** Гибрид — React SPA на `/`, статические item-страницы на `/item/`.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Все старые `/item/{itemId}.html` отдают 200 или 301.
   - Нет 404 на проиндексированных URL.
@@ -46,6 +75,7 @@
   - Поменять `<html lang="en">` → `<html lang="ru">` в `v2/index.html`.
   - Исправить canonical с `https://smartskidka.ru` на `https://smart-skidka.ru`.
   - Добавить `robots.txt` с sitemap.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Все страницы имеют `lang="ru"`.
   - Canonical соответствует основному домену `smart-skidka.ru`.
@@ -67,6 +97,7 @@
     - `select_content` — выбор категории/фильтра/сортировки
     - `ai_search`
     - `scroll_25/50/75/90`
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - В консоли GA/YM видны события при действиях на beta.
   - Старые цели в Yandex не ломаются.
@@ -81,6 +112,7 @@
   - Создать `v2/public/manifest.json` с иконками, theme-color, shortcuts.
   - Добавить Service Worker (vite-plugin-pwa или ручной).
   - Добавить install prompt и offline indicator.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Chrome предлагает установить приложение.
   - Lighthouse PWA audit проходит.
@@ -101,6 +133,7 @@
   - Item-страницы
   - Блог
   - Статические страницы
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Sitemap содержит все URL, валиден по схеме.
   - robots.txt ссылается на sitemap.
@@ -117,6 +150,7 @@
   - Product + Offer + AggregateRating + BreadcrumbList на странице товара.
   - FAQPage на главной/категориях/промокодах.
   - BlogPosting на страницах блога.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Google Rich Results Test не показывает критических ошибок.
   - `validate-jsonld.js` проходит для всех типов страниц.
@@ -129,6 +163,7 @@
 - **Задача:**
   - Добавить `og:image`, `og:url`, `twitter:card` и т.д.
   - Подготовить og-image шаблон или статичное изображение.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Facebook/Twitter/ Telegram показывают красивую карточку при шаринге.
 
@@ -138,6 +173,7 @@
 - **Статус:** backlog
 - **Владелец:** TBD
 - **Задача:** Сгенерировать `/{category}.html` страницы с ItemList JSON-LD (или настроить SSR/SSG).
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - `/electronics.html` и другие категории отдают 200 с SEO-контентом.
   - Сохраняются старые URL категорий.
@@ -150,6 +186,7 @@
 - **Задача:**
   - Заполнить `turbo.xml` реальными страницами.
   - Заполнить `yandex-market.yml` реальными товарами с правильной валютой (RUB).
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Feeds валидны и содержат >90% товаров.
 
@@ -167,6 +204,7 @@
   - Обновить `scripts/convert-products-to-v2.js` чтобы брать все товары из всех JSON-файлов.
   - Решить проблему с ID (в `shoes-*.json` ID пересекаются/выходят за диапазон `all.json`).
   - Обновить `categories.json` и `stats`.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Общее количество товаров соответствует реальному (6,500+).
   - Нет дубликатов ID.
@@ -181,6 +219,7 @@
   - Перенести 10 статей из `blog/*.html` в `v2/src/data/products.ts` или отдельный JSON.
   - Дать каждой статье отдельный URL `/blog/{slug}` (SSG или роутинг).
   - Добавить JSON-LD BlogPosting.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Все старые URL `/blog/{slug}.html` отдают 200 или 301.
   - Контент статей сохранён.
@@ -191,6 +230,7 @@
 - **Статус:** backlog
 - **Владелец:** TBD
 - **Задача:** Заменить тестовые промокоды в v2 на реальные из старого сайта.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Все актуальные промокоды отображаются.
   - FAQ по промокодам перенесён.
@@ -201,6 +241,7 @@
 - **Статус:** backlog
 - **Владелец:** TBD
 - **Задача:** Перенести маркетинговые коллекции из старого сайта.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Коллекции ссылаются на реальные товары/категории.
 
@@ -217,6 +258,7 @@
 - **Задача:**
   - Добавить пагинацию или бесконечный скролл.
   - Или виртуализацию списка (react-window / react-virtualized).
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - First Contentful Paint и Time to Interactive не ухудшаются при росте каталога.
   - Прокрутка плавная на мобильных устройствах.
@@ -230,6 +272,7 @@
   - Минифицировать `products.json` (убрать whitespace) → ~300 KB вместо 1.2 MB.
   - Рассмотреть разбиение по категориям.
   - Включить gzip static в nginx.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - JSON < 400 KB gzipped.
   - Загрузка каталога < 1s на 3G.
@@ -240,6 +283,7 @@
 - **Статус:** backlog
 - **Владелец:** TBD
 - **Задача:** Добавить `preconnect`/`dns-prefetch` для AliExpress CDN, fonts, аналитики.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Lighthouse не ругается на preconnect.
 
@@ -252,6 +296,7 @@
   - Добавить `width`/`height` для картинок.
   - Использовать `loading="eager"` для первых 4 карточек.
   - Рассмотреть lazy loading с blur placeholder.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - CLS < 0.1.
 
@@ -265,6 +310,7 @@
 - **Статус:** backlog
 - **Владелец:** TBD
 - **Задача:** Добавить сортировку в ProductCatalog (по цене, скидке, популярности).
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Пользователь может отсортировать товары.
 
@@ -274,6 +320,7 @@
 - **Статус:** backlog
 - **Владелец:** TBD
 - **Задача:** Добавить модальное окно при клике на карточку, как в старом сайте.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Клик на карточку открывает модал с деталями.
   - Кнопка "Подробнее" ведёт на полную страницу товара.
@@ -284,6 +331,7 @@
 - **Статус:** backlog
 - **Владелец:** TBD
 - **Задача:** Добавить localStorage-based "Недавно просмотренные" на главную.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Просмотренные товары сохраняются и отображаются.
 
@@ -295,6 +343,7 @@
 - **Задача:**
   - Добавить полный footer с категориями, info-страницами, Telegram.
   - Добавить breadcrumb-навигацию.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Footer содержит ссылки на все категории и info-страницы.
 
@@ -304,6 +353,7 @@
 - **Статус:** backlog
 - **Владелец:** TBD
 - **Задача:** Перенести `/about.html`, `/contact.html`, `/privacy.html`, `/terms.html`, `/404.html`.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Все info-страницы доступны по старым URL.
   - 404.html кастомная.
@@ -320,6 +370,7 @@
 - **Задача:**
   - Заменить или экранировать `dangerouslySetInnerHTML` в SEOSection и BlogSection.
   - Добавить `DOMPurify` для пользовательского контента, если он появится.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Нет `dangerouslySetInnerHTML` с необработанным контентом.
 
@@ -329,6 +380,7 @@
 - **Статус:** backlog
 - **Владелец:** TBD
 - **Задача:** Добавить `rel="nofollow sponsored"` ко всем ссылкам на AliExpress.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Все affiliate-ссылки имеют правильные rel-атрибуты.
 
@@ -340,6 +392,7 @@
 - **Задача:**
   - Настроить CSP meta-tag или nginx headers.
   - Добавить X-Frame-Options, X-Content-Type-Options, Referrer-Policy, HSTS.
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Securityheaders.io показывает A или B.
   - Сайт не ломается от CSP.
@@ -352,6 +405,7 @@
 - **Задача:**
   - Создать GitHub Actions workflow для сборки v2.
   - Деплой на VPS в `/var/www/smartskidka` (для prod) или `/var/www/smartskidka-beta` (для beta).
+- **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Push в `main` триггерит сборку и деплой.
 
