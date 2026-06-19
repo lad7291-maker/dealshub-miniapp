@@ -1,16 +1,19 @@
 name: CodeQL
 
-# NOTE: CodeQL requires GitHub Advanced Security / code scanning enabled
-# for private repositories. Enable it in Settings → Security → Code security and analysis.
-# Until then, this workflow is disabled to avoid expected failures.
+# Runs CodeQL analysis on the default branch and pull requests.
+# Now enabled because the repository is public.
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 9 * * 1'
 
 jobs:
   analyze:
     name: Analyze JavaScript
-    if: false
     runs-on: ubuntu-latest
     permissions:
       actions: read
