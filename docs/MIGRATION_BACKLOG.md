@@ -168,17 +168,20 @@
   - `validate-jsonld.js` проходит для всех типов страниц.
 - **Тесты:** `v2/scripts/test-jsonld.cjs` (Product/Offer/AggregateRating на статических страницах, WebSite/Organization/ItemList/BreadcrumbList в коде SPA).
 
-### 2.3 Open Graph и Twitter Cards
+### ~~2.3 Open Graph и Twitter Cards~~ ✅
 - **Приоритет:** P1
 - **Сложность:** S
-- **Статус:** backlog
+- **Статус:** ✅ Выполнено
 - **Владелец:** TBD
-- **Задача:**
-  - Добавить `og:image`, `og:url`, `twitter:card` и т.д.
-  - Подготовить og-image шаблон или статичное изображение.
+- **Задача:** Добавить `og:image`, `og:url`, `twitter:card` и т.д. Подготовить og-image шаблон или статичное изображение.
+- **Результат:**
+  - **SEO.tsx:** `og:title`, `og:description`, `og:type`, `og:url`, `og:site_name`, `og:image`, `og:locale` (ru_RU), `twitter:card` (summary_large_image), `twitter:title`, `twitter:description`, `twitter:image`
+  - **Статические товарные страницы:** все OG + Twitter meta + `product:price:amount` + `product:price:currency` (RUB)
+  - og:image использует изображение товара (для товарных страниц) или не задаётся (для остальных, пока нет шаблона)
 - **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
-  - Facebook/Twitter/ Telegram показывают красивую карточку при шаринге.
+  - Facebook/Twitter/Telegram показывают красивую карточку при шаринге.
+- **Тесты:** `v2/scripts/test-og.cjs` (SEO.tsx и статические товарные страницы).
 
 ### 2.4 Генерация статических категорийных страниц
 - **Приоритет:** P1

@@ -98,8 +98,13 @@ function generateProductHtml(product, indexHtml) {
   <meta property="og:url" content="${canonical}" />
   <meta property="og:site_name" content="SmartSkidka.ru" />
   <meta property="og:image" content="${escapeHtml(product.image)}" />
+  <meta property="og:locale" content="ru_RU" />
   <meta property="product:price:amount" content="${String(product.price)}" />
   <meta property="product:price:currency" content="RUB" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="${escapeHtml(title)}" />
+  <meta name="twitter:description" content="${escapeHtml(description)}" />
+  <meta name="twitter:image" content="${escapeHtml(product.image)}" />
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script>window.__PRODUCT_ITEM_ID__ = ${JSON.stringify(itemId)};</script>
 `

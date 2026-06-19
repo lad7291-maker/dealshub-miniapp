@@ -27,7 +27,11 @@ export function SEO({ title, description, keywords, ogImage, ogType = 'website',
       <meta property="og:url" content={`https://smart-skidka.ru${canonical || '/'}`} />
       <meta property="og:site_name" content="SmartSkidka.ru" />
       {ogImage && <meta property="og:image" content={ogImage} />}
-      <link rel="canonical" href={`https://smart-skidka.ru${canonical || '/'}`} />
+      <meta property="og:locale" content="ru_RU" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={fullTitle} />
+      <meta name="twitter:description" content={description} />
+      {ogImage && <meta name="twitter:image" content={ogImage} />}
       
       {faqSchema && faqSchema.length > 0 && (
         <script type="application/ld+json">
