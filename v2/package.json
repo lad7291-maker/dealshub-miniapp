@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && node scripts/generate-product-pages.js",
+    "build": "tsc -b && vite build && node scripts/generate-product-pages.js && node scripts/generate-sitemap.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "test:seo": "node scripts/test-seo.cjs",
     "test:analytics": "node scripts/test-analytics.cjs",
     "test:pwa": "node scripts/test-pwa.cjs",
-    "test:products": "node scripts/test-product-pages.cjs"
+    "test:products": "node scripts/test-product-pages.cjs",
+    "test:sitemap": "node scripts/test-sitemap.cjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

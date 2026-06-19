@@ -130,22 +130,24 @@
 
 ## Эпик 2: SEO и индексация (P1)
 
-### 2.1 Генерация sitemap.xml
+### ~~2.1 Генерация sitemap.xml~~ ✅
 - **Приоритет:** P1
 - **Сложность:** M
-- **Статус:** backlog
+- **Статус:** ✅ Выполнено
 - **Владелец:** TBD
-- **Задача:** Написать скрипт `v2/scripts/generate-sitemap.js`, который генерирует `v2/public/sitemap.xml` со всеми URL:
-  - Главная
-  - Категории
-  - Item-страницы
-  - Блог
-  - Статические страницы
+- **Задача:** Написать скрипт `v2/scripts/generate-sitemap.js`, который генерирует `v2/dist/sitemap.xml` со всеми URL.
+- **Результат:**
+  - Скрипт `v2/scripts/generate-sitemap.js` создаёт `sitemap.xml` в `v2/dist/` при сборке.
+  - 1,075 URL: 8 статических, 7 категорий, 1,050 товаров, 10 блог-постов.
+  - Все URL на `https://smart-skidka.ru/`, без `/api/` и query strings.
+  - `robots.txt` уже ссылается на `https://smart-skidka.ru/sitemap.xml`.
+  - Запускается автоматически: `npm run build` → `vite build && generate-product-pages.js && generate-sitemap.js`.
 - **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Sitemap содержит все URL, валиден по схеме.
   - robots.txt ссылается на sitemap.
   - Запускается автоматически при сборке.
+- **Тесты:** `v2/scripts/test-sitemap.cjs` (XML, URL count, no /api/, no query strings, all smart-skidka.ru).
 
 ### 2.2 Добавление структурированных данных
 - **Приоритет:** P1
