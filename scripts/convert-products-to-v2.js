@@ -291,13 +291,13 @@ export const howItWorksSteps = [
   },
 ]
 
-export async function loadProducts(): Promise<any[]> {
+export async function loadProducts(): Promise<Product[]> {
   const res = await fetch('/products.json')
   if (!res.ok) throw new Error('Failed to load products')
   return res.json()
 }
 
-export async function loadCategories(): Promise<any[]> {
+export async function loadCategories(): Promise<Category[]> {
   const res = await fetch('/categories.json')
   if (!res.ok) throw new Error('Failed to load categories')
   return res.json()

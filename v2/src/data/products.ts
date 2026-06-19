@@ -1,4 +1,4 @@
-import type { Stats } from '@/types'
+import type { Stats, Product, Category, PromoCode, BlogPost, Collection, FAQItem } from '@/types'
 
 export const stats: Stats = {
   productCount: 1050,
@@ -7,15 +7,15 @@ export const stats: Stats = {
   dailyDeals: 50,
 }
 
-export const promoCodes: any = [];
+export const promoCodes: PromoCode[] = []
 
-export const blogPosts: any = [];
+export const blogPosts: BlogPost[] = []
 
-export const collections: any = [];
+export const collections: Collection[] = []
 
-export const mainFAQ: any = [];
+export const mainFAQ: FAQItem[] = []
 
-export const promoFAQ: any = [];
+export const promoFAQ: FAQItem[] = []
 
 export const howItWorksSteps = [
   {
@@ -45,13 +45,13 @@ export const howItWorksSteps = [
   },
 ]
 
-export async function loadProducts(): Promise<any[]> {
+export async function loadProducts(): Promise<Product[]> {
   const res = await fetch('/products.json')
   if (!res.ok) throw new Error('Failed to load products')
   return res.json()
 }
 
-export async function loadCategories(): Promise<any[]> {
+export async function loadCategories(): Promise<Category[]> {
   const res = await fetch('/categories.json')
   if (!res.ok) throw new Error('Failed to load categories')
   return res.json()

@@ -69,7 +69,8 @@
 ### 1.2 Исправление SEO-базовых ошибок
 - **Приоритет:** P0
 - **Сложность:** S-M
-- **Статус:** backlog
+- **Статус:** done
+- **Результат:** `lang="ru"`, canonical `smart-skidka.ru`, `robots.txt` добавлен. Тесты: `v2/scripts/test-seo.cjs`.
 - **Владелец:** TBD
 - **Задача:**
   - Поменять `<html lang="en">` → `<html lang="ru">` в `v2/index.html`.

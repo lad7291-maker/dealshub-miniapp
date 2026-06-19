@@ -23,10 +23,11 @@ export function SEO({ title, description, keywords, ogImage, ogType = 'website',
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:type" content={ogType} />
+      <meta property="og:url" content={`https://smart-skidka.ru${canonical || '/'}`} />
       <meta property="og:site_name" content="SmartSkidka.ru" />
       {ogImage && <meta property="og:image" content={ogImage} />}
-      {canonical && <link rel="canonical" href={`https://smartskidka.ru${canonical}`} />}
-      <link rel="canonical" href={`https://smartskidka.ru${canonical || '/'}`} />
+      {canonical && <link rel="canonical" href={`https://smart-skidka.ru${canonical}`} />}
+      <link rel="canonical" href={`https://smart-skidka.ru${canonical || '/'}`} />
       
       {faqSchema && faqSchema.length > 0 && (
         <script type="application/ld+json">
