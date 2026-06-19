@@ -20,12 +20,21 @@ Thumbs.db
 # Backup files
 *.bak*
 
+# Agent / local state
+.agent_quota_tracker.json
+
 # Screenshots and generated audit artifacts
 bugtest_*.png
 desktop_*.png
 final_*.png
 homepage*.png
 gsc_*.png
+item_*.png
+mobile*.png
+modal_*.png
+product_*.png
+random_item_page.png
+rzekl_redirect_working.png
 
 # Build artifacts (if any)
 dist/
