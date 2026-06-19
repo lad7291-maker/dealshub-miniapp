@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react'
+import { useState, useCallback, useEffect, useRef } from 'react'
 import { HelmetProvider } from 'react-helmet-async'
 import { Header } from '@/components/Header'
 import { SEO } from '@/components/SEO'
@@ -17,7 +17,9 @@ import { ProductPage } from '@/sections/ProductPage'
 import { AISearchResults } from '@/sections/AISearchResults'
 import { Footer } from '@/sections/Footer'
 import { SEOSection } from '@/sections/SEOSection'
+import { Analytics } from '@/components/Analytics'
 import { useFavorites } from '@/hooks/useFavorites'
+import { trackSearch, trackAiSearch, trackCategory, trackScrollDepth } from '@/lib/analytics'
 import { loadProducts, loadCategories, promoCodes, blogPosts, collections, stats, mainFAQ, promoFAQ } from '@/data/products'
 import { searchProductsAI } from '@/lib/search'
 import type { Product, Category } from '@/types'
@@ -32,6 +34,7 @@ function App() {
   const [selectedProductId, setSelectedProductId] = useState<number | null>(null)
   const [aiSearchQuery, setAiSearchQuery] = useState('')
   const [aiSearchResults, setAiSearchResults] = useState<Product[]>([])
+  const trackedScrollMarks = useRef<Set<number>>(new Set())
 
   const [products, setProducts] = useState<Product[]>([])
   const [categories, setCategories] = useState<Category[]>([])
@@ -61,6 +64,24 @@ function App() {
     ? products.find(p => p.id === selectedProductId) || null
     : null
 
+  // Scroll depth tracking
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollHeight = document.documentElement.scrollHeight - window.innerHeight
+      if (scrollHeight <= 0) return
+      const scrollPercent = Math.round((window.scrollY / scrollHeight) * 100)
+      const marks = [25, 50, 75, 90]
+      for (const mark of marks) {
+        if (scrollPercent >= mark && !trackedScrollMarks.current.has(mark)) {
+          trackedScrollMarks.current.add(mark)
+          trackScrollDepth(mark)
+        }
+      }
+    }
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   const handleNavigate = useCallback((page: string) => {
     setCurrentPage(page as Page)
     setSelectedProductId(null)
@@ -71,6 +92,7 @@ function App() {
     setActiveCategory(cat)
     setCurrentPage('home')
     setSelectedProductId(null)
+    trackCategory(cat)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [])
 
@@ -79,12 +101,13 @@ function App() {
     setCurrentPage('home')
     setSelectedProductId(null)
     if (query) {
+      trackSearch(query, activeCategory)
       setTimeout(() => {
         const el = document.getElementById('catalog')
         el?.scrollIntoView({ behavior: 'smooth' })
       }, 100)
     }
-  }, [])
+  }, [activeCategory])
 
   const handleAISearch = useCallback((query: string) => {
     const results = searchProductsAI(products, query)
@@ -92,6 +115,7 @@ function App() {
     setAiSearchResults(results)
     setCurrentPage('ai-search')
     setSelectedProductId(null)
+    trackAiSearch(query)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [products])
 
@@ -317,6 +341,7 @@ function App() {
 
         {currentPage === 'home' && <TelegramBanner variant="bottom" />}
         <Footer />
+        <Analytics />
       </div>
     </HelmetProvider>
   )

@@ -1,6 +1,8 @@
 import { useState, useEffect, useCallback } from 'react'
+import { trackAddToFavorites, trackRemoveFromFavorites } from '@/lib/analytics'
 
 const STORAGE_KEY = 'smartskidka_favorites'
+const MAX_FAVORITES = 100
 
 export function useFavorites() {
   const [favorites, setFavorites] = useState<number[]>(() => {
@@ -17,11 +19,18 @@ export function useFavorites() {
   }, [favorites])
 
   const toggleFavorite = useCallback((productId: number) => {
-    setFavorites(prev =>
-      prev.includes(productId)
-        ? prev.filter(id => id !== productId)
-        : [...prev, productId]
-    )
+    setFavorites(prev => {
+      if (prev.includes(productId)) {
+        trackRemoveFromFavorites(productId)
+        return prev.filter(id => id !== productId)
+      }
+      trackAddToFavorites(productId)
+      const next = [...prev, productId]
+      if (next.length > MAX_FAVORITES) {
+        return next.slice(next.length - MAX_FAVORITES)
+      }
+      return next
+    })
   }, [])
 
   const isFavorite = useCallback(

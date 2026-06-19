@@ -3,6 +3,7 @@ import { LayoutGrid, ChevronRight } from 'lucide-react'
 import { ProductCard } from '@/components/ProductCard'
 import { FilterBar } from '@/components/FilterBar'
 import { CategorySidebar } from '@/components/CategorySidebar'
+import { trackFilter, trackSort } from '@/lib/analytics'
 import type { Product, Category } from '@/types'
 
 interface ProductCatalogProps {
@@ -23,6 +24,7 @@ export function ProductCatalog({
   const [discountFilter, setDiscountFilter] = useState('all')
   const [priceFrom, setPriceFrom] = useState('')
   const [priceTo, setPriceTo] = useState('')
+  const [appliedSort, setAppliedSort] = useState('discount')
 
   const filteredProducts = useMemo(() => {
     let result = [...products]
@@ -58,13 +60,45 @@ export function ProductCatalog({
       result = result.filter(p => p.price <= max)
     }
 
+    // Sort
+    switch (appliedSort) {
+      case 'price_asc':
+        result.sort((a, b) => a.price - b.price)
+        break
+      case 'price_desc':
+        result.sort((a, b) => b.price - a.price)
+        break
+      case 'orders':
+        result.sort((a, b) => b.orders - a.orders)
+        break
+      case 'discount':
+      default:
+        result.sort((a, b) => b.discount - a.discount)
+        break
+    }
+
     return result
-  }, [products, activeCategory, searchQuery, discountFilter, priceFrom, priceTo])
+  }, [products, activeCategory, searchQuery, discountFilter, priceFrom, priceTo, appliedSort])
 
   const handleResetFilters = () => {
     setDiscountFilter('all')
     setPriceFrom('')
     setPriceTo('')
+    trackFilter('reset')
+  }
+
+  const handleDiscountFilterChange = (value: string) => {
+    setDiscountFilter(value)
+    if (value !== 'all') trackFilter(`discount_${value}`)
+  }
+
+  const handleApplyPriceFilter = () => {
+    trackFilter(`price_${priceFrom || 0}_${priceTo || 'max'}`)
+  }
+
+  const handleSortChange = (value: string) => {
+    setAppliedSort(value)
+    trackSort(value)
   }
 
   const activeCategoryName = categories.find(c => c.id === activeCategory)?.name || 'Все'
@@ -106,14 +140,16 @@ export function ProductCatalog({
           {/* Filters */}
           <FilterBar
             discountFilter={discountFilter}
-            onDiscountFilterChange={setDiscountFilter}
+            onDiscountFilterChange={handleDiscountFilterChange}
             priceFrom={priceFrom}
             priceTo={priceTo}
             onPriceFromChange={setPriceFrom}
             onPriceToChange={setPriceTo}
-            onApplyPriceFilter={() => {}}
+            onApplyPriceFilter={handleApplyPriceFilter}
             onResetFilters={handleResetFilters}
             productCount={filteredProducts.length}
+            sortValue={appliedSort}
+            onSortChange={handleSortChange}
           />
 
           {/* Product Grid */}

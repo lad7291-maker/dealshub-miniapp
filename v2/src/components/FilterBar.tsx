@@ -1,4 +1,4 @@
-import { SlidersHorizontal, X } from 'lucide-react'
+import { SlidersHorizontal, X, ArrowUpDown } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 interface FilterBarProps {
@@ -11,12 +11,15 @@ interface FilterBarProps {
   onApplyPriceFilter: () => void
   onResetFilters: () => void
   productCount: number
+  sortValue?: string
+  onSortChange?: (value: string) => void
 }
 
 export function FilterBar({
   discountFilter, onDiscountFilterChange,
   priceFrom, priceTo, onPriceFromChange, onPriceToChange,
   onApplyPriceFilter, onResetFilters, productCount,
+  sortValue = 'discount', onSortChange,
 }: FilterBarProps) {
   const discountOptions = [
     { value: 'all', label: 'Все скидки' },
@@ -24,6 +27,13 @@ export function FilterBar({
     { value: '50', label: '50%+' },
     { value: '70', label: '70%+' },
     { value: '90', label: '90%+' },
+  ]
+
+  const sortOptions = [
+    { value: 'discount', label: 'По скидке' },
+    { value: 'price_asc', label: 'Цена ↑' },
+    { value: 'price_desc', label: 'Цена ↓' },
+    { value: 'orders', label: 'По популярности' },
   ]
 
   const hasActiveFilters = discountFilter !== 'all' || priceFrom || priceTo
@@ -45,7 +55,7 @@ export function FilterBar({
           ))}
         </div>
 
-        {/* Price Filter */}
+        {/* Price & Sort */}
         <div className="flex flex-wrap items-center gap-2 sm:gap-3">
           <span className="text-xs text-slate-400">Цена:</span>
           <div className="flex items-center gap-2">
@@ -74,10 +84,26 @@ export function FilterBar({
             </Button>
           </div>
 
+          {/* Sort */}
+          {onSortChange && (
+            <div className="flex items-center gap-2 ml-auto">
+              <ArrowUpDown className="w-3.5 h-3.5 text-slate-400" />
+              <select
+                value={sortValue}
+                onChange={e => onSortChange(e.target.value)}
+                className="h-8 px-2 bg-slate-700/50 border border-slate-600 rounded-lg text-white text-xs focus:outline-none focus:border-cyan-500"
+              >
+                {sortOptions.map(opt => (
+                  <option key={opt.value} value={opt.value}>{opt.label}</option>
+                ))}
+              </select>
+            </div>
+          )}
+
           {hasActiveFilters && (
             <button
               onClick={onResetFilters}
-              className="flex items-center gap-1 text-xs text-slate-400 hover:text-red-400 transition-colors ml-auto"
+              className="flex items-center gap-1 text-xs text-slate-400 hover:text-red-400 transition-colors"
             >
               <X className="w-3 h-3" />
               Сбросить

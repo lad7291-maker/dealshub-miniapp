@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test:seo": "node scripts/test-seo.cjs"
+    "test:seo": "node scripts/test-seo.cjs",
+    "test:analytics": "node scripts/test-analytics.cjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

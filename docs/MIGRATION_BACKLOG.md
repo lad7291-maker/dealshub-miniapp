@@ -83,10 +83,11 @@
   - Canonical соответствует основному домену `smart-skidka.ru`.
   - `robots.txt` доступен и ссылается на sitemap.
 
-### 1.3 Подключение аналитики
+### ~~1.3 Подключение аналитики~~ ✅
 - **Приоритет:** P0
 - **Сложность:** M
-- **Статус:** backlog
+- **Статус:** ✅ Выполнено
+- **Результат:** GA4 `G-VG8VX6F69T` и Yandex Metrika `109145874` подключены. События: view_item, purchase, add/remove_favorites, search, ai_search, category, filter, sort, scroll_25/50/75/90, click_outbound. Тесты: `v2/scripts/test-analytics.cjs`.
 - **Владелец:** TBD
 - **Контекст:** Старый сайт использует GA4 `G-VG8VX6F69T` и Yandex Metrika `109145874`.
 - **Задача:**

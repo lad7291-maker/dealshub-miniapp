@@ -1,5 +1,6 @@
 import { Heart, Clock, Eye, ShoppingCart, Star, Users, Check } from 'lucide-react'
 import type { Product } from '@/types'
+import { trackClickOutbound, trackPurchase } from '@/lib/analytics'
 
 interface ProductCardProps {
   product: Product
@@ -130,8 +131,8 @@ export function ProductCard({ product, isFavorite, onToggleFavorite, onProductCl
           <a
             href={product.affiliateLink}
             target="_blank"
-            rel="noopener noreferrer"
-            onClick={(e) => e.stopPropagation()}
+            rel="noopener noreferrer sponsored nofollow"
+            onClick={(e) => { e.stopPropagation(); trackClickOutbound(product.id); trackPurchase({ id: product.id, title: product.title, price: product.price }) }}
             className="flex-1 flex items-center justify-center gap-1.5 py-2.5 bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-400 hover:to-cyan-500 text-white text-sm font-semibold rounded-xl transition-all duration-200 hover:shadow-lg hover:shadow-cyan-500/20"
           >
             <ShoppingCart className="w-4 h-4" />
