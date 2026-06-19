@@ -18,6 +18,7 @@ import { AISearchResults } from '@/sections/AISearchResults'
 import { Footer } from '@/sections/Footer'
 import { SEOSection } from '@/sections/SEOSection'
 import { Analytics } from '@/components/Analytics'
+import { PWAInstallPrompt } from '@/components/PWAInstallPrompt'
 import { useFavorites } from '@/hooks/useFavorites'
 import { trackSearch, trackAiSearch, trackCategory, trackScrollDepth } from '@/lib/analytics'
 import { loadProducts, loadCategories, promoCodes, blogPosts, collections, stats, mainFAQ, promoFAQ } from '@/data/products'
@@ -342,6 +343,7 @@ function App() {
         {currentPage === 'home' && <TelegramBanner variant="bottom" />}
         <Footer />
         <Analytics />
+        <PWAInstallPrompt />
       </div>
     </HelmetProvider>
   )

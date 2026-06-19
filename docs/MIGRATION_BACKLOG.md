@@ -105,10 +105,11 @@
   - В консоли GA/YM видны события при действиях на beta.
   - Старые цели в Yandex не ломаются.
 
-### 1.4 Восстановление PWA
+### ~~1.4 Восстановление PWA~~ ✅
 - **Приоритет:** P0
 - **Сложность:** M-L
-- **Статус:** backlog
+- **Статус:** ✅ Выполнено
+- **Результат:** `manifest.json`, `vite-plugin-pwa` Service Worker, install prompt, offline indicator. Иконки скопированы в beta. Тесты: `v2/scripts/test-pwa.cjs`.
 - **Владелец:** TBD
 - **Контекст:** Старый сайт имеет manifest, Service Worker, install prompt, offline indicator.
 - **Задача:**
