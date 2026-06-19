@@ -1,0 +1,90 @@
+[
+  {
+    "id": "all",
+    "name": "Все",
+    "slug": "all",
+    "count": 1050,
+    "icon": "LayoutGrid",
+    "seoTitle": "",
+    "seoDescription": "",
+    "seoText": "",
+    "faq": []
+  },
+  {
+    "id": "electronics",
+    "name": "Электроника",
+    "slug": "electronics",
+    "count": 123,
+    "icon": "Monitor",
+    "seoTitle": "Скидки AliExpress на Электроника — лучшие предложения",
+    "seoDescription": "Лучшие скидки на Электроника с AliExpress. Реальные скидки, проверенные отзывы.",
+    "seoText": "Категория Электроника с лучшими скидками AliExpress.",
+    "faq": []
+  },
+  {
+    "id": "clothing",
+    "name": "Одежда",
+    "slug": "clothing",
+    "count": 271,
+    "icon": "Shirt",
+    "seoTitle": "Скидки AliExpress на Одежда — лучшие предложения",
+    "seoDescription": "Лучшие скидки на Одежда с AliExpress. Реальные скидки, проверенные отзывы.",
+    "seoText": "Категория Одежда с лучшими скидками AliExpress.",
+    "faq": []
+  },
+  {
+    "id": "shoes",
+    "name": "Обувь",
+    "slug": "shoes",
+    "count": 0,
+    "icon": "Footprints",
+    "seoTitle": "Скидки AliExpress на Обувь — лучшие предложения",
+    "seoDescription": "Лучшие скидки на Обувь с AliExpress. Реальные скидки, проверенные отзывы.",
+    "seoText": "Категория Обувь с лучшими скидками AliExpress.",
+    "faq": []
+  },
+  {
+    "id": "home",
+    "name": "Дом",
+    "slug": "home",
+    "count": 321,
+    "icon": "Home",
+    "seoTitle": "Скидки AliExpress на Дом — лучшие предложения",
+    "seoDescription": "Лучшие скидки на Дом с AliExpress. Реальные скидки, проверенные отзывы.",
+    "seoText": "Категория Дом с лучшими скидками AliExpress.",
+    "faq": []
+  },
+  {
+    "id": "auto",
+    "name": "Авто",
+    "slug": "auto",
+    "count": 78,
+    "icon": "Car",
+    "seoTitle": "Скидки AliExpress на Авто — лучшие предложения",
+    "seoDescription": "Лучшие скидки на Авто с AliExpress. Реальные скидки, проверенные отзывы.",
+    "seoText": "Категория Авто с лучшими скидками AliExpress.",
+    "faq": []
+  },
+  {
+    "id": "beauty",
+    "name": "Красота",
+    "slug": "beauty",
+    "count": 15,
+    "icon": "Sparkles",
+    "seoTitle": "Скидки AliExpress на Красота — лучшие предложения",
+    "seoDescription": "Лучшие скидки на Красота с AliExpress. Реальные скидки, проверенные отзывы.",
+    "seoText": "Категория Красота с лучшими скидками AliExpress.",
+    "faq": []
+  },
+  {
+    "id": "sport",
+    "name": "Спорт",
+    "slug": "sport",
+    "count": 192,
+    "icon": "Dumbbell",
+    "seoTitle": "Скидки AliExpress на Спорт — лучшие предложения",
+    "seoDescription": "Лучшие скидки на Спорт с AliExpress. Реальные скидки, проверенные отзывы.",
+    "seoText": "Категория Спорт с лучшими скидками AliExpress.",
+    "faq": []
+  }
+]

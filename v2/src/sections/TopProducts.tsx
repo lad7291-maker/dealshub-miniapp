@@ -6,9 +6,10 @@ interface TopProductsProps {
   products: Product[]
   favorites: number[]
   onToggleFavorite: (id: number) => void
+  onProductClick: (id: number) => void
 }
 
-export function TopProducts({ products, favorites, onToggleFavorite }: TopProductsProps) {
+export function TopProducts({ products, favorites, onToggleFavorite, onProductClick }: TopProductsProps) {
   const sorted = [...products].sort((a, b) => b.orders - a.orders).slice(0, 10)
 
   return (
@@ -25,6 +26,7 @@ export function TopProducts({ products, favorites, onToggleFavorite }: TopProduc
             product={product}
             isFavorite={favorites.includes(product.id)}
             onToggleFavorite={onToggleFavorite}
+            onProductClick={onProductClick}
             index={i}
           />
         ))}

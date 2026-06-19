@@ -1,5 +1,9 @@
 /**
  * Convert products from legacy JSON format to v2 React app format
+ * Generates:
+ *   - v2/public/products.json
+ *   - v2/public/categories.json
+ *   - v2/src/data/products.ts (static data only)
  * Usage: node scripts/convert-products-to-v2.js
  */
 
@@ -7,7 +11,9 @@ const fs = require('fs');
 const path = require('path');
 
 const PRODUCTS_DIR = path.join(__dirname, '..', 'products');
-const V2_DATA_FILE = path.join(__dirname, '..', 'v2', 'src', 'data', 'products.ts');
+const V2_DIR = path.join(__dirname, '..', 'v2');
+const PUBLIC_DIR = path.join(V2_DIR, 'public');
+const DATA_FILE = path.join(V2_DIR, 'src', 'data', 'products.ts');
 
 const CATEGORY_MAP = {
   electronics: 'electronics',
@@ -41,7 +47,6 @@ const CATEGORY_ICONS = {
 };
 
 function generateViewers(orders) {
-  // synthetic viewers: roughly 10-50% of orders, min 5
   const base = Math.max(orders, 1);
   return Math.floor(base * (0.1 + Math.random() * 0.4)) + Math.floor(Math.random() * 10) + 5;
 }
@@ -154,6 +159,23 @@ function generateCategory(cat, count) {
   };
 }
 
+function readExistingStaticData() {
+  const existing = {};
+  if (fs.existsSync(DATA_FILE)) {
+    const raw = fs.readFileSync(DATA_FILE, 'utf-8');
+    const extract = (name) => {
+      const match = raw.match(new RegExp(`export const ${name}[:\s]*=\s*([\s\S]*?)(?=\nexport const |\n\/* =====|$)`));
+      return match ? match[1].trim() : null;
+    };
+    const names = ['promoCodes', 'blogPosts', 'collections', 'mainFAQ', 'promoFAQ'];
+    names.forEach((name) => {
+      const val = extract(name);
+      if (val) existing[name] = val;
+    });
+  }
+  return existing;
+}
+
 function main() {
   console.log('🚀 Converting legacy products to v2 format...');
 
@@ -164,6 +186,8 @@ function main() {
     console.error('❌ products/all.json not found');
     process.exit(1);
   }
+
+  fs.mkdirSync(PUBLIC_DIR, { recursive: true });
 
   const rawProducts = JSON.parse(fs.readFileSync(allPath, 'utf-8'));
   const products = rawProducts.map(convertProduct);
@@ -198,51 +222,36 @@ function main() {
     ...Object.entries(categoryCounts).map(([cat, count]) => generateCategory(cat, count)),
   ];
 
-  // Read existing v2 data to preserve promoCodes, blogPosts, collections, stats, FAQ
-  let existing = {};
-  if (fs.existsSync(V2_DATA_FILE)) {
-    const existingRaw = fs.readFileSync(V2_DATA_FILE, 'utf-8');
-    // Very naive extraction of named exports
-    const extract = (name) => {
-      const match = existingRaw.match(new RegExp(`export const ${name}[:\s]*=\s*([\s\S]*?)(?=\nexport const |\n\/* =====|$)`));
-      return match ? match[1].trim() : null;
-    };
+  // Write JSON files
+  fs.writeFileSync(path.join(PUBLIC_DIR, 'products.json'), JSON.stringify(products, null, 2), 'utf-8');
+  fs.writeFileSync(path.join(PUBLIC_DIR, 'categories.json'), JSON.stringify(categories, null, 2), 'utf-8');
+  console.log(`✅ Written public/products.json (${products.length} items)`);
+  console.log(`✅ Written public/categories.json (${categories.length} categories)`);
 
-    const names = ['promoCodes', 'blogPosts', 'collections', 'stats', 'mainFAQ', 'promoFAQ', 'howItWorksSteps'];
-    names.forEach((name) => {
-      const val = extract(name);
-      if (val) existing[name] = val;
-    });
-  }
-
-  const stats = existing.stats || `{
-  productCount: ${products.length},
-  categoryCount: ${categories.length - 1},
-  yearLaunched: 2024,
-  dailyDeals: 50,
-}`;
-
-  const renderArray = (name, fallback) => {
-    if (existing[name]) return `export const ${name}: any = ${existing[name]};`;
-    return `export const ${name}: any = ${fallback};`;
-  };
-
-  // Determine which extra types we actually need
+  // Write static TypeScript data file
+  const existing = readExistingStaticData();
   const extraTypes = [];
   if (existing.promoCodes && existing.promoCodes !== '[]') extraTypes.push('PromoCode');
   if (existing.blogPosts && existing.blogPosts !== '[]') extraTypes.push('BlogPost');
   if (existing.collections && existing.collections !== '[]') extraTypes.push('Collection');
   if ((existing.mainFAQ && existing.mainFAQ !== '[]') || (existing.promoFAQ && existing.promoFAQ !== '[]')) extraTypes.push('FAQItem');
 
-  const typeImports = ['Product', 'Category', 'Stats', ...extraTypes].join(', ');
+  const typeImports = ['Stats', ...extraTypes].join(', ');
+  const typeImportLine = typeImports ? `import type { ${typeImports} } from '@/types'` : '';
 
-  const output = `import type { ${typeImports} } from '@/types'
+  const renderArray = (name, fallback) => {
+    if (existing[name]) return `export const ${name}: any = ${existing[name]};`;
+    return `export const ${name}: any = ${fallback};`;
+  };
 
-export const stats: Stats = ${stats}
+  const output = `${typeImportLine}
 
-export const categories: Category[] = ${JSON.stringify(categories, null, 2)}
-
-export const products: Product[] = ${JSON.stringify(products, null, 2)}
+export const stats: Stats = {
+  productCount: ${products.length},
+  categoryCount: ${categories.length - 1},
+  yearLaunched: 2024,
+  dailyDeals: 50,
+}
 
 ${renderArray('promoCodes', '[]')}
 
@@ -281,10 +290,22 @@ export const howItWorksSteps = [
     description: 'Каталог обновляется каждый день: удаляем товары с истекшими скидками, добавляем новые выгодные предложения.',
   },
 ]
+
+export async function loadProducts(): Promise<any[]> {
+  const res = await fetch('/products.json')
+  if (!res.ok) throw new Error('Failed to load products')
+  return res.json()
+}
+
+export async function loadCategories(): Promise<any[]> {
+  const res = await fetch('/categories.json')
+  if (!res.ok) throw new Error('Failed to load categories')
+  return res.json()
+}
 `;
 
-  fs.writeFileSync(V2_DATA_FILE, output, 'utf-8');
-  console.log(`✅ Written ${V2_DATA_FILE}`);
+  fs.writeFileSync(DATA_FILE, output, 'utf-8');
+  console.log(`✅ Written ${DATA_FILE}`);
   console.log(`📊 Categories: ${categories.length}`);
   console.log(`📦 Products: ${products.length}`);
 }

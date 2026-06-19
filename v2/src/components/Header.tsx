@@ -1,23 +1,29 @@
 import { useState } from 'react'
-import { Search, Heart, Menu, X, Zap, Tag, BookOpen, ExternalLink } from 'lucide-react'
+import { Search, Heart, Menu, X, Zap, Tag, BookOpen, ExternalLink, Sparkles } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 
 interface HeaderProps {
   favoritesCount: number
   onSearch: (query: string) => void
+  onAISearch: (query: string) => void
   onNavigate: (page: string) => void
   currentPage: string
 }
 
-export function Header({ favoritesCount, onSearch, onNavigate, currentPage }: HeaderProps) {
+export function Header({ favoritesCount, onSearch, onAISearch, onNavigate, currentPage }: HeaderProps) {
   const [searchQuery, setSearchQuery] = useState('')
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [searchFocused, setSearchFocused] = useState(false)
+  const [aiMode, setAiMode] = useState(false)
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault()
     if (searchQuery.trim()) {
-      onSearch(searchQuery.trim())
+      if (aiMode) {
+        onAISearch(searchQuery.trim())
+      } else {
+        onSearch(searchQuery.trim())
+      }
     }
   }
 
@@ -54,12 +60,12 @@ export function Header({ favoritesCount, onSearch, onNavigate, currentPage }: He
               <Search className="absolute left-3 w-4 h-4 text-slate-400" />
               <Input
                 type="text"
-                placeholder="Поиск товаров..."
+                placeholder={aiMode ? 'AI-поиск: напишите что ищете...' : 'Поиск товаров...'}
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
                 onFocus={() => setSearchFocused(true)}
                 onBlur={() => setSearchFocused(false)}
-                className="pl-9 pr-10 h-9 sm:h-10 bg-transparent border-0 text-white placeholder:text-slate-400 text-sm focus-visible:ring-0 focus-visible:ring-offset-0"
+                className="pl-9 pr-[4.5rem] h-9 sm:h-10 bg-transparent border-0 text-white placeholder:text-slate-400 text-sm focus-visible:ring-0 focus-visible:ring-offset-0"
               />
               {searchQuery && (
                 <button
@@ -79,12 +85,20 @@ export function Header({ favoritesCount, onSearch, onNavigate, currentPage }: He
             </div>
           </form>
 
-          {/* AI Search Badge + Favorites - Desktop */}
+          {/* AI Search Toggle + Favorites - Desktop */}
           <div className="hidden lg:flex items-center gap-2">
-            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rounded-full border border-cyan-500/20">
-              <Zap className="w-3.5 h-3.5 text-cyan-400" />
-              <span className="text-xs font-medium text-cyan-300">AI-поиск: 3 из 3</span>
-            </div>
+            <button
+              type="button"
+              onClick={() => setAiMode(!aiMode)}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full border transition-colors ${
+                aiMode
+                  ? 'bg-gradient-to-r from-cyan-500/20 to-purple-500/20 border-cyan-500/40 text-cyan-300'
+                  : 'bg-slate-700/30 border-slate-600 text-slate-400 hover:text-white'
+              }`}
+            >
+              <Sparkles className="w-3.5 h-3.5" />
+              <span className="text-xs font-medium">{aiMode ? 'AI-поиск' : 'Обычный'}</span>
+            </button>
             <button
               onClick={() => onNavigate('favorites')}
               className="relative p-2 text-slate-300 hover:text-white transition-colors"

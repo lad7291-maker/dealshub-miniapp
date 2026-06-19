@@ -1,10 +1,11 @@
-import { Heart, Clock, Eye, ShoppingCart, Star, Users, Share2, Check } from 'lucide-react'
+import { Heart, Clock, Eye, ShoppingCart, Star, Users, Check } from 'lucide-react'
 import type { Product } from '@/types'
 
 interface ProductCardProps {
   product: Product
   isFavorite: boolean
   onToggleFavorite: (id: number) => void
+  onProductClick?: (id: number) => void
   index?: number
 }
 
@@ -16,9 +17,12 @@ const badgeConfig: Record<string, { label: string; className: string }> = {
   new: { label: 'Новинка', className: 'bg-purple-500/20 text-purple-400 border-purple-500/30' },
 }
 
-export function ProductCard({ product, isFavorite, onToggleFavorite, index }: ProductCardProps) {
+export function ProductCard({ product, isFavorite, onToggleFavorite, onProductClick, index }: ProductCardProps) {
   return (
-    <div className="group bg-[#1e293b] hover:bg-[#23304a] border border-slate-700/50 hover:border-cyan-500/30 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/5">
+    <div
+      onClick={() => onProductClick?.(product.id)}
+      className="group bg-[#1e293b] hover:bg-[#23304a] border border-slate-700/50 hover:border-cyan-500/30 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/5 cursor-pointer"
+    >
       {/* Image */}
       <div className="relative aspect-square bg-[#161f30] overflow-hidden">
         <img
@@ -42,7 +46,7 @@ export function ProductCard({ product, isFavorite, onToggleFavorite, index }: Pr
 
         {/* Favorite Button */}
         <button
-          onClick={() => onToggleFavorite(product.id)}
+          onClick={(e) => { e.stopPropagation(); onToggleFavorite(product.id) }}
           className={`absolute top-2 right-2 w-8 h-8 flex items-center justify-center rounded-full transition-all duration-200 ${isFavorite ? 'bg-red-500 text-white shadow-lg' : 'bg-black/40 text-white hover:bg-black/60 backdrop-blur-sm'}`}
         >
           <Heart className={`w-4 h-4 ${isFavorite ? 'fill-white' : ''}`} />
@@ -121,22 +125,27 @@ export function ProductCard({ product, isFavorite, onToggleFavorite, index }: Pr
           {product.shipping}
         </p>
 
-        {/* CTA Button */}
-        <a
-          href={product.affiliateLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 w-full py-2.5 bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-400 hover:to-cyan-500 text-white text-sm font-semibold rounded-xl transition-all duration-200 hover:shadow-lg hover:shadow-cyan-500/20"
-        >
-          <ShoppingCart className="w-4 h-4" />
-          На AliExpress
-        </a>
-
-        {/* Share */}
-        <button className="w-full mt-1.5 flex items-center justify-center gap-1.5 py-1.5 text-xs text-slate-500 hover:text-slate-300 transition-colors">
-          <Share2 className="w-3 h-3" />
-          Поделиться
-        </button>
+        {/* CTA Buttons */}
+        <div className="flex gap-2">
+          <a
+            href={product.affiliateLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="flex-1 flex items-center justify-center gap-1.5 py-2.5 bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-400 hover:to-cyan-500 text-white text-sm font-semibold rounded-xl transition-all duration-200 hover:shadow-lg hover:shadow-cyan-500/20"
+          >
+            <ShoppingCart className="w-4 h-4" />
+            На AliExpress
+          </a>
+          {onProductClick && (
+            <button
+              onClick={(e) => { e.stopPropagation(); onProductClick(product.id) }}
+              className="px-3 py-2.5 bg-slate-700 hover:bg-slate-600 text-white text-sm font-medium rounded-xl transition-colors"
+            >
+              Подробнее
+            </button>
+          )}
+        </div>
       </div>
     </div>
   )

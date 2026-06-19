@@ -8,9 +8,10 @@ interface BlogSectionProps {
   products: Product[]
   favorites: number[]
   onToggleFavorite: (id: number) => void
+  onProductClick: (id: number) => void
 }
 
-export function BlogSection({ posts, products, favorites, onToggleFavorite }: BlogSectionProps) {
+export function BlogSection({ posts, products, favorites, onToggleFavorite, onProductClick }: BlogSectionProps) {
   const [activePost, setActivePost] = useState<BlogPost | null>(null)
 
   if (activePost) {
@@ -94,6 +95,7 @@ export function BlogSection({ posts, products, favorites, onToggleFavorite }: Bl
                           product={p}
                           isFavorite={favorites.includes(p.id)}
                           onToggleFavorite={onToggleFavorite}
+                          onProductClick={onProductClick}
                         />
                       ))}
                     </div>

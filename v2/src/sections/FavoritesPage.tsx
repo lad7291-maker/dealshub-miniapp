@@ -8,11 +8,12 @@ interface FavoritesPageProps {
   favorites: number[]
   onToggleFavorite: (id: number) => void
   onClearFavorites: () => void
+  onProductClick: (id: number) => void
 }
 
 type SortMode = 'discount' | 'price' | 'date'
 
-export function FavoritesPage({ products, favorites, onToggleFavorite, onClearFavorites }: FavoritesPageProps) {
+export function FavoritesPage({ products, favorites, onToggleFavorite, onClearFavorites, onProductClick }: FavoritesPageProps) {
   const [sortMode, setSortMode] = useState<SortMode>('discount')
 
   const favoriteProducts = useMemo(() => {
@@ -95,6 +96,7 @@ export function FavoritesPage({ products, favorites, onToggleFavorite, onClearFa
             product={product}
             isFavorite={true}
             onToggleFavorite={onToggleFavorite}
+            onProductClick={onProductClick}
           />
         ))}
       </div>

@@ -12,12 +12,13 @@ interface ProductCatalogProps {
   onCategoryChange: (cat: string) => void
   favorites: number[]
   onToggleFavorite: (id: number) => void
+  onProductClick: (id: number) => void
   searchQuery: string
 }
 
 export function ProductCatalog({
   products, categories, activeCategory, onCategoryChange,
-  favorites, onToggleFavorite, searchQuery,
+  favorites, onToggleFavorite, onProductClick, searchQuery,
 }: ProductCatalogProps) {
   const [discountFilter, setDiscountFilter] = useState('all')
   const [priceFrom, setPriceFrom] = useState('')
@@ -124,6 +125,7 @@ export function ProductCatalog({
                   product={product}
                   isFavorite={favorites.includes(product.id)}
                   onToggleFavorite={onToggleFavorite}
+                  onProductClick={onProductClick}
                 />
               ))}
             </div>
