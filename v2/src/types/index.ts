@@ -2,6 +2,7 @@
 
 export interface Product {
   id: number
+  itemId?: string
   title: string
   subtitle?: string
   category: string

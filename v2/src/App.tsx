@@ -27,12 +27,22 @@ import type { Product, Category } from '@/types'
 
 type Page = 'home' | 'promo' | 'blog' | 'favorites' | 'product' | 'ai-search'
 
+function getInitialItemId(): string | null {
+  if (typeof window === 'undefined') return null
+  return (
+    (window as { __PRODUCT_ITEM_ID__?: string }).__PRODUCT_ITEM_ID__ ||
+    window.location.pathname.match(/\/item\/(\d+)\.html$/)?.[1] ||
+    null
+  )
+}
+
 function App() {
   const { favorites, toggleFavorite, clearFavorites } = useFavorites()
-  const [currentPage, setCurrentPage] = useState<Page>('home')
+  const initialItemId = getInitialItemId()
+  const [currentPage, setCurrentPage] = useState<Page>(initialItemId ? 'product' : 'home')
   const [activeCategory, setActiveCategory] = useState('all')
   const [searchQuery, setSearchQuery] = useState('')
-  const [selectedProductId, setSelectedProductId] = useState<number | null>(null)
+  const [selectedProductItemId, setSelectedProductItemId] = useState<string | null>(initialItemId)
   const [aiSearchQuery, setAiSearchQuery] = useState('')
   const [aiSearchResults, setAiSearchResults] = useState<Product[]>([])
   const trackedScrollMarks = useRef<Set<number>>(new Set())
@@ -61,8 +71,8 @@ function App() {
     return () => { cancelled = true }
   }, [])
 
-  const selectedProduct = selectedProductId != null
-    ? products.find(p => p.id === selectedProductId) || null
+  const selectedProduct = selectedProductItemId != null
+    ? products.find(p => p.itemId === selectedProductItemId) || null
     : null
 
   // Scroll depth tracking
@@ -85,22 +95,28 @@ function App() {
 
   const handleNavigate = useCallback((page: string) => {
     setCurrentPage(page as Page)
-    setSelectedProductId(null)
+    setSelectedProductItemId(null)
+    const path = page === 'home' ? '/' : `/${page}`
+    if (window.location.pathname !== path) {
+      history.replaceState(null, '', path)
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [])
 
   const handleCategorySelect = useCallback((cat: string) => {
     setActiveCategory(cat)
     setCurrentPage('home')
-    setSelectedProductId(null)
+    setSelectedProductItemId(null)
     trackCategory(cat)
+    if (window.location.pathname !== '/') history.replaceState(null, '', '/')
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [])
 
   const handleSearch = useCallback((query: string) => {
     setSearchQuery(query)
     setCurrentPage('home')
-    setSelectedProductId(null)
+    setSelectedProductItemId(null)
+    if (window.location.pathname !== '/') history.replaceState(null, '', '/')
     if (query) {
       trackSearch(query, activeCategory)
       setTimeout(() => {
@@ -115,16 +131,22 @@ function App() {
     setAiSearchQuery(query)
     setAiSearchResults(results)
     setCurrentPage('ai-search')
-    setSelectedProductId(null)
+    setSelectedProductItemId(null)
     trackAiSearch(query)
+    if (window.location.pathname !== '/ai-search') history.replaceState(null, '', '/ai-search')
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [products])
 
   const handleProductClick = useCallback((id: number) => {
-    setSelectedProductId(id)
+    const product = products.find(p => p.id === id)
+    if (!product) return
+    const itemId = product.itemId || String(product.id)
+    setSelectedProductItemId(itemId)
     setCurrentPage('product')
+    const productPath = `/item/${itemId}.html`
+    if (window.location.pathname !== productPath) history.replaceState(null, '', productPath)
     window.scrollTo({ top: 0, behavior: 'smooth' })
-  }, [])
+  }, [products])
 
   const handleCollectionClick = useCallback((collection: typeof collections[0]) => {
     if (collection.tags.includes('электроника')) setActiveCategory('electronics')
@@ -132,7 +154,8 @@ function App() {
     else if (collection.tags.includes('обувь')) setActiveCategory('shoes')
     else if (collection.tags.includes('для дома')) setActiveCategory('home')
     setCurrentPage('home')
-    setSelectedProductId(null)
+    setSelectedProductItemId(null)
+    if (window.location.pathname !== '/') history.replaceState(null, '', '/')
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [])
 
@@ -143,6 +166,9 @@ function App() {
       return {
         title: `${selectedProduct.title} — купить со скидкой ${selectedProduct.discount}% | SmartSkidka`,
         description: selectedProduct.subtitle || `Скидка ${selectedProduct.discount}% на ${selectedProduct.title}. Цена ${selectedProduct.price.toLocaleString('ru')} ₽ на AliExpress.`,
+        canonical: `/item/${selectedProduct.itemId}.html`,
+        ogImage: selectedProduct.image,
+        ogType: 'product',
       }
     }
 

@@ -1,4 +1,5 @@
-import type { Stats, Product, Category, PromoCode, BlogPost, Collection, FAQItem } from '@/types'
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import type { Stats, Product, Category } from '@/types'
 
 export const stats: Stats = {
   productCount: 1050,
@@ -7,15 +8,15 @@ export const stats: Stats = {
   dailyDeals: 50,
 }
 
-export const promoCodes: PromoCode[] = []
+export const promoCodes: any = [];
 
-export const blogPosts: BlogPost[] = []
+export const blogPosts: any = [];
 
-export const collections: Collection[] = []
+export const collections: any = [];
 
-export const mainFAQ: FAQItem[] = []
+export const mainFAQ: any = [];
 
-export const promoFAQ: FAQItem[] = []
+export const promoFAQ: any = [];
 
 export const howItWorksSteps = [
   {

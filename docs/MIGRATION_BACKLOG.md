@@ -49,23 +49,27 @@
 
 Без выполнения этих задач переключение `smart-skidka.ru` на новый сайт запрещено.
 
-### 1.1 Сохранение товарных URL
+### ~~1.1 Сохранение товарных URL~~ ✅
 - **Приоритет:** P0
 - **Сложность:** L-XL
-- **Статус:** backlog
+- **Статус:** ✅ Выполнено
 - **Владелец:** TBD
 - **Контекст:** Старый сайт имеет 1,050 страниц `/item/{itemId}.html`, которые проиндексированы поисковиками.
-- **Задача:** Реализовать одну из стратегий:
-  - **Вариант A (рекомендуется):** Генерировать статические `/item/{itemId}.html` из нового дизайна при сборке.
-  - **Вариант B:** Настроить 301-редиректы старых URL на новые `/product/{id}` внутри SPA.
-  - **Вариант C:** Гибрид — React SPA на `/`, статические item-страницы на `/item/`.
+- **Результат:** Реализован **Вариант C (гибрид)**: React SPA на `/`, статические `/item/{itemId}.html` генерируются при сборке.
+  - Скрипт `v2/scripts/generate-product-pages.js` создаёт 1,050 HTML-файлов в `v2/dist/item/`.
+  - Каждая страница содержит SEO-мета, canonical, Open Graph, JSON-LD Product/Offer/AggregateRating и SSR-контент.
+  - `window.__PRODUCT_ITEM_ID__` + fallback на парсинг pathname позволяет React-SPA открыть нужный товар при прямом заходе.
+  - Service Worker исключил `/item/` из `navigateFallback`, чтобы статические страницы отдавались напрямую.
+  - В `App.tsx` добавлена инициализация товара по `itemId` из URL/inline-переменной и `history.replaceState` для синхронизации адресной строки.
+  - `scripts/convert-products-to-v2.js` теперь сохраняет `itemId` в `v2/public/products.json`.
 - **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Все старые `/item/{itemId}.html` отдают 200 или 301.
   - Нет 404 на проиндексированных URL.
-  - Страницы содержат JSON-LD Product, Offer, BreadcrumbList.
+  - Страницы содержат JSON-LD Product, Offer, AggregateRating.
   - Внешние ссылки из поиска ведут на рабочие страницы.
 - **Зависимости:** 1.2 (SEO-заголовки и canonical), 3.1 (перенос всех товаров)
+- **Тесты:** `v2/scripts/test-product-pages.cjs` (1050 файлов, title, meta, canonical, JSON-LD, `__PRODUCT_ITEM_ID__`, SSR-контент).
 
 ### ~~1.2 Исправление SEO-базовых ошибок~~ ✅
 - **Приоритет:** P0

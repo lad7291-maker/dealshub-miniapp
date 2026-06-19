@@ -92,5 +92,10 @@ test('vite.config.ts caches product/category data', () => {
   assert(viteConfig.includes('api-data'), 'should have api-data cache')
 })
 
+test('vite.config.ts keeps /item/ routes out of SW navigation fallback', () => {
+  assert(viteConfig.includes('navigateFallbackDenylist'), 'should define navigateFallbackDenylist')
+  assert(viteConfig.includes('/^\\/item\\//'), 'should exclude /item/ routes from fallback')
+})
+
 console.log('\n' + (failed === 0 ? '✅ All tests passed' : `❌ ${failed} test(s) failed`) + '\n')
 process.exit(failed === 0 ? 0 : 1)

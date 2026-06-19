@@ -124,6 +124,7 @@ function convertProduct(product) {
   const category = CATEGORY_MAP[product.category] || product.category;
   return {
     id: product.id,
+    itemId: product.itemId || String(product.id),
     title: product.title || 'Товар',
     subtitle: makeSubtitle(product.title),
     category,
@@ -236,15 +237,16 @@ function main() {
   if (existing.collections && existing.collections !== '[]') extraTypes.push('Collection');
   if ((existing.mainFAQ && existing.mainFAQ !== '[]') || (existing.promoFAQ && existing.promoFAQ !== '[]')) extraTypes.push('FAQItem');
 
-  const typeImports = ['Stats', ...extraTypes].join(', ');
-  const typeImportLine = typeImports ? `import type { ${typeImports} } from '@/types'` : '';
+  const typeImports = ['Stats', 'Product', 'Category', ...extraTypes].join(', ');
+  const typeImportLine = `import type { ${typeImports} } from '@/types'`;
 
   const renderArray = (name, fallback) => {
     if (existing[name]) return `export const ${name}: any = ${existing[name]};`;
     return `export const ${name}: any = ${fallback};`;
   };
 
-  const output = `${typeImportLine}
+  const output = `/* eslint-disable @typescript-eslint/no-explicit-any */
+${typeImportLine}
 
 export const stats: Stats = {
   productCount: ${products.length},
