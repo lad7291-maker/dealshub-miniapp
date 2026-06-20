@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && node scripts/generate-product-pages.js && node scripts/generate-category-pages.js && node scripts/generate-sitemap.js",
+    "build": "tsc -b && vite build && node scripts/generate-product-pages.js && node scripts/generate-category-pages.js && node scripts/generate-sitemap.js && node scripts/generate-turbo.js && node scripts/generate-yml.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "test:seo": "node scripts/test-seo.cjs",
@@ -15,7 +15,8 @@
     "test:sitemap": "node scripts/test-sitemap.cjs",
     "test:jsonld": "node scripts/test-jsonld.cjs",
     "test:og": "node scripts/test-og.cjs",
-    "test:categories": "node scripts/test-category-pages.cjs"
+    "test:categories": "node scripts/test-category-pages.cjs",
+    "test:turbo-yml": "node scripts/test-turbo-yml.cjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

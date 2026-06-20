@@ -200,17 +200,21 @@
   - Сохраняются старые URL категорий.
 - **Тесты:** `v2/scripts/test-category-pages.cjs` (7 категорий, title, meta, canonical, JSON-LD, SSR, OG, Twitter).
 
-### 2.5 Яндекс Turbo и Yandex Market
+### ~~2.5 Яндекс Turbo и Yandex Market~~ ✅
 - **Приоритет:** P1
 - **Сложность:** M-L
-- **Статус:** backlog
+- **Статус:** ✅ Выполнено
 - **Владелец:** TBD
-- **Задача:**
-  - Заполнить `turbo.xml` реальными страницами.
-  - Заполнить `yandex-market.yml` реальными товарами с правильной валютой (RUB).
+- **Задача:** Заполнить `turbo.xml` реальными страницами. Заполнить `yandex-market.yml` реальными товарами с правильной валютой (RUB).
+- **Результат:**
+  - `generate-turbo.js`: создаёт `turbo.xml` с homepage + 7 категорий + 100 лучших товаров (rating ≥4.0, discount ≥50%, отсортированы по скидке). Все с реальными данными, CDATA-контентом, Yandex analytics ID.
+  - `generate-yml.js`: создаёт `yandex-market.yml` с 1,050 offers, реальными названиями, ценами, изображениями, категориями. Валюта RUR. URL `/item/{itemId}.html`.
+  - Оба фида интегрированы в `npm run build`.
+  - Убраны placeholder-данные из legacy фидов (старый yandex-market.yml имел 1 dummy offer).
 - **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - Feeds валидны и содержат >90% товаров.
+- **Тесты:** `v2/scripts/test-turbo-yml.cjs` (валидность XML/YML, наличие всех полей, отсутствие placeholder-данных, 100+ items в turbo, 1050 offers в YML).
 
 ---
 
