@@ -121,6 +121,10 @@ export function trackSort(sort: string): void {
   trackEvent('select_content', { content_type: 'sort', item_id: sort })
 }
 
+export function trackPagination(page: number, category?: string): void {
+  trackEvent('pagination', { page, category: category || 'all' })
+}
+
 export function trackScrollDepth(mark: number): void {
   trackEvent(`scroll_${mark}`)
 }

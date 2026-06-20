@@ -57,7 +57,7 @@ function findSchema(ldArray, type) {
 console.log('\n=== JSON-LD Structured Data Tests ===\n');
 
 // Test 1: Product pages have Product + Offer + AggregateRating
-const productHtml = fs.readFileSync(path.join(DIST_DIR, 'item', '1005012206415022.html'), 'utf-8');
+const productHtml = fs.readFileSync(path.join(DIST_DIR, 'item', '1005012187879342.html'), 'utf-8');
 const productLd = extractJsonLd(productHtml);
 
 test('product page has JSON-LD Product schema', () => {
@@ -77,7 +77,7 @@ test('product page JSON-LD has AggregateRating', () => {
 
 test('product page JSON-LD has correct sku', () => {
   const products = findSchema(productLd, 'Product');
-  assert(products[0].sku === '1005012206415022', 'sku should match itemId');
+  assert(products[0].sku === '1005012187879342', 'sku should match itemId');
 });
 
 test('product page JSON-LD has correct priceCurrency', () => {

@@ -70,8 +70,8 @@ test('sitemap contains category pages', () => {
 });
 
 test('sitemap contains product pages', () => {
-  assertIncludes(sitemap, 'https://smart-skidka.ru/item/1005012206415022.html');
-  assertIncludes(sitemap, 'https://smart-skidka.ru/item/1005012265934486.html');
+  assertIncludes(sitemap, 'https://smart-skidka.ru/item/1005012187879342.html');
+  assertIncludes(sitemap, 'https://smart-skidka.ru/item/1005012222858754.html');
 });
 
 test('sitemap contains blog posts', () => {
@@ -103,8 +103,8 @@ test('all URLs use https://smart-skidka.ru', () => {
 
 test('sitemap has correct URL count', () => {
   const urlCount = (sitemap.match(/<url>/g) || []).length;
-  // 8 static + 7 categories + 1050 products + 10 blog = 1075
-  assert(urlCount >= 1075, `Expected at least 1075 URLs, got ${urlCount}`);
+  // 8 static + 7 categories + 1000 products + 10 blog = 1025
+  assert(urlCount >= 1025, `Expected at least 1025 URLs, got ${urlCount}`);
 });
 
 console.log('\n' + (failed === 0 ? '✅ All tests passed' : `❌ ${failed} test(s) failed`) + '\n');

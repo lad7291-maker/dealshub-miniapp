@@ -165,7 +165,8 @@ function readExistingStaticData() {
   if (fs.existsSync(DATA_FILE)) {
     const raw = fs.readFileSync(DATA_FILE, 'utf-8');
     const extract = (name) => {
-      const match = raw.match(new RegExp(`export const ${name}[:\s]*=\s*([\s\S]*?)(?=\nexport const |\n\/* =====|$)`));
+      const pattern = `export const ${name}[:\\s]*=\\s*([\\s\\S]*?)(?=\\nexport const |\\n\\/* =====|$)`;
+      const match = raw.match(new RegExp(pattern));
       return match ? match[1].trim() : null;
     };
     const names = ['promoCodes', 'blogPosts', 'collections', 'mainFAQ', 'promoFAQ'];
@@ -181,31 +182,42 @@ function main() {
   console.log('🚀 Converting legacy products to v2 format...');
 
   const allPath = path.join(PRODUCTS_DIR, 'all.json');
-  const indexPath = path.join(PRODUCTS_DIR, 'index.json');
+  const top1000Path = path.join(PRODUCTS_DIR, 'top1000.json');
 
-  if (!fs.existsSync(allPath)) {
+  let rawProducts;
+  if (fs.existsSync(top1000Path)) {
+    console.log('📦 Using top1000.json (pre-selected best products)');
+    rawProducts = JSON.parse(fs.readFileSync(top1000Path, 'utf-8'));
+  } else if (fs.existsSync(allPath)) {
+    console.log('📦 Using all.json');
+    rawProducts = JSON.parse(fs.readFileSync(allPath, 'utf-8'));
+  } else {
     console.error('❌ products/all.json not found');
     process.exit(1);
   }
 
   fs.mkdirSync(PUBLIC_DIR, { recursive: true });
 
-  const rawProducts = JSON.parse(fs.readFileSync(allPath, 'utf-8'));
   const products = rawProducts.map(convertProduct);
 
   console.log(`✅ Converted ${products.length} products`);
 
-  // Category counts
-  const index = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
-  const counts = index.counts || {};
-  const categoryCounts = {
-    electronics: counts.electronics || 0,
-    clothing: counts.clothing || 0,
-    shoes: counts.shoes || 0,
-    home: counts.home || 0,
-    auto: counts.auto || 0,
-    beauty: (counts.beauty || 0) + (counts.jewelry || 0),
-    sport: counts.sports || 0,
+  // Category counts from actual products
+  const categoryCounts = {};
+  for (const p of products) {
+    const cat = p.category;
+    categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+  }
+
+  // Map to v2 category names
+  const v2CategoryCounts = {
+    electronics: categoryCounts.electronics || 0,
+    clothing: categoryCounts.clothing || 0,
+    shoes: categoryCounts.shoes || 0,
+    home: categoryCounts.home || 0,
+    auto: categoryCounts.auto || 0,
+    beauty: (categoryCounts.beauty || 0) + (categoryCounts.jewelry || 0),
+    sport: categoryCounts.sports || 0,
   };
 
   const categories = [
@@ -220,7 +232,7 @@ function main() {
       seoText: '',
       faq: [],
     },
-    ...Object.entries(categoryCounts).map(([cat, count]) => generateCategory(cat, count)),
+    ...Object.entries(v2CategoryCounts).map(([cat, count]) => generateCategory(cat, count)),
   ];
 
   // Write JSON files

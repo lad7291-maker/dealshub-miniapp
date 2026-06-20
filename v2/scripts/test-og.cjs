@@ -7,7 +7,7 @@ const path = require('path');
 
 const V2_DIR = path.join(__dirname, '..');
 const SEO_TSX = fs.readFileSync(path.join(V2_DIR, 'src', 'components', 'SEO.tsx'), 'utf-8');
-const ITEM_PAGE = fs.readFileSync(path.join(V2_DIR, 'dist', 'item', '1005012206415022.html'), 'utf-8');
+const ITEM_PAGE = fs.readFileSync(path.join(V2_DIR, 'dist', 'item', '1005012187879342.html'), 'utf-8');
 
 let passed = 0;
 let failed = 0;

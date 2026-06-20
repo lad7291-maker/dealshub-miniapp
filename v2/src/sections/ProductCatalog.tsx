@@ -3,7 +3,7 @@ import { LayoutGrid, ChevronRight } from 'lucide-react'
 import { ProductCard } from '@/components/ProductCard'
 import { FilterBar } from '@/components/FilterBar'
 import { CategorySidebar } from '@/components/CategorySidebar'
-import { trackFilter, trackSort } from '@/lib/analytics'
+import { trackFilter, trackSort, trackPagination } from '@/lib/analytics'
 import type { Product, Category } from '@/types'
 
 interface ProductCatalogProps {
@@ -25,6 +25,8 @@ export function ProductCatalog({
   const [priceFrom, setPriceFrom] = useState('')
   const [priceTo, setPriceTo] = useState('')
   const [appliedSort, setAppliedSort] = useState('discount')
+  const [currentPage, setCurrentPage] = useState(1)
+  const ITEMS_PER_PAGE = 24
 
   const filteredProducts = useMemo(() => {
     let result = [...products]
@@ -80,25 +82,42 @@ export function ProductCatalog({
     return result
   }, [products, activeCategory, searchQuery, discountFilter, priceFrom, priceTo, appliedSort])
 
+  const handleSortChange = (value: string) => {
+    setCurrentPage(1)
+    setAppliedSort(value)
+    trackSort(value)
+  }
+
+  const handleDiscountFilterChange = (value: string) => {
+    setCurrentPage(1)
+    setDiscountFilter(value)
+    if (value !== 'all') trackFilter(`discount_${value}`)
+  }
+
   const handleResetFilters = () => {
+    setCurrentPage(1)
     setDiscountFilter('all')
     setPriceFrom('')
     setPriceTo('')
     trackFilter('reset')
   }
 
-  const handleDiscountFilterChange = (value: string) => {
-    setDiscountFilter(value)
-    if (value !== 'all') trackFilter(`discount_${value}`)
-  }
-
   const handleApplyPriceFilter = () => {
     trackFilter(`price_${priceFrom || 0}_${priceTo || 'max'}`)
   }
 
-  const handleSortChange = (value: string) => {
-    setAppliedSort(value)
-    trackSort(value)
+  const paginatedProducts = useMemo(() => {
+    const start = (currentPage - 1) * ITEMS_PER_PAGE
+    return filteredProducts.slice(start, start + ITEMS_PER_PAGE)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filteredProducts, currentPage])
+
+  const totalPages = Math.ceil(filteredProducts.length / ITEMS_PER_PAGE)
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page)
+    trackPagination(page, activeCategory)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   const activeCategoryName = categories.find(c => c.id === activeCategory)?.name || 'Все'
@@ -153,18 +172,43 @@ export function ProductCatalog({
           />
 
           {/* Product Grid */}
-          {filteredProducts.length > 0 ? (
-            <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-4">
-              {filteredProducts.map((product) => (
-                <ProductCard
-                  key={product.id}
-                  product={product}
-                  isFavorite={favorites.includes(product.id)}
-                  onToggleFavorite={onToggleFavorite}
-                  onProductClick={onProductClick}
-                />
-              ))}
-            </div>
+          {paginatedProducts.length > 0 ? (
+            <>
+              <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-4">
+                {paginatedProducts.map((product) => (
+                  <ProductCard
+                    key={product.id}
+                    product={product}
+                    isFavorite={favorites.includes(product.id)}
+                    onToggleFavorite={onToggleFavorite}
+                    onProductClick={onProductClick}
+                  />
+                ))}
+              </div>
+
+              {/* Pagination */}
+              {totalPages > 1 && (
+                <div className="flex items-center justify-center gap-2 mt-6">
+                  <button
+                    onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
+                    disabled={currentPage === 1}
+                    className="px-3 py-1.5 rounded-lg text-sm font-medium bg-slate-700 text-white hover:bg-slate-600 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+                  >
+                    ← Назад
+                  </button>
+                  <span className="text-sm text-slate-400 px-2">
+                    Страница {currentPage} из {totalPages}
+                  </span>
+                  <button
+                    onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
+                    disabled={currentPage === totalPages}
+                    className="px-3 py-1.5 rounded-lg text-sm font-medium bg-slate-700 text-white hover:bg-slate-600 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+                  >
+                    Вперёд →
+                  </button>
+                </div>
+              )}
+            </>
           ) : (
             <div className="text-center py-16">
               <LayoutGrid className="w-12 h-12 text-slate-600 mx-auto mb-3" />

@@ -2,7 +2,7 @@
 import type { Stats, Product, Category } from '@/types'
 
 export const stats: Stats = {
-  productCount: 1050,
+  productCount: 1000,
   categoryCount: 7,
   yearLaunched: 2024,
   dailyDeals: 50,
