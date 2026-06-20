@@ -183,16 +183,22 @@
   - Facebook/Twitter/Telegram показывают красивую карточку при шаринге.
 - **Тесты:** `v2/scripts/test-og.cjs` (SEO.tsx и статические товарные страницы).
 
-### 2.4 Генерация статических категорийных страниц
+### ~~2.4 Генерация статических категорийных страниц~~ ✅
 - **Приоритет:** P1
 - **Сложность:** L
-- **Статус:** backlog
+- **Статус:** ✅ Выполнено
 - **Владелец:** TBD
 - **Задача:** Сгенерировать `/{category}.html` страницы с ItemList JSON-LD (или настроить SSR/SSG).
+- **Результат:**
+  - Скрипт `v2/scripts/generate-category-pages.js` создаёт 7 HTML-файлов в `v2/dist/` (electronics, clothing, shoes, home, auto, beauty, sport).
+  - Каждая страница содержит: SEO-title, meta description, canonical, OG, Twitter, JSON-LD ItemList с 24 товарами, SSR-контент с карточками товаров.
+  - `window.__CATEGORY_SLUG__` для инициализации SPA при прямом заходе.
+  - Интегрирован в `npm run build` после товарных страниц.
 - **DoD:** См. раздел [Definition of Done](#definition-of-done-dod).
 - **Критерии приёмки:**
   - `/electronics.html` и другие категории отдают 200 с SEO-контентом.
   - Сохраняются старые URL категорий.
+- **Тесты:** `v2/scripts/test-category-pages.cjs` (7 категорий, title, meta, canonical, JSON-LD, SSR, OG, Twitter).
 
 ### 2.5 Яндекс Turbo и Yandex Market
 - **Приоритет:** P1
