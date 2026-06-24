@@ -342,7 +342,7 @@ function createProductCard(product, index) {
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                     Доставка по условиям продавца на AliExpress
                 </div>
-                <a href="${product.itemId ? generateDeeplink(product.itemId, product.aliLink, product.category) : product.aliLink}" class="buy-btn" data-id="${product.id}" target="_blank" rel="noopener">
+                <a href="${product.itemId ? generateDeeplink(product.itemId, product.aliLink, product.category) : product.aliLink}" class="buy-btn" data-id="${product.id}" target="_blank" rel="noopener noreferrer">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                     На AliExpress →
                 </a>
@@ -978,7 +978,7 @@ function openProductModal(id) {
                 Доставка по условиям продавца на AliExpress
             </div>
             <div class="modal-actions">
-                <a href="${product.itemId ? generateDeeplink(product.itemId, product.aliLink, product.category) : product.aliLink}" class="buy-btn" target="_blank" rel="noopener" onclick="showToast('success', 'Переход на AliExpress...'); if(typeof gtag==='function')gtag('event','purchase',{item_id:${product.id},value:${product.price},currency:'RUB'}); if(typeof ym==='function')ym(109145874,'reachGoal','purchase');">
+                <a href="${product.itemId ? generateDeeplink(product.itemId, product.aliLink, product.category) : product.aliLink}" class="buy-btn" target="_blank" rel="noopener noreferrer" onclick="showToast('success', 'Переход на AliExpress...'); if(typeof gtag==='function')gtag('event','purchase',{item_id:${product.id},value:${product.price},currency:'RUB'}); if(typeof ym==='function')ym(109145874,'reachGoal','purchase');">
                     Купить на AliExpress →
                 </a>
                 <p class="affiliate-note"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2v1"/><path d="M12 7a5 5 0 0 1 5 5c0 2.5-2 4.5-5 6-3-1.5-5-3.5-5-6a5 5 0 0 1 5-5z"/></svg>Актуальная цена на AliExpress</p>
@@ -1146,7 +1146,7 @@ function renderFavorites() {
                     <div class="fav-item-price">${product.price.toLocaleString('ru-RU')} ₽</div>
                     <div class="fav-item-original">${product.originalPrice.toLocaleString('ru-RU')} ₽</div>
                     <div class="fav-item-actions">
-                        <a href="${product.itemId ? generateDeeplink(product.itemId, product.aliLink, product.category) : product.aliLink}" class="fav-buy-btn" target="_blank" rel="noopener">Купить на AliExpress →</a>
+                        <a href="${product.itemId ? generateDeeplink(product.itemId, product.aliLink, product.category) : product.aliLink}" class="fav-buy-btn" target="_blank" rel="noopener noreferrer">Купить на AliExpress →</a>
                         <button class="fav-remove-btn" onclick="toggleFavorite(${product.id})">Удалить</button>
                     </div>
                 </div>

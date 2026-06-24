@@ -147,11 +147,23 @@ function getInitialItemId(): string | null {
   )
 }
 
+function getInitialCategory(): string {
+  if (typeof window === 'undefined') return 'all'
+  const slug = (window as { __CATEGORY_SLUG__?: string }).__CATEGORY_SLUG__
+  if (slug) return slug
+  const match = window.location.pathname.match(/^\/(\w+)\.html$/)
+  if (!match) return 'all'
+  const cat = match[1]
+  const valid = ['electronics', 'clothing', 'shoes', 'home', 'auto', 'beauty', 'sport']
+  return valid.includes(cat) ? cat : 'all'
+}
+
 function App() {
   const { favorites, toggleFavorite, clearFavorites } = useFavorites()
   const initialItemId = getInitialItemId()
+  const initialCategory = getInitialCategory()
   const [currentPage, setCurrentPage] = useState<Page>(initialItemId ? 'product' : 'home')
-  const [activeCategory, setActiveCategory] = useState('all')
+  const [activeCategory, setActiveCategory] = useState(initialCategory)
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedProductItemId, setSelectedProductItemId] = useState<string | null>(initialItemId)
   const [aiSearchQuery, setAiSearchQuery] = useState('')
@@ -220,7 +232,11 @@ function App() {
     setSelectedProductItemId(null)
     trackCategory(cat)
     if (window.location.pathname !== '/') history.replaceState(null, '', '/')
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    // Scroll to catalog, not to top
+    setTimeout(() => {
+      const catalog = document.getElementById('catalog')
+      if (catalog) catalog.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 50)
   }, [])
 
   const handleSearch = useCallback((query: string) => {

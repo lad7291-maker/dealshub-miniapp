@@ -22,11 +22,9 @@ export function ProductCatalog({
   favorites, onToggleFavorite, onProductClick, searchQuery,
 }: ProductCatalogProps) {
   const [discountFilter, setDiscountFilter] = useState('all')
-  const [priceFrom, setPriceFrom] = useState('')
-  const [priceTo, setPriceTo] = useState('')
   const [appliedSort, setAppliedSort] = useState('discount')
-  const [currentPage, setCurrentPage] = useState(1)
-  const ITEMS_PER_PAGE = 24
+  const ITEMS_PER_PAGE = 12
+  const [displayCount, setDisplayCount] = useState(ITEMS_PER_PAGE)
 
   const filteredProducts = useMemo(() => {
     let result = [...products]
@@ -52,16 +50,6 @@ export function ProductCatalog({
       result = result.filter(p => p.discount >= min)
     }
 
-    // Price filter
-    if (priceFrom) {
-      const min = parseInt(priceFrom)
-      result = result.filter(p => p.price >= min)
-    }
-    if (priceTo) {
-      const max = parseInt(priceTo)
-      result = result.filter(p => p.price <= max)
-    }
-
     // Sort
     switch (appliedSort) {
       case 'price_asc':
@@ -80,44 +68,32 @@ export function ProductCatalog({
     }
 
     return result
-  }, [products, activeCategory, searchQuery, discountFilter, priceFrom, priceTo, appliedSort])
+  }, [products, activeCategory, searchQuery, discountFilter, appliedSort])
 
-  const handleSortChange = (value: string) => {
-    setCurrentPage(1)
-    setAppliedSort(value)
-    trackSort(value)
-  }
+  const visibleProducts = useMemo(() => {
+    return filteredProducts.slice(0, displayCount)
+  }, [filteredProducts, displayCount])
 
   const handleDiscountFilterChange = (value: string) => {
-    setCurrentPage(1)
+    setDisplayCount(ITEMS_PER_PAGE)
     setDiscountFilter(value)
     if (value !== 'all') trackFilter(`discount_${value}`)
   }
 
   const handleResetFilters = () => {
-    setCurrentPage(1)
+    setDisplayCount(ITEMS_PER_PAGE)
     setDiscountFilter('all')
-    setPriceFrom('')
-    setPriceTo('')
     trackFilter('reset')
   }
 
-  const handleApplyPriceFilter = () => {
-    trackFilter(`price_${priceFrom || 0}_${priceTo || 'max'}`)
+  const handleLoadMore = () => {
+    setDisplayCount(prev => prev + ITEMS_PER_PAGE)
+    trackPagination(displayCount / ITEMS_PER_PAGE + 1, activeCategory)
   }
 
-  const paginatedProducts = useMemo(() => {
-    const start = (currentPage - 1) * ITEMS_PER_PAGE
-    return filteredProducts.slice(start, start + ITEMS_PER_PAGE)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filteredProducts, currentPage])
-
-  const totalPages = Math.ceil(filteredProducts.length / ITEMS_PER_PAGE)
-
-  const handlePageChange = (page: number) => {
-    setCurrentPage(page)
-    trackPagination(page, activeCategory)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+  const handleSortChange = (value: string) => {
+    setAppliedSort(value)
+    trackSort(value)
   }
 
   const activeCategoryName = categories.find(c => c.id === activeCategory)?.name || 'Все'
@@ -136,18 +112,6 @@ export function ProductCatalog({
 
         {/* Main Content */}
         <div className="flex-1 min-w-0">
-          {/* Mobile Category Chips */}
-          <div className="lg:hidden flex gap-2 overflow-x-auto pb-3 mb-2 -mx-1 px-1 scrollbar-hide">
-            {categories.map(cat => (
-              <button
-                key={cat.id}
-                onClick={() => onCategoryChange(cat.id)}
-                className={`shrink-0 px-3 py-1.5 rounded-full text-xs font-medium transition-all ${activeCategory === cat.id ? 'bg-cyan-500 text-white' : 'bg-slate-700/50 text-slate-300 hover:bg-slate-700'}`}
-              >
-                {cat.name}
-              </button>
-            ))}
-          </div>
 
           {/* Category Title */}
           <div className="flex items-center gap-2 mb-4">
@@ -160,11 +124,6 @@ export function ProductCatalog({
           <FilterBar
             discountFilter={discountFilter}
             onDiscountFilterChange={handleDiscountFilterChange}
-            priceFrom={priceFrom}
-            priceTo={priceTo}
-            onPriceFromChange={setPriceFrom}
-            onPriceToChange={setPriceTo}
-            onApplyPriceFilter={handleApplyPriceFilter}
             onResetFilters={handleResetFilters}
             productCount={filteredProducts.length}
             sortValue={appliedSort}
@@ -172,39 +131,27 @@ export function ProductCatalog({
           />
 
           {/* Product Grid */}
-          {paginatedProducts.length > 0 ? (
+          {visibleProducts.length > 0 ? (
             <>
               <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-4">
-                {paginatedProducts.map((product) => (
+                {visibleProducts.map((product) => (
                   <ProductCard
                     key={product.id}
                     product={product}
                     isFavorite={favorites.includes(product.id)}
-                    onToggleFavorite={onToggleFavorite}
-                    onProductClick={onProductClick}
+                    onToggleFavorite={() => onToggleFavorite(product.id)}
+                    onProductClick={() => onProductClick(product.id)}
                   />
                 ))}
               </div>
 
-              {/* Pagination */}
-              {totalPages > 1 && (
-                <div className="flex items-center justify-center gap-2 mt-6">
+              {visibleProducts.length < filteredProducts.length && (
+                <div className="text-center mt-6">
                   <button
-                    onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
-                    disabled={currentPage === 1}
-                    className="px-3 py-1.5 rounded-lg text-sm font-medium bg-slate-700 text-white hover:bg-slate-600 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+                    onClick={handleLoadMore}
+                    className="px-6 py-3 bg-cyan-500/10 border border-cyan-500/30 rounded-xl text-cyan-400 hover:bg-cyan-500/20 transition-colors"
                   >
-                    ← Назад
-                  </button>
-                  <span className="text-sm text-slate-400 px-2">
-                    Страница {currentPage} из {totalPages}
-                  </span>
-                  <button
-                    onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
-                    disabled={currentPage === totalPages}
-                    className="px-3 py-1.5 rounded-lg text-sm font-medium bg-slate-700 text-white hover:bg-slate-600 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
-                  >
-                    Вперёд →
+                    Ещё товары ({filteredProducts.length - visibleProducts.length} осталось)
                   </button>
                 </div>
               )}

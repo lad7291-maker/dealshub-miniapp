@@ -1,37 +1,28 @@
 /**
  * SmartSkidka.ru — Deeplink Generator
  *
- * Использует прямые ссылки через s.click.aliexpress.com (Admitad)
- * Каждый товар получает уникальную партнёрскую ссылку на свой itemId
+ * Использует готовые affiliate-ссылки из фида Admitad (rzekl.com)
+ * Каждый товар получает уникальную партнёрскую ссылку
  */
 
 (function () {
-  const ADMITAD_KEY = '_c3s1yQkJ';
-  const ADMITAD_ID = '2529186';
-  const PROGRAM_ID = '47843';
-
   function generateDeeplink(itemId, aliLink, category) {
-    // Всегда генерируем уникальную ссылку через s.click.aliexpress.com
-    // Это гарантирует что каждый товар ведёт на СВОЮ страницу
-    if (itemId && itemId.length > 5) {
-      const targetUrl = encodeURIComponent(
-        'https://aliexpress.ru/item/' + itemId + '.html?af=' + ADMITAD_ID + '&cv=' + PROGRAM_ID
-      );
-      return (
-        'https://s.click.aliexpress.com/deep_link.htm?aff_short_key=' +
-        ADMITAD_KEY +
-        '&dl_target_url=' +
-        targetUrl
-      );
+    // Если есть готовая affiliate-ссылка из фида — используем её
+    if (aliLink && aliLink.includes('rzekl.com')) {
+      return aliLink;
+    }
+
+    // Fallback: если есть прямая ссылка на aliexpress.com
+    if (aliLink && aliLink.includes('aliexpress.com/item/')) {
+      return aliLink;
     }
 
     // Fallback: поиск по категории
     const searchUrl = encodeURIComponent(
-      'https://aliexpress.ru/wholesale?SearchText=' + encodeURIComponent(category || 'smartskidka')
+      'https://aliexpress.com/wholesale?SearchText=' + encodeURIComponent(category || 'smartskidka')
     );
     return (
-      'https://s.click.aliexpress.com/deep_link.htm?aff_short_key=' +
-      ADMITAD_KEY +
+      'https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ' +
       '&dl_target_url=' +
       searchUrl
     );
@@ -39,11 +30,10 @@
 
   function generateSearchDeeplink(query, subid) {
     const searchUrl = encodeURIComponent(
-      'https://aliexpress.ru/wholesale?SearchText=' + encodeURIComponent(query || 'smartskidka')
+      'https://aliexpress.com/wholesale?SearchText=' + encodeURIComponent(query || 'smartskidka')
     );
     return (
-      'https://s.click.aliexpress.com/deep_link.htm?aff_short_key=' +
-      ADMITAD_KEY +
+      'https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3s1yQkJ' +
       '&dl_target_url=' +
       searchUrl
     );

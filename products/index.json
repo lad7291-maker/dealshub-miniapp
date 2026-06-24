@@ -1,8 +1,8 @@
 {
   "categories": [
     "home",
-    "sports",
     "electronics",
+    "sports",
     "auto",
     "jewelry",
     "beauty",
@@ -11,13 +11,13 @@
   ],
   "total": 1000,
   "counts": {
-    "home": 529,
-    "sports": 97,
-    "electronics": 246,
-    "auto": 101,
-    "jewelry": 9,
-    "beauty": 12,
-    "clothing": 5,
-    "toys": 1
+    "home": 532,
+    "electronics": 267,
+    "sports": 77,
+    "auto": 87,
+    "jewelry": 12,
+    "beauty": 14,
+    "clothing": 8,
+    "toys": 3
   }
 }

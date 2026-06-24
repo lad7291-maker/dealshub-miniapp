@@ -12,8 +12,8 @@ interface ProductCardProps {
 
 const badgeConfig: Record<string, { label: string; className: string }> = {
   bestseller: { label: 'Хит продаж', className: 'bg-amber-500/20 text-amber-400 border-amber-500/30' },
-  topRated: { label: 'Лучший рейтинг', className: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' },
-  bestPrice: { label: 'Лучшая цена', className: 'bg-cyan-500/20 text-cyan-400 border-cyan-500/30' },
+  topRated: { label: 'Высокий рейтинг', className: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' },
+  bestPrice: { label: 'Выгодная цена', className: 'bg-cyan-500/20 text-cyan-400 border-cyan-500/30' },
   flash: { label: 'Флеш-скидка', className: 'bg-red-500/20 text-red-400 border-red-500/30' },
   new: { label: 'Новинка', className: 'bg-purple-500/20 text-purple-400 border-purple-500/30' },
 }

@@ -1,14 +1,8 @@
 import { SlidersHorizontal, X, ArrowUpDown } from 'lucide-react'
-import { Button } from '@/components/ui/button'
 
 interface FilterBarProps {
   discountFilter: string
   onDiscountFilterChange: (filter: string) => void
-  priceFrom: string
-  priceTo: string
-  onPriceFromChange: (value: string) => void
-  onPriceToChange: (value: string) => void
-  onApplyPriceFilter: () => void
   onResetFilters: () => void
   productCount: number
   sortValue?: string
@@ -17,8 +11,7 @@ interface FilterBarProps {
 
 export function FilterBar({
   discountFilter, onDiscountFilterChange,
-  priceFrom, priceTo, onPriceFromChange, onPriceToChange,
-  onApplyPriceFilter, onResetFilters, productCount,
+  onResetFilters, productCount,
   sortValue = 'discount', onSortChange,
 }: FilterBarProps) {
   const discountOptions = [
@@ -36,7 +29,7 @@ export function FilterBar({
     { value: 'orders', label: 'По популярности' },
   ]
 
-  const hasActiveFilters = discountFilter !== 'all' || priceFrom || priceTo
+  const hasActiveFilters = discountFilter !== 'all'
 
   return (
     <div className="bg-[#1e293b]/60 border border-slate-700/30 rounded-2xl p-3 sm:p-4 mb-4 sm:mb-6">
@@ -55,38 +48,10 @@ export function FilterBar({
           ))}
         </div>
 
-        {/* Price & Sort */}
-        <div className="flex flex-wrap items-center gap-2 sm:gap-3">
-          <span className="text-xs text-slate-400">Цена:</span>
-          <div className="flex items-center gap-2">
-            <input
-              type="number"
-              placeholder="От ₽"
-              value={priceFrom}
-              onChange={e => onPriceFromChange(e.target.value)}
-              className="w-20 sm:w-24 h-8 px-2 bg-slate-700/50 border border-slate-600 rounded-lg text-white text-xs placeholder:text-slate-500 focus:outline-none focus:border-cyan-500"
-            />
-            <span className="text-slate-500">—</span>
-            <input
-              type="number"
-              placeholder="До ₽"
-              value={priceTo}
-              onChange={e => onPriceToChange(e.target.value)}
-              className="w-20 sm:w-24 h-8 px-2 bg-slate-700/50 border border-slate-600 rounded-lg text-white text-xs placeholder:text-slate-500 focus:outline-none focus:border-cyan-500"
-            />
-            <Button
-              onClick={onApplyPriceFilter}
-              variant="outline"
-              size="sm"
-              className="h-8 px-3 text-xs border-cyan-500/30 text-cyan-400 hover:bg-cyan-500/10"
-            >
-              ОК
-            </Button>
-          </div>
-
-          {/* Sort */}
+        {/* Sort & Reset */}
+        <div className="flex items-center gap-2">
           {onSortChange && (
-            <div className="flex items-center gap-2 ml-auto">
+            <div className="flex items-center gap-2">
               <ArrowUpDown className="w-3.5 h-3.5 text-slate-400" />
               <select
                 value={sortValue}
@@ -109,11 +74,10 @@ export function FilterBar({
               Сбросить
             </button>
           )}
-        </div>
 
-        {/* Count */}
-        <div className="text-xs text-slate-500">
-          {productCount} товаров
+          <div className="text-xs text-slate-500 ml-auto">
+            {productCount} товаров
+          </div>
         </div>
       </div>
     </div>

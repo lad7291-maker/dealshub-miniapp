@@ -39,3 +39,4 @@ rzekl_redirect_working.png
 # Build artifacts (if any)
 dist/
 build/
+feed_raw.xml.gz
