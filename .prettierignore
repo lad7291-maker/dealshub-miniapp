@@ -11,3 +11,8 @@ yandex-market.yml
 css/style.css
 .playwright-mcp/
 package-lock.json
+assets/
+sw.js
+workbox-*.js
+registerSW.js
+manifest.webmanifest
