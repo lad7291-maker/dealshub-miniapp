@@ -157,7 +157,7 @@ export function ProductCard({
         {/* CTA Buttons */}
         <div className="flex gap-2">
           <a
-            href={product.affiliateLink}
+            href={product.affiliateLink || product.aliLink || '#'}
             target="_blank"
             rel="noopener noreferrer sponsored nofollow"
             onClick={(e) => {

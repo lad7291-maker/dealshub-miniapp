@@ -171,7 +171,7 @@ export function ProductPage({ product, isFavorite, onToggleFavorite, onBack }: P
           {/* Actions */}
           <div className="flex flex-col sm:flex-row gap-3 mt-auto">
             <a
-              href={product.affiliateLink}
+              href={product.affiliateLink || product.aliLink || '#'}
               target="_blank"
               rel="noopener noreferrer sponsored nofollow"
               onClick={() =>

@@ -18,7 +18,8 @@ export interface Product {
   tags: string[];
   badges: Badge[];
   features: string[];
-  affiliateLink: string;
+  affiliateLink?: string;
+  aliLink?: string;
   shipping: string;
   shopName: string;
 }

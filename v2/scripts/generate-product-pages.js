@@ -86,7 +86,7 @@ function generateProductHtml(product, indexHtml) {
         <p class="discount">Экономия: <strong>${product.discount}%</strong></p>
         <p class="rating">Рейтинг: ${product.rating} ★</p>
         <p class="orders">Заказов: ${product.orders}</p>
-        <p><a class="buy-link" href="${escapeHtml(product.affiliateLink)}" target="_blank" rel="nofollow noopener">Купить на AliExpress</a></p>
+        <p><a class="buy-link" href="${escapeHtml(product.affiliateLink || product.aliLink || '')}" target="_blank" rel="nofollow noopener">Купить на AliExpress</a></p>
       </section>
     </article>
   `;
