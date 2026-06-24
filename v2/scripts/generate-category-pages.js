@@ -52,7 +52,7 @@ function generateCategoryJsonLd(category, products) {
 }
 
 function generateCategoryHtml(category, products, indexHtml) {
-  const slug = category.slug;
+  const slug = category.slug || category.id;
   const title =
     category.seoTitle ||
     `Скидки AliExpress на ${category.name} — лучшие предложения | SmartSkidka.ru`;
@@ -141,7 +141,8 @@ function main() {
   for (const category of categories) {
     if (category.id === 'all') continue;
     const html = generateCategoryHtml(category, products, indexHtml);
-    fs.writeFileSync(path.join(DIST_DIR, `${category.slug}.html`), html, 'utf-8');
+    const slug = category.slug || category.id;
+    fs.writeFileSync(path.join(DIST_DIR, `${slug}.html`), html, 'utf-8');
     generated++;
   }
 
