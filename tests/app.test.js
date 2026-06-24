@@ -1,5 +1,5 @@
 /* ============================================
-   SmartSkidka.ru — Basic Tests
+   SmartSkidka.ru — v2 Tests
    Run: node tests/app.test.js
    ============================================ */
 
@@ -24,21 +24,28 @@ function assert(cond, msg) {
   if (!cond) throw new Error(msg || 'Assertion failed');
 }
 
-console.log('\n=== SmartSkidka Tests ===\n');
+console.log('\n=== SmartSkidka v2 Tests ===\n');
 
-// Test 1: Files exist
+// Test 1: v2 Files exist
 console.log('File Structure:');
 test('index.html exists', () => assert(fs.existsSync('index.html')));
 test('sw.js exists', () => assert(fs.existsSync('sw.js')));
-test('css/style.css exists', () => assert(fs.existsSync('css/style.css')));
-test('js/app.js exists', () => assert(fs.existsSync('js/app.js')));
-test('js/products-loader.js exists', () => assert(fs.existsSync('js/products-loader.js')));
+test('assets/index-*.js exists', () => {
+  const assets = fs.readdirSync('assets').filter((f) => f.endsWith('.js'));
+  assert(assets.length > 0, 'no JS assets found');
+});
+test('assets/index-*.css exists', () => {
+  const assets = fs.readdirSync('assets').filter((f) => f.endsWith('.css'));
+  assert(assets.length > 0, 'no CSS assets found');
+});
 
-// Test 2: Category pages exist
-console.log('\nCategory Pages:');
-const cats = ['electronics', 'clothing', 'home', 'auto', 'beauty', 'jewelry', 'sports', 'toys'];
-cats.forEach((cat) => {
-  test(cat + '.html exists', () => assert(fs.existsSync(cat + '.html')));
+// Test 2: v2 Data files
+console.log('\nData Files:');
+test('products.json exists', () => assert(fs.existsSync('products.json')));
+test('categories.json exists', () => assert(fs.existsSync('categories.json')));
+test('products.json has items', () => {
+  const data = JSON.parse(fs.readFileSync('products.json', 'utf8'));
+  assert(Array.isArray(data) && data.length > 0, 'products.json is empty');
 });
 
 // Test 3: Item pages exist
@@ -47,81 +54,45 @@ test('item directory exists and has pages', () => {
   const items = fs.readdirSync('item').filter((f) => f.endsWith('.html'));
   assert(items.length > 0, 'no item pages found');
 });
-
-// Test 4: JSON data exists
-console.log('\nData Files:');
-test('products/all.json exists', () => assert(fs.existsSync('products/all.json')));
-test('products/index.json exists', () => assert(fs.existsSync('products/index.json')));
-
-// Test 5: JS syntax
-console.log('\nJS Syntax:');
-test('app.js is valid JS', () => {
-  const code = fs.readFileSync('js/app.js', 'utf8');
-  assert(code.includes('function escapeHtml'), 'escapeHtml not found');
-  assert(code.includes('function createProductCard'), 'createProductCard not found');
-});
-test('products-loader.js is valid JS', () => {
-  const code = fs.readFileSync('js/products-loader.js', 'utf8');
-  assert(code.includes('loadInitialProducts'), 'loadInitialProducts not found');
-  assert(!code.includes('cacheBuster'), 'cacheBuster should be removed');
-  assert(!code.includes("cache: 'no-store'"), 'no-store should be removed');
+test('item pages have product meta', () => {
+  const items = fs.readdirSync('item').filter((f) => f.endsWith('.html'));
+  const sample = fs.readFileSync('item/' + items[0], 'utf8');
+  assert(sample.includes('product:price:amount'), 'missing product:price:amount');
 });
 
-// Test 6: Security
-console.log('\nSecurity:');
-test('escapeHtml function exists', () => {
-  const code = fs.readFileSync('js/app.js', 'utf8');
-  assert(code.includes('function escapeHtml'), 'escapeHtml not found');
-});
-test('XSS: product.title is escaped', () => {
-  const code = fs.readFileSync('js/app.js', 'utf8');
-  assert(code.includes('escapeHtml(product.title)'), 'product.title not escaped');
-});
-test('Favorites limit exists', () => {
-  const code = fs.readFileSync('js/app.js', 'utf8');
-  assert(code.includes('FAV_MAX_SIZE'), 'FAV_MAX_SIZE not found');
-});
-
-// Test 7: Analytics
-console.log('\nAnalytics:');
-test('gtag search event exists', () => {
-  const code = fs.readFileSync('js/app.js', 'utf8');
-  assert(code.includes("gtag('event', 'search'"), 'search event not found');
-});
-test('gtag purchase event exists', () => {
-  const code = fs.readFileSync('js/app.js', 'utf8');
-  assert(code.includes("gtag('event','purchase'"), 'purchase event not found');
-});
-
-// Test 8: SEO
+// Test 4: SEO
 console.log('\nSEO:');
 test('sitemap.xml exists', () => assert(fs.existsSync('sitemap.xml')));
-test('sitemap has category pages', () => {
+test('robots.txt exists', () => assert(fs.existsSync('robots.txt')));
+test('sitemap has item pages', () => {
   const sitemap = fs.readFileSync('sitemap.xml', 'utf8');
-  assert(sitemap.includes('electronics.html'), 'electronics not in sitemap');
+  assert(sitemap.includes('item/'), 'item pages not in sitemap');
 });
 test('blog posts in sitemap', () => {
   const sitemap = fs.readFileSync('sitemap.xml', 'utf8');
   assert(sitemap.includes('blog/'), 'blog not in sitemap');
 });
 
-// Test 9: PWA
+// Test 5: PWA
 console.log('\nPWA:');
 test('manifest.json exists', () => assert(fs.existsSync('manifest.json')));
-test('Service Worker registered', () => {
-  const html = fs.readFileSync('index.html', 'utf8');
-  assert(html.includes('serviceWorker.register'), 'SW registration not found');
+test('manifest.webmanifest exists', () => assert(fs.existsSync('manifest.webmanifest')));
+test('Service Worker script exists', () => assert(fs.existsSync('sw.js')));
+test('registerSW.js exists', () => assert(fs.existsSync('registerSW.js')));
+
+// Test 6: Affiliate links
+console.log('\nAffiliate Links:');
+test('products have affiliate links', () => {
+  const products = JSON.parse(fs.readFileSync('products.json', 'utf8'));
+  const hasLink = products.some((p) => p.affiliateLink || p.aliLink);
+  assert(hasLink, 'no affiliate links found');
 });
 
-// Test 10: Performance
+// Test 7: Performance
 console.log('\nPerformance:');
-test('products.js is reasonable (< 2MB)', () => {
-  const size = fs.statSync('js/products.js').size;
-  assert(size < 2 * 1024 * 1024, 'products.js is ' + size + ' bytes, should be < 2MB');
-});
-test('No cache-buster in products-loader', () => {
-  const code = fs.readFileSync('js/products-loader.js', 'utf8');
-  assert(!code.includes('Date.now()'), 'Date.now() cache buster found');
+test('products.json is reasonable (< 5MB)', () => {
+  const size = fs.statSync('products.json').size;
+  assert(size < 5 * 1024 * 1024, 'products.json is ' + size + ' bytes, should be < 5MB');
 });
 
 // Summary
