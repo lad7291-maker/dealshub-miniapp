@@ -2,8 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /*?*
+
 Sitemap: https://smart-skidka.ru/sitemap.xml
 Host: https://smart-skidka.ru
-
-# Yandex Turbo
-Sitemap: https://smart-skidka.ru/turbo.xml

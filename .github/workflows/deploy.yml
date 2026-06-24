@@ -13,13 +13,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js for v1
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
 
-      - name: Install dependencies
+      - name: Install v1 dependencies
         run: npm ci
 
       - name: Update product feed
@@ -28,10 +28,36 @@ jobs:
         run: npm run update-feed
         continue-on-error: true
 
-      - name: Generate item pages and sitemap
+      - name: Generate v1 item pages and sitemap
         run: |
           npm run generate-items
           npm run build
+
+      - name: Setup Node.js for v2
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: v2/package-lock.json
+
+      - name: Install v2 dependencies
+        run: |
+          cd v2
+          npm ci
+
+      - name: Sync products to v2
+        run: |
+          cp products/all.json v2/public/products.json
+
+      - name: Build v2
+        run: |
+          cd v2
+          npm run build
+
+      - name: Copy v2 build to root
+        run: |
+          cp -r v2/dist/* .
+          cp -r v2/dist/assets . 2>/dev/null || true
 
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.9.0
@@ -52,6 +78,7 @@ jobs:
             --exclude='.git' \
             --exclude='.github' \
             --exclude='node_modules' \
+            --exclude='v2/node_modules' \
             --exclude='.env' \
             --exclude='.playwright-mcp' \
             --exclude='bugtest_*.png' \
