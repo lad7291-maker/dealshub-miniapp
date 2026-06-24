@@ -54,7 +54,19 @@ export const howItWorksSteps = [
 export async function loadProducts(): Promise<Product[]> {
   const res = await fetch('/products.json');
   if (!res.ok) throw new Error('Failed to load products');
-  return res.json();
+  const data: any[] = await res.json();
+  return data.map((p) => ({
+    ...p,
+    oldPrice: p.originalPrice ?? p.oldPrice ?? p.price,
+    viewers: p.viewers ?? 0,
+    shipping: p.shipping ?? 'Бесплатная доставка',
+    shopName: p.shopName ?? 'AliExpress Official',
+    badges: p.badges ?? [],
+    features: p.features ?? (p.specs ? Object.entries(p.specs).map(([k, v]) => `${k}: ${v}`) : []),
+    tags: p.tags ?? [],
+    subtitle: p.subtitle ?? '',
+    subcategory: p.subcategory ?? p.category,
+  }));
 }
 
 export async function loadCategories(): Promise<Category[]> {
