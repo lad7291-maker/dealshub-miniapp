@@ -1,1 +1,64 @@
-if(!self.define){let e,s={};const i=(i,n)=>(i=new URL(i+".js",n).href,s[i]||new Promise(s=>{if("document"in self){const e=document.createElement("script");e.src=i,e.onload=s,document.head.appendChild(e)}else e=i,importScripts(i),s()}).then(()=>{let e=s[i];if(!e)throw new Error(`Module ${i} didn’t register its module`);return e}));self.define=(n,r)=>{const t=e||("document"in self?document.currentScript.src:"")||location.href;if(s[t])return;let o={};const c=e=>i(e,t),d={module:{uri:t},exports:o,require:c};s[t]=Promise.all(n.map(e=>d[e]||c(e))).then(e=>(r(...e),o))}}define(["./workbox-6829fd8d"],function(e){"use strict";self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([{url:"registerSW.js",revision:"1872c500de691dce40960bb85481de07"},{url:"products.json",revision:"ff143ec4b079521d8e680214146b626e"},{url:"manifest.json",revision:"cd95686d973b31dffc64d1930b66debb"},{url:"index.html",revision:"1dadcda6135f331008031006ca25cf61"},{url:"categories.json",revision:"ca0e18fce73757603346d282795a1b8e"},{url:"assets/index-DPPeuxUk.css",revision:null},{url:"assets/index-DHmwqJIj.js",revision:null},{url:"manifest.webmanifest",revision:"31e2706d3d144c35237dcc3218574a4c"}],{}),e.cleanupOutdatedCaches(),e.registerRoute(new e.NavigationRoute(e.createHandlerBoundToURL("index.html"),{denylist:[/^\/item\//]})),e.registerRoute(/^https:\/\/ae-pic-a1\.aliexpress-media\.com\/.*/i,new e.CacheFirst({cacheName:"aliexpress-images",plugins:[new e.ExpirationPlugin({maxEntries:200,maxAgeSeconds:2592e3})]}),"GET"),e.registerRoute(/\/(products|categories)\.json$/i,new e.NetworkFirst({cacheName:"api-data",plugins:[new e.ExpirationPlugin({maxEntries:10,maxAgeSeconds:3600})]}),"GET")});
+if (!self.define) {
+  let e,
+    s = {};
+  const i = (i, n) => (
+    (i = new URL(i + '.js', n).href),
+    s[i] ||
+      new Promise((s) => {
+        if ('document' in self) {
+          const e = document.createElement('script');
+          ((e.src = i), (e.onload = s), document.head.appendChild(e));
+        } else ((e = i), importScripts(i), s());
+      }).then(() => {
+        let e = s[i];
+        if (!e) throw new Error(`Module ${i} didn’t register its module`);
+        return e;
+      })
+  );
+  self.define = (n, r) => {
+    const t = e || ('document' in self ? document.currentScript.src : '') || location.href;
+    if (s[t]) return;
+    let o = {};
+    const c = (e) => i(e, t),
+      d = { module: { uri: t }, exports: o, require: c };
+    s[t] = Promise.all(n.map((e) => d[e] || c(e))).then((e) => (r(...e), o));
+  };
+}
+define(['./workbox-6829fd8d'], function (e) {
+  'use strict';
+  (self.skipWaiting(),
+    e.clientsClaim(),
+    e.precacheAndRoute(
+      [
+        { url: 'registerSW.js', revision: '1872c500de691dce40960bb85481de07' },
+        { url: 'products.json', revision: 'ff143ec4b079521d8e680214146b626e' },
+        { url: 'manifest.json', revision: 'cd95686d973b31dffc64d1930b66debb' },
+        { url: 'index.html', revision: '1dadcda6135f331008031006ca25cf61' },
+        { url: 'categories.json', revision: 'ca0e18fce73757603346d282795a1b8e' },
+        { url: 'assets/index-DPPeuxUk.css', revision: null },
+        { url: 'assets/index-DHmwqJIj.js', revision: null },
+        { url: 'manifest.webmanifest', revision: '31e2706d3d144c35237dcc3218574a4c' },
+      ],
+      {}
+    ),
+    e.cleanupOutdatedCaches(),
+    e.registerRoute(
+      new e.NavigationRoute(e.createHandlerBoundToURL('index.html'), { denylist: [/^\/item\//] })
+    ),
+    e.registerRoute(
+      /^https:\/\/ae-pic-a1\.aliexpress-media\.com\/.*/i,
+      new e.CacheFirst({
+        cacheName: 'aliexpress-images',
+        plugins: [new e.ExpirationPlugin({ maxEntries: 200, maxAgeSeconds: 2592e3 })],
+      }),
+      'GET'
+    ),
+    e.registerRoute(
+      /\/(products|categories)\.json$/i,
+      new e.NetworkFirst({
+        cacheName: 'api-data',
+        plugins: [new e.ExpirationPlugin({ maxEntries: 10, maxAgeSeconds: 3600 })],
+      }),
+      'GET'
+    ));
+});

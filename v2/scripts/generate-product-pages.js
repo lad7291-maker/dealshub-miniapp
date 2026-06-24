@@ -61,9 +61,10 @@ function generateJsonLd(product, canonical) {
 
 function generateProductHtml(product, indexHtml) {
   const itemId = product.itemId || String(product.id);
-  const title = product.title.length > 35 
-    ? `${product.title.substring(0, 35)}… — скидка ${product.discount}% | SmartSkidka.ru`
-    : `${product.title} — скидка ${product.discount}% | SmartSkidka.ru`;
+  const title =
+    product.title.length > 35
+      ? `${product.title.substring(0, 35)}… — скидка ${product.discount}% | SmartSkidka.ru`
+      : `${product.title} — скидка ${product.discount}% | SmartSkidka.ru`;
   const description =
     product.subtitle ||
     `Скидка ${product.discount}% на ${product.title}. Цена ${formatPrice(product.price)} ₽ на AliExpress.`;

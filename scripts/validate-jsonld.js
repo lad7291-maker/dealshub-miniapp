@@ -60,9 +60,7 @@ if (fs.existsSync(itemDir)) {
     .readdirSync(itemDir)
     .filter((f) => f.endsWith('.html'))
     .slice(0, 5);
-  pages.push(
-    ...itemPages.map((f) => ({ path: path.join('item', f), types: ['Product'] }))
-  );
+  pages.push(...itemPages.map((f) => ({ path: path.join('item', f), types: ['Product'] })));
 }
 
 if (pages.length === 0) {

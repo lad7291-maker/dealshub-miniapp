@@ -48,7 +48,9 @@ function validatePage(filePath, expectedType = 'website') {
 
   if (expectedType === 'product') {
     // v2 uses product:price:amount (Open Graph product namespace)
-    const ogPrice = doc.querySelector('meta[property="product:price:amount"]')?.getAttribute('content');
+    const ogPrice = doc
+      .querySelector('meta[property="product:price:amount"]')
+      ?.getAttribute('content');
     if (!ogPrice) errors.push('missing product:price:amount for product');
   }
 
