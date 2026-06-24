@@ -51,7 +51,7 @@ export function ProductPage({ product, isFavorite, onToggleFavorite, onBack }: P
         {/* Info */}
         <div className="flex flex-col">
           {/* Badges */}
-          {product.badges.length > 0 && (
+          {(product.badges?.length || 0) > 0 && (
             <div className="flex flex-wrap gap-2 mb-3">
               {product.badges.map((badge) => {
                 const labels: Record<string, string> = {
@@ -127,7 +127,7 @@ export function ProductPage({ product, isFavorite, onToggleFavorite, onBack }: P
           </div>
 
           {/* Tags */}
-          {product.tags.length > 0 && (
+          {(product.tags?.length || 0) > 0 && (
             <div className="flex flex-wrap gap-2 mb-5">
               {product.tags.map((tag) => (
                 <span
@@ -142,7 +142,7 @@ export function ProductPage({ product, isFavorite, onToggleFavorite, onBack }: P
           )}
 
           {/* Features */}
-          {product.features.length > 0 && (
+          {(product.features?.length || 0) > 0 && (
             <div className="mb-5">
               <h3 className="text-sm font-semibold text-white mb-2">Характеристики</h3>
               <ul className="space-y-1.5">

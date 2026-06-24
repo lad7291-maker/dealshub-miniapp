@@ -83,7 +83,7 @@ export function ProductCard({
       {/* Content */}
       <div className="p-3 sm:p-4">
         {/* Badges */}
-        {product.badges.length > 0 && (
+        {(product.badges?.length || 0) > 0 && (
           <div className="flex flex-wrap gap-1 mb-2">
             {product.badges.map((badge) => (
               <span
@@ -108,7 +108,7 @@ export function ProductCard({
 
         {/* Tags */}
         <div className="flex flex-wrap gap-1 mb-2">
-          {product.tags.slice(0, 2).map((tag) => (
+          {(product.tags || []).slice(0, 2).map((tag) => (
             <span
               key={tag}
               className="text-[10px] text-cyan-400/80 bg-cyan-500/10 px-1.5 py-0.5 rounded"
