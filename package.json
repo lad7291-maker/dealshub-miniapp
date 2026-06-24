@@ -1,17 +1,17 @@
 {
   "name": "dealshub-miniapp",
-  "version": "1.0.0",
-  "description": "SmartSkidka.ru — affiliate deals mini-app",
+  "version": "2.0.0",
+  "description": "SmartSkidka.ru — affiliate deals mini-app (v2 React)",
   "private": true,
   "scripts": {
     "test": "node tests/app.test.js",
-    "lint": "eslint js/ scripts/ tests/ api/",
-    "lint:fix": "eslint js/ scripts/ tests/ api/ --fix",
+    "lint": "eslint scripts/ tests/ api/",
+    "lint:fix": "eslint scripts/ tests/ api/ --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "build": "node scripts/generate-sitemap.js && bash scripts/update-feeds.sh",
+    "build": "node scripts/generate-sitemap.js",
     "update-feed": "node scripts/update-feed.js",
-    "generate-items": "node scripts/generate-items.js",
+    "generate-items": "echo 'v2: item pages generated during v2 build'",
     "validate-meta": "node scripts/validate-meta.js",
     "validate-jsonld": "node scripts/validate-jsonld.js"
   },

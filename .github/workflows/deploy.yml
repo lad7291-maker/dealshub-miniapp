@@ -13,13 +13,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js for v1
+      - name: Setup Node.js for root scripts
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
 
-      - name: Install v1 dependencies
+      - name: Install root dependencies
         run: npm ci
 
       - name: Update product feed
@@ -28,10 +28,8 @@ jobs:
         run: npm run update-feed
         continue-on-error: true
 
-      - name: Generate v1 item pages and sitemap
-        run: |
-          npm run generate-items
-          npm run build
+      - name: Generate sitemap
+        run: npm run build
 
       - name: Setup Node.js for v2
         uses: actions/setup-node@v4
@@ -44,10 +42,6 @@ jobs:
         run: |
           cd v2
           npm ci
-
-      - name: Sync products to v2
-        run: |
-          cp products/all.json v2/public/products.json
 
       - name: Build v2
         run: |
