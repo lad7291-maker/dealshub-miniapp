@@ -42,7 +42,10 @@ test('sitemap.xml exists', () => {
 
 test('sitemap is valid XML with urlset', () => {
   assert(sitemap.includes('<?xml version="1.0" encoding="UTF-8"?>'), 'should have XML declaration');
-  assert(sitemap.includes('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'), 'should have urlset');
+  assert(
+    sitemap.includes('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'),
+    'should have urlset'
+  );
   assert(sitemap.includes('</urlset>'), 'should close urlset');
 });
 

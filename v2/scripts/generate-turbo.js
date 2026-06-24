@@ -5,16 +5,16 @@
  * Run: node scripts/generate-turbo.js
  */
 
-import fs from 'node:fs'
-import path from 'node:path'
-import { fileURLToPath } from 'node:url'
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const DIST_DIR = path.resolve(__dirname, '..', 'dist')
-const PRODUCTS_FILE = path.resolve(__dirname, '..', 'public', 'products.json')
-const CATEGORIES_FILE = path.resolve(__dirname, '..', 'public', 'categories.json')
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const DIST_DIR = path.resolve(__dirname, '..', 'dist');
+const PRODUCTS_FILE = path.resolve(__dirname, '..', 'public', 'products.json');
+const CATEGORIES_FILE = path.resolve(__dirname, '..', 'public', 'categories.json');
 
-const BASE_URL = 'https://smart-skidka.ru'
+const BASE_URL = 'https://smart-skidka.ru';
 
 function escapeXml(text) {
   return String(text)
@@ -22,29 +22,42 @@ function escapeXml(text) {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
-    .replace(/'/g, '&apos;')
+    .replace(/'/g, '&apos;');
 }
 
 function formatPrice(price) {
-  return Number(price).toLocaleString('ru-RU')
+  return Number(price).toLocaleString('ru-RU');
 }
 
 function todayRfc822() {
-  const d = new Date()
-  const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
-  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-  const pad = (n) => String(n).padStart(2, '0')
-  const tz = -d.getTimezoneOffset()
-  const tzSign = tz >= 0 ? '+' : '-'
-  const tzHours = pad(Math.floor(Math.abs(tz) / 60))
-  const tzMins = pad(Math.abs(tz) % 60)
-  return `${days[d.getDay()]}, ${pad(d.getDate())} ${months[d.getMonth()]} ${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())} ${tzSign}${tzHours}${tzMins}`
+  const d = new Date();
+  const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const months = [
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ];
+  const pad = (n) => String(n).padStart(2, '0');
+  const tz = -d.getTimezoneOffset();
+  const tzSign = tz >= 0 ? '+' : '-';
+  const tzHours = pad(Math.floor(Math.abs(tz) / 60));
+  const tzMins = pad(Math.abs(tz) % 60);
+  return `${days[d.getDay()]}, ${pad(d.getDate())} ${months[d.getMonth()]} ${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())} ${tzSign}${tzHours}${tzMins}`;
 }
 
 function generateProductTurbo(product, categoryMap) {
-  const itemId = product.itemId || String(product.id)
-  const url = `${BASE_URL}/item/${itemId}.html`
-  const catName = categoryMap[product.category] || product.category
+  const itemId = product.itemId || String(product.id);
+  const url = `${BASE_URL}/item/${itemId}.html`;
+  const catName = categoryMap[product.category] || product.category;
 
   return `
     <item turbo="true">
@@ -69,11 +82,11 @@ function generateProductTurbo(product, categoryMap) {
           <a href="${escapeXml(product.affiliateLink)}">Купить на AliExpress</a>
         ]]>
       </turbo:content>
-    </item>`
+    </item>`;
 }
 
 function generateCategoryTurbo(category) {
-  const url = `${BASE_URL}/${category.slug}.html`
+  const url = `${BASE_URL}/${category.slug}.html`;
   return `
     <item turbo="true">
       <link>${url}</link>
@@ -90,27 +103,27 @@ function generateCategoryTurbo(category) {
           <a href="${url}">Смотреть все товары</a>
         ]]>
       </turbo:content>
-    </item>`
+    </item>`;
 }
 
 function main() {
   if (!fs.existsSync(PRODUCTS_FILE) || !fs.existsSync(CATEGORIES_FILE)) {
-    console.error('❌ products.json or categories.json not found')
-    process.exit(1)
+    console.error('❌ products.json or categories.json not found');
+    process.exit(1);
   }
 
-  const products = JSON.parse(fs.readFileSync(PRODUCTS_FILE, 'utf-8'))
-  const categories = JSON.parse(fs.readFileSync(CATEGORIES_FILE, 'utf-8'))
+  const products = JSON.parse(fs.readFileSync(PRODUCTS_FILE, 'utf-8'));
+  const categories = JSON.parse(fs.readFileSync(CATEGORIES_FILE, 'utf-8'));
 
-  const categoryMap = {}
+  const categoryMap = {};
   for (const c of categories) {
-    if (c.id !== 'all') categoryMap[c.id] = c.name
+    if (c.id !== 'all') categoryMap[c.id] = c.name;
   }
 
   const topProducts = products
-    .filter(p => p.rating >= 4.0 && p.discount >= 50)
+    .filter((p) => p.rating >= 4.0 && p.discount >= 50)
     .sort((a, b) => b.discount - a.discount)
-    .slice(0, 100)
+    .slice(0, 100);
 
   const lines = [
     '<?xml version="1.0" encoding="UTF-8"?>',
@@ -141,23 +154,25 @@ function main() {
     '        ]]>',
     '      </turbo:content>',
     '    </item>',
-  ]
+  ];
 
   for (const cat of categories) {
-    if (cat.id === 'all') continue
-    lines.push(generateCategoryTurbo(cat))
+    if (cat.id === 'all') continue;
+    lines.push(generateCategoryTurbo(cat));
   }
 
   for (const product of topProducts) {
-    lines.push(generateProductTurbo(product, categoryMap))
+    lines.push(generateProductTurbo(product, categoryMap));
   }
 
-  lines.push('  </channel>', '</rss>')
+  lines.push('  </channel>', '</rss>');
 
-  fs.mkdirSync(DIST_DIR, { recursive: true })
-  fs.writeFileSync(path.join(DIST_DIR, 'turbo.xml'), lines.join('\n') + '\n', 'utf-8')
+  fs.mkdirSync(DIST_DIR, { recursive: true });
+  fs.writeFileSync(path.join(DIST_DIR, 'turbo.xml'), lines.join('\n') + '\n', 'utf-8');
 
-  console.log(`✅ Generated turbo.xml with ${topProducts.length} products + ${categories.length - 1} categories + homepage in ${path.relative(process.cwd(), DIST_DIR)}`)
+  console.log(
+    `✅ Generated turbo.xml with ${topProducts.length} products + ${categories.length - 1} categories + homepage in ${path.relative(process.cwd(), DIST_DIR)}`
+  );
 }
 
-main()
+main();

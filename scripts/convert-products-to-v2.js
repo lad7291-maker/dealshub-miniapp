@@ -139,7 +139,8 @@ function convertProduct(product) {
     tags: generateTags(product),
     badges: generateBadges(product),
     features: specsToFeatures(product.specs),
-    affiliateLink: product.aliLink || `https://aliexpress.ru/item/${product.itemId || product.id}.html`,
+    affiliateLink:
+      product.aliLink || `https://aliexpress.ru/item/${product.itemId || product.id}.html`,
     shipping: 'Бесплатная доставка',
     shopName: extractShopName(product.aliLink),
   };
@@ -236,8 +237,16 @@ function main() {
   ];
 
   // Write JSON files
-  fs.writeFileSync(path.join(PUBLIC_DIR, 'products.json'), JSON.stringify(products, null, 2), 'utf-8');
-  fs.writeFileSync(path.join(PUBLIC_DIR, 'categories.json'), JSON.stringify(categories, null, 2), 'utf-8');
+  fs.writeFileSync(
+    path.join(PUBLIC_DIR, 'products.json'),
+    JSON.stringify(products, null, 2),
+    'utf-8'
+  );
+  fs.writeFileSync(
+    path.join(PUBLIC_DIR, 'categories.json'),
+    JSON.stringify(categories, null, 2),
+    'utf-8'
+  );
   console.log(`✅ Written public/products.json (${products.length} items)`);
   console.log(`✅ Written public/categories.json (${categories.length} categories)`);
 
@@ -247,7 +256,11 @@ function main() {
   if (existing.promoCodes && existing.promoCodes !== '[]') extraTypes.push('PromoCode');
   if (existing.blogPosts && existing.blogPosts !== '[]') extraTypes.push('BlogPost');
   if (existing.collections && existing.collections !== '[]') extraTypes.push('Collection');
-  if ((existing.mainFAQ && existing.mainFAQ !== '[]') || (existing.promoFAQ && existing.promoFAQ !== '[]')) extraTypes.push('FAQItem');
+  if (
+    (existing.mainFAQ && existing.mainFAQ !== '[]') ||
+    (existing.promoFAQ && existing.promoFAQ !== '[]')
+  )
+    extraTypes.push('FAQItem');
 
   const typeImports = ['Stats', 'Product', 'Category', ...extraTypes].join(', ');
   const typeImportLine = `import type { ${typeImports} } from '@/types'`;

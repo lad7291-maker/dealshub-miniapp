@@ -46,7 +46,10 @@ test('SEO.tsx uses smart-skidka.ru for canonical', () => {
 });
 
 test('SEO.tsx does not use smartskidka.ru (without dash) for canonical', () => {
-  assert(!seoTsx.includes('https://smartskidka.ru'), 'canonical should not use smartskidka.ru without dash');
+  assert(
+    !seoTsx.includes('https://smartskidka.ru'),
+    'canonical should not use smartskidka.ru without dash'
+  );
 });
 
 test('SEO.tsx includes og:url', () => {
@@ -59,7 +62,10 @@ test('robots.txt exists and allows all', () => {
 });
 
 test('robots.txt points to smart-skidka.ru sitemap', () => {
-  assert(robotsTxt.includes('Sitemap: https://smart-skidka.ru/sitemap.xml'), 'robots.txt sitemap should use smart-skidka.ru');
+  assert(
+    robotsTxt.includes('Sitemap: https://smart-skidka.ru/sitemap.xml'),
+    'robots.txt sitemap should use smart-skidka.ru'
+  );
 });
 
 test('robots.txt blocks /api/ and query strings', () => {

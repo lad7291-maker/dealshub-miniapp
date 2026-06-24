@@ -1,9 +1,9 @@
-import { Zap, ArrowRight, Tag, TrendingUp, Users } from 'lucide-react'
-import { Button } from '@/components/ui/button'
+import { Zap, ArrowRight, Tag, TrendingUp, Users } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 interface HeroSectionProps {
-  onNavigate: (page: string) => void
-  onCategorySelect: (category: string) => void
+  onNavigate: (page: string) => void;
+  onCategorySelect: (category: string) => void;
 }
 
 export function HeroSection({ onNavigate, onCategorySelect }: HeroSectionProps) {
@@ -12,16 +12,19 @@ export function HeroSection({ onNavigate, onCategorySelect }: HeroSectionProps) 
     { id: 'clothing', label: 'Одежда', icon: 'Shirt', discount: 'до 80%' },
     { id: 'shoes', label: 'Обувь', icon: 'Footprints', discount: 'до 75%' },
     { id: 'home', label: 'Товары для дома', icon: 'Home', discount: 'до 85%' },
-  ]
+  ];
 
   return (
     <section className="relative bg-gradient-to-b from-[#0f172a] via-[#162032] to-[#0f172a] overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0" style={{
-          backgroundImage: 'radial-gradient(circle at 1px 1px, cyan 1px, transparent 0)',
-          backgroundSize: '40px 40px',
-        }} />
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: 'radial-gradient(circle at 1px 1px, cyan 1px, transparent 0)',
+            backgroundSize: '40px 40px',
+          }}
+        />
       </div>
 
       {/* Floating elements */}
@@ -48,8 +51,9 @@ export function HeroSection({ onNavigate, onCategorySelect }: HeroSectionProps) 
             </span>
           </h1>
           <p className="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed px-4">
-            Экономьте до <span className="text-cyan-400 font-bold">90%</span> на топовых товарах с бесплатной доставкой. 
-            Мы собираем реальные скидки, проверяем отзывы и обновляем каталог каждый день.
+            Экономьте до <span className="text-cyan-400 font-bold">90%</span> на топовых товарах с
+            бесплатной доставкой. Мы собираем реальные скидки, проверяем отзывы и обновляем каталог
+            каждый день.
           </p>
         </div>
 
@@ -101,7 +105,7 @@ export function HeroSection({ onNavigate, onCategorySelect }: HeroSectionProps) 
 
         {/* Quick Category Cards */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 max-w-4xl mx-auto">
-          {quickCategories.map(cat => (
+          {quickCategories.map((cat) => (
             <button
               key={cat.id}
               onClick={() => onCategorySelect(cat.id)}
@@ -120,5 +124,5 @@ export function HeroSection({ onNavigate, onCategorySelect }: HeroSectionProps) 
         </div>
       </div>
     </section>
-  )
+  );
 }

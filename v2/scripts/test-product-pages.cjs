@@ -35,13 +35,13 @@ const products = JSON.parse(fs.readFileSync(PRODUCTS_FILE, 'utf-8'));
 
 let generatedFiles;
 try {
-  generatedFiles = fs.readdirSync(ITEM_DIR).filter(f => f.endsWith('.html'));
+  generatedFiles = fs.readdirSync(ITEM_DIR).filter((f) => f.endsWith('.html'));
 } catch (e) {
   generatedFiles = [];
 }
 
 test('products.json contains itemId for every product', () => {
-  const missing = products.filter(p => !p.itemId);
+  const missing = products.filter((p) => !p.itemId);
   assert(missing.length === 0, `${missing.length} products missing itemId`);
 });
 
@@ -51,7 +51,10 @@ test('dist/item directory exists and contains html files', () => {
 });
 
 test('generated one html file per product', () => {
-  assert(generatedFiles.length === products.length, `expected ${products.length} files, got ${generatedFiles.length}`);
+  assert(
+    generatedFiles.length === products.length,
+    `expected ${products.length} files, got ${generatedFiles.length}`
+  );
 });
 
 const sampleProducts = [
@@ -79,7 +82,10 @@ for (const product of sampleProducts) {
   });
 
   test(`page for ${itemId} has canonical pointing to /item/${itemId}.html`, () => {
-    assert(html.includes(`https://smart-skidka.ru/item/${itemId}.html`), 'canonical should point to product url');
+    assert(
+      html.includes(`https://smart-skidka.ru/item/${itemId}.html`),
+      'canonical should point to product url'
+    );
   });
 
   test(`page for ${itemId} has JSON-LD Product schema`, () => {
@@ -88,7 +94,10 @@ for (const product of sampleProducts) {
   });
 
   test(`page for ${itemId} exposes window.__PRODUCT_ITEM_ID__`, () => {
-    assert(html.includes(`window.__PRODUCT_ITEM_ID__ = "${itemId}"`), 'window.__PRODUCT_ITEM_ID__ should be set');
+    assert(
+      html.includes(`window.__PRODUCT_ITEM_ID__ = "${itemId}"`),
+      'window.__PRODUCT_ITEM_ID__ should be set'
+    );
   });
 
   test(`page for ${itemId} contains SSR content`, () => {

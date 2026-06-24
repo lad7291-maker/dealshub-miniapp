@@ -1,13 +1,16 @@
-import { ArrowRight, Monitor, Shirt, Footprints, Home } from 'lucide-react'
-import type { Collection } from '@/types'
+import { ArrowRight, Monitor, Shirt, Footprints, Home } from 'lucide-react';
+import type { Collection } from '@/types';
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
-  Monitor, Shirt, Footprints, Home,
-}
+  Monitor,
+  Shirt,
+  Footprints,
+  Home,
+};
 
 interface CollectionsSectionProps {
-  collections: Collection[]
-  onCollectionClick: (collection: Collection) => void
+  collections: Collection[];
+  onCollectionClick: (collection: Collection) => void;
 }
 
 export function CollectionsSection({ collections, onCollectionClick }: CollectionsSectionProps) {
@@ -19,8 +22,8 @@ export function CollectionsSection({ collections, onCollectionClick }: Collectio
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
-        {collections.map(col => {
-          const Icon = iconMap[col.icon] || Monitor
+        {collections.map((col) => {
+          const Icon = iconMap[col.icon] || Monitor;
           return (
             <button
               key={col.id}
@@ -38,9 +41,9 @@ export function CollectionsSection({ collections, onCollectionClick }: Collectio
               </div>
               <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 text-slate-600 group-hover:text-cyan-400 shrink-0 transition-colors" />
             </button>
-          )
+          );
         })}
       </div>
     </section>
-  )
+  );
 }

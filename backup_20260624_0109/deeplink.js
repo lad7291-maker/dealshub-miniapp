@@ -14,9 +14,7 @@
     // Всегда генерируем уникальную ссылку через s.click.aliexpress.com
     // Используем aliexpress.com (без www) чтобы избежать afSmartRedirect=y
     if (itemId && itemId.length > 5) {
-      const targetUrl = encodeURIComponent(
-        'https://aliexpress.com/item/' + itemId + '.html'
-      );
+      const targetUrl = encodeURIComponent('https://aliexpress.com/item/' + itemId + '.html');
       return (
         'https://s.click.aliexpress.com/deep_link.htm?aff_short_key=' +
         ADMITAD_KEY +

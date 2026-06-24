@@ -52,7 +52,11 @@ const turbo = fs.readFileSync(turboPath, 'utf-8');
 
 test('turbo.xml is valid RSS with turbo namespace', () => {
   assertIncludes(turbo, '<?xml version="1.0" encoding="UTF-8"?>', 'should have XML declaration');
-  assertIncludes(turbo, '<rss xmlns:yandex="http://news.yandex.ru"', 'should have yandex namespace');
+  assertIncludes(
+    turbo,
+    '<rss xmlns:yandex="http://news.yandex.ru"',
+    'should have yandex namespace'
+  );
   assertIncludes(turbo, 'xmlns:turbo="http://turbo.yandex.ru"', 'should have turbo namespace');
   assertIncludes(turbo, '<channel>', 'should have channel');
   assertIncludes(turbo, '</channel>', 'should close channel');
@@ -66,7 +70,11 @@ test('turbo.xml has channel metadata', () => {
 });
 
 test('turbo.xml has Yandex analytics', () => {
-  assertIncludes(turbo, '<turbo:analytics type="Yandex" id="109145874"/>', 'should have Yandex analytics');
+  assertIncludes(
+    turbo,
+    '<turbo:analytics type="Yandex" id="109145874"/>',
+    'should have Yandex analytics'
+  );
 });
 
 test('turbo.xml has homepage item', () => {
@@ -83,7 +91,10 @@ test('turbo.xml has category items', () => {
 test('turbo.xml has product items with real data', () => {
   // Check that at least some product items exist with real product data
   const productCount = (turbo.match(/<item turbo="true">/g) || []).length;
-  assert(productCount > 7, `Expected more than 7 items (homepage + categories), got ${productCount}`);
+  assert(
+    productCount > 7,
+    `Expected more than 7 items (homepage + categories), got ${productCount}`
+  );
   assertIncludes(turbo, 'item/', 'should have product item links');
 });
 
@@ -125,7 +136,10 @@ test('yandex-market.yml has offers section', () => {
 
 test('yandex-market.yml contains all products', () => {
   const offerCount = (yml.match(/<offer /g) || []).length;
-  assert(offerCount >= products.length * 0.9, `Expected at least ${Math.floor(products.length * 0.9)} offers, got ${offerCount}`);
+  assert(
+    offerCount >= products.length * 0.9,
+    `Expected at least ${Math.floor(products.length * 0.9)} offers, got ${offerCount}`
+  );
 });
 
 test('yandex-market.yml offers have required fields', () => {
@@ -144,7 +158,10 @@ test('yandex-market.yml uses correct product URLs', () => {
 });
 
 test('yandex-market.yml does not use placeholder data', () => {
-  assert(!yml.includes('Товар со скидкой с AliExpress'), 'should not contain placeholder product name');
+  assert(
+    !yml.includes('Товар со скидкой с AliExpress'),
+    'should not contain placeholder product name'
+  );
   assert(!yml.includes('icons/icon-512x512.png'), 'should not use icon as product picture');
 });
 

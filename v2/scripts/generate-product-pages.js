@@ -5,14 +5,14 @@
  * Run: node scripts/generate-product-pages.js
  */
 
-import fs from 'node:fs'
-import path from 'node:path'
-import { fileURLToPath } from 'node:url'
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const DIST_DIR = path.resolve(__dirname, '..', 'dist')
-const PRODUCTS_FILE = path.resolve(__dirname, '..', 'public', 'products.json')
-const ITEM_DIR = path.join(DIST_DIR, 'item')
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const DIST_DIR = path.resolve(__dirname, '..', 'dist');
+const PRODUCTS_FILE = path.resolve(__dirname, '..', 'public', 'products.json');
+const ITEM_DIR = path.join(DIST_DIR, 'item');
 
 function escapeHtml(text) {
   return String(text)
@@ -20,11 +20,11 @@ function escapeHtml(text) {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;')
+    .replace(/'/g, '&#39;');
 }
 
 function formatPrice(price) {
-  return Number(price).toLocaleString('ru-RU')
+  return Number(price).toLocaleString('ru-RU');
 }
 
 function generateJsonLd(product, canonical) {
@@ -36,7 +36,7 @@ function generateJsonLd(product, canonical) {
     availability: 'https://schema.org/InStock',
     itemCondition: 'https://schema.org/NewCondition',
     priceValidUntil: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
-  }
+  };
 
   const ld = {
     '@context': 'https://schema.org',
@@ -46,27 +46,27 @@ function generateJsonLd(product, canonical) {
     description: product.subtitle || product.title,
     sku: product.itemId,
     offers: offer,
-  }
+  };
 
   if (product.rating > 0) {
     ld.aggregateRating = {
       '@type': 'AggregateRating',
       ratingValue: String(product.rating),
       reviewCount: String(product.orders || 1),
-    }
+    };
   }
 
-  return ld
+  return ld;
 }
 
 function generateProductHtml(product, indexHtml) {
-  const itemId = product.itemId || String(product.id)
-  const title = `${product.title} — купить со скидкой ${product.discount}% | SmartSkidka.ru`
+  const itemId = product.itemId || String(product.id);
+  const title = `${product.title} — купить со скидкой ${product.discount}% | SmartSkidka.ru`;
   const description =
     product.subtitle ||
-    `Скидка ${product.discount}% на ${product.title}. Цена ${formatPrice(product.price)} ₽ на AliExpress.`
-  const canonical = `https://smart-skidka.ru/item/${itemId}.html`
-  const jsonLd = generateJsonLd(product, canonical)
+    `Скидка ${product.discount}% на ${product.title}. Цена ${formatPrice(product.price)} ₽ на AliExpress.`;
+  const canonical = `https://smart-skidka.ru/item/${itemId}.html`;
+  const jsonLd = generateJsonLd(product, canonical);
 
   const ssrContent = `
     <article class="product-ssr" data-item-id="${escapeHtml(itemId)}">
@@ -86,7 +86,7 @@ function generateProductHtml(product, indexHtml) {
         <p><a class="buy-link" href="${escapeHtml(product.affiliateLink)}" target="_blank" rel="nofollow noopener">Купить на AliExpress</a></p>
       </section>
     </article>
-  `
+  `;
 
   const headInject = `
   <meta name="description" content="${escapeHtml(description)}" />
@@ -107,41 +107,43 @@ function generateProductHtml(product, indexHtml) {
   <meta name="twitter:image" content="${escapeHtml(product.image)}" />
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script>window.__PRODUCT_ITEM_ID__ = ${JSON.stringify(itemId)};</script>
-`
+`;
 
   let html = indexHtml
     .replace(/<title>.*?<\/title>/, `<title>${escapeHtml(title)}</title>`)
     .replace('</head>', `${headInject}\n</head>`)
-    .replace('<div id="root"></div>', `<div id="root">${ssrContent}</div>`)
+    .replace('<div id="root"></div>', `<div id="root">${ssrContent}</div>`);
 
-  return html
+  return html;
 }
 
 function main() {
   if (!fs.existsSync(PRODUCTS_FILE)) {
-    console.error(`❌ products.json not found at ${PRODUCTS_FILE}`)
-    process.exit(1)
+    console.error(`❌ products.json not found at ${PRODUCTS_FILE}`);
+    process.exit(1);
   }
-  const indexHtmlPath = path.join(DIST_DIR, 'index.html')
+  const indexHtmlPath = path.join(DIST_DIR, 'index.html');
   if (!fs.existsSync(indexHtmlPath)) {
-    console.error(`❌ dist/index.html not found. Run vite build first.`)
-    process.exit(1)
+    console.error(`❌ dist/index.html not found. Run vite build first.`);
+    process.exit(1);
   }
 
-  const products = JSON.parse(fs.readFileSync(PRODUCTS_FILE, 'utf-8'))
-  const indexHtml = fs.readFileSync(indexHtmlPath, 'utf-8')
+  const products = JSON.parse(fs.readFileSync(PRODUCTS_FILE, 'utf-8'));
+  const indexHtml = fs.readFileSync(indexHtmlPath, 'utf-8');
 
-  fs.mkdirSync(ITEM_DIR, { recursive: true })
+  fs.mkdirSync(ITEM_DIR, { recursive: true });
 
-  let generated = 0
+  let generated = 0;
   for (const product of products) {
-    const itemId = product.itemId || String(product.id)
-    const html = generateProductHtml(product, indexHtml)
-    fs.writeFileSync(path.join(ITEM_DIR, `${itemId}.html`), html, 'utf-8')
-    generated++
+    const itemId = product.itemId || String(product.id);
+    const html = generateProductHtml(product, indexHtml);
+    fs.writeFileSync(path.join(ITEM_DIR, `${itemId}.html`), html, 'utf-8');
+    generated++;
   }
 
-  console.log(`✅ Generated ${generated} product pages in ${path.relative(process.cwd(), ITEM_DIR)}`)
+  console.log(
+    `✅ Generated ${generated} product pages in ${path.relative(process.cwd(), ITEM_DIR)}`
+  );
 }
 
-main()
+main();

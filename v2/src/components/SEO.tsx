@@ -1,20 +1,27 @@
-import { Helmet } from 'react-helmet-async'
+import { Helmet } from 'react-helmet-async';
 
 interface SEOProps {
-  title: string
-  description: string
-  keywords?: string
-  ogImage?: string
-  ogType?: string
-  canonical?: string
-  jsonLd?: Record<string, unknown>
-  faqSchema?: { question: string; answer: string }[]
+  title: string;
+  description: string;
+  keywords?: string;
+  ogImage?: string;
+  ogType?: string;
+  canonical?: string;
+  jsonLd?: Record<string, unknown>;
+  faqSchema?: { question: string; answer: string }[];
 }
 
-export function SEO({ title, description, keywords, ogImage, ogType = 'website', canonical, faqSchema, jsonLd }: SEOProps) {
-  const fullTitle = title.includes('SmartSkidka')
-    ? title
-    : `${title} — SmartSkidka.ru`
+export function SEO({
+  title,
+  description,
+  keywords,
+  ogImage,
+  ogType = 'website',
+  canonical,
+  faqSchema,
+  jsonLd,
+}: SEOProps) {
+  const fullTitle = title.includes('SmartSkidka') ? title : `${title} — SmartSkidka.ru`;
 
   return (
     <Helmet>
@@ -32,13 +39,13 @@ export function SEO({ title, description, keywords, ogImage, ogType = 'website',
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       {ogImage && <meta name="twitter:image" content={ogImage} />}
-      
+
       {faqSchema && faqSchema.length > 0 && (
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            mainEntity: faqSchema.map(item => ({
+            mainEntity: faqSchema.map((item) => ({
               '@type': 'Question',
               name: item.question,
               acceptedAnswer: {
@@ -49,11 +56,7 @@ export function SEO({ title, description, keywords, ogImage, ogType = 'website',
           })}
         </script>
       )}
-      {jsonLd && (
-        <script type="application/ld+json">
-          {JSON.stringify(jsonLd)}
-        </script>
-      )}
+      {jsonLd && <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>}
     </Helmet>
-  )
+  );
 }

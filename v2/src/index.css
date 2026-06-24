@@ -55,7 +55,9 @@
   }
   body {
     @apply bg-[#0f172a] text-white antialiased;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings:
+      'rlig' 1,
+      'calt' 1;
   }
   html {
     scroll-behavior: smooth;

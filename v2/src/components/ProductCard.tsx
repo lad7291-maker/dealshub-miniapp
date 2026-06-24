@@ -1,24 +1,39 @@
-import { Heart, Clock, Eye, ShoppingCart, Star, Users, Check } from 'lucide-react'
-import type { Product } from '@/types'
-import { trackClickOutbound, trackPurchase } from '@/lib/analytics'
+import { Heart, Clock, Eye, ShoppingCart, Star, Users, Check } from 'lucide-react';
+import type { Product } from '@/types';
+import { trackClickOutbound, trackPurchase } from '@/lib/analytics';
 
 interface ProductCardProps {
-  product: Product
-  isFavorite: boolean
-  onToggleFavorite: (id: number) => void
-  onProductClick?: (id: number) => void
-  index?: number
+  product: Product;
+  isFavorite: boolean;
+  onToggleFavorite: (id: number) => void;
+  onProductClick?: (id: number) => void;
+  index?: number;
 }
 
 const badgeConfig: Record<string, { label: string; className: string }> = {
-  bestseller: { label: 'Хит продаж', className: 'bg-amber-500/20 text-amber-400 border-amber-500/30' },
-  topRated: { label: 'Высокий рейтинг', className: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' },
-  bestPrice: { label: 'Выгодная цена', className: 'bg-cyan-500/20 text-cyan-400 border-cyan-500/30' },
+  bestseller: {
+    label: 'Хит продаж',
+    className: 'bg-amber-500/20 text-amber-400 border-amber-500/30',
+  },
+  topRated: {
+    label: 'Высокий рейтинг',
+    className: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30',
+  },
+  bestPrice: {
+    label: 'Выгодная цена',
+    className: 'bg-cyan-500/20 text-cyan-400 border-cyan-500/30',
+  },
   flash: { label: 'Флеш-скидка', className: 'bg-red-500/20 text-red-400 border-red-500/30' },
   new: { label: 'Новинка', className: 'bg-purple-500/20 text-purple-400 border-purple-500/30' },
-}
+};
 
-export function ProductCard({ product, isFavorite, onToggleFavorite, onProductClick, index }: ProductCardProps) {
+export function ProductCard({
+  product,
+  isFavorite,
+  onToggleFavorite,
+  onProductClick,
+  index,
+}: ProductCardProps) {
   return (
     <div
       onClick={() => onProductClick?.(product.id)}
@@ -32,7 +47,7 @@ export function ProductCard({ product, isFavorite, onToggleFavorite, onProductCl
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
         />
-        
+
         {/* Discount Badge */}
         <div className="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-lg shadow-lg">
           -{product.discount}%
@@ -47,7 +62,10 @@ export function ProductCard({ product, isFavorite, onToggleFavorite, onProductCl
 
         {/* Favorite Button */}
         <button
-          onClick={(e) => { e.stopPropagation(); onToggleFavorite(product.id) }}
+          onClick={(e) => {
+            e.stopPropagation();
+            onToggleFavorite(product.id);
+          }}
           className={`absolute top-2 right-2 w-8 h-8 flex items-center justify-center rounded-full transition-all duration-200 ${isFavorite ? 'bg-red-500 text-white shadow-lg' : 'bg-black/40 text-white hover:bg-black/60 backdrop-blur-sm'}`}
         >
           <Heart className={`w-4 h-4 ${isFavorite ? 'fill-white' : ''}`} />
@@ -67,8 +85,11 @@ export function ProductCard({ product, isFavorite, onToggleFavorite, onProductCl
         {/* Badges */}
         {product.badges.length > 0 && (
           <div className="flex flex-wrap gap-1 mb-2">
-            {product.badges.map(badge => (
-              <span key={badge} className={`text-[10px] sm:text-xs font-medium px-2 py-0.5 rounded-full border ${badgeConfig[badge]?.className || ''}`}>
+            {product.badges.map((badge) => (
+              <span
+                key={badge}
+                className={`text-[10px] sm:text-xs font-medium px-2 py-0.5 rounded-full border ${badgeConfig[badge]?.className || ''}`}
+              >
                 {badgeConfig[badge]?.label || badge}
               </span>
             ))}
@@ -87,8 +108,11 @@ export function ProductCard({ product, isFavorite, onToggleFavorite, onProductCl
 
         {/* Tags */}
         <div className="flex flex-wrap gap-1 mb-2">
-          {product.tags.slice(0, 2).map(tag => (
-            <span key={tag} className="text-[10px] text-cyan-400/80 bg-cyan-500/10 px-1.5 py-0.5 rounded">
+          {product.tags.slice(0, 2).map((tag) => (
+            <span
+              key={tag}
+              className="text-[10px] text-cyan-400/80 bg-cyan-500/10 px-1.5 py-0.5 rounded"
+            >
               {tag}
             </span>
           ))}
@@ -97,8 +121,12 @@ export function ProductCard({ product, isFavorite, onToggleFavorite, onProductCl
         {/* Price */}
         <div className="mb-2">
           <div className="flex items-baseline gap-2">
-            <span className="text-lg sm:text-xl font-bold text-cyan-400">{product.price.toLocaleString('ru')} ₽</span>
-            <span className="text-xs sm:text-sm text-slate-500 line-through">{product.oldPrice.toLocaleString('ru')} ₽</span>
+            <span className="text-lg sm:text-xl font-bold text-cyan-400">
+              {product.price.toLocaleString('ru')} ₽
+            </span>
+            <span className="text-xs sm:text-sm text-slate-500 line-through">
+              {product.oldPrice.toLocaleString('ru')} ₽
+            </span>
           </div>
         </div>
 
@@ -132,7 +160,11 @@ export function ProductCard({ product, isFavorite, onToggleFavorite, onProductCl
             href={product.affiliateLink}
             target="_blank"
             rel="noopener noreferrer sponsored nofollow"
-            onClick={(e) => { e.stopPropagation(); trackClickOutbound(product.id); trackPurchase({ id: product.id, title: product.title, price: product.price }) }}
+            onClick={(e) => {
+              e.stopPropagation();
+              trackClickOutbound(product.id);
+              trackPurchase({ id: product.id, title: product.title, price: product.price });
+            }}
             className="flex-1 flex items-center justify-center gap-1.5 py-2.5 bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-400 hover:to-cyan-500 text-white text-sm font-semibold rounded-xl transition-all duration-200 hover:shadow-lg hover:shadow-cyan-500/20"
           >
             <ShoppingCart className="w-4 h-4" />
@@ -140,7 +172,10 @@ export function ProductCard({ product, isFavorite, onToggleFavorite, onProductCl
           </a>
           {onProductClick && (
             <button
-              onClick={(e) => { e.stopPropagation(); onProductClick(product.id) }}
+              onClick={(e) => {
+                e.stopPropagation();
+                onProductClick(product.id);
+              }}
               className="px-3 py-2.5 bg-slate-700 hover:bg-slate-600 text-white text-sm font-medium rounded-xl transition-colors"
             >
               Подробнее
@@ -149,5 +184,5 @@ export function ProductCard({ product, isFavorite, onToggleFavorite, onProductCl
         </div>
       </div>
     </div>
-  )
+  );
 }

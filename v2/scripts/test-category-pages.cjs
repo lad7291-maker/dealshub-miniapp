@@ -36,7 +36,7 @@ function assertIncludes(haystack, needle, msg) {
 console.log('\n=== Category Pages Tests ===\n');
 
 const categories = JSON.parse(fs.readFileSync(CATEGORIES_FILE, 'utf-8'));
-const catSlugs = categories.filter(c => c.id !== 'all').map(c => c.slug);
+const catSlugs = categories.filter((c) => c.id !== 'all').map((c) => c.slug);
 
 for (const slug of catSlugs) {
   const filePath = path.join(DIST_DIR, `${slug}.html`);
@@ -56,7 +56,11 @@ for (const slug of catSlugs) {
   });
 
   test(`category page ${slug}.html has canonical pointing to /${slug}.html`, () => {
-    assertIncludes(html, `https://smart-skidka.ru/${slug}.html`, 'canonical should point to category url');
+    assertIncludes(
+      html,
+      `https://smart-skidka.ru/${slug}.html`,
+      'canonical should point to category url'
+    );
   });
 
   test(`category page ${slug}.html has JSON-LD ItemList schema`, () => {
@@ -64,7 +68,11 @@ for (const slug of catSlugs) {
   });
 
   test(`category page ${slug}.html exposes window.__CATEGORY_SLUG__`, () => {
-    assertIncludes(html, `window.__CATEGORY_SLUG__ = "${slug}"`, 'window.__CATEGORY_SLUG__ should be set');
+    assertIncludes(
+      html,
+      `window.__CATEGORY_SLUG__ = "${slug}"`,
+      'window.__CATEGORY_SLUG__ should be set'
+    );
   });
 
   test(`category page ${slug}.html contains SSR product grid`, () => {

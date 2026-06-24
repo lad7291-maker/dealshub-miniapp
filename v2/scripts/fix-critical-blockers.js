@@ -3,13 +3,13 @@
  * Fix critical blockers for v2 migration.
  * Run after: npm run build
  */
-import fs from 'node:fs'
-import path from 'node:path'
-import { fileURLToPath } from 'node:url'
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const DIST_DIR = path.resolve(__dirname, '..', 'dist')
-const V1_DIR = '/var/www/dealshub-miniapp'
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const DIST_DIR = path.resolve(__dirname, '..', 'dist');
+const V1_DIR = '/var/www/dealshub-miniapp';
 
 function escapeHtml(text) {
   return String(text)
@@ -17,21 +17,21 @@ function escapeHtml(text) {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;')
+    .replace(/'/g, '&#39;');
 }
 
 function getAssetFiles() {
-  const assetsDir = path.join(DIST_DIR, 'assets')
-  const files = fs.readdirSync(assetsDir)
-  const jsFile = files.find(f => f.endsWith('.js') && f.startsWith('index'))
-  const cssFile = files.find(f => f.endsWith('.css') && f.startsWith('index'))
-  return { jsFile, cssFile }
+  const assetsDir = path.join(DIST_DIR, 'assets');
+  const files = fs.readdirSync(assetsDir);
+  const jsFile = files.find((f) => f.endsWith('.js') && f.startsWith('index'));
+  const cssFile = files.find((f) => f.endsWith('.css') && f.startsWith('index'));
+  return { jsFile, cssFile };
 }
 
 // ─── BLOCKER 1: index.html SEO ───
 function fixIndexSEO() {
-  const indexPath = path.join(DIST_DIR, 'index.html')
-  let html = fs.readFileSync(indexPath, 'utf-8')
+  const indexPath = path.join(DIST_DIR, 'index.html');
+  let html = fs.readFileSync(indexPath, 'utf-8');
 
   const jsonLd = JSON.stringify({
     '@context': 'https://schema.org',
@@ -57,7 +57,7 @@ function fixIndexSEO() {
         sameAs: ['https://t.me/SmartRuMarket'],
       },
     ],
-  })
+  });
 
   const seoInject = `
   <meta name="description" content="SmartSkidka.ru — скидки и купоны на AliExpress. Ежедневно обновляем каталог товаров со скидками до 84%. Актуальные предложения на основе данных AliExpress." />
@@ -75,19 +75,26 @@ function fixIndexSEO() {
   <meta name="twitter:description" content="Скидки и купоны AliExpress. Актуальные предложения." />
   <meta name="twitter:image" content="https://smart-skidka.ru/icons/icon-512x512.png" />
   <script type="application/ld+json">${jsonLd}</script>
-`
+`;
 
-  html = html.replace(/<title>.*<\/title>/, '<title>SmartSkidka.ru — скидки на AliExpress до 84%</title>')
-  html = html.replace('</head>', `${seoInject}</head>`)
+  html = html.replace(
+    /<title>.*<\/title>/,
+    '<title>SmartSkidka.ru — скидки на AliExpress до 84%</title>'
+  );
+  html = html.replace('</head>', `${seoInject}</head>`);
 
-  fs.writeFileSync(indexPath, html, 'utf-8')
-  console.log('✅ Blocker 1 fixed: index.html SEO')
+  fs.writeFileSync(indexPath, html, 'utf-8');
+  console.log('✅ Blocker 1 fixed: index.html SEO');
 }
 
 // ─── BLOCKER 2 & 3: Privacy + Terms ───
 function generateLegalPage(title, content, slug, assets) {
-  const js = assets.jsFile ? `<script type="module" crossorigin src="/assets/${assets.jsFile}"></script>` : ''
-  const css = assets.cssFile ? `<link rel="stylesheet" crossorigin href="/assets/${assets.cssFile}">` : ''
+  const js = assets.jsFile
+    ? `<script type="module" crossorigin src="/assets/${assets.jsFile}"></script>`
+    : '';
+  const css = assets.cssFile
+    ? `<link rel="stylesheet" crossorigin href="/assets/${assets.cssFile}">`
+    : '';
   const html = `<!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -107,45 +114,49 @@ ${css}
 ${content}
 </div>
 </body>
-</html>`
-  return html
+</html>`;
+  return html;
 }
 
 function fixPrivacyTerms() {
-  const assets = getAssetFiles()
+  const assets = getAssetFiles();
   const privacy = generateLegalPage(
     'Политика конфиденциальности',
     '<p>SmartSkidka.ru соблюдает политику конфиденциальности. Мы не собираем персональные данные без согласия.</p>',
     'privacy',
     assets
-  )
+  );
   const terms = generateLegalPage(
     'Пользовательское соглашение',
     '<p>Используя SmartSkidka.ru, вы соглашаетесь с нашими условиями использования.</p>',
     'terms',
     assets
-  )
-  fs.writeFileSync(path.join(DIST_DIR, 'privacy.html'), privacy, 'utf-8')
-  fs.writeFileSync(path.join(DIST_DIR, 'terms.html'), terms, 'utf-8')
-  console.log('✅ Blocker 2 & 3 fixed: privacy.html + terms.html')
+  );
+  fs.writeFileSync(path.join(DIST_DIR, 'privacy.html'), privacy, 'utf-8');
+  fs.writeFileSync(path.join(DIST_DIR, 'terms.html'), terms, 'utf-8');
+  console.log('✅ Blocker 2 & 3 fixed: privacy.html + terms.html');
 }
 
 // ─── BLOCKER 4: SPA fallback pages ───
 function fixSpaFallbacks() {
-  const assets = getAssetFiles()
-  const js = assets.jsFile ? `<script type="module" crossorigin src="/assets/${assets.jsFile}"></script>` : ''
-  const css = assets.cssFile ? `<link rel="stylesheet" crossorigin href="/assets/${assets.cssFile}">` : ''
-  
+  const assets = getAssetFiles();
+  const js = assets.jsFile
+    ? `<script type="module" crossorigin src="/assets/${assets.jsFile}"></script>`
+    : '';
+  const css = assets.cssFile
+    ? `<link rel="stylesheet" crossorigin href="/assets/${assets.cssFile}">`
+    : '';
+
   const pages = [
     { slug: 'promo', title: 'Промокоды AliExpress' },
     { slug: 'blog', title: 'Блог SmartSkidka' },
     { slug: 'favorites', title: 'Избранные товары' },
     { slug: 'ai-search', title: 'AI Поиск' },
-  ]
-  
+  ];
+
   for (const page of pages) {
-    const dir = path.join(DIST_DIR, page.slug)
-    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true })
+    const dir = path.join(DIST_DIR, page.slug);
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
     const html = `<!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -160,10 +171,10 @@ ${css}
 <div id="root"></div>
 <div style="text-align:center;padding:40px"><h1>Загрузка...</h1><p>${page.title}</p></div>
 </body>
-</html>`
-    fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf-8')
+</html>`;
+    fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf-8');
   }
-  console.log('✅ Blocker 4 fixed: SPA fallback pages')
+  console.log('✅ Blocker 4 fixed: SPA fallback pages');
 }
 
 // ─── BLOCKER 5: 404.html ───
@@ -181,47 +192,53 @@ function fix404() {
 <p>Вы будете перенаправлены на главную через 3 секунды...</p>
 <a href="/">На главную</a>
 </body>
-</html>`
-  fs.writeFileSync(path.join(DIST_DIR, '404.html'), html, 'utf-8')
-  console.log('✅ Blocker 5 fixed: 404.html')
+</html>`;
+  fs.writeFileSync(path.join(DIST_DIR, '404.html'), html, 'utf-8');
+  console.log('✅ Blocker 5 fixed: 404.html');
 }
 
 // ─── BLOCKER 6: favicon.ico ───
 function copyFavicon() {
-  const src = path.join(V1_DIR, 'favicon.ico')
-  const dst = path.join(DIST_DIR, 'favicon.ico')
+  const src = path.join(V1_DIR, 'favicon.ico');
+  const dst = path.join(DIST_DIR, 'favicon.ico');
   if (fs.existsSync(src)) {
-    fs.copyFileSync(src, dst)
-    console.log('✅ Blocker 6 fixed: favicon.ico copied')
+    fs.copyFileSync(src, dst);
+    console.log('✅ Blocker 6 fixed: favicon.ico copied');
   } else {
-    console.log('⚠️ favicon.ico not found in V1')
+    console.log('⚠️ favicon.ico not found in V1');
   }
 }
 
 // ─── BLOCKER 7: Clean sitemap ───
 function fixSitemap() {
-  const sitemapPath = path.join(DIST_DIR, 'sitemap.xml')
-  if (!fs.existsSync(sitemapPath)) return
-  let xml = fs.readFileSync(sitemapPath, 'utf-8')
+  const sitemapPath = path.join(DIST_DIR, 'sitemap.xml');
+  if (!fs.existsSync(sitemapPath)) return;
+  let xml = fs.readFileSync(sitemapPath, 'utf-8');
   // Remove dead URLs
-  xml = xml.replace(/<url>\s*<loc>https:\/\/smart-skidka\.ru\/(about|contact|jewelry|sports|toys)(\.html)?<\/loc>.*?<\/url>/gs, '')
-  xml = xml.replace(/<url>\s*<loc>https:\/\/smart-skidka\.ru\/blog\/.*?<\/loc>.*?<\/url>/gs, '')
-  fs.writeFileSync(sitemapPath, xml, 'utf-8')
-  console.log('✅ Blocker 7 fixed: sitemap.xml cleaned')
+  xml = xml.replace(
+    /<url>\s*<loc>https:\/\/smart-skidka\.ru\/(about|contact|jewelry|sports|toys)(\.html)?<\/loc>.*?<\/url>/gs,
+    ''
+  );
+  xml = xml.replace(/<url>\s*<loc>https:\/\/smart-skidka\.ru\/blog\/.*?<\/loc>.*?<\/url>/gs, '');
+  fs.writeFileSync(sitemapPath, xml, 'utf-8');
+  console.log('✅ Blocker 7 fixed: sitemap.xml cleaned');
 }
 
 // ─── MAIN ───
-console.log('=== Fixing critical blockers for v2 ===')
-const assets = getAssetFiles()
-console.log(`Assets found: JS=${assets.jsFile}, CSS=${assets.cssFile}`)
+console.log('=== Fixing critical blockers for v2 ===');
+const assets = getAssetFiles();
+console.log(`Assets found: JS=${assets.jsFile}, CSS=${assets.cssFile}`);
 
-fixIndexSEO()
-fixPrivacyTerms()
-fixSpaFallbacks()
-fix404()
-copyFavicon()
-fixSitemap()
+fixIndexSEO();
+fixPrivacyTerms();
+fixSpaFallbacks();
+fix404();
+copyFavicon();
+fixSitemap();
 
-console.log('\n=== All blockers fixed ===')
-const files = fs.readdirSync(DIST_DIR)
-console.log('HTML files:', files.filter(f => f.endsWith('.html') || f.includes('/index.html')))
+console.log('\n=== All blockers fixed ===');
+const files = fs.readdirSync(DIST_DIR);
+console.log(
+  'HTML files:',
+  files.filter((f) => f.endsWith('.html') || f.includes('/index.html'))
+);

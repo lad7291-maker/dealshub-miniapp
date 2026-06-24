@@ -1,38 +1,44 @@
-import { useState } from 'react'
-import { Search, Heart, Menu, X, Zap, Tag, BookOpen, ExternalLink, Sparkles } from 'lucide-react'
-import { Input } from '@/components/ui/input'
+import { useState } from 'react';
+import { Search, Heart, Menu, X, Zap, Tag, BookOpen, ExternalLink, Sparkles } from 'lucide-react';
+import { Input } from '@/components/ui/input';
 
 interface HeaderProps {
-  favoritesCount: number
-  onSearch: (query: string) => void
-  onAISearch: (query: string) => void
-  onNavigate: (page: string) => void
-  currentPage: string
+  favoritesCount: number;
+  onSearch: (query: string) => void;
+  onAISearch: (query: string) => void;
+  onNavigate: (page: string) => void;
+  currentPage: string;
 }
 
-export function Header({ favoritesCount, onSearch, onAISearch, onNavigate, currentPage }: HeaderProps) {
-  const [searchQuery, setSearchQuery] = useState('')
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [searchFocused, setSearchFocused] = useState(false)
-  const [aiMode, setAiMode] = useState(false)
+export function Header({
+  favoritesCount,
+  onSearch,
+  onAISearch,
+  onNavigate,
+  currentPage,
+}: HeaderProps) {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [searchFocused, setSearchFocused] = useState(false);
+  const [aiMode, setAiMode] = useState(false);
 
   const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault()
+    e.preventDefault();
     if (searchQuery.trim()) {
       if (aiMode) {
-        onAISearch(searchQuery.trim())
+        onAISearch(searchQuery.trim());
       } else {
-        onSearch(searchQuery.trim())
+        onSearch(searchQuery.trim());
       }
     }
-  }
+  };
 
   const navItems = [
     { id: 'home', label: 'Главная', icon: Zap },
     { id: 'promo', label: 'Промокоды', icon: Tag },
     { id: 'blog', label: 'Блог', icon: BookOpen },
     { id: 'favorites', label: 'Избранное', icon: Heart },
-  ]
+  ];
 
   return (
     <header className="sticky top-0 z-50 bg-[#0f172a]/95 backdrop-blur-md border-b border-cyan-500/20">
@@ -56,13 +62,15 @@ export function Header({ favoritesCount, onSearch, onAISearch, onNavigate, curre
 
           {/* Search Bar */}
           <form onSubmit={handleSearch} className="flex-1 max-w-xl">
-            <div className={`relative flex items-center bg-[#1e293b] rounded-xl border transition-all duration-200 ${searchFocused ? 'border-cyan-400 ring-1 ring-cyan-400/30' : 'border-slate-600'}`}>
+            <div
+              className={`relative flex items-center bg-[#1e293b] rounded-xl border transition-all duration-200 ${searchFocused ? 'border-cyan-400 ring-1 ring-cyan-400/30' : 'border-slate-600'}`}
+            >
               <Search className="absolute left-3 w-4 h-4 text-slate-400" />
               <Input
                 type="text"
                 placeholder={aiMode ? 'AI-поиск: напишите что ищете...' : 'Поиск товаров...'}
                 value={searchQuery}
-                onChange={e => setSearchQuery(e.target.value)}
+                onChange={(e) => setSearchQuery(e.target.value)}
                 onFocus={() => setSearchFocused(true)}
                 onBlur={() => setSearchFocused(false)}
                 className="pl-9 pr-[4.5rem] h-9 sm:h-10 bg-transparent border-0 text-white placeholder:text-slate-400 text-sm focus-visible:ring-0 focus-visible:ring-offset-0"
@@ -70,7 +78,10 @@ export function Header({ favoritesCount, onSearch, onAISearch, onNavigate, curre
               {searchQuery && (
                 <button
                   type="button"
-                  onClick={() => { setSearchQuery(''); onSearch('') }}
+                  onClick={() => {
+                    setSearchQuery('');
+                    onSearch('');
+                  }}
                   className="absolute right-10 w-6 h-6 flex items-center justify-center text-slate-400 hover:text-white"
                 >
                   <X className="w-3 h-3" />
@@ -103,7 +114,9 @@ export function Header({ favoritesCount, onSearch, onAISearch, onNavigate, curre
               onClick={() => onNavigate('favorites')}
               className="relative p-2 text-slate-300 hover:text-white transition-colors"
             >
-              <Heart className={`w-5 h-5 ${currentPage === 'favorites' ? 'fill-red-500 text-red-500' : ''}`} />
+              <Heart
+                className={`w-5 h-5 ${currentPage === 'favorites' ? 'fill-red-500 text-red-500' : ''}`}
+              />
               {favoritesCount > 0 && (
                 <span className="absolute -top-0.5 -right-0.5 w-4.5 h-4.5 min-w-[18px] flex items-center justify-center bg-red-500 text-white text-[10px] font-bold rounded-full">
                   {favoritesCount}
@@ -126,10 +139,13 @@ export function Header({ favoritesCount, onSearch, onAISearch, onNavigate, curre
       {mobileMenuOpen && (
         <div className="lg:hidden bg-[#0f172a] border-t border-slate-700/50">
           <div className="px-4 py-3 space-y-1">
-            {navItems.map(item => (
+            {navItems.map((item) => (
               <button
                 key={item.id}
-                onClick={() => { onNavigate(item.id); setMobileMenuOpen(false) }}
+                onClick={() => {
+                  onNavigate(item.id);
+                  setMobileMenuOpen(false);
+                }}
                 className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors ${currentPage === item.id ? 'bg-cyan-500/10 text-cyan-400' : 'text-slate-300 hover:bg-slate-700/50 hover:text-white'}`}
               >
                 <item.icon className="w-4 h-4" />
@@ -158,7 +174,7 @@ export function Header({ favoritesCount, onSearch, onAISearch, onNavigate, curre
       <nav className="hidden lg:block border-t border-slate-700/30">
         <div className="max-w-[1440px] mx-auto px-6">
           <div className="flex items-center gap-1">
-            {navItems.map(item => (
+            {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => onNavigate(item.id)}
@@ -186,5 +202,5 @@ export function Header({ favoritesCount, onSearch, onAISearch, onNavigate, curre
         </div>
       </nav>
     </header>
-  )
+  );
 }

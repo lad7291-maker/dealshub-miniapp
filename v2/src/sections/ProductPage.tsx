@@ -1,21 +1,33 @@
-import { useEffect } from 'react'
-import { Heart, Star, Users, Eye, Check, ArrowLeft, ShoppingCart, Share2, Store, Truck, Tag } from 'lucide-react'
-import type { Product } from '@/types'
-import { trackViewItem, trackPurchase } from '@/lib/analytics'
+import { useEffect } from 'react';
+import {
+  Heart,
+  Star,
+  Users,
+  Eye,
+  Check,
+  ArrowLeft,
+  ShoppingCart,
+  Share2,
+  Store,
+  Truck,
+  Tag,
+} from 'lucide-react';
+import type { Product } from '@/types';
+import { trackViewItem, trackPurchase } from '@/lib/analytics';
 
 interface ProductPageProps {
-  product: Product
-  isFavorite: boolean
-  onToggleFavorite: (id: number) => void
-  onBack: () => void
+  product: Product;
+  isFavorite: boolean;
+  onToggleFavorite: (id: number) => void;
+  onBack: () => void;
 }
 
 export function ProductPage({ product, isFavorite, onToggleFavorite, onBack }: ProductPageProps) {
   useEffect(() => {
-    trackViewItem({ id: product.id, title: product.title, price: product.price })
-  }, [product])
+    trackViewItem({ id: product.id, title: product.title, price: product.price });
+  }, [product]);
 
-  const discountAmount = product.oldPrice - product.price
+  const discountAmount = product.oldPrice - product.price;
 
   return (
     <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-8">
@@ -32,11 +44,7 @@ export function ProductPage({ product, isFavorite, onToggleFavorite, onBack }: P
         {/* Image */}
         <div className="bg-[#1e293b] border border-slate-700/50 rounded-2xl overflow-hidden">
           <div className="aspect-square">
-            <img
-              src={product.image}
-              alt={product.title}
-              className="w-full h-full object-cover"
-            />
+            <img src={product.image} alt={product.title} className="w-full h-full object-cover" />
           </div>
         </div>
 
@@ -52,19 +60,22 @@ export function ProductPage({ product, isFavorite, onToggleFavorite, onBack }: P
                   bestPrice: 'Лучшая цена',
                   flash: 'Флеш-скидка',
                   new: 'Новинка',
-                }
+                };
                 const colors: Record<string, string> = {
                   bestseller: 'bg-amber-500/20 text-amber-400 border-amber-500/30',
                   topRated: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30',
                   bestPrice: 'bg-cyan-500/20 text-cyan-400 border-cyan-500/30',
                   flash: 'bg-red-500/20 text-red-400 border-red-500/30',
                   new: 'bg-purple-500/20 text-purple-400 border-purple-500/30',
-                }
+                };
                 return (
-                  <span key={badge} className={`text-xs font-medium px-2.5 py-1 rounded-full border ${colors[badge] || ''}`}>
+                  <span
+                    key={badge}
+                    className={`text-xs font-medium px-2.5 py-1 rounded-full border ${colors[badge] || ''}`}
+                  >
                     {labels[badge] || badge}
                   </span>
-                )
+                );
               })}
             </div>
           )}
@@ -98,12 +109,20 @@ export function ProductPage({ product, isFavorite, onToggleFavorite, onBack }: P
           {/* Price */}
           <div className="bg-gradient-to-br from-[#1e293b] to-[#1a2636] border border-slate-700/50 rounded-2xl p-4 sm:p-5 mb-5">
             <div className="flex items-baseline gap-3 mb-2">
-              <span className="text-3xl sm:text-4xl font-bold text-cyan-400">{product.price.toLocaleString('ru')} ₽</span>
-              <span className="text-base sm:text-lg text-slate-500 line-through">{product.oldPrice.toLocaleString('ru')} ₽</span>
+              <span className="text-3xl sm:text-4xl font-bold text-cyan-400">
+                {product.price.toLocaleString('ru')} ₽
+              </span>
+              <span className="text-base sm:text-lg text-slate-500 line-through">
+                {product.oldPrice.toLocaleString('ru')} ₽
+              </span>
             </div>
             <div className="flex items-center gap-2 text-sm">
-              <span className="bg-red-500 text-white font-bold px-2 py-0.5 rounded">-{product.discount}%</span>
-              <span className="text-emerald-400">Экономия {discountAmount.toLocaleString('ru')} ₽</span>
+              <span className="bg-red-500 text-white font-bold px-2 py-0.5 rounded">
+                -{product.discount}%
+              </span>
+              <span className="text-emerald-400">
+                Экономия {discountAmount.toLocaleString('ru')} ₽
+              </span>
             </div>
           </div>
 
@@ -111,7 +130,10 @@ export function ProductPage({ product, isFavorite, onToggleFavorite, onBack }: P
           {product.tags.length > 0 && (
             <div className="flex flex-wrap gap-2 mb-5">
               {product.tags.map((tag) => (
-                <span key={tag} className="flex items-center gap-1 text-xs text-cyan-400 bg-cyan-500/10 px-2.5 py-1 rounded-full">
+                <span
+                  key={tag}
+                  className="flex items-center gap-1 text-xs text-cyan-400 bg-cyan-500/10 px-2.5 py-1 rounded-full"
+                >
                   <Tag className="w-3 h-3" />
                   {tag}
                 </span>
@@ -152,7 +174,9 @@ export function ProductPage({ product, isFavorite, onToggleFavorite, onBack }: P
               href={product.affiliateLink}
               target="_blank"
               rel="noopener noreferrer sponsored nofollow"
-              onClick={() => trackPurchase({ id: product.id, title: product.title, price: product.price })}
+              onClick={() =>
+                trackPurchase({ id: product.id, title: product.title, price: product.price })
+              }
               className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-400 hover:to-cyan-500 text-white text-base font-bold rounded-xl transition-all duration-200 hover:shadow-lg hover:shadow-cyan-500/20"
             >
               <ShoppingCart className="w-5 h-5" />
@@ -172,9 +196,9 @@ export function ProductPage({ product, isFavorite, onToggleFavorite, onBack }: P
             <button
               onClick={() => {
                 if (navigator.share) {
-                  navigator.share({ title: product.title, url: window.location.href })
+                  navigator.share({ title: product.title, url: window.location.href });
                 } else {
-                  navigator.clipboard.writeText(window.location.href)
+                  navigator.clipboard.writeText(window.location.href);
                 }
               }}
               className="flex items-center justify-center gap-2 px-5 py-3.5 bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 rounded-xl transition-colors"
@@ -186,5 +210,5 @@ export function ProductPage({ product, isFavorite, onToggleFavorite, onBack }: P
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -1,16 +1,22 @@
-import { Sparkles, SearchX } from 'lucide-react'
-import { ProductCard } from '@/components/ProductCard'
-import type { Product } from '@/types'
+import { Sparkles, SearchX } from 'lucide-react';
+import { ProductCard } from '@/components/ProductCard';
+import type { Product } from '@/types';
 
 interface AISearchResultsProps {
-  query: string
-  results: Product[]
-  favorites: number[]
-  onToggleFavorite: (id: number) => void
-  onProductClick: (id: number) => void
+  query: string;
+  results: Product[];
+  favorites: number[];
+  onToggleFavorite: (id: number) => void;
+  onProductClick: (id: number) => void;
 }
 
-export function AISearchResults({ query, results, favorites, onToggleFavorite, onProductClick }: AISearchResultsProps) {
+export function AISearchResults({
+  query,
+  results,
+  favorites,
+  onToggleFavorite,
+  onProductClick,
+}: AISearchResultsProps) {
   return (
     <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
       <div className="flex items-center gap-2 mb-6">
@@ -20,7 +26,8 @@ export function AISearchResults({ query, results, favorites, onToggleFavorite, o
         <div>
           <h1 className="text-xl sm:text-2xl font-bold text-white">Результаты AI-поиска</h1>
           <p className="text-sm text-slate-400">
-            По запросу "<span className="text-cyan-400">{query}</span>" найдено {results.length} товаров
+            По запросу "<span className="text-cyan-400">{query}</span>" найдено {results.length}{' '}
+            товаров
           </p>
         </div>
       </div>
@@ -44,10 +51,11 @@ export function AISearchResults({ query, results, favorites, onToggleFavorite, o
           </div>
           <h2 className="text-lg font-bold text-white mb-2">Ничего не найдено</h2>
           <p className="text-sm text-slate-400 max-w-md mx-auto">
-            Попробуйте изменить запрос. Например: "беспроводные наушники", "коврик для мыши" или "зарядное устройство".
+            Попробуйте изменить запрос. Например: "беспроводные наушники", "коврик для мыши" или
+            "зарядное устройство".
           </p>
         </div>
       )}
     </div>
-  )
+  );
 }

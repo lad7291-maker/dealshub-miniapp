@@ -47,9 +47,9 @@ function extractJsonLd(html) {
 }
 
 function findSchema(ldArray, type) {
-  return ldArray.flatMap(ld => {
+  return ldArray.flatMap((ld) => {
     if (ld['@type'] === type) return [ld];
-    if (Array.isArray(ld['@graph'])) return ld['@graph'].filter(g => g['@type'] === type);
+    if (Array.isArray(ld['@graph'])) return ld['@graph'].filter((g) => g['@type'] === type);
     return [];
   });
 }
@@ -72,7 +72,10 @@ test('product page JSON-LD has Offer', () => {
 
 test('product page JSON-LD has AggregateRating', () => {
   const products = findSchema(productLd, 'Product');
-  assert(products[0].aggregateRating && products[0].aggregateRating['@type'] === 'AggregateRating', 'should have AggregateRating');
+  assert(
+    products[0].aggregateRating && products[0].aggregateRating['@type'] === 'AggregateRating',
+    'should have AggregateRating'
+  );
 });
 
 test('product page JSON-LD has correct sku', () => {

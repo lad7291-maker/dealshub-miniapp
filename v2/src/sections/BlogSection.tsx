@@ -1,18 +1,24 @@
-import { useState } from 'react'
-import { BookOpen, Clock, Calendar, ArrowRight, ChevronLeft } from 'lucide-react'
-import type { BlogPost, Product } from '@/types'
-import { ProductCard } from '@/components/ProductCard'
+import { useState } from 'react';
+import { BookOpen, Clock, Calendar, ArrowRight, ChevronLeft } from 'lucide-react';
+import type { BlogPost, Product } from '@/types';
+import { ProductCard } from '@/components/ProductCard';
 
 interface BlogSectionProps {
-  posts: BlogPost[]
-  products: Product[]
-  favorites: number[]
-  onToggleFavorite: (id: number) => void
-  onProductClick: (id: number) => void
+  posts: BlogPost[];
+  products: Product[];
+  favorites: number[];
+  onToggleFavorite: (id: number) => void;
+  onProductClick: (id: number) => void;
 }
 
-export function BlogSection({ posts, products, favorites, onToggleFavorite, onProductClick }: BlogSectionProps) {
-  const [activePost, setActivePost] = useState<BlogPost | null>(null)
+export function BlogSection({
+  posts,
+  products,
+  favorites,
+  onToggleFavorite,
+  onProductClick,
+}: BlogSectionProps) {
+  const [activePost, setActivePost] = useState<BlogPost | null>(null);
 
   if (activePost) {
     return (
@@ -27,7 +33,9 @@ export function BlogSection({ posts, products, favorites, onToggleFavorite, onPr
 
         <article className="max-w-4xl">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-xs text-cyan-400 bg-cyan-500/10 px-2.5 py-1 rounded-full">{activePost.category}</span>
+            <span className="text-xs text-cyan-400 bg-cyan-500/10 px-2.5 py-1 rounded-full">
+              {activePost.category}
+            </span>
             <span className="flex items-center gap-1 text-xs text-slate-500">
               <Calendar className="w-3 h-3" /> {activePost.date}
             </span>
@@ -54,42 +62,67 @@ export function BlogSection({ posts, products, favorites, onToggleFavorite, onPr
           <div className="space-y-4 sm:space-y-6">
             {activePost.content.map((block, i) => {
               if (block.type === 'h2') {
-                return <h2 key={i} className="text-xl sm:text-2xl font-bold text-white mt-8">{block.content}</h2>
+                return (
+                  <h2 key={i} className="text-xl sm:text-2xl font-bold text-white mt-8">
+                    {block.content}
+                  </h2>
+                );
               }
               if (block.type === 'h3') {
-                return <h3 key={i} className="text-lg sm:text-xl font-semibold text-white mt-6">{block.content}</h3>
+                return (
+                  <h3 key={i} className="text-lg sm:text-xl font-semibold text-white mt-6">
+                    {block.content}
+                  </h3>
+                );
               }
               if (block.type === 'p') {
-                return <p key={i} className="text-sm sm:text-base text-slate-400 leading-relaxed" dangerouslySetInnerHTML={{ __html: block.content }} />
+                return (
+                  <p
+                    key={i}
+                    className="text-sm sm:text-base text-slate-400 leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: block.content }}
+                  />
+                );
               }
               if (block.type === 'promo-block') {
                 return (
-                  <div key={i} className="bg-gradient-to-br from-cyan-500/10 to-cyan-600/5 border border-cyan-500/20 rounded-2xl p-4 sm:p-6 my-6">
-                    <h4 className="text-base font-bold text-white mb-3">Актуальные промокоды AliExpress</h4>
+                  <div
+                    key={i}
+                    className="bg-gradient-to-br from-cyan-500/10 to-cyan-600/5 border border-cyan-500/20 rounded-2xl p-4 sm:p-6 my-6"
+                  >
+                    <h4 className="text-base font-bold text-white mb-3">
+                      Актуальные промокоды AliExpress
+                    </h4>
                     <div className="flex flex-wrap gap-2">
-                      {['NEWUSER50', 'TECH30', 'HOME20', 'SHOES15'].map(code => (
-                        <span key={code} className="px-3 py-1.5 bg-[#0f172a] text-cyan-400 text-sm font-mono rounded-lg border border-cyan-500/20">
+                      {['NEWUSER50', 'TECH30', 'HOME20', 'SHOES15'].map((code) => (
+                        <span
+                          key={code}
+                          className="px-3 py-1.5 bg-[#0f172a] text-cyan-400 text-sm font-mono rounded-lg border border-cyan-500/20"
+                        >
                           {code}
                         </span>
                       ))}
                     </div>
                   </div>
-                )
+                );
               }
               if (block.type === 'tip') {
                 return (
-                  <div key={i} className="bg-amber-500/5 border-l-4 border-amber-400 rounded-r-xl p-4 sm:p-5 my-4">
+                  <div
+                    key={i}
+                    className="bg-amber-500/5 border-l-4 border-amber-400 rounded-r-xl p-4 sm:p-5 my-4"
+                  >
                     <p className="text-sm text-amber-300/90 leading-relaxed">{block.content}</p>
                   </div>
-                )
+                );
               }
               if (block.type === 'product-grid') {
-                const relatedProducts = products.slice(0, 3)
+                const relatedProducts = products.slice(0, 3);
                 return (
                   <div key={i} className="my-6">
                     <h4 className="text-base font-bold text-white mb-3">Рекомендуемые товары</h4>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                      {relatedProducts.map(p => (
+                      {relatedProducts.map((p) => (
                         <ProductCard
                           key={p.id}
                           product={p}
@@ -100,9 +133,9 @@ export function BlogSection({ posts, products, favorites, onToggleFavorite, onPr
                       ))}
                     </div>
                   </div>
-                )
+                );
               }
-              return null
+              return null;
             })}
           </div>
 
@@ -118,7 +151,7 @@ export function BlogSection({ posts, products, favorites, onToggleFavorite, onPr
           </div>
         </article>
       </div>
-    )
+    );
   }
 
   return (
@@ -139,7 +172,7 @@ export function BlogSection({ posts, products, favorites, onToggleFavorite, onPr
 
       {/* Posts Grid */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-        {posts.map(post => (
+        {posts.map((post) => (
           <button
             key={post.id}
             onClick={() => setActivePost(post)}
@@ -155,7 +188,9 @@ export function BlogSection({ posts, products, favorites, onToggleFavorite, onPr
             </div>
             <div className="p-4 sm:p-5">
               <div className="flex items-center gap-2 mb-2">
-                <span className="text-xs text-cyan-400 bg-cyan-500/10 px-2 py-0.5 rounded-full">{post.category}</span>
+                <span className="text-xs text-cyan-400 bg-cyan-500/10 px-2 py-0.5 rounded-full">
+                  {post.category}
+                </span>
                 <span className="flex items-center gap-1 text-xs text-slate-500">
                   <Clock className="w-3 h-3" /> {post.readTime}
                 </span>
@@ -175,19 +210,26 @@ export function BlogSection({ posts, products, favorites, onToggleFavorite, onPr
 
       {/* Tips for linking */}
       <div className="mt-10 sm:mt-14 bg-gradient-to-br from-[#1e293b] to-[#1a2636] border border-slate-700/50 rounded-2xl p-5 sm:p-8">
-        <h3 className="text-lg sm:text-xl font-bold text-white mb-4">
-          Популярные темы
-        </h3>
+        <h3 className="text-lg sm:text-xl font-bold text-white mb-4">Популярные темы</h3>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {[
-            { title: 'Как находить скидки до 90%', desc: 'Полное руководство по поиску максимальных скидок' },
+            {
+              title: 'Как находить скидки до 90%',
+              desc: 'Полное руководство по поиску максимальных скидок',
+            },
             { title: 'Промокоды AliExpress 2026', desc: 'Все актуальные коды и купоны' },
-            { title: 'Товары для дома до 1000 ₽', desc: 'Лучшие мелочи для дома по минимальной цене' },
+            {
+              title: 'Товары для дома до 1000 ₽',
+              desc: 'Лучшие мелочи для дома по минимальной цене',
+            },
             { title: 'Электроника со скидками', desc: 'Гаджеты, наушники, умный дом' },
             { title: 'Размеры одежды и обуви', desc: 'Таблицы размеров и советы по выбору' },
             { title: 'Защита от фейковых скидок', desc: 'Как проверить реальность экономии' },
           ].map((tip, i) => (
-            <div key={i} className="p-3 sm:p-4 bg-[#0f172a]/50 rounded-xl hover:bg-[#0f172a] transition-colors cursor-pointer">
+            <div
+              key={i}
+              className="p-3 sm:p-4 bg-[#0f172a]/50 rounded-xl hover:bg-[#0f172a] transition-colors cursor-pointer"
+            >
               <h4 className="text-sm font-medium text-white mb-0.5">{tip.title}</h4>
               <p className="text-xs text-slate-500">{tip.desc}</p>
             </div>
@@ -195,5 +237,5 @@ export function BlogSection({ posts, products, favorites, onToggleFavorite, onPr
         </div>
       </div>
     </div>
-  )
+  );
 }

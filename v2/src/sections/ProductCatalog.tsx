@@ -1,102 +1,109 @@
-import { useState, useMemo } from 'react'
-import { LayoutGrid, ChevronRight } from 'lucide-react'
-import { ProductCard } from '@/components/ProductCard'
-import { FilterBar } from '@/components/FilterBar'
-import { CategorySidebar } from '@/components/CategorySidebar'
-import { trackFilter, trackSort, trackPagination } from '@/lib/analytics'
-import type { Product, Category } from '@/types'
+import { useState, useMemo } from 'react';
+import { LayoutGrid, ChevronRight } from 'lucide-react';
+import { ProductCard } from '@/components/ProductCard';
+import { FilterBar } from '@/components/FilterBar';
+import { CategorySidebar } from '@/components/CategorySidebar';
+import { trackFilter, trackSort, trackPagination } from '@/lib/analytics';
+import type { Product, Category } from '@/types';
 
 interface ProductCatalogProps {
-  products: Product[]
-  categories: Category[]
-  activeCategory: string
-  onCategoryChange: (cat: string) => void
-  favorites: number[]
-  onToggleFavorite: (id: number) => void
-  onProductClick: (id: number) => void
-  searchQuery: string
+  products: Product[];
+  categories: Category[];
+  activeCategory: string;
+  onCategoryChange: (cat: string) => void;
+  favorites: number[];
+  onToggleFavorite: (id: number) => void;
+  onProductClick: (id: number) => void;
+  searchQuery: string;
 }
 
 export function ProductCatalog({
-  products, categories, activeCategory, onCategoryChange,
-  favorites, onToggleFavorite, onProductClick, searchQuery,
+  products,
+  categories,
+  activeCategory,
+  onCategoryChange,
+  favorites,
+  onToggleFavorite,
+  onProductClick,
+  searchQuery,
 }: ProductCatalogProps) {
-  const [discountFilter, setDiscountFilter] = useState('all')
-  const [appliedSort, setAppliedSort] = useState('discount')
-  const ITEMS_PER_PAGE = 12
-  const [displayCount, setDisplayCount] = useState(ITEMS_PER_PAGE)
+  const [discountFilter, setDiscountFilter] = useState('all');
+  const [appliedSort, setAppliedSort] = useState('discount');
+  const ITEMS_PER_PAGE = 12;
+  const [displayCount, setDisplayCount] = useState(ITEMS_PER_PAGE);
 
   const filteredProducts = useMemo(() => {
-    let result = [...products]
+    let result = [...products];
 
     // Category filter
     if (activeCategory !== 'all') {
-      result = result.filter(p => p.category === activeCategory)
+      result = result.filter((p) => p.category === activeCategory);
     }
 
     // Search filter
     if (searchQuery) {
-      const q = searchQuery.toLowerCase()
-      result = result.filter(p =>
-        p.title.toLowerCase().includes(q) ||
-        p.subtitle?.toLowerCase().includes(q) ||
-        p.tags.some(t => t.toLowerCase().includes(q))
-      )
+      const q = searchQuery.toLowerCase();
+      result = result.filter(
+        (p) =>
+          p.title.toLowerCase().includes(q) ||
+          p.subtitle?.toLowerCase().includes(q) ||
+          p.tags.some((t) => t.toLowerCase().includes(q))
+      );
     }
 
     // Discount filter
     if (discountFilter !== 'all') {
-      const min = parseInt(discountFilter)
-      result = result.filter(p => p.discount >= min)
+      const min = parseInt(discountFilter);
+      result = result.filter((p) => p.discount >= min);
     }
 
     // Sort
     switch (appliedSort) {
       case 'price_asc':
-        result.sort((a, b) => a.price - b.price)
-        break
+        result.sort((a, b) => a.price - b.price);
+        break;
       case 'price_desc':
-        result.sort((a, b) => b.price - a.price)
-        break
+        result.sort((a, b) => b.price - a.price);
+        break;
       case 'orders':
-        result.sort((a, b) => b.orders - a.orders)
-        break
+        result.sort((a, b) => b.orders - a.orders);
+        break;
       case 'discount':
       default:
-        result.sort((a, b) => b.discount - a.discount)
-        break
+        result.sort((a, b) => b.discount - a.discount);
+        break;
     }
 
-    return result
-  }, [products, activeCategory, searchQuery, discountFilter, appliedSort])
+    return result;
+  }, [products, activeCategory, searchQuery, discountFilter, appliedSort]);
 
   const visibleProducts = useMemo(() => {
-    return filteredProducts.slice(0, displayCount)
-  }, [filteredProducts, displayCount])
+    return filteredProducts.slice(0, displayCount);
+  }, [filteredProducts, displayCount]);
 
   const handleDiscountFilterChange = (value: string) => {
-    setDisplayCount(ITEMS_PER_PAGE)
-    setDiscountFilter(value)
-    if (value !== 'all') trackFilter(`discount_${value}`)
-  }
+    setDisplayCount(ITEMS_PER_PAGE);
+    setDiscountFilter(value);
+    if (value !== 'all') trackFilter(`discount_${value}`);
+  };
 
   const handleResetFilters = () => {
-    setDisplayCount(ITEMS_PER_PAGE)
-    setDiscountFilter('all')
-    trackFilter('reset')
-  }
+    setDisplayCount(ITEMS_PER_PAGE);
+    setDiscountFilter('all');
+    trackFilter('reset');
+  };
 
   const handleLoadMore = () => {
-    setDisplayCount(prev => prev + ITEMS_PER_PAGE)
-    trackPagination(displayCount / ITEMS_PER_PAGE + 1, activeCategory)
-  }
+    setDisplayCount((prev) => prev + ITEMS_PER_PAGE);
+    trackPagination(displayCount / ITEMS_PER_PAGE + 1, activeCategory);
+  };
 
   const handleSortChange = (value: string) => {
-    setAppliedSort(value)
-    trackSort(value)
-  }
+    setAppliedSort(value);
+    trackSort(value);
+  };
 
-  const activeCategoryName = categories.find(c => c.id === activeCategory)?.name || 'Все'
+  const activeCategoryName = categories.find((c) => c.id === activeCategory)?.name || 'Все';
 
   return (
     <section className="max-w-[1440px] mx-auto px-3 sm:px-4 lg:px-6 py-6 sm:py-8">
@@ -112,7 +119,6 @@ export function ProductCatalog({
 
         {/* Main Content */}
         <div className="flex-1 min-w-0">
-
           {/* Category Title */}
           <div className="flex items-center gap-2 mb-4">
             <LayoutGrid className="w-5 h-5 text-cyan-400" />
@@ -171,5 +177,5 @@ export function ProductCatalog({
         </div>
       </div>
     </section>
-  )
+  );
 }

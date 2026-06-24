@@ -1,52 +1,54 @@
-import { useState, useEffect } from 'react'
-import { Download, X, WifiOff } from 'lucide-react'
-import { trackInstallPwa } from '@/lib/analytics'
+import { useState, useEffect } from 'react';
+import { Download, X, WifiOff } from 'lucide-react';
+import { trackInstallPwa } from '@/lib/analytics';
 
 interface BeforeInstallPromptEvent extends Event {
-  prompt: () => Promise<void>
-  userChoice: Promise<{ outcome: 'accepted' | 'dismissed' }>
+  prompt: () => Promise<void>;
+  userChoice: Promise<{ outcome: 'accepted' | 'dismissed' }>;
 }
 
 export function PWAInstallPrompt() {
-  const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null)
-  const [isVisible, setIsVisible] = useState(false)
-  const [isOffline, setIsOffline] = useState(() => typeof navigator !== 'undefined' && !navigator.onLine)
+  const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
+  const [isVisible, setIsVisible] = useState(false);
+  const [isOffline, setIsOffline] = useState(
+    () => typeof navigator !== 'undefined' && !navigator.onLine
+  );
 
   useEffect(() => {
     const handleBeforeInstallPrompt = (e: Event) => {
-      e.preventDefault()
-      setDeferredPrompt(e as BeforeInstallPromptEvent)
-      setIsVisible(true)
-    }
+      e.preventDefault();
+      setDeferredPrompt(e as BeforeInstallPromptEvent);
+      setIsVisible(true);
+    };
 
-    const handleOnline = () => setIsOffline(false)
-    const handleOffline = () => setIsOffline(true)
+    const handleOnline = () => setIsOffline(false);
+    const handleOffline = () => setIsOffline(true);
 
-    window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
-    window.addEventListener('online', handleOnline)
-    window.addEventListener('offline', handleOffline)
+    window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
 
     return () => {
-      window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
-      window.removeEventListener('online', handleOnline)
-      window.removeEventListener('offline', handleOffline)
-    }
-  }, [])
+      window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
+  }, []);
 
   const handleInstall = async () => {
-    if (!deferredPrompt) return
-    deferredPrompt.prompt()
-    const { outcome } = await deferredPrompt.userChoice
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
     if (outcome === 'accepted') {
-      trackInstallPwa()
+      trackInstallPwa();
     }
-    setDeferredPrompt(null)
-    setIsVisible(false)
-  }
+    setDeferredPrompt(null);
+    setIsVisible(false);
+  };
 
   const handleDismiss = () => {
-    setIsVisible(false)
-  }
+    setIsVisible(false);
+  };
 
   return (
     <>
@@ -85,5 +87,5 @@ export function PWAInstallPrompt() {
         </div>
       )}
     </>
-  )
+  );
 }
