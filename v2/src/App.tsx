@@ -25,12 +25,12 @@ import {
   loadProducts,
   loadCategories,
   promoCodes,
-  blogPosts,
   collections,
   stats,
   mainFAQ,
   promoFAQ,
 } from '@/data/products';
+import { loadBlogPosts } from '@/data/blog';
 import { searchProductsAI } from '@/lib/search';
 import type { Product, Category } from '@/types';
 
@@ -179,6 +179,7 @@ function App() {
 
   const [products, setProducts] = useState<Product[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
+  const [blogPosts, setBlogPosts] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -187,10 +188,11 @@ function App() {
     async function fetchData() {
       try {
         setLoading(true);
-        const [p, c] = await Promise.all([loadProducts(), loadCategories()]);
+        const [p, c, b] = await Promise.all([loadProducts(), loadCategories(), loadBlogPosts()]);
         if (cancelled) return;
         setProducts(p);
         setCategories(c);
+        setBlogPosts(b);
       } catch (e) {
         if (!cancelled) setError(e instanceof Error ? e.message : 'Ошибка загрузки');
       } finally {
@@ -240,6 +242,7 @@ function App() {
     setActiveCategory(cat);
     setCurrentPage('home');
     setSelectedProductItemId(null);
+    setSearchQuery('');
     trackCategory(cat);
     if (window.location.pathname !== '/') history.replaceState(null, '', '/');
     // Scroll to catalog, not to top
@@ -516,10 +519,6 @@ function App() {
           {currentPage === 'blog' && (
             <BlogSection
               posts={blogPosts}
-              products={products}
-              favorites={favorites}
-              onToggleFavorite={toggleFavorite}
-              onProductClick={handleProductClick}
             />
           )}
 

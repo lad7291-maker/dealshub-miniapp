@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js for root scripts
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
 
       - name: Install root dependencies
@@ -24,8 +24,10 @@ jobs:
 
       - name: Update product feed
         env:
-          ADMITAD_FEED_URL: ${{ secrets.ADMITAD_FEED_URL }}
-        run: npm run update-feed
+          ADMITAD_XML_URL: ${{ secrets.ADMITAD_FEED_URL }}
+        run: |
+          cd /opt/smart-skidka-agents
+          ADMITAD_XML_URL=${{ secrets.ADMITAD_FEED_URL }} python3 scripts/update_products.py
         continue-on-error: true
 
       - name: Generate sitemap
@@ -34,7 +36,7 @@ jobs:
       - name: Setup Node.js for v2
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
           cache-dependency-path: v2/package-lock.json
 
@@ -91,8 +93,8 @@ jobs:
           ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} '
             set -e
             cd /var/www/dealshub-miniapp
-            if systemctl is-active --quiet dealshub-ai-search 2>/dev/null; then
-              sudo systemctl restart dealshub-ai-search
+            if systemctl is-active --quiet ai-search-api.service 2>/dev/null; then
+              sudo systemctl restart ai-search-api.service
             elif pm2 describe dealshub-ai-search >/dev/null 2>&1; then
               pm2 restart dealshub-ai-search
             else

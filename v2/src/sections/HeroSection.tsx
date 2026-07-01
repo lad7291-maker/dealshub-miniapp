@@ -109,7 +109,7 @@ export function HeroSection({ onNavigate, onCategorySelect }: HeroSectionProps) 
             <button
               key={cat.id}
               onClick={() => onCategorySelect(cat.id)}
-              className="group relative p-4 sm:p-5 bg-[#1e293b]/80 hover:bg-[#243447] border border-slate-700/50 hover:border-cyan-500/30 rounded-2xl transition-all duration-300 hover:-translate-y-0.5 text-left"
+              className="group relative p-4 sm:p-5 bg-[#1e293b]/80 hover:bg-[#243447] border border-slate-700/50 hover:border-cyan-500/30 rounded-2xl transition-colors duration-200 text-left"
             >
               <div className="absolute top-3 right-3 text-xs font-bold text-cyan-400 bg-cyan-500/10 px-2 py-0.5 rounded-full">
                 {cat.discount}

@@ -139,8 +139,11 @@ function convertProduct(product) {
     tags: generateTags(product),
     badges: generateBadges(product),
     features: specsToFeatures(product.specs),
-    affiliateLink:
-      product.aliLink || `https://aliexpress.ru/item/${product.itemId || product.id}.html`,
+    affiliateLink: (() => {
+      const itemUrl = `https://aliexpress.ru/item/${product.itemId || product.id}.html`;
+      // CPC campaign via rzekl.com (Admitad)
+      return `https://rzekl.com/c/1e8d114494fb6bf3968616525dc3e8/?ulp=${encodeURIComponent(itemUrl)}`;
+    })(),
     shipping: 'Бесплатная доставка',
     shopName: extractShopName(product.aliLink),
   };

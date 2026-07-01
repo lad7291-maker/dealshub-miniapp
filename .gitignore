@@ -40,3 +40,15 @@ rzekl_redirect_working.png
 dist/
 build/
 feed_raw.xml.gz
+
+# Large feed files (generated, >100MB)
+feed_rucis.xml
+feed_raw.xml.gz
+
+# Product backup files
+*.cpc.*
+
+# Generated feeds (optional - can be regenerated)
+yandex-market.yml
+turbo.xml
+sitemap.xml

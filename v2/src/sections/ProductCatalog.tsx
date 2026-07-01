@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { LayoutGrid, ChevronRight } from 'lucide-react';
 import { ProductCard } from '@/components/ProductCard';
 import { FilterBar } from '@/components/FilterBar';
@@ -31,6 +31,12 @@ export function ProductCatalog({
   const [appliedSort, setAppliedSort] = useState('discount');
   const ITEMS_PER_PAGE = 12;
   const [displayCount, setDisplayCount] = useState(ITEMS_PER_PAGE);
+
+  // Сбрасываем фильтр скидки при смене категории, чтобы не было "Товары не найдены"
+  useEffect(() => {
+    setDiscountFilter('all');
+    setDisplayCount(ITEMS_PER_PAGE);
+  }, [activeCategory]);
 
   const filteredProducts = useMemo(() => {
     let result = [...products];

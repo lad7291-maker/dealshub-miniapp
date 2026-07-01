@@ -5,9 +5,9 @@
     "icon": "LayoutGrid"
   },
   {
-    "id": "electronics",
-    "name": "Электроника",
-    "icon": "Monitor"
+    "id": "beauty",
+    "name": "Красота",
+    "icon": "Sparkles"
   },
   {
     "id": "clothing",
@@ -15,18 +15,13 @@
     "icon": "Shirt"
   },
   {
+    "id": "electronics",
+    "name": "Электроника",
+    "icon": "Monitor"
+  },
+  {
     "id": "home",
     "name": "Дом",
     "icon": "Home"
-  },
-  {
-    "id": "auto",
-    "name": "Авто",
-    "icon": "Car"
-  },
-  {
-    "id": "beauty",
-    "name": "Красота",
-    "icon": "Sparkles"
   }
 ]

@@ -42,7 +42,7 @@ export function CategorySidebar({
             <button
               key={cat.id}
               onClick={() => onCategoryChange(cat.id)}
-              className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-sm transition-all ${activeCategory === cat.id ? 'bg-cyan-500/15 text-cyan-400 font-medium' : 'text-slate-400 hover:text-white hover:bg-slate-700/30'}`}
+              className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-sm transition-colors ${activeCategory === cat.id ? 'bg-cyan-500/15 text-cyan-400 font-medium' : 'text-slate-400 hover:text-white hover:bg-slate-700/30'}`}
             >
               <Icon className="w-4 h-4 shrink-0" />
               <span className="flex-1 text-left">{cat.name}</span>
